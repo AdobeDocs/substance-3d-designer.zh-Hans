@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中自定义工作区以优化工作流程和版面首选项。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Windows菜单
 
-此菜单允许您管理Designer的主要用户界面元素。 每个选项在[此页面](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>Windows</b>部分中关于主工具栏进行了介绍。 在这里，我们将提供与这个菜单相关的其他概念。
+此菜单允许您管理Designer的主要用户界面元素。 每个选项在[此页面](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>Windows</b>部分中关于主工具栏进行了介绍。 在这里，我们将提供与这个菜单相关的其他概念。
 
 ### 显示/隐藏视图
 

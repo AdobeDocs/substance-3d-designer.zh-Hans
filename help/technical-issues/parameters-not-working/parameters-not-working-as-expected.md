@@ -1,0 +1,56 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+breadcrumb-title: ''
+description: 解决Substance图形参数无法按预期工作的问题，并查找解决方案。
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Parameters not working as expected
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 参数未按预期方式工作
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 5%
+
+---
+
+
+# 参数未按预期方式工作
+
+本页列出了在Substance 3D Designer中参数无法按预期工作的常见原因，并且提供了相应的故障排除步骤。
+
+## 参数在预览模式下不起作用且已发布Substance 3D资源(SBSAR)
+
+<b>！[（错误）](../../assets/error.svg)问题</b>
+
+在Designer中使用[预览模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，或在从图形发布的[Substance 3D资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)的参数列表中，图形的某些公开参数被&#x200B;*未列出*。
+
+<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+
+缺少的参数可能是[静态参数](../../glossary/glossary.md)，在图形&#x200B;*被烹调*&#x200B;后&#x200B;*无法动态编辑*，即经过处理以便快速高效地运行其算法。 每次图形&#x200B;*已编辑*&#x200B;或&#x200B;*已发布*&#x200B;时，Designer中都会发生烹饪。 受此类限制影响的参数列在此文档的[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)页的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分中。
+
+因此，静态参数在Designer中可见且可编辑，但在发布的Substance 3D资源中&#x200B;*隐藏*。 在发布到Substance 3D资源之前，可使用[预览模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)查看这些限制是否有效。
+
+以下是静态参数的列表：
+
+| 节点 | 参数 |
+| --- | --- |
+| 所有节点 | 拼贴模式像素比率 |
+| [统一颜色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | 颜色模式 |
+| [像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | 颜色模式 |
+| [混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 混合模式Alpha混合裁切区域 |
+| [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | 混合模式 |
+| [象限](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | 图案输入图像Alpha输入图像滤镜 |
+
+## 应用于参数的Substance函数图的结果不正确
+
+<b>！[（错误）](../../assets/error.svg)问题</b>
+
+当使用负整数时，应用于Substance参数的节点函数图形不会输出预期值。
+
+<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+
+当前不支持负整数。 作为解决方法，在[Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)值中使用负整数值，并使用[Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)节点提取它。

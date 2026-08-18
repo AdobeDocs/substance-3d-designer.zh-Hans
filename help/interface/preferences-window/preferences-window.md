@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的“首选项”窗口，自定义应用程序设置和行为。
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>最近的文档列表包含</b>  *默认值： 10* | 这样，您就可以在[主菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中<b>文件</b>项的<b>最近使用的包</b>项中选择要列出的文档数。 |
+| <b>最近的文档列表包含</b>  *默认值： 10* | 这样，您就可以在[主菜单](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中<b>文件</b>项的<b>最近使用的包</b>项中选择要列出的文档数。 |
 
 ### 历史记录
 
 |  |  |
 | --- | --- |
-| **历史记录栈栈大小** *默认值： 200* | 这指示了[主菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>编辑>撤消</b>项中任何给定时间可用的撤消操作数。  **注意：**&#x200B;所需的撤消操作越多，应用程序所需的内存就越多。 |
+| **历史记录栈栈大小** *默认值： 200* | 这指示了[主菜单](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>编辑>撤消</b>项中任何给定时间可用的撤消操作数。  **注意：**&#x200B;所需的撤消操作越多，应用程序所需的内存就越多。 |
 
 ### 语言
 
@@ -111,13 +111,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>在发布到.sbsar或发送到其他应用程序时，始终保存.sbs文件</b>  *默认值： True* | 控制[发布SBS包](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或[将其发送到其他应用程序](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)时自动保存SBS包。 |
+| <b>在发布到.sbsar或发送到其他应用程序时，始终保存.sbs文件</b>  *默认值： True* | 控制[发布SBS包](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或[将其发送到其他应用程序](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)时自动保存SBS包。 |
 
 ### 编译器
 
 |  |  |
 | --- | --- |
-| <b>烹饪大小限制</b>  *默认值： 8192像素* | 定义任何[图形](../../compositing-graphs/substance-compositing-graphs.md)中的所有[节点](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)允许的最大像素分辨率。 由于图形输出始终是分辨率为2的次方的方形图像，因此此处设置的值定义了最大宽度和Height（以像素为单位）。 |
+| <b>烹饪大小限制</b>  *默认值： 8192像素* | 定义任何[图形](../../compositing-graphs/substance-compositing-graphs.md)中的所有[节点](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)允许的最大像素分辨率。 由于图形输出始终是分辨率为2的次方的方形图像，因此此处设置的值定义了最大宽度和Height（以像素为单位）。 |
 
 ### 引擎
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 | <b>打开图表时以2D视图查看输出</b>  *默认值：已选中* | 如果选中此选项，当第一个图形输出打开时，该图形会自动显示在[2D视图](../../interface/2d-view/2d-view.md)中。 这还具有渲染所有节点的效果，这些节点是通向该[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点的流的一部分。 |
 | <b>自动显示新创建的合成节点</b>  *默认值：已选中* | 如果选中此选项，[2D视图](../../interface/2d-view/2d-view.md)将自动更新，以显示新创建节点的输出。 |
 | <b>自动插入彩色/灰度转换节点</b>  *默认：未选中* | 如果选中此选项，则通过&#x200B;*放置特定节点*&#x200B;执行相应的转换来自动解决彩色/灰度连接类型不匹配问题。   当&#x200B;*灰度*&#x200B;输出（灰色连接器）连接到&#x200B;*颜色*&#x200B;输入（黄色连接器）时，[渐变映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点自动放置在这两个连接器之间。   当&#x200B;*彩色*&#x200B;输出（黄色连接器）连接到&#x200B;*灰度*&#x200B;输入（灰色连接器）时，[灰度转换](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)节点会自动放置在这两个连接器之间。 |
-| <b>在上下文中启用图形编辑</b>  *默认：未选中* | 默认情况下，在打开[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的图形时右键单击该节点，然后选择<b>打开引用</b>，将单独加载和编辑该图形&#x200B;**。   如果选中，则可以使用当前图形在实例&#x200B;*中传递的信息来编辑实例*&#x200B;引用的图形。 为此，请右键单击实例节点并选择<b>在上下文中打开引用</b>，或使用Ctrl+E击键。   这意味着实例化图形可以在实例化图形的上下文中编辑。 这对于查看您正在处理的图表上的编辑效果非常有用。 请参阅以下示例。  &#x200B;** 注意：**&#x200B;使用上下文编辑时，[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中的<b>预览</b>和<b>预设</b>选项卡处于&#x200B;*禁用*&#x200B;状态。 |
+| <b>在上下文中启用图形编辑</b>  *默认：未选中* | 默认情况下，在打开[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的图形时右键单击该节点，然后选择<b>打开引用</b>，将单独加载和编辑该图形&#x200B;**。   如果选中，则可以使用当前图形在实例&#x200B;*中传递的信息来编辑实例*&#x200B;引用的图形。 为此，请右键单击实例节点并选择<b>在上下文中打开引用</b>，或使用Ctrl+E击键。   这意味着实例化图形可以在实例化图形的上下文中编辑。 这对于查看您正在处理的图表上的编辑效果非常有用。 请参阅以下示例。  **注意：**&#x200B;使用上下文编辑时，[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中的<b>预览</b>和<b>预设</b>选项卡处于&#x200B;*禁用*&#x200B;状态。 |
 
 <table>
 <tr style="border: 0;">

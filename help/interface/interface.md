@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer工作区界面，包括视图、面板和自定义选项。
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ Designer的默认停放布局如下：
 
 ## 属性
 
-[属性停放](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)是最具技术性的窗口。 它始终与上下文相关，并且将显示可更改选定资源或节点行为的滑块、下拉菜单和其他元素。
+[属性停放](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)是最具技术性的窗口。 它始终与上下文相关，并且将显示可更改选定资源或节点行为的滑块、下拉菜单和其他元素。
 
 ![属性](../assets/properties-15.jpg "属性")
 
