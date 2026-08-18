@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: 了解减小Substance图形文件大小以优化性能和存储要求的准则。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 文件大小因子
 
-影响[SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)总文件大小的因素有很多。 下面列出了它们的简要说明。
+影响[SBSAR](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)总文件大小的因素有很多。 下面列出了它们的简要说明。
 
 +++解决方法
 显然效果很大。 请尽可能使用最小的分辨率，同时记住，您可能也希望Substance文件能够以大分辨率工作。 您可以使用标准分辨率蒙版技巧来使较小的位图看起来更大。
@@ -63,14 +63,14 @@ ht-degree: 1%
 +++包中的位图格式
 在“资源”属性上，您可以在“Raw”和“Jpeg”压缩之间进行选择。 这可能对最终结果产生相当大的影响。
 
-*通过[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。*
+*通过[&#128279;](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。*
 
 +++
 
 +++包中的位图压缩品质
 使用“Jpeg”位图格式时，下面的滑块可能会影响品质和文件大小。 此滑块的行为不是非常可预测，但1通常对应于最高质量的JPG压缩，0.5通常提供最小的大小。
 
-*通过[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。*
+*通过[&#128279;](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。*
 
 +++
 

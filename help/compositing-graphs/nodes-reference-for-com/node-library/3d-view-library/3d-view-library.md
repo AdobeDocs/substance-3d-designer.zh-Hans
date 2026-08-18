@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的3D视图库节点，以控制光照、HDRI环境和3D视图设置。
 helpx_creative_field: ""

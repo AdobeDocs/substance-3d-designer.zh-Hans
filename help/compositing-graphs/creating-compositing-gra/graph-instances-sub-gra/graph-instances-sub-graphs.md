@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: 使用图形实例和子图创建可重用的图形组件和模块化材质工作流。
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 能否将自己的图形实例添加到节点库？
 
-<b>可以，可以</b>，但需要进行一些特定设置。 在本文档的[管理自定义内容和筛选器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)页面中了解详情。
+<b>可以，可以</b>，但需要进行一些特定设置。 在本文档的[管理自定义内容和筛选器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)页面中了解详情。
 
 ### 是否可以检查图形实例的源图形？
 

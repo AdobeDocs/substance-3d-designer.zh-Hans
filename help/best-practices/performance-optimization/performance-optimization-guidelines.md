@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer的性能优化准则，以提高图形性能并减少处理时间。
 helpx_creative_field: ""
@@ -141,7 +141,7 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 
 >[!WARNING]
 >
-> 将[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点设置为“相对于主页”并将图形[发布](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)到Substance 3D资源(SBSAR)将以&#x200B;**256x256**&#x200B;的分辨率保存位图，而不是其原始大小。 建议将Bitmap节点的[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) [输出大小](../../compositing-graphs/output-size/output-size.md)保留为“绝对”，并在Bitmap节点之后使用[Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点设置为“相对于父节点”。
+> 将[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点设置为“相对于主页”并将图形[发布](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)到Substance 3D资源(SBSAR)将以&#x200B;**256x256**&#x200B;的分辨率保存位图，而不是其原始大小。 建议将Bitmap节点的[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) [输出大小](../../compositing-graphs/output-size/output-size.md)保留为“绝对”，并在Bitmap节点之后使用[Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点设置为“相对于父节点”。
 
 ![嵌入的位图优化1](../../assets/input-1.jpg "嵌入的位图优化1")
 
@@ -151,7 +151,7 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-此外，建议将位图资源的格式设置为Jpeg，以最小化[已发布](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)的Substance 3D资源(SBSAR)的大小。
+此外，建议将位图资源的格式设置为Jpeg，以最小化[已发布](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)的Substance 3D资源(SBSAR)的大小。
 
 </td>
 <td style="border: 0;" valign="top">

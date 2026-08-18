@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的调整滤镜节点，以修改颜色、亮度、对比度和其他纹理属性。
 helpx_creative_field: ""

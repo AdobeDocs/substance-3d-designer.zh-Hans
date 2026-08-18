@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: 使用“最小最大值”节点可在最小阈值和最大阈值之间固定纹理值，以控制值范围。
 helpx_creative_field: ""
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 ## 描述
 
-“最小最大值”查找灰度输入的最亮和最暗值，并将其作为[值](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)返回。 它旨在作为[自动色阶](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)的更细粒度手动替代品，其中您公开[色阶](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)节点的值输入，并将最小最大值中的值插入其中。
+“最小最大值”查找灰度输入的最亮和最暗值，并将其作为[值](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)返回。 它旨在作为[自动色阶](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)的更细粒度手动替代品，其中您公开[色阶](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)节点的值输入，并将最小最大值中的值插入其中。
 
-若要将此节点与“色阶”一起使用，您至少应知道如何使用[公开参数下拉列表](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)以及[值输入选项卡](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)。
+若要将此节点与“色阶”一起使用，您至少应知道如何使用[公开参数下拉列表](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)以及[值输入选项卡](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)。
 
 ## 参数
 

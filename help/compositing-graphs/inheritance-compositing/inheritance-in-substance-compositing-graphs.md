@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解继承在Substance合成图形中的工作原理，以创建可重用的图形层次结构和变化。
 helpx_creative_field: ""
@@ -93,7 +93,7 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 ### 更改继承方法
 
-在[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中，节点属性的[基本参数](../../compositing-graphs/graph-parameters/graph-parameters.md)部分中列出的所有参数都有一个（图标）与其标签相反的<b>设置继承方法</b>下拉按钮。\
+在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中，节点属性的[基本参数](../../compositing-graphs/graph-parameters/graph-parameters.md)部分中列出的所有参数都有一个（图标）与其标签相反的<b>设置继承方法</b>下拉按钮。\
 此按钮允许您选择用于参数的继承方法。
 
 ![更改继承方法](../../assets/inheritance-change.gif "更改继承方法"){width="512px"}

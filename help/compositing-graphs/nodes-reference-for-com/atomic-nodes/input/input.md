@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 使用“输入”节点创建可由用户公开和调整的Substance图表的输入参数。
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
+> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
 
 ## 集成属性
 

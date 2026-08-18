@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer合成图中公开参数，以使素材可自定义并可重用。
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ ht-degree: 4%
 
 ### 单曝光法
 
-1. 在[“属性”窗口](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的“特定参数”选项卡下查找要公开的参数
+1. 在[“属性”窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的“特定参数”选项卡下查找要公开的参数
 1. 单击![](../../../assets/image2020-9-17-15-35-59.png)下拉选项按钮
 1. 从下拉列表第一个选项中选择![](../../../assets/image2020-9-17-15-37-7.png) <b>公开为新图形输入</b>。
 1. 出现<b>公开参数</b>对话框，根据需要设置任何参数属性。
@@ -79,7 +79,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 > 大多数数字字段支持&#x200B;*基本数学公式*&#x200B;作为输入 — 例如，`17+3.5`、`7/3`、`(4+2)*3`。 按&#x200B;*Enter*&#x200B;验证公式，结果将输入到字段中。 如果公式无效，则字段将恢复为以前的值。\
-> 应用程序其他部分（如[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)程序坞）中的某些数字字段也支持此功能。
+> 应用程序其他部分（如[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)程序坞）中的某些数字字段也支持此功能。
 
 ![批量公开方法演练](../../../assets/batch-expose-2.gif "批量公开方法演练"){width="512px"}
 
@@ -104,7 +104,7 @@ ht-degree: 4%
 | --- | --- |
 | [渐变曲线](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)，[曲线编辑器](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)，[字体](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)，[色阶直方图](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 需要小部件，这些小部件不可用于用户创建的参数。 |
 
-另一个重要限制与[静态参数](../../../glossary/glossary.md)有关。 无法在[已发布的Substance 3D资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)中更改这些资源。
+另一个重要限制与[静态参数](../../../glossary/glossary.md)有关。 无法在[已发布的Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)中更改这些资源。
 
 静态参数 — 与动态参数相对 — *在图形*&#x200B;完成&#x200B;*后无法动态编辑* — 即，为了快速高效地运行其算法而处理静态参数。 每次图形&#x200B;*已编辑*&#x200B;或&#x200B;*已发布*&#x200B;时，Designer中都会发生烹饪。
 
@@ -185,7 +185,7 @@ ht-degree: 4%
 
 >[!WARNING]
 >
-> 预览模式旨在尽可能准确地呈现[已发布的Substance 3D资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)的体验。 因此，本页中列出的限制将在此模式下应用，如&#x200B;*静态参数不在列表中*。
+> 预览模式旨在尽可能准确地呈现[已发布的Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)的体验。 因此，本页中列出的限制将在此模式下应用，如&#x200B;*静态参数不在列表中*。
 
 ![复制和粘贴输入参数](../../../assets/copy-paste-params-2.gif "复制和粘贴输入参数"){width="512px"}
 

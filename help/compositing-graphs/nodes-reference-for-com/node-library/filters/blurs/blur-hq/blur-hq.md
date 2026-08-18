@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: 使用“Blur HQ”（模糊HQ）节点对纹理应用高质量的模糊效果，获得平滑、专业的模糊效果。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: 使用“Flood Fill到索引”节点，用索引值填充区域，以创建带编号和标签的图案。
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 “Flood Fill到索引”会根据每个Flood Fill单元格的索引编号将其转换为值，从左上角的0开始。 它可以用于以规范化形式（0.0到1.0，除以Flood Fill找到的单元格数）或作为HDR未钳制值（0到n，其中n是单元格数）返回灰度色调。
 
-此外，索引Flood Fill使用新的[值系统，返回包含找到的形状量和可选的内部数据表的额外值](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)。
+此外，索引Flood Fill使用新的[值系统，返回包含找到的形状量和可选的内部数据表的额外值](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)。
 
 ### 输入
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: 了解创建Substance图形的最佳实践和礼仪，以确保工作流程干净、可维护且高效。
 helpx_creative_field: ""

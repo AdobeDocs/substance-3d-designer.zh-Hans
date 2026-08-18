@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer生成器将基于网格的信息计算到纹理文件中。
 helpx_creative_field: ""

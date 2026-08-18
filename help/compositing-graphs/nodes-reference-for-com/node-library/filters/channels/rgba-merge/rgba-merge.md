@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
 description: 使用“RGBA合并”节点将单独的红色、绿色、蓝色和Alpha通道组合到单个RGBA纹理中。
 helpx_creative_field: ""

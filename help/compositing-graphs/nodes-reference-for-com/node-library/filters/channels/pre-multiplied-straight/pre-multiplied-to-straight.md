@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
 description: 使用“预乘到直接”节点，将预乘Alpha纹理转换为直接Alpha格式。
 helpx_creative_field: ""
