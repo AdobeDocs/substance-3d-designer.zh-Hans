@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面列出了[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中的MDL图形可能触发的警告和错误消息，并且提供了针对每个警告和错误消息的常见故障诊断步骤。
 
-警告显示在[资源管理器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。
+警告显示在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。
 
 >[!NOTE]
 >

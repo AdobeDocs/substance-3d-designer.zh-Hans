@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: 解决Substance图形参数无法按预期工作的问题，并查找解决方案。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 <b>！[（错误）](../../assets/error.svg)问题</b>
 
-在Designer中使用[预览模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，或在从图形发布的[Substance 3D资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)的参数列表中，图形的某些公开参数被&#x200B;*未列出*。
+在Designer中使用[预览模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，或在从图形发布的[Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)的参数列表中，图形的某些公开参数被&#x200B;*未列出*。
 
 <b>！[(tick)](../../assets/check.svg)建议的步骤</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/all-changes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/all-changes.html"
 breadcrumb-title: ''
 description: 查看所有Substance 3D Designer版本的更改和更新，以跟踪功能的演进和改进。
 helpx_creative_field: ""

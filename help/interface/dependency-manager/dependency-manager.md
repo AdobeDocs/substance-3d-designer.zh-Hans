@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的依赖关系管理器可查看和管理项目中的资源依赖关系。
 helpx_creative_field: ""

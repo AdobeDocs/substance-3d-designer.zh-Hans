@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、创建和管理资源，包括位图、字体和3D场景。
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 * [位图](../resources/bitmap-resource/bitmap-resource.md)
 * [矢量图形 (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 场景资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D 场景资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [字体](../resources/font-resource/font-resource.md)
 
 </td>

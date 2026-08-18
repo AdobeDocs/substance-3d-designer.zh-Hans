@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: 对Substance 3D Designer中的不正确图像输出问题进行故障诊断，并了解如何修复渲染问题。
 helpx_creative_field: ""

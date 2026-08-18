@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer函数图表中的警告并了解如何解决常见问题。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面列出了Substance 3D Designer中的[函数图表](../../function-graphs/function-graphs.md)可能触发的警告和错误消息，并且提供了相应的常见故障诊断步骤。
 
-警告显示在[资源管理器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。\
+警告显示在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。\
 如果函数&#x200B;*应用于[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的参数*，则任何警告都将导致为该参数引发警告“*[x]参数的函数存在一些错误*”。
 
 ## ![（错误）](../../assets/error.svg)未定义输出节点

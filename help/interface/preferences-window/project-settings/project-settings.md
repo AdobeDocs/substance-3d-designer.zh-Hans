@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window/project-settings.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer首选项中配置项目设置以自定义默认项目行为。
 helpx_creative_field: ""
@@ -116,7 +116,7 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 | <b>3D场景</b> | 默认情况下，Designer在3D视图中使用&#x200B;**MikkT切线空间**。 MikkT被广泛使用，并且是Unity、Unreal Engine 4、Blender和xNormal等程序的默认值。您可以将&#x200B;**自己的切线空间**&#x200B;用于3D视图，该视图以&#x200B;*DLL文件*&#x200B;输入此设置的形式提供给Designer。 系统会自动从DLL文件中检测到标签，您可以编辑插件的说明&#x200B;<br><br>*默认值： miktspace.dll*&#x200B;始终重新计算正切帧&#x200B;<br><br>*默认值：未选中*&#x200B;法线和正切平滑角度&#x200B;<br><br>*默认值： 180.0°* |
 | <b>杂项</b> | 可以使用<b>DirectX</b>或<b>OpenGL</b>格式生成或处理正常映射。 此设置在多个位置设置此格式的值，例如[3D视图](../../../interface/3d-view/3d-view.md)中的[素材属性](../../../interface/3d-view/material-properties/material-properties.md)和[普通](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)滤镜节点参数。<br><br>*默认值：DirectX*<br><br>&#x200B;关于[普通](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)滤镜节点，您可以设置<b>Alpha通道内容</b>参数的默认值。 在所有情况下，您可以选择强制Alpha为1，或使用其输入的信息填充它。<br><br>*默认：强制Alpha为1* |
 | <b>图像格式</b> | 这使您可以指定&#x200B;*已导出*&#x200B;图像&#x200B;<br><br>*的默认格式设置：默认(BMP)/基于Piz的小波、未选中、未选中(EXR)/未选中、未选中、75 (JPG)/最佳速度、未选中(PNG)/默认(TGA)/LZW (TIF)/未选中、75 (WEBP)* |
-| <b>依赖关系路径</b> | <p>SBS包通常具有<b>依赖项</b>，即依赖于<i>外部资源</i>，例如其他SBS包、位图或矢量文件。<br>这些依赖项，列在[依赖项管理器](../../../interface/dependency-manager/dependency-manager.md)中，它们存储在SBS包</i>中并<i>被引用，其路径为<b>路径</b>，指向这些资源。</p><p>对于包含与SBS包相同的<i>路径</i>的依赖项（即，它们位于同一位置或来自该位置的子文件夹中），将引用路径写入<b>相对于</b> SBS包位置。</p><p>示例：对于SBS包<code>myproject/mypackage.sbs</code>，图像<code>myproject/myfolder/myimage.png</code> 将引用到<code>myfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>).</p><p>对于<i>不</i>包含与SBS包相同的路径的依赖项（即，它们与SBS包位于完全不同的位置），您可以选择路径写入方式。</p><p>如果它被设置为<b>相对路径</b>，则将按上述相同方式引用资源。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>../myotherfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>.</p><p>如果设置为<b>绝对路径</b>，则资源将由其完整系统路径引用。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>mypackage.sbs中的同一完整路径</code></p><p><i>默认： ...相对路径。</i></p><p><i>注意：</i>在所有情况下，移动资源将<i>中断依赖关系</i>，这将在图形中生成<b>Ghost实例</b>节点。  若要将</i>所有依赖项与SBS包<i>合并到一个项目文件夹中，可以在[资源管理器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中使用<b>带依赖项导出……功能</b>。 这实际上创建了一个可自由移动的<i>自包含的</i>项目文件夹。 |
+| <b>依赖关系路径</b> | <p>SBS包通常具有<b>依赖项</b>，即依赖于<i>外部资源</i>，例如其他SBS包、位图或矢量文件。<br>这些依赖项，列在[依赖项管理器](../../../interface/dependency-manager/dependency-manager.md)中，它们存储在SBS包</i>中并<i>被引用，其路径为<b>路径</b>，指向这些资源。</p><p>对于包含与SBS包相同的<i>路径</i>的依赖项（即，它们位于同一位置或来自该位置的子文件夹中），将引用路径写入<b>相对于</b> SBS包位置。</p><p>示例：对于SBS包<code>myproject/mypackage.sbs</code>，图像<code>myproject/myfolder/myimage.png</code> 将引用到<code>myfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>).</p><p>对于<i>不</i>包含与SBS包相同的路径的依赖项（即，它们与SBS包位于完全不同的位置），您可以选择路径写入方式。</p><p>如果它被设置为<b>相对路径</b>，则将按上述相同方式引用资源。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>../myotherfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>.</p><p>如果设置为<b>绝对路径</b>，则资源将由其完整系统路径引用。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>mypackage.sbs中的同一完整路径</code></p><p><i>默认： ...相对路径。</i></p><p><i>注意：</i>在所有情况下，移动资源将<i>中断依赖关系</i>，这将在图形中生成<b>Ghost实例</b>节点。  若要将</i>所有依赖项与SBS包<i>合并到一个项目文件夹中，可以在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中使用<b>带依赖项导出……功能</b>。 这实际上创建了一个可自由移动的<i>自包含的</i>项目文件夹。 |
 
 ### 库
 
@@ -136,14 +136,14 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 
 *默认值：已选中*
 
-如果PSD中包含的[Photoshop](https://www.adobe.com/products/photoshop.html)文档（\*.library文件）具有<b>多个图层</b>，则可以通过某个选项将*&#x200B;每个图层的内容作为单独的图像条目*显示在库中。
+如果PSD中包含的[Photoshop](https://www.adobe.com/cn/products/photoshop.html)文档（\*.library文件）具有<b>多个图层</b>，则可以通过某个选项将*&#x200B;每个图层的内容作为单独的图像条目*显示在库中。
 
 *默认值：已选中*
 
 >[!NOTE]
 >
 > 将您的自定义资源添加到库时，由于为现有库类别设置了筛选规则，因此&#x200B;*可能不可见*。 我们建议创建&#x200B;*您自己的筛选器*（以文件夹组织），以确保在处理您的项目时可靠地找到您的内容。\
-> 有关详细信息，请参阅文档的[管理自定义内容和筛选器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)部分。
+> 有关详细信息，请参阅文档的[管理自定义内容和筛选器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)部分。
 
 ### Python
 

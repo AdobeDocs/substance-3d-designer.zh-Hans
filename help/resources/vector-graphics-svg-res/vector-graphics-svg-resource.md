@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中导入SVG矢量图形并将其用作创建程序性素材的资源。
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 
 ### Adobe Illustrator
 
-如果您注意以下选项，[Illustrator](https://www.adobe.com/products/illustrator.html)允许对您的SVG导出进行最大程度的控制。
+如果您注意以下选项，[Illustrator](https://www.adobe.com/cn/products/illustrator.html)允许对您的SVG导出进行最大程度的控制。
 
 * 仅使用<b>“另存为”</b>，*“不”*“导出为”！
 * <b>SVG配置文件</b>无关紧要，但Tiny配置文件将（大部分）默认为绝对正确的设置；

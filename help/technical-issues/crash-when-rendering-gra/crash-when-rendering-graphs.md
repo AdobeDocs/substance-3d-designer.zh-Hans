@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: 解决在Substance 3D Designer中渲染图表时崩溃的问题，并找到防止发生崩溃的解决方案。
 helpx_creative_field: ""

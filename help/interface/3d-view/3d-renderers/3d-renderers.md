@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 在3D视图中的栅格化渲染器和路径跟踪器渲染器之间进行选择，以获得不同的预览品质和性能。
 helpx_creative_field: ""

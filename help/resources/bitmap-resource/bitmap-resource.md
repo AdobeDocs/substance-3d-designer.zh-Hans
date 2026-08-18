@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、创建和使用位图资源以创建基于纹理的材质。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ### 在Substance 3D资源中(SBSAR)
 
-在[SBSAR文件](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)中，嵌入了位图，这意味着位图对最终SBSAR文件大小有重大影响。 您可以在此页面上进一步了解对文件大小的影响。 发布[SBSAR文件时，](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)仅嵌入用于计算图形输出的位图。 任何未使用的位图都将得到优化并从最终SBSAR包中排除，而不会影响文件大小。
+在[SBSAR文件](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)中，嵌入了位图，这意味着位图对最终SBSAR文件大小有重大影响。 您可以在此页面上进一步了解对文件大小的影响。 发布[SBSAR文件时，](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)仅嵌入用于计算图形输出的位图。 任何未使用的位图都将得到优化并从最终SBSAR包中排除，而不会影响文件大小。
 
 ## 文件类型、颜色模式和分辨率
 
@@ -71,4 +71,4 @@ Substance 3D Designer可以轻松编辑和重新排列位图中的数据，但�
 
 ## 减小文件大小
 
-有关最小化嵌入到[已发布的Substance 3D资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)中的位图的文件大小的建议，请参阅[最佳实践](../../best-practices/best-practices.md)部分中的[文件大小缩减准则](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)页。
+有关最小化嵌入到[已发布的Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)中的位图的文件大小的建议，请参阅[最佳实践](../../best-practices/best-practices.md)部分中的[文件大小缩减准则](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)页。

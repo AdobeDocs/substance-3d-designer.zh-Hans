@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入和使用AxF外观交换格式资源进行材质导入。
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 +++资源管理器
 
-在[资源管理器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中单击包上的RMB，然后转到包上下文菜单中的<b>导入> AxF</b>。
+在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中单击包上的RMB，然后转到包上下文菜单中的<b>导入> AxF</b>。
 
 ![AxF：从资源管理器开始导入](../../assets/axf_explorer.png "AxF：从资源管理器开始导入"){width="600px"}
 
@@ -144,7 +144,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 有两种类型的Substance图模板可用：
 
 <b>AxF到金属粗糙度</b>和<b>AxF到Specular光泽度</b>是&#x200B;*转换*&#x200B;模板，可用于将AxF材质映射到标准PBR模型。\
-然后，可以将它们与默认3D视图着色器一起使用，并与在Designer、[Sampler](https://www.adobe.com/products/substance3d-sampler.html)中制作或从我们的[3D资源](https://substance3d.adobe.com/assets/)库中获取的其他PBR素材组合使用。
+然后，可以将它们与默认3D视图着色器一起使用，并与在Designer、[Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)中制作或从我们的[3D资源](https://substance3d.adobe.com/assets/)库中获取的其他PBR素材组合使用。
 
 <b>AxF到AxF</b>是一个&#x200B;*直通*&#x200B;模板，可让您就地编辑AxF材料，并将这些更改导出为现有AxF文件中的新图层。 要了解更多信息，请参见下面的导出AxF文件。
 

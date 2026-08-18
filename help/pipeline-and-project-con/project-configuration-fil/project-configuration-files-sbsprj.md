@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用SBSPRJ项目配置文件来管理项目设置。
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 <b>常规： </b>图形模板、正切空间插件、法线和图像格式默认值。
 
-<b>库： </b>监视要在库中显示的路径，以及[库视图的筛选器和类别](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
+<b>库： </b>监视要在库中显示的路径，以及[库视图的筛选器和类别](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
 
 <b>MDL： </b>MDL监视路径。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 请参阅[项目设置](../../interface/preferences-window/project-settings/project-settings.md)页面，了解有关管理项目文件和更改项目设置的更多信息。
 
-项目文件还包括[库](../../interface/the-library/the-library.md)的自定义<b>类别</b>和<b>筛选器</b>，您可以在[管理自定义内容和筛选器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)页面中详细了解这些内容。
+项目文件还包括[库](../../interface/the-library/the-library.md)的自定义<b>类别</b>和<b>筛选器</b>，您可以在[管理自定义内容和筛选器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)页面中详细了解这些内容。
 
 ## 在外部编辑XML
 
