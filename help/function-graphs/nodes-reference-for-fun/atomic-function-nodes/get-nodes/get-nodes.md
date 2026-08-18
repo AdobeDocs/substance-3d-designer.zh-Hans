@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图表中的Get节点以检索变量值和数据。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 ![函数图表 — 获取浮点](../../../../assets/assign-getfloat.gif "Substance函数图表 — 获取浮点"){zoomable="yes"}
 
-Get节点实质上就是获取一个动态变量，然后从Get节点的输出返回该变量以便在函数中使用。 这些Get节点形成在[图形属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)和[参数函数](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中定义的输入参数之间的链接。
+Get节点实质上就是获取一个动态变量，然后从Get节点的输出返回该变量以便在函数中使用。 这些Get节点形成在[图形属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)和[参数函数](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中定义的输入参数之间的链接。
 
 每次使用Get节点时，必须从下拉菜单中选择一个可用值。 获取节点将<b>获取相应类型的值</b>。 这意味着，您只能在Get节点的菜单中看到有效选项，而不能选取无效选项。 如果变量不可用，则表示存在类型不匹配
 

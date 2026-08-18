@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
 breadcrumb-title: ''
 description: 了解FXMaps如何在Substance 3D Designer中应用函数图表到纹理以实现过程效果。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: 了解如何在Designer中创建和使用Substance函数图表来构建自定义函数和可重复使用的节点网络。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [Substance函数图表](https://substance3d.adobe.com/)<b>处理单值</b>（整数、浮点、矢量）而不是图像数据（整组像素）。 函数也是带有节点网络的图形，但[使用的节点](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)和接口不同于[常规Substance图形](../compositing-graphs/substance-compositing-graphs.md)。 此工作流程完全基于<b>数学运算</b>，不显示任何图像预览缩略图，这使它成为<b>使用Substance 3D Designer的一种更高级的方式</b>。
 
-函数可用于许多不同的上下文，其中主要的函数用于修改[公开参数](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行为，创作[像素处理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为，以及在图中使用[值。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+函数可用于许多不同的上下文，其中主要的函数用于修改[公开参数](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行为，创作[像素处理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为，以及在图中使用[值。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 
 </td>
 </tr>
