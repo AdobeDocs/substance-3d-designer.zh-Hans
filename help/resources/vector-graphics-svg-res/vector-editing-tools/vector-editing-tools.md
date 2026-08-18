@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [2D视图](https://docs.substance3d.com/display/SDDOC/2D+view)面板提供了基本的矢量编辑工具，可让您直接在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中&#x200B;*手动*&#x200B;创建或编辑矢量图形。 例如，这些工具对于快速创建&#x200B;*蒙版*&#x200B;或&#x200B;*图案*&#x200B;尤为有用。
 
-这些工具支持钢笔输入。 要利用钢笔显示器，您可以[取消停靠](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace)[2D视图](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然后将其放置并调整到任何更适合绘画的配置中。
+这些工具支持钢笔输入。 要利用钢笔显示器，您可以[取消停靠](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) [2D视图](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然后将其放置并调整到任何更适合绘画的配置中。
 
 编辑操作可以&#x200B;*逐个撤消*，并且2D视图面板的所有其他功能在编辑矢量图像时&#x200B;*仍然可用*，例如[直方图](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram)面板、[拼贴显示](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport)和[背景图像](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage)。
 

@@ -28,7 +28,7 @@ ht-degree: 0%
 
 [2D视图](../../../interface/2d-view/2d-view.md)面板提供了基本的位图绘画工具，可让您直接在应用程序中&#x200B;*手动*&#x200B;创建或编辑图像。 例如，这些工具对于快速绘制&#x200B;*蒙版*&#x200B;特别有用。
 
-这些工具支持钢笔输入，包括&#x200B;*钢笔压力*。 要利用钢笔显示器，您可以[取消停靠](../../../interface/customizing-your-wor/customizing-your-workspace.md)[2D视图](../../../interface/2d-view/2d-view.md)面板，然后将其放置并调整到任何更适合绘画的配置中。
+这些工具支持钢笔输入，包括&#x200B;*钢笔压力*。 要利用钢笔显示器，您可以[取消停靠](../../../interface/customizing-your-wor/customizing-your-workspace.md) [2D视图](../../../interface/2d-view/2d-view.md)面板，然后将其放置并调整到任何更适合绘画的配置中。
 
 编辑操作可以&#x200B;*单独撤消*，并且2D视图面板的所有其他功能在编辑图像时&#x200B;*仍然可用*，例如[直方图](../../../interface/2d-view/2d-view.md)面板、[拼贴显示](../../../interface/2d-view/2d-view.md)和[背景图像](../../../interface/2d-view/2d-view.md)。
 
