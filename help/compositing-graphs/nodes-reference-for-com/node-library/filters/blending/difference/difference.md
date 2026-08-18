@@ -1,0 +1,62 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
+breadcrumb-title: ''
+description: 使用“差值”混合节点使用差值模式混合纹理，以创建反转和对比度效果。
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 差值
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 6%
+
+---
+
+
+# 差值
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/difference.png){width="128px"}
+
+## 差值
+
+**范围：** *滤镜/混合*
+
+**简单**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## 描述
+
+在前景和背景输入之间执行差值混合模式。 从前景中减去背景，返回绝对结果（绝非负值）。
+
+## 参数
+
+### 输入
+
+* **背景**： *颜色输入*
+* **前景**： *颜色输入*
+* **蒙版**： *灰度输入*\
+  用于遮盖节点效果的遮罩槽。
+
+### 参数
+
+* **不透明度**： *0.0 - 1.0*\
+  在前景和背景之间混合不透明度。
+* **Alpha混合**： *False/True*\
+  切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。
+
+## 示例图像
+
+</td>
+</tr>
+</table>
