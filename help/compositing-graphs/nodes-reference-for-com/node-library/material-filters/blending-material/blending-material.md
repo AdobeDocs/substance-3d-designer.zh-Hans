@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的素材混合节点，以组合和混合素材，从而创建复合材料效果。
 helpx_creative_field: ""

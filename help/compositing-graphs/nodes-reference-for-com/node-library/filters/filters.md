@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的滤镜节点，对纹理应用效果、调整、变换和处理操作。
 helpx_creative_field: ""
