@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer中的图形视图创建和编辑基于节点的材质图形。
 helpx_creative_field: ""
@@ -387,7 +387,7 @@ ht-degree: 0%
 </b>*— 清理：*&#x200B;删除属于未连接到[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点的流的所有节点。\
 *— 导出输出：*&#x200B;打开[位图导出接口](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。\
 *— 重新导出输出：*&#x200B;再次执行上一个导出操作。\
-*-PSD导出器：*&#x200B;打开[PSD导出器接口。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*-PSD导出器：*&#x200B;打开[PSD导出器接口。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>节点映像缓存\
 </b>切换节点图像缓存切换的显示，请参阅下文。

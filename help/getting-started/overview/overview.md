@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: 概要了解Substance 3D Designer，并了解其用于创建过程性材质和纹理的功能。
 helpx_creative_field: ""
@@ -155,7 +155,7 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 
 * [位图](../../resources/bitmap-resource/bitmap-resource.md)
 * [矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D网格](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D网格](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [字体](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

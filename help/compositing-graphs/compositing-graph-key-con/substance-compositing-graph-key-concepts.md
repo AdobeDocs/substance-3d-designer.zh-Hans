@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: 了解Substance合成图的关键概念，包括节点、连接和工作流程基础知识。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 子图表/发布
 
-[发布图形](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或创建子图形是两个非常相似的抽象概念。 这意味着任何节点图形或网络都可以“打包”在一起，并转变为可重复使用、独立的资源。 创建[子图](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)主要在应用程序内完成，以便以高效、智能的工作流程重复使用某些内容，因为这可避免反复复制节点集。 发布涉及一个额外的步骤来导出为[Substance 3D资源(SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)格式，使您的节点网络图形可在应用程序外部使用，例如，当您为Unreal Engine创建素材时。
+[发布图形](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或创建子图形是两个非常相似的抽象概念。 这意味着任何节点图形或网络都可以“打包”在一起，并转变为可重复使用、独立的资源。 创建[子图](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)主要在应用程序内完成，以便以高效、智能的工作流程重复使用某些内容，因为这可避免反复复制节点集。 发布涉及一个额外的步骤来导出为[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)格式，使您的节点网络图形可在应用程序外部使用，例如，当您为Unreal Engine创建素材时。
 
 输入、输出和公开参数对于这一概念极为重要，因为它们是图表在用作子图表或用作已发布的Substance 3D资源后仍与其交互的唯一方式。 原因如下：
 

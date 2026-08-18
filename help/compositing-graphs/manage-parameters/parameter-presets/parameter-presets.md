@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中创建和使用参数预设来保存和应用参数配置。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 外部预设涉及磁盘上的外部文件，即\*.SBSPRS文件。 它们可以在不同的图形和节点之间传输，但只能在应用程序内传输。 它们的主要目的正是这样的：转移大量值，无法逐个复制。
 
-外部预设适用于[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)上的所有特定参数、[原子节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)上的大多数特定参数（[例外是那些无法公开的参数](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）以及[图形属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中公开的输入参数。
+外部预设适用于[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)上的所有特定参数、[原子节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)上的大多数特定参数（[例外是那些无法公开的参数](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）以及[图形属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中公开的输入参数。
 
 它们通过此菜单简单保存和加载。 保存的SBSPRS文件可以加载到任何其他节点或图形上。
 

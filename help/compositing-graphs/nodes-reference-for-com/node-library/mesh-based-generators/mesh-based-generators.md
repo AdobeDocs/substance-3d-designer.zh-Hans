@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中基于网格的生成器节点，以根据3D网格几何形状和属性创建纹理。
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ ht-degree: 4%
   基于一个或多个已烘焙贴图的黑白蒙版生成器。
 * [风化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   基于已烘焙贴图的全物质风化效果。
-* [实用工具](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [实用工具](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   处理烘焙的额外实用工具和工具。

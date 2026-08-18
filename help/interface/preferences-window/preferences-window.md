@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的“首选项”窗口，自定义应用程序设置和行为。
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>最近的文档列表包含</b>  *默认值： 10* | 这样，您就可以在[主菜单](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中<b>文件</b>项的<b>最近使用的包</b>项中选择要列出的文档数。 |
+| <b>最近的文档列表包含</b>  *默认值： 10* | 这样，您就可以在[主菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中<b>文件</b>项的<b>最近使用的包</b>项中选择要列出的文档数。 |
 
 ### 历史记录
 
 |  |  |
 | --- | --- |
-| **历史记录栈栈大小** *默认值： 200* | 这指示了[主菜单](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>编辑>撤消</b>项中任何给定时间可用的撤消操作数。  **注意：**&#x200B;所需的撤消操作越多，应用程序所需的内存就越多。 |
+| **历史记录栈栈大小** *默认值： 200* | 这指示了[主菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>编辑>撤消</b>项中任何给定时间可用的撤消操作数。  **注意：**&#x200B;所需的撤消操作越多，应用程序所需的内存就越多。 |
 
 ### 语言
 
@@ -111,13 +111,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>在发布到.sbsar或发送到其他应用程序时，始终保存.sbs文件</b>  *默认值： True* | 控制[发布SBS包](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或[将其发送到其他应用程序](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)时自动保存SBS包。 |
+| <b>在发布到.sbsar或发送到其他应用程序时，始终保存.sbs文件</b>  *默认值： True* | 控制[发布SBS包](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或[将其发送到其他应用程序](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)时自动保存SBS包。 |
 
 ### 编译器
 
 |  |  |
 | --- | --- |
-| <b>烹饪大小限制</b>  *默认值： 8192像素* | 定义任何[图形](../../compositing-graphs/substance-compositing-graphs.md)中的所有[节点](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)允许的最大像素分辨率。 由于图形输出始终是分辨率为2的次方的方形图像，因此此处设置的值定义了最大宽度和Height（以像素为单位）。 |
+| <b>烹饪大小限制</b>  *默认值： 8192像素* | 定义任何[图形](../../compositing-graphs/substance-compositing-graphs.md)中的所有[节点](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)允许的最大像素分辨率。 由于图形输出始终是分辨率为2的次方的方形图像，因此此处设置的值定义了最大宽度和Height（以像素为单位）。 |
 
 ### 引擎
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的2D视图可预览和检查材质图表中的纹理输出。
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 您可以在文档的[位图绘画编辑器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html)页面中了解更多信息。
+> 您可以在文档的[位图绘画编辑器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html)页面中了解更多信息。
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 您可以在文档的[矢量图形编辑器（已弃用）](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html)页面中了解更多信息。
+> 您可以在文档的[矢量图形编辑器（已弃用）](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html)页面中了解更多信息。
 
 ![2D视图色彩管理](../../assets/2d-view-color-management-ocio.png "2D视图色彩管理"){width="360px"}
 

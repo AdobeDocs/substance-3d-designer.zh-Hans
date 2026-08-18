@@ -54,7 +54,7 @@ MDL图的结果由<b>根</b>节点定义。 图形的任何节点都可以设置
 
 ![MDL图形的根节点](../../assets/mdl-root-hl.png "MDL图形的根节点")
 
-*MDL图形中的根节点及其属性显示在[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *面板*&#x200B;中
+*MDL图形中的根节点及其属性显示在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *面板*&#x200B;中
 
 ## 连接器和类型
 

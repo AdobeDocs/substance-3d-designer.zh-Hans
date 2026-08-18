@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的位图绘画工具直接在位图资源上进行绘画，以进行纹理编辑。
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 可通过以下方式创建&#x200B;*新的*&#x200B;位图：
 
-* 在[资源管理器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，单击&#x200B;*SBS包*&#x200B;或包中的&#x200B;*文件夹*&#x200B;上的RMB以打开其上下文菜单，然后打开<b>新建</b>子菜单并选择<b>位图</b>选项
+* 在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，单击&#x200B;*SBS包*&#x200B;或包中的&#x200B;*文件夹*&#x200B;上的RMB以打开其上下文菜单，然后打开<b>新建</b>子菜单并选择<b>位图</b>选项
 * 在[图形](../../../interface/the-graph-view/the-graph-view.md)中，创建一个[位图节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)，然后在上下文菜单中选择<b>从新资源……</b>选项
 
 将会打开<b>新位图</b>窗口，允许您设置新位图资源的&#x200B;*名称*、*分辨率*&#x200B;和&#x200B;*背景颜色*。
