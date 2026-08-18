@@ -465,15 +465,15 @@ Hejl tonemapper
 
 正态分布
 
-随机一致[-1， 1[
+随机一致&lbrack;-1， 1&lbrack;
 
-随机一致[a， b[
+随机一致&lbrack;a， b&lbrack;
 
-随机一致浮点2 [a， b[
+随机一致浮点2 &lbrack;a， b&lbrack;
 
-随机一致浮点3 [a， b[
+随机一致浮点3 &lbrack;a， b&lbrack;
 
-随机一致浮点4 [a， b[
+随机一致浮点4 &lbrack;a， b&lbrack;
 
 </td>
 </tr>
