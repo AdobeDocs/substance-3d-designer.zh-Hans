@@ -266,13 +266,13 @@ SDF 函数的基本构成要素，您可以通过这些要素创建球体、箱�
 
 在3D查看器SDF 函数的上下文中完成节点后，您可以复制整个函数并将其粘贴到[形状飞溅v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)节点中，以将其用作该节点的形状生成器。
 
-将&#x200B;**形状类型**&#x200B;参数设置为`SDF function`，然后转到&#x200B;**图案SDF 函数**&#x200B;参数并单击&#x200B;**编辑函数**按钮以打开该参数的函数图表。
+将&#x200B;**形状类型**&#x200B;参数设置为`SDF function`，然后转到&#x200B;**图案SDF 函数**&#x200B;参数并单击&#x200B;**编辑函数**&#x200B;按钮以打开该参数的函数图表。
 然后可以从该图形的3D查看器节点粘贴复制的函数。 （不要忘记再次设置函数图的输出节点！）
 
 确保调整&#x200B;**SDF定界帧大小**&#x200B;参数以匹配您在3D查看器节点中使用的[定界帧](#the-bounding-frame)，并确保形状绘制正确。
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*形状类型&#x200B;**设置为`SDF function`的形状飞溅v2。**请注意，**SDF边框大小**已调整为适合形状。*
+*形状类型&#x200B;**设置为`SDF function`的形状飞溅v2。**&#x200B;请注意，**SDF边框大小**&#x200B;已调整为适合形状。*
 
 >[!TIP]
 > 

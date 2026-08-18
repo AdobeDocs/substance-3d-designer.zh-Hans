@@ -59,11 +59,11 @@ Substance 3D Designer可以轻松编辑和重新排列位图中的数据，但�
 | 标识符 | 用于引用包中的位图资源，必须是唯一的。 |
 | 文件路径 | 资源引用的位图的磁盘路径。 |
 | 描述 | 此资源的[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)和[库](../../interface/the-library/the-library.md)工具提示中显示的说明。 |
-| 类别 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 标签 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 作者 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 作者 URL | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 标记 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 类别 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 标签 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 作者 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 作者 URL | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 标记 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
 | 用户数据 | 可选的额外数据，不用于位图。 |
 | 在图库中显示 | 确定是否应在[库视图](../../interface/the-library/the-library.md)中隐藏位图。 |
 | 位图格式 | 无论是Raw还是Jpeg，都对SBSAR文件的大小有着非常大的影响。 请参阅我们的[文件大小缩减准则](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)以了解详情。 |
