@@ -63,14 +63,14 @@ ht-degree: 1%
 +++包中的位图格式
 在“资源”属性上，您可以在“Raw”和“Jpeg”压缩之间进行选择。 这可能对最终结果产生相当大的影响。
 
-*通过[资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*通过[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。*
 
 +++
 
 +++包中的位图压缩品质
 使用“Jpeg”位图格式时，下面的滑块可能会影响品质和文件大小。 此滑块的行为不是非常可预测，但1通常对应于最高质量的JPG压缩，0.5通常提供最小的大小。
 
-*通过[资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*通过[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)资源管理器窗口，在：位图资源[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中找到。*
 
 +++
 
