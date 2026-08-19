@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本15.0的发行说明，了解新的3D渲染器和本机美元支持。
 helpx_creative_field: ""
