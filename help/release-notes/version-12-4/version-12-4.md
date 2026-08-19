@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本12.4的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### 在参数字段中键入公式
 
-当您要输入特定参数值时，无需使用计算器或再在头中进行计算。 现在，在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)和应用程序的其他位置中为参数设置数值时，可以直接输入基本公式，如加法、分法、乘法或减法。
+当您要输入特定参数值时，无需使用计算器或再在头中进行计算。 现在，在[属性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)和应用程序的其他位置中为参数设置数值时，可以直接输入基本公式，如加法、分法、乘法或减法。
 
 ![](../../assets/final-formula.gif){width="640px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/all-changes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/all-changes.html"
 breadcrumb-title: ''
 description: 查看所有Substance 3D Designer版本的更改和更新，以跟踪功能的演进和改进。
 helpx_creative_field: ""
@@ -1950,7 +1950,7 @@ ht-degree: 0%
 * [Content]PBR 渲染：在某些情况下，结果包含负颜色
 * [Cooker]多输出实例节点的缓存注入问题
 * [资源管理器]关闭包含显示的MDL图形的包时崩溃
-* [Graph] 2 pass cooking： node type change doesn&#39;t trigger a recook（图形&rbrack;两遍烹饪：节点类型更改不会触发重新确认）
+* [Graph] 2 pass cooking： node type change doesn&#39;t trigger a recook（图形]两遍烹饪：节点类型更改不会触发重新确认）
 * [Graph]在使用输入内容的连接时删除输入内容时发生崩溃
 * [Graph]可将链接端点移动到空白空间
 * [MDL]从MaterialX图形取消MDL导出时崩溃
