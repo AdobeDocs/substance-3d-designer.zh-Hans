@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: 解决阻止Substance 3D Designer启动的问题，并找到启动该应用程序的解决方案。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 应用程序不启动
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 ## Designer 15.0及更高版本
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](../../assets/error.svg)问题</b>
 
 在同时具有集成GPU (iGPU)和独立GPU (dGPU)的系统上，无法启动版本15.0及更高版本的Designer。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](../../assets/check.svg)建议的步骤</b>
 
 更新iGPU的图形驱动程序。 您可以在此处找到最新的驱动程序： [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
@@ -86,11 +86,11 @@ Substance 3D Designer在使用Windows 7、Windows 8或Windows 8.1的系统上无
 
 ## Linux
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](../../assets/error.svg)问题</b>
 
 关闭主屏幕并显示主窗口时崩溃。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](../../assets/check.svg)建议的步骤</b>
 
 Designer无法加载Python组件，因为它加载系统的<b>libffi.so</b>库，而不是它自己的库。
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>！[（错误）](../../assets/error.svg)问题</b><b>e</b>
+<b>![（错误）](../../assets/error.svg)问题</b><b>e</b>
 
 无法加载`<b>xcb</b>`插件。 命令行中显示以下消息：
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](../../assets/error.svg)问题</b>
 
 启动Designer时发生此错误：
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Designer加载的系统库与Designer自己的<b>libcrypto.so.1.1</b>库不兼容。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](../../assets/check.svg)建议的步骤</b>
 
 从Designer安装目录中删除<b>`libcrypto.so.1.1`</b>库，以便改用系统的库。
 
@@ -193,7 +193,7 @@ Designer加载的系统库与Designer自己的<b>libcrypto.so.1.1</b>库不兼�
 >
 > 仅当系统有自己的libcrypto.so.1库时，此解决方法才有效。 在最近的分发中，可能需要安装兼容包，如<b>libxcrypt-compat</b>。
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](../../assets/error.svg)问题</b>
 
 在使用&#x200B;*基于Arch*&#x200B;的Linux分发版本的系统上，Substance 3D Designer无法启动。
 
