@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer词汇表以查找术语、概念和技术术语的定义。
 helpx_creative_field: ""
