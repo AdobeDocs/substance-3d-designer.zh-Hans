@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # 遮罩生成器
 
-此类别包含一系列黑白蒙版生成节点。 它们会根据已烘焙贴图信息生成蒙版，然后可以用于混合素材和其他效果。 这些Substance Painter类似于[智能蒙版](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)和[生成器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators)。
+此类别包含一系列黑白蒙版生成节点。 它们会根据已烘焙贴图信息生成蒙版，然后可以用于混合素材和其他效果。 这些Substance Painter类似于[智能蒙版](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/features/smart-materials-and-masks)和[生成器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/generators)。
 
 所有这些节点都需要[个已烘焙贴图，](../../../../../bakers/bakers.md)，因为没有[个已烘焙贴图](../../../../../bakers/bakers.md)，结果不会很多。
 
