@@ -178,7 +178,7 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 <b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
 
-Adobe标准素材详细记录在文档的[此部分](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中。
+Adobe标准素材详细记录在文档的[此部分](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中。
 
 +++
 

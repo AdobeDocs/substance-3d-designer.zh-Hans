@@ -77,7 +77,7 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 
 *(\*.SBSAR)*
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
 
 </td>
 <td style="border: 0;" valign="top">

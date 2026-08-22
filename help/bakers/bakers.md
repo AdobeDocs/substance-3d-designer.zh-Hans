@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 要了解有关烘焙的更多信息，请参阅[烘焙文档](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)。
+> 要了解有关烘焙的更多信息，请参阅[烘焙文档](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)。
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ### 高清网格
 
-此面板控制高多边形网格列表和相关设置。 有关详细信息，请参阅[常用参数](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters)。
+此面板控制高多边形网格列表和相关设置。 有关详细信息，请参阅[常用参数](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/common-parameters)。
 
 ![高清网格](../assets/sd-high.png "高清网格")
 
 ### 默认值
 
-有关详细信息，请参阅[常用参数](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters)。
+有关详细信息，请参阅[常用参数](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/common-parameters)。
 
 ![默认值](../assets/sd-default-values.png "默认值")
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 单击列表中的面包机时，“面包机参数”视图将使用其特定参数更新。
 
-要了解有关特定参数的详细信息，请参阅： [面包师设置](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)。
+要了解有关特定参数的详细信息，请参阅： [面包师设置](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/bakers-settings)。
 
 ![面包师渲染列表](../assets/sd-baker-list.png "面包师渲染列表")

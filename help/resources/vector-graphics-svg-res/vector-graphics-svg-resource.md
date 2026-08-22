@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer通过可缩放矢量图形格式支持有限形式的矢量图形。 SVG文件可按不同方式作为资源引入，以用作图表的资源。
 
-SVG文件[可以通过原子SVG节点创建或编辑，](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)它们也可以由[UV到SVG烘焙器创建。](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG文件[可以通过原子SVG节点创建或编辑，](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)它们也可以由[UV到SVG烘焙器创建。](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >

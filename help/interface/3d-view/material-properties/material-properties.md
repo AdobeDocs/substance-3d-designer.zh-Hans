@@ -202,7 +202,7 @@ Adobe标准素材(ASM)模型是在Designer 11.2中引入的，并且是Designer�
 虽然Designer已移至OpenPBR作为新的默认模型，但仍包含ASM，并且其属性也处于共享状态
 跨光栅器、GPU 路径追踪和OpenGL [3D渲染器](../3d-renderers/3d-renderers.md)。
 
-[此处](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)记录了该模型。
+[此处](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)记录了该模型。
 
 <a name="usdpreviewsurface"></a>
 
