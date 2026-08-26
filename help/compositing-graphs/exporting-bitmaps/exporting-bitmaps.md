@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 了解如何从Substance合成图导出纹理和位图以在外部应用程序和工作流程中使用。
 helpx_creative_field: ""

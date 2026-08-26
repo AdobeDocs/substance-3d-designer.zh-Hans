@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 访问Designer中Substance合成图的完整节点参考以了解所有可用节点。
 helpx_creative_field: ""

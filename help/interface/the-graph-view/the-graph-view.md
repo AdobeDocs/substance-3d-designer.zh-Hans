@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer中的图形视图创建和编辑基于节点的材质图形。
 helpx_creative_field: ""
