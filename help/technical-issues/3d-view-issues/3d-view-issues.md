@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 根据Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)，支持的GPU包括NVIDIA RTX 20系列（图例）或更高版本。
 
-通过使用“项目设置”](../../interface/preferences-window/project-settings/project-settings.md)中的[new选项，您可以继续默认使用OpenGL渲染器：
+通过使用“项目设置”[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的new选项，您可以继续默认使用OpenGL渲染器：
 
 1. 转到编辑>首选项>项目
 2. 选择列表中的最后一个项目文件
