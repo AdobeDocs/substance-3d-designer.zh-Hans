@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer词汇表以查找术语、概念和技术术语的定义。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 术语表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 了解Designer中使用的术语和概念。
 
-## #&#x200B;
+## #
 
 |  |  |
 | --- | --- |
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>Alpha频道</b> | 彩色图像的第四个通道，通常用于描述不透明度。 |
 | <b><span id="ambient-occlusion"></span>环境遮蔽</b> | 环境光在曝光较少因而难以到达的表面上的衰减。 |
 | <b><span id="anisotropy"></span>各向异性</b> | 依赖于方向的属性。 换句话说，当在不同的轴上测量或观察时，提供不同的结果。   各向异性材料根据其从何处观看具有不同的外观，并且各向异性滤镜并非在所有方向上均匀应用。 |
+| <b><span id="aov" ></span>AOV</b> | 任意输出变量(AOV)是[渲染](#rendering)中使用的术语，用于描述可从渲染输出的其他数据通道，例如深度、法线或自定义数据。 |
 | <b><span id="api"></span>API</b> | 应用程序编程接口(API)是功能和过程的集合，允许用户访问另一个应用程序的功能和过程。   API在用户与程序之间提供受控且安全的层。 它还可以使用另一种编程语言来使程序更易于交互且更易于访问。   Designer提供了一个[Python API](../scripting/scripting.md)，通过此API可轻松访问其各种功能，以便处理数据、构建自定义工具和加快工作流程。 |
 | <b><span id="atomic-node"></span>原子节点</b> | 图的基本构成要素。 所有[实例节点](#instance-node)都可以分解为原子节点的图形。 每种图形类型都有自己的一组原子节点。 |
 

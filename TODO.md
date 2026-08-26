@@ -1,8 +1,8 @@
 ---
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 # 待办事项
@@ -16,9 +16,12 @@ ht-degree: 1%
 
 * AdobeDocs上的Python API文档的入口点
 * “文档弹出”页面中的示例
+* 术语表：
+  * HDR
 
 ## 修复
 
+* [概述](help/getting-started/overview/overview.md)中断开的链接
 * [输出节点](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)中的链接和格式损坏
 * Helpx链接
 * 删除页面内的ToC(例如， 新噪声)
