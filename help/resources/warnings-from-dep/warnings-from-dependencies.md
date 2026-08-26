@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: 了解来自Substance 3D Designer中资源依赖项的警告以及如何解决这些警告。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 依赖项中的警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ ht-degree: 0%
 
    检查依赖项包是否存在于警告消息中指定的位置。 如果没有，请找到该文件并将其放回该位置，或重新创建它。 如果文件存在，*尝试在Designer中加载它*，并查找与该包相关的任何警告或错误。 请参阅这些特定问题的故障排除步骤并相应地进行修复。
 
-   然后，通过在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中单击主机包上的RMB，并在上下文菜单中选择<b>重新加载</b>选项来重新加载该主机包。
+   然后，通过在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中单击主机包上的RMB，并在上下文菜单中选择<b>重新加载</b>选项来重新加载该主机包。
 
    ![“无效的依赖包”解决方案1](../../assets/warnings-dep-invalid-dependent-pkg.gif "“无效的依赖包”解决方案1")
 1. <b>在包中重新定位依赖项</b>
 
-   可以使用[依赖关系管理器](../../interface/dependency-manager/dependency-manager.md)重新定位依赖关系。 单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中的主机包上的RMB，然后在上下文菜单中选择<b>依赖关系管理器</b>选项。
+   可以使用[依赖关系管理器](../../interface/dependency-manager/dependency-manager.md)重新定位依赖关系。 单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的主机包上的RMB，然后在上下文菜单中选择<b>依赖关系管理器</b>选项。
 
    在“依赖管理器”的列表中查找缺失的依赖项，单击该依赖项上的人民币，然后选择<b>迁移……</b>选项。 使用文件浏览器对话框查找依赖关系包，然后单击<b>打开</b>。
 
-   然后，通过在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中单击主机包上的RMB，并在上下文菜单中选择<b>重新加载</b>选项来重新加载该主机包。
+   然后，通过在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中单击主机包上的RMB，并在上下文菜单中选择<b>重新加载</b>选项来重新加载该主机包。
 
    ![“无效的依赖包”解决方案2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "“无效的依赖包”解决方案2")
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    ![“没有与资源解决方案1](../../assets/warnings-dep-udim-2.gif "匹配的文件”没有与资源解决方案1")匹配的文件
 1. <b>重新定位文件</b>
 
-   如果移动或重命名了文件，请通过单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中的资源项上的RMB来重新定位文件，然后选择<b>重新定位</b>选项将该资源链接到一组同类型UDIM图像&#x200B;*第一个文件*。
+   如果移动或重命名了文件，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB来重新定位文件，然后选择<b>重新定位</b>选项将该资源链接到一组同类型UDIM图像&#x200B;*第一个文件*。
 
    ![“没有与资源解决方案2](../../assets/warnings-dep-udim.gif "匹配的文件”没有与资源解决方案2")匹配的文件
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    ![“未找到链接的文件”解决方案1](../../assets/warnings-dep-file-not-found.gif "“未找到链接的文件”解决方案1")
 1. <b>重新定位文件</b>
 
-   如果该文件已被移动或重命名，请通过单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中的资源项上的RMB将其重新定位，然后选择<b>重新定位</b>选项以将该资源链接到另一个相同类型的文件。
+   如果该文件已被移动或重命名，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB将其重新定位，然后选择<b>重新定位</b>选项以将该资源链接到另一个相同类型的文件。
 
    ![“未找到链接的文件”解决方案2](../../assets/warnings-dep-file-not-found-2.gif "“未找到链接的文件”解决方案2")
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 ## ![（错误）](../../assets/error.svg)未找到引用资源
 
-在警告中报告的位置找不到分配给[3D网格资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)的UV磁贴的图形。
+在警告中报告的位置找不到分配给[3D场景资源](../3d-scene-resource/3d-scene-resource.md)的UV磁贴的图形。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. <b>还原图形</b>
 
-   在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中检查<b>UV磁贴</b>列表中指定的图形的包内容。 如果它不存在，请恢复或重新创建它。
+   在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中检查<b>UV磁贴</b>列表中指定的图形的包内容。 如果它不存在，请恢复或重新创建它。
 
    ![“未找到引用资源”解决方案1](../../assets/warnings-dep-udim-graph-2.gif "“未找到引用资源”解决方案1")
 1. <b>选择其他图形</b>
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## 多次分配![（错误）](../../assets/error.svg)个UV磁贴
 
-[3D网格资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)的UV磁贴被多次分配给[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
+[3D场景资源](../3d-scene-resource/3d-scene-resource.md)的UV磁贴被多次分配给[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 ## ![（错误）](../../assets/error.svg)无效的UV磁贴
 
-[3D网格资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)列出的UV磁贴未在网格中定义或已损坏。
+在网格中未定义或损坏为[3D场景资源](../3d-scene-resource/3d-scene-resource.md)列出的UV磁贴。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 

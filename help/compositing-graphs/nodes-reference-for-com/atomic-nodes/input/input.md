@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 使用“输入”节点创建可由用户公开和调整的Substance图表的输入参数。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 与[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，您必须显式放置彩色、灰度或值输入。 您不可能创建自己的“不可知”输入，这些输入会根据与它们关联的内容更改类型。
 
-输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
+输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
 
 <table>
 <tr style="border: 0;">
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>标识符</b> *字符串* | 唯一的必填唯一属性。 不能包含空格。   如果未设置Label，则用于标记输入，并用于区分不同的输出。 不要将这些项留在“input\_1”！ |
+| <b>标识符</b> *字符串* | 唯一的必填唯一属性。 不能包含空格。   如果未设置Label，则用于标记输入，并用于区分不同的输出。 不要将这些项留在“input\_1”！ |
 | <b>描述</b> *字符串* | Designer的库和Painter的货架中使用的可选说明。 |
-| <b>标签</b> *字符串* | UI标签，用于在Designer和Painter UI中方便地添加标签。 可以包含空格。   建议使用与标识符类似的名称设置，只使用空格键而不是下划线。 |
+| <b>标签</b> *字符串* | UI标签，用于在Designer和Painter UI中方便地添加标签。 可以包含空格。   建议使用与标识符类似的名称设置，只使用空格键而不是下划线。 |
 | <b>用户数据</b> *字符串* | 可用于特定筛选操作的其他可选用户数据，基本上是通配符自定义数据字段。 |
-| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输入进行分组的组属性。   具有相同（区分大小写）组属性的输入将在紧凑素材模式下作为单个连接显示。 |
+| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输入进行分组的组属性。   具有相同（区分大小写）组属性的输入将在紧凑素材模式下作为单个连接显示。 |
 
 ## 继承
 
@@ -145,11 +145,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
+> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
 
 ## 集成属性
 
-输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)一起使用）。
+输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)一起使用）。
 
 此外，[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)也使用使用情况属性，以匹配正确的输入和输出插槽。
 
@@ -157,6 +157,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>组件</b> *字符串* | 这决定了生成的输入中实际包含哪些通道。   这是旧版设置，集成和图表不再使用旧版设置。 |
+| <b>组件</b> *字符串* | 这决定了生成的输入中实际包含哪些通道。   这是旧版设置，集成和图表不再使用旧版设置。 |
 | <b>用法</b> *字符串* | 定义此输入的类型或用法。 它指示其他节点应如何连接到此输入。 |
 | <b>色彩空间</b> *字符串* | 设置应解释此输入的色彩空间。 |

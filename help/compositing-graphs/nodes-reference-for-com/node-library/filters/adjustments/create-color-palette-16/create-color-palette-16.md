@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: 使用“创建调色板”节点从纹理中提取16色调色板以获得风格化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 创建调色板(16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>调色板</b> *颜色*&#x200B;主要 | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。   此输入是可选的。 如果使用，则节点设置的颜色将附加到此调色板中。   可以使用[查看调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)节点来可视化调色板。 |
-| <b>调色板颜色量</b> *整数* | 调色板中存储的颜色量。   如果该数值与“调色板”图像输入中实际颜色量不匹配，则可视化可能是不完整的，或者具有的空白槽比绝对必需的多。 |
+| <b>调色板</b> *颜色*&#x200B;主要 | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。   此输入是可选的。 如果使用，则节点设置的颜色将附加到此调色板中。   可以使用[查看调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)节点来可视化调色板。 |
+| <b>调色板颜色量</b> *整数* | 调色板中存储的颜色量。   如果该数值与“调色板”图像输入中实际颜色量不匹配，则可视化可能是不完整的，或者具有的空白槽比绝对必需的多。 |
 
 ## 输出连接器
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>颜色量</b> *整数* | 应添加到调色板的颜色量。 |
-| <b>颜色#</b> *浮点3* *可用参数数量与“颜色量”值相同* | 应添加到调色板中的颜色。   颜色会按照此编号列表的顺序附加到调色板。 |
+| <b>颜色#</b> *浮点3* *可用参数数量与“颜色量”值相同* | 应添加到调色板中的颜色。   颜色会按照此编号列表的顺序附加到调色板。 |
 
 ## 示例
 

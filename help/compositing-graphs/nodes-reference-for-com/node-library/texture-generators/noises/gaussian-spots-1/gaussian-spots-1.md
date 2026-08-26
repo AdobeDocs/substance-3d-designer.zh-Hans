@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
 breadcrumb-title: ''
 description: 使用“高斯斑点1”节点生成高斯斑点图案，用于创建有机纹理变化和细节。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高斯污点1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 2%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
@@ -41,26 +41,6 @@ ht-degree: 2%
 基于[高斯噪声](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)节点，渐变较窄。
 
 另请参阅： [高斯斑点2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 输出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
 
 </td>
 </tr>

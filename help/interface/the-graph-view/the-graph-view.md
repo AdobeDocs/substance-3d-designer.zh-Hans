@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer中的图形视图创建和编辑基于节点的材质图形。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 图形视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 使用F键将<b>焦点</b>聚焦所选节点，如果未选择任何内容，则聚焦整个图形。
 
-也可以使用<b>导航图钉</b>和F2键进行导航，请参阅下面的[图形项](#graph-items) [。](../../interface/the-graph-view/graph-items/graph-items.md)
+也可以使用<b>导航图钉</b>和F2键进行导航，请参阅下面的[图形项](#graph-items)[。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## 移动对象
 
@@ -223,9 +223,9 @@ ht-degree: 0%
 
 <b>创建\*：</b>为此节点的每个输入和/或输出创建输入和/或输出节点；
 
-<b>打开引用\*：</b>将此节点引用的图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)加载为单独的图形视图选项卡；
+<b>打开引用\*：</b>将此节点引用的图形[](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)加载为单独的图形视图选项卡；
 
-<b>在上下文中打开引用\*\*：</b>在当前图表的上下文中加载此节点引用的图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)作为现有图形视图选项卡中的痕迹导航；
+<b>在上下文中打开引用\*\*：</b>在当前图表的上下文中加载此节点引用的图形[](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)作为现有图形视图选项卡中的痕迹导航；
 
 <b>从所选对象创建图形：</b>将所选节点复制到新图形中；
 
@@ -387,7 +387,7 @@ ht-degree: 0%
 </b>*— 清理：*&#x200B;删除属于未连接到[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点的流的所有节点。\
 *— 导出输出：*&#x200B;打开[位图导出接口](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。\
 *— 重新导出输出：*&#x200B;再次执行上一个导出操作。\
-*-PSD导出器：*&#x200B;打开[PSD导出器接口。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*-PSD导出器：*&#x200B;打开[PSD导出器](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md)接口。
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>节点映像缓存\
 </b>切换节点图像缓存切换的显示，请参阅下文。

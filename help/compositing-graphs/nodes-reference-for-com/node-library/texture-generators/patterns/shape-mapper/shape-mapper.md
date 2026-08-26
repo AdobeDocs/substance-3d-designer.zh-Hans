@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: 使用“形状映射器”节点，通过可自定义的变换和定位将形状映射到纹理上。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形状映射器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 2%
@@ -88,8 +88,8 @@ ht-degree: 2%
 | --- | --- |
 | <b>形状</b>整数 | 设置应按其放置图案的形状类型：<ul data-preserve-html="true"> <li data-preserve-html="true">圆圈</li> <li data-preserve-html="true">多边形</li> </ul> |
 | <b>模式数量</b>整数 | 沿所选形状放置的图案的数量。 |
-| <b>具有图案数量的链接段</b>布尔值&#x200B;*在“形状”设置为“多边形”时可用* | 将<b>模式数量</b>用作<b>段</b>的数量。   这样可防止图案环绕边角，从而确保外观笔直一致。 |
-| <b>段</b>整数&#x200B;*在“形状”设置为“多边形”且“链接带有图案数量的段”设置为“假”时可用* | 放置图案的多边形的线段数量。   段的大小是&#x200B;*均匀的*，并且所有顶点离中心都是&#x200B;*等距离的*，因此增加段的数量可使多边形向圆收敛。 |
+| <b>具有图案数量的链接段</b>布尔值&#x200B;*在“形状”设置为“多边形”时可用* | 将<b>模式数量</b>用作<b>段</b>的数量。   这样可防止图案环绕边角，从而确保外观笔直一致。 |
+| <b>段</b>整数&#x200B;*在“形状”设置为“多边形”且“链接带有图案数量的段”设置为“假”时可用* | 放置图案的多边形的线段数量。   段的大小是&#x200B;*均匀的*，并且所有顶点离中心都是&#x200B;*等距离的*，因此增加段的数量可使多边形向圆收敛。 |
 | <b>半径</b>浮点 | 形状半径的乘数，其中1.0是图像最短边长度的一半。 |
 | <b>宽度</b>浮点 | 形状上图案宽度的乘数，其中1.0为图像最短边长度的一半。 |
 | <b>旋转</b>浮点 | 应用于形状的旋转量，以从水平右顺时针旋转多少次为单位。 |

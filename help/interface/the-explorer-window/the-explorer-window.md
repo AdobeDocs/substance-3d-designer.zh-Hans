@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的“资源管理器”窗口浏览、整理和管理项目文件和资源。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 资源管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -48,8 +48,8 @@ ht-degree: 2%
 * 保存并关闭加载的包
 * [导入和链接资源](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [将图形结果导出到纹理](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [将包Publish到Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [将包发送到其他Substance 3D应用程序](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [将包Publish到Substance 3D资源(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [将包发送到其他Substance 3D应用程序](send-to-interoperability/send-to-interoperability.md)
 * [从网格中烘焙地图](../../bakers/bakers.md)
 
 ## 顶部工具栏
@@ -61,7 +61,7 @@ ht-degree: 2%
 ![](../../assets/sendto-icon.jpg) <b>Publish或[发送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>个所选元素：
 
 * [将任何选定包Publish到Substance 3D资源(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)；
-* 将所选包发送到[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Substance 3D Stager](https://www.adobe.com/cn/products/substance3d-stager.html)。
+* 将所选包发送到[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)或[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)。
 
 ![](../../assets/republish.png) <b>Publish或像以前一样发送：</b> Publish或发送所选元素的设置与以前相同。 此选项仅适用于已在&#x200B;*当前*&#x200B;会话中&#x200B;*至少*&#x200B;发布过一次的包。
 
@@ -116,11 +116,11 @@ ht-degree: 2%
 
 通过<b>重新加载</b>、<b>保存、另存为</b>和<b>将副本另存为</b>，可将以前保存的包版本保存到磁盘或从磁盘回调。
 
-<b>Publish .sbsar文件</b>和<b>重新发布.sbsar文件</b>允许您[将未编译且未优化的Substance图形Publish为在其他Substance应用程序和集成中为我们提供高效且便携的SBSAR文件](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)。 Publish as Previous使用相同的选项重复以前的Publish操作，跳过选项对话框以加快迭代。 工具栏包含具有相同功能的按钮。
+<b>Publish .sbsar文件</b>和<b>重新发布.sbsar文件</b>允许您[发布](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)未编译且未优化的Substance图形，以便在其他Substance应用程序和集成中提供给我们一个高效且便携的SBSAR文件。 Publish as Previous使用相同的选项重复以前的Publish操作，跳过选项对话框以加快迭代。 工具栏包含具有相同功能的按钮。
 
 <b>带依赖项的导出</b>与保存和发布不同。 它将获取您的SBS文件，收集所有引用的资源和依赖项，并创建一个自包含包。 通过对话框，可以选择要收集哪些库，以及文件是否应为压缩存档(7-zip)。 与其他人共享SBS文件时最好选择此选项，而不用担心缺少依赖项。
 
-<b>发送至……</b>可打开子菜单，允许您直接[将包发送至](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)到[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/cn/products/substance3d-stager.html)或[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
+<b>发送至……</b>可打开子菜单，允许您直接[发送包至](send-to-interoperability/send-to-interoperability.md)[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)或[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
 
 <b>复制</b>复制所选包。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: 使用Node Finder在Substance图中快速搜索和查找节点，以便有效地导航。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 节点查找器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![节点查找器工具栏](../../../assets/node-finder-toolbar.png "节点查找器工具栏"){zoomable="yes"}
 
-节点查找器工具允许您使用文本查询执行<b>节点和变量</b>搜索。 所有与查询不匹配的节点将变暗，以使结果突出。
+节点查找器工具允许您使用文本查询执行<b>节点和变量</b>搜索。 所有与查询不匹配的节点将变暗，以使结果突出。
 
 查询可以与以下任一条件匹配：
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 节点的<b>UID</b>（唯一标识符）
 * 节点的<b>标签</b>
 
-搜索可以递归遍历[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，以便可以跨[子图](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)找到节点和变量。 如果不确定需要搜索的确切术语，可使用模糊搜索选项将公差应用于查询。
+搜索可以递归遍历[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，以便可以跨[子图](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)找到节点和变量。 如果不确定需要搜索的确切术语，可使用模糊搜索选项将公差应用于查询。
 
 ## 界面
 

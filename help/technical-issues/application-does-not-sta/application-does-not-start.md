@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: 解决阻止Substance 3D Designer启动的问题，并找到启动该应用程序的解决方案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 应用程序不启动
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 <b>![（刻度）](../../assets/check.svg)建议的步骤</b>
 
-更新iGPU的图形驱动程序。 您可以在此处找到最新的驱动程序： [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+更新iGPU的图形驱动程序。 您可以在此处找到最新的驱动程序： [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 

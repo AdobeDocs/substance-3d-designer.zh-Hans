@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: 使用“RT阴影”节点计算来自几何的实时阴影信息，以创建动态光照效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT阴影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 <b>模式</b> *整数*\
 在曲面上绘制阴影的方法。
 
-<b>Height缩放</b> *浮动*\
+<b>Height比例</b> *浮动*\
 输入Height映射强度的乘数。
 
 <b>光源位置&#x200B;</b>*浮点2*\

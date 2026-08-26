@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ![使用Iray渲染的中世纪城堡墙材料](../../../assets/iray-overview.png "使用Iray渲染的中世纪城堡墙材料")
 
-*材质：[中世纪城堡](https://helpx.adobe.com/cn/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)**，作者[Mark Foreman](https://www.artstation.com/oggyart)**，可在我们的[Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/assets.html)**库*&#x200B;中使用
+*材质：[中世纪城堡](https://oggyart.artstation.com/projects/Xnzx0a)**，作者[Mark Foreman](https://www.artstation.com/oggyart)**，可在我们的[Substance 3D资源](https://substance3d.adobe.com/assets)**库*&#x200B;中使用
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ ht-degree: 1%
 由于Iray依赖于NVIDIA开发的[MDL着色模型](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/)，因此可用于场景素材的素材将替换为Designer加载的MDL库。 此库使用以下源生成：
 
 * Designer安装中包含的MDL文件
-* 在加载的[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中由用户[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)列出的目录中找到了MDL文件
+* 在加载的[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中由用户](../../../interface/preferences-window/project-settings/project-settings.md)列出的[目录中找到了MDL文件
 * [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials)库（如果已安装）
 
 >[!NOTE]

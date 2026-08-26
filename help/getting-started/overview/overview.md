@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: 概要了解Substance 3D Designer，并了解其用于创建过程性材质和纹理的功能。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ Substance 3D Designer是基于节点的编辑器，可让您以多种不同的�
 
 <b>[非线性](../../compositing-graphs/substance-compositing-graphs.md) </b>：您可以一次创作多个纹理输出。 编辑一个蒙版或滑块，将自动重新计算任何已连接的输出。 不再需要单独创作地图，如基色、粗糙度、法线等。
 
-<b> [非破坏性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>：您可以撤消任何操作&#x200B;*，而不*&#x200B;丢失任何作品。 迭代和试验速度更快，找到更高效的工作流程。
+<b>[非破坏性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>：您可以撤消任何操作&#x200B;*，而不*&#x200B;丢失任何作品。 迭代和试验速度更快，找到更高效的工作流程。
 
-<b> [集成式烘焙](../../bakers/bakers.md) </b>：直接在软件中访问高级、超快的网格烘焙工具。 您不必再在单独的软件中执行烘焙，也不必执行漫长的导入和导出过程。
+<b>[集成式烘焙](../../bakers/bakers.md) </b>：直接在软件中访问高级、超快的网格烘焙工具。 您不必再在单独的软件中执行烘焙，也不必执行漫长的导入和导出过程。
 
-<b> [参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>：您可以通过单个滑块或下拉菜单设置以控制纹理的几乎任何方面。 这允许您仅对单个资源添加无限的控制和变化。
+<b>[参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>：您可以通过单个滑块或下拉菜单设置以控制纹理的几乎任何方面。 这允许您仅对单个资源添加无限的控制和变化。
 
 ## 文件类型
 
@@ -77,7 +77,7 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 
 *(\*.SBSAR)*
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 
 * [位图](../../resources/bitmap-resource/bitmap-resource.md)
 * [矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D网格](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [字体](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxF文件](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

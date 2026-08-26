@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本13.0的发行说明，以了解新节点、Substance 引擎9.0和门户节点。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 #### 修改
 
-我们还提供工具来重新处理和调整您的样条。 您将找到一个要应用[2D变换](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)的节点（如旋转、平移、缩放），以及一个到[变形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>该形状和其他两个节点以修改样条的[Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>或[Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)。
+我们还提供工具来重新处理和调整您的样条。 您将找到一个节点来应用[2D变换](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)，例如旋转、平移、缩放，还有一个节点用于[变形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>形状和其他两个节点以修改[Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>或样条的[Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)。
 
 <table>
 <tr style="border: 0;">
@@ -119,7 +119,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 最后一个类别是基于样条创建最终形状或图案的类别。 您首先想到的是沿样条重复给定的形状：[样条上的散点](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)节点允许您重复此操作，它包含许多参数来完美控制分布（旋转、缩放、偏移、颜色、蒙版等）。
 
-借助[样条填充](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b></b>节点，您可以从闭合样条轻松地创建图案。 如果要以高度可控和精确的方式将任何纹理映射到样条上，则可以使用[样条映射器](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)节点！
+多亏了[样条填充](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>节点，您可以轻松地从闭合样条创建图案。 如果要以高度可控和精确的方式将任何纹理映射到样条上，则可以使用[样条映射器](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)节点！
 
 <table>
 <tr style="border: 0;">
@@ -150,7 +150,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 [路径蒙版](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)节点允许您以段列表的形式提取灰度图案的边框。
 
-然后，您可以使用[路径2D变换](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)或[路径变形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)节点处理这些路径，以便根据需要进行调整。  借助[样条路径](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)节点，您可以将路径转换为样条，从而利用先前提及的样条专用的所有节点，如散布。
+然后，您可以使用[路径2D变换](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)或[路径变形](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)节点处理这些路径，以便根据需要进行调整。  借助[样条路径](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)节点，您可以将路径转换为样条，从而利用先前提及的样条专用的所有节点，如散布。
 
 <table>
 <tr style="border: 0;">

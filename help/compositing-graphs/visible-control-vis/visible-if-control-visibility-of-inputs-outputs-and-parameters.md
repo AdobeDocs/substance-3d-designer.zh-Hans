@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用可见表达式根据条件控制参数可见性。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 表达式可见
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1511dc8cc9a91529359172ad81cd2c1c0606448f
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%

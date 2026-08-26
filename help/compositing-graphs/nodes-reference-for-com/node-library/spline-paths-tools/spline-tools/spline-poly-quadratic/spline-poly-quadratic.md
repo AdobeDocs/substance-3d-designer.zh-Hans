@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: 使用样条多边形二次节点创建具有多个控制点的复杂二次样条。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条（多边形二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -54,8 +54,8 @@ ht-degree: 0%
 <b> G</b> - Y位置\
 <b> B</b> -Height\
 <b> A</b> — 压缩的数据：\
-        *符号：样条是封闭的（负）或开放的（正）；\
-        *绝对值：Thickness+ 1。
+*符号：样条是封闭的（负）或开放的（正）；\
+*绝对值：Thickness+ 1。
 
 <b>样条数据</b> *颜色*&#x200B;编码在彩色图像的RGBA通道中的输入样条的其他数据。\
 <b> R</b> — 切线X\
@@ -69,12 +69,12 @@ ht-degree: 0%
 
 <b>输入点列表</b> *颜色*（当“使用输入点列表”为True时可用）\
 以彩色图像的RGBA通道编码的点列表：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-        *整数部分：Smoothness；\
-        *小数部分：Thickness。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*整数部分：Smoothness；\
+*小数部分：Thickness。
 
 <b>点数</b> *整数*（当“使用输入点列表”为True时可用）\
 点数。
@@ -88,18 +88,18 @@ ht-degree: 0%
 <b>预览</b> *灰度*&#x200B;输出样条作为灰度图像的预览。
 
 <b>样条坐标</b> *颜色*&#x200B;以彩色图像的RGBA通道编码的输出样条点的坐标。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-        *符号：样条是封闭的（负）或开放的（正）；\
-        *绝对值：Thickness+ 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*符号：样条是封闭的（负）或开放的（正）；\
+*绝对值：Thickness+ 1。
 
 <b>样条数据</b> *颜色*&#x200B;以彩色图像的RGBA通道编码的输出样条的附加数据。\
-    <b>R</b> — 切线X\
-    <b>G</b> — 切线Y\
-    <b>B</b> — 未使用\
-    <b>A</b> — 未使用
+<b>R</b> — 切线X\
+<b>G</b> — 切线Y\
+<b>B</b> — 未使用\
+<b>A</b> — 未使用
 
 <b>样条量</b> *整数*&#x200B;输出样条的数量。
 

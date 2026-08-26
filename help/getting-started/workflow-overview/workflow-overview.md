@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: 了解在Substance 3D Designer中创建程序性素材的基本工作流程（从头到尾）。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 
 ## 基于节点的工作流
 
-在Designer中工作与其他2D图像编辑软件（如Photoshop）不同。 无需手动执行操作（如通过转到菜单选项和更改滑块来调整饱和度），您可以<b>构建编辑或创建图像的逻辑步骤</b>。 这是通过构建名为“[节点](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)”的小型构建块网络来实现的。 图像数据通过构造块从<b>向左到右</b>移动，由确定信息路径的链接连接。 每个节点（如果已连接）都将有助于最终结果。
+在Designer中工作与其他2D图像编辑软件（如Photoshop）不同。 无需手动执行操作（如通过转到菜单选项和更改滑块来调整饱和度），您可以<b>构建编辑或创建图像的逻辑步骤</b>。 这可以通过构建一个名为“节点”的小型构建块网络来实现。 图像数据通过构造块从<b>向左到右</b>移动，由确定信息路径的链接连接。 每个节点（如果已连接）都将有助于最终结果。
 
 主要优点是您的工作流变为<b>非线性</b>。 与手动执行的进入历史记录栈栈的操作不同，您始终可以在任何时间点替换或修改节点。 如果您认为您的第一次对比度调整彻底影响了图像结果，那么您仍然可以返回并进行调整，甚至可以将其完全抠掉，而不会丢失您之后执行的所有工作。
 
@@ -129,7 +129,7 @@ Substance图形是[最受支持的图形类型](../../getting-started/overview/o
 
 函数<b>处理单个值</b>（整数、浮点、矢量）而不是图像数据（整组像素）。 函数也是带有节点网络的图形，但[使用的节点](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)和接口不同于[常规Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。 此工作流程完全基于<b>数学运算</b>，不显示任何图像预览缩略图，这使它成为<b>使用Substance 3D Designer的一种更高级的方式</b>。
 
-函数可用于许多不同的上下文，其中主要的函数用于修改[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行为，创作[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为，以及在图中使用[值。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+函数可用于许多不同的上下文，其中主要的函数用于修改[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行为，创作[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为，以及在Substance图中使用[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 </td>
 </tr>

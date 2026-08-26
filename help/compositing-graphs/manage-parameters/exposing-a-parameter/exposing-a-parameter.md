@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer合成图中公开参数，以使素材可自定义并可重用。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 公开参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2267'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 ## 了解参数和显示
 
 +++什么是参数？
-*参数是一个具有UI元素的简单值，用于控制图表的行为。*&#x200B;在所有Substance软件中经常使用它们：更改颜色、设置混合模式、选择不透明度值等……如果没有参数，Substance软件将不允许进行任何自定义。
+*参数是具有UI元素的简单值，用于控制图表的行为。* 您可在所有Substance软件中持续使用它们：更改颜色、设置混合模式、选择不透明度值等……如果没有参数，Substance软件将不允许进行任何自定义。
 
 参数可以有多种不同的形式：滑块、拨号、输入框、下拉菜单等。它们表示的值可以有很多种类型：十进制值、整数（整数）值、布尔值(true/false)，甚至文本片段。
 
@@ -66,7 +66,7 @@ ht-degree: 4%
 
 ### 单曝光法
 
-1. 在[“属性”窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的“特定参数”选项卡下查找要公开的参数
+1. 在“[属性](../../../interface/properties/properties.md)”面板的“特定参数”选项卡下找到要公开的参数
 1. 单击![](../../../assets/image2020-9-17-15-35-59.png)下拉选项按钮
 1. 从下拉列表第一个选项中选择![](../../../assets/image2020-9-17-15-37-7.png) <b>公开为新图形输入</b>。
 1. 出现<b>公开参数</b>对话框，根据需要设置任何参数属性。
@@ -79,7 +79,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 > 大多数数字字段支持&#x200B;*基本数学公式*&#x200B;作为输入 — 例如，`17+3.5`、`7/3`、`(4+2)*3`。 按&#x200B;*Enter*&#x200B;验证公式，结果将输入到字段中。 如果公式无效，则字段将恢复为以前的值。\
-> 应用程序其他部分（如[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)程序坞）中的某些数字字段也支持此功能。
+> 应用程序其他部分（如[属性](../../../interface/properties/properties.md)程序坞）中的某些数字字段也支持此功能。
 
 ![批量公开方法演练](../../../assets/batch-expose-2.gif "批量公开方法演练"){width="512px"}
 
@@ -88,7 +88,7 @@ ht-degree: 4%
 公开一个参数时，此方法将比上一个方法慢一些。 公开多个参数时，速度要快得多。
 
 1. 查找<b>特定参数</b>选项卡右上角的![](../../../assets/image2020-9-17-15-39-7.png) <b>多公开</b>按钮，而不是查找单个参数
-1. 选择<b>批处理公开参数……</b> （从下拉菜单中）
+1. 从下拉菜单中选择<b>批量公开参数……</b>
 1. 此时会显示<b>批量公开</b>对话框，允许您自定义节点的所有特定参数<b>的公开</b>
 1. 使用<b>全部</b>、<b>无</b>或特定的复选框来决定公开哪些参数
 1. 单击列表中<b>图形输入标识符</b>列下的参数名称以更改其名称。
@@ -104,7 +104,7 @@ ht-degree: 4%
 | --- | --- |
 | [渐变曲线](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)，[曲线编辑器](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)，[字体](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)，[色阶直方图](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 需要小部件，这些小部件不可用于用户创建的参数。 |
 
-另一个重要限制与[静态参数](../../../glossary/glossary.md)有关。 无法在[已发布的Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)中更改这些资源。
+另一个重要限制与[静态参数](../../../glossary/glossary.md)有关。 这些无法在[发布的Substance 3D资源(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中更改。
 
 静态参数 — 与动态参数相对 — *在图形*&#x200B;完成&#x200B;*后无法动态编辑* — 即，为了快速高效地运行其算法而处理静态参数。 每次图形&#x200B;*已编辑*&#x200B;或&#x200B;*已发布*&#x200B;时，Designer中都会发生烹饪。
 
@@ -128,7 +128,7 @@ ht-degree: 4%
 要更改公开参数的选项，请执行以下任一操作：
 
 1. 单击已公开参数旁边的下拉选项按钮![](../../../assets/image2020-9-17-15-35-59.png)
-1. 选择“![](../../../assets/image2020-9-17-15-37-7.png)<b>”“编辑公开的图形输入”</b>。 该操作会将您直接带到图表属性中的相关条目
+1. 选择“![](../../../assets/image2020-9-17-15-37-7.png)<b>”“编辑公开的图形输入”</b>。 该操作会将您直接带到图表属性中的相关条目
 1. 双击图形的空白区域以转到图形属性，然后在<b>输入参数</b>列表中查找该参数
 1. 单击<b>资源管理器</b>中的图形，然后在<b>输入参数</b>列表中查找该参数
 
@@ -185,7 +185,7 @@ ht-degree: 4%
 
 >[!WARNING]
 >
-> 预览模式旨在尽可能准确地呈现[已发布的Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR)的体验。 因此，本页中列出的限制将在此模式下应用，如&#x200B;*静态参数不在列表中*。
+> 预览模式旨在尽可能准确地呈现[已发布的Substance 3D资源(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的体验。 因此，本页中列出的限制将在此模式下应用，如&#x200B;*静态参数不在列表中*。
 
 ![复制和粘贴输入参数](../../../assets/copy-paste-params-2.gif "复制和粘贴输入参数"){width="512px"}
 

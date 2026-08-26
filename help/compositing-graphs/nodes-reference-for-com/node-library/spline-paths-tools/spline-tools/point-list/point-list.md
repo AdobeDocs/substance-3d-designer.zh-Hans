@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 使用“点列表”节点创建和管理用于样条和路径生成的点列表。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 点列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 <b>点列表输入</b> *颜色*\
 以彩色图像的RGBA通道编码的输入点列表：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-            *整数部分：Smoothness；\
-            *小数部分：Thickness。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*整数部分：Smoothness；\
+*小数部分：Thickness。
 
 <b>点数输入</b> *整数*\
 输入点的数量。
@@ -71,12 +71,12 @@ ht-degree: 0%
 
 <b>点列表&#x200B;</b>*颜色*\
 以彩色图像的RGBA通道编码的点的输出列表：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-            *整数部分：Smoothness；\
-            *小数部分：Thickness。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*整数部分：Smoothness；\
+*小数部分：Thickness。
 
 <b>点数&#x200B;</b>*整数*\
 输出点数。
@@ -105,13 +105,13 @@ ht-degree: 0%
 <b>显示标签</b> *布尔值*\
 在“预览”输出中，每个点旁边都显示该点的名称。
 
-<b>标签大小</b> *浮动* （当“显示标签”设置为“True”时可用）\
+<b>标签大小</b> *浮动*（在“显示标签”设置为“True”时可用）\
 纹理空间中每个点的标签大小，其中0.1是纹理宽度的十分之一。
 
 <b>显示点数</b> *布尔值*\
 在“预览”输出中显示点。
 
-<b>点大小</b> *浮点*（当“显示点”设置为“True”时可用）\
+<b>点大小</b> *浮动*（在“显示点数”设置为“True”时可用）\
 纹理空间中的点的半径，其中0.1是纹理宽度的十分之一。
 
 +++

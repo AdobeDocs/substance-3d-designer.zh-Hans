@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中为组织的资源库创建和管理包元数据。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 包元数据
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 元数据根据JSON格式存储在名为/assemblies/content/0000/metadata.json的文件中（路径相对于.sbsar归档文件的根）。
 
-常规（字符串）元数据将按原样存储，例如， &quot;key&quot;： &quot;stringValue&quot;，每行一个。 同样，各个密钥的原始顺序没有被保留，并且是定义的实现。 在流程中绝不要像普通的Python指令那样依赖订购！
+常规（字符串）元数据是按原样存储的，例如“key”：“stringValue”，每行一个。 同样，各个密钥的原始顺序没有被保留，并且是定义的实现。 在流程中绝不要像普通的Python指令那样依赖订购！
 
 由于URL元数据的目的是允许用户和插件在.sbsar存档中包含外来文件，因此它们需要进行特定的转换：首先，与存储的URL匹配的资源的文件将复制到存档中实现定义的位置(通常在编号的子文件夹中，该文件夹将仅包含此文件。 重点是避免名称冲突。) 该文件将保留其原始名称（此时将放弃资源的名称）。 然后，将写入归档中复制的文件相对于metadata.json的路径，而不是metadata.json中的原始URL。
 

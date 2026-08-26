@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: 使用“路径选择”节点可根据条件从路径列表中选择和过滤特定路径。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 <b>长度是否大于或小于？</b> *布尔值* （在<b>选择模式</b>设置为&#x200B;*按长度*&#x200B;时可用）\
 控制所选内容的长度应包含还是大于或小于<b>目标长度</b>。
 
-<b>目标长度</b> *浮点*（在<b>选择模式</b>设置为&#x200B;*By Length*&#x200B;时可用）\
+<b>目标长度</b> *浮动*（在<b>选择模式</b>设置为&#x200B;*按长度*&#x200B;时可用）\
 用于选择样条的长度阈值。
 
 ## 示例

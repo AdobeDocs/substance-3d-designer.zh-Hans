@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: 使用节点对齐工具组织和对齐图形视图中的节点，可获得更清晰、可读性更高的图形。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 节点对齐工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![节点对齐工具栏](../../../assets/node-alignment-toolbar.png "节点对齐工具栏"){zoomable="yes"}
 
-节点对齐工具允许您在图中排列节点，以提高节点的可读性和创作体验。 它们提供了对齐节点、均匀分布节点和对齐网格的操作。
+节点对齐工具允许您在图中排列节点，以提高节点的可读性和创作体验。 它们提供了对齐节点、均匀分布节点和对齐网格的操作。
 
 它们只对当前选定的<b>节点</b>起作用。
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 ### 堆叠
 
-使用对齐时，<b>栈叠</b>选项![](../../../assets/node-alignment-stack.png)允许您<b>避免任何重叠</b>。 默认情况下，此选项处于启用状态。
+使用对齐时，<b>栈叠</b>选项![](../../../assets/node-alignment-stack.png)允许您<b>避免任何重叠</b>。 默认情况下，此选项处于启用状态。
 
 启用后，节点将尽可能移动到参考位置，直到它们与所选节点中的另一个节点发生冲突为止。 这有效地将它们栈叠在所选轴上，每个节点之间有一个中间网格单元的边界。
 

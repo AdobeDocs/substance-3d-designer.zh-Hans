@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的主屏幕访问最近的项目、模板和学习资源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主屏幕
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![主屏幕](../../assets/home-screen-home.jpg "主屏幕")
 
-<b>主屏幕<b> </b></b>欢迎您启动Substance 3D Designer。 它可以帮助您开始使用项目并访问有用的链接。
+<b>主屏幕<b> </b></b>欢迎您启动Substance 3D Designer。 它可以帮助您开始使用项目并访问有用的链接。
 
 <table>
 <tr style="border: 0;">

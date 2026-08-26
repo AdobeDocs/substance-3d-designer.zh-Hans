@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: 使用Atlas Splitter节点将纹理图集分割成单独的纹理，用于处理扫描的材料。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -60,10 +60,10 @@ ht-degree: 0%
 <b>自动裁剪</b> *布尔值*\
 根据最大的形状自动裁剪输出大小，以最大限度地减少空白空间。
 
-<b>形状选择</b> *整数*\
+<b>形状选区</b> *整数*\
 在网格视图中设置突出显示哪个单元格，在网格视图之外设置返回哪个单元格。
 
-<b>忽略小于</b>的形状&#x200B;*浮动*\
+<b>忽略小于</b>的形状 *浮动*\
 忽略对角线大小小于指定值的形状。
 
 <b>自动旋转</b> *布尔值*\
@@ -72,7 +72,7 @@ ht-degree: 0%
 <b>旋转</b> *浮动*\
 全局形状旋转角度
 
-<b>输入普通格式</b> *整数*\
+<b>输入法线格式</b> *整数*\
 设置输入法线的格式。 设置错误的格式将导致错误的结果。
 
 <b>缩小不透明度蒙版</b> *整数*\
@@ -87,24 +87,24 @@ ht-degree: 0%
 <b>自定义背景颜色</b> *布尔值*\
 允许您选择自定义背景颜色，而不是扩展该图层的内容。
 
-<b>基色Bg颜色</b> *浮点3*\
+<b>基色背景颜色</b> *浮点3*\
 基色的自定背景颜色。
 
-<b>正常Bg颜色</b> *浮点3*\
+<b>正常背景色</b> *浮点3*\
 法线图的自定背景色。
 
-<b>金属背景色</b> *浮动*\
+<b>金属背景颜色</b> *浮动*\
 金属质感的自定义BG颜色。
 
-<b>粗糙度Bg颜色</b> *浮动*\
+<b>粗糙背景颜色</b> *浮动*\
 粗糙度的自定背景色
 
-<b>Height的背景色</b> *浮动*\
+<b>Height背景色</b> *浮动*\
 用于Height的自定背景色
 
-<b>用户1 Bg颜色</b> *浮动*\
+<b>用户1背景颜色</b> *浮动*\
 自定义“用户1”映射的自定义BG颜色
 
-<b>用户2的Bg颜色</b> *浮动*&#x200B;自定义“用户1”映射的自定义BG颜色
+<b>用户2背景颜色</b> 自定义用户1映射的&#x200B;*浮动*&#x200B;自定义BG颜色
 
 ## 示例

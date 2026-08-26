@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
 description: 了解如何使用路径和样条曲线工具在图表中创建程序性图案和有机形状。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用路径样条曲线工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 该工具集广泛使用了<b>Substance 引擎</b>功能，这些功能在GPU上的运行速度要快得多。 因此，请为您的系统使用GPU版本的引擎： <b>Direct3D</b> (Windows)或<b>OpenGL</b> (macOS)。\
    您可以通过按<b>F9</b>键或转到主菜单栏中的<b>工具>切换引擎……</b>来切换引擎。
-1. 然后，我们强烈建议在[首选项](../../../../../interface/preferences-window/preferences-window.md)的<b>图形</b>部分中关闭<b>上下文编辑</b>(转到<b>编辑>首选项……</b>以访问此窗口)。\
+1. 然后，我们强烈建议在[首选项](../../../../../interface/preferences-window/preferences-window.md)的<b>图形</b>部分中关闭<b>上下文编辑</b>（转到主菜单栏中的<b>编辑>首选项……</b>以访问此窗口）。\
    使用上下文编辑可以在主机图形的上下文中打开实例节点，这虽然非常方便，但也会带来负面影响，即工具集的图像缓存所需的计算量会成指数级增加。
 
 当将这两个设置中的任何一个更改为推荐状态时，您应该会注意到性能的大幅提升。

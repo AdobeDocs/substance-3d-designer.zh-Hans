@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   标识符被使用，因为节点的标签是“Label”属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
+| <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   标识符被使用，因为节点的标签是“Label”属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是Substance图形。 |
 | <b>标签</b> *字符串* | 这用作输出节点及其在[实例节点](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中代表此图形的对应连接器的标签。 标签可以包含空格和特殊字符。 |
-| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
-| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输出分组的特性。   在“紧凑素材”链接创建模式下，具有相同“组”属性的输出显示为单个连接。 |
+| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
+| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输出分组的特性。   在“紧凑素材”链接创建模式下，具有相同“组”属性的输出显示为单个连接。 |
 
 ## 集成属性
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>组件</b> *字符串* | 用于将一些纹理通道映射到AxF工作流程中适当的SVBRDF着色器输入。 |
-| <b>用法</b> *字符串* | 定义输出节点的类型和用法。 此属性在驱动时非常重要：<ul data-preserve-html="true"> <li data-preserve-html="true">使用某些[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)时Substance图中的节点连接 </li> <li data-preserve-html="true">纹理与3D视图中的着色器的连接（请参阅下文：“[关于3D视图中使用实例的作用](#usages-role-3dview)”）</li> <li data-preserve-html="true">将纹理连接到集成/增效工具中的素材</li> </ul> |
+| <b>用法</b> *字符串* | 定义输出节点的类型和用法。 此属性在驱动时非常重要：<ul data-preserve-html="true"> <li data-preserve-html="true">使用某些[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)时Substance图中的节点连接 </li> <li data-preserve-html="true">纹理与3D视图中的着色器的连接（请参阅下文：“[关于3D视图中使用实例的作用](#usages-role-3dview)”）</li> <li data-preserve-html="true">将纹理连接到集成/增效工具中的素材</li> </ul> |
 | <b>色彩空间</b> *字符串* | 设置解释此输出的色彩空间。 由其他应用程序中的某些集成使用，在Designer中没有影响。 |
 
 ### 关于使用在3D视图中的作用

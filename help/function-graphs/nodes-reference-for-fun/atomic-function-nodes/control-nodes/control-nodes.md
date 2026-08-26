@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer中的访问控制节点函数图形，用于控制流和执行逻辑。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 您可以在本文档的[使用Set/Sequence节点](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)页面中了解有关序列节点的更多信息。
 
 +++输入连接器
-<b>在</b>中&#x200B;*变量类型*\
+<b>进入</b> *变量类型*\
 图形中应首先计算的部分
 
 <b>最后</b> *变量类型*\
@@ -113,7 +113,7 @@ ht-degree: 1%
 <b>初始化。</b> *变量类型*\
 在第一个迭代之前计算的图形部分 — 即循环的开始。
 
-<b>退出条件。</b> *布尔值*\
+<b>退出条件</b> *布尔值*\
 循环停止所需的条件为true。 在每次迭代中重新计算它。\
 *注意：*&#x200B;最大迭代次数仍限制为<b>最大迭代次数</b>参数。
 

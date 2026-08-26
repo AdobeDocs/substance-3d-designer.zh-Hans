@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: 使用“横截面”节点可根据用于剪切和切片效果的Height图创建横截面蒙版。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 横截面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 参数
 
-<b>横截面坐标</b> *浮点*\
+<b>横截面坐标</b> *浮动*\
 设置对切片采样的坐标。 取决于“截面轴”，可以是X或Y坐标。
 
 <b>节轴</b> *整数*\
@@ -57,10 +57,10 @@ ht-degree: 0%
 帮助程序设置
 
 <b>帮助器缩放</b> *浮动*\
-    以倍数表示的叠加大小，其中1.0表示整个图像。
+以倍数表示的叠加大小，其中1.0表示整个图像。
 
-<b>帮助器位置</b> *浮点2*\
-    叠加在输出图像中的(X， Y)位置，其中(0.0， 0.0)是左上角，(1.0， 1.0)是右下角。
+<b>帮助程序位置</b> *浮点2*\
+叠加在输出图像中的(X， Y)位置，其中(0.0， 0.0)是左上角，(1.0， 1.0)是右下角。
 
 <b>Height缩放</b> *浮动*
 

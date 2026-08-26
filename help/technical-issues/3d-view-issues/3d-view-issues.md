@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: 解决Substance 3D Designer中的3D视图问题，包括渲染、显示和性能问题。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D查看问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而�
 
 新的3D渲染器已在15.1版中升级，需要最新的GPU驱动程序。 请将系统的GPU驱动程序更新到最新版本。
 
-您可以在此处找到驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+您可以在此处找到驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [英特尔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 15.0及更高版本
 
@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 根据Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)，支持的GPU包括NVIDIA RTX 20系列（图例）或更高版本。
 
-通过使用“项目设置”[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的new选项，您可以继续默认使用OpenGL渲染器：
+通过使用“项目设置”](../../interface/preferences-window/project-settings/project-settings.md)中的[new选项，您可以继续默认使用OpenGL渲染器：
 
 1. 转到编辑>首选项>项目
 2. 选择列表中的最后一个项目文件
@@ -243,7 +243,7 @@ Designer不应用正常比例和偏差，除非它们由3D网格指定。 如果
 
 首先，确保您的系统满足Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)。
 
-然后，更新图形驱动程序。 您可以通过以下链接找到适用于您的GPU的最新驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [英特尔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+然后，更新图形驱动程序。 您可以通过以下链接找到适用于您的GPU的最新驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [英特尔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 如果您的系统包含集成的GPU (iGPU)和独立的GPU (dGPU)，请确保&#x200B;*更新两者的驱动程序*！
 

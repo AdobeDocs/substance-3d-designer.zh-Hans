@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: 使用“统一颜色”节点生成用于创建纯色填充和基层的统一颜色纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 统一颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -96,7 +96,7 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 |
-| <b>输出颜色</b> *浮动/浮动4* | 选择要在输出图像中使用的平面颜色。   使用“Alpha”颜色模式时，颜色通道用于不透明度，其中0表示完全透明，1表示完全不透明。 |
+| <b>输出颜色</b> *浮动/浮动4* | 选择要在输出图像中使用的平面颜色。   使用“Alpha”颜色模式时，颜色通道用于不透明度，其中0表示完全透明，1表示完全不透明。 |
 
 ## 输出连接器
 

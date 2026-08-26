@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: 了解路径和样条节点使用的路径格式规范和数据结构。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径格式规范
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -90,7 +90,7 @@ top[uv\_pos]和bottom[uv\_pos]共同构成文档的语义单元U[uv\_pos]，由8
 
 本文档中定义的最后一个顶点的地址。 这有助于附加新数据。
 
-因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于&rbrack;0， 1[×]0，.5&lbrack;范围内
+因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于]0， 1[×]0，.5[范围内
 
 <b>ZW</b>
 
@@ -111,7 +111,7 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 +++顶部
 <b>X</b>
 
-此路径中的顶点数。 必须位于[0， 16777216]范围内。
+此路径中的顶点数。 必须位于[0， 16777216]范围内。
 
 如果闭合路径的开始和结束顶点位于同一位置，则它们仍然计为2个顶点。\
 但具有0顶点的路径仍然是有效的。

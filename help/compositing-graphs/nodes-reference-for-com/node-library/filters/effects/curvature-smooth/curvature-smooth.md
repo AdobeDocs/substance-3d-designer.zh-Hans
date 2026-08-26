@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: 使用“曲率平滑”节点从Height图生成平滑曲率图以提取曲面细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲率平滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>曲率</b> *灰度* | 从输入法线映射计算的曲率映射。   平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。 |
-| <b>凸性</b> *灰度* | 从输入法线映射计算出的凸度映射。   区域越凸起，地图中的区域就越亮。  平坦或凹进区域为黑色。 |
-| <b>凹陷</b> *灰度* | 从输入法线映射计算出的凹面映射。   区域越凹陷，地图中的区域就越亮。  平坦或凸出区域为黑色。 |
+| <b>曲率</b> *灰度* | 从输入法线映射计算的曲率映射。   平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。 |
+| <b>凸性</b> *灰度* | 从输入法线映射计算出的凸度映射。   区域越凸起，地图中的区域就越亮。  平坦或凹进区域为黑色。 |
+| <b>凹陷</b> *灰度* | 从输入法线映射计算出的凹面映射。   区域越凹陷，地图中的区域就越亮。  平坦或凸出区域为黑色。 |
 
 ## 参数
 

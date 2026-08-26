@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: 使用“白噪声”节点生成白噪声图案，用于创建纹理变化和随机效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 白杂色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -38,26 +38,6 @@ ht-degree: 7%
 ## 描述
 
 使用针对不同直方图形状的三种方法之一生成白噪声：均匀、高斯和三角形。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 输出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
 
 </td>
 </tr>

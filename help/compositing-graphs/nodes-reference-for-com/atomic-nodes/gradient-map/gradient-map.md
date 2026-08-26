@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: 使用“渐变映射”节点，通过渐变渐变渐变将灰度值映射到颜色以实现着色和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变映射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 使用自定义渐变重新映射图像中的灰度值。
 
-此节点具有双重用途：它可以简单地用作<b> </b>灰度到颜色转换节点，或将灰度输入映射到自定义颜色色标，以便对其进行着色。
+此节点具有双重用途：它可以简单地用作<b> </b>灰度到颜色转换节点，或要着色灰度输入，请将其映射到自定颜色渐变。
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 将输出模式设置为“彩色”或“灰度”。 |
 | <b>渐变寻址</b> *布尔值* | 将渐变设置为重复（拼贴）或固定超出[0， 1]范围的值。 |
-| <b>渐变</b> *渐变键数组* | 用于映射输入灰度值的自定义渐变渐变。   可以在原地编辑或使用[渐变编辑器](#gradient-editor)进行编辑。 |
+| <b>渐变</b> *渐变键数组* | 用于映射输入灰度值的自定义渐变渐变。   可以在原地编辑或使用[渐变编辑器](#gradient-editor)进行编辑。 |
 
 ## 渐变编辑器
 

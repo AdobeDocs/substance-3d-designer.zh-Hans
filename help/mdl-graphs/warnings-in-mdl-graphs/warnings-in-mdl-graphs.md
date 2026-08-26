@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL图表中的警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面列出了[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中的MDL图形可能触发的警告和错误消息，并且提供了针对每个警告和错误消息的常见故障诊断步骤。
 
-警告显示在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。
+警告显示在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 对于场景资源节点
 
 在[资源管理器](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)面板中查找引用的资源，并检查这些资源存在于保存在其<b>文件路径</b>属性中的位置。\
-否则，请在资源管理器中单击资源项上的&#x200B;*RMB*，然后选择<b>迁移……上下文菜单中的</b>选项为该资源设置新的有效目标文件。
+否则，请在资源管理器中单击资源项上的&#x200B;*RMB*，然后在上下文菜单中选择<b>重新定位……</b>选项，以设置该资源的新有效目标文件。
 
 ![“未找到引用的资源”解决方案](../../assets/warnings-model-referenced-resource.gif "“未找到引用的资源”解决方案")
 
