@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 基于网格的生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 4%
 
 主要分为三类：
 
-* [蒙版生成器](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [蒙版生成器](mask-generators/mask-generators.md)\
   基于一个或多个已烘焙贴图的黑白蒙版生成器。
-* [风化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  基于已烘焙贴图的全物质风化效果。
-* [实用工具](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [风化](weathering/weathering.md)
+基于已烘焙贴图的全物质风化效果。
+* [实用工具](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   处理烘焙的额外实用工具和工具。

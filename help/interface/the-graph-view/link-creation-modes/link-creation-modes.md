@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 链接创建模式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ ht-degree: 0%
 
 ## 模式
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 标准 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> 紧凑 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> 紧凑材质 |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 标准 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> 紧凑 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> 紧凑材质 |
 | --- | --- | --- | --- |
 | <b>输入</b> | 所有输入均可见 | 所有输入均可见 | 每组仅1个输入 |
 | <b>输出</b> | 所有输出均可见 | 所有输出均可见 | 每组仅1个输出 |
 | <b>链接</b> | 所有链接均可见 | 所有链接均可见 | 每个组仅1个链接（绿色） |
-| <b>连接</b> | 逐个连接链接 | 可以根据匹配的用法将链接作为一个多链接材料组连接在一起。   如果一端存在用法，则连接为标准连接。 | 将链接作为一个单链接材质组连接在一起。 |
+| <b>连接</b> | 逐个连接链接 | 可以根据匹配的用法将链接作为一个多链接材料组连接在一起。   如果一端存在用法，则连接为标准连接。 | 将链接作为一个单链接材质组连接在一起。 |
 
 ## 分配组
 

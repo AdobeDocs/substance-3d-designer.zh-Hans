@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 主工具栏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 <b>新建：</b>打开子菜单以创建图表或包：
 
-* <b>新Substance图形……：</b>(Ctrl+N)为您显示[新Substance图形](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)窗口，此窗口允许您设置新的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)；
+* <b>新Substance图形……：</b>(Ctrl+N)为您显示[新图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)窗口，此窗口允许您设置新的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)；
 * <b>新建Substance函数图表：</b>使用[Substance函数图表](../../function-graphs/function-graphs.md)创建新包；
 * <b>空：</b>创建空包。
 
@@ -110,11 +110,11 @@ ht-degree: 2%
 
 <b>取消最大化窗口：</b>当任何面板为&#x200B;*最大化*&#x200B;时，此选项会取消最大化窗口并恢复布局，就像&#x200B;*在*&#x200B;窗口最大化之前一样
 
-<b>资源管理器：</b>显示/隐藏[资源管理器窗口。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>资源管理器：</b>显示/隐藏[资源管理器](../the-explorer-window/the-explorer-window.md)。
 
 <b>图形：</b>显示/隐藏[图形窗口](../../interface/the-graph-view/the-graph-view.md)。
 
-<b>参数：</b>显示/隐藏[属性窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)。
+<b>参数：</b>显示/隐藏[属性](../properties/properties.md)。
 
 <b>控制台：</b>显示/隐藏控制台窗口。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 <b>依赖关系管理器：</b>显示/隐藏[依赖关系管理器](../../interface/dependency-manager/dependency-manager.md)。
 
-<b>2D视图：</b>显示/隐藏[2D视图。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2D视图：</b>显示/隐藏[2D视图](../2d-view/2d-view.md)。
 
 <b>库：</b>显示/隐藏[库窗口。](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ ht-degree: 2%
 
 <b>提供反馈……：</b>在Adobe的[支持社区](https://www.adobe.com/go/Substance-3D-feedback-Designer_cn)主页上打开Web浏览器。
 
-<b>Substance 3D资源：</b>浏览订阅者的[收费3D内容](https://helpx.adobe.com/cn/substance-3d/unlisted/assets.html)（以前是Substance Source）。
+<b>Substance 3D资源：</b>浏览订阅者的[收费3D内容](https://substance3d.adobe.com/assets)（以前是Substance Source）。
 
-<b>Substance 3D社区资源：</b>允许您浏览[免费社区资源](https://helpx.adobe.com/cn/substance-3d/unlisted/community-assets.html)（以前是Substance share）。
+<b>Substance 3D社区资源：</b>允许您浏览[免费社区资源](https://substance3d.adobe.com/community-assets/)（以前是Substance share）。
 
 <b>管理我的帐户\*：</b>打开Adobe帐户的网页。
 

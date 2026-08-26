@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -154,6 +154,6 @@ for res in resources:
 
 ## 使用色彩空间转换编写SDTexture
 
-**SDTexture**&#x200B;类的&#x200B;**save**&#x200B;方法现在接受可选的&#x200B;**outputColorSpace**&#x200B;参数。 指定后，将在保存图像之前&#x200B;*应用色彩空间转换*。
+**SDTexture**&#x200B;类的&#x200B;**save**&#x200B;方法现在接受可选的&#x200B;**outputColorSpace**&#x200B;参数。 指定后，将在保存图像之前&#x200B;*应用色彩空间转换*。
 
 如果色彩管理模式支持嵌入的ICC配置文件&#x200B;*和*，则目标文件格式也支持它们，则色彩空间ICC配置文件将&#x200B;*嵌入到生成的图像文件中*。

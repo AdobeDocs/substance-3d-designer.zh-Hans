@@ -10,17 +10,17 @@ helpx_tags: ""
 title: 导出位图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '577'
+ht-degree: 2%
 
 ---
 
 
 # 导出位图
 
-本页介绍Substance 3D Designer如何导出为多种不同的位图文件格式，以及如何批量导出多个UV磁贴。[如果要导出到PSD文件，](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [此项目有一个单独的专用页。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+本页介绍Substance 3D Designer如何导出为多种不同的位图文件格式，以及如何批量导出多个UV磁贴。如果要[导出到PSD文件](../exporting-psd-files/exporting-psd-files.md)，请为此创建一个单独的专用页。
 
 ![导出简化](../../assets/exportflow.png "导出简化")
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 * 您<b>从图形</b>导出，而不是从包导出。 包不会自行生成图像内容。
 * 导出的位图数（和分辨率）由图形的<b>输出</b>决定。
 * 已为所有输出/位图设置Filetype。
-* 导出不同于[发布](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)，请确保您充分理解其中的差异！
+* 导出不同于[发布](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)，请确保您充分理解其中的差异！
 
 ## 导出方法
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在[资源管理器窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，右键单击要导出的图形，然后选择&#x200B;**“将输出导出为位图”**
+在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)窗口中，右键单击要导出的图形，然后选择&#x200B;**“将输出导出为位图”**
 
 ![](../../assets/export-explorer.gif)
 

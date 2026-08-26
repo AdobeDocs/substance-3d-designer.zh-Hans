@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 参数预设
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 外部预设涉及磁盘上的外部文件，即\*.SBSPRS文件。 它们可以在不同的图形和节点之间传输，但只能在应用程序内传输。 它们的主要目的正是这样的：转移大量值，无法逐个复制。
 
-外部预设适用于[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)上的所有特定参数、[原子节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)上的大多数特定参数（[例外是那些无法公开的参数](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）以及[图形属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)中公开的输入参数。
+外部预设适用于[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)上的所有特定参数、[Substance节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)上的大多数特定参数（[异常是那些无法公开的参数](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）以及[参数](../../graph-parameters/graph-parameters.md)中公开的输入参数。
 
 它们通过此菜单简单保存和加载。 保存的SBSPRS文件可以加载到任何其他节点或图形上。
 

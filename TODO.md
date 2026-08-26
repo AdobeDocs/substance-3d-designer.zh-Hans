@@ -1,8 +1,8 @@
 ---
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # 待办事项
@@ -16,11 +16,23 @@ ht-degree: 1%
 
 * AdobeDocs上的Python API文档的入口点
 * “文档弹出”页面中的示例
+* 术语表：
+  * HDR
+  * 金属度/金属质感
+  * HDR
+  * 镜面
+  * Height图
+  * 不透明度
+  * Frustum
+  * 切线空间
+  * 种子/随机种子
+  * FX-Map
+  * 像素处理器
+  * 预设
 
 ## 修复
 
 * [输出节点](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)中的链接和格式损坏
-* Helpx链接
 * 删除页面内的ToC(例如， 新噪声)
 * 修复节点页面布局(例如， 新噪声)
 * 修复节点页中第一个示例图像的链接(例如， 新噪声)

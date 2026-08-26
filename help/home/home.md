@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer用户指南
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 61535e3f89e10931c220096577e76abb9799d8df
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -49,8 +49,8 @@ ht-degree: 89%
 * [主屏幕](../interface/home-screen/home-screen.md) — 启动 Substance 3D Designer 时，主屏幕会对您表示欢迎。 此处的内容旨在帮助您开始使用软件并访问最有用的链接。
 * [自定义工作区](../interface/customizing-your-wor/customizing-your-workspace.md) — 此页面介绍了在 Adobe Substance 3D Designer 的 https://www.adobe.com/cn/products/substance3d-designer.html 用户界面中排列面板的方法，并利用其功能来增强您的工作流程。
 * [主工具栏](../interface/the-main-toolbar/the-main-toolbar.md) — 此页面描述了 Adobe Substance 3D Designer 的主工具栏和菜单，它们出现在主窗口的左上方。
-* [首选项](../interface/preferences-window/preferences-window.md) — 此页面显示“首选项”窗口及其所有设置。
-* [资源管理器](../interface/the-explorer-window/the-explorer-window.md) — 此页面描述了 Adobe Substance 3D Designer 中的资源管理器停靠窗格。 通过此停靠窗格，您可以管理包及其资源。
+* [首选项](../interface/preferences-window/preferences-window.md) — 此页面显示“首选项”窗口及其所有设置。
+* [资源管理器](../interface/the-explorer-window/the-explorer-window.md) — 此页面描述了 Adobe Substance 3D Designer 中的资源管理器停靠窗格。 通过此停靠窗格，您可以管理包及其资源。
 * [图形视图](../interface/the-graph-view/the-graph-view.md) — 此页面显示 Substance 3D Designer 的图形视图。
 * [库](../interface/the-library/the-library.md) — 此页面显示 Substance 3D Designer 的“库”面板、其布局以及它为搜索和筛选内容提供的工具。
 * [属性](../interface/properties/properties.md) — 此页面显示了 Substance 3D Designer 的“属性”面板、包括其布局以及您可以在其中找到的不同展开项目、类别和参数。 它专注于 Substance 图形的属性。 Substance函数图和FX-Map图的布局更简单。

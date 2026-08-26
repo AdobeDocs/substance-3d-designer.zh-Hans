@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 1%
@@ -75,8 +75,8 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>直方图分辨率</b> *整数* | 直方图的宽度。 值越高，值分布越精细。   可用分辨率为：256、512、1024、2048、4096（像素） |
-| <b>自动缩放</b> *布尔值* | 如果为“True”，则重新映射直方图以使用图像的完整Height。   如果为“False”，则每列使用的Height像素数量与输入图像中某个值的出现次数相同。 |
+| <b>直方图分辨率</b> *整数* | 直方图的宽度。 值越高，值分布越精细。   可用分辨率为：256、512、1024、2048、4096（像素） |
+| <b>自动缩放</b> *布尔值* | 如果为“True”，则重新映射直方图以使用图像的完整Height。   如果为“False”，则每列使用的Height像素数量与输入图像中某个值的出现次数相同。 |
 | <b>缩放</b> *浮动* | 垂直缩放直方图，值1表示直方图的完整Height。 |
 | <b>取样</b> *整数* | 在直方图分辨率与渲染分辨率不匹配时，对直方图图像进行滤波的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>双线性：</b>将双线性滤波应用于直方图，从而生成插值点</li> <li data-preserve-html="true"><b>最接近的：</b>对最接近的像素进行采样，不进行过滤，从而产生平淡的步骤</li> </ul> |
 | <b>翻转Y轴</b> *布尔值* | 如果为“True”，则垂直镜像直方图。 |

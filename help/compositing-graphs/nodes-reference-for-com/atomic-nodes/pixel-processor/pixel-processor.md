@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 像素处理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 |
-| <b>每像素函数</b> *浮动/浮动4* | 输出图像中每个像素计算的[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)。   使用设置为<b>$pos</b>变量的[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)节点访问当前像素的[规范化](../../../../glossary/glossary.md)位置。 |
+| <b>每像素函数</b> *浮动/浮动4* | 输出图像中每个像素计算的[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)。   使用设置为<b>$pos</b>变量的[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)节点访问当前像素的[规范化](../../../../glossary/glossary.md)位置。 |
 
 ## 输入连接器
 

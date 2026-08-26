@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 主要MDL图形概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ MDL图的结果由<b>根</b>节点定义。 图形的任何节点都可以设置
 
 ![MDL图形的根节点](../../assets/mdl-root-hl.png "MDL图形的根节点")
 
-*MDL图形中的根节点及其属性显示在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *面板*&#x200B;中
+*MDL图形中的根节点及其属性显示在[属性](../../interface/properties/properties.md)* *面板*&#x200B;中
 
 ## 连接器和类型
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 版本 14.0
 
-<b>Substance 3D Designer 14.0 </b>提供了一些生活质量改进（图形导航、性能……） 但最重要的是，它包括许多新节点（颜色处理、科威特滤镜、直方图工具、斜面平滑、方向距离...）。 有关所有这些更改的更多详细信息，请参阅下文。 
+<b>Substance 3D Designer 14.0 </b>提供了一些生活质量改进（图形导航、性能……） 但最重要的是，它包括许多新节点（颜色处理、科威特滤镜、直方图工具、斜面平滑、方向距离...）。 有关所有这些更改的更多详细信息，请参阅下文。
 
 *发行日期：2024年7月30日*
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 此14.0版本通过下面列出的新节点提供了许多新内容：
 
-* <b>专用于颜色处理的节点： </b>一个节点<b>（</b>[量化颜色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>到<b> </b>减少图像中的颜色数量并从中提取调色板、一系列用于构建您自己的调色板的工具节点（[视图](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [创建](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [修改](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>调色板），以及一个使用ID映射将其应用于另一个图像（[应用调色板](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）。 您还将找到用于遮盖灰度的[ID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)节点，以便将ID映射（由Quantize颜色计算）转换为灰度蒙版。 有了这整套节点，您就拥有了使用颜色创建风格化效果所需的一切。
+* <b>专用于颜色处理的节点： </b>一个节点<b>（</b>[量化颜色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>到<b> </b>减少图像中的颜色数量并从中提取调色板，这是一系列工具节点，用于构建您自己的调色板（[视图](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [创建](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [修改](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b>） </b>调色板)以及使用ID映射将其应用于其他图像的调色板（[应用调色板](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）。 您还将找到用于遮盖灰度的[ID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)节点，以便将ID映射（由Quantize颜色计算）转换为灰度蒙版。 有了这整套节点，您就拥有了使用颜色创建风格化效果所需的一切。
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 其他强大的节点也加入进来：
 
 * [<b>曲率平滑</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)：此新版本现在可正确支持所有拼贴模式，添加两个新输出（凸度和凹度），并提高了准确性和性能。
-* <b>[直方图均衡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md)：</b>此节点通过调整值来均衡灰度图像的直方图，以获得均衡分布。 此节点附带两个伴随节点： [直方图渲染](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)以输出图像的直方图，以及[直方图计算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>以将直方图编码为像素行。
+* <b>[直方图均衡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md)：</b>此节点通过调整值来均衡灰度图像的直方图，以获得均衡分布。 此节点附带两个伴随节点：[直方图渲染](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)以输出图像的直方图和[直方图计算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>将直方图编码为像素行。
 * <b>[斜面平滑](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)：</b>得益于此渐变，您可以从蒙版的边界（向外、向内或两者）绘制渐变或平面颜色。 节点[方向距离](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>也绘制渐变，但方向是特定的。
 * <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md)：</b>此节点与[Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)节点相反，它从正常映射中删除由Height映射描述的曲面细节。
 

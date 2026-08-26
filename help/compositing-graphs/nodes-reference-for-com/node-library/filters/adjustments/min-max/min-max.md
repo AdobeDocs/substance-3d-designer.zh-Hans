@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 最小/最大
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 ## 描述
 
-“最小最大值”查找灰度输入的最亮和最暗值，并将其作为[值](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)返回。 它旨在作为[自动色阶](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)的更细粒度手动替代品，其中您公开[色阶](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)节点的值输入，并将最小最大值中的值插入其中。
+“最小最大值”查找灰度输入的最亮和最暗值，并将它们作为[值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)返回。 它旨在作为[自动色阶](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)的更细粒度手动替代品，其中您公开[色阶](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)节点的值输入，并将最小最大值中的值插入其中。
 
-若要将此节点与“色阶”一起使用，您至少应知道如何使用[公开参数下拉列表](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)以及[值输入选项卡](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)。
+若要将此节点与“色阶”一起使用，您至少应知道如何使用[公开参数下拉列表](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)以及[值输入选项卡](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 ## 参数
 

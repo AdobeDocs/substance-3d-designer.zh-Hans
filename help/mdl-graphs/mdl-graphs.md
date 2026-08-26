@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL图表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ MDL表示[材质定义语言](http://www.nvidia.com/object/material-definition-l
 MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs.md)互补，后者输出&#x200B;*纹理*，其可被MDL素材&#x200B;*采样*&#x200B;以影响其行为和外观。
 
 我们建议按照&#x200B;*的顺序*&#x200B;浏览此文档的各个部分，以获得引导式学习路径，首先从下面的MDL图形资源的属性开始。\
-想跳进去吗？ 开始使用[MDL学习资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)部分中的MDL图表！
+想跳进去吗？ 开始使用MDL学习资源部分中的MDL图表！
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 
 ![MDL图形属性](../assets/mdl-main.png "MDL图形属性")
 
-*[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中的MDL图形属性*
+*“属性”面板中的MDL图形属性*
 
 ## MDL图形属性
 
@@ -89,7 +89,7 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 
 ### 图形输入
 
-此部分列出连接到MDL图形的[公开参数](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)的交互参数，并定义其&#x200B;*默认值*。 它们可能随时&#x200B;*被调整*&#x200B;和&#x200B;*重新排序*。
+此部分列出连接到MDL图形的公开参数的交互式参数，并定义其&#x200B;*默认值*。 它们可能随时&#x200B;*被调整*&#x200B;和&#x200B;*重新排序*。
 
 这些输入的接口和行为由它们所连接的公开参数的&#x200B;*值类型*&#x200B;和&#x200B;*范围*&#x200B;定义。 例如：
 

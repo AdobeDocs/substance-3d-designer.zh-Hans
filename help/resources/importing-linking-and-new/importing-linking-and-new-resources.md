@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 导入、链接和新资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # 导入、链接和新资源
 
-[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)支持3种导入或创建新资源以在图表中使用的模式。 这些资源可以是许多不同类型的资源，包括但不限于[位图](../../resources/bitmap-resource/bitmap-resource.md)、[矢量图形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、[3D场景](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)和[字体](../../resources/font-resource/font-resource.md)。 本页介绍各种方法以及每种方法的最佳使用时机。
+[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)支持3种导入或创建新资源以在图表中使用的模式。 这些资源可以是许多不同类型的资源，包括但不限于[位图](../../resources/bitmap-resource/bitmap-resource.md)、[矢量图形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、[3D场景](../3d-scene-resource/3d-scene-resource.md)和[字体](../../resources/font-resource/font-resource.md)。 本页介绍各种方法以及每种方法的最佳使用时机。
 
-通过在资源管理器[&#128279;](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中单击包上的RMB [，可以访问所有方法。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+在资源管理器中单击包上的RMB即可访问所有方法。
 
 下表简要概述了这两种方法的功能差异。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | 图表([Substance的图表](../../compositing-graphs/substance-compositing-graphs.md)，[Substance的函数图表](../../function-graphs/function-graphs.md) | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | [位图](../../resources/bitmap-resource/bitmap-resource.md)，[矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| [3D场景](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)，[字体](../../resources/font-resource/font-resource.md) | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| 3D场景，[字体](../../resources/font-resource/font-resource.md) | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
 | 在SBS文件旁边创建 | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（错误）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | 可在Designer中编辑 | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（错误）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | 自动同步外部编辑 | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |

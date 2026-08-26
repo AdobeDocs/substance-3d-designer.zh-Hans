@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 激活和许可证
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * <b>评估此产品</b>：旧版试用不再可用。 您可以改为在[此处](https://www.adobe.com/creativecloud/3d-augmented-reality.html)或使用Creative Cloud桌面版为每个Substance 3D应用程序开始30天试用。 每个试用都独立于其他Substance 3D应用程序，因此您可以一次试用一个应用程序或一次试用所有应用程序。
 * <b>使用许可证文件进行激活</b>：在2022年9月30日之前，使用从[Substance 3D网站](https://store.substance3d.com/user)上的帐户页面下载的许可证文件(<b>\*.key</b>)激活产品。
-* <b>使用您的帐户激活</b>：旧版Substance帐户无法再用于激活。 [此处提供了有关Substance帐户的更多信息](https://helpx.adobe.com/cn/substance-3d/unlisted/faq-end-of-life-accounts.html)。
+* <b>使用您的帐户激活</b>：旧版Substance帐户无法再用于激活。
 
 >[!IMPORTANT]
 >

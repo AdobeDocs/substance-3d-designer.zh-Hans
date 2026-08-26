@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 弯曲法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 2%
@@ -54,16 +54,16 @@ ht-degree: 2%
 用于计算弯曲法线的射线数。\
 “较高”能够以牺牲性能为代价，提供更流畅、更精确的结果。
 
-<b>Height缩放</b> *浮动（在“使用物理尺寸”设置为False时可用）*\
+<b>Height比例</b> *浮动（当“使用物理尺寸”设置为False时可用）*\
 Height映射输入强度的乘数。
 
-<b>分布</b> *整数*\
+<b>分发</b> *整数*\
 设置分布方法。 影响向阴影区域的衰减。
 
 <b>最大距离</b> *浮动*\
 设置光线可传播以被遮挡的最大距离。
 
-<b>扩散角</b> *浮动*\
+<b>扩散角度</b> *浮动*\
 设置要拍摄的光线的扩散角度。 值1表示整个半球。
 
 <b>正常格式</b> *整数*\

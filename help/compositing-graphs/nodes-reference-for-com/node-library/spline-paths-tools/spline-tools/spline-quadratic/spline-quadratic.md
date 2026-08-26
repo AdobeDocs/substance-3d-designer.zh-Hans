@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 样条（二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 | <b>启动Height</b> *浮动* | 调整<b>p1</b>点的Height，较低的值表示较低或较深的位置。  这会影响<b>p1</b>处的样条的Height。 |
 | <b>结束Height</b> *浮动* | 调整<b>p3</b>点的Height，较低的值表示较低或较深的位置。  这会影响<b>p3</b>处的样条的Thickness。 |
 | <b>自动切线Height</b> *布尔值* | 调整<b>p3</b>点的Height，较低的值表示较低或较深的位置。  这会影响<b>p3</b>处的样条的Thickness。 |
-| <b>正切Height</b> *浮动* | 调整由<b>p2</b>点控制的切线驱动的Height。  这会影响样条沿线的Height，因为它从<b>p1</b>引向<b>p3</b>。   *注意：*&#x200B;此参数仅在<b>自动切线Height</b>设置为“False”时可用。 |
+| <b>正切Height</b> *浮动* | 调整由<b>p2</b>点控制的切线驱动的Height。  这会影响样条沿线的Height，因为它从<b>p1</b>引向<b>p3</b>。   *注意：*&#x200B;此参数仅在<b>自动切线Height</b>设置为“False”时可用。 |
 
 
 +++
@@ -87,8 +87,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>启动Thickness</b> *浮动* | 调整<b>p1</b>点的Thickness。 这会影响<b>p1</b>处的样条的Thickness。   *注意：* Thickness由特定样条节点使用。 |
-| <b>结束Thickness</b> *浮动* | 调整<b>p3</b>点的Thickness。 这会影响<b>p3</b>处的样条的Thickness。   *注意：* Thickness由特定样条节点使用。 |
+| <b>启动Thickness</b> *浮动* | 调整<b>p1</b>点的Thickness。 这会影响<b>p1</b>处的样条的Thickness。   *注意：* Thickness由特定样条节点使用。 |
+| <b>结束Thickness</b> *浮动* | 调整<b>p3</b>点的Thickness。 这会影响<b>p3</b>处的样条的Thickness。   *注意：* Thickness由特定样条节点使用。 |
 | <b>自动切线Thickness</b> *布尔值* | 自动设置样条切线的Thickness，以从<b>起始Thickness</b>线性插值到<b>结束Thickness</b>。   *注意：* Thickness由特定样条节点使用。 |
 | <b>正切Thickness</b> *浮动* | 调整由<b>p2</b>点控制的切线驱动的Thickness。  这会影响样条沿线的Thickness，因为它从<b>p1</b>引向<b>p3</b>。   *注意：* Thickness由特定样条节点使用。  *注意2：*&#x200B;此参数仅在<b>自动切线Thickness</b>设置为“False”时可用。 |
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>显示切线</b> *布尔值* | 在<b>预览</b>输出中显示<b>p1</b>点“out”切线和<b>p3</b>点“in”切线。反转样条线的方向。 |
+| <b>显示切线</b> *布尔值* | 在<b>预览</b>输出中显示<b>p1</b>点“out”切线和<b>p3</b>点“in”切线。反转样条方向。 |
 | <b>显示方向帮助程序</b> *布尔值* | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> *布尔值* | 在样条Thickness的边显示附加线。 |
 | <b>段数量</b> *整数* | 调整用于在<b>预览</b>输出中绘制样条可视化效果的段数。  值越高，线条越平滑。 |

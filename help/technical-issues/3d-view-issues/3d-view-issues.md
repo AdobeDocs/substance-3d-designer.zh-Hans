@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D查看问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而�
 
 新的3D渲染器已在15.1版中升级，需要最新的GPU驱动程序。 请将系统的GPU驱动程序更新到最新版本。
 
-您可以在此处找到驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+您可以在此处找到驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [英特尔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 15.0及更高版本
 
@@ -243,7 +243,7 @@ Designer不应用正常比例和偏差，除非它们由3D网格指定。 如果
 
 首先，确保您的系统满足Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)。
 
-然后，更新图形驱动程序。 您可以通过以下链接找到适用于您的GPU的最新驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [英特尔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+然后，更新图形驱动程序。 您可以通过以下链接找到适用于您的GPU的最新驱动程序： [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [英特尔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 如果您的系统包含集成的GPU (iGPU)和独立的GPU (dGPU)，请确保&#x200B;*更新两者的驱动程序*！
 

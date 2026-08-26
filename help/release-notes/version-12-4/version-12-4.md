@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 版本 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### 在参数字段中键入公式
 
-当您要输入特定参数值时，无需使用计算器或再在头中进行计算。 现在，在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)和应用程序的其他位置中为参数设置数值时，可以直接输入基本公式，如加法、分法、乘法或减法。
+当您要输入特定参数值时，无需使用计算器或再在头中进行计算。 现在，在“属性”和应用程序的其他位置中为参数设置数值时，您可以直接输入基本公式，如加法、分法、乘法或减法。
 
 ![](../../assets/final-formula.gif){width="640px"}
 

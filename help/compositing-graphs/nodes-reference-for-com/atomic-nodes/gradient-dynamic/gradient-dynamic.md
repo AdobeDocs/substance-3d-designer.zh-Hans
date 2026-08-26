@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变（动态）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -94,7 +94,7 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>渐变寻址</b> *布尔值* | 设置渐变是重复（拼贴）还是固定。   此参数确定如何处理灰度输入的[0， 1]范围之外的HDR像素：最多可夹持或折叠[0， 1]。 |
+| <b>渐变寻址</b> *布尔值* | 设置渐变是重复（拼贴）还是固定。   此参数确定如何处理灰度输入的[0， 1]范围之外的HDR像素：最多可夹持或折叠[0， 1]。 |
 | <b>渐变方向</b> *整数* | 设置应沿其对“渐变输入”进行采样的轴：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平：</i>在X轴上取样一行像素。</li> <li data-preserve-html="true"><i>垂直：</i>对Y轴上的像素列进行取样。</li> </ul> |
 | <b>渐变输入位置</b> *浮动* | 要在“渐变输入”中取样的像素的行或列的规范化位置。 |
 

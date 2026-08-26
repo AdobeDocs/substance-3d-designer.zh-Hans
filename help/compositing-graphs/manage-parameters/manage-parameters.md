@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ ht-degree: 3%
 * <b>粘贴参数：</b>请参阅下面的[复制和粘贴参数](../../compositing-graphs/manage-parameters/manage-parameters.md)部分。
 * <b>将参数另存为预设文件：</b>在[此专用页面](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)中了解有关参数预设的更多信息。
 * <b>应用预设文件中的参数：</b>了解有关[此专用页面](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)中参数预设的更多信息。
-* <b>全部重置：</b>将所有参数重置为默认值和范围。 如果函数应用于任何参数，则会将其关闭。
+* <b>全部重置：</b>将所有参数重置为默认值和范围。 如果函数应用于任何参数，则会将其关闭。
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ ht-degree: 3%
 
 ## 复制和粘贴参数
 
-可以复制源节点的所有参数值，然后将其粘贴到目标节点上。 源节点和目标节点的参数是<b>基于它们的标识符和类型</b>匹配的。
+可以复制源节点的所有参数值，然后将其粘贴到目标节点上。 源节点和目标节点的参数是<b>基于它们的标识符和类型</b>匹配的。
 
 例如，当参数“Scale”的标识符为“scale”并且类型为“Float”时，可以将其复制并粘贴到另一个参数“Shape Scale”上，如果它的标识符也是“scale”并且类型也是“Float”。
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 距离
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -84,16 +84,16 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 同时更改“源输入”输入类型。 |
+| <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 同时更改“源输入”输入类型。 |
 | <b>最大距离</b> *浮动* | 调整最大距离以检测蒙版中最接近的边框，以像素为单位。 |
-| <b>合并源/距离</b> *布尔值* | 确定可选的“源输入”与最终单元格的组合方式。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>合并：</i>将“源输入”值与渐隐线性蒙版合并。 如果连接了“源输入”输入，则其值与计算的距离相结合。</li> <li data-preserve-html="true"><i>仅源：</i>仅从“源输入”生成纯色。</li> </ul> |
+| <b>合并源/距离</b> *布尔值* | 确定可选的“源输入”与最终单元格的组合方式。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>合并：</i>将“源输入”值与渐隐线性蒙版合并。 如果连接了“源输入”输入，则其值与计算的距离相结合。</li> <li data-preserve-html="true"><i>仅源：</i>仅从“源输入”生成纯色。</li> </ul> |
 | <b>距离模式</b> *整数* | 选择计算所提取蒙版中到最接近边框的距离的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>欧几里德：</i>平方X/Y差的总和。</li> <li data-preserve-html="true"><i>曼哈顿：</i> X/Y差值的绝对值总和。</li> <li data-preserve-html="true"><i>Chebyshev：</i> X/Y差异的绝对值的最大值。</li> </ul>  <div><img alt="距离模式示例" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="距离模式示例"/></div> |
 
 ## 输入连接器
 
 |  |  |
 | --- | --- |
-| <b>蒙版输入</b> *灰度*&#x200B;主要 | 灰度蒙版，应计算其距离值的边界。   使用阈值0.5从图像中提取二进制蒙版，其中高于该阈值的所有值都是白色，而低于该阈值的所有值都是黑色。 |
+| <b>蒙版输入</b> *灰度*&#x200B;主要 | 灰度蒙版，应计算其距离值的边界。   使用阈值0.5从图像中提取二进制蒙版，其中高于该阈值的所有值都是白色，而低于该阈值的所有值都是黑色。 |
 | <b>源输入</b> *彩色/灰度* | 可选的灰度图像，应从中复制“蒙版输入”最近边框的像素值。 |
 
 ## 输出连接器

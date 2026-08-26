@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 系统要求
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ec787363bab8318804a71d6cf7c5484fc67a987e
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%

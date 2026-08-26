@@ -10,9 +10,9 @@ helpx_tags: ""
 title: PBR 渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ ht-degree: 1%
 
 ## 示例图像
 
-所有图像都是使用[Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/assets.html)库中的材质，直接在Designer内部的2D视口中生成的。
+所有图像都是使用[Substance 3D资源](https://substance3d.adobe.com/assets)库中的材质，直接在Designer内部的2D视口中生成的。
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
 | --- | --- | --- | --- |

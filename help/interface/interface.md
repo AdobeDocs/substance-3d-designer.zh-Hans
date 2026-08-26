@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 工作区
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Designer的默认停放布局如下：
 
 ## 属性
 
-[属性停放](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)是最具技术性的窗口。 它始终与上下文相关，并且将显示可更改选定资源或节点行为的滑块、下拉菜单和其他元素。
+[属性停放区](properties/properties.md)是最具技术性的窗口。 它始终与上下文相关，并且将显示可更改选定资源或节点行为的滑块、下拉菜单和其他元素。
 
 ![属性](../assets/properties-15.jpg "属性")
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 用于遮盖灰度的ID
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 1%

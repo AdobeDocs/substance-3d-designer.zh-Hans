@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 位图绘画工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 可通过以下方式创建&#x200B;*新的*&#x200B;位图：
 
-* 在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，单击&#x200B;*SBS包*&#x200B;或包中的&#x200B;*文件夹*&#x200B;上的RMB以打开其上下文菜单，然后打开<b>新建</b>子菜单并选择<b>位图</b>选项
+* 在[资源管理器](../../../interface/the-explorer-window/the-explorer-window.md)面板中，单击&#x200B;*SBS包*&#x200B;或包中的&#x200B;*文件夹*&#x200B;上的RMB以打开其上下文菜单，然后打开<b>新建</b>子菜单并选择<b>位图</b>选项
 * 在[图形](../../../interface/the-graph-view/the-graph-view.md)中，创建一个[位图节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)，然后在上下文菜单中选择<b>从新资源……</b>选项
 
 将会打开<b>新位图</b>窗口，允许您设置新位图资源的&#x200B;*名称*、*分辨率*&#x200B;和&#x200B;*背景颜色*。
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 <b>导出库：</b> *将*&#x200B;当前预设及其所有设置保存到库文件中
 
-<b>导入库：</b> *从现有库文件中加载*&#x200B;预设，并将其&#x200B;*添加*&#x200B;到当前列表 — 具有&#x200B;*相同名称的预设将被库文件中的预设替换*
+<b>导入库：</b> *从现有库文件中加载*&#x200B;个预设，然后将其&#x200B;*添加*&#x200B;到当前列表 — 具有&#x200B;*相同名称的预设将被库文件中的预设替换*
 
 <b>重置库：</b>使用默认库重置当前预设
 
-<b>替换库：</b> *从现有库文件中加载*&#x200B;预设，并&#x200B;*关闭*&#x200B;当前列表
+<b>替换库：</b> 从现有库文件&#x200B;*加载*&#x200B;预设，并&#x200B;*关闭*&#x200B;当前列表
 
 </td>
 <td style="border: 0;" valign="top">

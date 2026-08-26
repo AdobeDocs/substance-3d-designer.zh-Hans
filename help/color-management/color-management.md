@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,7 @@ Designer将在保存图像文件之前&#x200B;*将*&#x200B;张图像转换为指
 
 ![导出输出对话框](../assets/2019-3-0-clr-mgt-export-outputs.png "导出输出对话框"){width="512px"}
 
-您也可以从[2D视图](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)中为图像&#x200B;*保存的*&#x200B;分配色彩空间(OCIO)或附加ICC配置文件(AdobeACE)。
+您也可以从[2D视图](../interface/2d-view/2d-view.md)中为图像&#x200B;*保存的*&#x200B;分配色彩空间(OCIO)或附加ICC配置文件(AdobeACE)。
 
 ![2D视图导出选项](../assets/2019-3-0-clr-mgt-save-image.png "2D视图导出选项")
 
@@ -209,7 +209,7 @@ Designer附带的HDRI环境位于<b>线性sRGB</b>色彩空间中。\
 </tr>
 </table>
 
-在处理&#x200B;*创建的没有*&#x200B;色彩管理的图表或来自[Substance 3D资源](https://helpx.adobe.com/cn/substance-3d/unlisted/assets.html)库的素材时，这些功能非常有用。
+在处理&#x200B;*创建的没有*&#x200B;色彩管理的图表或来自[Substance 3D资源](https://substance3d.adobe.com/assets)库的素材时，这些功能非常有用。
 
 ![库中的颜色转换节点](../assets/2019-3-0-clr-mgt-nodes.png "库中的颜色转换节点"){width="512px"}
 

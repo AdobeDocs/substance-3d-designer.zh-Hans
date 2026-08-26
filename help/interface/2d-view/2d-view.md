@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 2D 视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 在图形视图中，您可以使用<b>在2D视图中查看输出</b>上下文菜单选项将图像发送到2D视图，该菜单选项可通过单击&#x200B;*人民币*&#x200B;来访问。
 
 * ...在&#x200B;*节点*&#x200B;上显示&#x200B;*该节点的输出*。 如果节点有多个输出，请在子菜单中选择所需的输出
-* ...在图形视图中的&#x200B;*空格*&#x200B;上显示&#x200B;*该图形的输出*。 如果图形有多个输出，请在子菜单中选择所需的输出
+* ...在图形视图中的&#x200B;*空格*&#x200B;上显示&#x200B;*该图形的输出*。 如果图形有多个输出，请在子菜单中选择所需的输出
 
 加载图形时，默认情况下，其&#x200B;*第一输出*&#x200B;自动显示在2D视图中。 您可以在[首选项](../../interface/preferences-window/preferences-window.md)中禁用此行为。 转到<b>编辑>首选项>图形>Substance合成图形</b>和&#x200B;*取消选中* <b>打开图形时以2D视图查看输出</b>选项。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 选择文件后，将出现一个新工具栏，其中包含图像叠加的以下控件：
 
-<b>![](../../assets/2d-view-icon-background-close.png)关闭：</b>*关闭*&#x200B;叠加控件工具栏和&#x200B;*禁用*&#x200B;背景图像叠加。
+<b>![](../../assets/2d-view-icon-background-close.png)关闭：</b> *关闭*&#x200B;叠加控件工具栏和&#x200B;*禁用*&#x200B;背景图像叠加。
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png)加载图像：</b>选择&#x200B;*其他图像文件*&#x200B;用作叠加。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
 如果在[3D视图](../../interface/3d-view/3d-view.md)停靠区的<b>场景</b>菜单中启用了<b>在2D视图中显示UV</b>选项，则UV叠加功能在2D视图中可用。
 
-您可以使用<b>UV</b>按钮启用它。 ![](../../assets/2d-view-icon-uv.png)
+您可以使用<b>UV</b>按钮启用它。![](../../assets/2d-view-icon-uv.png)
 
 这样会将当前在3D视图[&#128279;](../../interface/3d-view/3d-view.md)中选定的网格的UV显示为彩色线框。
 
@@ -343,7 +343,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 您可以在文档的[位图绘画编辑器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html)页面中了解更多信息。
+> 您可以在文档的[位图绘画工具](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)页面中了解更多信息。
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 您可以在文档的[矢量图形编辑器（已弃用）](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html)页面中了解更多信息。
+> 您可以在文档的[矢量编辑工具](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)（已弃用）页面中了解更多信息。
 
 ![2D视图色彩管理](../../assets/2d-view-color-management-ocio.png "2D视图色彩管理"){width="360px"}
 

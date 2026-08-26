@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3514'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 1%
 * 具有&#x200B;**GPU 路径追踪**&#x200B;渲染器的高质量光线追踪渲染
 
 在此处了解详情： [3D渲染器](3d-renderers/3d-renderers.md)
+
++++ 3D视图停放
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## 视区交互
 
@@ -122,9 +128,9 @@ ht-degree: 1%
 
 要查看图形的所有输出，请单击[图形视图](../../interface/the-graph-view/the-graph-view.md)中的空白区域&#x200B;*人民币*，然后在上下文菜单中选择&#x200B;**在3D视图中查看输出**&#x200B;选项。
 
-您还可以在无需打开图表的情况下查看图表的输出，方法是单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)停靠区中的图表资源的RMB，然后在上下文菜单中选择&#x200B;**在3D视图中查看输出**&#x200B;选项。
+您还可以在无需打开图表的情况下查看图表的输出，方法是单击[资源管理器](../the-explorer-window/the-explorer-window.md)停靠区中的图表资源的RMB，然后在上下文菜单中选择&#x200B;**在3D视图中查看输出**&#x200B;选项。
 
-作为图形上下文菜单的替代方法，您可以通过将图形从[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)停靠区拖动到[3D视图](https://substance3d.adobe.com/)来获得相同的结果。
+作为图形上下文菜单的替代方法，您可以通过将图形从[资源管理器](../the-explorer-window/the-explorer-window.md)停靠区拖动到3D视图来获得相同的结果。
 
 在&#x200B;*加载图形*&#x200B;时，其输出默认自动应用于3D视图。 您可以在[首选项](../../interface/preferences-window/preferences-window.md)中禁用此行为。 转到&#x200B;**编辑>首选项>图形>常用**&#x200B;并取消选中&#x200B;**打开图形时在3D视图中查看输出**&#x200B;选项。
 
@@ -144,7 +150,7 @@ ht-degree: 1%
 
 您还可以使用&#x200B;*人民币*&#x200B;将任何节点从“图形”视图拖放到3D视图。 您会看到一个列表，其中包含可分配节点的可用通道。 单击“任意”以确认。
 
-您可以通过在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)停靠中展开图形资源，并使用&#x200B;*LMB*&#x200B;将该输出拖到3D视图来查看任何单独的图形输出。 您会看到一个列表，其中包含要分配节点的可用通道。 单击“任意”以确认。
+您可以通过在[资源管理器](../the-explorer-window/the-explorer-window.md)停靠中展开图形资源，并使用&#x200B;*LMB*&#x200B;将该输出拖到3D视图来查看任何单独的图形输出。 您会看到一个列表，其中包含要分配节点的可用通道。 单击“任意”以确认。
 
 ![查看自定义3D网格](../../assets/3d-mesh.gif "查看自定义3D网格")
 
@@ -260,7 +266,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 * 圆环体
 
-<b>在2D视图中显示UV：</b>在[2D视图](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)中将当前所选网格的UV显示为叠加。
+<b>在2D视图中显示UV：</b>允许将当前所选网格的UV显示为[2D视图](../2d-view/2d-view.md)中的叠加。
 
 <b>从当前场景创建3D资源……：</b>在当前场景之外的包中创建新的[3D场景资源](../../resources/3d-scene-resource/3d-scene-resource.md)。
 
@@ -548,7 +554,23 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 >[!NOTE]
 >
-> 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**3**&#x200B;**&#x200B; D视图**&#x200B;停放区*重新定位*。
+> 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**3D视图**&#x200B;停放区&#x200B;*重新定位工具栏*。
+
+### 3D 渲染 AOV
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>您可以使用<img src="./3d-view.resources/aov/aov-icon.png" alt="3D渲染AOVs图标" style="padding-left: 5px; padding-right: 5px" /> <b>3D渲染AOV</b>按钮显示不同的<a href="../../glossary/glossary.md#aov">AOV</a>。</p>
+            <p>使用AOV，可以单独检查网格和材质信息，以便进行重点工作和调试。</p>
+            <p>某些AOV包括视区中固定为1（纯白）或0（纯黑）的<i>HDR值</i>。<br>要检查整个范围的值，可以将AOV的3D渲染导出为支持HDR值的图像文件格式，如<code>.exr</code>。<br>使用“<code>Camera > Save render...</code>”菜单选项导出当前AOV。</p>
+            <p><i>注意：</i>只有在使用栅格化器和GPU 路径追踪<a href="./3d-renderers/3d-renderers.md">3D渲染器</a>时，AOV才可用。</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="合成的3D渲染AOV" />
+        </td>
+    </tr>
+</table>
 
 ### 颜色通道
 

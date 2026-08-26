@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -55,12 +55,12 @@ ht-degree: 1%
 ## 输出连接器
 
 <b>样条坐标&#x200B;</b>*颜色*&#x200B;在彩色图像的RGBA通道中编码的输入样条点的坐标：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-        *符号：样条是封闭的（负）或开放的（正）；\
-        *绝对值：Thickness+ 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*符号：样条是封闭的（负）或开放的（正）；\
+*绝对值：Thickness+ 1。
 
 <b>样条数据</b> *颜色*\
 以<b>颜色</b>图像的RGBA通道编码的输入样条的其他数据：\

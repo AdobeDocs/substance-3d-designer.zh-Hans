@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 点节点（也称为门户）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>点</b>节点是一个帮助程序，它允许您通过重新路由和分组连接来简化和清理图表。 对于许多长连接运行在其他连接或节点上的图形，此选项特别有用。
+<b>点</b>节点是一个帮助程序，它允许您通过重新路由和分组连接来简化和清理图表。 对于许多长连接运行在其他连接或节点上的图形，此选项特别有用。
 
 一对“点”节点可以作为<b>门户</b>来隐藏远距离连接，或用于路由连接可能具有挑战性的地方。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-点节点可以作为<b>门户</b>用于在图表中远距离发送数据，而不会具有妨碍可读性的繁琐的长链接。 这有效地隐藏了Dot节点之间的链接。
+点节点可以作为<b>门户</b>用于在图表中远距离发送数据，而不会具有妨碍可读性的繁琐的长链接。 这有效地隐藏了Dot节点之间的链接。
 
 </td>
 </tr>

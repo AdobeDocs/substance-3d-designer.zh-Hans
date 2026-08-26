@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 应用调色板
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,8 +69,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>ID</b> *灰度*&#x200B;主要 | 用于在输入调色板中分布颜色的输入ID映射。   ID图是整体像素（如形状）全部包含相同唯一标识值的图像。 在本例中，该值是一个整数。   可以使用[Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)节点生成ID映射。 |
-| <b>调色板</b> *颜色* | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。 这是节点映射到ID映射索引的调板。   可以使用[量化颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)节点生成调色板，并使用[修改调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)节点修改调色板。 |
+| <b>ID</b> *灰度*&#x200B;主要 | 用于在输入调色板中分布颜色的输入ID映射。   ID图是整体像素（如形状）全部包含相同唯一标识值的图像。 在本例中，该值是一个整数。   可以使用[Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)节点生成ID映射。 |
+| <b>调色板</b> *颜色* | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。 这是节点映射到ID映射索引的调板。   可以使用[量化颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)节点生成调色板，并使用[修改调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)节点修改调色板。 |
 
 ## 输出连接器
 

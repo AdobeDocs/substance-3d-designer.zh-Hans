@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径顶点处理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## 参数
 
-<b>已访问以前的顶点</b> *整数*\
+<b>以前访问的顶点</b> *整数*\
 使用此参数将允许您使用<b>节点</b>参数函数中的<b>Get</b>逐顶点函数，获取路径上的上一个顶点(*prev.pos*)和上一个上一个顶点(*prev[2].pos*)的位置。
 
 <b>下一个顶点已访问</b> *整数*\

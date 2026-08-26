@@ -10,9 +10,9 @@ helpx_tags: ""
 title: AxF（外观交换格式）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 +++资源管理器
 
-在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中单击包上的RMB，然后转到包上下文菜单中的<b>导入> AxF</b>。
+在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中单击包上的RMB，然后转到包上下文菜单中的<b>导入> AxF</b>。
 
 ![AxF：从资源管理器开始导入](../../assets/axf_explorer.png "AxF：从资源管理器开始导入"){width="600px"}
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 自定义工作区
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Windows菜单
 
-此菜单允许您管理Designer的主要用户界面元素。 每个选项在[此页面](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的<b>Windows</b>部分中关于主工具栏进行了介绍。 在这里，我们将提供与这个菜单相关的其他概念。
+此菜单允许您管理Designer的主要用户界面元素。 每个选项在[此页面](../the-main-toolbar/the-main-toolbar.md)的<b>Windows</b>部分中关于主工具栏进行了介绍。 在这里，我们将提供与这个菜单相关的其他概念。
 
 ### 显示/隐藏视图
 

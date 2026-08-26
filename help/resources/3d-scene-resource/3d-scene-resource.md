@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 场景资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 * 在包上单击&#x200B;*人民币*，然后在上下文菜单中选择<b>链接> 3D网格</b>选项
 * 选择任何受支持的3D场景文件
 * 如果显示<b>链接为Udim网格</b>对话框提示，请单击&#x200B;*否*，除非您要烘焙UV磁贴
-* 在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中加载资源后，单击资源上的&#x200B;*人民币*，然后在上下文菜单中选择<b>烘焙模型信息</b>选项
+* 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中加载资源后，单击资源上的&#x200B;*人民币*，然后在上下文菜单中选择<b>烘焙模型信息</b>选项
 * 此时会显示[烘焙模型信息](../../bakers/bakers.md)对话框，供您设置和运行任何网格图烘焙
 
 ![烘焙网格图](../../assets/bake-model-information.gif "烘焙网格图"){width="512px"}

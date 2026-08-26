@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 发布 Substance 3D 资源文件 (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 806f21d88d2ce6b63164848f4f52906ec57471a3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 1%
+source-wordcount: '1234'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 此页面介绍了Substance 3D Designer如何将包发布为<b>Substance 3D资源</b>文件，这是一种扩展名为<b>SBSAR</b>的特殊文件格式，在Substance生态系统以及支持该格式的其他应用程序中使用。
 
-通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/cn/substance-3d-sampler.html)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到”功能](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)会更快。
+通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/cn/substance-3d-sampler.html)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
 
 ![简化了发布SBSAR文件](../../assets/exportflow.png "简化了发布SBSAR文件")
 
@@ -49,15 +49,15 @@ ht-degree: 1%
 
 ## 发布方法
 
-准备好发布后，可通过两种方式访问“发布”对话框，这两种方式都是通过[资源管理器窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)实现的。
+准备好发布后，有两种方法可访问发布对话框，两种方法都是通过[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)实现的。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在[资源管理器窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，右键单击该包，然后选择![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar文件……**，备用热键Ctrl + P。
+在资源管理器中，右键单击该包，然后选择![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar文件……**，备用热键Ctrl + P。
 
-通过对话框发布一次后，您还可以使用![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar文件作为早期版本**&#x200B;重复发布过程，而不看到对话框，而是立即使用相同的设置发布。
+使用对话框发布一次后，您还可以使用![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar文件作为上一个文件**&#x200B;重复发布过程，而不看到对话框，而是使用相同的设置立即发布。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -72,7 +72,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在[资源管理器窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，单击顶部工具栏中的“Publish”按钮![](../../assets/image2020-9-23-9-39-58.png)。
+在资源管理器中，单击顶部工具栏中的“Publish”按钮![](../../assets/image2020-9-23-9-39-58.png)。
 
 通过对话框发布一次后，您还可以使用“Publish”作为上一个按钮![](../../assets/image2020-9-23-11-15-35.png)重复发布过程，而不看到对话框，而立即使用相同的设置发布。
 

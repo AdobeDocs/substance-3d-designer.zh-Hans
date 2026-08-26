@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -113,8 +113,8 @@ Designer的安装中提供了所有操作的入门脚本：“*tools/version\_co
 1. 根据工作区中包文件的状态，有几种操作可用：
 
    * <b>添加：</b>将文件标记为“ToAdd”
-   * <b>提交：</b>提交所选包。 此操作将显示一个对话框，用于指定更改消息（请参阅下文）
-   * <b>还原：</b>还原修改。 此操作会显示一个对话框，用于选择要恢复的文件（请参阅下文）
+   * <b>提交：</b>提交所选包。 此操作将显示一个对话框，用于指定更改消息（请参阅下文）
+   * <b>还原：</b>还原修改。 此操作会显示一个对话框，用于选择要恢复的文件（请参阅下文）
    * <b>签出：</b>将文件从仓库签出
    * <b>获取上一个版本：</b>从仓库检索最新版本
    * <b>刷新状态：</b>刷新包文件状态

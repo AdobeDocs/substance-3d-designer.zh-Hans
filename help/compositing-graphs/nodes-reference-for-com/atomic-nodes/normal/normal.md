@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>强度</b> *浮动* | 修改Height映射的强度。   设置将输入Height映射解释为法线的密集程度。 根据输入映射，高于100的值几乎不会产生更多效果。 |
-| <b>正常格式</b> *布尔值* | 反转Height映射的Y坐标(OpenGL)。   设置绿色(Y)通道的编码方式。 基本上是“Flip Green/Y”（翻转绿色/y）开关。 |
-| <b>频道内容Alpha</b> *布尔值* | 用输入纹理填充法线映射的Alpha通道。   将输入/强制Alpha填充Alpha为1：这样可以将Alpha声道设置为纯色，而不是使用输入作为附加Alpha。 |
+| <b>强度</b> *浮动* | 修改Height映射的强度。   设置将输入Height映射解释为法线的密集程度。 根据输入映射，高于100的值几乎不会产生更多效果。 |
+| <b>正常格式</b> *布尔值* | 反转Height映射的Y坐标(OpenGL)。   设置绿色(Y)通道的编码方式。 基本上是“Flip Green/Y”（翻转绿色/y）开关。 |
+| <b>频道内容Alpha</b> *布尔值* | 用输入纹理填充法线映射的Alpha通道。   将输入/强制Alpha填充Alpha为1：这样可以将Alpha声道设置为纯色，而不是使用输入作为附加Alpha。 |
 
 ## 输入连接器
 

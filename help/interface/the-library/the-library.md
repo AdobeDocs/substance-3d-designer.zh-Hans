@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 库
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8cb5aa2a7e1cd668f00808b3cd0e15063990fb8b
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * [SBS](../../getting-started/overview/overview.md)和[SBSAR](../../getting-started/overview/overview.md)文件中的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)用其&#x200B;*第一输出*&#x200B;表示，如果图形的作者设置了自定义图标，则用其&#x200B;*自定义图标*&#x200B;表示
 * [位图](../../resources/bitmap-resource/bitmap-resource.md)和[矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)由位图本身的&#x200B;*微型渲染*&#x200B;表示
-* [3D网格](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、[函数图形](../../function-graphs/the-function-graph/the-function-graph.md)、[字体](../../resources/font-resource/font-resource.md)和[AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)文件由每种类型的&#x200B;*通用图标*&#x200B;表示
+* [3D场景](../../resources/3d-scene-resource/3d-scene-resource.md)、[函数图形](../../function-graphs/the-function-graph/the-function-graph.md)、[字体](../../resources/font-resource/font-resource.md)和[AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)文件由每种类型的&#x200B;*通用图标*&#x200B;表示
 
 >[!WARNING]
 >

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 所有更改
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # 所有更改
 
 ## 版本16
+
+### 16.0.5
+
+*（2026年8月26日发布）*
+
+**已添加：**
+
+* [3D视图]添加了一个用于选择当前AOV的按钮
+* [内容]珀林/高斯噪声：取消固定缩放参数
+* [内容]从库中隐藏不必要的位图资源
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**已修复：**
+
+* [3D视图]在OpenGL中所做的环境可见性更改不会结转到Eclair渲染器
+* [Bakers]刷新已删除的UDIM位图资源的烘焙后未销毁烘焙上下文
+* [Bakers]修复了在刷新UDIM位图资源时，删除其烘焙时发生崩溃的问题
+* [内容]形状飞溅v2：圆柱体形状Height不正确
+* [Content]形状飞溅v2：密度图大小超过4096时节点无法正常工作
+* [内容]形状飞溅v2：在If/Else后面使用“岩石”SDF可能导致无限循环
+* [安全性]修复了AXF文件解析中的NULL指针取消引用漏洞
+* [安全性]修复了GLB文件解析中的NULL指针取消引用漏洞
+* [安全性]修复了SBSAR文件解析中的越界写入漏洞
+* [安全性]修复了DDS文件解析中的栈损坏漏洞
+* [安全性]修复了GLB文件解析中的栈损坏漏洞
+* [安全性]修复了TGA文件解析中的栈损坏漏洞
+* [安全性]修复了TIFF文件解析中的栈损坏漏洞
+* [安全性]修复了USDA文件解析中的栈损坏漏洞
+* [安全性]修复了WEBP文件解析中的栈损坏漏洞
+* [UI]持久性复选框菜单中的项目点击框仅跨越项目文本
+
 
 ### 16.0.4
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 无法创建加载项目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 查找任何管理您系统的&#x200B;*电源计划*&#x200B;的软件（例如，华硕军械库板条箱），尤其是当系统为笔记本电脑时。
 
-某些电源管理应用程序可能会限制其他应用程序对系统GPU的访问，或妨碍GPU的性能，从而可能导致崩溃。 如果电源管理应用程序存在且处于活动状态，请切换到可实现最佳性能的计划。
+某些电源管理应用程序可能会限制其他应用程序对系统GPU的访问，或妨碍GPU的性能，从而可能导致崩溃。 如果电源管理应用程序存在且处于活动状态，请切换到可实现最佳性能的计划。
 
 强制使用离散GPU
 

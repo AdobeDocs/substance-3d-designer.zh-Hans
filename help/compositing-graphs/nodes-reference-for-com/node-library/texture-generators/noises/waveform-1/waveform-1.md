@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 波形1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -43,26 +43,6 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 输出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
-
 ## 输出
 
 |  |  |
@@ -74,8 +54,8 @@ ht-degree: 2%
 |  |  |
 | --- | --- |
 | <b>示例</b>整数 | 沿X轴放置以绘制波形的图案数量，值越低，外观越分步。 |
-| <b>函数</b>整数 | 用于绘制波形的功能。   此选项可控制每个样本处图案的垂直大小：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>值杂色：</i>值的随机分布</li> <li data-preserve-html="true"><i>余弦：</i>值遵循余弦函数的过程</li> <li data-preserve-html="true"><i>自定义函数：</i>使用用户编写的函数来驱动值</li> </ul> |
-| <b>自定义函数</b>浮点&#x200B;*当“Function”设置为“Custom function”时可用* | 计算每个样本处图案的垂直大小。   可用变量：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> （<i>浮动</i>）图案在X轴上的位置。 这可用于选择图案。</li> </ul> |
+| <b>函数</b>整数 | 用于绘制波形的功能。   此选项可控制每个样本处图案的垂直大小：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>值杂色：</i>值的随机分布</li> <li data-preserve-html="true"><i>余弦：</i>值遵循余弦函数的过程</li> <li data-preserve-html="true"><i>自定义函数：</i>使用用户编写的函数来驱动值</li> </ul> |
+| <b>自定义函数</b>浮点&#x200B;*当“Function”设置为“Custom function”时可用* | 计算每个样本处图案的垂直大小。   可用变量：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> （<i>浮动</i>）图案在X轴上的位置。 这可用于选择图案。</li> </ul> |
 | <b>粗糙度</b>浮点 | 在清晰平滑的波形与更粗糙且分布更均匀的波形之间插补。    这可以看作是干净信号与白噪声。 |
 | <b>缩放</b>整数 | 图像中可见波形的水平范围。 |
 | <b>振幅最小值</b>  浮点 | 波形的最小值（或Thickness）。 |
