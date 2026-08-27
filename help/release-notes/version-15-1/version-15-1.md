@@ -199,8 +199,8 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 * [3D视图]Specular level未正确应用
 * [3D视图]使用Eclair光栅器时Specular edge color不起作用
 * [3D视图]用户添加的材质未应用于默认场景
-* [3D视图][烘焙]材质颜色在覆盖后或使用“颜色”烘焙器时过暗
-* [3D视图][烘焙]FBX文件无材质颜色
+* [3D视图]&#x200B;[烘焙]材质颜色在覆盖后或使用“颜色”烘焙器时过暗
+* [3D视图]&#x200B;[烘焙]FBX文件无材质颜色
 * [Bakers]无法正确检测到FBX文件中的素材颜色
 * [Bakers]在JSON预设导出中，“recompute\_tangents”选项始终为“false”
 * [Bakers] CLI：通过JSON文件连续运行同一烘焙器时崩溃
