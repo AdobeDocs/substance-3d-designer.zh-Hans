@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 插件管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # 插件管理器
 
-可以从主菜单栏中的<b>工具</b>菜单访问<b>插件管理器</b>对话框。 通过它，您可以看到哪些增效工具处于&#x200B;*活动*&#x200B;状态，以及&#x200B;*加载和卸载*&#x200B;增效工具。
+可以从主菜单栏中的<b>工具</b>菜单访问<b>插件管理器</b>对话框。 通过它，您可以看到哪些增效工具处于&#x200B;*活动*&#x200B;状态，以及&#x200B;*加载和卸载*&#x200B;增效工具。
 
 ![插件管理器](../../assets/pluginmgr.png "插件管理器")
 

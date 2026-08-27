@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 还原和重做
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 使用<b>SDHistoryUtils.UndoGroup</b>类，用户可以&#x200B;*对操作进行分组*，以便在一个命令中&#x200B;*撤消或重做*&#x200B;所有操作。
 
-这些组由用户&#x200B;*命名*，将在用户界面的还原/重做列表中按该名称显示。  这使得大量操作更易于管理。
+这些组由用户&#x200B;*命名*，将在用户界面的还原/重做列表中按该名称显示。  这使得大量操作更易于管理。
 
 ```
 import sd 

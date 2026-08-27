@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 矢量图形 (SVG) 资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 2%

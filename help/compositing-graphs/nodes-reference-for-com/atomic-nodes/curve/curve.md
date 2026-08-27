@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -91,7 +91,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>应用/公开曲线</b> *布尔值* | 允许将用户曲线复制到输出，而不是将其应用于输入图像 |
 | <b>曲线寻址</b> *布尔值* | 此参数确定如何处理输入中[0， 1]范围之外的HDR像素：最多可夹持或折叠[0， 1]。 |
-| <b>曲线</b> *曲线键数组* | 用于映射输入灰度值的自定曲线。   可以使用[曲线编辑器](#curve-editor)进行编辑。 |
+| <b>曲线</b> *曲线键数组* | 用于映射输入灰度值的自定曲线。   可以使用[曲线编辑器](#curve-editor)进行编辑。 |
 
 ## 曲线编辑器
 

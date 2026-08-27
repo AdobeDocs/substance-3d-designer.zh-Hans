@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 属性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Substance生态系统的一个关键功能[公开参数](../../compositing-graph
 
 ## 节点和Substance图
 
-[节点](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)和[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)具有稍微重叠的属性类别集，并且它们的功能类似。
+节点和[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)具有稍微重叠的一组属性类别，并且它们的功能相似。
 
 节点和图形之间的<b>基本参数</b>和<b>属性</b>相同。
 
-节点提供<b>特定参数</b>或<b>实例参数</b>（取决于它们是[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)还是[实例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)）以及<b>输入值</b>，用于处理Substance图形中的[值](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)。
+节点提供<b>特定参数</b>或<b>实例参数</b>（取决于它们是[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)还是[实例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)）以及<b>输入值</b>，用于处理[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 [输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)原子节点是例外，因为它们具有<b>集成属性</b>和<b>条件</b>以提高可见性。 这两组属性也可以在“图形”属性中的“输入”和“输出”下集中访问。
 
@@ -67,7 +67,7 @@ Substance生态系统的一个关键功能[公开参数](../../compositing-graph
 
 ## 资源和包
 
-“属性”面板还会响应[资源管理器窗口](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中的选择更改。 它可以作为选择图表的另一种方式（而不是双击空白区域），并允许您更改包和[资源](../../resources/resources.md)属性。
+“属性”面板还会响应[资源管理器](../the-explorer-window/the-explorer-window.md)中的选择更改。 它可以作为选择图表的另一种方式（而不是双击空白区域），并允许您更改包和[资源](../../resources/resources.md)属性。
 
 包包含&#x200B;**信息**、**属性**&#x200B;和&#x200B;**元数据**&#x200B;部分。 [包元数据是在专用页面上描述的。](../../package-metadata/package-metadata.md)
 

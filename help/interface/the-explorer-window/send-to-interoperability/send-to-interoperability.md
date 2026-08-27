@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 发送至...  互用性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Adobe Substance 3D Designer与[Substance 3D Sampler](https://www.adobe.com/cn/pr
 工作流程通常如下：
 
 1. 在[Substance图形的属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中设置<b>类型</b>属性
-1. 在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，选择要发送的包
+1. 在[资源管理器](../the-explorer-window.md)面板中，选择要发送的包
 1. 在资源管理器的<b>Publish/发送</b>下拉列表中，选择目标应用程序
 1. 对图表进行更改
 1. 重复步骤3以重新发送包，并用您所做的更改更新现有已发送的资源
@@ -75,8 +75,8 @@ Substance图可以具有多种功能。 您必须预先定义图表的确切功�
 
 发送内容可通过以下方式执行：
 
-* 右键单击包并打开<b>发送到……上下文菜单中的</b>子菜单，然后选择<b>发送到……目标应用程序的</b>选项；
-* 单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板顶部的![](../../../assets/sendto-icon.jpg) <b>Publish/发送</b>按钮，然后选择<b>发送至……目标应用程序的</b>选项。
+* 右键单击包并打开上下文菜单中的<b>发送到……</b>子菜单，然后为目标应用程序选择<b>发送到……</b>选项；
+* 单击“资源管理器”面板顶部的![](../../../assets/sendto-icon.jpg)<b>Publish/发送</b>按钮，然后为目标应用程序选择<b>发送到……</b>选项。
 
 </td>
 <td style="border: 0;" valign="top">

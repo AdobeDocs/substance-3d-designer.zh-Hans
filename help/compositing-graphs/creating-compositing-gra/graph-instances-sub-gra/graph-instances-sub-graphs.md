@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 绘制实例和子图图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 能否将自己的图形实例添加到节点库？
 
-<b>可以，可以</b>，但需要进行一些特定设置。 在本文档的[管理自定义内容和筛选器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)页面中了解详情。
+<b>可以，可以</b>，但需要进行一些特定设置。 在本文档的[管理自定义内容和筛选器](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)页面中了解详情。
 
 ### 是否可以检查图形实例的源图形？
 

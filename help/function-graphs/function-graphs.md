@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance函数图表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-[Substance函数图表](https://substance3d.adobe.com/)<b>处理单值</b>（整数、浮点、矢量）而不是图像数据（整组像素）。 函数也是带有节点网络的图形，但[使用的节点](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)和接口不同于[常规Substance图形](../compositing-graphs/substance-compositing-graphs.md)。 此工作流程完全基于<b>数学运算</b>，不显示任何图像预览缩略图，这使它成为<b>使用Substance 3D Designer的一种更高级的方式</b>。
+[Substance函数图形](https://substance3d.adobe.com/)<b>处理单个值</b>（整数、浮点、矢量）而不是图像数据（整组像素）。 函数也是带有节点网络的图形，但[使用的节点](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)和接口不同于[常规Substance图形](../compositing-graphs/substance-compositing-graphs.md)。 此工作流程完全基于<b>数学运算</b>，不显示任何图像预览缩略图，这使它成为<b>使用Substance 3D Designer的一种更高级的方式</b>。
 
-函数可用于许多不同的上下文，其中主要的函数用于修改[公开参数](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行为，创作[像素处理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为，以及在图中使用[值。](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+函数可用于许多不同的上下文，其中主要函数用于修改[公开参数](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行为，编写[像素处理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为，以及在Substance图中使用[值](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 </td>
 </tr>

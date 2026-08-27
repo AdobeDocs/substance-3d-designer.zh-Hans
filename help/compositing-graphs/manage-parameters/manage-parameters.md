@@ -84,7 +84,7 @@ ht-degree: 3%
 
 可以通过三种方式将[Substance函数图形](../../function-graphs/the-function-graph/the-function-graph.md)应用于该参数：
 
-* <b>公开为新图形输入：</b>这将创建一个新的图形输入并使用该图形输入自动设置函数。 了解有关在[此专用页面](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中公开参数的更多信息。
+* <b>公开为新图形输入：</b>这将创建一个新的图形输入并使用该图形输入自动设置函数。 详细了解公开[此专用页](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中的参数。
 * <b>空函数：</b>从头开始创作函数。
 * <b>常量值：</b>编辑从[常量值节点](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)开始并设置为参数当前值的函数。
 * <b>重置：</b>将参数重置为其默认值和范围。 如果对参数应用了函数，则会将其关闭。
@@ -120,9 +120,9 @@ ht-degree: 3%
 
 ## 复制和粘贴参数
 
-可以复制源节点的所有参数值，然后将其粘贴到目标节点上。 源节点和目标节点的参数是<b>基于它们的标识符和类型</b>匹配的。
+可以复制源节点的所有参数值，然后将其粘贴到目标节点上。 源节点和目标节点的参数是<b>基于其标识符和类型</b>匹配的。
 
-例如，当参数“Scale”的标识符为“scale”并且类型为“Float”时，可以将其复制并粘贴到另一个参数“Shape Scale”上，如果它的标识符也是“scale”并且类型也是“Float”。
+例如，如果“Scale”参数的标识符是“scale”并且类型是“Float”，则可以将其复制并粘贴到另一个参数“Shape Scale”上，只要其标识符也是“scale”并且类型也是“Float”即可。
 
 此功能的工作方式与使用[参数预设文件](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)的方式相同。 事实上，复制到剪贴板的数据与SBSPRS预设文件中存储的数据相同，并且可以粘贴到任何文本编辑器中以进行审阅和编辑。
 

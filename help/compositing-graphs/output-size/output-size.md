@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 输出大小
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 输出大小
 
-它是图形的<b>基本参数</b>中的第一个，与<b>输出格式</b>（或位深度）一起使用对于更好地了解图形至关重要，因为它在Designer中以及作为已发布的[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)文件在其他应用程序中对图形的输出都有很大影响。
+它是图形的<b>基本参数</b>中的第一个，与<b>输出格式</b>（或位深度）一起使用对于更好地了解图形至关重要，因为它在Designer中以及作为[已发布的Substance 3D资源(SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)文件在其他应用程序中对图形的输出都有很大影响。
 
 >[!TIP]
 >
@@ -96,7 +96,7 @@ ht-degree: 5%
 * 节点： *相对于输入* — 在此情况下使用由节点的[主输入](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)继承的值
 * [位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点： *绝对* — 请参阅[位图资源](../../resources/bitmap-resource/bitmap-resource.md)页面和[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)以了解原因
 
-单击节点或图形的属性，然后在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中的<b>基本参数</b>部分中找到<b>输出大小</b>属性。 单击继承方法下拉菜单，选择所需的继承方法。
+单击节点或图形的属性，然后在[属性](../../interface/properties/properties.md)面板中的<b>基本参数</b>部分中找到<b>输出大小</b>属性。 单击继承方法下拉菜单，选择所需的继承方法。
 
 ![输出大小继承方法](../../assets/change-mode.gif "输出大小继承方法"){width="512px"}
 

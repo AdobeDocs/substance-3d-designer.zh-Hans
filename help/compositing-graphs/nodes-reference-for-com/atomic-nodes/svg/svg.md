@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 确定节点的输出类型，以返回彩色或灰度。 |
-| <b>背景颜色</b> *彩色/灰度* | 设置要在矢量形状未覆盖的区域中使用的输出图像的背景色。   *在连接该输入时被“[Background](#inputs)”输入覆盖。* |
-| <b>PKG资源路径</b> *字符串* | 指向节点正在引用的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)的路径。   建议不要手动键入，而是从资源管理器中复制资源并将其粘贴到参数文本字段中，或者将位图资源直接从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖放到图形中的SVG节点上。 |
+| <b>背景颜色</b> *彩色/灰度* | 设置要在矢量形状未覆盖的区域中使用的输出图像的背景色。   *在连接该输入时被“[Background](#inputs)”输入覆盖。* |
+| <b>PKG资源路径</b> *字符串* | 指向节点正在引用的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)的路径。   建议不要手动键入，而是从资源管理器中复制资源并将其粘贴到参数文本字段中，或者将位图资源直接从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖放到图形中的SVG节点上。 |
 
 ## 矢量编辑工具
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>背景</b> *灰度/颜色*&#x200B;主要 | 设置要在矢量形状未覆盖的区域中使用的输出图像的背景色。   *连接时覆盖“[背景颜色](#parameters)”参数。* |
+| <b>背景</b> *灰度/颜色*&#x200B;主要 | 设置要在矢量形状未覆盖的区域中使用的输出图像的背景色。   *连接时覆盖“[背景颜色](#parameters)”参数。* |
 
 ## 输出连接器
 
