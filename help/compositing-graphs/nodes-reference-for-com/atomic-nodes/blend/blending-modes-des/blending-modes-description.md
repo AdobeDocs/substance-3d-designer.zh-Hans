@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中可用的混合模式，用于将纹理与不同的合成效果相结合。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合模式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 *叠加*&#x200B;混合模式结合了“正片叠底”和“滤色”混合模式：
 
-* &#x200B;
+* 
   * 如果较低图层像素的值低于0.5，则应用&#x200B;*正片叠底*&#x200B;类型混合
   * 如果较低图层像素的值高于0.5，则应用&#x200B;*滤色*&#x200B;类型混合
 

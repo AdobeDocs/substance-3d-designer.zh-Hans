@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ''
 description: 使用“灰度转换”节点，通过各种转换方法将彩色纹理转换为灰度。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 灰度转换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -92,9 +92,9 @@ ht-degree: 7%
 
 |  |  |
 | --- | --- |
-| <b>通道粗细</b> *浮点4* | 设置灰度转换中每个RGBA通道的权重。   默认情况下，会跨RGB声道执行偶数拆分。 |
-| <b>拼合Alpha</b> *布尔值* | 设置Alpha对最终灰度结果的行为，因为灰度值不能包含Alpha信息。   在&#x200B;*True*&#x200B;时，灰度转换将乘以输入图像的Alpha通道 |
-| <b>背景值</b> *浮动* | 设置输入具有Alpha蒙版时的基本背景值。 即，确定将哪些像素视为透明。   *当“拼合Alpha”设置为“True”时可用。* |
+| <b>通道粗细</b> *浮点4* | 设置灰度转换中每个RGBA通道的权重。   默认情况下，会跨RGB声道执行偶数拆分。 |
+| <b>拼合Alpha</b> *布尔值* | 设置Alpha对最终灰度结果的行为，因为灰度值不能包含Alpha信息。   在&#x200B;*True*&#x200B;时，灰度转换将乘以输入图像的Alpha通道 |
+| <b>背景值</b> *浮动* | 设置输入具有Alpha蒙版时的基本背景值。 即，确定将哪些像素视为透明。   *当“拼合Alpha”设置为“True”时可用。* |
 
 ## 输入连接器
 

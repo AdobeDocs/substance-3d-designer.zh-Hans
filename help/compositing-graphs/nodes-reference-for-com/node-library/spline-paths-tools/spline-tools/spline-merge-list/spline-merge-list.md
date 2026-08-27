@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: 使用“样条合并列表”节点将多个样条合并为单个样条列表，以便进行组合操作。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条合并列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
@@ -49,9 +49,9 @@ ht-degree: 1%
 <b> R</b> - X位置\
 <b> G</b> - Y位置\
 <b> B</b> -Height\
-    <b>A</b> — 打包的数据：\
-        *符号：样条是封闭的（负）或开放的（正）；\
-        *绝对值：Thickness+ 1。
+<b>A</b> — 打包的数据：\
+*符号：样条是封闭的（负）或开放的（正）；\
+*绝对值：Thickness+ 1。
 
 <b>样条数据</b> *颜色*&#x200B;编码在彩色图像的RGBA通道中的输入样条的其他数据。\
 <b> R</b> — 切线X\
@@ -66,18 +66,18 @@ ht-degree: 1%
 <b>预览</b> *灰度*&#x200B;以灰度图像形式显示的合并样条预览。
 
 <b>样条坐标</b> *颜色*&#x200B;在彩色图像的RGBA通道中编码的合并样条点的坐标。\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-        *符号：样条是封闭的（负）或开放的（正）；\
-        *绝对值：Thickness+ 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*符号：样条是封闭的（负）或开放的（正）；\
+*绝对值：Thickness+ 1。
 
 <b>样条数据</b> *颜色*&#x200B;在彩色图像的RGBA通道中编码的合并样条的其他数据。\
-    <b>R</b> — 切线X\
-    <b>G</b> — 切线Y\
-    <b>B</b> — 未使用\
-    <b>A</b> — 未使用
+<b>R</b> — 切线X\
+<b>G</b> — 切线Y\
+<b>B</b> — 未使用\
+<b>A</b> — 未使用
 
 <b>样条量</b> *整数*&#x200B;合并样条的数量。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中创建Substance合成图表，用于构建程序化的纹理工作流程。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 创建 Substance 图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 若要开始创建新的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的过程，可以使用以下方法之一：
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,12 +44,12 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中的任何&#x200B;*现有*&#x200B;包项上，单击<b>人民币</b>，然后在上下文菜单中转到<b>新建>Substance图形</b>。
+  在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的任何&#x200B;*现有*&#x200B;包项上，单击<b>人民币</b>，然后在上下文菜单中转到<b>新建>Substance图形</b>。
 
   </td>
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,12 +76,12 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  在[主菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中，转到<b>文件>新建>Substance图形……</b>
+  在主菜单中，转到<b>文件>新建>Substance图形……</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 <b>大小</b>：图形的主页分辨率，它将控制大多数节点的输出分辨率 — 请参阅[输出大小](../../compositing-graphs/output-size/output-size.md)页面以了解更多信息。 默认情况下，宽度和Height链接在一起，您可以通过单击宽度和Height组合框之间的链接按钮来取消它们的链接。
 
-<b>在</b>中创建图形：您可以使用此组合框为新图形创建&#x200B;*新*&#x200B;包，或将新图形添加到任何&#x200B;*现有*&#x200B;包中，这些包已在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中加载。
+<b>在</b>中创建图形：您可以使用此组合框为新图形创建&#x200B;*新*&#x200B;包，或将新图形添加到任何&#x200B;*现有*&#x200B;包中，这些包已在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中加载。
 
 ### 帮助工具提示
 

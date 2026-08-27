@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: 使用直方图均衡节点重新分布像素强度以提高对比度和亮度。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图均衡
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>直方图分辨率</b> *整数* | 直方图的宽度。 值越高，值分布越精细。   可用分辨率为：256、512、1024、2048、4096（像素） |
-| <b>直方图平滑</b> *浮动* | 可通过重新分布图像中的灰度值来平滑直方图，以使每个值之间的&#x200B;*差值*&#x200B;相等。   此参数调整该平滑的强度。 |
+| <b>直方图分辨率</b> *整数* | 直方图的宽度。 值越高，值分布越精细。   可用分辨率为：256、512、1024、2048、4096（像素） |
+| <b>直方图平滑</b> *浮动* | 可通过重新分布图像中的灰度值来平滑直方图，以使每个值之间的&#x200B;*差值*&#x200B;相等。   此参数调整该平滑的强度。 |
 
 ## 示例
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: 使用FX-Map节点将函数图形应用于纹理，以创建过程模式和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -71,11 +71,11 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 
 ## 参数
 
-请记住，与其他节点不同，FX映射的大多数行为并非由参数决定，而是通过编辑其中的FX映射函数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)而决定。
+请记住，与其他节点不同，FX映射的大多数行为并非由参数决定，而是通过编辑其中的FX映射函数](../../../../function-graphs/fxmaps/fxmaps.md)而决定[。
 
 |  |  |
 | --- | --- |
-| <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 颜色将比灰度慢得多。 |
+| <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 颜色将比灰度慢得多。 |
 | <b>背景</b> *浮动/浮动4* | 设置要合成结果的背景起始颜色。 |
 | <b>渲染区域</b> *浮点4* | 用于设置FX映射每侧的起始像素范围，从而产生拉伸效果。 |
 | <b>拼贴区域</b> *浮点4* | 允许您偏移FX-Map的拼贴距离。 |

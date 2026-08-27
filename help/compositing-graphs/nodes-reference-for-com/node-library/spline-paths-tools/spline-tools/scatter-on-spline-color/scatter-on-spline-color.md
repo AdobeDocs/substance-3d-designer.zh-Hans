@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: 使用“样条颜色”散点沿程序性图案的样条路径分布颜色元素。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条颜色散点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3048'
 ht-degree: 0%
@@ -52,12 +52,12 @@ ht-degree: 0%
 <b>背景&#x200B;</b>*灰度*（主要）应在其上绘制样条的灰度图像。
 
 <b>样条坐标&#x200B;</b>*颜色*&#x200B;在彩色图像的RGBA通道中编码的输入样条点的坐标：\
-    <b>R</b> - X位置\
-    <b>G</b> - Y位置\
-    <b>B</b> -Height\
-    <b>A</b> — 打包的数据：\
-        *符号：样条是封闭的（负）或开放的（正）；\
-        *绝对值：Thickness+ 1。
+<b>R</b> - X位置\
+<b>G</b> - Y位置\
+<b>B</b> -Height\
+<b>A</b> — 打包的数据：\
+*符号：样条是封闭的（负）或开放的（正）；\
+*绝对值：Thickness+ 1。
 
 <b>样条数据</b> *颜色*&#x200B;编码在彩色图像的RGBA通道中的输入样条的其他数据。\
 <b> R</b> — 切线X\

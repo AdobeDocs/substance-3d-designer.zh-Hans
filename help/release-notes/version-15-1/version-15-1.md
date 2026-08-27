@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本15.1的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 ## 改进图表创建
 
-在此版本中，[图形创建窗口](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)已<b>进行了全面重新设计</b>，以增强Substance 3D Designer中的初始用户体验。 此更新的主要目标是简化模板选择流程，从而允许用户高效地确定最适合其需求的模板。
+在此版本中，[图形创建窗口](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)已<b>进行了全面重新设计</b>，以增强Substance 3D Designer中的初始用户体验。 此更新的主要目标是简化模板选择流程，从而允许用户高效地确定最适合其需求的模板。
 
-缩略图提供了针对预期素材类型的即时<b>视觉参考</b>，而详细的工具提示提供了所有相关信息。 为了改进组织，模板现在被分类为特定<b>类别</b>，例如材料、过滤器和扫描处理。
+缩略图可为预期的材料类型提供即时<b>视觉参考</b>，而详细的工具提示则提供所有相关信息。 为了更好地进行整理，模板现在被分类为特定的<b>类别</b>，例如材料、过滤器和扫描处理。
 
 尽管主界面已升级，但用户仍可访问以前的视图，包括列表、包和目录选项。
 
@@ -40,17 +40,17 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 ## 嵌入样本
 
-随着我们重新设计的图表创建窗口的启动，我们直接在软件中添加了各种[<b>示例素材</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)。 此增强功能用于响应您有关更好地访问学习资源的请求。
+在启动重新设计的图形创建窗口后，我们直接在软件中添加了各种[<b>示例材料</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)。 此增强功能用于响应您有关更好地访问学习资源的请求。
 
-![新的示例图形创建窗口](../../assets/GraphSample.png){zoomable="yes"}
+![样本的新图形创建窗口](../../assets/GraphSample.png){zoomable="yes"}
 
-为了满足这一需求，我们使用了织物（包括皮革和缎面）、木材、金属、塑料、陶瓷等材料样本。 这些示例旨在帮助您轻松启动项目并熟悉Substance 3D Designer中可用的主要系列节点
+为了满足这一需求，我们推出了材料样品，如织物（包括皮革和缎面）、木材、金属、塑料、陶瓷等。 这些示例旨在帮助您轻松启动项目并熟悉Substance 3D Designer中可用的主要系列节点
 
 每个图形都带有<b>批注</b>，经过精心组织，并包含最少的节点，使其尽可能易于理解。
 
 您可以在创建新Substance图表时访问“物料抽样”类别中的抽样，也可以使用方便的“转到抽样”按钮直接从主屏幕访问抽样。
 
-除了这些基础素材之外，我们还提供了<b>高级示例</b>来演示如何更有效地使用<b>FX映射和像素处理器</b>功能。
+除了这些基础材料之外，我们还提供了<b>高级示例</b>来演示如何更有效地使用<b>FX映射和像素处理器</b>功能。
 
 [了解详情](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
@@ -199,8 +199,8 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 * [3D视图]Specular level未正确应用
 * [3D视图]使用Eclair光栅器时Specular edge color不起作用
 * [3D视图]用户添加的材质未应用于默认场景
-* [3D视图]&#x200B;[烘焙]材质颜色在覆盖后或使用“颜色”烘焙器时过暗
-* [3D视图]&#x200B;[烘焙]FBX文件无材质颜色
+* [3D视图][烘焙]材质颜色在覆盖后或使用“颜色”烘焙器时过暗
+* [3D视图][烘焙]FBX文件无材质颜色
 * [Bakers]无法正确检测到FBX文件中的素材颜色
 * [Bakers]在JSON预设导出中，“recompute\_tangents”选项始终为“false”
 * [Bakers] CLI：通过JSON文件连续运行同一烘焙器时崩溃

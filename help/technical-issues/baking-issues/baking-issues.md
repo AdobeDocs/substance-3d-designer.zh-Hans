@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: 查找在Substance 3D Designer中与烘焙纹理相关的技术问题的故障排除步骤。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 烘焙问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 烘焙问题
 
-本页列出了与Substance 3D Designer中的[烘焙纹理](../../bakers/bakers.md)相关的技术问题，并提供了相应的故障排除步骤。
+此页面列出了与Substance 3D Designer中的[烘焙纹理](../../bakers/bakers.md)相关的技术问题，并提供了针对每个问题的故障排除步骤。
 
 ## 本页内容
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <b>！[（错误）](../../assets/error.svg)问题</b>
 
-当“匹配”选项设置为“按网格名称”时，匹配似乎未应用，或者在所有场景对象间未一致应用。
+当“匹配”选项设置为“按网格名称”时，匹配似乎未应用，或者在所有场景对象中并不一致。
 
 <b>！[(tick)](../../assets/check.svg)建议的步骤</b>
 

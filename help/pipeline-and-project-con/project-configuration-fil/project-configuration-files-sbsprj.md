@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用SBSPRJ项目配置文件来管理项目设置。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 项目配置文件 — SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 0%
 
 <b>常规： </b>图形模板、正切空间插件、法线和图像格式默认值。
 
-<b>库： </b>监视要在库中显示的路径，以及[库视图的筛选器和类别](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)。
-
-<b>MDL： </b>MDL监视路径。
+<b>库： </b>监视要在库中显示的路径。
 
 <b>脚本： </b>回调脚本和解释器。
 
@@ -79,7 +77,7 @@ ht-degree: 0%
 
 请参阅[项目设置](../../interface/preferences-window/project-settings/project-settings.md)页面，了解有关管理项目文件和更改项目设置的更多信息。
 
-项目文件还包括[库](../../interface/the-library/the-library.md)的自定义<b>类别</b>和<b>筛选器</b>，您可以在[管理自定义内容和筛选器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)页面中详细了解这些内容。
+项目文件还包括[库](../../interface/the-library/the-library.md)的自定义<b>类别</b>和<b>筛选器</b>，您可以在[管理自定义内容和筛选器](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)页面中详细了解这些内容。
 
 ## 在外部编辑XML
 
@@ -91,7 +89,7 @@ ht-degree: 0%
 
 ## 相对路径和别名
 
-与别名结合的相对路径是比较复杂但最重要的项目配置部分之一，本节将对其进行说明。 在[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中为特定项目文件添加自定义别名。
+与别名结合的相对路径是比较复杂但最重要的项目配置部分之一，本节将对其进行说明。 在[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中为特定项目文件添加自定义别名。
 
 在多台用户的PC上，文件引用系统中其他文件的主要问题之一是绝对文件路径不起作用。 用户可以在完全不同的位置(例如， C：/John/Gamedev/SubstanceLibrary或D：/Dev/SubstanceLibrary)。 别名和相对路径共同解决这个问题。 否则，您可能会打开其他人的文件，而该文件将尝试查找用户本地拥有该文件的特定位置所使用的自定义节点，您可能没有以完全相同的方式定义该节点。
 

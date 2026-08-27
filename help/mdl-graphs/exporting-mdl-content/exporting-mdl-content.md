@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 导出MDL内容
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 * 其公开参数和默认值
 * 其批注（即元数据）：作者、标签、类别……
 
-导出MDL模块是在&#x200B;*包*&#x200B;级别执行的。 若要导出给定包的MDL模块，请单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中的![](../../assets/mdl-export-module-icon.png) <b>导出MDL模块</b>按钮，或在&#x200B;*包的上下文菜单*&#x200B;中选择相同的选项。 为导出的MDL模块选择目标位置和名称，将显示<b>导出报告</b>对话框，其中显示了在导出过程中记录的消息列表。
+导出MDL模块是在&#x200B;*包*&#x200B;级别执行的。 若要导出给定包的MDL模块，请单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的![](../../assets/mdl-export-module-icon.png) <b>导出MDL模块</b>按钮，或在&#x200B;*包的上下文菜单*&#x200B;中选择相同的选项。 为导出的MDL模块选择目标位置和名称，将显示<b>导出报告</b>对话框，其中显示了在导出过程中记录的消息列表。
 
 导出的模块将包含包中[MDL图形](../../mdl-graphs/mdl-graphs.md)定义的&#x200B;*所有* MDL材质的定义。
 
@@ -60,7 +60,7 @@ MDL模块预设与其所基于的模块大致相同，唯一区别在于它带�
 
 可以从以下位置导出分配给场景材质`my_material`的MDL材质的预设：
 
-* 在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，单击MDL图形资源上的<b>人民币</b>，然后在上下文菜单中选择<b>导出预设……</b>选项
+* 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中，单击MDL图形资源上的<b>人民币</b>，然后在上下文菜单中选择<b>导出预设……</b>选项
 * [3D视图](../../interface/3d-view/3d-view.md)面板，使用<b>材质> my\_material >导出预设……</b>菜单选项
 
 菜单选项将打开<b>导出MDL材质预设</b>对话框，该对话框提供以下选项：
@@ -69,11 +69,11 @@ MDL模块预设与其所基于的模块大致相同，唯一区别在于它带�
 * <b>MDL文件名</b>： MDL模块的名称
 * <b>嵌入导入的MDL模块</b>：如果MDL模块依赖于导入的模块，即具有任何模块依赖项，则选中此选项会将模块依赖项&#x200B;*嵌入*&#x200B;导出的MDL模块，从而使其有效&#x200B;*自给自足*，但代价是文件大小和动态继承
 
-导出的预设将在3D视图中使用素材的参数&#x200B;*当前值*&#x200B;作为&#x200B;*新默认值*&#x200B;值。 可以使用<b>材质> my\_material >编辑</b>选项修改这些值，该选项将在[属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中显示材质的公开参数。
+导出的预设将在3D视图中使用素材的参数&#x200B;*当前值*&#x200B;作为&#x200B;*新默认值*&#x200B;值。 可以使用<b>材质> my\_material >编辑</b>选项修改这些值，该选项将在“属性”面板中显示材质的公开参数。
 
 >[!WARNING]
 >
-> 从[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中导出MDL模块时，会导致某个MDL模块包含&#x200B;*所有*&#x200B;由包中的MDL图表定义的MDL材质，从[3D视图](../../interface/3d-view/3d-view.md)中导出MDL预设会导致某个MDL模块仅包含&#x200B;*7&rbrace;应用于*&#x200B;所选材质&#x200B;*的MDL材质定义，在本示例中为`my_material`。*
+> 从[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中导出MDL模块时，会导致某个MDL模块包含&#x200B;*所有*&#x200B;由包中的MDL图表定义的MDL材质，从[3D视图](../../interface/3d-view/3d-view.md)中导出MDL预设会导致某个MDL模块仅包含&#x200B;*7}应用于*&#x200B;所选材质&#x200B;*的MDL材质定义，在本示例中为`my_material`。*
 
 ![MDL预设导出路径](../../assets/mdl-export-preset.png "MDL预设导出路径")
 
@@ -83,7 +83,7 @@ MDL模块预设与其所基于的模块大致相同，唯一区别在于它带�
 
 MDL模块存档将MDL模块（见上文）与&#x200B;*纹理*&#x200B;和自述文件等资源合并为一个&#x200B;*单个可传输文件*。
 
-导出MDL模块存档是在&#x200B;*包*&#x200B;级别执行的。 若要导出给定包的MDL模块存档，请单击[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中的![](../../assets/mdl-export-module-icon.png) <b>导出MDL模块存档</b>按钮，或在&#x200B;*包的上下文菜单*&#x200B;中选择相同的选项。 为导出的MDL模块存档选择目标位置和名称，此时会显示<b>导出报告</b>对话框，其中包含导出过程中记录的消息列表。
+导出MDL模块存档是在&#x200B;*包*&#x200B;级别执行的。 若要导出给定包的MDL模块存档，请单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的![](../../assets/mdl-export-module-icon.png) <b>导出MDL模块存档</b>按钮，或在&#x200B;*包的上下文菜单*&#x200B;中选择相同的选项。 为导出的MDL模块存档选择目标位置和名称，此时会显示<b>导出报告</b>对话框，其中包含导出过程中记录的消息列表。
 
 导出的模块存档将包含MDL模块，其中包含包中[MDL图形](../../mdl-graphs/mdl-graphs.md)定义的&#x200B;*所有* MDL材料的定义。 如果[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)已[实例化到MDL图形](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)中并连接到指向[根](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)节点的流，则它输出的纹理&#x200B;*将保存到存档中*。
 
@@ -108,7 +108,7 @@ MDL模块存档将MDL模块（见上文）与&#x200B;*纹理*&#x200B;和自述�
 
 例如，虽然您仍然可以修改公开参数的值以控制素材的行为，但在封装的MDL模块中，这些参数的&#x200B;*定义*&#x200B;为&#x200B;*不可用*。
 
-通过在MDL图表的上下文菜单中选择<b>导出为.mdle</b>选项，可在[资源管理器](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中的MDL图形级别导出封装的MDL模块。 为导出的MDL封装模块选择目标位置和名称，将显示<b>导出报告</b>对话框，其中显示了在导出过程中记录的消息列表。
+通过在MDL图表的上下文菜单中选择<b>导出为.mdle</b>选项，可在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的MDL图形级别导出封装的MDL模块。 为导出的MDL封装模块选择目标位置和名称，将显示<b>导出报告</b>对话框，其中显示了在导出过程中记录的消息列表。
 
 *仅*&#x200B;将在导出的封装MDL模块中包含&#x200B;*所选MDL图形*&#x200B;的材质定义。
 

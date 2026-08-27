@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance图形和MDL材料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Substance图表的输出可以通过两种方式传递到MDL材料的公开参数&#x200B;*，本页对此进行了说明。*
 
-如果当前在3D视图中应用的MDL材质具有类型为&#x200B;*[变化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;的公开参数 — 可以使用[公开参数的属性](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)中的<b>类型修饰符</b>选项设置此类型，则可以将这些类型连接到&#x200B;*纹理*：
+如果当前在3D视图中应用的MDL材质具有类型为&#x200B;*[变化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;的公开参数 — 可以使用[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的属性中的<b>类型修饰符</b>选项设置此类型，则可以将这些类型连接到&#x200B;*纹理*：
 
 * <b>Color</b>参数可以连接到RGBA纹理
 * 灰度纹理的<b>浮点</b>参数
