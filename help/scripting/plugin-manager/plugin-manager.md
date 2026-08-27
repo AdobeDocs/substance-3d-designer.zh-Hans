@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的“增效工具管理器”来安装、管理和配置Python增效工具，以获取扩展功能。
 helpx_creative_field: ""
