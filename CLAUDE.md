@@ -9,11 +9,11 @@ ht-degree: 0%
 
 当使用此存储库中的代码时，此文件为Claude Code (claude.ai/code)提供了指导。
 
-# Substance 3D Designer文档
+&#x200B;# Substance 3D Designer文档
 
 此存储库包含Substance 3D Designer的文档。 没有应用程序代码、生成步骤或测试套件 — 存储库&#x200B;*是*&#x200B;内容，在Markdown中编写并在[Adobe Experience League](https://experienceleague.adobe.com/docs/substance3d-designer.html?lang=en)上发布。
 
-# 存储库结构
+&#x200B;# 存储库结构
 
 * `help/` — 所有文档内容，按目录进行组织。
 * `help/guide/TOC.md` — 目录。 每个条目都是指向页面的Markdown文件的相对链接（根位于`/help/...`）。 `TOC.md`还包含页树元数据（`user-guide-title`、`breadcrumb-title`、`nudge`、节锚点，如`{#section-id}`）。
@@ -58,20 +58,20 @@ user-guide-title: ""
 
 保持`description`准确而简洁 — 它用于SEO/搜索片段。
 
-# 内容创作规则
+&#x200B;# 内容创作规则
 
 * 英语是真理的来源；所有其他语言都是从英语翻译过来的。
 * 指向其他文档页面的所有链接都必须是&#x200B;**相对**&#x200B;链接；指向外部资源的所有链接都必须是&#x200B;**绝对**&#x200B;链接。
 * 使用Experience League的自定义扩展/gotcha在GitHub风格的Markdown中编写内容，记录在[此处](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)。 具体内容请使用`write-experience-league-markdown`技能（如果存在）。
 * 每个提交的更改都会通过CI中的自动Lint检查和链接验证（请参阅下文） — 在假定应用了规则或链接需要修复之前，请检查`markdownlint_custom.json`和`linkcheckexclude.json`。
 
-# 验证/CI
+&#x200B;# 验证/CI
 
 * `.github/workflows/validate-articles.yml`在PR上运行并推送到`main`（并通过`retest`个PR注释），调用共享的`Adobe-Enterprise-Docs/workflows`可重用工作流以链接Markdown并验证链接。 此存储库中没有本地等效脚本 — CI是通过/失败的实际来源。
 * `.github/workflows/mirror.yml`在推送时将`main`镜像到公共存储库；它是基础结构，而不是内容更改需要触及的内容。
 * `markdownlint_custom.json`扩展共享的`markdownlint.json`规则集并禁用多个与Experience League的自定义标记扩展（例如内联HTML、非标准强调）冲突的规则(MD005、MD007、MD018、MD032、MD033、MD034、MD037、MD040)。 不要“修复”内容以满足这些已禁用的规则。
 * `linkcheckexclude.json`将链接检查器应跳过的链接模式（当前为`example.com`/`example-end.com`）列入白名单。
 
-# 工作惯例
+&#x200B;# 工作惯例
 
 * 这是包含大量发行说明的文档 — 发行说明位于`help/release-notes/`下，每个版本有一个文件夹（例如，`version-16-0`），以及`all-changes`和`old-versions`聚合页面。 添加新版本时，请按照现有版本文件夹作为模板进行操作。
