@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window/project-settings.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer首选项中配置项目设置以自定义默认项目行为。
 helpx_creative_field: ""
@@ -97,8 +97,8 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 | <b>默认资源名称</b> | 此设置允许您设置将用于输出图像文件的默认&#x200B;**命名模板**。 [烘焙窗口](../../../bakers/bakers.md)中可用的别名也可以在此使用(即，*$（网格）*，*$（烘焙名称）*，*$(udim)*，*$（自定义）*)<br><br>*默认值： $（网格）\_$（烘焙名称）* |
 | <b>默认预设</b> | 打开[烘焙窗口](../../../bakers/bakers.md)时，您可以使用此选项指向预设&#x200B;*JSON*&#x200B;文件，使其&#x200B;**已配置**&#x200B;特定的烘焙程序和设置。 根据您的需要设置此文件后，可以从烘焙窗口中导出此文件&#x200B;<br><br>*默认值：无* |
 | <b>名称筛选模式</b> | 匹配低多边形和高多边形场景对象时应使用的场景对象：<ul data-preserve-html="true"> <li data-preserve-html="true">几何名称：使用网格几何对象的名称</li> <li data-preserve-html="true">父级名称（旧版）：使用网格几何对象的父级名称（与Designer 14.1及更低版本中的名称相同）</li> </ul>*默认：几何名称* |
-| <b>资源名称宏</b> | 除了&#x200B;*$(bakername)*&#x200B;别名之外，您还可以对[每个贝克](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)使用自己的字符串。  在任何Baker的输出图像名称中使用&#x200B;***$（自定义）***&#x200B;别名时，该别名将被替换为与列表中该Baker匹配的字符串。 如果将与面包机对应的列表单元格留空，则此面包机&#x200B;*$（自定义）*&#x200B;别名&#x200B;*将*&#x200B;不会被替换。示例：分配给“从网格曲率映射”面包机的“c-mesh”值将&#x200B;*t\_mymesh\_&#x200B;**$（自定义）***自动重命名为&#x200B;*t\_mymesh\_&#x200B;**c-mesh***，以获得从网格面包机曲率输出&#x200B;*仅&#x200B;*<br><br>*默认： None* |
-| <b>子网格名称筛选器</b> | 在[生成器](../../../bakers/bakers.md)中使用&#x200B;**按名称匹配**&#x200B;选项时，如果在定义的&#x200B;**后缀**&#x200B;之前网格的低清晰度版本和高清晰度版本的名称是&#x200B;*相同*，则这些部分的名称&#x200B;*匹配*。 此设置允许您设置自己的后缀以适应您的特定工作流程。 网格的匹配部分可以使光线忽略烘焙操作中不需要的几何形状。示例：*body.fbx*&#x200B;网格中的&#x200B;*body-torso&#x200B;**\_low***&#x200B;对象将与&#x200B;*body\_high.fbx，* *中的* body-torso **\_high***对象匹配，如果这些对象存在*&#x200B;这些网格中&#x200B;*。**默认值： \_low （低多边形网格） / \_high （高多边形网格）*同样，**&#x200B;背面&#x200B;**可以是&#x200B;*有选择性的对于包含**&#x200B;忽略背面**选项<br><br>*&#x200B;默认：\_ignorebf *<br><br>*&#x200B;注意：*忽略背面和低/高多边形网格后缀可以*以任何顺序*组合[&#x200B; （例如，*body-torso\_low\_ignorebf*），对于名称包含定义的&#x200B;**后缀**&#x200B;的网格部分，忽略*](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings) |
+| <b>资源名称宏</b> | 除了&#x200B;*$(bakername)*&#x200B;别名之外，您还可以对[每个贝克](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/bakers-settings)使用自己的字符串。  在任何Baker的输出图像名称中使用&#x200B;***$（自定义）***&#x200B;别名时，该别名将被替换为与列表中该Baker匹配的字符串。 如果将与面包机对应的列表单元格留空，则此面包机&#x200B;*$（自定义）*&#x200B;别名&#x200B;*将*&#x200B;不会被替换。示例：分配给“从网格曲率映射”面包机的“c-mesh”值将&#x200B;*t\_mymesh\_&#x200B;**$（自定义）***自动重命名为&#x200B;*t\_mymesh\_&#x200B;**c-mesh***，以获得从网格面包机曲率输出&#x200B;*仅&#x200B;*<br><br>*默认： None* |
+| <b>子网格名称筛选器</b> | 在[生成器](../../../bakers/bakers.md)中使用&#x200B;**按名称匹配**&#x200B;选项时，如果在定义的&#x200B;**后缀**&#x200B;之前网格的低清晰度版本和高清晰度版本的名称是&#x200B;*相同*，则这些部分的名称&#x200B;*匹配*。 此设置允许您设置自己的后缀以适应您的特定工作流程。 网格的匹配部分可以使光线忽略烘焙操作中不需要的几何形状。示例：*body.fbx*&#x200B;网格中的&#x200B;*body-torso&#x200B;**\_low***&#x200B;对象将与&#x200B;*body\_high.fbx，* *中的* body-torso **\_high***对象匹配，如果这些对象存在*&#x200B;这些网格中&#x200B;*。**默认值： \_low （低多边形网格） / \_high （高多边形网格）*同样，**&#x200B;背面&#x200B;**可以是&#x200B;*有选择性的对于包含**&#x200B;忽略背面**选项<br><br>*&#x200B;默认：\_ignorebf *<br><br>*&#x200B;注意：*忽略背面和低/高多边形网格后缀可以*以任何顺序*组合[&#x200B; （例如，*body-torso\_low\_ignorebf*），对于名称包含定义的&#x200B;**后缀**&#x200B;的网格部分，忽略*](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/bakers-settings) |
 
 ### 色彩管理
 
@@ -136,7 +136,7 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 
 *默认值：已选中*
 
-如果PSD中包含的[Photoshop](https://www.adobe.com/products/photoshop.html)文档（\*.library文件）具有<b>多个图层</b>，则可以通过某个选项将*&#x200B;每个图层的内容作为单独的图像条目*显示在库中。
+如果PSD中包含的[Photoshop](https://www.adobe.com/cn/products/photoshop.html)文档（\*.library文件）具有<b>多个图层</b>，则可以通过某个选项将*&#x200B;每个图层的内容作为单独的图像条目*显示在库中。
 
 *默认值：已选中*
 
