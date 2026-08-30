@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: 使用FXMaps中的“迭代”节点在材料中创建重复的图案和程序化的变体。
 helpx_creative_field: ""

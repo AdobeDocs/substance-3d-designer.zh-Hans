@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、创建和管理资源，包括位图、字体和3D场景。
 helpx_creative_field: ""

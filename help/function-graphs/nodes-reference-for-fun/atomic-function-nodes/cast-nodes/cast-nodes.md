@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer函数图形中的转换节点在float、int和vector之间转换数据类型。
 helpx_creative_field: ""

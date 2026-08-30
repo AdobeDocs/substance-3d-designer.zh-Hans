@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
 breadcrumb-title: ''
 description: 使用“总和区域表”节点创建总和区域表，以便进行有效的框过滤和模糊操作。
 helpx_creative_field: ""

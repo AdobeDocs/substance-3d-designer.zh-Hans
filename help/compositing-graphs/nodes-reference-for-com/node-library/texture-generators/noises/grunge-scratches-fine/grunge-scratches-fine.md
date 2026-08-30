@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: 使用Scratches细节点可添加精细的划痕图案，以实现细微的磨损和表面细节效果。
 helpx_creative_field: ""

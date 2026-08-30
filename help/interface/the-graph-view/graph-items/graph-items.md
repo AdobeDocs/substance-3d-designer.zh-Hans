@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的图表项目，包括用于组织图表的框架、注释、图钉和门户节点。
 helpx_creative_field: ""

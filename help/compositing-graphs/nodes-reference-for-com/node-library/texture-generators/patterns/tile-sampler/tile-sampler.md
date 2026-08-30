@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: 使用“拼贴Sampler”节点可对输入纹理中的拼贴进行采样和排列，以便在Substance 3D Designer中创建拼贴图案。
 helpx_creative_field: ""

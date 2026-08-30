@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
 description: 使用“极坐标”到“笛卡尔坐标”节点，可以将纹理从极坐标转换为笛卡尔坐标。
 helpx_creative_field: ""

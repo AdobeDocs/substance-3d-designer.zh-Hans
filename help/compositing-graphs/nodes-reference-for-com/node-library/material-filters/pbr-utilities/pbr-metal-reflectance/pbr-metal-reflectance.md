@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
 breadcrumb-title: ''
 description: 使用“PBR金属反射率”节点可计算基于物理的材料工作流程的金属反射率值。
 helpx_creative_field: ""

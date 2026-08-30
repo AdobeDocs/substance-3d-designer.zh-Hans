@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer的教程和学习资源，以掌握程序化的材料创建技术。
 helpx_creative_field: ""

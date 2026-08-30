@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中配置增效工具搜索路径，以指定Python增效工具所在的位置。
 helpx_creative_field: ""

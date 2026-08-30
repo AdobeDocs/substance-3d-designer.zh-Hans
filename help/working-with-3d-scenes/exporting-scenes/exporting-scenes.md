@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: 使用“场景”菜单中的导出场景操作，导出包含在Designer中所做的所有编辑的3D3D 视图。
 helpx_creative_field: ""

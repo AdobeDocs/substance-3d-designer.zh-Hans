@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-008.html"
 breadcrumb-title: ''
 description: 使用“污渍映射008”节点可以生成程序化的污渍图案，以便向材料添加历经沧桑的纹理细节。
 helpx_creative_field: ""

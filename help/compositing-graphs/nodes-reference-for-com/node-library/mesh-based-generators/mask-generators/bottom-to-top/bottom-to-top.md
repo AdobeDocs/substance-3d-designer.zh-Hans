@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: 使用“自下而上”节点，根据网格世界位置从下至上生成渐变蒙版。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 描述
 
-根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)中的[智能蒙版](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
+根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)中的[智能蒙版](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
 
 这将生成从模型底部到顶部的白色到黑色的过渡，对于进行基于几何的衰减和选择非常有用。
 

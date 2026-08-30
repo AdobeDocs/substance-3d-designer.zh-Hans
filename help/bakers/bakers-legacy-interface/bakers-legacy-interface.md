@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 了解适用于熟悉旧版本的用户的Baker的旧版界面。
 helpx_creative_field: ""
