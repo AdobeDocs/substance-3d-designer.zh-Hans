@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
-description: 对Substance 3D Designer中的不正确图像输出问题进行故障诊断，并了解如何修复渲染问题。
+description: 对Substance 3D Designer中的图像输出错误问题进行故障诊断，并了解如何修复渲染问题。
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Incorrect image output
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 图像输出不正确
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,32 +28,32 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](incorrect-image-output.resources/error.svg)问题**
 
-图像输出中的渐变是阶梯状的，而不是平滑的。 步进是由图像使用的&#x200B;*值范围太窄引起的*。\
+图像输出中的渐变是阶梯式的，而不是平滑的。 步进是由图像使用的&#x200B;*值范围太窄引起的*。\
 这意味着没有足够的值来平滑地从渐变的一个步骤过渡到下一个步骤。
 
 可使用整数或浮点值对明亮度/RGBA值进行编码，这会影响其&#x200B;*精度*：
 
 * **整数**&#x200B;提供8位精度（0-255，因此256个可能的值）和16位精度（0-65535，因此65536可能的值）来存储0-1范围内的值。
-* **浮点**&#x200B;提供16位(HDR 16F)和32位(HDR 32F)精度，能够存储0-1范围之外的值（包括负值）。 这样，您就可以处理高动态范围(HDR)图像，其明亮度值可能远远高于1.0。
+* **浮点**&#x200B;提供16位(HDR 16F)和32位(HDR 32F)精度，能够存储0-1范围之外的值（包括负值）。 这样，您就可以处理高动态范围(HDR)图像，其中明亮度值可能远远高于1.0。
 
-如果您不需要专门处理HDR图像，则您的大多数节点可能都输出使用整数编码的0-1范围中的值。 如果图像的输出格式为8位，则图像只能使用256值，这通常会导致出现明显的渐变阶梯。 这尤其可能会影响“正常”节点的输出。
+如果您不需要专门处理HDR图像，则您的大多数节点可能都使用整数编码输出0-1范围内的值。 如果图像的输出格式为8位，则图像只能使用256值，这通常会导致出现明显的渐变阶梯。 这尤其可能会影响“正常”节点的输出。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![（刻度）](../../assets/check.svg)建议的步骤**
+**![（刻度）](incorrect-image-output.resources/check.svg)建议的步骤**
 
-检查节点及上游所有节点的&#x200B;**输出格式**（即位深度），并确保这些节点至少使用&#x200B;*16位整数精度*。
+检查该节点及上游所有节点的&#x200B;**输出格式**（即，位深度），并确保这些节点使用至少&#x200B;*16位整数精度*。
 
-Output格式参数通常设置为&#x200B;*相对于输入* [继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，这会在整个图形中传播低精度。 理想情况下，通过转到图表中的上游位置，您可以找到问题的根源。
+Output format参数通常设置为&#x200B;*相对于输入* [继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，这样可以在整个图形中传播低精度。 理想情况下，在图形中向上游走，即可找到问题的根源。
 
 通过查看节点下显示的文本信息，可以快速确定节点输出的精度：
 
@@ -73,7 +73,7 @@ Output格式参数通常设置为&#x200B;*相对于输入* [继承方法](../../
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](incorrect-image-output.resources/error.svg)问题</b>
 
 Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substance 3D文件的图形，如右侧的图像所示。\
 输出显示低分辨率。
@@ -81,13 +81,13 @@ Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substan
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](incorrect-image-output.resources/check.svg)建议的步骤</b>
 
 确保所有[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点的[输出大小](../../compositing-graphs/output-size/output-size.md)属性都设置为&#x200B;*绝对* [继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
 
@@ -99,20 +99,20 @@ Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substan
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](incorrect-image-output.resources/error.svg)问题**
 
-使用某些节点后，形状略微模糊，如[变换2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)或[混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
+使用某些混合后，形状略微模糊，如[变换 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)或[节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![（刻度）](../../assets/check.svg)建议的步骤**
+**![（刻度）](incorrect-image-output.resources/check.svg)建议的步骤**
 
 在重新排列图像中的像素时（例如，在调整形状大小或更改图像分辨率时），有两种方法可确定应如何&#x200B;*将源中的像素*&#x200B;映射到目标：
 

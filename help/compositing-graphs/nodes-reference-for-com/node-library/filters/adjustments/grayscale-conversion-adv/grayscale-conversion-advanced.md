@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
 description: 使用“灰度转换高级”节点，通过高级控制转换方法，将颜色转换为灰度。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高级灰度转换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -22,33 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced.png){width="128px"}
 
-## 高级灰度转换
-
-**范围：** *滤镜/调整*
-
-**简单**
+<b>英寸：</b>滤镜>调整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 高级、快速灰度转换节点，提供了一些预设转换模式。
 
-## 参数
-
-* **灰度类型**：*去除饱和度、亮度、平均值、最大值、最小值*&#x200B;去除饱和度将饱和度值设置为0，亮度使用正式的明亮度粗细，平均值与原子节点相同，而“最大值”和“最小值”将分别为每个通道使用最亮值。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/grayscale-conversion-advanced-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>灰度类型</b> <i>降低饱和度，亮度，平均值，最大值，最小值</i> | 降低饱和度将饱和度值设置为0，Luma使用官方明亮度权重，Average与原子节点相同，Max和Min将分别使用每个通道的最亮值。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-example.png" />
+        </td>
+    </tr>
 </table>

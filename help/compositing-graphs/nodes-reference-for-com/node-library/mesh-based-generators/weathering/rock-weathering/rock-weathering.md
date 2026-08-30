@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: 使用岩石风化节点，根据网格几何形状在岩石表面生成风化图案，以实现逼真的侵蚀效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 岩石风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 16%
 
 ---
 
@@ -22,78 +22,71 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering.png){width="128px"}
 
-## 岩石风化
-
-**在：** *基于网格的生成器**/Weathering*
-
-**复杂**
+<b>在</b>中基于网格的生成器>风化
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-## 参数
-
-### 输入
-
-* **环境遮蔽**： *灰度输入*\
-  用于内部效果和蒙版的已烘焙贴图。
-* **曲率**： *灰度输入*\
-  用于内部效果和蒙版的已烘焙贴图。
-* **正常WS**： *颜色输入*\
-  用于内部效果和蒙版的烘焙世界空间正常映射。
-* **蒙版** ：*灰度输入*\
-  用于遮盖节点效果的遮罩槽。 可以使用“Mask”参数切换。
-
-### 参数
-
-* **频道**
-  * 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。
-* **高级**
-  * **普通格式**： *DirectX，OpenGL*\
-    在不同正常映射格式之间切换（反转绿色通道）。
-  * **蒙版**： *False/True*\
-    启用或禁用蒙版图。
-* **效果**
-  * **Dust**： *0.0 - 1.0*
-  * **脏度**： *0.0 - 1.0*
-  * **边缘磨损**： *0.0 - 1.0*
-  * **使用的岩石**： *0.0 - 1.0*
-  * **裂缝比例**： *1.0 - 60.0*
-  * **裂缝强度**： *0.0 - 1.0*
-  * **年龄**： *0.0 - 1.0*
-  * **年龄阈值**： *0.0 - 1.0*
-  * **锐边Scratches比例**： *1.0 - 32.0*
-  * **锐边Scratches变形强度**： *0.0 - 1.0*
-  * **已使用的岩石去饱和**： *0.0 - 1.0*
-  * **使用的岩石亮度**： *0.0 - 1.0*
-* **混合**
-  * **扩散强度**： *0.0 - 1.0*\
-    扩散的混合强度。
-  * **基色强度**： *0.0 - 1.0*\
-    混合基色的强度。
-  * **正常强度**： *0.0 - 64.0*\
-    混合“正常”的强度。
-  * **Specular强度**： *0.0 - 1.0*\
-    混合Specular的强度。
-  * **光泽强度**： *0.0 - 1.0*\
-    混合光泽度的强度。
-  * **粗糙度强度**： *0.0 - 1.0*\
-    混合粗糙度的强度。
-  * **环境遮蔽强度**： *0.0 - 1.0*\
-    混合环境遮蔽的强度。
-  * **Height强度**： *0.0 - 1.0*\
-    混合Height的强度。
-
-## 示例图像
-
-![](../../../../../../assets/rock-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>正常WS</b> <i>颜色输入</i> | 用于内部效果和蒙版的烘焙世界空间正常映射。 |
+| <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“Mask”参数切换。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>高级</b> |  |
+| <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
+| <b>蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |
+| <b>效果</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>污迹</b> <i>0.0 - 1.0</i> |  |
+| <b>边缘磨损</b> <i>0.0 - 1.0</i> |  |
+| <b>已使用的岩石</b> <i>0.0 - 1.0</i> |  |
+| <b>裂缝比例</b> <i>1.0 - 60.0</i> |  |
+| <b>裂缝强度</b> <i>0.0 - 1.0</i> |  |
+| <b>年龄</b> <i>0.0 - 1.0</i> |  |
+| <b>年龄阈值</b> <i>0.0 - 1.0</i> |  |
+| <b>锐边Scratches缩放</b> <i>1.0 - 32.0</i> |  |
+| <b>锐边Scratches变形强度</b> <i>0.0 - 1.0</i> |  |
+| <b>已使用的岩石去饱和度</b> <i>0.0 - 1.0</i> |  |
+| <b>使用的岩石亮度</b> <i>0.0 - 1.0</i> |  |
+| <b>混合</b> |  |
+| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 扩散的混合强度。 |
+| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合基色的强度。 |
+| <b>正常强度</b> <i>0.0 - 64.0</i> | 混合“正常”的强度。 |
+| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合Specular的强度。 |
+| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合光泽度的强度。 |
+| <b>粗糙度强度</b> <i>0.0 - 1.0</i> | 混合粗糙度的强度。 |
+| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 混合环境遮蔽的强度。 |
+| <b>Height强度</b> <i>0.0 - 1.0</i> | 混合Height的强度。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rock-weathering.resources/rock-ex.gif" />
+        </td>
+    </tr>
 </table>

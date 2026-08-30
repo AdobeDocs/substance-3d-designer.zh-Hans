@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中创建和编辑函数图表，以构建可重用的节点网络。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 创建和编辑函数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## 创建函数
 
-若要创建函数，只需单击函数图标![](../../assets/image2017-3-7-17-10-8.png)并选择“**空函数**”。
+若要创建函数，只需单击函数图标![](create-and-edit-a-function.resources/image2017-3-7-17-10-8.png)并选择“**空函数**”。
 
-![](../../assets/image2017-3-7-17-8-37.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-8-37.png)
 
 ## 编辑函数
 
 创建函数后，可以通过再次单击函数图标或在下拉列表中选择编辑来修改它。
 
-![](../../assets/image2017-3-7-17-11-42.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-11-42.png)
 
 然后，您将进入图表的功能模式。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 您可以通过右键单击图形并选择“添加元素”或按空格键来创建节点：
 
-![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](create-and-edit-a-function.resources/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## 设置输出
 

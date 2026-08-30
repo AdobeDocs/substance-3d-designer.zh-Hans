@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
-description: 使用“文本”节点生成带有可自定义字体和样式的文本纹理，以创建基于文本的图案。
+description: 使用“文本”节点生成具有可自定义纹理和样式的文本字体，以创建基于文本的图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 文本
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,12 +24,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：文本](../../../../assets/comp_text_1.png "原子节点：文本"){width="200px"}
+![原子节点：文本](text.resources/comp_text_1.png "原子节点：文本"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-“文本”节点提供了一种将用户创建的文本放入图表中的方式。 用户还可以选择字体、对齐方式和旋转等设置以自定义文本放置。
+“文本”节点提供了一种在图形中置入用户创建的文本的方法。 用户还可以选择字体、对齐方式和旋转等设置以自定义文本放置。
 
 “文本”节点功能非常强大，是轻松放置文本的唯一方式。 使用时可能会有些困难，因为放置内容总是在有限的方形画布上进行，并且字体由系统定义的外部列表驱动。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 仅支持Truetype (.ttf)和某些Opentype字体。 如果列表中缺少任何字体，可能是因为这个原因。 <b>字体无法作为参数公开。</b>
 
-将使用文本的图表发布到sbsar时，字体将嵌入到包中，就像位图和其他资源一样，以确保在所有系统和应用程序中发挥作用。
+将使用“文本”的图形发布到sbsar时，字体将嵌入到包中，就像位图和其他资源一样，以确保在所有系统和应用程序中使用字体。
 
 <table>
 <tr style="border: 0;">

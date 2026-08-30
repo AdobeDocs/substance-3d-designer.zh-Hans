@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer函数图表中的Get节点以检索变量值和数据。
+description: 访问Substance 3D Designer函数图形中的Get节点以检索变量值和数据。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Variables
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 变量
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 变量是<b>存储值</b>以便稍后获取（<b>获取</b>）和/或修改值（<b>设置</b>）的一种方法。
 
-![函数图表 — 获取浮点](../../../../assets/assign-getfloat.gif "Substance函数图表 — 获取浮点"){zoomable="yes"}
+![函数Substance- Get float](get-nodes.resources/assign-getfloat.gif "函数图形Substance- Get float"){zoomable="yes"}
 
 Get节点实质上就是获取一个动态变量，然后从Get节点的输出返回该变量以便在函数中使用。 这些Get节点形成在[图形参数](../../../../compositing-graphs/graph-parameters/graph-parameters.md)和[参数函数](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中定义的输入参数之间的链接。
 
@@ -30,7 +30,7 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 
 存在多个<b>“系统”变量</b>：不能自行声明的预定义的特殊变量。 这些变量非常重要，对于下面的节点，会列出可用的系统变量。
 
-当参数是[公开的](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，它包括对其应用一个参数函数，该函数仅包含正确类型的Get节点。
+当参数为[公开](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，它包括对其应用一个参数函数，该函数仅包含正确类型的Get节点。
 
 <table>
 <tr style="border: 0;">
@@ -58,7 +58,7 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![获取浮点2 — 图标](../../../../assets/fn_variables_getfloat2.png "获取浮点2 — 图标"){width="200px"}
+![获取浮点2 — 图标](get-nodes.resources/fn_variables_getfloat2.png "获取浮点2 — 图标"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,25 +88,25 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 ### 获取节点
 
 +++浮动
-![获取浮动 — 图标](../../../../assets/fn_variables_getfloat.png "获取浮动 — 图标"){width="200px"}
+![获取浮动 — 图标](get-nodes.resources/fn_variables_getfloat.png "获取浮动 — 图标"){width="200px"}
 
 
 
 获取浮点
 
-![获取浮点2 — 图标](../../../../assets/fn_variables_getfloat2.png "获取浮点2 — 图标"){width="200px"}
+![获取浮点2 — 图标](get-nodes.resources/fn_variables_getfloat2.png "获取浮点2 — 图标"){width="200px"}
 
 
 
 获取浮点 2
 
-![获取浮点3 — 图标](../../../../assets/fn_variables_getfloat3.png "获取浮点3 — 图标"){width="200px"}
+![获取浮点3 — 图标](get-nodes.resources/fn_variables_getfloat3.png "获取浮点3 — 图标"){width="200px"}
 
 
 
 获取浮点 3
 
-![获取浮点4 — 图标](../../../../assets/fn_variables_getfloat4.png "获取浮点4 — 图标"){width="200px"}
+![获取浮点4 — 图标](get-nodes.resources/fn_variables_getfloat4.png "获取浮点4 — 图标"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 +++
 
 +++整数
-![获取整数 — 图标](../../../../assets/fn_variables_getint.png "获取整数 — 图标"){width="200px"}
+![获取整数 — 图标](get-nodes.resources/fn_variables_getint.png "获取整数 — 图标"){width="200px"}
 
 
 
 获取整数
 
-![获取整数2 — 图标](../../../../assets/fn_variables_getint2.png "获取整数2 — 图标"){width="200px"}
+![获取整数2 — 图标](get-nodes.resources/fn_variables_getint2.png "获取整数2 — 图标"){width="200px"}
 
 
 
 获取整数 2
 
-![获取整数3 — 图标](../../../../assets/fn_variables_getint3.png "获取整数3 — 图标"){width="200px"}
+![获取整数3 — 图标](get-nodes.resources/fn_variables_getint3.png "获取整数3 — 图标"){width="200px"}
 
 
 
 获取整数 3
 
-![获取整数4 — 图标](../../../../assets/fn_variables_getint4.png "获取整数4 — 图标"){width="200px"}
+![获取整数4 — 图标](get-nodes.resources/fn_variables_getint4.png "获取整数4 — 图标"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 +++
 
 +++其他
-![获取布尔值 — 图标](../../../../assets/fn_variables_getboolean.png "获取布尔值 — 图标"){width="200px"}
+![获取布尔值 — 图标](get-nodes.resources/fn_variables_getboolean.png "获取布尔值 — 图标"){width="200px"}
 
 
 
 获取布尔
 
-![获取字符串 — 图标](../../../../assets/fn_variables_getstring.png "获取字符串 — 图标"){width="200px"}
+![获取字符串 — 图标](get-nodes.resources/fn_variables_getstring.png "获取字符串 — 图标"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![设置：节点图标](../../../../assets/fn_variables_set.png "设置：节点图标"){width="200px"}
+![设置：节点图标](get-nodes.resources/fn_variables_set.png "设置：节点图标"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Get节点实质上就是获取一个动态变量，然后从Get节点的输出�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![已定义：节点图标](../../../../assets/fn_variables_isdefined.png "已定义：节点图标"){width="200px"}
+![已定义：节点图标](get-nodes.resources/fn_variables_isdefined.png "已定义：节点图标"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

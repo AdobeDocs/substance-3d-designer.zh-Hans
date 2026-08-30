@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
 description: 使用“位图”节点可导入位图图像，并将其用作Substance合成图表中的纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 位图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：位图](../../../../assets/comp_bitmap.png "原子节点：位图"){width="200px"}
+![原子节点：位图](bitmap.resources/comp_bitmap.png "原子节点：位图"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -105,7 +105,7 @@ ht-degree: 1%
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 确定节点的输出类型，以返回彩色或灰度。 |
 | <b>PKG资源路径</b> *字符串* | 节点引用的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)的路径。   建议不要手动键入，而是从资源管理器中复制资源并将其粘贴到参数文本字段中，或者将位图资源直接从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖放到图形中的位图节点上。 |
-| <b>调整方法大小</b> *整数* | 在放大或缩小位图时要使用的重新采样方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>平滑拉伸：</i>应用[双线性滤镜](../../../../glossary/glossary.md)在拉伸图像的源像素上进行插值。</li> <li data-preserve-html="true"><i>最近拉伸：</i>拉伸图像并按原样使用最近源像素的颜色。</li> </ul> |
+| <b>调整方法大小</b> *整数* | 在放大或缩小位图时要使用的重新采样方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>平滑拉伸：</i>应用[双线性筛选](../../../../glossary/glossary.md)以插值于拉伸图像的源像素。</li> <li data-preserve-html="true"><i>最接近拉伸：</i>拉伸图像并使用最接近的源像素的颜色。</li> </ul> |
 
 ## 位图绘画工具
 

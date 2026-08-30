@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的键盘快捷键，以加快您的工作流程并提高工作效率。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快捷键
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ ht-degree: 17%
 
 **Windows**
 
-![Windows上的键盘快捷键](../../assets/keyboard_shortcuts_win.png "Windows上的键盘快捷键"){zoomable="yes"}
+![Windows上的键盘快捷键](shortcuts.resources/keyboard_shortcuts_win.png "Windows上的键盘快捷键"){zoomable="yes"}
 
 **macOS**
 
-![macOS上的键盘快捷键](../../assets/keyboard_shortcuts_mac.png "macOS上的键盘快捷键"){zoomable="yes"}
+![macOS上的键盘快捷键](shortcuts.resources/keyboard_shortcuts_mac.png "macOS上的键盘快捷键"){zoomable="yes"}
 
 ## 快捷键列表
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 | 粘贴 | Ctrl + V | ⌘ + V |
 | 上下文菜单 | 人民币 | 人民币 |
 | 节点菜单 | 空格键 | 空格键 |
-| 循环[导航图钉](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| 循环[导航大头针](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>链接创建模式</b>
 

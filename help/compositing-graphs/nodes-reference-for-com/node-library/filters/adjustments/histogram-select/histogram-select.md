@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
 description: 使用直方图选择节点从纹理直方图中选择并提取特定范围以进行目标调整。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方图选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select.png){width="128px"}
 
-## 直方图选择
-
-**范围：** *滤镜/调整*
-
-**简单**
+<b>英寸：</b>滤镜>调整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,17 +37,26 @@ ht-degree: 1%
 
 [单击此处观看关于直方图选择的Substance学院视频。](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## 参数
-
-* **位置**： *0.0 - 1.0*&#x200B;设置选择范围的中间位置。
-* **范围**： *0.0 - 1.0*&#x200B;设置选择范围的宽度。
-* **对比度**： *0.0 - 1.0*\
-  调整结果的对比度/衰减。
-
-## 示例图像
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>位置</b> <i>0.0 - 1.0</i> | 设置进行范围选择的中间位置。 |
+| <b>范围</b> <i>0.0 - 1.0</i> | 设置选择范围的宽度。 |
+| <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度/衰减。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-select.resources/histoselect-ex.gif" />
+        </td>
+    </tr>
 </table>

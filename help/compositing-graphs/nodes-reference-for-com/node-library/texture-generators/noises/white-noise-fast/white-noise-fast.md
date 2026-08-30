@@ -1,54 +1,50 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
 breadcrumb-title: ''
-description: 使用“白噪声快速”节点生成快速白噪声图案，以快速进行纹理变化和随机化。
+description: 使用“白色噪声快速”节点可生成快速白色噪声模式，以便快速进行纹理变化和随机化。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White Noise Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 快速白噪声
+title: 白噪声快速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
 
-# 快速白噪声
+# 白噪声快速
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/white-noise-fast.png){width="128px"}
+![](white-noise-fast.resources/white-noise-fast.png){width="128px"}
 
-## 快速白噪声
-
-**在：** *纹理生成器**/杂波*
-
-**简单**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-这是[白噪声](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)的较快版本，因为质量不是您最大的问题，并且您希望节省一点性能。 大多数情况下，快速版本应该不会有什么问题。
-
-## 参数
-
-无参数。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/white-noise-fast-1.png" width="256px"/></div> |
-| --- |
-|  |
+这是[白色噪声](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)的较快版本，因为质量不是您最大的问题，并且您希望节省一点性能。 大多数情况下，快速版本应该不会有什么问题。
 
 </td>
 </tr>
+</table>
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="white-noise-fast.resources/white-noise-fast-1.png" />
+        </td>
+    </tr>
 </table>

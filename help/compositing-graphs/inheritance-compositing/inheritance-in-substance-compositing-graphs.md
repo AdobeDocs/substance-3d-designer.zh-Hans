@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解继承在Substance合成图形中的工作原理，以创建可重用的图形层次结构和变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 图形中的继承
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面描述继承如何在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)内的[Substance图表](../../compositing-graphs/substance-compositing-graphs.md)中应用以及它对图表输出的影响。
 
-![继承方法](../../assets/inheritance-overview-1.jpg "继承方法"){width="1400px"}
+![继承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "继承方法"){width="1400px"}
 
 ## 概述
 
@@ -38,7 +38,7 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![“绝对”继承方法的图标](../../assets/ds-inheritance-absolute.png "“绝对”继承方法的图标"){width="128px"}
+![“绝对”继承方法的图标](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-absolute.png "“绝对”继承方法的图标"){width="128px"}
 
 <b>绝对</b>
 
@@ -47,7 +47,7 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 </td>
 <td style="border: 0;" valign="top">
 
-![“相对于输入”继承方法的图标](../../assets/ds-inheritance-relative-to-input.png "“相对于输入”继承方法的图标"){width="128px"}
+![“相对于输入”继承方法的图标](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "“相对于输入”继承方法的图标"){width="128px"}
 
 <b>相对于输入</b>
 
@@ -56,7 +56,7 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 </td>
 <td style="border: 0;" valign="top">
 
-![“相对于父代”继承方法的图标](../../assets/ds-inheritance-relative-to-parent.png "“相对于父代”继承方法的图标"){width="128px"}
+![“相对于父代”继承方法的图标](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "“相对于父代”继承方法的图标"){width="128px"}
 
 <b>相对于主页</b>
 
@@ -66,7 +66,7 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 </tr>
 </table>
 
-![继承方法演示](../../assets/inheritance-overview.gif "继承方法演示")
+![继承方法演示](inheritance-in-substance-compositing-graphs.resources/inheritance-overview.gif "继承方法演示")
 
 对节点的[基参数](../../compositing-graphs/graph-parameters/graph-parameters.md)应用继承方法，该参数是所有节点都具有的&#x200B;*基本方面*&#x200B;行为的公共参数集。 这些参数包括：
 
@@ -86,17 +86,17 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 >[!NOTE]
 >
-> **输出大小：**&#x200B;使用![](../../assets/props-output-size-lock.jpg)锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值\
-> **随机植入：**&#x200B;使用![](../../assets/prop-randomise.jpg)按钮向随机植入分配新的随机值。
+> **输出大小：**&#x200B;使用![](inheritance-in-substance-compositing-graphs.resources/props-output-size-lock.jpg)锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值\
+> **随机植入：**&#x200B;使用![](inheritance-in-substance-compositing-graphs.resources/prop-randomise.jpg)按钮向随机植入分配新的随机值。
 
 ## 进行更改
 
 ### 更改继承方法
 
-在“属性”面板中，节点属性的[基本参数](../../compositing-graphs/graph-parameters/graph-parameters.md)部分中列出的所有参数都有一个与其标签相反的（图标） <b>设置继承方法</b>下拉按钮。\
+在“属性”面板中，节点属性的[基本参数](../../compositing-graphs/graph-parameters/graph-parameters.md)部分中列出的所有参数都有一个与其标签相对的（图标） <b>设置继承方法</b>下拉按钮。\
 此按钮允许您选择用于参数的继承方法。
 
-![更改继承方法](../../assets/inheritance-change.gif "更改继承方法"){width="512px"}
+![更改继承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "更改继承方法"){width="512px"}
 
 在大多数情况下，*节点*&#x200B;的基参数设置为&#x200B;*相对于输入*，以利用将节点链接在一起的过程行为，而&#x200B;*图形*&#x200B;的基参数设置为&#x200B;*相对于父项*，因此全局参数可以适应使用图形的上下文。
 
@@ -124,38 +124,38 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 图表的父级是它存在于&#x200B;*上下文*&#x200B;中：
 
-* 如果该图表是作为&#x200B;*实例节点*&#x200B;实例化到另一个主机图表中的子图表，则子图表的父级是&#x200B;*实例节点*。 该实例节点的父级是&#x200B;*主机图形*。
-* 如果该图形是根图形，则父图形是&#x200B;*应用程序本身*&#x200B;以及应用程序为给定参数设置的任何值。 例如，图形将继承自[图形视图工具栏](../../interface/the-graph-view/the-graph-view.md)中的<b>父项大小</b>参数集。
+* 如果该图形是作为&#x200B;*实例化*&#x200B;实例化到另一个主机图形中的子图形，则子图形的父级是&#x200B;*实例化*。 该实例化的父级是&#x200B;*主机图形*。
+* 如果该图形是根图形，则父应用程序是&#x200B;*应用程序本身*&#x200B;以及该应用程序为给定参数设置的任何值。 例如，图形将继承自[图形视图工具栏](../../interface/the-graph-view/the-graph-view.md)中设置的<b>父项大小</b>参数。
 
 >[!WARNING]
 >
-> 在将包发布到Substance 3D资源文件(SBSAR)时，父子关系是&#x200B;*按原样应用*。 这意味着将任何参数设置为&#x200B;*Absolute*&#x200B;继承方法将&#x200B;*将该参数锁定*&#x200B;到其在发布资源中的当前值。\
-> 尽管这对于[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点或[优化目的](../../best-practices/performance-optimization/performance-optimization-guidelines.md)是必需的，例如，我们&#x200B;*强烈*&#x200B;建议在处理Substance图时使用&#x200B;*“相对于……”*&#x200B;继承方法，除非这样做有&#x200B;*清晰、深思熟虑的目的*。
+> 在将包发布到Substance 3D资源文件(SBSAR)时，父子关系是&#x200B;*按原样应用*。 这意味着将任何参数设置为&#x200B;*Absolute*&#x200B;继承方法将&#x200B;*将该参数锁定*，使其在发布资源中保持当前值。\
+> 尽管这对于[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点或[优化目的](../../best-practices/performance-optimization/performance-optimization-guidelines.md)是必需的，例如，我们&#x200B;*强烈*&#x200B;建议在图形中工作时，使用&#x200B;*“相对于……”*&#x200B;继承方法，除非这样做有&#x200B;*清晰、深思熟虑的目的*。
 
 ### IN-CONTEXT EDIT
 
-在图形实例节点上使用[上下文编辑](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)时，图形的父级是&#x200B;*实例节点*。 在这种情况下，[图形视图工具栏](../../interface/the-graph-view/the-graph-view.md)中的<b>父级大小</b>设置是&#x200B;*禁用的*，因为图形是从实例节点继承的基参数。
+在图形上使用[In-context editing](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)时，节点的父级是&#x200B;*实例化*。 在这种情况下，[图形视图工具栏](../../interface/the-graph-view/the-graph-view.md)中的<b>父级大小</b>设置是&#x200B;*禁用的*，因为图形是继承自实例化的基本参数。
 
-此特性是上下文编辑的&#x200B;*点*，在设置继承方法并评估任何节点的Base参数的当前值时，应在&#x200B;*中*&#x200B;考虑此特性。
+此特性是上下文编辑的&#x200B;*点*，在设置继承方法和评估任何节点的基参数的当前值时，应在&#x200B;*中考虑*&#x200B;因素。
 
-## 具有多个输入的继承
+## 使用多个输入的继承
 
-当图形有多个输入时，每个输入可能继承自其离散输入数据或图形，具体取决于其继承方法：
+当图形有多个输入时，根据其继承方法，每个输入可能继承自其离散输入数据或继承自图形：
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![“相对于输入”继承方法的图标](../../assets/ds-inheritance-relative-to-input.png "“相对于输入”继承方法的图标"){width="128px"}
+![“相对于输入”继承方法的图标](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "“相对于输入”继承方法的图标"){width="128px"}
 
 <b>相对于输入</b>
 
-输入继承自其离散的输入数据，而不考虑图形的基本参数。 这对于控制每次输入的数据非常有用。
+无论图形的“基本”参数如何，输入都将继承自其离散的输入数据。 这对于控制每次输入的数据非常有用。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![“相对于父代”继承方法的图标](../../assets/ds-inheritance-relative-to-parent.png "“相对于父代”继承方法的图标"){width="128px"}
+![“相对于父代”继承方法的图标](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "“相对于父代”继承方法的图标"){width="128px"}
 
 <b>相对于主页</b>
 
@@ -180,28 +180,28 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![主输入颜色/灰度](../../assets/inheritance-primary-input-both.png){width="48px"}
+![主输入颜色/灰度](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-both.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![主输入颜色](../../assets/inheritance-primary-input-color.png){width="48px"}
+![主输入颜色](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-color.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![主输入灰度](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
+![主输入灰度](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-grayscale.png){width="48px"}
 
 </td>
 </tr>
 </table>
 
-通过在该[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)节点上单击&#x200B;**人民币**&#x200B;并在上下文菜单中选择&#x200B;**设置为主要输入**&#x200B;选项，可以将其中一个输入设置为图形的&#x200B;**主要输入**。
+通过在该[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)图形上单击&#x200B;**人民币**，然后在上下文菜单中选择&#x200B;**设置为主要输入**&#x200B;选项，可以将其中一个输入设置为&#x200B;**主要输入**。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![输入连接器类型](../../assets/inheritance-primary-input.jpg "输入连接器类型")
+![输入连接器类型](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input.jpg "输入连接器类型")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 **示例A**
 
-![继承图A](../../assets/inheritance-schematic-a.png "继承图A"){zoomable="yes"}
+![继承图A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "继承图A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **示例B**
 
-![继承图B](../../assets/inheritance-schematic-b.png "继承图B"){zoomable="yes"}
+![继承图B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "继承图B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 **示例C**
 
-![继承图C](../../assets/inheritance-schematic-c.png "继承图C"){zoomable="yes"}
+![继承图C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "继承图C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **示例D**
 
-![继承图D](../../assets/inheritance-schematic-d.png "继承图D"){zoomable="yes"}
+![继承图D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "继承图D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 [混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)节点非常容易受此影响，因为它经常使用。 其<b>Background</b>输入是其主要输入。
 
-![输出大小继承](../../assets/inheritance-blend.jpg "输出大小继承"){width="512px"}
+![输出大小继承](inheritance-in-substance-compositing-graphs.resources/inheritance-blend.jpg "输出大小继承"){width="512px"}
 
 您需要注意混合两个输入的顺序：您希望保留在图表中的分辨率和精度的输入应连接到“背景”输入（如果您需要的混合模式使其成为可能）。 如果不是，则可能需要调整“混合”节点的“基本”参数及其继承方法以进行补偿。

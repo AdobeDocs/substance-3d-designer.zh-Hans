@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的3D视图预览3D对象上的材质并测试光照条件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 下面一节将简要介绍如何执行常见操作，同时附上动画GIF以说明这一过程。
 
-![视区导航](../../assets/3d-navigate.gif "视区导航")
+![视区导航](3d-view.resources/3d-navigate.gif "视区导航")
 
 ### 导航
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 <b>按Esc键取消选择。</b> 光标不需要位于网格上。
 
-![3D视图 — 聚焦并取消选择](../../assets/sceneBrowser-focus.gif "3D视图 — 聚焦并取消选择"){zoomable="yes"}
+![3D视图 — 聚焦并取消选择](3d-view.resources/sceneBrowser-focus.gif "3D视图 — 聚焦并取消选择"){zoomable="yes"}
 
 *选择、聚焦、取消选择*
 
-![3D视图 — 上下文菜单](../../assets/sceneBrowser-contextualMenu.gif "3D视图 — 上下文菜单"){zoomable="yes"}
+![3D视图 — 上下文菜单](3d-view.resources/sceneBrowser-contextualMenu.gif "3D视图 — 上下文菜单"){zoomable="yes"}
 
 *选择，上下文菜单*
 
@@ -114,13 +114,13 @@ ht-degree: 1%
 
 转到<b>光线>编辑属性</b>以在场景中切换点光。
 
-在“光照”模式下按住LMB或RMB并在视窗中拖动，可在场景原点周围移动点光1。 <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+在“光照”模式下按住LMB或RMB并在视窗中拖动，可在场景原点周围移动点光1。 <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-处于摄像机模式时 <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> ，也可以通过按住Ctrl+⇧键并结合使用鼠标按钮来临时切换到光照模式。
+处于摄像机模式时 <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> ，也可以通过按住Ctrl+⇧键并结合使用鼠标按钮来临时切换到光照模式。
 
 ## 以3D视图查看数据
 
-![查看Substance图形输出](../../assets/3d-material.gif "查看Substance图形输出")
+![查看Substance图形输出](3d-view.resources/3d-material.gif "查看Substance图形输出")
 
 ### Substance 图形
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 您还可以在无需打开图表的情况下查看图表的输出，方法是单击[资源管理器](../the-explorer-window/the-explorer-window.md)停靠区中的图表资源的RMB，然后在上下文菜单中选择&#x200B;**在3D视图中查看输出**&#x200B;选项。
 
-作为图形上下文菜单的替代方法，您可以通过将图形从[资源管理器](../the-explorer-window/the-explorer-window.md)停靠区拖动到3D视图来获得相同的结果。
+作为图形上下文菜单的替代方法，可以通过将图形从[资源管理器](../the-explorer-window/the-explorer-window.md)停靠区拖动到3D 视图来获得相同结果。
 
 在&#x200B;*加载图形*&#x200B;时，其输出默认自动应用于3D视图。 您可以在[首选项](../../interface/preferences-window/preferences-window.md)中禁用此行为。 转到&#x200B;**编辑>首选项>图形>常用**&#x200B;并取消选中&#x200B;**打开图形时在3D视图中查看输出**&#x200B;选项。
 
@@ -140,7 +140,7 @@ ht-degree: 1%
 > 
 > 如果您将自定网格用于多个单一材质，系统将要求您选择要将材质指定给哪个材质槽。 使用上述任一方法，单击插槽以确认您的选择。 有关材料和任务的更多信息，请阅读下面的详细部分。
 
-![在3D视图中查看节点与图形输出](../../assets/3d-channel.gif "在3D视图中查看节点与图形输出")
+![在3D视图中查看节点与图形输出](3d-view.resources/3d-channel.gif "在3D视图中查看节点与图形输出")
 
 ### 单个节点/图形输出
 
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 您可以通过在[资源管理器](../the-explorer-window/the-explorer-window.md)停靠中展开图形资源，并使用&#x200B;*LMB*&#x200B;将该输出拖到3D视图来查看任何单独的图形输出。 您会看到一个列表，其中包含要分配节点的可用通道。 单击“任意”以确认。
 
-![查看自定义3D网格](../../assets/3d-mesh.gif "查看自定义3D网格")
+![查看自定义3D网格](3d-view.resources/3d-mesh.gif "查看自定义3D网格")
 
 ## 查看（自定义）3D场景
 
@@ -161,7 +161,7 @@ Designer提供了十几个预设网格。 这些网格具有统一、可用的UV
 
 对于自定义3D场景，请转至[使用3D场景](../../working-with-3d-scenes/working-with-3d-scenes.md)部分。
 
-![更改素材属性](../../assets/3d-materials.gif "更改素材属性")
+![更改素材属性](3d-view.resources/3d-materials.gif "更改素材属性")
 
 ## 更改着色器属性
 
@@ -184,7 +184,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 > * <b>光栅器/GPU 路径追踪：</b>位于渲染器设置（“渲染器”>“编辑设置”）中，会影响&#x200B;*整个场景*。
 > * <b>OpenGL：</b>位于素材属性中，影响素材。
 
-![导出场景](../../assets/3d-view-export-scene.gif "导出场景")
+![导出场景](3d-view.resources/3d-view-export-scene.gif "导出场景")
 
 ## 导出场景
 
@@ -197,9 +197,9 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 但是，原始网格的顶点法线可能与其新的位移形状不匹配，这意味着位移的网格可能无法正确渲染。 您可以通过两种方式管理这种情况：
 
 * 使用网格&#x200B;*法线图*&#x200B;可提供正确的法线
-* 使用网格法线映射导出时&#x200B;*重新计算网格法线*，这意味着这些法线已内置到导出的网格中，不再需要法线映射
+* 使用网格法线图导出时&#x200B;*重新计算网格法线*，这意味着这些法线将烘焙到导出的网格中，不再需要法线图
 
-要导出3D视图网格，请转到<b>场景>导出镶嵌网格……</b>，设置有关法向重计算的选择，然后为导出的网格选择位置、名称和文件格式。
+要导出网格，请转到<b>场景>导出镶嵌网格...</b>，设置有关法线重新计算的选择，然后为导出的网格选择位置、名称和文件格式。
 
 >[!NOTE]
 >
@@ -209,34 +209,34 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 >
 > 一些注意事项
 > 
-> 如果原始网格具有多个素材和/或UV集，则这些素材和/或UV集将&#x200B;*合并为一个*。
+> 如果原始网格有多个材料和/或UV 集，则这些将&#x200B;*合并为一个*。
 > 
-> 导出过程的持续时间及生成的文件大小取决于网格三角形计数和&#x200B;*镶嵌因子*。 取决于GPU的板载内存池，较高的镶嵌因子值可能会导致不稳定。
+> 导出过程的持续时间及生成的文件大小取决于网格三角形计数和&#x200B;*曲面细分因数*。 较高的曲面细分因数值可能导致不稳定，具体取决于GPU的板载内存池。
 > 
-> 也就是说，网格的顶点计数应与&#x200B;*Height*&#x200B;映射的像素计数在&#x200B;*相同的范围*&#x200B;内。
+> 尽管如此，镶嵌网格的顶点计数应与&#x200B;*Height*&#x200B;映射的像素计数在&#x200B;*相同的范围*&#x200B;内。
 > 
-> 使用<b>Phong</b>镶嵌时，比Height映射更密集的网格可以使网格更加平滑，但您的目标应该是首先可靠地获得具有所需Height映射细节的网格导出，然后根据需要在其他软件中细化导出的网格。
+> 使用<b>通</b>曲面细分时，网格比高度图密集可以使网格略为平滑，但您应该着眼于先可靠地导出包含所需高度图详细信息的网格，然后根据需要在其他软件中优化导出的网格。
 
 >[!WARNING]
 >
 > **TDR（仅限Windows）**
 > 
-> 此功能要求<b>超时检测和恢复(TDR)</b>与我们的文档的[本页](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议值匹配，如Designer的[技术要求](../../getting-started/system-requirements/system-requirements.md)中所述。
+> 此功能要求<b>超时检测和恢复(TDR)</b>与我们的文档的[本页](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议值匹配，如Designer的[技术要求](../../getting-started/system-requirements/system-requirements.md)中所述。
 
 ## 菜单栏
 
-菜单栏提供了7个菜单，其中包含与3D视图相关的选项。 下面是所有可用选项的概述。
+菜单栏提供了7个菜单，其中包含与3D 视图相关的选项。 下面是所有可用选项的概述。
 
 +++场景
-<b>场景</b>菜单用于处理显示的几何图形（3D资源）和3D视图状态。 3D资源仅共享网格，场景状态包括光线、摄像机和相关设置，并且还可以在旁边包含网格。
+<b>场景</b>菜单用于处理显示的几何（3D资源）和3D视图状态。 3D资源仅共享网格，场景状态包括光源、相机和相关设置，并且还可将该网格与之一起包含。
 
-![场景菜单网格](../../assets/3d-view-meshes.png "场景菜单网格")
+![场景的菜单网格](3d-view.resources/3d-view-meshes.png "场景的菜单网格")
 
 
 
-<b>编辑： </b>在[属性](../../interface/properties/properties.md)面板中加载场景选项。 用于切换3D网格的可见性。
+<b>编辑： </b>在[属性](../../interface/properties/properties.md)面板中加载场景选项。 用于切换3D 网格的可见性。
 
-<b>标准基元：</b>在3D视图中显示以下简单的3D网格之一。
+<b>标准基元：</b>显示3D 视图中以下任何简单3D网格。
 
 * 立方体
 
@@ -252,7 +252,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 * 球体
 
-<b>扩展基元：</b>在3D视图中显示任何以下3D网格。
+<b>扩展基元：</b>显示3D 视图中的以下任何3D网格。
 
 * 布料
 
@@ -266,9 +266,9 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 * 圆环体
 
-<b>在2D视图中显示UV：</b>允许将当前所选网格的UV显示为[2D视图](../2d-view/2d-view.md)中的叠加。
+<b>在2D 视图中显示UV：</b>允许将当前所选网格的UV显示为[2D 视图](../2d-view/2d-view.md)中的叠加。
 
-<b>从当前场景创建3D资源……：</b>在当前场景之外的包中创建新的[3D场景资源](../../resources/3d-scene-resource/3d-scene-resource.md)。
+<b>从当前场景创建3D资源……：</b>在当前场景之外的包中创建新的[3D 场景资源](../../resources/3d-scene-resource/3d-scene-resource.md)。
 
 <b>加载状态文件……： </b>加载外部保存的[场景状态文件](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。 不替换3D网格，仅加载3D渲染器、相机和光照的设置。
 
@@ -303,17 +303,17 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 <b>着色器列表</b> — 当前[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)可用的所有[着色器](../../glossary/glossary.md)。
 
-<b>加载定义……： </b>（仅限OpenGL渲染器）允许您加载自己的自定义[GLSLFX着色器。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 着色器即会添加到上述列表中。
+<b>加载定义……： </b>（仅限OpenGL渲染器）允许您加载自己的自定义[着色器。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 该着色器即被添加到上述列表中。
 
-<b>重置公共参数：</b>重置所有着色器上公共的参数。 例如，在栅格化器/GPU 路径追踪和OpenGL渲染器之间切换时，将传递[Adobe标准素材](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的几个参数值。
+<b>重置公共参数：</b>重置所有着色器上公共的参数。 例如，在栅格化器/GPU 路径追踪和OpenGL渲染器之间切换时，[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的几个参数值将传递过去。
 
-<b>重命名：</b>更改此素材的标签。
+<b>重命名：</b>更改此材料的标签。
 
-<b>重置素材：</b>将所有着色器参数重置为默认值。 如果纹理连接到着色器的任一取样器，则会断开这些取样器的连接。
+<b>重置材料：</b>将所有着色器参数重置为默认值。 如果纹理已连接到着色器的任意一个取样器，则这些取样器会断开连接。
 
-<b>将素材重置为场景状态： </b>*（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将[已覆盖素材](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的所有属性重置为场景中的原始值，包括原始纹理（如果有）。
+<b>将材料重置为场景状态： </b>*（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将[已覆盖材料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的所有属性重置为场景中的原始值，包括原始纹理（如果有）。
 
-<b>添加： </b>将新素材添加到列表。 默认情况下不使用，可能使用[场景浏览器](../../interface/3d-view/scene-browser/scene-browser.md)与场景素材[连接](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
+<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
 
 +++
 
@@ -327,15 +327,15 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 +++
 
 +++相机
-<b>相机</b>菜单允许您更改相机设置、转到预定义角度以及加载存储在自定义3D网格文件中的相机角度。
+使用<b>相机</b>菜单，可以更改相机设置、转到预定义角度并加载存储在自定义相机文件中的3D 网格角度。
 
-<b>编辑属性：</b>在“属性”停放中打开默认相机设置。
+<b>编辑属性：</b>在“属性”停靠区中打开默认相机的设置。
 
-<b>焦点： </b>(F)将默认相机聚焦到当前选定的网格上。 即，为网格设置框架并将摄像机透视与其对齐。 如果没有现用选区，则使用场景的全局定界框。
+<b>焦点： </b>(F)将默认相机聚焦到当前所选网格。 即，网格并将相机透视与其对齐。 如果没有现用选区，则使用场景的全局定界框。
 
-<b>场景摄像机：</b>如果场景包括一个或多个摄像机，则会在此处列出这些摄像机，并且它们的设置会用作预设，以应用到场景的默认摄像机。
+<b>相机：</b>如果场景包含一个或多个相机，则它们在此处列出，它们的设置用作预设，可应用于场景的默认相机。
 
-<b>视点：</b>默认摄像机的预配置视点。 这些只影响相机的变换（位置和旋转）。
+<b>视点：</b>默认相机的预配置视点。 这些仅影响相机的变换（位置和旋转）。
 
 * 默认：从对象的前左拍摄高角度照片。
 
@@ -526,25 +526,25 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>背面剔除</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>背面剔除</b>
 
 禁用此选项后，您可以从&#x200B;*两侧*&#x200B;看到网格表面。 该选项可与线框结合使用。
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>定界框</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>定界框</b>
 
 切换网格定界框的显示。
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>顶点相切空间</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>顶点相切空间</b>
 
 将所有顶点的切向量、双正规向量和法向向量显示为彩色小工具。
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>线框</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>线框</b>
 
 将网格显示切换为线框。
 
@@ -574,7 +574,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 ### 颜色通道
 
-可以使用![](../../assets/2d-view-icon-channels.png) <b>颜色通道</b>按钮显示图像的单个通道。 这将打开一个组合框，允许您选择应显示<b>红色</b>、<b>绿色</b>和<b>蓝色</b>通道中的哪一个。 通过选择<b>RGB</b>选项，可以恢复包含所有通道的图像的正常外观。
+可以使用![](3d-view.resources/2d-view-icon-channels.png) <b>颜色通道</b>按钮显示图像的单个通道。 这将打开一个组合框，允许您选择应显示<b>红色</b>、<b>绿色</b>和<b>蓝色</b>通道中的哪一个。 通过选择<b>RGB</b>选项，可以恢复包含所有通道的图像的正常外观。
 
 <b>颜色通道</b>按钮&#x200B;*的*&#x200B;图标&#x200B;*会根据当前显示通道而更改*。
 

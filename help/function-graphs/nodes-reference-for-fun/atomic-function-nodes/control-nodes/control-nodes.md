@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer中的访问控制节点函数图形，用于控制流和执行逻辑。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Else节点](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Else节点")
+![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![序列节点](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "序列节点")
+![序列节点](../../../../assets/Sequence_Node.jpg "序列节点")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Whle循环节点](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Whle循环节点")
+![Whle循环节点](../../../../assets/WhileLoop-Node.jpg "Whle循环节点")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -128,7 +128,7 @@ ht-degree: 1%
 当先满足以下任一条件时，节点停止迭代：达到此最大数目或退出条件变为true 。\
 可以通过将值设置为&#x200B;*-1*&#x200B;来禁用此最大值。 此时，只有退出条件才能停止迭代。
 
-正在设置&#39;Max. “迭代次数”为–1可以提高小循环的性能，因为跟踪和更新的计数器更少。
+正在设置&#39;Max. 迭代的–1提高了小环路的性能，因为跟踪和更新的计数器少了一个。
 
 但是，请注意节点的配置方式，因为这可能会产生<b>无限循环</b>，从而可能导致Designer无响应。
 

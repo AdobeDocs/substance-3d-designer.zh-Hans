@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
-description: 使用Dirt根据网格曲率、位置和遮蔽生成Dirt累积蒙版。
+description: 使用Dirt节点根据网格弯曲、位置和遮蔽生成Dirt累积蒙版。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 污垢
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 7%
 
 ---
 
@@ -22,57 +22,59 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
-## 污垢
-
-**英寸：** *基于网格的生成器**/蒙版生成器*
-
-**中级**
+<b>在</b>中基于网格的生成器>蒙版生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
-此蒙版基于烘焙的AO和曲率表示边缘和角落中遮挡和凹陷的Dirt。
-
-## 参数
-
-### 输入
-
-* **曲率**： *灰度输入*\
-  用于内部效果和蒙版的已烘焙贴图。 必填！
-* **环境遮蔽**： *灰度输入*\
-  用于内部效果和蒙版的已烘焙贴图。 必填！
-* **污渍输入**： *灰度输入*\
-  自定义污渍映射输入，可选，由参数启用。
-* **蒙版（可选）**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。
-* **正常世界空间**： *颜色输入*\
-  仅用于三平面。
-* **位置**： *颜色输入*\
-  仅用于三平面。
-
-### 参数
-
-* **Dirt级别**： *0.0 - 1.0* Dirt量的主控件。
-* **Dirt对比度**： *0.0 - 1.0*&#x200B;控制蒙版中Dirt的主对比度。
-* **污渍量**： *0.0 - 1.0*&#x200B;设置Dirt的脏程度。 设置为0可达到完美平滑Dirt。
-* **边缘蒙版**： *0.0 - 1.0*&#x200B;要从凸出边缘移除的Dirt量（基于曲率图）。
-* **使用自定义污渍**： *False/True*&#x200B;允许使用自定义污渍映射输入，而不是内置污渍。
-* **污渍比例**： *1 - 16*&#x200B;设置污渍细节的拼贴比例。
-* **使用三平面**： *False/True*&#x200B;使用[三平面投影](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)进行污渍映射，移除接缝。
-* **三平面混合对比度**： *0.001 - 1.0*&#x200B;设置三平面投影的对比度。
-
-## 示例图像
-
-![](../../../../../../assets/dirt-ex.gif)
+此蒙版基于烘焙的AO和弯曲，表示边缘和角落中遮挡和凹陷的Dirt。
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 必填！ |
+| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 必填！ |
+| <b>污渍输入</b> <i>灰度输入</i> | 自定义污渍映射输入，可选，由参数启用。 |
+| <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
+| <b>世界空间法线</b> <i>颜色输入</i> | 仅用于三平面。 |
+| <b>位置</b> <i>颜色输入</i> | 仅用于三平面。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>Dirt级别</b> <i>0.0 - 1.0</i> | Dirt量的主控件。 |
+| <b>Dirt对比度</b> <i>0.0 - 1.0</i> | 控制蒙版中Dirt的主对比度。 |
+| <b>污渍量</b> <i>0.0 - 1.0</i> | 设置Dirt的脏乱程度。 设置为0可达到完美平滑Dirt。 |
+| <b>边缘蒙版</b> <i>0.0 - 1.0</i> | 要从凸起边缘移除的Dirt量（基于弯曲图）。 |
+| <b>使用自定义污渍</b> <i>False/True</i> | 允许使用自定义污渍映射输入，而不是内置污渍。 |
+| <b>污渍比例</b> <i>1 - 16</i> | 设置污渍细节的拼贴比例。 |
+| <b>使用三平面</b> <i>False/True</i> | 使用[三平面投影](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)进行污渍映射，删除接缝。 |
+| <b>三平面混合对比度</b> <i>0.001 - 1.0</i> | 设置三平面投影的对比度。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

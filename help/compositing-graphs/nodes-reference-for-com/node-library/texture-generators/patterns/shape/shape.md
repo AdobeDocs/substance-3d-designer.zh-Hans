@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
 description: 使用“形状”节点可生成用于在Substance 3D Designer中创建图案和纹理的基本几何形状。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 形状
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 2%
+source-wordcount: '217'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-2.png){width="128px"}
 
-## 形状
-
-**英寸：** *纹理生成器**/Patterns*
-
-**中级**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,26 +37,32 @@ ht-degree: 2%
 
 尽管简单，但这是一个非常有用的节点：它是大多数程序化高度图生成的构建块！ 通过将基本形状与变换节点相结合，可以创建比任何位图都更精确的完全程序化的Heightmap形状。
 
-## 参数
-
-* **拼贴**： *1 - 16*\
-  设置结果应平铺的次数。
-* **图案**：*方形、圆盘、抛物面、贝尔、高斯、刺、金字塔、砖、渐变、波浪、半贝尔、脊状贝尔、月牙形、胶囊、圆锥体*、半球**\
-  选择要使用的图案形状。
-* **特定模式**： *0.0 - 1.0*\
-  可以更改选定图案的形状。 该效果取决于所选图案。
-* **缩放**： *0.0 - 1.0*&#x200B;缩放整个形状。
-* **大小**： *0.0 - 1.0*&#x200B;允许在X轴或Y轴上进行非均匀缩放。
-* **角度**： *0.0 - 1.0*&#x200B;旋转整个形状。
-* **旋转45°**： *False/True*&#x200B;以预设45度旋转。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-* **非方形拼贴**&#x200B;**：** *False/True*启用非正方形扩展功能后，这将拼贴形状而不压缩。
-
-## 示例图像
-
-![](../../../../../../assets/shape-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
+| <b>图案</b> <i>方形，磁盘，抛物面，铃声，高斯，荆棘，金字塔，砖块，层次，波浪，半圆，脊状的圆，新月，胶囊体，锥形，半球</i> | 选择要使用的图案形状。 |
+| <b>特定图案</b> <i>0.0 - 1.0</i> | 可以更改选定图案的形状。 该效果取决于所选图案。 |
+| <b>缩放</b> <i>0.0 - 1.0</i> | 缩放整个形状。 |
+| <b>大小</b> <i>0.0 - 1.0</i> | 允许在X或Y轴上进行非均匀缩放。 |
+| <b>角度</b> <i>0.0 - 1.0</i> | 旋转整个形状。 |
+| <b>旋转45°</b> <i>False/True</i> | 以预设45度旋转。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非方形拼贴</b> <i>False/True</i> | 启用非正方形扩展功能后，这将拼贴形状而不压缩。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape.resources/shape-ex.gif" />
+        </td>
+    </tr>
 </table>
