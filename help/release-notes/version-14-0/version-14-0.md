@@ -198,7 +198,7 @@ ht-degree: 0%
 * [Content]已弃用Substance函数图表中的“Negate Float1”节点
 * [内容]将“Quantize Color”重命名为“Quantize Color (Simple)”
 * [2D视图]在“信息”面板中显示超出0-1范围的像素的值
-* [Engine][Text]对某些字体进行了新的字距调整
+* [Engine]&#x200B;[Text]对某些字体进行了新的字距调整
 * [图形]在使用上下文版本时缩短编辑深度子图时的失效时间
 * [链接器]在SBSASM中不要复制位图
 * [参数]为所有输入参数类型添加新的“函数”构件

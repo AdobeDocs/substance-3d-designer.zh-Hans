@@ -73,7 +73,7 @@ MDL模块预设与其所基于的模块大致相同，唯一区别在于它带�
 
 >[!WARNING]
 >
-> 从[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中导出MDL模块时，会导致某个MDL模块包含&#x200B;*所有*&#x200B;由包中的MDL图表定义的MDL材质，从[3D视图](../../interface/3d-view/3d-view.md)中导出MDL预设会导致某个MDL模块仅包含&#x200B;*7}应用于*&#x200B;所选材质&#x200B;*的MDL材质定义，在本示例中为`my_material`。*
+> 从[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中导出MDL模块时，会导致某个MDL模块包含&#x200B;*所有*&#x200B;由包中的MDL图表定义的MDL材质，从[3D视图](../../interface/3d-view/3d-view.md)中导出MDL预设会导致某个MDL模块仅包含&#x200B;*7&rbrace;应用于*&#x200B;所选材质&#x200B;*的MDL材质定义，在本示例中为`my_material`。*
 
 ![MDL预设导出路径](exporting-mdl-content.resources/mdl-export-preset.png "MDL预设导出路径")
 

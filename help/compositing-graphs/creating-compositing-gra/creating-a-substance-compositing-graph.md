@@ -28,7 +28,7 @@ ht-degree: 1%
 
 若要开始创建新的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的过程，可以使用以下方法之一：
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">

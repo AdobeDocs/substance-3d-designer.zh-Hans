@@ -58,6 +58,6 @@ Designer有3个级别或配置文件，每个级别都有不同的用途。 对�
 1. <b>识别并分组要添加到项目文件中的设置。</b> 每个工作室的情况都不相同，需要一定程度的规划！\
    几乎在每种情况下，至少应定义2个项目：一个项目用于全局、全工作室范围的默认值（如标准模板、着色器文件、烘焙设置），另一个项目具有更具体的内容，如库内容。 如果同时运行了不同的项目，则可能需要为每个项目创建多个项目配置（总共3个或更多）。
 1. <b>创建相关的[SBSPRJ文件](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)并将它们及其内容置于版本控制下。</b> 强烈建议通过为实际项目内容和资源（3D模型、纹理、代码）创建&#x200B;*单独的存储库*，将Designer pipeline和库内容与其分离。
-1. <b>创建列出所有项目文件的[ SBSCFG配置](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)文件，将其放在版本控制</b>下。 如果您有多个项目，则可以为每个项目创建一个配置。
+1. <b>创建列出所有项目文件的[&#x200B; SBSCFG配置](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)文件，将其放在版本控制</b>下。 如果您有多个项目，则可以为每个项目创建一个配置。
 1. <b>设置每个用户的[User\_Preferences.xml](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)以引用其相关配置文件。</b>\
    您可以让每个用户手动执行此操作，也可以通过向其XML文件中插入行来编写脚本。 [有关相关页面的更多信息](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)。
