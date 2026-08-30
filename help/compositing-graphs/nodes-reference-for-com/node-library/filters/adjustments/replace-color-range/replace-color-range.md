@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
 breadcrumb-title: ''
 description: 使用“替换颜色范围”节点，可用新颜色替换指定范围内的颜色以进行颜色校正。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 替换颜色范围
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range.png){width="128px"}
 
-## 替换颜色范围
-
-**范围：** *滤镜/调整*
-
-**简单**
+<b>英寸：</b>滤镜>调整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 有关更高级的版本，请参阅[颜色匹配。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
-## 参数
-
-* **源颜色**： *（颜色值）*要替换的颜色。
-* **目标颜色**： *（颜色值）*要替换的颜色。
-* **源范围**： *0.0 -* 1.0\
-  所选的源的范围或容差。 可以增加，以便进一步相邻颜色也发生色相偏移。
-* **阈值**： *0.0 - 1.0*&#x200B;范围的衰减/对比度。 设置为“低”将仅替换源颜色，设置为“高”将替换混合到“源”中的颜色。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>源颜色</b> <i>（颜色值）</i> | 要替换的颜色。 |
+| <b>目标颜色</b> <i>（颜色值）</i> | 要替换的颜色。 |
+| <b>源范围</b> <i>0.0 - 1.0</i> | 所选的源的范围或容差。 可以增加，以便进一步相邻颜色也发生色相偏移。 |
+| <b>阈值</b> <i>0.0 - 1.0</i> | 范围的衰减/对比度。 设置为“低”将仅替换源颜色，设置为“高”将替换混合到“源”中的颜色。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color-range.resources/replace-color-range-example.png" />
+        </td>
+    </tr>
 </table>

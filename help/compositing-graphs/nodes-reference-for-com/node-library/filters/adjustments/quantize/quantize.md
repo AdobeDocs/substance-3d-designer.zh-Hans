@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
 description: 使用“量化颜色”节点来减少纹理中的颜色数量，以创建色调分离和风格化效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 量化颜色（简单）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](../../../../../../assets/quantize.png "量化颜色图标"){width="200px"}
+![量化颜色图标](quantize.resources/quantize.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -39,14 +39,13 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-<b>量化红色通道</b> *整数*&#x200B;设置步数以通过逼近红色通道。
-
-<b>量化绿色通道</b> *整数*&#x200B;设置接近绿色通道的步骤数。
-
-<b>量化蓝色通道</b> *整数*
-
-设置用来逼近蓝色通道的步骤数。
-
-<b>量化Alpha通道</b> *整数*&#x200B;设置用来逼近Alpha声道的步骤数。
+|  |  |
+|:---|:---|
+| <b>量化红色通道</b> *整数* | 设置以红色通道为近似依据的步骤数。 |
+| <b>量化绿色通道</b> *整数* | 设置用来逼近绿色通道的步骤数。 |
+| <b>量化蓝色通道</b> *整数* | 设置用来逼近蓝色通道的步骤数。 |
+| <b>量化Alpha通道</b> *整数* | 设置用来逼近Alpha 通道的步骤数。 |

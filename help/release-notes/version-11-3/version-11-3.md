@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本11.3的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 
 ### 新模型图表功能
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 为扩展建模功能，模型图中添加了许多改进：
 
 * <b>新建粒子工作流</b>\
-  新的粒子建模工作流程允许创建点云以操控几何。 它们可用于创建许多新的复杂和/或重复形状，例如上方图像上的屋顶拼贴。\
+  新的粒子建模工作流程允许创建用于处理几何的点云。 它们可用于创建许多新的复杂和/或重复形状，例如上方图像上的屋顶拼贴。\
   要了解有关新粒子工作流程的更多信息，请参阅以下文档页面：
 
   * 场景中的项目类型
@@ -41,7 +41,7 @@ ht-degree: 1%
   * 粒子删减
   * 来自实例的粒子
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>新的建模和变形节点</b>\
   已添加其他新节点来创建更复杂的形状，请单击每个节点以了解有关它们的更多信息：
@@ -51,44 +51,44 @@ ht-degree: 1%
   * 曲线裁切
 
 * <b>常规改进\
-  </b>建模图周围的工作流程已得到改进，包括：
+  </b>针对建模图形的工作流程进行了以下改进：
   * 有关节点参数的新工具提示，可使其更易于学习。
   * 现在，在FBX中导出时，可保留3D模型层次结构
-  * 素材分配可以与OBJ和FBX文件格式一起导出。
+  * 材料分配可以导出为OBJ和FBX文件格式。
   * 在叠加模式下预览视口中的中间节点。
 
 ### 改进了互操作性
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 发件人操作已扩展，并增加了两种可能性：
 
 * **将SBSM（Substance模型文件）发送到Stager**\
-  现在，可以将过程式3D模型发送到Stager，并从那里使用公开的参数进行修改。
+  现在可将程序化的3D模型发送到Stager，并从那里使用公开参数进行修改。
 
 * **从Sampler接收SBS/SBSAR**\
   现在可以将Sampler生成的Substance文件直接接收到Designer中。
 
 ### 杂项
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 对生活质量进行了各种改进：
 
 * **相对于输入的输入**\
   在“相对于”输入中设置的图形输入现在将继承连接的节点大小，而不是默认父图形大小。 这使通过不同大小的输入管理不同分辨率更加容易。
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **新建图形窗口**\
   新图形窗口已重新设计，现在可以更好地查看特定模板的详细信息并直接在现有包中创建新图形。
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **关闭所有包**\
   这是一个小操作，使在资源管理器中管理许多包变得不那么繁琐。 使用&#x200B;**文件** > **关闭全部**&#x200B;以关闭当前打开的所有包。
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **最大化当前视图**\
   使用新标题栏&#x200B;**图标**&#x200B;或快捷键&#x200B;**SHIFT+空格键**&#x200B;将窗口扩展到全屏。 这也可以用于浮动窗口。
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 ### 内容
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 此版本添加了新的扩散节点，并改进了PBR 渲染节点：
 
 * <b>扩散节点</b>\
   新的扩散颜色、扩散灰度和扩散UV节点允许基于输入蒙版产生柔和的出血模糊。
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **已改进的PBR 渲染节点**\
   此节点进行了以下更改：
@@ -130,18 +130,18 @@ ht-degree: 1%
 * [Substance模型]改进基数的显示方式
 * [Substance模型]将Substance模型图形导出为.fbx时保留对象的层次结构
 * [Substance模型]支持从Substance模型图表以FBX/OBJ方式导出多种材质
-* [Substance模型]&#x200B;[内容]粒子节点
-* [Substance模型]&#x200B;[内容]生成式转换节点
-* [Substance模型]&#x200B;[内容]有机图案节点
-* [Substance模型]&#x200B;[内容] Instances节点的粒子
+* [Substance模型][内容]粒子节点
+* [Substance模型][内容]生成式转换节点
+* [Substance模型][内容]有机图案节点
+* [Substance模型][内容] Instances节点的粒子
 * [Substance模型] [内容]粒子剪枝节点
-* [Substance模型]&#x200B;[内容]车床节点
-* [Substance模型]&#x200B;[内容] Shell节点
-* [Substance模型]&#x200B;[内容]投影节点
-* [Substance模型]&#x200B;[内容]曲线修剪节点
-* [Substance模型]&#x200B;[内容]更新曲线Sampler节点
-* [Substance模型]&#x200B;[内容]更新网格Sampler节点
-* [Substance模型]&#x200B;[内容]更新抖动节点
+* [Substance模型][内容]车床节点
+* [Substance模型][内容] Shell节点
+* [Substance模型][内容]投影节点
+* [Substance模型][内容]曲线修剪节点
+* [Substance模型][内容]更新曲线Sampler节点
+* [Substance模型][内容]更新网格Sampler节点
+* [Substance模型][内容]更新抖动节点
 * [UX]用于最大化当前视图的按钮
 * [UX]更新“新建图形”窗口
 * [UX]在“工具”菜单中添加“下载播放器”选项，然后与“定位播放器”聚合
@@ -179,7 +179,7 @@ ht-degree: 1%
 * [UI]必须按两次Tab键才能在值之间导航
 * [UI]使用鼠标拖动进行缩放会在3D视图和其他视口之间反转
 * [UI]使用“最近打开的文件”列表加载已打开的SBS时，错误地触发“未找到包”提示
-* [UI]&#x200B;[macOS]启动应用程序后的默认界面布局不正确
+* [UI][macOS]启动应用程序后的默认界面布局不正确
 * [UI]包无法保存到驱动器的根目录（仅限Windows）
 * [图形]在特定情况下，“在2D视图中自动显示”选项不一致
 * [图形] “打开引用”选项适用于SBSAR实例节点

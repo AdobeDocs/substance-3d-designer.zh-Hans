@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: 使用“Anoistic Noise”（各向异性噪声）节点生成定向噪声图案，用于创建各向异性纹理效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 各向异性噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性噪声 — 图标](../../../../../../assets/anisotropic_noise_v2.png "各向异性噪声 — 图标"){width="200px"}
+![各向异性噪声 — 图标](anisotropic-noise.resources/anisotropic_noise_v2.png "各向异性噪声 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -48,22 +44,22 @@ ht-degree: 1%
 ## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *灰度* | 生成的杂色作为灰度位图。 |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
 
 ## 参数
 
 |  |  |
-| --- | --- |
-| <b>X数量</b>整数 | X轴上的条带数量。 |
-| <b>Y数量</b>整数 | Y轴上的条带数量。 |
-| <b>Y数量（按分辨率）</b>布尔值 | 如果为True，则Y轴上的条带数量将等于该轴上的图像大小。 |
-| <b>旋转</b>布尔值 | 将噪声旋转90度。 |
-| <b>Smoothness</b>浮动 | 条带之间的衰落量，其中0不衰落，而1在其整个长度上衰落。 |
-| <b>Smoothness插值</b>浮点 | 两种插值方法的加权均适用于渐隐条带，其中0是线性的，1是高斯的。 |
-| <b>无序</b>浮动 | 替换噪点的成分。   这可用于为噪声设置动画。 |
-| <b>无序速度</b>浮动 | 调整<b>无序</b>参数应用的位移的距离。   这可用于在制作噪声动画时控制位移的速度。 |
-| <b>非方形扩展</b>布尔值 | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
+|:---|:---|
+| <b>X数量</b> <i>整数</i> | X轴上的条带数量。 |
+| <b>Y数量</b> <i>整数</i> | Y轴上的条带数量。 |
+| <b>Y数量（按分辨率）</b> <i>布尔值</i> | 如果为True，则Y轴上的条带数量将等于该轴上的图像大小。 |
+| <b>旋转</b> <i>布尔值</i> | 将噪声旋转90度。 |
+| <b>Smoothness</b> <i>浮动</i> | 条带之间的衰落量，其中0不衰落，而1在其整个长度上衰落。 |
+| <b>Smoothness插值</b> <i>浮动</i> | 两种插值方法的加权均适用于渐隐条带，其中0是线性的，1是高斯的。 |
+| <b>无序</b> <i>浮动</i> | 替换噪点的成分。   这可用于为噪声设置动画。 |
+| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。   这可用于在制作噪声动画时控制位移的速度。 |
+| <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
 
 ## 示例
 
@@ -71,26 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![各向异性噪声 — 示例1](../../../../../../assets/anisotropic_noise_v2_1.png "各向异性噪声 — 示例1"){zoomable="yes"}
+![各向异性噪声 — 示例1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "各向异性噪声 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![各向异性噪声 — 示例2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向异性噪声 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![各向异性噪声 — 示例2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向异性噪声 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

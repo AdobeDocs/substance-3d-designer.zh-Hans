@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: 使用“白噪声”节点生成白噪声图案，用于创建纹理变化和随机效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 白杂色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -22,13 +22,9 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![白噪声 — 图标](../../../../../../assets/white_noise_v2.png "白噪声 — 图标"){width="200px"}
+![白噪声 — 图标](white-noise.resources/white_noise_v2.png "白噪声 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -43,19 +39,23 @@ ht-degree: 5%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *灰度* | 生成的杂色作为灰度位图。 |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
-| <b>噪声分布</b>整数 | 将食材分布到目标直方图形状的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>一致：</i>平面直方图。</li> <li data-preserve-html="true"><i>高斯：</i>表示正态分布的直方图，类似于钟形曲线。</li> <li data-preserve-html="true"><i>三角形：</i>三角形直方图。</li> </ul> |
-| <b>无序</b>浮动 | 替换噪点的成分。    这可用于为噪声设置动画。 |
-| <b>无序速度</b>浮动 | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
+|:---|:---|
+| <b>噪声分发</b> <i>整数</i> | 将食材分布到目标直方图形状的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>一致：</i>平面直方图。</li> <li data-preserve-html="true"><i>高斯：</i>表示正态分布的直方图，类似于钟形曲线。</li> <li data-preserve-html="true"><i>三角形：</i>三角形直方图。</li> </ul> |
+| <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
+| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
 
 ## 示例
 
@@ -63,26 +63,12 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![白噪声 — 示例1](../../../../../../assets/white_noise_v2_1.png "白噪声 — 示例1"){zoomable="yes"}
+![白噪声 — 示例1](white-noise.resources/white_noise_v2_1.png "白噪声 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![白噪声 — 示例2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "白噪声 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![白噪声 — 示例2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "白噪声 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中创建和管理图形参数以控制素材属性和行为。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![基本参数](../../assets/doc-graph-props-base-params.png "基本参数"){width="512px" zoomable="yes"}
+![基本参数](graph-parameters.resources/doc-graph-props-base-params.png "基本参数"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>输出大小</b> | 此参数允许您选择图表中图像的&#x200B;*基分辨率*。  使用 <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> 锁定按钮，使高度值和宽度值匹配，并在调整大小时保持图像正方形。<br><br>*默认： (0,0) — 相对于主页* [了解详情](../../compositing-graphs/output-size/output-size.md) |
+| <b>输出大小</b> | 此参数允许您选择图表中图像的&#x200B;*基分辨率*。  使用 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> 锁定按钮，使高度值和宽度值匹配，并在调整大小时保持图像正方形。<br><br>*默认： (0,0) — 相对于主页* [了解详情](../../compositing-graphs/output-size/output-size.md) |
 | <b>输出格式</b> | 允许从以下选项中选择图形中的&#x200B;*基位深度*：<ul data-preserve-html="true"><li data-preserve-html="true">8位</li><li data-preserve-html="true">16位</li><li data-preserve-html="true">HDR低精度16F（16位浮点）</li><li data-preserve-html="true">HDR High Precision 32F（32位浮点）</li></ul>*默认值：每通道8位 — 相对于主页* |
 | <b>像素大小</b> | 定义像素大小。 我们建议将&#x200B;**宽度**&#x200B;和&#x200B;**Height**&#x200B;值都设置为&#x200B;**1**。*默认值： (1,1) — 相对于主页* |
 | <b>拼贴模式</b> | 通过以下选项在图形中定义基&#x200B;*拼贴模式*：<ul data-preserve-html="true"> <li data-preserve-html="true">无平铺</li> <li data-preserve-html="true">水平平铺</li> <li data-preserve-html="true">垂直平铺</li> <li data-preserve-html="true">H+V拼贴（即水平和垂直）</li> </ul>*默认： H和V拼贴 — 相对于主页* |
-| <b>随机植入</b> | 为图形定义基&#x200B;*随机植入*。  使用 <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> 按钮以向随机种子分配新的随机值。<br><br>*默认值： 0 — 相对于主页* |
+| <b>随机植入</b> | 为图形定义基&#x200B;*随机植入*。  使用 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> 按钮以向随机种子分配新的随机值。<br><br>*默认值： 0 — 相对于主页* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![图形属性](../../assets/doc-graph-props-attributes.png "图形属性"){zoomable="yes"}
+![图形属性](graph-parameters.resources/doc-graph-props-attributes.png "图形属性"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,9 +87,9 @@ ht-degree: 1%
 | **类型** | <b>类型</b>用于定义[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的预期用途。 它主要用于[“发送”互操作性功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 |
 | **材质模型** | 设置图形的材质模型可确保3D视图中使用适当的着色器（如果着色器&#x200B;*与模型*&#x200B;匹配）。<br>例如， 在3D视图中查看具有`OpenPBR v1.1`素材模式的图表将为目标素材选择中的`OpenPBR Surface`着色器。<br><br>如果未找到匹配的着色器，或者图表的模型设置为`Undefined`，则在3D视图中用于目标素材的着色器为&#x200B;*未更改*。 |
 | **物理尺寸** | 此值指定&#x200B;*物理世界*&#x200B;中纹理的尺寸，采用X（长度）、Y（宽度）和Z(Height)。 因此，它与图形中生成的材料有内在联系。 例如，可以使用物理尺寸在<b>2D视图</b>和<b>3D视图</b>中以正确的比例显示纹理。<br><br>*提示：*&#x200B;可以使用$physicalsize [内置变量](../../function-graphs/variables/system-variables/system-variables.md)，将Substance图形的物理尺寸检索为应用于该图形中任何Substance的纹理函数图形中的Float3值。<br><br>*注意：*&#x200B;在&#x200B;**3D视图中，** Z **值当前为&#x200B;*未考虑在内*视图**。 因此，应使用&#x200B;**输出** Height设置为&#x200B;**高阶**&#x200B;用法，或直接在&#x200B;**材质属性**&#x200B;中设置材质的&#x200B;**节点比例**&#x200B;值。<br><br>*默认值： (0,0，0)* |
-| **图标** | 此区域允许您定义&#x200B;*图标*，<b>库</b>将使用此图标将此图表的条目显示为<b>SBS</b>和<b>SBSAR</b>。 此图标还用于其他情况，如[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)的<b>托架</b>。 该区域提供以下选项：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>浏览</b>：允许您浏览系统文件以查找<i>应用作图标的现有映像</i></li> <li data-preserve-html="true"><b>生成</b>：这将使用<b>PBR 渲染</b>节点的<i>内置预设</i>生成图标</li> <li data-preserve-html="true"><b>粘贴</b>：允许您将当前位于<i>剪贴板</i>中的图像数据粘贴为图标</li> <li data-preserve-html="true"><b>移除</b>：此选项<i>移除</i>现有图标，并将图标槽<i>留空</i></li> </ul>*注意：* **生成**&#x200B;选项使用&#x200B;**物理尺寸**&#x200B;来确定&#x200B;**PBR 渲染**&#x200B;的&#x200B;**Height比例**&#x200B;的位移效果。 如果图形中存在设置为&#x200B;**物理大小**&#x200B;用法的&#x200B;**输出**&#x200B;节点，则使用此输出。 如果不存在此类输出，则使用图形的&#x200B;**属性**&#x200B;中的值&#x200B;*代替*。 如果属性的值为(0,0，0)，则使用0.1的&#x200B;*预设值*。<br><br>*注意：*&#x200B;未定义&#x200B;*图标*&#x200B;时，将改用图形的&#x200B;*第一个图像输出*。<br><br>*默认：空* |
+| **图标** | 此区域允许您定义&#x200B;*图标*，<b>库</b>将使用此图标将此图表的条目显示为<b>SBS</b>和<b>SBSAR</b>。 此图标还用于其他情况，如[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)的<b>托架</b>。 该区域提供以下选项：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>浏览</b>：允许您浏览系统文件以查找<i>应用作图标的现有映像</i></li> <li data-preserve-html="true"><b>生成</b>：这将使用<b>PBR 渲染</b>节点的<i>内置预设</i>生成图标</li> <li data-preserve-html="true"><b>粘贴</b>：允许您将当前位于<i>剪贴板</i>中的图像数据粘贴为图标</li> <li data-preserve-html="true"><b>移除</b>：此选项<i>移除</i>现有图标，并将图标槽<i>留空</i></li> </ul>*注意：* **生成**&#x200B;选项使用&#x200B;**物理尺寸**&#x200B;来确定&#x200B;**PBR 渲染**&#x200B;的&#x200B;**Height比例**&#x200B;的位移效果。 如果图形中存在设置为&#x200B;**物理大小**&#x200B;用法的&#x200B;**输出**&#x200B;节点，则使用此输出。 如果不存在此类输出，则使用图形的&#x200B;**属性**&#x200B;中的值&#x200B;*代替*。 如果属性的值为(0,0，0)，则使用0.1的&#x200B;*预设值*。<br><br>*注意：*&#x200B;未定义&#x200B;*图标*&#x200B;时，将改用图形的&#x200B;*第一个图像输出*。<br><br>*默认：空* |
 | **包** | 此图形所属的&#x200B;**包**&#x200B;的&#x200B;*绝对*&#x200B;文件名。使用&#x200B;**文件夹**&#x200B;按钮，可以在此位置打开新系统&#x200B;*文件浏览器窗口*。*默认：包文件名/如果从未保存包，则为空* |
-| **在SBSAR中公开** | 这控制是否可以在从图形的&#x200B;**包**&#x200B;发布的&#x200B;**SBSAR**&#x200B;文件中&#x200B;*查看图形及其输出*。如果包中的某些图形仅用作包的主图形的&#x200B;*子图*，并且&#x200B;*不应显示在&#x200B;**SBSAR**&#x200B;中*，则此功能非常有用。*默认：是* |
+| **在SBSAR中公开** | 这控制是否可以在从图形的&#x200B;**包**&#x200B;发布的&#x200B;**SBSAR**&#x200B;文件中&#x200B;*查看图形及其输出*。如果包中的某些图形仅用作包的主图形的&#x200B;*子图*，并且&#x200B;*不应显示在&#x200B;**SBSAR**中*，则此功能非常有用。*默认：是* |
 | **在库中显示** | 控制当包存储在&#x200B;**库**&#x200B;的&#x200B;*监视*&#x200B;位置时，在&#x200B;**库**&#x200B;中图形是否应为&#x200B;*可见*。*默认值：在项目设置的“库”选项卡中设置* |
 | **描述** | 这是图形的&#x200B;*描述文本*。在&#x200B;**库**&#x200B;中的图形条目&#x200B;*工具提示*、此图形的任何&#x200B;**实例**&#x200B;节点以及现有&#x200B;**Substance集成**&#x200B;的软件中可以看到此实例。*默认：空* |
 | **类别** | 您可以在此字段中为&#x200B;**库**&#x200B;中的此图形项设置&#x200B;*类别*。*默认值：空* |
@@ -116,7 +116,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输入参数](../../assets/doc-graph-props-input-parameters.png "输入参数"){zoomable="yes"}
+![输入参数](graph-parameters.resources/doc-graph-props-input-parameters.png "输入参数"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输入](../../assets/doc-graph-props-inputs.png "输入"){zoomable="yes"}
+![输入](graph-parameters.resources/doc-graph-props-inputs.png "输入"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输出](../../assets/doc-graph-props-outputs.png "输出"){zoomable="yes"}
+![输出](graph-parameters.resources/doc-graph-props-outputs.png "输出"){zoomable="yes"}
 
 </td>
 </tr>

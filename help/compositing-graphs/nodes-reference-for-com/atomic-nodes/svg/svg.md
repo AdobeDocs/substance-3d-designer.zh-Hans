@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: 使用SVG节点可将SVG矢量图形作为纹理导入和渲染，以创建可缩放图形元素。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：SVG](../../../../assets/comp_svg_1.png "原子节点：SVG"){width="200px"}
+![原子节点：SVG](svg.resources/comp_svg_1.png "原子节点：SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-您可以从头开始创建节点，也可以将SVG文件拖放到“图形”视图中。
+您可以从头开始创建节点，也可以将SVG文件放到图形视图中。
 
 <table>
 <tr style="border: 0;">
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 可以在[2D视图](../../../../interface/2d-view/2d-view.md)停靠区中使用[矢量编辑工具](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)来编辑所生成或导入的SVG图像。
+> 可以使用[2D 视图](../../../../interface/2d-view/2d-view.md)停靠栏中的[矢量编辑工具](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)来编辑生成或导入的SVG图像。
 
 >[!IMPORTANT]
 >
@@ -69,11 +69,11 @@ ht-degree: 1%
 > 
 > * SVG节点可以返回彩色或灰度，但即使资源是灰度矢量，颜色节点也默认为彩色。 这可能会影响图形性能和复杂性，因此请始终确保根据需要切换到“灰度”[颜色模式](#parameters)。
 > * 删除SVG节点不会删除[包](../../../../glossary/glossary.md)中的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)，您必须在[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)中手动执行此操作。
-> * SVG形状[网格化](../../../../glossary/glossary.md)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图中使用作为位图。 用于这些操作的技术不支持多个矢量属性，如轮廓。 在[此处](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)了解有关这些限制的更多信息。
+> * SVG形状[网格化](../../../../glossary/glossary.md)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图形中用作位图。 用于这些操作的技术不支持多个矢量属性，如轮廓。 在[此处](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)了解有关这些限制的更多信息。
 
 >[!WARNING]
 >
-> SVG形状[网格化](../../../../glossary/glossary.md)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图中使用作为位图。
+> SVG形状[网格化](../../../../glossary/glossary.md)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图形中用作位图。
 > 
 > 用于这些操作的技术不支持多个矢量属性，如轮廓。
 > 

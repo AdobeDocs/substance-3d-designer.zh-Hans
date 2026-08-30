@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本14.1的发行说明，了解节点排列工具以及新的样条和路径节点。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *发行日期：2025年1月14日*
 
-![在样条上散点样条](../../assets/fond.png)
+![在样条上散点样条](version-14-1.resources/fond.png)
 
 ## 样条和路径更新
 
@@ -34,12 +34,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条动画上的散点样条1](../../assets/spline1.gif){zoomable="yes"}
+![样条动画上的散点样条1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![在样条2](../../assets/spline2.gif){zoomable="yes"}上散点样条
+![在样条2](version-14-1.resources/spline2.gif){zoomable="yes"}上散点样条
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 如果您希望保持干净易读的图表，则[节点对齐工具](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)是为您制作的，并且已经完全改版！ 现在可以均匀地分布节点（水平或垂直），对齐节点通过整齐地栈叠节点可避免任何重叠。 最上面的樱桃：这两种功能都考虑到了节点的实际大小！
 
-![对齐节点](../../assets/alignment.gif){zoomable="yes"}
+![对齐节点](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## 复制/粘贴参数
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 2D视图中新的[彩色Sampler工具](../../interface/2d-view/color-sampler/color-sampler.md)可让您通过放置一个图钉来跟踪选定像素的值。 这对于确保您始终跨图形中的多个节点查看同一像素的信息非常有用。 打开“信息”面板以访问该工具，然后试用一下！
 
-![颜色取样器：使用工具](../../assets/color-sampler-demo.gif "颜色取样器：使用工具"){width="640px" zoomable="yes"}
+![颜色取样器：使用工具](version-14-1.resources/color-sampler-demo.gif "颜色取样器：使用工具"){width="640px" zoomable="yes"}
 
 ## 搜索改进
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * 启用节点查找器工具时，自动在搜索字段上设置焦点；
 * 重新考虑了工具栏的布局，以节省空间。
 
-![搜索工具栏](../../assets/search-53.png){width="640px"}
+![搜索工具栏](version-14-1.resources/search-53.png){width="640px"}
 
 ## 视频
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![样条上的视频散点样条](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![样条上的视频散点样条](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![视频用户体验功能](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![视频用户体验功能](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ ht-degree: 1%
 * [函数图形]长值在“浮点”节点上显示重叠
 * [Fx-Map]显示象限节点属性时崩溃
 * [Graph] [UDIM]在UDIM列表中有一个滚动条会导致1..1 1..2个条目
-* [Graph]&#x200B;[Shortcuts]复制节点后，使用快捷方式创建的节点不会放置在现有链接上
+* [Graph][Shortcuts]复制节点后，使用快捷方式创建的节点不会放置在现有链接上
 * [属性]值无效时显示的参数不正确
 * [Publish]发布包时，相互依赖性导致无限循环
 * [Publish]对具有已卸载依赖关系的包使用“Publish”操作时出现静默故障

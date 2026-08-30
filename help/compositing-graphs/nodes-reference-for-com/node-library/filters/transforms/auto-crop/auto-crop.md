@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: 使用“自动裁剪”节点自动裁剪纹理，以移除空边框并优化纹理尺寸。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 自动裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,29 +22,27 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropgrayscale.png){width="200px"}
+![](auto-crop.resources/autocropgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropcolor.png){width="200px"}
+![](auto-crop.resources/autocropcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**英寸：**&#x200B;滤镜*/变换*
-
-**简单**
+<b>英寸：</b>筛选器>变换
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -56,53 +54,37 @@ ht-degree: 0%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-* **模式** *整数*&#x200B;设置应应用的裁切方法：
-  * *裁剪方形*：裁剪图像以便形状位于可以完全包含它的最小的&#x200B;*方形*&#x200B;图像的中心
-  * *自动裁剪*：裁剪图像以便形状位于可以完全包含的最小的&#x200B;*正方形或非正方形*&#x200B;图像的中心
-  * *适合（保持比例）*：在保持图像的&#x200B;*比例*（即宽长比）的同时，将图像大小调整为图像的&#x200B;*全宽*
-  * *填充（拉伸）*：将图像大小调整为图像的&#x200B;*全宽*
-* **使用Alpha** *布尔值*&#x200B;使用&#x200B;**输入**&#x200B;的Alpha通道来确定图像内容的&#x200B;*边界*&#x200B;以进行裁剪。 设置为&#x200B;*False*&#x200B;时，将改用黑色像素。\
-  *注意*：此参数仅在节点的&#x200B;**颜色**&#x200B;版本中可用。
-* **筛选模式** *整数*&#x200B;定义在像素之间&#x200B;*插值*&#x200B;时如何处理取样结果：
-  * *最接近的*：将对&#x200B;*相同的*&#x200B;值取样（较快）
-  * *双线性*：将在结果上应用双线性滤镜，以实现&#x200B;*更平滑*&#x200B;的外观
-  * *自动*：根据为裁剪选择的&#x200B;**模式**，使用上述两种模式中最合适的模式
+|  |  |
+|:---|:---|
+| <b>模式</b> <i>整数</i> | 设置应应用的裁剪方法： <br><br>- <i>裁剪方形</i>：裁剪图像以使形状位于可完全包含它的最小<i>方形</i>图像的中心<br>- <i>裁剪自动</i>：裁剪图像以使形状位于可完全包含它的最小<i>方形或非方形</i>图像的中心<br>- <i>适合（保持比例）</i>：在保持图像大小的同时，将图像调整到图像的<i>全宽</i> <i>比例</i>（即宽长比）<br>- <i>填充(拉伸)</i>：将图像大小调整为图像的<i>全宽</i> |
+| <b>使用Alpha</b> <i>布尔值</i> | 使用<b>输入</b>的Alpha 通道来确定图像内容的<i>边界</i>以进行裁剪。 设置为<i>False</i>时，将改用黑色像素。<br><br><i>注意：</i>此参数仅在节点的<b>Color</b>版本中可用。 |
+| <b>筛选模式</b> <i>整数</i> | 定义在像素<i>插值</i>时，如何处理采样结果：<br><br>- <i>最接近</i>：将对完全相同的<i>相同</i>值（更快）<br>- <i>双线性</i>：将对结果应用双线性的滤镜，以获得<i>更平滑</i>的外观<br>- <i>自动</i>：根据所选的<b>模式</b>进行裁剪，使用上述两种模式中最合适的模式 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-demo-01-resized.gif){width="768px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant.jpg){width="128px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant4.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant3.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-node.png){width="420px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-demo-01-resized.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant4.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant3.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-node.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer通过基于节点的工作流程创建程序性材料、纹理和3D资源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer用户指南
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Substance 3D Designer用户指南
 
-![Substance 3D Designer主窗口](../assets/sdsummerinterface.jpg "Substance 3D Designer主窗口")
+![Substance 3D Designer主窗口](home.resources/sdsummerinterface.jpg "Substance 3D Designer主窗口")
 
 [Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html) 是一款材质创作软件。 它允许您使用节点图形从程序性图案和噪声生成纹理，以及处理位图。
 

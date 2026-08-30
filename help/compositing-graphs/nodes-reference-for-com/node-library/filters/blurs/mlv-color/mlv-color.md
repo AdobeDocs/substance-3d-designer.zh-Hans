@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: 使用“MLV颜色模糊”滤镜将运动模糊效果应用于彩色纹理，以获得动态视觉效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: MLV颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV颜色：图标](../../../../../../assets/MLV_Color_Icon.png "MLV颜色：图标")
+![MLV颜色：图标](mlv-color.resources/MLV_Color_Icon.png "MLV颜色：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -45,45 +45,45 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 >
 > 另请参阅[MLV灰度](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-grayscale/mlv-grayscale.md)。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>输入&#x200B;</b>*颜色*&#x200B;应处理的彩色图像。
+## 输入
 
-## 输出连接器
+|  |  |
+|:---|:---|
+| <b>输入</b> <i>颜色</i> | 应处理的彩色图像。 |
 
-<b>输出</b> *颜色*&#x200B;已过滤的彩色图像。
+<a name="outputs"></a>
+
+## 输出
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>颜色</i> | 已过滤的彩色图像。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>强度</b> *浮动*&#x200B;应用于图像的滤镜强度。\
-值越高，细节和杂色对较平坦区域的平滑程度越高。
-
-<b>Smoothness</b> *浮动*&#x200B;应用于结构区域的平滑强度，这将使区域变圆，并减小在更高滤波强度下可能出现的步进效果。
-
-<b>条件</b> *整数*&#x200B;用于选择定义图像中结构区域的值的条件。\
-换句话说，像素应如何&#x200B;*分组*&#x200B;到应进行平滑处理的区域。\
-*— 方差：*&#x200B;选择在平均值周围具有最低离散度的值，这会导致像素群集彼此相似\
-*— 变异系数：*&#x200B;在考虑到平均值的情况下选择值，这会导致在较亮区域反差较小
-
-<b>高斯</b> *布尔型*&#x200B;使用高斯分布将像素分组到结构区域。\
-如果为“True”，则生成更平滑的区域且减少拼合效果。
-
-<b>影响Alpha</b> *布尔值*&#x200B;如果设为“True”，则也将对图像的Alpha通道应用滤镜。\
-如果为“False”，则完全忽略Alpha通道，并保留输出中的原样。
-
-<b>迭代</b> *整数*&#x200B;运行筛选器的次数，其中每个迭代应用于前一个迭代的结果。\
-迭代次数越多，构造区域越平坦、越清晰。
+|  |  |
+|:---|:---|
+| <b>强度</b> *浮动* | 应用于图像的筛选的强度。<br><br>值越高，细节的平滑程度越高，平面区域的噪声越平滑。 |
+| <b>Smoothness</b> *浮动* | 应用于结构化区域的平滑强度，这会导致区域变圆并减小在较高的筛选强度下可能出现的步进效果。 |
+| <b>条件</b> *整数* | 用于选择将定义图像中结构区域的值的标准。<br><br>换言之，像素应如何&#x200B;*分组*&#x200B;到应平滑的区域中。<br><br>*— 方差：*&#x200B;选择在平均值周围具有最低色散的值，这将导致像素群集彼此相似&#x200B;<br>*— 变异系数：*&#x200B;在考虑到平均值的情况下选择值，这将导致较亮区域反向变化较小 |
+| <b>高斯</b> *布尔值* | 使用高斯分布将像素分组到结构化区域。<br><br>当值为“True”时，这将使区域更平滑，并减小拼合效果。 |
+| <b>影响Alpha</b> *布尔值* | 如果为“True”，则还将筛选应用于图像的Alpha 通道。<br><br>当“False”时，Alpha 通道将被完全忽略，并保留为输出中的原样。 |
+| <b>迭代</b> *整数* | 运行筛选器的次数，其中每个迭代都应用于前一个规则的结果。<br><br>更多的迭代会产生更平坦、更锐化的结构区域。 |
 
 ## 示例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4A.png" alt="mlv_Variant4A">
+      <img src="mlv-color.resources/MLV_Variant4A.png" alt="mlv_Variant4A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5A.png" alt="mlv_Variant5A">
+      <img src="mlv-color.resources/MLV_Variant5A.png" alt="mlv_Variant5A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3A.png" alt="mlv_Variant3A">
+      <img src="mlv-color.resources/MLV_Variant3A.png" alt="mlv_Variant3A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>之后</i>
     </td>
   </tr>

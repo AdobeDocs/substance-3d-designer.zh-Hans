@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本12.1的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 用于Substance材料图表的新内容
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
 此版本中添加了许多节点，您可以找到一些新图案、新杂色、新滤镜……
 
@@ -38,36 +38,36 @@ ht-degree: 0%
 
   * 我们添加了一个新的<b>拼贴随机2</b>节点，以生成具有随机大小和比例的相邻拼贴，这对于快速创建具有倾斜、圆角和斜角的完全不规则网格非常有用。
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
   * 新建<b>Triangle Grid</b>图案以生成由三角形组成的网格。 我们将其用于下面的素材中，以轻松而完美地模拟皮革颗粒。 此生成器表示3D空间中的顶点表面，可用于创建各种多边形样式。
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **新噪声**
 
   * 为了给您更多样化，我们提供了一组<b>15个新污渍地图</b>（混凝土、泄漏、溅污……） 已添加到库。
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
   * 您还会发现很多<b>新的2D和3D噪声</b>，例如Voronoi（2D和3D）、Voronoi分形（2D和3D）、3D脊状分形以及对当前3D Perlin噪声的更新（添加拼贴和绝对选项）。\
     这些噪声全部映射到3D空间并提供多种样式，从而允许增加多样性和控制力，这将为您提供足够的选择来为您的材料创建完美的地图，例如海和下面的科幻面板材料。
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
   * <b>“3D纹理”节点</b>（位置、SDF、偏移）和<b>“3D渲染”节点</b>（表面或体积）的集合，用于创建和渲染3D纹理，这是3D模型切片的贴图集。
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **新筛选器**
 
   * 使用<b>自动裁剪</b>节点，您可以在图像的&#x200B;*中心*&#x200B;放置一个形状，而无需调整大小，或者调整其大小以适应空间。 例如，可以随意调整形状，同时在散布时保持一致的位置和大小。
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
   * 使用<b>Extend Shape</b>节点，您将能够在自定义方向和距离上拉伸形状的某一部分。
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * 使用<b>非均匀旋转</b>节点，可以根据给定的映射旋转输入。
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **以及……**
 
   * 缓动函数（函数图表），这些函数对于以非线性方式驱动值非常有用。
@@ -89,19 +89,19 @@ ht-degree: 0%
 * <b>发送到Stager\
   </b>现在，您只需单击一下即可将Substance素材发送到Stager，使用Sampler和Painter即可做到这一点。 得益于此功能，不再需要以SBSAR格式发布并加载单个文件（需要使用新的材质管理器的Stager版本1.2.0）
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### 杂项
 
 * 如果您正在处理织物，则现在可以在3D视图中显示专用网格，以便更好地查看您的素材如何在褶皱形状上渲染。 打开3D视图面板中的<b>场景</b>菜单，然后选择<b>布料</b>选项以显示此模型。
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
 * 我们还为Substance模型图添加了一些新的场景管理节点。 这些节点允许您重命名、重新设置父级、融合或扩展场景元素，以便组织场景层次结构。 还有一个新节点用于设置场景的一个或多个元素的透视。
 
 * 在Designer中处理项目时，您可能会遇到警告和错误消息，这些消息会通知您项目中存在问题。 在此版本中，我们<b>改进错误管理系统</b>以便在资源管理器中呈现所有错误和警告：所有内容都列在一个位置，因此可以更轻松地检查您的项目是否包含任何问题。
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## 发行说明
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 * [内容]新版本的“量化灰度”节点
 * [内容]新的Voronoi和Voronoi分形噪声(2D/3D)
 * [内容]阈值：添加“下限”和“下限和相等”比较模式
-* [Content]&#x200B;[3D View]添加网状结构，以便向已发运的资源显示结构
+* [Content][3D View]添加网状结构，以便向已发运的资源显示结构
 * [Substance模型]新的“展开组实例”节点
 * [Substance模型]新建Fuse节点
 * [Substance模型]新建重命名节点
@@ -159,7 +159,7 @@ ht-degree: 0%
 * [Substance 引擎]升级到8.4.1
 * [Yebis]警告用户Yebis后期效果将在下一版本中移除
 * [文档]新的“警告和错误”页面
-* [文档]介绍Substance图中的继承的新页面
+* [文档]介绍图形继承的新页面
 * [文档]更新“Iray”部分
 * [文档]更新“MDL图表”部分
 
@@ -176,8 +176,8 @@ ht-degree: 0%
 * [Content]Flood Fill：布尔型参数按钮中的文本出血
 * [内容] “多角度到法线”节点的第一个示例光角度参数的范围不正确
 * [Substance模型]节点的属性显示标识符而不是标签
-* [Substance模型]&#x200B;[3D视图]重新打开项目时出现刷新问题
-* [Substance模型]&#x200B;[3Dview]使用线框预览时出现刷新问题
+* [Substance模型][3D视图]重新打开项目时出现刷新问题
+* [Substance模型][3Dview]使用线框预览时出现刷新问题
 * [参数]在特定情况下快速连续删除图表输入时发生崩溃
 * [参数]在编辑实例参数的引用说明时重置实例参数时发生崩溃
 * [位图]对于拖放到图形中的位图文件，不会触发UDIM检测

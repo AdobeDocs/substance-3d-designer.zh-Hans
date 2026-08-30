@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: 了解路径和样条节点使用的路径格式规范和数据结构。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径格式规范
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![路径多边形编码数据](../../../../../../assets/PathsPolygon_Data.jpg "路径多边形编码数据")
+![路径多边形编码数据](paths-format-specifications.resources/PathsPolygon_Data.jpg "路径多边形编码数据")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ top[uv\_pos]和bottom[uv\_pos]共同构成文档的语义单元U[uv\_pos]，由8
 
 本文档中定义的最后一个顶点的地址。 这有助于附加新数据。
 
-因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于&rbrack;0， 1[×]0，.5&lbrack;范围内
+因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于]0， 1[×]0，.5[范围内
 
 <b>ZW</b>
 
@@ -269,11 +269,11 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 可以在第三迭代节点的Iterations参数中检查`*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)，以说明如何使用它。
 
-![sample_next的最小用例](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "sample_next的最小用例")
+![sample_next的最小用例](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next的最小用例")
 
 
 
-![预览路径中sample_next的用例(path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "预览路径中sample_next的用例(path_trace)")
+![预览路径中sample_next的用例(path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "预览路径中sample_next的用例(path_trace)")
 
 
 

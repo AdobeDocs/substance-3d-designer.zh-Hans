@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本13.1的发行说明，了解节点图形改进和AxF导出支持。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *发行日期：2023年12月12日*
 
-![Substance 3D Designer 13.1横幅](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1横幅")
+![Substance 3D Designer 13.1横幅](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1横幅")
 
 ## 框架改进
 
@@ -34,19 +34,19 @@ ht-degree: 1%
 
 随着图形的增长，可能需要重新排列帧的内容。 节点可能会移动以便为添加留出空间，也可能需要将内容隔开更多以提高可读性。 为了方便进行这些调整，现在可以在移动包含的对象时自动扩展帧：在移动对象时随时按住<b>Shift</b>，以便自动调整帧边框来将该对象保留在其边界内。
 
-![自动扩展](../../assets/autoexpand.gif)
+![自动扩展](version-13-1.resources/autoexpand.gif)
 
 ### 使尺寸适合内容
 
 在图表中进行调整时，框架可能不会再顺畅地适应其内容。 这个新命令允许您自动调整帧的位置和大小，以便通过填充一个中等网格单元来调整其内容的范围。 如果框架具有描述，则会对其进行调整，以尽可能使用描述旁边的任何空白空间。
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### 增强说明
 
 得益于HTML代码，现在可以在框架的描述中包含设置格式的文本。 这同样适用于注释。
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>...还有更多！</b>
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF文件图标](../../assets/axf-file-icon.png "AxF文件图标")
+![AxF文件图标](version-13-1.resources/axf-file-icon.png "AxF文件图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ AxF是来自[X-Rite](https://www.xrite.com/axf)的格式。 它提供了一种�
 </tr>
 </table>
 
-![导出AxF](../../assets/exportaxf.gif)
+![导出AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 

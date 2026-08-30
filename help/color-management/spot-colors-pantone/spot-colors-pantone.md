@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用Pantone专色，以便在打印和设计工作流程中实现准确的颜色匹配。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 专色(Pantone)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -48,26 +48,26 @@ ht-degree: 0%
 
 即使设置了色彩管理，拾色器默认情况下仍然为RGB或HSV拾色器。 您需要手动将它们切换为专色。 此设置按参数存储，在公开参数时甚至还会继续存储。
 
-1. 单击RGB色板旁边的![](../../assets/image2021-1-25-9-40-40.png) <b>拾色器类型</b>按钮。
+1. 单击RGB色板旁边的![](spot-colors-pantone.resources/image2021-1-25-9-40-40.png) <b>拾色器类型</b>按钮。
 1. 从下拉列表中选择任意<b>色标簿</b>，而不是<b>RGB颜色</b>。
-1. ![](../../assets/image2021-1-25-9-40-25.png) <b>拾色器类型</b>的图标将更改，且其界面将更改为<b>专色</b>模式。
+1. ![](spot-colors-pantone.resources/image2021-1-25-9-40-25.png) <b>拾色器类型</b>的图标将更改，且其界面将更改为<b>专色</b>模式。
 
-![切换到专色模式](../../assets/spot-switch.gif "切换到专色模式"){width="512px"}
+![切换到专色模式](spot-colors-pantone.resources/spot-switch.gif "切换到专色模式"){width="512px"}
 
 ### 选择和查找专色
 
 有几种方式可以在色标簿中查找和选择专色。
 
-* 您可以使用书籍页面两侧的![](../../assets/image2021-1-25-10-40-28.png) ![](../../assets/image2021-1-25-10-40-53.png) <b>左右箭头</b>在页面之间翻转。 您还可以单击并拖动页面显示，以在页面之间滚动。
+* 您可以使用书籍页面两侧的![](spot-colors-pantone.resources/image2021-1-25-10-40-28.png) ![](spot-colors-pantone.resources/image2021-1-25-10-40-53.png) <b>左右箭头</b>在页面之间翻转。 您还可以单击并拖动页面显示，以在页面之间滚动。
 * 您可以从当前页面中单击任何颜色来选取它。 通常，有更多的颜色可用，需要向下滚动一点。
 * 您可以使用搜索栏按名称或编号搜索颜色。 这种搜索只匹配书中的颜色名称，没有复杂的逻辑；搜索“灰色”只会得到名称中包含“灰色”字样的结果，您不会看到任何名称中仅包含数字的灰色颜色。
-* 要为色标簿获取更大、更易于使用的界面，请单击![](../../assets/image2021-1-25-10-39-18.png) <b>滴管</b>图标和![](../../assets/image2021-1-25-10-40-28.png) <b>向左箭头</b>之间的颜色预览框。
+* 要为色标簿获取更大、更易于使用的界面，请单击![](spot-colors-pantone.resources/image2021-1-25-10-39-18.png) <b>滴管</b>图标和![](spot-colors-pantone.resources/image2021-1-25-10-40-28.png) <b>向左箭头</b>之间的颜色预览框。
 
-![浏览专色](../../assets/spot-choose.gif "浏览专色"){width="512px"}
+![浏览专色](spot-colors-pantone.resources/spot-choose.gif "浏览专色"){width="512px"}
 
 ### 选取和转换专色
 
-可以使用![](../../assets/image2021-1-25-10-39-18.png) <b>滴管</b>工具选取专色。 在专色模式下，这意味着将取样的RGB转换为当前选定书籍中匹配最接近的专色。
+可以使用![](spot-colors-pantone.resources/image2021-1-25-10-39-18.png) <b>滴管</b>工具选取专色。 在专色模式下，这意味着将取样的RGB转换为当前选定书籍中匹配最接近的专色。
 
 Designer的<b>滴管</b>工具可在屏幕上的任何位置使用，没有任何限制，因此这意味着您可以使用Designer作为专色转换工具。
 
@@ -77,4 +77,4 @@ Designer的<b>滴管</b>工具可在屏幕上的任何位置使用，没有任�
 >
 > 在画册之间转换专色是一项有损操作。 进行往返转换通常不会得到与最初使用的颜色相同的颜色！
 
-![选取和转换专色](../../assets/spot-pick.gif "选取和转换专色"){width="512px"}
+![选取和转换专色](spot-colors-pantone.resources/spot-pick.gif "选取和转换专色"){width="512px"}

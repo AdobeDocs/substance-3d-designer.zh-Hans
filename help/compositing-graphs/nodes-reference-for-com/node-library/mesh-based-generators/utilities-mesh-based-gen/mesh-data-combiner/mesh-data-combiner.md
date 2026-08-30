@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: 使用“网格数据组合器”节点可组合多个网格数据输入，以便生成基于网格的高级纹理。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 网格数据组合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
-## 网格数据组合器
-
-**在：** *基于网格的生成器**/Utilities*
-
-**简单**
+<b>在</b>中基于网格的生成器>实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,30 +37,26 @@ ht-degree: 1%
 
 此节点主要是帮助程序，可以更轻松地在库中的某些节点（如[材质网格数据混合器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)）上使用大量烘焙输入。 这样，您就可以避免手动连接所有设备。
 
-## 参数
-
-### 参数
-
-切换要启用哪些映射输入并输出到打包结果中。
-
-* **环境遮蔽**： *False/True*
-* **UV蒙版**： *False/True*
-* **曲率**： *False/True*
-* **Height**： *False/True*
-* **位置（灰度）**： *False/True*
-* **Thickness**： *False/True*
-* **正常**： *False/True*
-* **位置(RGB)**： *False/True*
-* **颜色ID**： *False/True*
-* **世界空间方向**： *False/True*
-* **世界空间正常**： *False/True*
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+切换要启用哪些映射输入并输出到打包结果中。
+
+|  |  |
+|:---|:---|
+| <b>环境遮蔽</b> <i>False/True</i> |  |
+| <b>UV 蒙版</b> <i>False/True</i> |  |
+| <b>曲率</b> <i>False/True</i> |  |
+| <b>Height</b> <i>False/True</i> |  |
+| <b>位置（灰度）</b> <i>False/True</i> |  |
+| <b>Thickness</b> <i>False/True</i> |  |
+| <b>正常</b> <i>False/True</i> |  |
+| <b>位置(RGB)</b> <i>False/True</i> |  |
+| <b>颜色ID</b> <i>False/True</i> |  |
+| <b>世界空间方向</b> <i>False/True</i> |  |
+| <b>世界空间正常</b> <i>False/True</i> |  |

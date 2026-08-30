@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
 description: 使用“扩散灰度”节点可应用灰度扩散效果，以创建平滑的颜色过渡和混合。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 扩散灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
 
-**范围：** *滤镜/效果*
-
-**中级**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,61 +41,49 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 参数
-
-* **迭代**： *0.0 - 64.0*&#x200B;要执行的扩散迭代次数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。\
-  请注意，如果您不寻求数学正确性，则低值会更优秀。\
-  **距离**： **0.0 - 1.0**&#x200B;调整扩散的最大距离。
-* **启用抖动**： *True/False*&#x200B;控制每个传递的采样方法。 抖动允许以较少的次数收敛，但会引入杂色。\
-  没有它，每个刀路速度更快，但需要更多刀路才能获得平滑的结果而不会出现带状伪影。
+<a name="inputs"></a>
 
 ## 输入
 
-* **源** *灰度*\
-  要扩散的图像。
-* **蒙版** *灰度*\
-  扩散蒙版：白色像素在&#x200B;*源*&#x200B;中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。
-* **强度** *灰度*\
-  局部定义扩散过程应用的强度。 此地图应该为&#x200B;*对比图*，才能产生显着的效果。
+|  |  |
+|:---|:---|
+| <b>源</b> <i>灰度</i> | 要扩散的图像。 |
+| <b>蒙版</b> <i>灰度</i> | 扩散蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
+| <b>强度</b> <i>灰度</i> | 局部定义扩散过程应用的强度。 此地图应该为<i>对比图</i>，才能产生显着的效果。 |
 
-## 示例图像
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## 参数
 
-![](../../../../../../assets/diffusion-grayscale-01-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>迭代</b> <i>0.0 - 64.0</i> | 要执行的迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。<br>请注意，如果您不寻找数学正确性，则低值会很合适，甚至更好。 |
+| <b>距离</b> <i>0.0 - 1.0</i> | 调整漫射的最大距离。 |
+| <b>启用仿色</b> <i>True/False</i> | 控制每个通道的采样方法。 抖动允许以较少的次数收敛，但会引入杂色。<br>如果没有它，则每个刀路的速度会更快，但需要更多的刀路才能获得平滑的结果，而不会出现带状伪影。 |
 
-</td>
-<td style="border: 0;" valign="top">
+## 示例
 
-![](../../../../../../assets/diffusion-grayscale-01a-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-grayscale-02-render.jpg){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
+        </td>
+    </tr>
 </table>

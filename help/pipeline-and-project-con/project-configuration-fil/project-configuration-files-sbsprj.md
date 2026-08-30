@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用SBSPRJ项目配置文件来管理项目设置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 项目配置文件 — SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ文件图标](../../assets/sbsprj.png "SBSPRJ文件图标")
+![SBSPRJ文件图标](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ文件图标")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 在编辑器中打开SBSPRJ文件后，您应该会看到一个相当简单的结构化版面，其中的各部分与UI中的选项卡相对应。 并非所有设置都会记录在这里，因为它相当容易解释。
 
-![XML编辑](../../assets/project-xml.png "XML编辑")
+![XML编辑](project-configuration-files-sbsprj.resources/project-xml.png "XML编辑")
 
 ## 相对路径和别名
 

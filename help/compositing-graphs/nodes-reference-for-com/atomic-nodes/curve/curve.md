@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: 使用“曲线”节点可通过可自定义的曲线调整纹理值，以实现精确的颜色和亮度控制。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：曲线](../../../../assets/comp_curve_1.png "原子节点：曲线"){width="200px"}
+![原子节点：曲线](curve.resources/comp_curve_1.png "原子节点：曲线"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 要创建点，只需双击“曲线”视图上的任意位置：
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif)
 
 ### 控制点影响
 
@@ -112,31 +112,31 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png)将点模式重置为默认值。
+![](curve.resources/image2017-2-17-14-13-27.png)将点模式重置为默认值。
 
-![](../../../../assets/image2017-2-17-14-12-6.png)锁定/解锁2个贝塞尔曲线处理程序，以便用户可以一起或独立移动它们。
+![](curve.resources/image2017-2-17-14-12-6.png)锁定/解锁2个贝塞尔曲线处理程序，以便用户可以一起或独立移动它们。
 
-![](../../../../assets/image2017-2-17-14-14-0.png)点的两侧由贝塞尔曲线处理程序控制。
+![](curve.resources/image2017-2-17-14-14-0.png)点的两侧由贝塞尔曲线处理程序控制。
 
-![](../../../../assets/image2017-2-17-14-16-22.png)点的右侧由贝塞尔曲线处理程序控制，而左侧保持平坦。
+![](curve.resources/image2017-2-17-14-16-22.png)点的右侧由贝塞尔曲线处理程序控制，而左侧保持平坦。
 
-![](../../../../assets/image2017-2-17-14-18-25.png)点的左侧由贝塞尔曲线处理程序控制，而右侧保持平坦。
+![](curve.resources/image2017-2-17-14-18-25.png)点的左侧由贝塞尔曲线处理程序控制，而右侧保持平坦。
 
-![](../../../../assets/image2017-2-17-14-19-32.png)点边保持平坦
+![](curve.resources/image2017-2-17-14-19-32.png)点边保持平坦
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curvepointsmodes.gif)
 
 ### 显示输入直方图
 
-只需单击![](../../../../assets/image2017-2-17-14-50-13.png)，即可显示/隐藏输入的直方图
+只需单击![](curve.resources/image2017-2-17-14-50-13.png)，即可显示/隐藏输入的直方图
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/image2017-2-17-14-48-35.png)
 
 ### 单独控制每个通道（颜色输入）
 
@@ -151,15 +151,15 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-在“RGB曲线”模式下，可以通过按/按![](../../../../assets/image2017-2-17-14-55-0.png)来隐藏/显示各个通道曲线：
+在“RGB曲线”模式下，可以通过按/按![](curve.resources/image2017-2-17-14-55-0.png)来隐藏/显示各个通道曲线：
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/image2017-2-17-14-55-38.png)
 
 ### 对齐、镜像和翻转
 
@@ -178,7 +178,7 @@ ht-degree: 2%
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/ctrl.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/shift.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/altclick.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ ht-degree: 2%
 
 调整处理程序时，您可能会遇到一个处理程序越过曲线视图的情况。
 
-在这种情况下，可以使用![](../../../../assets/image2017-2-20-19-11-53.png)按钮使大小适合内容。
+在这种情况下，可以使用![](curve.resources/image2017-2-20-19-11-53.png)按钮使大小适合内容。
 
-![](../../../../assets/image2017-2-20-19-12-45.png)按钮将缩放级别重置为1
+![](curve.resources/image2017-2-20-19-12-45.png)按钮将缩放级别重置为1
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/viewzoom.gif)
 
 ## 输入连接器
 

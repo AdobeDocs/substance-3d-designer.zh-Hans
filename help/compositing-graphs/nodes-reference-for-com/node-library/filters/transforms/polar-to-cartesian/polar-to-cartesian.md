@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
 description: 使用“极坐标”到“笛卡尔坐标”节点，可以将纹理从极坐标转换为笛卡尔坐标。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 极坐标到笛卡尔坐标
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
@@ -22,35 +22,31 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polar-to-cartesian.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian.png){width="128px"}
 
-![](../../../../../../assets/polar-to-cartesian-grayscale.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian-grayscale.png){width="128px"}
 
-## 极坐标到笛卡尔（灰度）
-
-**英寸：** *筛选器/变换*
-
-**简单**
+<b>英寸：</b>筛选器>变换
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 将极坐标（角度和半径）中的输入转换为笛卡尔坐标（X和Y）。 相反，在[笛卡尔坐标到极坐标](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)中是可能的。
 
-## 参数
-
-*无参数。*
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/polar-to-cartesian-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="polar-to-cartesian.resources/polar-to-cartesian-example.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
 breadcrumb-title: ''
 description: 使用“污渍泄漏”节点生成泄漏图案，以在表面产生水渍和风化效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 污渍泄漏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
-**位置：** *纹理生成器* */杂色*
-
-**简单**
+<b>在：</b>纹理生成器>杂色
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,31 +39,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-* **平衡** *浮动*&#x200B;调整暗值和亮值之间的平衡。
-* **对比度** *浮动*&#x200B;调整图像的对比度。
-* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
-* **非正方形扩展***布尔值*&#x200B;启用以非方形比率补偿挤压和拉伸。
-* 高级
-  * **液滴长度** *浮动*&#x200B;调整液滴条纹的长度。
-  * **形状对比度***浮动*&#x200B;在明亮和暗形状之间移动，形成滴落的对比。
-  * **水滴的清晰度** *浮动*&#x200B;调整水滴的锐度和冷度。
-  * **锐化强度***浮动*&#x200B;调整图像的整体粗糙度。
+|  |  |
+|:---|:---|
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
+| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>高级</b> |  |
+| <b>水滴长度</b> <i>浮动</i> | 调整水滴线条的长度。 |
+| <b>形状对比度</b> <i>浮动</i> | 在明亮形状和暗形状之间切换，形成滴落的对比。 |
+| <b>水滴的清晰度</b> <i>浮动</i> | 调整水滴的锐利度和冷缩度。 |
+| <b>锐化强度</b> <i>浮动</i> | 调整图像的整体粗糙感。 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        </td>
+    </tr>
 </table>

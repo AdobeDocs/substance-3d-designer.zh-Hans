@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入和使用3D场景资源以进行素材预览和测试。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 场景资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 3D场景&#x200B;*只能*&#x200B;被链接，这意味着它们停留在磁盘上的位置，仅在应用程序中引用。
 
-将包含3D场景资源的包发布为[Substance 3D](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)资源(SBSAR)时，网格将&#x200B;*未嵌入*，但会被丢弃。
+将包含3D场景资源的包发布为[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)资源(SBSAR)时，网格将&#x200B;*未嵌入*，但会被丢弃。
 
 ## 烘焙网格图
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 * 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中加载资源后，单击资源上的&#x200B;*人民币*，然后在上下文菜单中选择<b>烘焙模型信息</b>选项
 * 此时会显示[烘焙模型信息](../../bakers/bakers.md)对话框，供您设置和运行任何网格图烘焙
 
-![烘焙网格图](../../assets/bake-model-information.gif "烘焙网格图"){width="512px"}
+![烘焙网格图](3d-scene-resource.resources/bake-model-information.gif "烘焙网格图"){width="512px"}
 
 ## UDIM/UV-tile用法
 

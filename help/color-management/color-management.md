@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的色彩管理，包括色彩空间、配置文件和专色工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 本页介绍Substance 3D Designer中的色彩管理功能和设置。
 
-可以将Substance 3D Designer配置为使用[OpenColorIO](https://opencolorio.org/) (OCIO)或Adobe 颜色引擎(ACE)进行色彩管理。 这允许您在多个应用程序间进行&#x200B;*一致的*&#x200B;颜色变换和图像显示。
+可以将Substance 3D Designer配置为使用[OpenColorIO](https://opencolorio.org/) (OCIO)或Adobe 颜色引擎(ACE)进行色彩管理。 这允许您在多个应用程序间拥有&#x200B;*一致的*&#x200B;色彩变换和图像显示。
 
-在此模式下，Designer将在内部使用&#x200B;**线性RGB**&#x200B;颜色。 由于8位深度通常不足以表示线性颜色，因此建议在[图形](../compositing-graphs/substance-compositing-graphs.md)中对彩色纹理使用&#x200B;*至少* **16位**&#x200B;深度。
+在此模式下，Designer将在内部使用&#x200B;**线性RGB**&#x200B;颜色。 由于8位深度通常不足以表示线性颜色，因此建议对[图形](../compositing-graphs/substance-compositing-graphs.md)中的颜色纹理使用&#x200B;*至少* **16位**&#x200B;深度。
 
 >[!WARNING]
 >
 > 有效的色彩管理工作流程依赖于使用正确的&#x200B;*已校准*&#x200B;显示器，因此存在第三方解决方案以使用专用硬件针对您的工作环境正确校准您的显示器。
 > 
-> OpenColorIO用户应对其显示器使用匹配的OpenColorIO色彩空间。\
-> AdobeACE用户应确保OS *中选择的ICC配置文件*&#x200B;与&#x200B;*其*&#x200B;监视器匹配。
+> OpenColorIO用户应为其显示器使用匹配的OpenColorIO色彩空间。\
+> ACE用户应确保在OS *中选择的ICC配置文件*&#x200B;与&#x200B;*其*&#x200B;监视器匹配。
 
 ## 配置
 
@@ -41,13 +41,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>色彩管理</b> | 此设置允许您在Substance 3D Designer中为色彩管理选择[旧版](../color-management/color-management.md)、[OpenColorIO](#opencolorio)或[AdobeACE](#adobe-ace)模式。 *默认：旧版* |
+| <b>色彩管理</b> | 此设置允许您为Substance 3D Designer中的色彩管理选择[旧版](../color-management/color-management.md)、[OpenColorIO](#opencolorio)或[AdobeACE](#adobe-ace)模式。 *默认：旧版* |
 
 ## OpenColorIO
 
 ### OpenColorIO 配置
 
-使用OpenColorIO模式进行色彩管理时，Designer将使用存储在<b>配置文件</b> (*\*.config*)中的信息进行色彩转换、识别色彩空间并设置默认值。
+使用OpenColorIO模式进行色彩管理时，Designer将使用存储在<b>配置文件</b> (*\*.config*)中的信息进行色彩变换、识别色彩空间并设置默认值。
 
 Substance 3D Designer附带以下配置：
 
@@ -67,15 +67,15 @@ Substance 3D Designer附带以下配置：
 | --- | --- |
 | <b>8位图像</b> | 设置8位位位图的默认色彩空间。 *默认：由OpenColorIO配置文件*&#x200B;设置 |
 | <b>16位图像</b> | 设置16位位位图的默认色彩空间。 *默认：由OpenColorIO配置文件*&#x200B;设置 |
-| <b>浮点图像</b> | 设置浮点精度位图的默认色彩空间，如&#x200B;*HDR*&#x200B;图像（采用&#x200B;*\*.exr *或*\*.hdr*格式）。 *默认：由OpenColorIO配置文件*&#x200B;设置 |
-| <b>使用文件名检测色彩空间</b> | 如果位图文件名&#x200B;*的*&#x200B;后缀&#x200B;*与*&#x200B;当前OpenColorIO *配置*&#x200B;中包含的色彩空间的小写名称完全匹配，则允许Designer自动分配色彩空间。 示例：位图资源&#x200B;*mybitmap\_aces\_acescg.png*&#x200B;将自动设置为&#x200B;*ACES - ACEScg*&#x200B;色彩空间，并且相应的变换将应用于工作色彩空间。 *默认值：已选中* |
+| <b>浮点图像</b> | 为浮点精度位图设置默认色彩空间，如&#x200B;*HDR*&#x200B;图像（采用&#x200B;*\*.exr *或*\*.hdr*格式）。 *默认：由OpenColorIO配置文件*&#x200B;设置 |
+| <b>使用文件名检测色彩空间</b> | 如果位图文件名&#x200B;*的*&#x200B;后缀&#x200B;*与*&#x200B;当前OpenColorIO *配置*&#x200B;中包含的色彩空间的小写名称完全匹配，则允许Designer自动分配色彩空间。 示例：位图资源&#x200B;*mybitmap\_aces\_acescg.png*&#x200B;将自动设置为&#x200B;*ACE - ACEScg*&#x200B;色彩空间，并且适当的变换将应用于工作色彩空间。 *默认值：已选中* |
 
 ### 2D和3D视图显示默认设置
 
 |  |  |
 | --- | --- |
 | <b>2D和3D视图显示默认值</b> | 为[2D视图](../interface/2d-view/2d-view.md)和[3D视图](../interface/3d-view/3d-view.md)视区设置默认&#x200B;*显示*&#x200B;色彩空间。 *默认：由OpenColor IO配置文件*&#x200B;设置 |
-| <b>色彩管理缩览图</b> | 允许Designer自动将节点&#x200B;*缩略图*&#x200B;转换为图形中的&#x200B;*工作*&#x200B;色彩空间。 *默认值：已选中* |
+| <b>色彩管理缩览图</b> | 允许Designer将节点&#x200B;*缩略图*&#x200B;自动变换为图形中的&#x200B;*工作*&#x200B;色彩空间。 *默认值：已选中* |
 
 ## Adobe ACE
 
@@ -89,7 +89,7 @@ Designer随附多种ICC配置文件。 可在Designer安装文件的`resources >
 |  |  |
 | --- | --- |
 | <b>工作空间</b> | 此设置允许您选择工作色彩空间，以便在整个Substance 3D Designer中&#x200B;*执行色彩操作*。 *默认值： sRGB IEC61966-2.1* |
-| <b>渲染方法</b> | 使用此选项，可以控制当颜色在&#x200B;*工作*&#x200B;色彩空间的&#x200B;*色域*&#x200B;外时应如何变换。 *默认值：相对比色* |
+| <b>渲染方法</b> | 使用此选项，可以控制当颜色在&#x200B;*工作*&#x200B;色彩空间的&#x200B;*色域*&#x200B;之外时应如何变换颜色。 *默认值：相对比色* |
 
 ### 位图色彩空间默认值
 
@@ -100,25 +100,25 @@ Designer随附多种ICC配置文件。 可在Designer安装文件的`resources >
 | <b>浮点图像</b> | 设置用于浮点精度位图的默认ICC配置文件，如&#x200B;*\*.exr *或*\*.hdr*&#x200B;格式的*HDR*图像。 *默认：原始（即未应用配置文件）* |
 | <b>可用时使用嵌入的ICC配置文件</b> | 允许Designer使用位图中嵌入的ICC配置文件，而不是使用上面列出的默认值。 *默认值：已选中* |
 
-### 2D和3D视图显示默认空间
+### 2D和3D 视图显示默认空间
 
 |  |  |
 | --- | --- |
-| <b>2D和3D视图显示默认值</b> | 为[2D视图](../interface/2d-view/2d-view.md)和[3D视图](../interface/3d-view/3d-view.md)视区设置默认&#x200B;*显示*&#x200B;色彩空间。 *默认：从OS中检索到主屏幕的&#x200B;*** ICC配置文件&#x200B;**&#x200B;** |
+| <b>2D和3D视图显示默认值</b> | 为[2D视图](../interface/2d-view/2d-view.md)和[3D视图](../interface/3d-view/3d-view.md)视区设置默认&#x200B;*显示*&#x200B;色彩空间。 *默认：从OS中检索到主屏幕的*** ICC配置文件&#x200B;**** |
 
 ### 图形显示
 
 |  |  |
 | --- | --- |
-| <b>色彩管理缩览图</b> | 在&#x200B;*选中*&#x200B;后，Designer会将&#x200B;*节点缩略图*&#x200B;转换为当前&#x200B;*工作色彩空间*。 *默认值：***&#x200B;未选中&#x200B;**&#x200B;** |
+| <b>色彩管理缩览图</b> | 在&#x200B;*选中*&#x200B;后，Designer将&#x200B;*节点缩略图*&#x200B;变换为当前&#x200B;*工作色彩空间*。 *默认值：***&#x200B;未选中&#x200B;**** |
 
 ## 旧版模式
 
 使用<b>旧版</b>模式时，色彩管理在Designer中&#x200B;*已禁用*-
 
-在此模式下，图形和图像的行为与以前的版本完全相同。 这意味着如果此设置保持&#x200B;*不变*，则以前版本的工作流将&#x200B;*完全不受影响*。 不过，有一些有用的补充内容：
+在此模式下，图形和图像的行为与早期版本完全相同。 这意味着如果此设置保持&#x200B;*不变*，则以前版本的工作流将&#x200B;*完全不受影响*。 不过，有一些有用的补充内容：
 
-您可以选择使用<b>ACES sRGB</b> <b>3D视图</b>中的&#x200B;*色调映射*&#x200B;以匹配其他软件的输出，如&#x200B;*[Unreal Engine](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)*。
+您可以选择使用<b>ACE sRGB</b> <b>3D 视图</b>中的&#x200B;*色调映射*&#x200B;以匹配其他软件的输出，如&#x200B;*[虚构引擎](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)*。
 
 您可以为&#x200B;*导出的位图*&#x200B;设置色彩空间，如本页的[导出输出](#exporting-outputs)部分所述。 可用的色彩空间如下：
 
@@ -152,18 +152,18 @@ Designer随附多种ICC配置文件。 可在Designer安装文件的`resources >
 > 
 > 特别是，**文件名**&#x200B;可用于自动设置适当的色彩空间&#x200B;**。 请注意，文件名中的色彩空间名称必须&#x200B;*与OpenColorIO配置文件中的名称*&#x200B;匹配（例如，*myImage\_utility - linear -srgb.png*&#x200B;将被设置为&#x200B;*Utility - Linear - sRGB*&#x200B;色彩空间）。
 
-![位图色彩空间设置](../assets/2019-3-0-bitmap-clr-space.png "位图色彩空间设置")
+![位图色彩空间设置](color-management.resources/2019-3-0-bitmap-clr-space.png "位图色彩空间设置")
 
 ## 导出输出
 
 使用<b>导出输出</b>对话框时，可以为&#x200B;*每个*&#x200B;输出分配<b>色彩空间</b> (OCIO)或附加<b>ICC配置文件</b> (AdobeACE)。\
 Designer将在保存图像文件之前&#x200B;*将*&#x200B;张图像转换为指定的色彩空间。
 
-![导出输出对话框](../assets/2019-3-0-clr-mgt-export-outputs.png "导出输出对话框"){width="512px"}
+![导出输出对话框](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "导出输出对话框"){width="512px"}
 
 您也可以从[2D视图](../interface/2d-view/2d-view.md)中为图像&#x200B;*保存的*&#x200B;分配色彩空间(OCIO)或附加ICC配置文件(AdobeACE)。
 
-![2D视图导出选项](../assets/2019-3-0-clr-mgt-save-image.png "2D视图导出选项")
+![2D视图导出选项](color-management.resources/2019-3-0-clr-mgt-save-image.png "2D视图导出选项")
 
 ## 2D和3D视图
 
@@ -171,7 +171,7 @@ Designer将在保存图像文件之前&#x200B;*将*&#x200B;张图像转换为指
 
 您可以使用显示工具栏中的下拉菜单，随时&#x200B;*切换*&#x200B;色彩管理并更改视图的&#x200B;*显示变换*。
 
-![2D视图中的色彩空间设置](../assets/2019-3-0-clr-mgt-display-toolbar.png "2D视图中的色彩空间设置"){width="512px"}
+![2D视图中的色彩空间设置](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "2D视图中的色彩空间设置"){width="512px"}
 
 ### 库HDRI环境
 
@@ -180,7 +180,7 @@ Designer附带的HDRI环境位于<b>线性sRGB</b>色彩空间中。\
 
 在这种情况下，应在可在3D视图面板<b>环境</b>菜单中的环境属性中&#x200B;*手动*&#x200B;设置库HDRI环境的色彩空间。
 
-![3D视图环境的色彩空间设置](../assets/2019-3-0-clr-mgt-hdri-env.png "3D视图环境的色彩空间设置"){width="512px"}
+![3D视图环境的色彩空间设置](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "3D视图环境的色彩空间设置"){width="512px"}
 
 ## 颜色转换节点
 
@@ -211,7 +211,7 @@ Designer附带的HDRI环境位于<b>线性sRGB</b>色彩空间中。\
 
 在处理&#x200B;*创建的没有*&#x200B;色彩管理的图表或来自[Substance 3D资源](https://substance3d.adobe.com/assets)库的素材时，这些功能非常有用。
 
-![库中的颜色转换节点](../assets/2019-3-0-clr-mgt-nodes.png "库中的颜色转换节点"){width="512px"}
+![库中的颜色转换节点](color-management.resources/2019-3-0-clr-mgt-nodes.png "库中的颜色转换节点"){width="512px"}
 
 ## 已知限制
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: 使用变换2D节点可将2D变换应用于纹理，包括平移、旋转和缩放。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：转换2D](../../../../assets/comp_transformation_1.png "原子节点：转换2D"){width="200px"}
+![原子节点：转换2D](transformation-2d.resources/comp_transformation_1.png "原子节点：转换2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 5%
 > 
 > 将“拼贴模式”[基本参数](../../../../glossary/glossary.md)的[继承方法](../../../../glossary/glossary.md)设置为“Absolute”，随后即可将参数值设置为“无拼贴”：
 > 
-> ![](../../../../assets/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >
@@ -95,8 +95,8 @@ ht-degree: 5%
 | <b>变换矩阵</b> *浮点4* | 打开基础转换矩阵以直接编辑。 允许您更改旋转和缩放。 也可以通过2D视图中的小工具进行调整。   警告：它们不直接与视图相关，而是可在步骤中应用的相对调整。 |
 | <b>偏移</b> *浮点2* | 定义图像的二维位移。 允许您更改位置或偏移。也可以通过2D视图中的小工具来调整该位置。   与2D视图输出直接相关。 |
 | <b>Mipmap模式</b> *整数* | 允许您切换到手动[mipmap](../../../../glossary/glossary.md)级别，这将使用纹理过滤减少图像中的伪影。 |
-| <b>多级渐远纹理级别</b> *整数* | 设置要使用的[mipmap](../../../../glossary/glossary.md)级别。     *当“Mipmap模式”设置为“手动”时可用* |
-| <b>遮罩颜色</b> *浮点4* | 禁用转换拼贴时用作背景的颜色。 即，设置当变换的输入不覆盖输出的区域时使用的颜色。   如果使用的是RGBA颜色，则可以使其透明。 |
+| <b>多级渐远纹理级别</b> *整数* | 设置要使用的[镜像转换](../../../../glossary/glossary.md)级别。     *当“镜像转换模式”设置为“手动”时可用* |
+| <b>遮罩颜色</b> *浮点4* | 禁用变换拼贴时用作背景的颜色。 即，设置当变换的输入不覆盖输出的区域时使用的颜色。   如果使用的是RGBA颜色，则可以使其透明。 |
 | <b>筛选</b> *整数* | 设置使用的缩减像素采样方法。 当多级渐远纹理级别减少时，效果并不特别好。 |
 
 ## 输入连接器

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: 使用“色阶”节点可以调整纹理的亮度、对比度和色调范围，以进行颜色校正和增强。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色阶
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：级别](../../../../assets/comp_levels_1.png "原子节点：级别"){width="200px"}
+![原子节点：级别](levels.resources/comp_levels_1.png "原子节点：级别"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ ht-degree: 4%
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 在“特定参数”标题栏中，您可以找到一些按钮，以访问直方图的便捷功能：
 
-![级别节点快速操作](../../../../assets/levels-2.png "级别节点快速操作")
+![级别节点快速操作](levels.resources/levels-2.png "级别节点快速操作")
 
 <b>1 — 反转：</b>交换“Level out low”和“Level out high”参数的值。
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 
 直方图编辑器旨在进行可视、快速调整，其中并不真正需要精确值，并且曝光参数无关紧要。 通常，这是使用色阶的最为快捷简便的方式。
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 根据输入类型（“颜色”或“灰度”），您可以使用“直方图”上方的下拉菜单选择要修改的通道。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
 breadcrumb-title: ''
 description: 使用“织造2”节点可在Substance 3D Designer中创建具有可自定义的线材属性的高级织物图案。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 织造2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-2.png){width="128px"}
+![](weave-2.resources/weave-2.png){width="128px"}
 
-## 织造2
-
-**英寸：** *纹理生成器**/Patterns*
-
-**简单**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 生成简单的编织图案。 具有随机性控件。 在最大无序度下，这甚至可以用作噪声。
 
-## 参数
-
-* **拼贴**： *1 - 16*\
-  设置结果应平铺的次数。
-* **无序**： *0.0 - 100.0*\
-  在编织物的缝合处混乱以引入变化。
-* **旋转45度**： *False/True*&#x200B;旋转到预设角度。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/weave2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
+| <b>无序</b> <i>0.0 - 100.0</i> | 在编织物的缝合处混乱以引入变化。 |
+| <b>旋转45度</b> <i>False/True</i> | 按预设角度旋转。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="weave-2.resources/weave2-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: 使用“材质网格数据混合器”节点来混合材质网格数据，以便在不同的材质区域之间创建平滑过渡。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 材质网格数据混合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
-## 材质网格数据混合器
-
-**在：** *基于网格的生成器**/Utilities*
-
-**复杂**
+<b>在</b>中基于网格的生成器>实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,75 +37,61 @@ ht-degree: 0%
 
 可用于执行诸如基于曲率或其他映射添加边缘突出显示、在某些AO中与扩散/基色混合、添加基于曲率和/或AO的遮蔽等操作。
 
-## 参数
-
-### 输入
-
-* **完整素材输入（组“素材”）：**&#x200B;完整素材映射集。\
-  此节点会修改这些属性，然后再次将其作为输出返回。
-* **环境遮蔽**： *灰度输入*\
-  用于内部效果和蒙版的已烘焙贴图。
-* **曲率**： *灰度输入*\
-  用于内部效果和蒙版的已烘焙贴图。
-* **Height**： *灰度输入*
-* **正常**： *颜色输入*
-* **顶点颜色**： *颜色输入*
-* **正常世界空间**： *颜色输入*
-
-### 参数
-
-* **频道**
-  * 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 影响以下参数的可用性。
-* **已烘焙贴图**
-  * 是否使用列出的已烘焙贴图进行计算。 影响以下参数的可用性。
-* **扩散AO**： *0.0 - 1.0*&#x200B;要混合到扩散中的环境遮蔽量。
-* **扩散锐边**： 0.0 - 1.0\
-  要混合到漫射中的曲率映射量。
-* **从顶点颜色扩散的颜色**： 0.0 - 1.0\
-  要混合到漫射区域中的顶点颜色烘焙量。
-* **漫射预照明**： 0.0 - 1.0\
-  基于世界空间法线的（虚假）预光照量。
-* **漫射卡通光照平衡**： 0.0 - 1.0\
-  在“漫射”滑块的实际光照和卡通光照之间切换。
-* **漫射卡通预光照图层**： 0 - 10\
-  控制卡通光线计算的外观。
-* **漫射卡通轮廓**： 0.0 - 1.0\
-  控制卡通光线计算的外观。
-* **基色AO**： 0.0 - 1.0\
-  要混合为基色的环境遮蔽量。
-* **基色锐化边缘**： 0.0 - 1.0\
-  要混合到基色的曲率映射量。
-* **基于顶点颜色的基色**： 0.0 - 1.0\
-  混合为基色的顶点颜色烘焙量。
-* **正常材质强度**： 0.0 - 1.0\
-  烘焙（切线）正态映射的混合强度。
-* **SpecularAO**： 0.0 - 1.0\
-  在Specular中混合AO的强度。
-* **明亮的锐边缘** Specular：0.0 - 1.0\
-  混合Specular中曲率的强度。
-* **Specular卡通轮廓**： 0.0 - 1.0\
-  基于曲率，混合卡通Specular边缘轮廓效果的强度。
-* **光泽深色锐化边缘**： 0.0 - 1.0\
-  混合光泽度中曲率的强度。
-* **明亮锐边的粗糙度**： 0.0 - 1.0\
-  在粗糙度中混合曲率的强度。
-* **粗糙度卡通轮廓**： 0.0 - 1.0\
-  基于曲率，混合卡通粗糙度边缘轮廓效果的强度。
-* **金属明亮的锐边缘**： 0.0 - 1.0\
-  金属质感中曲率的混合强度。
-* **金属卡通轮廓**： 0.0 - 1.0\
-  基于曲率，混合卡通金属边缘轮廓效果的强度。
-* **AO材料强度**： 0.0 - 1.0\
-  已烘焙贴图AO与材料生成的AO混合强度，二者结合程度如何。
-* **Height材质强度**： 0.0 - 1.0\
-  将Height的强度与素材生成的Height混合，两个高度图的组合度如何。
-* **Height材质混合类型**：增强，插值\
-  用于合并两个高度图的混合模式。
-
-## 示例图像
-
-![](../../../../../../assets/blenddata-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>完整材料输入（组“材料”）</b> | 一整套材料地图。<br><br>此节点将修改这些字段，然后再次将其作为输出返回。 |
+| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>Height</b> <i>灰度输入</i> |  |
+| <b>正常</b> <i>颜色输入</i> |  |
+| <b>顶点颜色</b> <i>颜色输入</i> |  |
+| <b>世界空间法线</b> <i>颜色输入</i> |  |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 影响以下参数的可用性。 |
+| <b>已烘焙贴图</b> | 是否使用列出的已烘焙贴图进行计算。 影响以下参数的可用性。 |
+| <b>DiffuseAO</b> <i>0.0 - 1.0</i> | 要混合到Diffuse中的Ambient occlusion量。 |
+| <b>锐边Diffuse</b> <i>0.0 - 1.0</i> | 要混合到Diffuse中的弯曲图量。 |
+| <b>Diffuse</b> <i>0.0 - 1.0</i> | 要混合到Diffuse中的顶点烘焙量。 |
+| <b>Diffuse预照明</b> <i>0.0 - 1.0</i> | 基于世界空间法线的预照量（虚假）。 |
+| <b>卡通光照平衡Diffuse</b> <i>0.0 - 1.0</i> | 在Diffuse的逼真和卡通光线之间切换。 |
+| <b>动画预光照图层Diffuse</b> <i>0 - 10</i> | 控制卡通光线计算的外观。 |
+| <b>Diffuse卡通轮廓</b> <i>0.0 - 1.0</i> | 控制卡通光线计算的外观。 |
+| <b>Base colorAO</b> <i>0.0 - 1.0</i> | 要混合为基色的Ambient occlusion量。 |
+| <b>锐边Base color</b> <i>0.0 - 1.0</i> | 要混合为基色的弯曲图量。 |
+| <b>Base color来自顶点颜色</b> <i>0.0 - 1.0</i> | 要混合为基色的烘焙量。 |
+| <b>正常材料强度</b> <i>0.0 - 1.0</i> | 混合烘焙(正切)正常映射的强度。 |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | 在Specular中混合AO强度。 |
+| <b>Specular明亮的锐边缘</b> <i>0.0 - 1.0</i> | 在Specular中混合弯曲的强度。 |
+| <b>Specular卡通轮廓</b> <i>0.0 - 1.0</i> | 基于弯曲混合卡通Specular边缘轮廓效果的强度。 |
+| <b>光泽度深色锐化边缘</b> <i>0.0 - 1.0</i> | 在光泽度中混合弯曲的强度。 |
+| <b>粗糙度明亮的锐边缘</b> <i>0.0 - 1.0</i> | 在粗糙度中混合弯曲的强度。 |
+| <b>粗糙度卡通轮廓</b> <i>0.0 - 1.0</i> | 基于弯曲混合卡通粗糙度边缘轮廓效果的强度。 |
+| <b>金属明亮的锐边缘</b> <i>0.0 - 1.0</i> | 在金属中混合弯曲的强度。 |
+| <b>金属卡通轮廓</b> <i>0.0 - 1.0</i> | 基于弯曲混合卡通金属边缘轮廓效果的强度。 |
+| <b>AO材料强度</b> <i>0.0 - 1.0</i> | 已烘焙贴图AO与材料生成AO的混合强度，二者结合的程度。 |
+| <b>Height的材料强度</b> <i>0.0 - 1.0</i> | Height与材料生成Height的混合强度，二者结合的程度。 |
+| <b>材料混合类型</b> <i>增强，插值</i> | 用于合并两个高度图的混合模式。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+        </td>
+    </tr>
 </table>

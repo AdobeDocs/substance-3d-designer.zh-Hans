@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: 使用“环境遮蔽”(RTAO)节点，从Height地图生成实时的环境遮蔽地图，以实现逼真的着色。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 环境遮蔽(RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO节点图标](../../../../../../assets/rt-ao.png "RTAO节点图标")
+![RTAO节点图标](ambient-occlusion-rtao.resources/rt-ao.png "RTAO节点图标")
 
-<b>进入：</b> *滤镜/效果*
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,42 +43,29 @@ ht-degree: 0%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-<b>使用物理尺寸</b> *布尔值*\
-切换以使用物理尺寸设置来确定Height比例。
+|  |  |
+|:---|:---|
+| <b>使用物理尺寸</b> <i>布尔值</i> | 切换以使用物理尺寸设置来确定Height比例。 |
+| <b>物理尺寸</b> <i>浮点3</i> <i>（当<b>使用物理尺寸</b>设置为<i>True</i>时可用）</i> | 根据表面的真实物理尺寸调整Height比例 |
+| <b>示例</b> <i>整数</i> | 用于计算ambient occlusion的光线数。<br>值越高，结果越平滑精确，但会降低性能。 |
+| <b>Height比例</b> <i>浮动</i> <i>（当<b>使用物理尺寸</b>设置为<i>False</i>时可用）</i> | Height映射输入强度的乘数。 |
+| <b>分发</b> <i>整数</i> | 设置分布方法。 影响阴影区域的衰减， |
+| <b>最大距离</b> <i>浮动</i> | 设置光线可传播以被遮挡的最大距离。 |
+| <b>扩散角度</b> <i>浮动</i> | 设置要拍摄的光线的扩散角度。 值1表示整个半球。 |
 
-<b>物理尺寸</b> *浮点3* （在<b>使用物理尺寸</b>设置为&#x200B;*True*&#x200B;时可用）\
-根据表面的真实物理尺寸调整Height比例
+## 示例
 
-<b>示例&#x200B;</b>*整数*\
-用于计算环境遮蔽的光线数。\
-较高的值会以牺牲性能为代价，提供更平滑、更精确的结果。
-
-<b>Height比例</b> *浮动* （在<b>使用物理尺寸</b>设置为&#x200B;*False*&#x200B;时可用）\
-Height映射输入强度的乘数。
-
-<b>分发</b> *整数*&#x200B;设置分布方法。 影响阴影区域的衰减，
-
-<b>最大距离</b> *浮动*\
-设置光线可传播以被遮挡的最大距离。
-
-<b>扩散角度</b> *浮动*\
-设置要拍摄的光线的扩散角度。 值1表示整个半球。
-
-## 示例图像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![RTAO节点 — 示例1](../../../../../../assets/image2021-6-18-11-7-48.png "RTAO节点 — 示例1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![RTAO节点 — 示例2](../../../../../../assets/image2021-6-18-11-9-0-1.png "RTAO节点 — 示例2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+        </td>
+    </tr>
 </table>

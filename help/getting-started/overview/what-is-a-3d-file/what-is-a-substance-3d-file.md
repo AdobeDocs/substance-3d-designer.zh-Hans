@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: 了解Substance 3D文件格式以及如何存储过程材料和纹理以在应用程序间使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D文件是什么
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 什么是Substance 3D文件？
 
-![参数化砖墙材料](../../../assets/MaterialsOverview.gif "参数化砖墙材料")
+![参数化砖墙材料](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "参数化砖墙材料")
 
 *由Kay Vriend制作的砖墙材料示例。\
 可以更改参数以动态控制素材的外观。*
