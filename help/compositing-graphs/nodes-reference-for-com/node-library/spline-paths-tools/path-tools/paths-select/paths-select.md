@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 路径选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/paths-select-icon.png "节点图标")
+![节点图标](paths-select.resources/paths-select-01.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -39,31 +39,32 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>标签</b> *类型*\
-已编码段路径的列表。 将此输入连接到[路径蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)的结果或连接到另一个路径处理节点。
+## 输入
 
-## 输出连接器
+|  |  |
+|:---|:---|
+| <b>标签</b> <i>类型</i> | 已编码段路径的列表。 将此输入连接到[路径蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)的结果或连接到另一个路径处理节点。 |
 
-<b>路径</b> *颜色*\
-“路径”仅通过一条路径输入。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。
+<a name="outputs"></a>
+
+## 输出
+
+|  |  |
+|:---|:---|
+| <b>路径</b> <i>颜色</i> | “路径”仅通过一条路径输入。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>选择模式</b> *整数*&#x200B;用于选择路径的方法：\
-*— 按ID：*&#x200B;从索引与<b>路径ID</b>中指定的索引匹配的列表中选择路径；\
-*— 按长度：*&#x200B;选择长度大于或小于<b>目标长度</b>中指定的阈值的路径。
-
-<b>路径ID</b> *整数* （在<b>选择模式</b>设置为&#x200B;*按ID*&#x200B;时可用）\
-所选路径的索引。\
-大于<b>路径&#x200B;*中的路径数的值会导致*</b>&#x200B;输出为空。
-
-<b>长度是否大于或小于？</b> *布尔值* （在<b>选择模式</b>设置为&#x200B;*按长度*&#x200B;时可用）\
-控制所选内容的长度应包含还是大于或小于<b>目标长度</b>。
-
-<b>目标长度</b> *浮动*（在<b>选择模式</b>设置为&#x200B;*按长度*&#x200B;时可用）\
-用于选择样条的长度阈值。
+|  |  |
+|:---|:---|
+| <b>选择模式</b> <i>整数</i> | 用于选择路径的方法：<br>*— 按ID：*&#x200B;从索引与<b>路径ID</b>中指定的路径匹配的列表中选择路径；<br>*— 按长度：*&#x200B;选择长度大于或小于<b>目标长度</b>中指定的阈值的路径。 |
+| <b>路径ID</b> <i>整数</i> （在<b>选择模式</b>设置为&#x200B;*按ID*&#x200B;时可用） | 所选路径的索引。<br>大于<b>路径&#x200B;*中路径数的值会导致*</b>&#x200B;输出为空。 |
+| <b>长度是否大于或小于？</b> <i>布尔值</i> （在<b>选择模式</b>设置为&#x200B;*按长度*&#x200B;时可用） | 控制所选内容的长度应包含还是大于或小于<b>目标长度</b>。 |
+| <b>目标长度</b> <i>Float</i> （在<b>选择模式</b>设置为&#x200B;*按长度*&#x200B;时可用） | 用于选择样条的长度阈值。 |
 
 ## 示例
 
@@ -74,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
       <br><i>之后</i>
     </td>
   </tr>
@@ -90,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
       <br><i>之后</i>
     </td>
   </tr>

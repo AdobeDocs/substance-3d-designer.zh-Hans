@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR电介质F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '112'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0-01.png){width="128px"}
 
-## PBR电介质F0
-
-**在：** *材质滤镜/PBR实用工具*
-
-**简单**
+<b>进入：</b>材质过滤器> PBR实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,18 +37,16 @@ ht-degree: 1%
 
 有助于快速获取正确的值作为起点，因此可避免从图表中进行拾色。
 
-## 参数
-
-* **SpecularF0**：*塑料、木材、石材、砖、沙子、混凝土、织物、生锈金属、水、冰、玻璃、自定义IOR*&#x200B;挑选预定义的Specular范围。
-* **Specular范围**： *0.01 - 1.0*&#x200B;在所选预设范围内调整Specular值。 允许进行一些调整。
-* **IOR**： *1.0 - 5.0*&#x200B;仅在设置为“自定义IOR”时启用。 选择您自己的值。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>SpecularF0</b> <i>塑料，木材，石头，砖块，沙子，混凝土，织物，生锈的金属，水，冰，玻璃，定制IOR</i> | 选择预定义的Specular范围。 |
+| <b>Specular范围</b> <i>0.01 - 1.0</i> | 在选定预设范围内调整Specular。 允许进行一些调整。 |
+| <b>IOR</b> <i>1.0 - 5.0</i> | 仅在设置为“自定义IOR”时启用。 选择您自己的值。 |

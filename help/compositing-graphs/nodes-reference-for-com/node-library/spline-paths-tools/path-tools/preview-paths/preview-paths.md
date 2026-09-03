@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 预览路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/preview-paths-icon.png "节点图标")
+![节点图标](preview-paths.resources/preview-paths-01.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -41,24 +41,24 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>背景</b> *颜色*\
-顶部有显示路径的背景图像。 这还可以控制渲染大小。
+## 输入
 
-<b>路径</b> *颜色*\
-已编码段路径的列表。 将此输入连接到[路径蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)的结果或连接到另一个路径处理节点。
+|  |  |
+|:---|:---|
+| <b>背景</b> <i>颜色</i> | 顶部有显示路径的背景图像。 这还可以控制渲染大小。 |
+| <b>路径</b> <i>颜色</i> | 已编码段路径的列表。 将此输入连接到[路径蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)的结果或连接到另一个路径处理节点。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>显示转角</b> *布尔值*\
-在每个顶点上显示一个标记为“拐角”（叠加混合）的正方形。
-
-<b>显示顶点</b> *布尔值*\
-在每个顶点上显示圆形形状（叠加混合）。 角仍显示为正方形。
-
-<b>段Thickness(px)</b> *浮动*\
-调整渲染段的Thickness（以像素为单位）。
+|  |  |
+|:---|:---|
+| <b>显示转角</b> <i>布尔值</i> | 在每个顶点上显示一个标记为“拐角”（叠加混合）的正方形。 |
+| <b>显示顶点</b> <i>布尔值</i> | 在每个顶点上显示圆形形状（叠加混合）。 角仍显示为正方形。 |
+| <b>段Thickness(px)</b> <i>浮动</i> | 调整渲染段的Thickness（以像素为单位）。 |
 
 ## 示例
 
@@ -66,12 +66,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "节点示例1")
+![节点示例1](preview-paths.resources/preview-paths-02.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "节点示例2")
+![节点示例2](preview-paths.resources/preview-paths-03.jpg "节点示例2")
 
 </td>
 </tr>

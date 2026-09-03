@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dust.png){width="128px"}
+![](dust.resources/dust-01.png){width="128px"}
 
-## Dust
-
-**英寸：** *基于网格的生成器**/蒙版生成器*
-
-**中级**
+<b>在</b>中基于网格的生成器>蒙版生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,33 +37,39 @@ ht-degree: 1%
 
 此蒙版表示在遮蔽的降低区域中以及仅在面部朝上的区域中积累的Dust。 需要正确的烘焙原子氧和世界空间法线才能工作。
 
-## 参数
-
-### 输入
-
-* **环境遮蔽**： *灰度输入*\
-  用于Dust放置的已烘焙贴图。 必填！
-* **正常世界空间**： *颜色输入*\
-  用于Dust放置的已烘焙贴图。 必填！
-* **杂色**：*灰度输入*\
-  自定义Dust映射（可选），仅在“覆盖杂色”设置为True时出现。
-* **蒙版（可选）**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。
-
-### 参数
-
-* **级别**： *0.0 - 1.0*\
-  设置Dust的总量。
-* **对比度**： *0.0 - 1.0*\
-  调整Dust的对比度。
-* **遮蔽量**： *0.0 - 1.0*&#x200B;设置AO的影响；被遮挡区域将出现更多Dust。
-* **杂色不透明度**： *0.0 - 1.0*&#x200B;设置灰尘区域中可见的杂色量。
-* **覆盖杂色**： *False/True*&#x200B;设置为使用自定义Dust映射输入。
-
-## 示例图像
-
-![](../../../../../../assets/dust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>环境遮蔽</b> <i>灰度输入</i> | 用于Dust放置的已烘焙贴图。 必填！ |
+| <b>世界空间正常</b> <i>颜色输入</i> | 用于Dust放置的已烘焙贴图。 必填！ |
+| <b>杂色</b> <i>灰度输入</i> | 自定义Dust映射（可选），仅在“覆盖杂色”设置为True时出现。 |
+| <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>级别</b> <i>0.0 - 1.0</i> | 设置Dust的总量。 |
+| <b>对比度</b> <i>0.0 - 1.0</i> | 调整Dust的对比度。 |
+| <b>遮蔽数量</b> <i>0.0 - 1.0</i> | 设置AO的影响；被遮挡区域将出现更多Dust。 |
+| <b>噪声不透明度</b> <i>0.0 - 1.0</i> | 设置灰尘区域中可见的噪声量。 |
+| <b>覆盖噪声</b> <i>False/True</i> | 设置为使用自定义Dust映射输入。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dust.resources/dust-02.gif" />
+        </td>
+    </tr>
 </table>

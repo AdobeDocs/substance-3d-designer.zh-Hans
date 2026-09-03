@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 创建调色板(16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](../../../../../../assets/CreateColorPalette16.png "量化颜色图标"){width="200px"}
+![量化颜色图标](create-color-palette-16.resources/create-color-palette-16-01.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -43,44 +43,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>调色板</b> *颜色*&#x200B;主要 | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。   此输入是可选的。 如果使用，则节点设置的颜色将附加到此调色板中。   可以使用[查看调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)节点来可视化调色板。 |
-| <b>调色板颜色量</b> *整数* | 调色板中存储的颜色量。   如果该数值与“调色板”图像输入中实际颜色量不匹配，则可视化可能是不完整的，或者具有的空白槽比绝对必需的多。 |
+|:---|:---|
+| <b>调色板</b> <i>颜色</i>主要 | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。   此输入是可选的。 如果使用，则节点设置的颜色将附加到此调色板中。   可以使用[查看调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)节点来可视化调色板。 |
+| <b>调色板颜色量</b> <i>整数</i> | 调色板中存储的颜色量。   如果该数值与“调色板”图像输入中实际颜色量不匹配，则可视化可能是不完整的，或者具有的空白槽比绝对必需的多。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>调色板</b> *颜色* | 追加了指定颜色的更新调色板。 |
-| <b>调色板颜色量</b> *整数* | 组件面板中存储的颜色的更新量，以及添加到组件面板中的指定颜色量。 |
+|:---|:---|
+| <b>调色板</b> <i>颜色</i> | 追加了指定颜色的更新调色板。 |
+| <b>调色板颜色量</b> <i>整数</i> | 组件面板中存储的颜色的更新量，以及添加到组件面板中的指定颜色量。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>颜色量</b> *整数* | 应添加到调色板的颜色量。 |
 | <b>颜色#</b> *浮点3* *可用参数数量与“颜色量”值相同* | 应添加到调色板中的颜色。   颜色会按照此编号列表的顺序附加到调色板。 |
 
@@ -90,15 +76,15 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![创建调色板：示例1](../../../../../../assets/create_color_palette_example_1.png "创建调色板：示例1"){zoomable="yes"}
+![创建调色板：示例1](create-color-palette-16.resources/create-color-palette-16-02.png "创建调色板：示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![创建调色板：示例2](../../../../../../assets/create_color_palette_example_2.png "创建调色板：示例2"){zoomable="yes"}
+![创建调色板：示例2](create-color-palette-16.resources/create-color-palette-16-03.png "创建调色板：示例2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![创建调色板：示例3](../../../../../../assets/create_color_palette_example_3.png "创建调色板：示例3"){zoomable="yes"}
+![创建调色板：示例3](create-color-palette-16.resources/create-color-palette-16-04.png "创建调色板：示例3"){zoomable="yes"}

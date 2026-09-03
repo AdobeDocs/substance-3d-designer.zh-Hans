@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,37 +24,37 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 *发行日期：2025年12月11日*
 
-![Designer 15.1横幅](../../assets/bannerweb.png)
+![Designer 15.1横幅](version-15-1.resources/version-15-1-01.png)
 
 ## 改进图表创建
 
 在此版本中，[图形创建窗口](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)已<b>进行了全面重新设计</b>，以增强Substance 3D Designer中的初始用户体验。 此更新的主要目标是简化模板选择流程，从而允许用户高效地确定最适合其需求的模板。
 
-缩略图可为预期的材料类型提供即时<b>视觉参考</b>，而详细的工具提示则提供所有相关信息。 为了更好地进行整理，模板现在被分类为特定的<b>类别</b>，例如材料、过滤器和扫描处理。
+缩略图提供了针对预期素材类型的即时<b>视觉参考</b>，而详细的工具提示提供了所有相关信息。 为了改进组织，模板现在被分类为特定<b>类别</b>，例如材料、过滤器和扫描处理。
 
 尽管主界面已升级，但用户仍可访问以前的视图，包括列表、包和目录选项。
 
 [了解详情](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![重新设计新图形窗口](../../assets/newgraph.png){zoomable="yes"}
+![重新设计新图形窗口](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## 嵌入样本
 
-在启动重新设计的图形创建窗口后，我们直接在软件中添加了各种[<b>示例材料</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)。 此增强功能用于响应您有关更好地访问学习资源的请求。
+随着我们重新设计的图表创建窗口的启动，我们直接在软件中添加了各种[<b>示例素材</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)。 此增强功能用于响应您有关更好地访问学习资源的请求。
 
-![样本的新图形创建窗口](../../assets/GraphSample.png){zoomable="yes"}
+![新的示例图形创建窗口](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
-为了满足这一需求，我们推出了材料样品，如织物（包括皮革和缎面）、木材、金属、塑料、陶瓷等。 这些示例旨在帮助您轻松启动项目并熟悉Substance 3D Designer中可用的主要系列节点
+为了满足这一需求，我们使用了织物（包括皮革和缎面）、木材、金属、塑料、陶瓷等材料样本。 这些示例旨在帮助您轻松启动项目并熟悉Substance 3D Designer中可用的主要系列节点
 
 每个图形都带有<b>批注</b>，经过精心组织，并包含最少的节点，使其尽可能易于理解。
 
 您可以在创建新Substance图表时访问“物料抽样”类别中的抽样，也可以使用方便的“转到抽样”按钮直接从主屏幕访问抽样。
 
-除了这些基础材料之外，我们还提供了<b>高级示例</b>来演示如何更有效地使用<b>FX映射和像素处理器</b>功能。
+除了这些基础素材之外，我们还提供了<b>高级示例</b>来演示如何更有效地使用<b>FX映射和像素处理器</b>功能。
 
 [了解详情](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![Substance Designer中的木质样本](../../assets/samplegraph.png){zoomable="yes"}
+![Substance Designer中的木质样本](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## 新增噪声
 
@@ -70,7 +70,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 示例： [细胞1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [云彩2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向划痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [水汽噪声1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![方向无序噪声](../../assets/directionaldisorder.gif){zoomable="yes"}
+![方向无序噪声](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## 节点菜单中的层次结构
 
@@ -82,12 +82,12 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![使用类别1](../../assets/search1-2.png){zoomable="yes"}进行节点搜索
+![使用类别1](version-15-1.resources/version-15-1-06.png){zoomable="yes"}进行节点搜索
 
 </td>
 <td style="border: 0;" valign="top">
 
-![使用类别2](../../assets/search2.png){zoomable="yes"}进行节点搜索
+![使用类别2](version-15-1.resources/version-15-1-07.png){zoomable="yes"}进行节点搜索
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="在默认输出中，缩览图始终是相关的。">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="在默认输出中，缩览图始终是相关的。">
       <br><i>之后</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 [了解详情](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![已定义节点](../../assets/isdefined.png){zoomable="yes"}
+![已定义节点](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
 
 ## 发行说明
 
@@ -207,7 +207,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 * [Bakers]更新“color-generator”参数不适用于“灰度”
 * [内容]路径蒙版：非方形比例失败
 * [内容]PBR 渲染/图标渲染器：Specular瓣功能不正确
-* [内容]样条路径：默认情况下，将“输出大小”设置为“相对于主页”
+* [内容]样条路径：默认情况下，将“输出大小”设置为“相对于父代”
 * [内容]点列表：当数据纹理不是方形时，点的顺序不正确
 * [内容]样条映射器：随机情况下出现1像素线故障
 * [Content]样条映射器：在某些情况下，当Thickness为0时，拉伸的UV
@@ -220,7 +220,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 ### 已知问题
 
-* [烘焙]使用某些特定的NVIDIA驱动程序烘焙时崩溃
+* [Baker]使用某些特定的NVIDIA驱动程序烘焙期间崩溃
 * [3D视图] OpenGL：某些导入的场景可能无法渲染
 * [3D视图]路径跟踪器：在启用镶嵌/位移的情况下更新纹理时，性能缓慢
 * [3D视图]某些颜色素材属性在覆盖时未正确进行颜色管理

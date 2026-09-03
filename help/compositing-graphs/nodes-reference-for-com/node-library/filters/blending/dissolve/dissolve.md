@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 溶解
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 7%
 
 ---
@@ -22,41 +22,38 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dissolve-2.png){width="128px"}
+![](dissolve.resources/dissolve-01.png){width="128px"}
 
-## 溶解
-
-**范围：** *滤镜/混合*
-
-**简单**
+<b>英寸：</b>滤镜>混合
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 将两个输入与白噪声混合作为过渡的蒙版。
 
-## 参数
-
-### 输入
-
-* **前景**： *颜色输入*
-* **背景**： *颜色输入*
-* **蒙版**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。
-
-### 参数
-
-* **不透明度**： *0.0 - 1.0*\
-  在前景和背景之间混合不透明度。
-* **Alpha混合**： *False/True*\
-  切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。
-
-## 示例图像
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>前景</b> <i>颜色输入</i> |  |
+| <b>背景</b> <i>颜色输入</i> |  |
+| <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度。 |
+| <b>Alpha 值混合处理</b> <i>False/True</i> | 切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。 |

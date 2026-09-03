@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 曲率平滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![曲率平滑节点图标](../../../../../../assets/CurvatureSmooth.png "曲率平滑节点图标"){width="200px"}
+![曲率平滑节点图标](curvature-smooth.resources/curvature-smooth-01.png "曲率平滑节点图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -48,44 +48,30 @@ ht-degree: 1%
 >
 > 查看[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)以获得更清晰的版本，或者[曲率Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（如果您需要更多选项）。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>正常</b> *颜色* <b>主要</b> | 描述应该计算曲率的曲面的法线图。 |
+|:---|:---|
+| <b>正常</b> <i>颜色</i> <b>主要</b> | 描述应该计算曲率的曲面的法线图。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>曲率</b> *灰度* | 从输入法线映射计算的曲率映射。   平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。 |
-| <b>凸性</b> *灰度* | 从输入法线映射计算出的凸度映射。   区域越凸起，地图中的区域就越亮。  平坦或凹进区域为黑色。 |
-| <b>凹陷</b> *灰度* | 从输入法线映射计算出的凹面映射。   区域越凹陷，地图中的区域就越亮。  平坦或凸出区域为黑色。 |
+|:---|:---|
+| <b>曲率</b> <i>灰度</i> | 从输入法线映射计算的曲率映射。   平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。 |
+| <b>凸性</b> <i>灰度</i> | 从输入法线映射计算出的凸度映射。   区域越凸起，地图中的区域就越亮。  平坦或凹进区域为黑色。 |
+| <b>凹陷</b> <i>灰度</i> | 从输入法线映射计算出的凹面映射。   区域越凹陷，地图中的区域就越亮。  平坦或凸出区域为黑色。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>正常格式</b> *整数* | 输入法线图的格式。 有效地反转绿色通道。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b> Y轴指向上</li> <li data-preserve-html="true"><b style="">OpenGL：</b> Y轴指向下</li> </ul> |
 
 ## 示例
@@ -93,11 +79,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_smooth_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_smooth_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -107,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例2](../../../../../../assets/curvature_smooth_example_2.jpg "曲率平滑：示例2"){zoomable="yes"}
+![曲率平滑：示例2](curvature-smooth.resources/curvature-smooth-04.jpg "曲率平滑：示例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例3](../../../../../../assets/curvature_smooth_example_3.jpg "曲率平滑：示例3"){zoomable="yes"}
+![曲率平滑：示例3](curvature-smooth.resources/curvature-smooth-05.jpg "曲率平滑：示例3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -121,11 +107,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_smooth_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_smooth_example_4_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -135,12 +121,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例4](../../../../../../assets/curvature_smooth_example_5.jpg "曲率平滑：示例4"){zoomable="yes"}
+![曲率平滑：示例4](curvature-smooth.resources/curvature-smooth-08.jpg "曲率平滑：示例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例5](../../../../../../assets/curvature_smooth_example_6.jpg "曲率平滑：示例5"){zoomable="yes"}
+![曲率平滑：示例5](curvature-smooth.resources/curvature-smooth-09.jpg "曲率平滑：示例5"){zoomable="yes"}
 
 </td>
 </tr>

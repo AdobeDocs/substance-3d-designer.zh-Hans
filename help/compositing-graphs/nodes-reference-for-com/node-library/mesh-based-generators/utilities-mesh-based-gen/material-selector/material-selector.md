@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 材质选择器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '179'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-selector.png){width="128px"}
+![](material-selector.resources/material-selector-01.png){width="128px"}
 
-## 材质选择器
-
-**在：** *基于网格的生成器**/Utilities*
-
-**中级**
+<b>在</b>中基于网格的生成器>实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,27 +37,29 @@ ht-degree: 1%
 
 如果您不想使用[多材质混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)并且更喜欢手动使用蒙版，或者如果您想在其他位置手动使用这些相同的蒙版，这样做将非常方便。
 
-## 参数
-
-* **材质**： 1 - 16\
-  设置为其启用合并的材质数。
-* **启用材质#1-16**： False/True\
-  将颜色混合和组合切换到最终输出蒙版。 可以启用任意多个要组合的颜色。
-* **材质#1-16**： （颜色值）\
-  将转换为黑白的素材颜色的拾色器。
-* **拾色器参数**\
-  修改颜色混合以及将颜色转换为黑白色。
-  * **模糊**： 0.01 - 1.0\
-    与相邻颜色混合的程度。
-  * **填充**： 0.0 - 1.0\
-    过渡的锐度，如对比度。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/matselector-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>材质</b> <i>1 - 16</i> | 设置为其启用合并的材质数。 |
+| <b>启用#1-16</b> <i>False/True</i> | 将颜色混合和组合切换到最终输出蒙版。 可以启用任意多个要组合的颜色。 |
+| <b>#1-16</b> <i>（颜色值）</i> | 将转换为黑白的素材颜色的拾色器。 |
+| <b>拾色器参数</b> | 修改颜色混合以及将颜色转换为黑白色。 |
+| <b>模糊</b> <i>0.01 - 1.0</i> | 与相邻颜色混合的程度。 |
+| <b>填充</b> <i>0.0 - 1.0</i> | 过渡的锐度，如对比度。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="material-selector.resources/material-selector-02.png" />
+        </td>
+    </tr>
 </table>

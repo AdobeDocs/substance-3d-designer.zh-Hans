@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 *发行日期：2023年6月6日*
 
-![使用路径的材质](../../assets/Paths2.png "使用路径的材质")
+![使用路径的材质](version-13-0.resources/version-13-0-01.png "使用路径的材质")
 
 *[Celine Dameron](https://www.artstation.com/cline)*&#x200B;的作品
 
@@ -39,7 +39,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 所有这些节点都将提供许多可能性，而且肯定会有许多创意应用程序。 查看有关[使用路径和样条曲线工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)的部分，了解要了解的重要概念，以便熟悉此工具集。
 
-![使用样条的材质](../../assets/Splines.png "使用样条的材质")
+![使用样条的材质](version-13-0.resources/version-13-0-02.png "使用样条的材质")
 
 *[Louise Melin](https://www.artstation.com/troglodette)*&#x200B;的作品
 
@@ -61,22 +61,22 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条三次](../../assets/SplineCubic-Demo.gif "样条三次")
+![样条三次](version-13-0.resources/version-13-0-03.gif "样条三次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条多边形二次](../../assets/SplinePolyQuadratic-Demo.gif "样条多边形二次")
+![样条多边形二次](version-13-0.resources/version-13-0-04.gif "样条多边形二次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条圆](../../assets/SplineCircle-Demo.gif "样条圆")
+![样条圆](version-13-0.resources/version-13-0-05.gif "样条圆")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条桥列表](../../assets/SplineBridge-List_Demo.gif "样条桥列表")
+![样条桥列表](version-13-0.resources/version-13-0-06.gif "样条桥列表")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条2D变换](../../assets/Spline2DTransform-Demo1.gif "样条2D变换")
+![样条2D变换](version-13-0.resources/version-13-0-07.gif "样条2D变换")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条变形](../../assets/SplineWarp-Demo.gif "样条变形")
+![样条变形](version-13-0.resources/version-13-0-08.gif "样条变形")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条示例Thickness](../../assets/SplineSampleThickness-Demo.gif "样条示例Thickness")
+![样条示例Thickness](version-13-0.resources/version-13-0-09.gif "样条示例Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -119,28 +119,28 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 最后一个类别是基于样条创建最终形状或图案的类别。 您首先想到的是沿样条重复给定的形状：[样条上的散点](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)节点允许您重复此操作，它包含许多参数来完美控制分布（旋转、缩放、偏移、颜色、蒙版等）。
 
-多亏了[样条填充](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>节点，您可以轻松地从闭合样条创建图案。 如果要以高度可控和精确的方式将任何纹理映射到样条上，则可以使用[样条映射器](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)节点！
+多亏了[样条填充](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>节点，您可以轻松地从闭合样条创建图案。 如果要将任何纹理映射到样条上，并且要高度控制和精确地进行映射，则可以使用[样条映射器](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)节点！
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条灰度散点](../../assets/ScatterOnSplineGrayscale-Demo.gif "样条灰度散点")
+![样条灰度散点](version-13-0.resources/version-13-0-10.gif "样条灰度散点")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条填充](../../assets/SplineFill-Demo.gif "样条填充")
+![样条填充](version-13-0.resources/version-13-0-11.gif "样条填充")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条映射器颜色](../../assets/SplineMapperColor-Demo.gif "样条映射器颜色")
+![样条映射器颜色](version-13-0.resources/version-13-0-12.gif "样条映射器颜色")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条流映射器](../../assets/SplineFlowMapper-Demo.gif "样条流映射器")
+![样条流映射器](version-13-0.resources/version-13-0-13.gif "样条流映射器")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![路径蒙版](../../assets/MaskToPaths-Demo2.gif "路径蒙版")
+![路径蒙版](version-13-0.resources/version-13-0-14.gif "路径蒙版")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![路径蒙版2](../../assets/MaskToPaths-Demo1.gif "路径蒙版2")
+![路径蒙版2](version-13-0.resources/version-13-0-15.gif "路径蒙版2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -186,13 +186,13 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 上面列出的所有新节点均基于新Substance 引擎版本，并且它们充分利用了其主要的新功能： <b>循环</b>。
 
-循环只能在[Substance函数图表](../../function-graphs/function-graphs.md)中使用，并且您最有可能在[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)或[值处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)中实现它们。 当然，循环允许您轻松多次重复某个功能，直到满足某一条件为止。 这有助于大幅调亮您的图表，并提高准确性。
+循环只能在[Substance函数图形](../../function-graphs/function-graphs.md)中使用，并且您最有可能在[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)或[值处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)中实现它们。 当然，循环允许您轻松多次重复某个功能，直到满足某一条件为止。 这有助于大幅调亮您的图表，并提高准确性。
 
 此专用的[教程](https://www.youtube.com/watch?v=Ggoy8G90oDI)将帮助您开始使用循环。
 
 Substance 引擎v9还可带来以下改进：
 
-* [渐变映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点的渐变编辑器中的新纯色模式（即完全无插值）
+* [渐变图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点的渐变编辑器中的新纯色模式（即完全无插值）
 * Substance函数图中的Atomic pow()节点
 * 在Sampler节点中添加边框环绕选项（固定到边缘，重复）
 * [变形](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)和[方向变形](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)节点中的最近采样
@@ -205,7 +205,7 @@ Substance 引擎v9还可带来以下改进：
 
 此专用[教程](https://www.adobe.com/go/designer-tutorial-portals)中完整地说明了此新功能。
 
-![门户节点](../../assets/PortalNodeFinal.gif "门户节点")
+![门户节点](version-13-0.resources/version-13-0-16.gif "门户节点")
 
 ## 主屏幕
 
@@ -216,9 +216,9 @@ Substance 引擎v9还可带来以下改进：
 * 学习页面，您可以在其中找到学习资源的链接，例如向您介绍新功能或发现快速提示的教程；
 * 指向新增功能屏幕、关于屏幕、Substance 3D网站、支持社区论坛等的直接链接。
 
-![主屏幕 — 主页](../../assets/HomeScreen.png "主屏幕 — 主页")
+![主屏幕 — 主页](version-13-0.resources/version-13-0-17.png "主屏幕 — 主页")
 
-![主屏幕 — 学习](../../assets/LearnPage.png "主屏幕 — 学习")
+![主屏幕 — 学习](version-13-0.resources/version-13-0-18.png "主屏幕 — 学习")
 
 ## 新语言
 
@@ -303,10 +303,10 @@ Substance 引擎v9还可带来以下改进：
 * [内容] 3D Voronoi和3D Voronoi Fractal节点生成烹饪警告
 * [引擎] “强度映射偏移”参数对SSE2引擎中的灰度数据没有影响
 * [Explorer]可以删除图形i/o
-* [Graph]在实例中使用时忽略位图
+* [图形]在实例中使用时忽略位图
 * [Graph]从节点创建节点时，点节点位置不正确
 * [图表]使用“Enter”键时，“Expose参数”对话框中的焦点不正确
-* [Graph]在上下文编辑中用位图扫描直方图时出现错误结果
+* [图形]在上下文编辑中用位图扫描直方图时出现错误结果
 * [本地化]修复各种剪切问题
 * [参数]删除输入参数时崩溃
 * [Publish]文件夹中的图表被移至已发布包中的根目录

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance图形和MDL材料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 
 通过按压Substance图形节点上的RMB并拖入3D视图，可以将来自Substance图形的单个纹理连接到支持纹理采样的任何MDL材料参数，而不管标识符如何。 此时会显示可用采样器用法的列表，您可以为所选纹理选择目标用法。
 
-![公开的MDL图形输入](../../assets/mdl-graph-inputs-samplers.png "公开的MDL图形输入")
+![公开的MDL图形输入](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "公开的MDL图形输入")
 
 *Substance图形输出的纹理连接到3D视图中MDL图形的公开参数*
 
@@ -48,7 +48,7 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 通过将Substance图形实例从<b>资源管理器</b>面板拖动到MDL图形中，可将它们直接放入MDL图形中。 在MDL图中使用来自<b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源文件</b> (SBSAR)的Substance图。
 
 +++从Substance 3D文件(SBS)Substance图形
-![在MDL图形中从SBS文件Substance图形](../../assets/mdl-sbs-instance-hl.png "在MDL图形中从SBS文件Substance图形")
+![在MDL图形中从SBS文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "在MDL图形中从SBS文件Substance图形")
 
 
 
@@ -57,7 +57,7 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 +++
 
 +++从Substance 3D资源(SBSAR)Substance图表
-![在MDL图表中从SBSAR文件Substance图形](../../assets/mdl-sbsar-instance-hl.png "在MDL图表中从SBSAR文件Substance图形")
+![在MDL图表中从SBSAR文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "在MDL图表中从SBSAR文件Substance图形")
 
 
 
@@ -65,33 +65,33 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 
 +++
 
-创建Substance图形实例时，它显示为具有以下功能的&#x200B;*节点*：
+创建图形实例后，它显示为具有以下功能的&#x200B;*节点*：
 
-* 图形的每个输出都有一个&#x200B;*类型的输出*&#x200B;连接器。 输出数据的类型如下：
+* 每个图形输出的&#x200B;*类型化输出*&#x200B;连接器。 输出数据的类型如下：
   * RGBA位图：颜色（变化）
-  * 灰度位图：浮动（变化）
+  * 灰度位图：Float（变化）
   * 值：匹配值类型（变量）
-* UV坐标类型的&#x200B;*输入*，用于指定应用于映射Substance图形输出的纹理的UV坐标。 如果未连接，则默认值为UV空间中X和Y的经典0-1线性渐变
-* 节点在Substance图形标签（如果未定义标签，则为标识符）之后被&#x200B;*标记为*，其第一个位图输出为缩略图
+* 类型为UV坐标的&#x200B;*输入*，用于指定UV坐标，此坐标应该用于映射Substance图形输出的纹理。 如果未连接，则默认值为UV空间中X和Y的经典的0-1线性渐变
+* 节点在图形标签之后被&#x200B;*标记为*，如果未定义标签，则标记为标识符，其第一个位图输出为缩略图
 
-通过节点属性，您可以修改Substance图形的&#x200B;*所有动态属性*：
+使用node属性可以修改图形的&#x200B;*所有动态属性*：
 
 * 输出大小
 * 随机种子
 * 输入参数
 * …
 
-节点属性还允许您设置特定于MDL素材中纹理&#x200B;*映射*&#x200B;方式的参数：
+通过节点属性，还可以设置特定于MDL 材质中纹理&#x200B;*映射*&#x200B;方式的参数：
 
 * 平铺
 * 使用物理尺寸
 * 法线贴图格式
 * 切线空间
 
-Substance图实例节点的输出可以连接到MDL图中匹配类型的任何节点输入。
+图形实例节点的输出可以连接到MDL 图中匹配类型的任何节点输入。
 
-请注意，更改<b>SBS基本参数</b>部分中的任何参数涉及重新计算一个或多个Substance图形输出，该输出使用<b>Substance引擎</b>，并且在MDL图形计算上涉及&#x200B;*性能开销*。 在&#x200B;*修改Substance图形*&#x200B;时（该图形实例化在3D视图中应用的MDL图形中），预计会影响性能。
+请注意，更改<b>SBS基本参数</b>部分中的任何参数涉及重新计算一个或多个Substance图形输出，该参数使用<b>Substance引擎</b>，并且涉及MDL 图计算上的&#x200B;*性能开销*。 在&#x200B;*修改在3D视图中应用的MDL 图中实例化的Substance图形*&#x200B;时，预计会影响性能。
 
 >[!WARNING]
 >
-> 在MDL图形中使用Substance图形时，导出MDL图形涉及将Substance图形输出烘焙为位图，这些位图将导出为与导出的MDL文件捆绑在一起的纹理。 这意味着Substance图形的参数性质在导出的MDL文件中&#x200B;*丢失*。
+> 在MDL 图中使用Substance图形时，导出MDL 图涉及将Substance图形输出烘焙到位图中，这些位图将导出为与导出的MDL文件绑定的纹理。 这意味着图形的参数性质在导出的MDL文件中&#x200B;*丢失*。

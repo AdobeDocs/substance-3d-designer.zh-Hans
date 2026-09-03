@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -22,113 +22,73 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3d-voronoi-01.png){width="200px"}
 
-**位置：** *纹理生成器* */杂色*
-
-**中级**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-**3D Voronoi**&#x200B;节点基于&#x200B;**位置映射**&#x200B;输入在3D空间中生成Voronoi噪声。
+<b>3D Voronoi</b>节点基于<b>位置映射</b>输入在3D空间中生成Voronoi噪声。
 
 此节点可以使用[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)作为输入而不是实际已烘焙贴图进行测试（如下面的示例图像所示）。
-
->[!WARNING]
->
-> 此噪声仅适用于&#x200B;*GPU引擎*（即&#x200B;**Direct3D**&#x200B;或&#x200B;**OpenGL**）。 转到&#x200B;**工具>切换引擎……**&#x200B;或按&#x200B;**F9**&#x200B;键以选择所需的引擎。
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> 此噪声仅适用于<i>GPU引擎</i>（即<b>Direct3D</b>或<b>OpenGL</b>）。 转到<b>工具>切换引擎……</b>或按<b>F9</b>键以选择所需的引擎。
+
+<a name="parameters"></a>
+
 ## 参数
 
-* **反转** *布尔值*\
-  反转输出图像。
-* **缩放** *浮动*\
-  控制3D Voronoi噪声的大小。\
-  *注意*：在&#x200B;*任意轴*&#x200B;上启用&#x200B;**拼贴**&#x200B;时，缩放调整为&#x200B;*步进*。 这是预期的。
-* **大小** *浮点3*\
-  控制&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;轴中的3D Voronoi噪声的大小。 非均匀值导致&#x200B;*拉伸或挤压*&#x200B;效果。\
-  *注意*：在&#x200B;*任意轴*&#x200B;上启用&#x200B;**拼贴**&#x200B;时，大小调整为&#x200B;*步进*。 这是预期的。
-* **偏移** *浮点3*\
-  将偏移应用于&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;轴中3D Voronoi噪声的&#x200B;*位置*。
-* **无序** *浮动3*\
-  应用于&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;轴中每个噪声点的&#x200B;*随机偏移*&#x200B;的强度。
-* **扭曲强度** *浮动*\
-  控制应用于3D Voronoi噪声的&#x200B;*变形效果*&#x200B;的强度。
-* **扭曲缩放乘数** *浮点*\
-  控制变形效果中使用的&#x200B;*变形图案*&#x200B;的比例，该比例由&#x200B;**扭曲强度**&#x200B;控制。
-* **圆角曲线** *浮动*\
-  围绕杂色的每个点对&#x200B;*斜率*&#x200B;进行圆化，使其变为&#x200B;*凸形*。\
-  *注意* ：当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数不可用。
-* **距离刻度** *浮动*\
-  调整渐变&#x200B;*在每个噪声点周围的*&#x200B;距离。
-* **距离模式** *整数*\
-  将方法设置为&#x200B;*计算噪声每个点周围的距离渐变*：
-  * *欧几里德*
-  * *曼哈顿*
-  * *切比雪夫*
-  * *Minkowski*
-* **闵可夫斯基数值** *浮动*\
-  Minkowski距离的顺序&#x200B;*p*。 如果将距离渐变划分为几个象限，则此数值将对这些象限产生如下影响：
-  * p是&#x200B;*刚好* 1：直线
-  * p比1：凹形小&#x200B;**
-  * p是&#x200B;*大于*&#x200B;的1：凸的\
-    有趣的值：\
-    *- 1.0*：曼哈顿距离\
-    *- 2.0*：欧氏距离\
-    *— 无限*：切比雪夫距离\
-    *注意*：仅当&#x200B;**Distance Mode**&#x200B;参数设置为&#x200B;*Minkowski*&#x200B;时，此参数才可用。
-* **样式** *整数*&#x200B;设置3D Voronoi噪声的数据渲染&#x200B;*方法，考虑噪声基于3D空间中的一组点：*
-  * *F1*：到3D空间中&#x200B;*最近点*&#x200B;的距离
-  * *F2*：到3D空间中&#x200B;*第二个最接近点*&#x200B;的距离
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-*&#x200B;边缘&#x200B;*：3D空间中每个单元之间的*&#x200B;边缘*
-  * *随机颜色*：为3D空间中的每个噪点单元分配&#x200B;*随机平面颜色*
-* **边缘Thickness***浮动*&#x200B;调整3D Voronoi噪声的单元格之间检测到的边缘的Thickness。 在X、Y和Z轴检测边缘，因此某些厚度可能比其他厚度增加得更快，这取决于单元的&#x200B;*深度*。\
-  *注意*：仅当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数才可用。
-* **启用拼贴** *布尔值*\
-  调整3D Voronoi噪声，使其生成的图案在X、Y和Z轴上&#x200B;*重复*。
+|  |  |
+|:---|:---|
+| <b>反转</b> <i>布尔值</i> | 反转输出图像。 |
+| <b>缩放</b> <i>浮动</i> | 控制3D Voronoi噪声的比例。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，比例调整为<i>分步</i>。 这是预期的。 |
+| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Voronoi噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，大小调整为<i>步进</i>。 这是预期的。 |
+| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中3D Voronoi噪声的<i>位置</i>。 |
+| <b>无序</b> <i>浮点3</i> | 应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中每个噪声点的<i>随机偏移</i>的强度。 |
+| <b>扭曲强度</b> <i>浮动</i> | 控制应用于3D Voronoi噪声的<i>变形效果</i>的强度。 |
+| <b>扭曲比例乘数</b> <i>浮动</i> | 控制变形效果中使用的<i>变形图案</i>的比例，该比例由<b>扭曲强度</b>控制。 |
+| <b>圆角曲线</b> <i>浮动</i> | 围绕噪声的每个点对<i>斜率</i>进行圆整，使其成为<i>凸形</i>。<br><br><i>注意</i>：当<b>Style</b>参数设置为<i>Edge</i>时，此参数不可用。 |
+| <b>距离刻度</b> <i>浮动</i> | 调整渐变</i>在每个噪声点周围的<i>距离。 |
+| <b>距离模式</b> <i>整数</i> | 将方法设置为<i>计算噪声的每个点周围的距离渐变</i>：<br><br>- <i>欧几里德</i><br>- <i>曼哈顿</i><br>- <i>切比雪夫</i><br>- <i>明科夫斯基</i> |
+| <b>闵可夫斯基数值</b> <i>浮动</i> | Minkowski距离的顺序<i>p</i>。 如果将距离渐变划分为几个象限，则此数值将对这些象限产生如下影响： <br><br>- p是<i>刚好</i> 1：笔直<br>- p是<i>低</i>比1：凹形<br>- p是<i>大</i>比1：凸形<br><br>有趣的值：<br>- <i>1.0</i>：曼哈顿距离<br>- <i>2.0</i>：欧几里德距离<br>- <i>无限远</i>：切比雪夫distance<br><br><i>注意</i>：此参数仅在<b>Distance Mode</b>参数设置为<i>Minkowski</i>时可用。 |
+| <b>样式</b> <i>整数</i> | 设置3D Voronoi噪声的方法<i>渲染数据</i>，考虑到噪声基于3D空间中的一组点：<br><br>- <i>F1</i>：到3D空间中<i>最近点</i>的距离<br>- <i>F2</i>：到3D空间中<i>第二个最近点</i>的距离<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F f1/F2</i><br>- <i>边缘</i>：3D空间中噪声的每个单元格之间的</i>边缘<i>- <i>随机颜色</i>：为3D空间中噪声的每个单元格分配<i>随机平色</i><br> |
+| <b>边缘Thickness</b> <i>浮动</i> | 调整3D Voronoi噪声的细胞之间检测到的边缘的Thickness。 在X、Y和Z轴中检测到边缘，因此某些厚度可能比其他厚度增加得更快，具体取决于单元格的<i>深度</i>。<br><br><i>注意</i>：仅当<b>Style</b>参数设置为<i>Edge</i>时，此参数才可用。 |
+| <b>启用拼贴</b> <i>布尔值</i> | 调整3D Voronoi噪声，使其生成的图案在X、Y和Z轴上<i>重复</i>。 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-04.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3d-voronoi-07.jpg" />
+        </td>
+    </tr>
 </table>

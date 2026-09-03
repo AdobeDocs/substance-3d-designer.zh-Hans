@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 用户界面问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -28,14 +28,14 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![(出错)](../../assets/error.svg)问题**
+**![(出错)](user-interface-issues.resources/error.svg)问题**
 
 用户界面元素太小或太大。
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg)建议的步骤**
+**![(滴答)](user-interface-issues.resources/check.svg)建议的步骤**
 
 Designer从OS *获取用户界面元素*&#x200B;的特定比例。 因此，对用户界面缩放比例的任何调整都应在操作系统的显示设置中完成。
 

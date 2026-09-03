@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 覆盖场景材质
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您的素材可以从头开始构建，也可以使用已[提取到Substance图形](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)中的场景素材的调整版本。
 
-![覆盖场景素材，对其进行微调并将其重置为场景状态](../../assets/tweakOverriddenMaterial.gif "覆盖场景素材，对其进行微调并将其重置为场景状态"){zoomable="yes"}
+![覆盖场景素材，对其进行微调并将其重置为场景状态](overriding-scene-materials.resources/overriding-scene-materials-01.gif "覆盖场景素材，对其进行微调并将其重置为场景状态"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![覆盖材质 — “3D视图”视口中的操作](../../assets/overrideMaterialActionViewport.png "覆盖材质 — “3D视图”视口中的操作"){zoomable="yes"}
+![覆盖材质 — “3D视图”视口中的操作](overriding-scene-materials.resources/overriding-scene-materials-02.png "覆盖材质 — “3D视图”视口中的操作"){zoomable="yes"}
 
 *3D视图视口中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![覆盖素材 — “素材”菜单中的操作](../../assets/overrideMaterialActionMaterials.png "覆盖素材 — “素材”菜单中的操作"){zoomable="yes"}
+![覆盖素材 — “素材”菜单中的操作](overriding-scene-materials.resources/overriding-scene-materials-03.png "覆盖素材 — “素材”菜单中的操作"){zoomable="yes"}
 
 *“材质”菜单中的操作*
 
@@ -97,45 +97,45 @@ ht-degree: 0%
 >
 > <b>AdobeStandardMaterial</b>着色模型在Substance 3D生态系统中受支持，但不是行业标准，因此&#x200B;*可能不受第三方应用程序（如Blender）支持*。
 > 
-> 为实现Substance 3D应用程序外部的最佳互操作性，目前建议使用<b>UsdPreviewSurface</b>着色模型，即使该模型支持的素材属性和效果远不如从前。
+> 为实现Substance 3D应用程序外部的最佳互操作性，目前建议使用<b>UsdPreviewSurface</b>着色模型，即使该模型支持的材料属性和效果少得多。
 
 ## 重置为场景状态
 
-如果需要返回到素材的初始状态，同时保持素材被覆盖并且仍可对其进行编辑，则任何素材副本都可以重置为初始值。
+如果需要恢复到材料的初始状态，同时保持其覆盖状态并且仍可对其进行编辑，则可以将任何材料副本重置为初始值。
 
-如果修改了材质属性值，或应用了图形中的纹理，属性将恢复为初始值或纹理。
+如果修改了材料属性值，或对图形应用了纹理，该属性将恢复为初始值或纹理。
 
-材质可以完全重置，也可以根据属性重置。
+材料可以完全重置，也可以按属性重置。
 
-使用素材子菜单或网格上下文菜单中的“将素材重置为场景状态”动作，完全重置素材。
+使用材料子菜单或网格上下文菜单中的“将材料重置为场景状态”操作可完全重置材料。
 
 该操作可在三个位置找到：
 
 * 打开“材质”菜单并转到所需材质的子菜单
 * 按住场景对象上的Shift + LMB键将其选中，然后单击RMB键以打开上下文菜单
-* 位于素材属性顶部的汉堡菜单
+* 那个材料房顶上的汉堡菜单
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![将素材重置为场景状态 — “3D VIew”视口中的动作](../../assets/resetMaterialToSceneStateActionViewport.png "将素材重置为场景状态 — “3D VIew”视口中的动作"){zoomable="yes"}
+![将材料重置为场景状态 — “3D 视图”视口中的操作](overriding-scene-materials.resources/overriding-scene-materials-04.png "将材料重置为场景状态 — “3D 视图”视口中的操作"){zoomable="yes"}
 
 *3D视图视口中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将素材重置为场景状态 — “素材”菜单中的动作](../../assets/resetMaterialToSceneStateActionMaterials.png "将素材重置为场景状态 — “素材”菜单中的动作"){zoomable="yes"}
+![将材料重置为场景状态 — “材料”菜单中的操作](overriding-scene-materials.resources/overriding-scene-materials-05.png "将材料重置为场景状态 — “材料”菜单中的操作"){zoomable="yes"}
 
 *“材质”菜单中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将素材重置为场景状态 — “属性”停放中的动作](../../assets/resetMaterialToSceneStateActionProps.png "将素材重置为场景状态 — “属性”停放中的动作"){zoomable="yes"}
+![将材料重置为场景状态 — “Properties”停放中的操作](overriding-scene-materials.resources/overriding-scene-materials-06.png "将材料重置为场景状态 — “Properties”停放中的操作"){zoomable="yes"}
 
-*素材属性中的操作*
+*材料属性中的操作*
 
 </td>
 </tr>
@@ -145,14 +145,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-*每个属性*&#x200B;在素材属性中也可以使用该操作，以防您只想重置素材的某些方面。
+如果只想重置材料的某些方面，也可以在材料属性中&#x200B;*每个属性*&#x200B;使用该操作。
 
-打开素材属性的汉堡菜单以查找“重置为默认场景状态”动作。
+打开材料属性的汉堡菜单以查找“重置为默认场景状态”操作。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![重置为场景状态 — 材质属性中的动作](../../assets/resetPropertyToSceneStateAction.png "重置为场景状态 — 材质属性中的动作"){zoomable="yes"}
+![重置为场景状态 — 材料属性中的操作](overriding-scene-materials.resources/overriding-scene-materials-07.png "重置为场景状态 — 材料属性中的操作"){zoomable="yes"}
 
 </td>
 </tr>
@@ -160,16 +160,16 @@ ht-degree: 0%
 
 ## 连接的材质
 
-同样：Designer不会直接改变场景的材质，它会在场景中创建副本，并将网格绑定到该副本而不是原始副本。
+同样：Designer不会直接改变场景的材料，它在场景中创建副本，并将网格绑定到该副本而不是原始文档。
 
-另一方面，Designer在其“材质”菜单中拥有&#x200B;*自己的*&#x200B;单独的材质列表，默认情况下，这些列表与场景的材质列表相匹配。 您可以随时在该列表中添加新材质。
+另一方面，Designer在其“材料”菜单中拥有&#x200B;*自己的*&#x200B;个单独的材料列表，默认与场景的材料列表匹配。 您可以随时在该列表中添加新材料。
 
-这是一组仅在Designer中创作和管理的&#x200B;*其他*&#x200B;数据。 然后，将这些素材&#x200B;*连接到副本*，覆盖场景的原始素材。
+这是一组仅在Designer中创作和管理的&#x200B;*其他*&#x200B;数据。 然后，这些材料&#x200B;*连接到副本*，这将覆盖场景的原始材料。
 
-![覆盖材料 — 数据示意图](../../assets/overridingMaterialsSchematic.png "覆盖材料 — 数据示意图"){zoomable="yes"}
+![覆盖材料 — 数据示意图](overriding-scene-materials.resources/overriding-scene-materials-08.png "覆盖材料 — 数据示意图"){zoomable="yes"}
 
-您可以将“材质”菜单中所列的任何材质连接到Designer在场景中创建的副本：在场景浏览器中单击副本上的RMB并转到“连接材质”子菜单。
+您可以将“材料”菜单中列出的任何材料连接到Designer在场景中创建的副本：在场景浏览器中单击副本上的人民币，然后转到“连接材料”子菜单。
 
-子菜单会列出场景中的所有素材，以及您可能从“素材”菜单手动创建的任何素材。
+子菜单列出了场景中的所有材料以及您可能从“材料”菜单手动创建的任何材料。
 
-![连接材质](../../assets/connectMaterials.gif "连接材质"){zoomable="yes"}
+![连接材料](overriding-scene-materials.resources/overriding-scene-materials-09.gif "连接材料"){zoomable="yes"}

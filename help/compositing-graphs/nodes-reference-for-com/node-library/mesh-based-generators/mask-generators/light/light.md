@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 光线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/light-2.png){width="128px"}
+![](light.resources/light-01.png){width="128px"}
 
-## 光线
-
-**英寸：** *基于网格的生成器**/蒙版生成器*
-
-**简单**
+<b>在</b>中基于网格的生成器>蒙版生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,17 +37,27 @@ ht-degree: 3%
 
 此蒙版与其他生成器稍有不同：它完全执行基于世界空间正常映射的假光照，返回黑白“光图”蒙版。
 
-## 参数
-
-* **水平角度**： *0.0 - 1.0*&#x200B;设置假光的水平角度。
-* **垂直角度**： *0.0 - 1.0*&#x200B;设置假光的垂直角度。
-* **高光光泽度**： *0.0 - 0.999*&#x200B;设置高光区域的衰减分布。
-* **高光级别**： *0.0 - 1.0*&#x200B;设置高光区域的亮度级别。
-
-## 示例图像
-
-![](../../../../../../assets/light-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>水平角度</b> <i>0.0 - 1.0</i> | 设置伪光的水平角度。 |
+| <b>垂直角度</b> <i>0.0 - 1.0</i> | 设置伪光的垂直角度。 |
+| <b>高光光泽度</b> <i>0.0 - 0.999</i> | 设置突出显示区域的衰减跨页。 |
+| <b>高光级别</b> <i>0.0 - 1.0</i> | 设置高亮区域的亮度级别。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="light.resources/light-02.gif" />
+        </td>
+    </tr>
 </table>

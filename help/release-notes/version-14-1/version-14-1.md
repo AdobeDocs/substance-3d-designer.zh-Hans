@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *发行日期：2025年1月14日*
 
-![在样条上散点样条](../../assets/fond.png)
+![在样条上散点样条](version-14-1.resources/version-14-1-01.png)
 
 ## 样条和路径更新
 
@@ -34,12 +34,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条动画上的散点样条1](../../assets/spline1.gif){zoomable="yes"}
+![样条动画上的散点样条1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![在样条2](../../assets/spline2.gif){zoomable="yes"}上散点样条
+![在样条2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}上散点样条
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 如果您希望保持干净易读的图表，则[节点对齐工具](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)是为您制作的，并且已经完全改版！ 现在可以均匀地分布节点（水平或垂直），对齐节点通过整齐地栈叠节点可避免任何重叠。 最上面的樱桃：这两种功能都考虑到了节点的实际大小！
 
-![对齐节点](../../assets/alignment.gif){zoomable="yes"}
+![对齐节点](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
 
 ## 复制/粘贴参数
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 2D视图中新的[彩色Sampler工具](../../interface/2d-view/color-sampler/color-sampler.md)可让您通过放置一个图钉来跟踪选定像素的值。 这对于确保您始终跨图形中的多个节点查看同一像素的信息非常有用。 打开“信息”面板以访问该工具，然后试用一下！
 
-![颜色取样器：使用工具](../../assets/color-sampler-demo.gif "颜色取样器：使用工具"){width="640px" zoomable="yes"}
+![颜色取样器：使用工具](version-14-1.resources/version-14-1-05.gif "颜色取样器：使用工具"){width="640px" zoomable="yes"}
 
 ## 搜索改进
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * 启用节点查找器工具时，自动在搜索字段上设置焦点；
 * 重新考虑了工具栏的布局，以节省空间。
 
-![搜索工具栏](../../assets/search-53.png){width="640px"}
+![搜索工具栏](version-14-1.resources/version-14-1-06.png){width="640px"}
 
 ## 视频
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![样条上的视频散点样条](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![样条上的视频散点样条](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![视频用户体验功能](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![视频用户体验功能](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 预乘为直线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiplied-to-straight-01.png){width="128px"}
 
-## 预乘为直线
-
-**范围：** *筛选器/通道*
-
-**简单**
+<b>范围：</b>滤镜>通道
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-从Alpha混合边缘的RGB中移除预乘颜色。 有效“取消预乘”背景色，但在此过程中会去除Alpha通道。
+从Alpha混合边缘的RGB中移除预乘颜色。 有效“取消预乘”背景色，但在此过程中会去除Alpha 通道。
 
-这样可消除有时在带有Alpha通道的图像边缘出现的条纹效果。
-
-## 参数
-
-*无参数。*
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
+这样可消除有时使用Alpha 通道时在图像边缘出现的条纹效果。
 
 </td>
 </tr>

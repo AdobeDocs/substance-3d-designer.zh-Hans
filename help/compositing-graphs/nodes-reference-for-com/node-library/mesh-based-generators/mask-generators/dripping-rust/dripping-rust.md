@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 滴落铁锈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
 
-## 滴落铁锈
-
-**英寸：** *基于网格的生成器**/蒙版生成器*
-
-**中级**
+<b>在</b>中基于网格的生成器>蒙版生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,32 +37,40 @@ ht-degree: 1%
 
 此蒙版呈现铁锈薄片和斑点，漏洞会不断消失。
 
-## 参数
-
-### 输入
-
-* **曲率**： *灰度输入*\
-  生成或烘焙的地图以帮助铁锈放置。
-* **环境遮蔽**： *灰度输入*\
-  生成或烘焙的地图以帮助铁锈放置。
-* **位置**： *灰度输入*\
-  已生成或已生成的滴落方向图。
-* **蒙版（可选）**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。
-
-### 参数
-
-* **铁锈分配**： *0.0 - 1.0*&#x200B;铁锈量的主控件。
-* **铁锈对比度**： *0.0 - 1.0*&#x200B;设置生成的铁锈杂点中的对比度数量（不影响滴落）。
-* **分摊Smoothness**： *0.0 - 1.0*&#x200B;要应用于铁锈杂色的模糊/涂抹效果量。
-* **滴漏强度**： *0.0 - 1.0*&#x200B;设置斑点滴漏的强度和长度。
-* **滴落Smoothness**： *0.0 - 1.0*&#x200B;应用于滴落的模糊和平滑量。
-* **滴样量**： *0 - 32*&#x200B;设置滴落效果的质量级别（步骤）。 对速度略有影响。
-
-## 示例图像
-
-![](../../../../../../assets/dripping-rust-ex3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰度输入</i> | 生成或烘焙的地图以帮助铁锈放置。 |
+| <b>环境遮蔽</b> <i>灰度输入</i> | 生成或烘焙的地图以帮助铁锈放置。 |
+| <b>位置</b> <i>灰度输入</i> | 已生成或已生成的滴落方向图。 |
+| <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>铁锈分摊</b> <i>0.0 - 1.0</i> | 铁锈量的主控件。 |
+| <b>铁锈对比度</b> <i>0.0 - 1.0</i> | 设置所生成铁锈斑点的对比度（不影响滴落）。 |
+| <b>正在分配Smoothness</b> <i>0.0 - 1.0</i> | 应用于铁锈斑点的模糊/涂抹效果的量。 |
+| <b>液滴强度</b> <i>0.0 - 1.0</i> | 设置斑点滴的强度和长度。 |
+| <b>滴Smoothness</b> <i>0.0 - 1.0</i> | 应用于滴落的模糊和平滑量。 |
+| <b>滴样量</b> <i>0 - 32</i> | 设置滴落效果的质量级别（步骤）。 对速度略有影响。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+        </td>
+    </tr>
 </table>

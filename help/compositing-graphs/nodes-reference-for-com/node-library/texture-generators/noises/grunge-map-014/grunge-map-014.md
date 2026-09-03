@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
 breadcrumb-title: ''
-description: 使用“污渍映射014”节点生成程序污渍纹理，以便向材料添加表面细节和磨损效果。
+description: 使用“污渍映射014”节点生成程序化的污渍纹理，以便向材料添加表面细节和磨损效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 014
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 污渍图014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 8%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-014.png){width="128px"}
+![](grunge-map-014.resources/grunge-map-014-01.png){width="128px"}
 
-## 污渍图014
-
-**在：** *纹理生成器**/杂波*
-
-**简单**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 这将生成一个复杂的组合噪声映射。 作为详细的程序，它可以非常有用，但请记住，这些程序非常消耗性能，因此生成速度较慢。
 
-## 参数
-
-* **余额**： *0.0 - 1.0*
-* **对比度**： *0.0 - 1.0*
-* **反转**： *False/True*
-* **画笔图案**： *0.0 - 1.0*\
-  用作画笔Alpha时，可在边缘周围添加蒙版。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/grungemap-014-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>余额</b> <i>0.0 - 1.0</i> |  |
+| <b>对比度</b> <i>0.0 - 1.0</i> |  |
+| <b>反转</b> <i>False/True</i> |  |
+| <b>画笔图案</b> <i>0.0 - 1.0</i> | 用作画笔Alpha时，可在边缘周围添加蒙版。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-map-014.resources/grunge-map-014-02.gif" />
+        </td>
+    </tr>
 </table>

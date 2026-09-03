@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 烘焙问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](baking-issues.resources/error.svg)问题</b>
 
-当“匹配”选项设置为“按网格名称”时，匹配似乎未应用，或者在所有场景对象中并不一致。
+当“匹配”选项设置为“按网格名称”时，匹配似乎未应用，或者在所有场景对象间未一致应用。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](baking-issues.resources/check.svg)建议的步骤</b>
 
 在Designer 14.1及更低版本中，使用其&#x200B;*父*&#x200B;对象的名称匹配低多边形和高多边形对象 — 在大多数情况下，使用其父级变换。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![场景树中的几何对象及其父对象](../../assets/sceneTree_objectsName.png "场景树中的几何对象及其父对象"){zoomable="yes"}
+![场景树中的几何对象及其父对象](baking-issues.resources/baking-issues-01.png "场景树中的几何对象及其父对象"){zoomable="yes"}
 
 </td>
 </tr>

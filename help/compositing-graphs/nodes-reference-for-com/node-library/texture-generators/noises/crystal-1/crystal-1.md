@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 水晶1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 8%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1-01.png){width="128px"}
 
-## 水晶1
-
-**在：** *纹理生成器**/杂波*
-
-**简单**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 使用稍多一点的angular距离度量生成Worlye Voronoi类型的噪声。 它可用于某些angular和几何目的。
 
-## 参数
-
-* **缩放**： *1 - 256*\
-  设置效果的全局比例。
-* **无序**： *0.0 - 1.0*\
-  对噪声进行相移以引入较小的变化。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/crystal-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>缩放</b> <i>1 - 256</i> | 设置效果的全局比例。 |
+| <b>无序</b> <i>0.0 - 1.0</i> | 对噪声进行相移以引入较小的变化。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-1.resources/crystal-1-02.gif" />
+        </td>
+    </tr>
 </table>

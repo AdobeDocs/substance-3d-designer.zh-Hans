@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 弯曲Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
 
-## 弯曲Sobel
-
-**范围：** *滤镜/效果*
-
-**简单**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,17 +37,25 @@ ht-degree: 1%
 
 此节点对于快速突出显示或调暗某些边缘非常有用。 它与[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)略有不同，因为它可产生更好的质量结果，但仍然清晰且生硬。
 
-## 参数
-
-* **强度**： *0.0 - 1.0*&#x200B;效果的强度，用于调整对比度。
-* **正常类型**： *DirectX，OpenGL*
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>强度</b> <i>0.0 - 1.0</i> | 效果的强度，调整对比度。 |
+| <b>正常类型</b> <i>DirectX， OpenGL</i> |  |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
+        </td>
+    </tr>
 </table>

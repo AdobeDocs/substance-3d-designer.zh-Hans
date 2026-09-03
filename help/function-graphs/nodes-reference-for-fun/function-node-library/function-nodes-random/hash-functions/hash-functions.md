@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Hash函数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![哈希节点：图标](../../../../../assets/hash-icon.png "哈希节点：图标"){width="200px"}
+![哈希节点：图标](hash-functions.resources/hash-functions-01.png "哈希节点：图标"){width="200px"}
 
 <b>In：</b>函数>随机
 
@@ -49,22 +49,22 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>哈希11：</b>浮点→浮点
+<b>哈希11：</b>→Float
 
-<b>哈希14：</b>浮点→浮点4
+<b>哈希14：</b>→Float4
 
-<b>哈希21：</b>浮点2→浮点
+<b>哈希21：</b>Float2 →Float
 
-<b>哈希22：</b>浮点2→浮点2
+<b>哈希22：</b>Float2 →Float2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>哈希24：</b>浮点2→浮点4
+<b>哈希24：</b>Float2 →Float4
 
-<b>Hash31：</b>浮点3→浮点
+<b>Hash31：</b>Float3→Float
 
-<b>哈希32：</b>浮点3→浮点2
+<b>哈希32：</b>Float3→Float2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![哈希14示例](../../../../../assets/hash14-example.png "哈希14示例"){zoomable="yes"}
+![哈希14示例](hash-functions.resources/hash-functions-02.png "哈希14示例"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![哈希32示例](../../../../../assets/hash32-example.png "哈希32示例"){zoomable="yes"}
+![哈希32示例](hash-functions.resources/hash-functions-03.png "哈希32示例"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 素材示例
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 73b37bdd1591868533dfe176d431774c93b83b07
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 素材示例
 
-![材质示例 — 模板卡](../../../assets/materialSamples-cards.png "材质示例 — 模板卡")
+![材质示例 — 模板卡](material-samples.resources/material-samples-01.png "材质示例 — 模板卡")
 
 Designer提供精心挑选的样本图表，这些样本图表横跨各种素材类型，可供您学习和试验。
 
@@ -36,14 +36,14 @@ Designer提供精心挑选的样本图表，这些样本图表横跨各种素材
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 材质示例](../../../assets/newGraphDialog-samples-1.png "新建Substance图形对话框 — 材质示例"){zoomable="yes"}
+![新建Substance图形对话框 — 材质示例](material-samples.resources/material-samples-02.png "新建Substance图形对话框 — 材质示例"){zoomable="yes"}
 
 打开<b>类别</b>组合框并选择<b>材质示例</b>以列出可用的模板。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![材质示例 — 横幅按钮](../../../assets/materialSamples-bannerButton.png "材质示例 — 横幅按钮"){zoomable="yes"}
+![材质示例 — 横幅按钮](material-samples.resources/material-samples-03.png "材质示例 — 横幅按钮"){zoomable="yes"}
 
 您可以使用方便地放置的<b>转到示例</b>按钮，直接转到该对话框中的示例列表
 在<b>主屏幕</b>中。
@@ -62,7 +62,7 @@ Designer提供精心挑选的样本图表，这些样本图表横跨各种素材
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![材质示例 — 模板卡工具提示](../../../assets/newGraphDialog-sampleTooltip.png "材质示例 — 模板卡工具提示"){zoomable="yes"}
+![材质示例 — 模板卡工具提示](material-samples.resources/material-samples-04.png "材质示例 — 模板卡工具提示"){zoomable="yes"}
 
 </td>
 </tr>
@@ -80,8 +80,8 @@ Designer提供精心挑选的样本图表，这些样本图表横跨各种素材
 
 >[!NOTE]
 > 
-> 材质样本使用<code>OpenPBRv1.1</code> 在3D视图中材质模型和查看它们的方式
-> 3D视图中的材质将自动切换到<code>OpenPBR表面</code> 着色器
+> 材料示例使用<code>OpenPBRv1.1</code> 在3D 视图方式中材质模型和查看它们
+> 3D 视图中的材料将自动切换到<code>OpenPBR表面</code> 着色器以便
 > 准确查看样本。
 
-![材质示例 — 图形](../../../assets/materialSamples-graph.png "材质示例 — 图形"){zoomable="yes"}
+![材料示例 — 图形](material-samples.resources/material-samples-05.png "材料示例 — 图形"){zoomable="yes"}

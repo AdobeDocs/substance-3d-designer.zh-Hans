@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 阈值
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,29 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/threshold-2.png){width="200px"}
+![](threshold.resources/threshold-01.png){width="200px"}
 
-## 阈值
-
-**范围：** *滤镜/调整*
-
-**简单**
+<b>英寸：</b>滤镜>调整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 如果输入像素值相对于&#x200B;**阈值**&#x200B;值符合&#x200B;**模式**&#x200B;参数中设置的&#x200B;*比较标准*，则返回白色。\
 类似于[直方图扫描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)，但对比度始终处于最高水平。 用于获得与直方图扫描相似的结果的更精确、更快速的方式。
 
-### 参数
-
-* **阈值**： *0.0 - 1.0*\
-  与输入像素值比较的明亮度值。
-* **模式**：\
-  输入像素值应与&#x200B;**阈值**&#x200B;值比较的条件：
-  * *大于*
-  * *大于或等于*
-  * *下移*
-  * *小于或等于*
-
-## 示例图像
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>阈值</b> <i>0.0 - 1.0</i> | 与输入像素值比较的明亮度值。 |
+| <b>模式</b> | 输入像素值应与&#x200B;**阈值**&#x200B;值比较的条件：<br><br>- *大于*<br>- *大于或等于*<br>- *下*<br>- *下或等于* |

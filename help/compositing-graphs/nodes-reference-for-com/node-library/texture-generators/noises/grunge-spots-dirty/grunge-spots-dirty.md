@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 污渍斑点脏污
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '114'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
+![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
 
-**位置：** *纹理生成器* */杂色*
-
-**简单**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,29 +39,29 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-* **平衡** *浮动*&#x200B;调整暗值和亮值之间的平衡。
-* **对比度** *浮动*&#x200B;调整图像的对比度。
-* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
-* **非正方形扩展***布尔值*&#x200B;启用以非方形比率补偿挤压和拉伸。
-* 高级
-  * **覆盖率** *浮动*&#x200B;调整Dirt的覆盖率。
-  * **缩放** *整数*&#x200B;调整Dirt斑点的缩放。 *较高的*&#x200B;值会产生&#x200B;*更细的*&#x200B;污点。
+|  |  |
+|:---|:---|
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
+| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>高级</b> |  |
+| <b>覆盖率</b> <i>浮动</i> | 调整Dirt的覆盖范围。 |
+| <b>缩放</b> <i>整数</i> | 调整Dirt斑点的比例。 *较高的*&#x200B;值会产生&#x200B;*更细的*&#x200B;污点。 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
+        </td>
+    </tr>
 </table>

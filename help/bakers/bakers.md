@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Designer生成器将基于网格的信息计算到纹理文件中。
+description: 了解如何使用Baker将基于网格的信息计算到纹理文件中。
 helpx_creative_field: ""
 helpx_description: Designer > Bakers
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 烘焙
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68389d2a09ef1db6c14073029efdbfd9d48c83c8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 要了解有关烘焙的更多信息，请参阅[烘焙文档](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)。
+> 要了解有关烘焙的更多信息，请查看[烘焙文档](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)。
 
 <table>
 <tr style="border: 0;">
@@ -35,17 +35,17 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-3D场景资源的上下文菜单中的![“烘焙模式信息”选项](../assets/sd-mesh-right-click.png " 3D场景资源的上下文菜单中的“烘焙模式信息”选项")
+3D场景资源的上下文菜单中的![“烘焙模式信息”选项](bakers.resources/bakers-01.png " 3D场景资源的上下文菜单中的“烘焙模式信息”选项")
 
 </td>
 </tr>
 </table>
 
-![烘焙窗口](../assets/sd-window-overview.png "烘焙窗口")
+![烘焙窗口](bakers.resources/bakers-02.png "烘焙窗口")
 
 ## 概述
 
-烘烤窗分为若干面板，如下所述。
+的烘焙窗口分为几个面板，如下所述。
 
 <table>
 <tr style="border: 0;">
@@ -53,14 +53,14 @@ ht-degree: 0%
 
 ### 要烘焙的元素
 
-此面板控制将使用低多边形网格的哪一部分进行烘焙。
+此面板控制将使用低多边形网格的哪个部分执行烘焙。
 
 它列出了在低多边形网格文件中找到的几何。 缺省情况下，该列表基于在文件中找到的单个材料，但在相关时可将其切换到子网格。 您可以取消选中在烘焙过程中应忽略的元素。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-mesh-selection.png)
+![](bakers.resources/bakers-03.png)
 
 </td>
 </tr>
@@ -72,12 +72,12 @@ ht-degree: 0%
 
 ### 输出
 
-此面板控制烘焙纹理将位于何处。
+此面板用于控制纹理所在的位置。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-output.png)
+![](bakers.resources/bakers-04.png)
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 | *参数* | *描述* |
 | --- | --- |
-| **方法** | 控制烘焙纹理将与Substance包一起存储的方式。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>嵌入</strong> ：烘焙纹理存储在具有特定命名的Substance包旁边的子文件夹中。</li><li data-preserve-html="true"><strong>已链接</strong>（默认） ：烘焙纹理存储在定义的文件夹中，然后引用到Substance包中。</li></ul> |
+| **方法** | 控制烘焙纹理将与Substance包一起存储的方式。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>已嵌入</strong> ：烘焙的纹理存储在具有特定命名的Substance包旁边的子文件夹中。</li><li data-preserve-html="true"><strong>已链接</strong>（默认） ：烘焙纹理存储在定义的文件夹中，然后引用到Substance包中。</li></ul> |
 | **文件夹** | 存储烘焙纹理时的位置。 单击三点式按钮打开一个文件对话框并选择导出文件夹。右侧将显示一个复选标记，指示文件夹是否实际存在。 |
 | **名称** | 烘焙纹理的命名约定。 单击三点式按钮以打开下拉列表并插入其他占位符（品牌名称、自定义、材质、网格）。 |
 | **示例** | 模拟文件名以测试命名约定。 |
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 此面板控制高多边形网格列表和相关设置。 有关详细信息，请参阅[常用参数](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/common-parameters)。
 
-![高清网格](../assets/sd-high.png "高清网格")
+![高清网格](bakers.resources/bakers-05.png "高清网格")
 
 ### 默认值
 
 有关详细信息，请参阅[常用参数](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/common-parameters)。
 
-![默认值](../assets/sd-default-values.png "默认值")
+![默认值](bakers.resources/bakers-06.png "默认值")
 
 ### 面包师渲染列表和设置
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 要了解有关特定参数的详细信息，请参阅： [面包师设置](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/bakers-settings)。
 
-![面包师渲染列表](../assets/sd-baker-list.png "面包师渲染列表")
+![面包师渲染列表](bakers.resources/bakers-07.png "面包师渲染列表")

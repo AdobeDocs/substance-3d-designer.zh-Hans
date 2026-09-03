@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL学习资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 [此系列](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer)是在Designer中发现MDL图表和使用MDL材质的&#x200B;*绝佳起点*。
 
-本教程中介绍的金属透明涂层材料仅通过纹理无法进行定义：它具有&#x200B;*两个单独的Specular高光*，它们具有不同的行为：一个带有斑点的粗糙金属涂层和一个非常平滑的透明顶层。
+本教程涵盖的金属透明涂层材料仅通过纹理无法定义：它具有&#x200B;*两个单独的Specular高光*，它们具有不同的行为：一个带有斑点的较粗糙的金属涂层和一个非常平滑的透明顶层。
 
-“在本课程中，我们将介绍在Substance 3D Designer中创建MDL的基础知识。 我们将重新创建一个基于物理的金属/粗糙度着色器作为MDL，以说明MDL节点和图形的核心概念。 在第二段视频中，我们将介绍如何创建汽车油漆MDL。”
+“在本课程中，我们将介绍在Substance 3D Designer中创建MDL的基础知识。 我们将重新创建一个基于物理的金属/粗糙度着色器作为MDL，以说明MDL节点和图形的核心概念。 在第二段视频中，我们将介绍如何创建汽车绘画MDL。”
 
 </td>
 <td style="border: 0;" valign="top">
@@ -61,16 +61,16 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### MDL孔雀石材料分解
+### MDL孔雀石材料细分
 
-[本文](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)将带您逐步了解&#x200B;*更精致的*&#x200B;素材的制作，这些素材也不能仅通过纹理来实现。 在此，利用MDL图和[Substance图](../../compositing-graphs/substance-compositing-graphs.md)之间的协同效应非常有效地获得了优异的结果。
+[本文](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)将带您逐步了解&#x200B;*更复杂的*&#x200B;材料的制作，这些模板也不能仅通过纹理完成。 在此，MDL 图与[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)之间的协同作用可以非常高效地实现优异的结果。
 
-“在本史诗般的教程中，CD PROJEKT RED的高级环境艺术家[Mark Foreman](https://www.artstation.com/oggyart)击碎了他在Materialize竞赛中获奖的MDL材料！ 您可以在[Substance share](https://share-legacy.substance3d.com/libraries/4043)上下载Mark的材料。”
+“在本史诗般的教程中，[CD PROJEKT RED的高级环境艺术家Mark Foreman](https://www.artstation.com/oggyart)打破了他在‘物质化’竞赛中的优胜MDL 材质！ 您可以在[Substance share](https://share-legacy.substance3d.com/libraries/4043)上下载Mark的材料。
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![MDL孔雀石材质](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![MDL malachite材料](mdl-learning-resources.resources/mdl-learning-resources-01.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *单击图像以访问教程*
 

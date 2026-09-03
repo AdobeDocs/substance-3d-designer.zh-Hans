@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-01.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-02.png){width="128px"}
 
-## Pow（灰度）
-
-**范围：** *滤镜/调整*
-
-**简单**
+<b>英寸：</b>滤镜>调整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,14 +39,24 @@ ht-degree: 4%
 
 重要提示：根据您输入的是颜色还是灰度，确保使用正确的版本！
 
-## 参数
-
-* **指数**： *0.0 - 10.0*&#x200B;为输入供电的指数。
-
-## 示例图像
-
-![](../../../../../../assets/pow.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>指数</b> <i>0.0 - 10.0</i> | 为输入供电的指数。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pow.resources/pow-03.gif" />
+        </td>
+    </tr>
 </table>

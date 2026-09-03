@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -62,11 +62,13 @@ lint/link-check CI失败，或在实时站点上错误地渲染。
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * 支持可选的大小/优化查询参数：
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **替代文本不得包含下划线** — 它们不能正确呈现；
 请改用连字符或空格。
-* 特定于页面的图像位于`<page-name>.resources/`中；共享/应用程序图标
-在`help/assets/`中居住（请参见CLAUDE.md）。
+* 特定于页面的图像位于同级`<page-name>.resources/`文件夹中
+相对引用的`.md`旁边的(例如
+  `<page-name>.resources/image.png`). `help/assets/`是旧版共享
+  文件夹 — 不要在那里添加新图像（请参见CLAUDE.md）。
 
 ## 表
 

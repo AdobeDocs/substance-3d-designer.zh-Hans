@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![原子节点：输入颜色](../../../../assets/comp_inputcolor_1.png "原子节点：输入颜色"){width="200px"}
+![原子节点：输入颜色](input.resources/input-01.png "原子节点：输入颜色"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子节点：输入灰度](../../../../assets/comp_inputgrayscale_1.png "原子节点：输入灰度"){width="200px"}
+![原子节点：输入灰度](input.resources/input-02.png "原子节点：输入灰度"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子节点：输入值](../../../../assets/comp_inputnumeric_1.png "原子节点：输入值"){width="200px"}
+![原子节点：输入值](input.resources/input-03.png "原子节点：输入值"){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Substance图形中的主要输入](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substance图形中的主要输入](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
+> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
 
 ## 集成属性
 

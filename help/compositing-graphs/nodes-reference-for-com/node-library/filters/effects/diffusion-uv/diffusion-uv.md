@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 扩散UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
 
-**范围：** *滤镜/效果*
-
-**中级**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -49,45 +47,40 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 参数
-
-* **迭代**： *0.0 - 64.0*&#x200B;要执行的扩散迭代次数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。\
-  请注意，如果您不寻求数学正确性，则低值会更优秀。
+<a name="inputs"></a>
 
 ## 输入
 
-* **源** *颜色*\
-  UV扩散。 请注意，在此筛选器中以特殊方式处理拼贴（请参阅&#x200B;*描述*）。
-* **蒙版***灰度*&#x200B;扩散蒙版：白色像素在&#x200B;*源*&#x200B;中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。
+|  |  |
+|:---|:---|
+| <b>源</b> <i>颜色</i> | UV扩散。 请注意，在此筛选器中以特殊方式处理拼贴（请参阅<i>描述</i>）。 |
+| <b>蒙版</b> <i>灰度</i> | 漫射蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
 
-## 示例图像
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## 参数
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>迭代</b> <i>0.0 - 64.0</i> | 要执行的迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。<br>请注意，如果您不寻找数学正确性，则低值会很合适，甚至更好。 |
 
-</td>
-<td style="border: 0;" valign="top">
+## 示例
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
+        </td>
+    </tr>
 </table>

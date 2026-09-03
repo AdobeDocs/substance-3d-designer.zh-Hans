@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 迭代节点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 请注意，无论“迭代”参数的设置如何，传递图像始终保持不变。
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/the-iterate-node-01.jpg)

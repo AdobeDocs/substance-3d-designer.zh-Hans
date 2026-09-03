@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
 breadcrumb-title: ''
-description: 使用“纤维2”节点创建具有可自定义属性的高级纤维纹理，以实现织物和材料效果。
+description: 使用Fibre 2节点为结构和材料效果创建具有可自定义属性的高级光纤纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 2
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 纤维2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,38 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fibers-2.png){width="128px"}
+![](fibers-2.resources/fibers-2-01.png){width="128px"}
 
-## 纤维2
-
-**英寸：** *纹理生成器**/Patterns*
-
-**简单**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-简单的布状图案。 可用于网格、布料或其他有机Height和详细图。 另请参阅[纤维1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md)以获取较小的版本。
-
-## 参数
-
-* **拼贴**： *1 - 16*\
-  设置结果应平铺的次数。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/fibers-2-ex.gif)
+简单的布状图案。 可用于网格、布或其他有机Height和细节图。 另请参阅[纤维1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md)以获取较小的版本。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fibers-2.resources/fibers-2-02.gif" />
+        </td>
+    </tr>
 </table>

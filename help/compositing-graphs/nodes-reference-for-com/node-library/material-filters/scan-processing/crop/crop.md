@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-10.png){width="128px"}
+![](crop.resources/crop-01.png){width="128px"}
 
-![](../../../../../../assets/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-02.png){width="128px"}
 
-## 裁剪（灰度）
-
-**在：** *材质筛选器/扫描处理*
-
-**中级**
+<b>在</b>个材质过滤器中>扫描处理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -46,22 +42,18 @@ ht-degree: 1%
 要了解这一点非常重要，因为要轻松使用此节点，您必须充分利用预览与正在编辑的参数节点不同的节点的功能！\
 简而言之，请&#x200B;**双击**&#x200B;用作此节点（未裁剪的原始图像）输入的节点，然后&#x200B;**单击**&#x200B;紧随其后的裁剪节点。 然后，您可以修改裁切小工具以适合要裁切的区域。
 
-## 参数
-
-* **输入大小**： *0 - 8192*&#x200B;输入图像的分辨率和比例。 对于非方形图像非常重要。
-* **背景**： *（颜色值） /（灰度值）*未被“裁剪”覆盖的区域的背景统一值。
-* **变换**： *（变换矩阵）*\
-  旋转和缩放结果。 可以通过与画布直接交互来修改描摹结果。
-* **偏移**： *0.0 - 1.0*\
-  移动或转换结果。 可以通过与画布直接交互来修改描摹结果。
-* **正常（仅适用于颜色版本）**： *False/True*&#x200B;是否应将输入视为正常映射。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>输入大小</b> <i>0 - 8192</i> | 输入图像的分辨率和比例。 对于非方形图像非常重要。 |
+| <b>背景</b> <i>（颜色值）/（灰度值）</i> | “裁剪”未覆盖的区域的背景统一值。 |
+| <b>转换</b> <i>（转换矩阵）</i> | 旋转和缩放结果。 可以通过与画布直接交互来修改描摹结果。 |
+| <b>偏移</b> <i>0.0 - 1.0</i> | 移动或转换结果。 可以通过与画布直接交互来修改描摹结果。 |
+| <b>正常（仅适用于颜色版本）</b> <i>False/True</i> | 是否应将输入视为正常映射。 |

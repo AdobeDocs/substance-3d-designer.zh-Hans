@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
 breadcrumb-title: ''
-description: 使用“制作拼贴照片”节点将照片转换为无缝拼贴纹理，以创建素材。
+description: 使用“制作平铺照片”节点将照片转换为无缝的纹理以创建材料。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 为其拼贴照片
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-01.png)
 
-![](../../../../../../assets/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-02.png)
 
-## 将其拼贴照片（灰度）
-
-**范围：** *筛选器/拼贴*
-
-**中级**
+<b>在</b>个筛选器中>拼贴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-此节点为由于非连续边缘而不可能平铺的任何图像提供了边缘修复功能。 除了输入图像的边缘之外，它不会影响任何其他内容。 如果要以不同的方式调整缩放或平铺，请查看[使其平铺修补](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md)。
-
-## 参数
-
-* **蒙版变形H**： *-100.0 - 100.0*&#x200B;在水平轴上引入变形，以避免未定义的过渡。
-* **蒙版变形V**： *-100.0 - 100.0*&#x200B;在垂直轴上引入变形，以避免未定义的过渡。
-* **蒙版大小H**： *0.0 - 1.0*&#x200B;设置过渡边缘达到的水平距离。
-* **蒙版大小V**： *0.0 - 1.0*&#x200B;设置过渡边缘垂直达到的距离。
-* **蒙版精度H**： *0.0 - 1.0*&#x200B;设置过渡的水平平滑程度。
-* **蒙版精度V**： *0.0 - 1.0*&#x200B;设置过渡的垂直平滑程度。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mit-photo-ex.png" width="300px"/></div> |
-| --- |
-|  |
+此节点为由于非连续边缘而不可能平铺的任何图像提供了边缘修复功能。 它不会影响输入图像边缘之外的任何内容。 如果要以不同的方式调整缩放或平铺，请查看[使其平铺修补](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md)。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>蒙版变形H</b> <i>-100.0 - 100.0</i> | 在水平轴中引入变形，以避免未定义的过渡。 |
+| <b>蒙版变形V</b> <i>-100.0 - 100.0</i> | 在垂直轴上引入变形，以避免未定义的过渡。 |
+| <b>蒙版大小H</b> <i>0.0 - 1.0</i> | 设置过渡边水平到达的距离。 |
+| <b>蒙版大小V</b> <i>0.0 - 1.0</i> | 设置过渡边缘垂直达到的距离。 |
+| <b>蒙版精度H</b> <i>0.0 - 1.0</i> | 设置过渡的水平平滑程度。 |
+| <b>蒙版精度V</b> <i>0.0 - 1.0</i> | 设置过渡的垂直平滑程度。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-photo.resources/make-it-tile-photo-03.png" />
+        </td>
+    </tr>
 </table>

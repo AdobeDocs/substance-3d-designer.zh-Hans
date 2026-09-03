@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 库
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面显示Substance 3D Designer的&#x200B;**库**&#x200B;面板、其布局以及它提供的用于搜索和筛选内容的工具。
 
-![库](../../assets/library-main.png "库")
+![库](the-library.resources/the-library-01.png "库")
 
 ## 概述
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![从库中删除节点](../../assets/library-create-node.gif "从库中删除节点")
+![从库中删除节点](the-library.resources/the-library-02.gif "从库中删除节点")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ ht-degree: 0%
 ### 按名称搜索资源
 
 使用<b>搜索</b>栏（位于<b>内容</b>部分的左上角），可以按名称&#x200B;*搜索*&#x200B;任何资源。 以这种方式搜索内容时，将忽略<b>类别</b>部分中的当前选择，并搜索<b>库</b>中的&#x200B;*整个内容*。\
-您可以使用<b>搜索</b>栏旁边的![](../../assets/library-icon-search-filter.png) <b>筛选依据……</b>图标，按&#x200B;*图形类型*&#x200B;筛选搜索结果。
+您可以使用<b>搜索</b>栏旁边的![](the-library.resources/the-library-03.png) <b>筛选依据……</b>图标，按&#x200B;*图形类型*&#x200B;筛选搜索结果。
 
 >[!NOTE]
 >
 > 搜索栏将考虑您正在查找的资源的名称，但也会考虑资源可包含的&#x200B;*标记*&#x200B;或其所属的&#x200B;*类别*。\
 > 例如，键入“*正常*”将列出可用于生成或修改正常映射的所有资源。 这是发现新节点的好方法，从而发现新的可能性！
 
-![库中资源搜索](../../assets/library-search-2.png "库中资源搜索")
+![库中资源搜索](the-library.resources/the-library-04.png "库中资源搜索")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ ht-degree: 0%
 
 ### 正在可视化库资源
 
-使用![](../../assets/library-icon-view-mode.png) <b>显示模式</b>下拉按钮，您可以选择内容项的显示大小。
+使用![](the-library.resources/the-library-05.png) <b>显示模式</b>下拉按钮，您可以选择内容项的显示大小。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![库资源查看模式](../../assets/library-display-modes.png "库资源查看模式")
+![库资源查看模式](the-library.resources/the-library-06.png "库资源查看模式")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-使用![](../../assets/library-icon-toggle-label.png) **切换标签**&#x200B;按钮可显示或隐藏节点的标签。
+使用![](the-library.resources/the-library-07.png) **切换标签**&#x200B;按钮可显示或隐藏节点的标签。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![标签切换](../../assets/library-toggle-label.png "标签切换")
+![标签切换](the-library.resources/the-library-08.png "标签切换")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![资源信息工具提示](../../assets/library-item-tooltip.png "资源信息工具提示")
+![资源信息工具提示](the-library.resources/the-library-09.png "资源信息工具提示")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ ht-degree: 0%
 
 ### 收藏
 
-您可以使用![](../../assets/library-icon-favoritepng.png) <b>添加到收藏夹</b>按钮，将<b>内容</b>分区中的任何项添加到您的<b>收藏夹</b>列表。 如果已经添加了该内容，该按钮还允许您将内容从此列表中&#x200B;*删除*。\
+您可以使用![](the-library.resources/the-library-10.png) <b>添加到收藏夹</b>按钮，将<b>内容</b>分区中的任何项添加到您的<b>收藏夹</b>列表。 如果已经添加了该内容，该按钮还允许您将内容从此列表中&#x200B;*删除*。\
 将内容添加到此列表后，该内容在<b>库</b>的<b>收藏夹</b>类别中可用，并且在搜索图形中的节点时，该内容将显示在<b>节点</b>菜单列表的&#x200B;*顶部*&#x200B;处（如果搜索词与该节点匹配）。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![库中的收藏夹](../../assets/library-favourites.png "库中的收藏夹")
+![库中的收藏夹](the-library.resources/the-library-11.png "库中的收藏夹")
 
 </td>
 </tr>

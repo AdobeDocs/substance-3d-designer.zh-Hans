@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL图表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面在Substance 3D Designer中显示MDL图表，通过这些图表，您可以创作MDL材质并实时预览其行为。
 
-![孔雀石MDL材料](../assets/mdl-malachite-example.jpg "孔雀石MDL材料")
+![孔雀石MDL材料](mdl-graphs.resources/mdl-graphs-01.jpg "孔雀石MDL材料")
 
 *带有Chrysocolla的Malachite，由[Mark Foreman](https://www.artstation.com/oggyart)**提供的MDL材料，可在我们的[旧版Substance share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台*&#x200B;上使用
 
@@ -62,7 +62,7 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 >
 > 您可以在[NVIDIA MDL文档](https://raytracing-docs.nvidia.com/mdl/index.html)中详细了解材质定义语言的技术实现，该文档包括指向MDL规范和[MDL手册](http://mdlhandbook.com/)的链接，均由NVIDIA编写和维护。
 
-![MDL图形属性](../assets/mdl-main.png "MDL图形属性")
+![MDL图形属性](mdl-graphs.resources/mdl-graphs-02.png "MDL图形属性")
 
 *“属性”面板中的MDL图形属性*
 
@@ -96,7 +96,7 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 * 设置为软范围[0.0,4.0]的<b>Float</b>类型的公开值将显示为范围从0.0到4.0的&#x200B;*单个滑块*
 * <b>颜色</b>类型的公开值将显示为&#x200B;*颜色构件*，其中包括选取渐变和颜色缩略图
 
-要对图形输入重新排序，请将光标放在参数左侧的&#x200B;*深色手柄*&#x200B;上，单击并&#x200B;*按住* <b>LMB</b>并向上或向下拖动光标。 此自定义顺序用于在以下上下文中显示MDL材料的属性：
+要对图形输入重新排序，请将光标放在参数左侧的&#x200B;*深色手柄*&#x200B;上，单击并&#x200B;*按住* <b>LMB</b>并向上或向下拖动光标。 此自定义顺序用于在以下上下文中显示MDL 材质的属性：
 
 * 引用此材料的MDL图表的实例节点
 * [3D视图](../interface/3d-view/3d-view.md)中的材质属性

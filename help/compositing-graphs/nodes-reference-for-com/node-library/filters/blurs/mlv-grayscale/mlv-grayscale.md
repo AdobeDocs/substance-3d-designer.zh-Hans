@@ -10,10 +10,10 @@ helpx_tags: ""
 title: MLV灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV灰度：图标](../../../../../../assets/MLV_Grayscale_Icon.png "MLV灰度：图标")
+![MLV灰度：图标](mlv-grayscale.resources/mlv-grayscale-01.png "MLV灰度：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -45,42 +45,44 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 >
 > 另请参阅[MLV颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md)。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>输入&#x200B;</b>*灰度*&#x200B;应处理的灰度图像。
+## 输入
 
-## 输出连接器
+|  |  |
+|:---|:---|
+| <b>输入</b> <i>灰度</i> | 应处理的灰度图像。 |
 
-<b>输出&#x200B;</b>*灰度*&#x200B;已过滤的灰度图像。
+<a name="outputs"></a>
+
+## 输出
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 已筛选的灰度图像。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>强度</b> *浮动*&#x200B;应用于图像的滤镜强度。\
-值越高，细节和杂色对较平坦区域的平滑程度越高。
-
-<b>Smoothness</b> *浮动*&#x200B;应用于结构区域的平滑强度，这将使区域变圆，并减小在更高滤波强度下可能出现的步进效果。
-
-<b>条件</b> *整数*&#x200B;用于选择定义图像中结构区域的值的条件。\
-换句话说，像素应如何&#x200B;*分组*&#x200B;到应进行平滑处理的区域。\
-*— 方差：*&#x200B;选择在平均值周围具有最低离散度的值，这会导致像素群集彼此相似\
-*— 变异系数：*&#x200B;在考虑到平均值的情况下选择值，这会导致在较亮区域反差较小
-
-<b>高斯</b> *布尔型*&#x200B;使用高斯分布将像素分组到结构区域。\
-如果为“True”，则生成更平滑的区域且减少拼合效果。
-
-<b>迭代</b> *整数*&#x200B;运行筛选器的次数，其中每个迭代应用于前一个迭代的结果。\
-迭代次数越多，构造区域越平坦、越清晰。
+|  |  |
+|:---|:---|
+| <b>强度</b> *浮动* | 应用于图像的筛选的强度。<br><br>值越高，细节的平滑程度越高，平面区域的噪声越平滑。 |
+| <b>Smoothness</b> *浮动* | 应用于结构化区域的平滑强度，这会导致区域变圆并减小在较高的筛选强度下可能出现的步进效果。 |
+| <b>条件</b> *整数* | 用于选择将定义图像中结构区域的值的标准。<br><br>换言之，像素应如何&#x200B;*分组*&#x200B;到应平滑的区域中。<br><br>*— 方差：*&#x200B;选择在平均值周围具有最低色散的值，这将导致像素群集彼此相似&#x200B;<br>*— 变异系数：*&#x200B;在考虑到平均值的情况下选择值，这将导致较亮区域反向变化较小 |
+| <b>高斯</b> *布尔值* | 使用高斯分布将像素分组到结构化区域。<br><br>当值为“True”时，这将使区域更平滑，并减小拼合效果。 |
+| <b>迭代</b> *整数* | 运行筛选器的次数，其中每个迭代都应用于前一个规则的结果。<br><br>更多的迭代会产生更平坦、更锐化的结构区域。 |
 
 ## 示例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="mlv_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="mlv_Variant1A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -89,11 +91,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="mlv_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="mlv_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -102,11 +104,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="mlv_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="mlv_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>之后</i>
     </td>
   </tr>

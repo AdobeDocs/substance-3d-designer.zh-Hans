@@ -10,10 +10,10 @@ helpx_tags: ""
 title: UV映射器灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/uv-mapper-grayscale-icon.png "节点图标")
+![节点图标](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -47,15 +43,22 @@ ht-degree: 1%
 >
 > 另请参阅[UV映射器颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>UV</b> *颜色*&#x200B;以彩色图像的红色(U)和绿色(V)通道编码的图像坐标。
+## 输入
 
-<b>输入</b> *颜色*&#x200B;应映射到UV输入中提供的坐标的灰度图像。
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>颜色</i> | 以彩色图像的红色(U)和绿色(V)通道编码的图像坐标。 |
+| <b>输入</b> <i>颜色</i> | 应映射到UV输入中提供的坐标的灰度图像。 |
 
-## 输出连接器
+<a name="outputs"></a>
 
-<b>输出</b> *颜色*&#x200B;使用输入UV坐标将输入图像映射为灰度图像的结果。
+## 输出
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>颜色</i> | 使用输入UV坐标作为灰度图像映射输入图像的结果。 |
 
 ## 示例
 
@@ -66,11 +69,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -82,11 +85,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -96,18 +99,4 @@ ht-degree: 1%
 </tr>
 </table>
 
-![节点示例1](../../../../../../assets/UVMapper-Graph.jpg "节点示例1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![节点示例1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "节点示例1")

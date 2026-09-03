@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 细胞4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![细胞4 — 图标](../../../../../../assets/cells_4.png "细胞4 — 图标"){width="200px"}
+![细胞4 — 图标](cells-4.resources/cells-4-01.png "细胞4 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -47,53 +43,34 @@ ht-degree: 3%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 输入
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
+<a name="inputs"></a>
 
 ## 输入
 
 |  |  |
-| --- | --- |
-| <b>输入</b> *灰度* |  |
+|:---|:---|
+| <b>输入</b> <i>灰度</i> |  |
+
+<a name="outputs"></a>
 
 ## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *灰度* | 生成的杂色作为灰度位图。 |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
-| <b>缩放</b>整数 | 使用网格细分生成噪声拼贴。    值越高，所绘制的拼贴就越多，噪音也越浓。 |
-| <b>无序</b>浮动 | 替换噪点的成分。    这可用于为噪声设置动画。 |
-| <b>无序速度</b>浮动 | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
-| <b>颜色源</b>整数 | 应用于单元格的单色源：<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>随机：</i></b>使用由节点的随机种子控制的随机颜色</li> <li data-preserve-html="true"><b><i>伪随机：</i></b>使用由单独的用户集值植入的随机颜色</li> <li data-preserve-html="true"><b><i>图像输入：</i></b>使用在输入图像中的单元格位置取样的颜色</li> </ul> |
-| <b>伪随机种子</b>整数&#x200B;*在“颜色源”设置为“伪随机源”时可用* | 允许独立于节点种子更改颜色的种子。 |
-| <b>非方形扩展</b>布尔值 | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
+|:---|:---|
+| <b>缩放</b> <i>整数</i> | 使用网格细分生成噪声拼贴。    值越高，所绘制的拼贴就越多，噪音也越浓。 |
+| <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
+| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
+| <b>颜色源</b> <i>整数</i> | 应用于单元格的单色源：<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>随机：</i></b>使用由节点的随机种子控制的随机颜色</li> <li data-preserve-html="true"><b><i>伪随机：</i></b>使用由单独的用户集值植入的随机颜色</li> <li data-preserve-html="true"><b><i>图像输入：</i></b>使用在输入图像中的单元格位置取样的颜色</li> </ul> |
+| <b>伪随机种子</b> <i>整数</i>   *当“颜色源”设置为“伪随机”时可用* | 允许独立于节点种子更改颜色的种子。 |
+| <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
 
 ## 示例
 
@@ -101,26 +78,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞4 — 示例1](../../../../../../assets/cells_4_1.png "细胞4 — 示例1"){zoomable="yes"}
+![细胞4 — 示例1](cells-4.resources/cells-4-02.png "细胞4 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞4 — 示例2](../../../../../../assets/noise_cells_4_v2_speed0.3_aniso0.6.gif "细胞4 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![细胞4 — 示例2](cells-4.resources/cells-4-03.gif "细胞4 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

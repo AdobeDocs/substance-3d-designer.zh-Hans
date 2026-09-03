@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 马赛克
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-01.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-02.png){width="128px"}
 
-## 马赛克（灰度）
-
-**范围：** *滤镜/效果*
-
-**中级**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,25 +39,34 @@ ht-degree: 3%
 
 这对于为灰度图（如Heightmap）添加更多定义非常有用，因为它可以增加形状的定义。
 
-## 参数
-
-### 输入
-
-* **颜色**： *彩色/灰度输入*
-* **马赛克地图**： *灰度输入*\
-  变形驱动程序映射。 可以与第一个输入项相同。
-
-### 参数
-
-* **取样**： *0 - 16*&#x200B;确定多取样品质。
-* **强度**： *0.0 - 1.0*&#x200B;效果的强度。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>颜色</b> <i>彩色/灰度输入</i> |  |
+| <b>马赛克地图</b> <i>灰度输入</i> | 变形驱动程序映射。 可以与第一个输入项相同。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>示例</b> <i>0 - 16</i> | 确定多样本品质。 |
+| <b>强度</b> <i>0.0 - 1.0</i> | 效果的强度。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaic-03.png" />
+        </td>
+    </tr>
 </table>

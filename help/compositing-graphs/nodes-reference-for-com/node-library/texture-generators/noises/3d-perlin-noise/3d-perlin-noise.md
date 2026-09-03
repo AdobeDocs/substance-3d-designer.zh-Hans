@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D Perlin噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 0%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
@@ -22,72 +22,58 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dperlinnoise.png){width="200px"}
+![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
 
-**在：** *纹理生成器**/杂波*
-
-**中级**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-**3D Perlin噪声**&#x200B;节点基于&#x200B;**位置映射**&#x200B;输入在3D空间中生成Perlin噪声。
+<b>3D Perlin噪声</b>节点基于<b>位置映射</b>输入在3D空间中生成Perlin噪声。
 
 此节点可以使用[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)作为输入而不是实际已烘焙贴图进行测试（如下面的示例图像所示）。
-
->[!WARNING]
->
-> 此噪声仅适用于&#x200B;*GPU引擎*（即&#x200B;**Direct3D**&#x200B;或&#x200B;**OpenGL**）。 转到&#x200B;**工具>切换引擎……**&#x200B;或按&#x200B;**F9**&#x200B;键以选择所需的引擎。
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> 此噪声仅适用于<i>GPU引擎</i>（即<b>Direct3D</b>或<b>OpenGL</b>）。 转到<b>工具>切换引擎……</b>或按<b>F9</b>键以选择所需的引擎。
+
+<a name="parameters"></a>
+
 ## 参数
 
-* **反转** *布尔值*\
-  反转输出图像。
-* **缩放** *浮动*\
-  控制3D Perlin杂色的缩放程度。
-* **大小** *浮点3*\
-  控制&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;轴中的3D Perlin噪声的大小。 非均匀值导致&#x200B;*拉伸或挤压*&#x200B;效果。
-* **偏移** *浮点3*\
-  将偏移应用于&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;轴中3D Perlin噪声的&#x200B;*位置*。
-* **扭曲强度** *浮动*\
-  控制应用于3D Perlin噪声的&#x200B;*变形效果*&#x200B;的强度。
-* **扭曲缩放乘数** *浮点*\
-  控制变形效果中使用的&#x200B;*变形图案*&#x200B;的比例，该比例由&#x200B;**扭曲强度**&#x200B;控制。
-* **基线** *浮动*\
-  将&#x200B;*偏移*&#x200B;应用于3D Perlin杂色值分布的基线&#x200B;*明亮度*&#x200B;值。
-* **对比度** *浮动*\
-  调整3D Perlin杂色的对比度。
-* **绝对** *布尔值*\
-  使用3D Perlin噪声中的绝对值。 这实际上&#x200B;*反转*&#x200B;低于0.5 *的值*&#x200B;的值分布。
-* **启用拼贴** *布尔值*\
-  调整3D Perlin噪声，使其生成的图案&#x200B;*在X、Y和Z轴重复*。
+|  |  |
+|:---|:---|
+| <b>反转</b> <i>布尔值</i> | 反转输出图像。 |
+| <b>缩放</b> <i>Float</i> | 控制3D Perlin噪声的比例。 |
+| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Perlin噪声的大小。 值不一致会产生<i>拉伸或挤压</i>效果。 |
+| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Perlin噪声的<i>位置</i>。 |
+| <b>扭曲强度</b> <i>Float</i> | 控制应用于3D Perlin噪声的<i>变形效果</i>的强度。 |
+| <b>扭曲比例乘数</b> <i>浮动</i> | 控制变形效果中使用的<i>变形图案</i>的比例，该比例由<b>扭曲强度</b>控制。 |
+| <b>基线</b> <i>浮动</i> | 将<i>偏移</i>应用于3D Perlin杂色值分布的基线<i>明亮度</i>值。 |
+| <b>对比度</b> <i>浮动</i> | 调整3D Perlin噪声的对比度。 |
+| <b>绝对</b> <i>布尔值</i> | 使用3D Perlin噪声中的绝对值。 这实际上<i>反转</i>低于0.5</i>的值<i>的值分布。 |
+| <b>启用拼贴</b> <i>布尔值</i> | 调整3D Perlin噪声，使其生成的图案<i>在X、Y和Z轴中重复</i>。 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlin.gif){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoise-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoise-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
+        </td>
+    </tr>
 </table>

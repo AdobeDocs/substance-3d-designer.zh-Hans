@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Designer中导入和使用AxF外观交换格式资源进行材质导入。
+description: 了解如何在Substance 3D Designer中导入和使用AxF外观交换格式资源以导入材料。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF（外观交换格式）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,47 +24,47 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxF文件图标](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
+[![AxF 文件图标](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-01.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Substance 3D Designer支持[X-Rite的外观交换格式。](https://www.xrite.com/axf) 该格式的创建者按如下方式描述它：
 
-“AxF文件在整个数字设计工作流程中用于捕获、存储、编辑和传达复杂的材料特性。 AxF提供了一种标准方式来存储和共享所有相关外观数据 — 颜色、纹理、光泽、折射、半透明、特效（火花）和反射属性 — 跨产品生命周期管理(PLM)、计算机辅助设计(CAD)和一流的渲染应用程序。
+“AxF 文件用于在整个数字设计工作流程中捕捉、存储、编辑和传达复杂的材料特征。 AxF提供了一种标准方法，用于在产品生命周期管理(PLM)、计算机辅助设计(CAD)以及最先进的渲染应用程序中，存储和共享所有相关外观数据 — 颜色、纹理、光泽、折射、translucency、特效（火花）和反射属性。
 
 </td>
 </tr>
 </table>
 
-简而言之， AxF文件包含许多由X-Rite的TAC7扫描仪硬件提取的纹理，再加上描述材料附加属性的元数据。 这意味着AxF不仅仅是纹理数据，它还具有着色属性。
+简单地说，AxF 文件包含许多由X-Rite的TAC7扫描仪硬件提取的纹理，以及描述材料附加特性的元数据。 这意味着AxF不仅仅是纹理数据，它还具有着色属性。
 
-AxF文件&#x200B;*未*&#x200B;作为包[资源](../../resources/resources.md)导入。 相反，[导入过程](#import)涉及从AxF文件中提取纹理和元数据，然后使用这些纹理和元数据准备从[专用模板](#graph-templates)创建的图形。
+*未*&#x200B;将AxF 文件作为包[资源](../../resources/resources.md)导入。 相反，[导入过程](#import)涉及从AxF 文件提取纹理和元数据，然后使用这些模板来准备从[专用图形](#graph-templates)创建的模板。
 
 可用的模板针对两个AxF工作流：
 
-* <b>将AxF文件中的SVBRDF素材转换为PBR素材</b>；
-* <b>正在就地编辑</b>SVBRDF素材，并[将其](#export)导出为现有AxF文件作为新图层。
+* <b>将AxF 文件中的SVBRDF材料</b>转换为PBR材料；
+* <b>正在就地编辑</b>材料，并[将其](#export)导出为现有AxF 文件作为新图层。
 
 >[!NOTE]
 >
 > 支持的材质模型
 > 
-> 只有使用<b>SVBRDF</b>（空间变化BRDF）模型的素材才能&#x200B;*完全*&#x200B;加载并在Designer中编辑。
+> 在Designer中，只能对使用<b>SVBRDF</b>（空间变化BRDF）模型的材料&#x200B;*完全*&#x200B;加载和编辑。
 > 
-> 可以加载使用<b>EP-SVBRDF</b>（节能SVBRDF）模型的材料，但只能编辑和可视化SVBRDF模型中存在的功能。 不支持EP-SVBRDF独有的功能。
+> 可以加载使用<b>EP-SVBRDF</b>（节能SVBRDF）模型的材料，但只能编辑和可视化存在于SVBRDF模型中的功能。 不支持EP-SVBRDF独有的功能。
 > 
 > 不支持其他模型。
 
-## 导入AxF文件
+## 导入AxF 文件
 
-AxF文件导入工作流程可以从以下两种方法之一启动：
+AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 +++主屏幕
 
 单击[主屏幕](../../interface/home-screen/home-screen.md)左侧部分中的<b>导入AxF...</b>按钮。
 
-![AxF：从主屏幕开始导入](../../assets/axf_home-screen.png "AxF：从主屏幕开始导入"){width="600px"}
+![AxF：从主屏幕开始导入](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-02.png "AxF：从主屏幕开始导入"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中单击包上的RMB，然后转到包上下文菜单中的<b>导入> AxF</b>。
 
-![AxF：从资源管理器开始导入](../../assets/axf_explorer.png "AxF：从资源管理器开始导入"){width="600px"}
+![AxF：从资源管理器开始导入](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-03.png "AxF：从资源管理器开始导入"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 <b>元数据</b>和<b>属性</b>列出从AxF文件中的素材提取的数据。 这些对于配置某些Substance图形模板属性的方式有影响（请参阅下面的[图形模板](#graph-templates)部分）。
 
-![AxF：导入对话框](../../assets/axf_import.png "AxF：导入对话框")
+![AxF：导入对话框](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-04.png "AxF：导入对话框")
 
 ### 结果
 
@@ -110,7 +110,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：导入过程的包结果](../../assets/axf_package.png "AxF：导入过程的包结果")
+![AxF：导入过程的包结果](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-05.png "AxF：导入过程的包结果")
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：在导入对话框中添加模板](../../assets/axf_add-template.png "AxF：在导入对话框中添加模板")
+![AxF：在导入对话框中添加模板](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-06.png "AxF：在导入对话框中添加模板")
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：Substance图形模板](../../assets/axf-templates.png "AxF：Substance图形模板")
+![AxF：Substance图形模板](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-07.png "AxF：Substance图形模板")
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：图形参数Substance](../../assets/axf_graph-props.png "AxF：图形参数Substance")
+![AxF：图形参数Substance](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-08.png "AxF：图形参数Substance")
 
 </td>
 </tr>
@@ -200,16 +200,16 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 1. 导入AxF文件
 1. 使用“AxF到AxF”Substance图形模板
-1. 使用Substance图中可用的特性和节点编辑提取的纹理
-1. 将图形输出导出到同一AxF文件
+1. 使用图形中可用的功能和节点编辑提取的纹理
+1. 将图形输出导出到同一AxF 文件
 
-图形的<b>物理尺寸</b>属性用于设置已编辑AxF文件中更新纹理的<b>物理尺寸</b>属性。
+图形的<b>物理尺寸</b>属性用于设置已编辑AxF 文件中已更新纹理的<b>物理尺寸</b>属性。
 
 >[!NOTE]
 >
-> 对文件中资源的更改将添加为&#x200B;*新图层*。 这意味着每次从Designer导出到同一AxF文件都会增加该文件的大小。
+> 对文件中资源的更改将添加为&#x200B;*新图层*。 这意味着每次从Designer导出到同一AxF 文件时，都会增加该文件的大小。
 
-![导出AxF](../../assets/exportaxf.gif)
+![导出AxF](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-09.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 <b>AxF</b>导出对话框在<b>导出输出</b>对话框中可用作专用选项卡。
 
-在[图形视图](../../interface/the-graph-view/the-graph-view.md)工具栏中，打开![](../../assets/tools.jpg) <b>工具</b>菜单，选择<b>导出输出……</b>选项以显示对话框，然后选择<b>AxF</b>选项卡。
+在[图形视图](../../interface/the-graph-view/the-graph-view.md)工具栏中，打开![](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-10.jpg) <b>工具</b>菜单，选择<b>导出输出……</b>选项以显示对话框，然后选择<b>AxF</b>选项卡。
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF：“图形视图”工具栏中的“导出”选项](../../assets/axf_graph-export.png "AxF：“图形视图”工具栏中的“导出”选项")
+![AxF：图形视图工具栏中的导出选项](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-11.png "AxF：图形视图工具栏中的导出选项")
 
 </td>
 </tr>
@@ -232,19 +232,19 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 该对话框包含三个主要部分：
 
-使用<b>文件</b>输入字段可以选择应编辑的目标AxF文件。 加载并检查该文件，如果文件数据有效，则使用它填充下面的“AxF资源”列。
+通过<b>文件</b>输入字段，您可以选择应编辑的目标AxF 文件。 加载并检查该文件，如果文件数据有效，则使用它填充下面的“AxF资源”列。
 
-<b>映射输出</b>在输出列中列出图形输出，并将其&#x200B;*用法*&#x200B;与共享相同&#x200B;*标识符*&#x200B;的目标文件中的AxF资源匹配。 如果检测到任何问题，则它们在“备注”栏中显示为警告（黄色）或错误(ref)。
+<b>映射的输出</b>在输出列中列出图形输出，并将其&#x200B;*用法*&#x200B;与共享相同&#x200B;*标识符*&#x200B;的目标文件中的AxF资源匹配。 如果检测到任何问题，则它们在“备注”栏中显示为警告（黄色）或错误(ref)。
 
-<b>未映射的输出</b>在无法映射的目标文件中列出图形输出和AxF资源。 这些输出被忽略，这些AxF资源保持不变。
+<b>未映射的输出</b>列出目标文件中无法映射的图形输出和AxF资源。 这些输出被忽略，这些AxF资源保持不变。
 
 >[!NOTE]
 >
-> 图形输出需要将其的<b>组</b>属性设置为“AxF”，才能在此对话框中列出。
+> 图形输出的<b>组</b>属性需要设置为“AxF”，才能在此对话框中列出。
 
-![AxF：导出对话框](../../assets/axf_export.png "AxF：导出对话框")
+![AxF：导出对话框](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-12.png "AxF：导出对话框")
 
-单击“<b>开始导出</b>”以使用包含映射输出中的更改的新图层编辑目标AxF文件。
+单击<b>开始导出</b>以使用包含映射输出中的更改的新图层编辑目标AxF 文件。
 
 结果将以消息形式显示在对话框状态栏中的进度栏旁边。
 
@@ -254,11 +254,11 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 ### 将输出映射到AxF资源
 
-导出到现有AxF文件时，将使用图形输出更新其资源。 Designer将该资源标识符与[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点匹配，这些节点的标识符与<b>Usage</b>相同。
+导出到现有AxF 文件时，会使用图形输出更新其资源。 Designer将该资源标识符与[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点匹配，这些节点的标识符与<b>Usage</b>相同。
 
 此外，输出的<b>组</b>属性&#x200B;*必须*&#x200B;设置为“AxF”，才能将其列在AxF导出对话框中（请参阅上文）。
 
-![AxF：Substance图表的输出用法](../../assets/axf_output_usage.png "AxF：Substance图表的输出用法")
+![AxF：Substance图表的输出用法](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-13.png "AxF：Substance图表的输出用法")
 
 资源可以是具有特定通道数量的纹理（即位图）或制服（即值）。 图形输出必须与该数目的声道完全匹配。 否则，将在导出期间针对该资源引发错误，并且该资源将保持不变。
 
@@ -285,7 +285,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 在这种情况下，应在3D视图中使用&#x200B;**OpenGL渲染器**，然后选择<code>AxF SVBRF</code> 着色器。\
 然后，可以拖放在“导入”对话框中设置的Substance图形，以便将其输出连接到着色器。
 
-![AxF：查看以进行转换](../../assets/axf-view-for-convert.gif "AxF：查看以进行转换")
+![AxF：查看以进行转换](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-14.gif "AxF：查看以进行转换")
 
 +++
 
@@ -302,7 +302,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 选择着色器后，在图形的空白处单击RMB，然后选择<b>在3D视图中查看输出</b>选项以在[3D视图](../../interface/3d-view/3d-view.md)中可视化其输出。
 
-![AxF： SVBRDF GLSLFX着色器](../../assets/axf_glslfx-svbrdf.png "AxF： SVBRDF GLSLFX着色器"){width="600px"}
+![AxF： SVBRDF GLSLFX着色器](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-15.png "AxF： SVBRDF GLSLFX着色器"){width="600px"}
 
 此着色器当前是&#x200B;*在创作品*，某些功能仍不受支持。 因此，虽然它可以提供材料特性的一个概览，但不能用于精细调整。
 
@@ -311,7 +311,7 @@ AxF文件导入工作流程可以从以下两种方法之一启动：
 
 选择着色器后，在图形的空白处单击RMB，然后选择<b>在3D视图中查看输出</b>选项以在[3D视图](../../interface/3d-view/3d-view.md)中可视化其输出。
 
-![AxF：查看版本](../../assets/axf-view-for-edit.gif "AxF：查看版本")
+![AxF：查看版本](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-16.gif "AxF：查看版本")
 <i>注意：</i>忽略视频部分从切换到Iray渲染器直到结束，因为16.0.0版中的Iray渲染器和MDL支持已从Designer <i>移除</i>。
 
 +++

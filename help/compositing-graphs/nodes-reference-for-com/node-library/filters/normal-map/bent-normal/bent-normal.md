@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 弯曲法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![弯曲正常节点图标](../../../../../../assets/rt-bent-normal.png "弯曲正常节点图标")
+![弯曲正常节点图标](bent-normal.resources/bent-normal-01.png "弯曲正常节点图标")
 
-<b>进入：</b> *筛选器/法线图*
+<b>在</b>个筛选器中>法线图
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -42,33 +42,27 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-<b>使用物理尺寸</b> *布尔值*\
-切换以使用物理尺寸设置来确定Height比例。
+|  |  |
+|:---|:---|
+| <b>使用物理尺寸</b> <i>布尔值</i> | 切换以使用物理尺寸设置来确定Height比例。 |
+| <b>物理尺寸</b> <i>浮点3</i> | （<b>使用物理尺寸</b>设置为<i>True</i>时可用）根据表面的实际物理尺寸调整Height比例。 |
+| <b>示例</b> <i>整数</i> | 用于计算弯曲法线的光线数。<br>光线数越高，得到的结果越平滑，精度越高，但会降低性能。 |
+| <b>Height比例</b> <i>浮动</i> | （使用物理尺寸设置为False时可用）高度图输入强度的乘数。 |
+| <b>分发</b> <i>整数</i> | 设置分布方法。 影响向阴影区域的衰减。 |
+| <b>最大距离</b> <i>浮动</i> | 设置光线可传播以被遮挡的最大距离。 |
+| <b>扩散角度</b> <i>浮动</i> | 设置要拍摄的光线的扩散角度。 值1表示整个半球。 |
+| <b>正常格式</b> <i>整数</i> | 反转输出的绿色通道。 |
 
-<b>物理尺寸</b> *浮点3* （在<b>使用物理尺寸</b>设置为&#x200B;*True*&#x200B;时可用）\
-根据曲面的真实物理尺寸调整Height比例。
+## 示例
 
-<b>示例</b> *整数*\
-用于计算弯曲法线的射线数。\
-“较高”能够以牺牲性能为代价，提供更流畅、更精确的结果。
-
-<b>Height比例</b> *浮动（当“使用物理尺寸”设置为False时可用）*\
-Height映射输入强度的乘数。
-
-<b>分发</b> *整数*\
-设置分布方法。 影响向阴影区域的衰减。
-
-<b>最大距离</b> *浮动*\
-设置光线可传播以被遮挡的最大距离。
-
-<b>扩散角度</b> *浮动*\
-设置要拍摄的光线的扩散角度。 值1表示整个半球。
-
-<b>正常格式</b> *整数*\
-反转输出的绿色通道。
-
-## 示例图像
-
-![弯曲正常节点 — 示例1](../../../../../../assets/bent-normal-ex-1.jpg "弯曲正常节点 — 示例1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
+        </td>
+    </tr>
+</table>

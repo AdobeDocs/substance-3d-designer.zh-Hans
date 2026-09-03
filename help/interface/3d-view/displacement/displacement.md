@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D视图 — 位移弹出窗口
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
                 <li>曲面细分</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D视图中的位移弹出窗口" />
+            <img src="./displacement.resources/displacement-01.gif" alt="3D视图中的位移弹出窗口" />
         </td>
     </tr>
 </table>
@@ -90,7 +90,7 @@ Height值或纹理。
 
 ### 光栅器/GPU 路径追踪
 
-使用 <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **渲染器设置**
+使用 <img src="../3d-view.resources/3d-view-18.png" width="22" /> **渲染器设置**
  按钮，然后在“Properties”（属性）停靠区中，转到&#x200B;**“Render settings”（渲染设置）>“Diagnostic mode”（诊断模式）**，然后选择&#x200B;**线框
  （世界空间）**&#x200B;选项。
 

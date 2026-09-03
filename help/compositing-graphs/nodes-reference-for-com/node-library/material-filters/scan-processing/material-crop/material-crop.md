@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 素材裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-material.png){width="128px"}
+![](material-crop.resources/material-crop-01.png){width="128px"}
 
-## 素材裁剪
-
-**在：** *材质筛选器/扫描处理*
-
-**简单**
+<b>在</b>个材质过滤器中>扫描处理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,25 +39,18 @@ ht-degree: 1%
 >
 > [查看原始照片](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [裁剪](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [了解更多信息。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
-## 参数
-
-### 参数
-
-* **频道**
-  * 当使用“Specular/光泽度”映射而不是“金属/粗糙度”时，可打开和关闭此组中的素材通道。
-* **输入大小**： *0 - 8192*&#x200B;输入图像的分辨率和比例。 对于非方形图像非常重要。
-* **背景**： *（颜色值） /（灰度值）*未被“裁剪”覆盖的区域的背景统一值。
-* **变换**： *（变换矩阵）*\
-  旋转和缩放结果。 可以通过直接与画布交互来修改结果。
-* **偏移**： *0.0 - 1.0*\
-  移动或转换结果。 可以通过直接与画布交互来修改结果。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>频道</b> | 当使用“Specular/光泽度”映射而不是“金属/粗糙度”时，可打开和关闭此组中的素材通道。 |
+| <b>输入大小</b> <i>0 - 8192</i> | 输入图像的分辨率和比例。 对于非方形图像非常重要。 |
+| <b>背景</b> <i>（颜色值）/（灰度值）</i> | “裁剪”未覆盖的区域的背景统一值。 |
+| <b>转换</b> <i>（转换矩阵）</i> | 旋转和缩放结果。 可以通过直接与画布交互来修改结果。 |
+| <b>偏移</b> <i>0.0 - 1.0</i> | 移动或转换结果。 可以通过直接与画布交互来修改结果。 |

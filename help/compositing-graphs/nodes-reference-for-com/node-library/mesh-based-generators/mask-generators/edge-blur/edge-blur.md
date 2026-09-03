@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 边缘模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur-01.png){width="128px"}
 
-## 边缘模糊
-
-**英寸：** *基于网格的生成器**/蒙版生成器*
-
-**简单**
+<b>在</b>中基于网格的生成器>蒙版生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,27 +37,35 @@ ht-degree: 2%
 
 此蒙版根据烘焙曲率图突出显示边缘。 它是更简单的蒙版生成器之一。
 
-## 参数
-
-### 输入
-
-* **曲率**： *灰度输入*\
-  效果的基础所在已烘焙贴图。
-* **蒙版（可选）**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。
-
-### 参数
-
-* **级别**： *0.0 - 1.0*\
-  设置边加亮量。
-* **对比度**： *0.0 - 1.0*\
-  调整结果的对比度。
-* **模糊半径**： *0.0 - 8.0*&#x200B;设置突出显示边缘的模糊量。
-
-## 示例图像
-
-![](../../../../../../assets/edge-blur-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰度输入</i> | 效果的基础所在已烘焙贴图。 |
+| <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>级别</b> <i>0.0 - 1.0</i> | 设置边加亮量。 |
+| <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
+| <b>模糊半径</b> <i>0.0 - 8.0</i> | 设置突出显示边缘上的模糊量。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-blur.resources/edge-blur-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 正常取消合并
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '213'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![正常取消合并图标](../../../../../../assets/NormalUncombine.png "正常取消合并图标"){width="200px"}
+![正常取消合并图标](normal-uncombine.resources/normal-uncombine-01.png "正常取消合并图标"){width="200px"}
 
 <b>英寸：</b>滤镜>法线图
 
@@ -39,44 +39,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>正常合并</b> *颜色*&#x200B;主要 | 应从中删除详细信息的正常映射。 |
-| <b>Height</b> *灰度* | 表示应从组合法线图中删除的表面细节的Height图。 |
+|:---|:---|
+| <b>正常合并</b> <i>颜色</i>主要 | 应从中删除详细信息的正常映射。 |
+| <b>Height</b> <i>灰度</i> | 表示应从组合法线图中删除的表面细节的Height图。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>未组合的普通</b> *颜色* | 从中删除输入Height映射所描述的曲面细节的法线映射。 |
-| <b>猜测的强度</b> *浮动* | 强度估计，应设置为与输入Height映射连接的[法线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)节点，以匹配输入法线映射的强度。 |
+|:---|:---|
+| <b>未组合的普通</b> <i>颜色</i> | 从中删除输入Height映射所描述的曲面细节的法线映射。 |
+| <b>猜测的强度</b> <i>浮动</i> | 强度估计，应设置为与输入Height映射连接的[法线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)节点，以匹配输入法线映射的强度。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>正常格式</b> *整数* | 输入法线图的格式。 有效地反转绿色通道。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b> Y轴指向上</li> <li data-preserve-html="true"><b>OpenGL：</b> Y轴指向下</li> </ul> |
 
 ## 示例
@@ -84,44 +70,44 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="normal-uncombine.resources/normal-uncombine-02.jpg" alt="normal_uncombine_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="normal-uncombine.resources/normal-uncombine-03.jpg" alt="normal_uncombine_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![正常取消合并：示例2](../../../../../../assets/normal_uncombine_example_4.png "正常取消合并：示例2"){zoomable="yes"}
+![正常取消合并：示例2](normal-uncombine.resources/normal-uncombine-04.png "正常取消合并：示例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="normal-uncombine.resources/normal-uncombine-05.jpg" alt="normal_uncombine_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="normal-uncombine.resources/normal-uncombine-06.jpg" alt="normal_uncombine_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![正常取消合并：示例4](../../../../../../assets/normal_uncombine_example_6.png "正常取消合并：示例4"){zoomable="yes"}
+![正常取消合并：示例4](normal-uncombine.resources/normal-uncombine-07.png "正常取消合并：示例4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="normal-uncombine.resources/normal-uncombine-08.jpg" alt="normal_uncombine_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="normal-uncombine.resources/normal-uncombine-09.jpg" alt="normal_uncombine_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![正常取消合并：示例6](../../../../../../assets/normal_uncombine_example_5.png "正常取消合并：示例6"){zoomable="yes"}
+![正常取消合并：示例6](normal-uncombine.resources/normal-uncombine-10.png "正常取消合并：示例6"){zoomable="yes"}

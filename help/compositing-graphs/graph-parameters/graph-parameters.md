@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Designer中创建和管理图形参数以控制素材属性和行为。
+description: 了解如何在Substance 3D Designer中创建和管理图形参数以控制材料属性和行为。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 本页介绍<b>Substance图形</b>的标准参数。
 
-图形有多个可以修改的参数。 您可以通过单击图形中的&#x200B;*空白区域*&#x200B;或在<b>资源管理器</b>面板中选择&#x200B;*图形项*&#x200B;来查找它们。 然后，参数将显示在“参数”视图中。
+一个图形有多个可以修改的参数。 您可以通过单击图形中的&#x200B;*空白区域*&#x200B;或在<b>资源管理器</b>面板中选择&#x200B;*图形项*&#x200B;来查找它们。 然后，参数将显示在“参数”视图中。
 
 <a name="base-parameters"></a>
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![基本参数](../../assets/doc-graph-props-base-params.png "基本参数"){width="512px" zoomable="yes"}
+![基本参数](graph-parameters.resources/graph-parameters-01.png "基本参数"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>输出大小</b> | 此参数允许您选择图表中图像的&#x200B;*基分辨率*。  使用 <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> 锁定按钮，使高度值和宽度值匹配，并在调整大小时保持图像正方形。<br><br>*默认： (0,0) — 相对于主页* [了解详情](../../compositing-graphs/output-size/output-size.md) |
-| <b>输出格式</b> | 允许从以下选项中选择图形中的&#x200B;*基位深度*：<ul data-preserve-html="true"><li data-preserve-html="true">8位</li><li data-preserve-html="true">16位</li><li data-preserve-html="true">HDR低精度16F（16位浮点）</li><li data-preserve-html="true">HDR High Precision 32F（32位浮点）</li></ul>*默认值：每通道8位 — 相对于主页* |
+| <b>输出大小</b> | 此参数允许您选择图表中图像的&#x200B;*基分辨率*。  使用 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> 锁定按钮，使高度值和宽度值匹配，并在调整大小时保持图像正方形。<br><br>*默认： (0,0) -相对于父代* [了解详情](../../compositing-graphs/output-size/output-size.md) |
+| <b>输出格式</b> | 允许从以下选项中选择图形中的&#x200B;*基本位深度*：<ul data-preserve-html="true"><li data-preserve-html="true">8位</li><li data-preserve-html="true">16位</li><li data-preserve-html="true">HDR Low Precision 16F（16位浮点）</li><li data-preserve-html="true">HDR High Precision 32F（32位浮点）</li></ul>*默认值：每通道8位 — 相对于主页* |
 | <b>像素大小</b> | 定义像素大小。 我们建议将&#x200B;**宽度**&#x200B;和&#x200B;**Height**&#x200B;值都设置为&#x200B;**1**。*默认值： (1,1) — 相对于主页* |
 | <b>拼贴模式</b> | 通过以下选项在图形中定义基&#x200B;*拼贴模式*：<ul data-preserve-html="true"> <li data-preserve-html="true">无平铺</li> <li data-preserve-html="true">水平平铺</li> <li data-preserve-html="true">垂直平铺</li> <li data-preserve-html="true">H+V拼贴（即水平和垂直）</li> </ul>*默认： H和V拼贴 — 相对于主页* |
-| <b>随机植入</b> | 为图形定义基&#x200B;*随机植入*。  使用 <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> 按钮以向随机种子分配新的随机值。<br><br>*默认值： 0 — 相对于主页* |
+| <b>随机植入</b> | 为图形定义基&#x200B;*随机植入*。  使用 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> 按钮以向随机种子分配新的随机值。<br><br>*默认值： 0 — 相对于主页* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![图形属性](../../assets/doc-graph-props-attributes.png "图形属性"){zoomable="yes"}
+![图形属性](graph-parameters.resources/graph-parameters-04.png "图形属性"){zoomable="yes"}
 
 </td>
 </tr>
@@ -109,21 +109,21 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-特定于图形的所有参数（包括[公开的参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）均[受管理](../../compositing-graphs/manage-parameters/manage-parameters.md)，可在此处编辑和预览。
+所有特定于图形的参数（包括[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）均[管理](../../compositing-graphs/manage-parameters/manage-parameters.md)，可在此处编辑和预览。
 
 也可以为部分或所有参数创建[参数预设](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![输入参数](../../assets/doc-graph-props-input-parameters.png "输入参数"){zoomable="yes"}
+![输入参数](graph-parameters.resources/graph-parameters-05.png "输入参数"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++覆盖基本参数
-将另一个图形中的某个图形用作[实例节点](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)时，可以控制该新实例节点上任何基本参数的默认值。
+将另一个图形中的图形用作[实例化](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)时，可以控制该新实例化上任何基本参数的默认值。
 
 打开“输入参数”部分顶部的汉堡包菜单，然后转到“覆盖基本参数”子菜单以选择要为其设置任意默认值的基本参数。
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输入](../../assets/doc-graph-props-inputs.png "输入"){zoomable="yes"}
+![输入](graph-parameters.resources/graph-parameters-06.png "输入"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输出](../../assets/doc-graph-props-outputs.png "输出"){zoomable="yes"}
+![输出](graph-parameters.resources/graph-parameters-07.png "输出"){zoomable="yes"}
 
 </td>
 </tr>

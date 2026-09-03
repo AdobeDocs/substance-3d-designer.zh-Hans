@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 索引Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
-## 索引Flood Fill
-
-**范围：** *滤镜/效果*
-
-**复杂**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,21 +37,35 @@ ht-degree: 2%
 
 此外，索引Flood Fill使用[值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)，返回找到的形状数量以及可选的内部数据表。
 
-### 输入
+</td>
+</tr>
+</table>
 
-* **Flood FillBbox**： *颜色输入*&#x200B;标准Flood Fill输入映射。 必需。
-* **特殊形状信息**： *色彩输入*&#x200B;额外的Flood Fill映射，需要在以前的Flood Fill节点上明确启用并且需要连接！
+<a name="inputs"></a>
 
-### 参数
+## 输入
 
-* **输出**： *规范化，整数*&#x200B;确定输出是否在LDR 0-1范围或HDR 0-n范围中。
-* **忽略小于**&#x200B;的形状： *0.0 - 1.0*&#x200B;忽略小形状的容差值。
-* **显示Flood Fill数据表**： *False/True*&#x200B;返回额外的（调试）数据以供高级使用。
+|  |  |
+|:---|:---|
+| <b>Flood Fill的Bbox</b> <i>颜色输入</i> | 标准输入图。 必需。 |
+| <b>特殊形状信息</b> <i>颜色输入</i> | 额外的Flood Fill映射，需要在以前的Flood Fill节点上明确启用并且需要连接！ |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>规范化，整数</i> | 确定输出是否在LDR 0-1范围或HDR 0-n范围中。 |
+| <b>忽略小于</b>的形状 <i>0.0 - 1.0</i> | 用于忽略小形状的容差值。 |
+| <b>显示Flood Fill数据表</b> <i>False/True</i> | 返回额外的（调试）数据以供高级使用。 |
 
 ## 示例
 
-![](../../../../../../assets/flood-fill-ex02.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 发行日期：*2022年10月6日*
 
-![](../../assets/largef.png){width="1111px"}
+![](version-12-3.resources/version-12-3-01.png){width="1111px"}
 
 ## 主要功能
 
@@ -33,20 +33,20 @@ ht-degree: 0%
 如果您习惯于创建图形，则希望能够创建子图（或图形实例）以便重复使用您的工作，使图形不那么杂乱并提高效率。\
 现在也可对Substance模型图形执行此操作：只需将子图从浏览器拖放到主图形以将其用作实例节点。
 
-![](../../assets/subgraph.gif){width="600px"}
+![](version-12-3.resources/version-12-3-02.gif){width="600px"}
 
 我们还引入了Substance模型图（如输出场景）的输出节点概念。 您现在可以在图表中拥有一个或多个输出。\
 当您的图形将在另一个图形中进行实例化时，每个输出将对应于一个输出图钉。
 
-![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/version-12-3-03.png){width="600px"}
 
 当您右键单击实例节点时，当然可以访问其引用的子图来查看或编辑它。
 
-![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/version-12-3-04.png){width="600px"}
 
 得益于子图和公开的参数，您可以创建复杂的资源并应用无限多种变体，如下图所示。
 
-![](../../assets/seasons.gif){width="600px"}
+![](version-12-3.resources/version-12-3-05.gif){width="600px"}
 
 ### Substance模型图的其他改进
 
@@ -55,18 +55,18 @@ ht-degree: 0%
   使用<b>Visible If</b>，您可以向参数可见性添加条件，以保持简洁且功能齐全的UI。 此机制已适用于Substance图，现在已扩展到Substance模型图，当然，使用相同的语法。<b>\
   </b>
 
-  ![](../../assets/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-06.gif){width="600px"}
 
 * <b>专用于曲线版本的新节点\
   </b>此版本带来了一些专用于曲线编辑的新节点： <b>反向曲线</b>互换曲线的两端，<b>曲线细分</b>根据两种方法在段上添加更多顶点，<b>平滑曲线</b>使2D曲线上的所有角度变得平滑，最后<b>偏移曲线</b>膨胀或收缩2D曲线，如下所示。<b>
 
   </b>
 
-  ![](../../assets/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-07.gif){width="600px"}
 * <b>新建图形窗口</b>\
   <b>新建Substance模型图</b>窗口现在也可用于Substance模型图。 您可以添加自己的模板或选择默认模板，然后直接输入图形的名称，并选择图形要添加到哪个包。
 
-  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/version-12-3-08.png){width="600px"}
 
 ### “欢迎”和“新增功能”面板
 
@@ -76,19 +76,19 @@ ht-degree: 0%
 
 这两个面板也可以从“帮助”菜单访问。
 
-![](../../assets/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/version-12-3-09.png)
 
-![](../../assets/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/version-12-3-10.png)
 
 ### 杂项
 
-* <b>公开布尔型参数的两个按钮小组件</b>\
-  现在，您有了一种在Substance图表中公开布尔型参数的新方法。 除了切换按钮之外，您还可以将<b>并排按钮</b>用于自定义文本，以使布尔型参数驱动的两个不同模式更加可见。
+* <b>用于公开布尔型参数的两个按钮构件</b>\
+  现在，您有了一种在图形中公开布尔型参数的新方法。 除了切换按钮之外，您还可以将<b>并排按钮</b>用于自定义文本，以使布尔型参数驱动的两个不同模式更加可见。
 * <b>解决高DPI屏幕的缩放问题</b>\
   在早期版本中，Designer无法正确处理在操作系统中设置的缩放系数。 如下图所示，4K显示器上以125%的缩放完美地管理着所有内容，所有字体和按钮都以一致的大小显示。\
   请注意，在此新版本中，“首选项”中的“禁用高DPI”选项已重置为&#x200B;*False*，因为此选项不再需要具有可用界面。
 
-  ![](../../assets/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-11.gif){width="600px"}
 
 * 对于Steam版本&#x200B;**，** Apple Silicon原生支持(M1 / M2)\
   Designer 12.2版是第一个完全支持基于M1或M2芯片的新型Apple机器的版本，但Steam版没有这种支持。 从现在起，所有Designer用户都可以从这些计算机上更快、更高效的体验中受益。

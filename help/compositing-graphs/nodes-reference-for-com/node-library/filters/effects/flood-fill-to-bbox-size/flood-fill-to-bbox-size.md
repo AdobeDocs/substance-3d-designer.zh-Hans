@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
-description: 使用“Flood Fill到边框大小”节点可使用定界框大小值填充区域，以实现程序性缩放效果。
+description: 使用“Flood Fill到边框大小”节点，可以为程序化缩放效果使用定界框大小值填充区域。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill到Box大小
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
+![](flood-fill-to-bbox-size.resources/flood-fill-to-bbox-size-01.png){width="128px"}
 
-## Flood Fill到Box大小
-
-**范围：** *滤镜/效果*
-
-**简单**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 从[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)基生成灰度图，其值绑定到每个拼贴的单个大小。
 
-值相对于画布总体大小（完整的白色拼贴表示拉伸整个画布），因此对比度通常较低。
-
-## 参数
-
-* **输出**：*最大(X， Y)，X， Y*&#x200B;设置值所基于的度量：宽度、长度或两者。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodbbox-ex1.png" width="256px"/></div> |
-| --- |
-|  |
+值相对于画布总体大小（全白拼贴表示它拉伸整个画布），因此对比度通常较低。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>最大值(X， Y)，X， Y</i> | 设置值所基于的度量：宽度、长度或两者。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-bbox-size.resources/flood-fill-to-bbox-size-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 边缘检测
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect-01.png){width="128px"}
 
-## 边缘检测
-
-**范围：** *滤镜/效果*
-
-**简单**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 适用于需要边缘某种蒙版的许多情况。 请记住，它最适合用于高对比度输入；如果需要，在传递到此节点之前调整对比度。
 
-## 参数
-
-* **边缘宽度**： *1.0 - 16.0*&#x200B;边缘周围检测到的区域的宽度。
-* **边缘圆度**： *0.0 - 16.0*&#x200B;对生成的蒙版进行圆化、模糊和平滑处理。
-* **反转**： *False/True*\
-  反转结果。
-* **容差**： *0.0 - 1.0*&#x200B;用于边缘应显示位置的容差阈值因子。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/edge-detect-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>边缘宽度</b> <i>1.0 - 16.0</i> | 边缘周围检测到的区域的宽度。 |
+| <b>边缘圆度</b> <i>0.0 - 16.0</i> | 对生成的蒙版进行圆化、模糊和平滑处理。 |
+| <b>反转</b> <i>False/True</i> | 反转结果。 |
+| <b>容差</b> <i>0.0 - 1.0</i> | 用于显示边的容差阈值因子。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-detect.resources/edge-detect-02.png" />
+        </td>
+    </tr>
 </table>

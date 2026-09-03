@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
 breadcrumb-title: ''
-description: 使用“污渍映射005”节点创建程序污渍纹理，以便向材料添加表面细节和变化。
+description: 使用“污渍映射005”节点创建程序化的污渍纹理，以便向材料添加表面细节和变化。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 005
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 污渍图005
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 8%
 
 ---
 
@@ -22,42 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-005.png){width="128px"}
+![](grunge-map-005.resources/grunge-map-005-01.png){width="128px"}
 
-## 污渍图005
-
-**在：** *纹理生成器**/杂波*
-
-**中级**
+<b>在：</b>纹理生成器>杂色
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 这将生成一个复杂的组合噪声映射。 作为详细的程序，它可以非常有用，但请记住，这些程序非常消耗性能，因此生成速度较慢。
 
-## 参数
-
-* **余额**： *0.0 - 1.0*\
-  在黑白图像之间改变结果的平衡，就像亮度调整一样。
-* **对比度**： *0.0 - 1.0*\
-  调整结果的对比度。
-* **无序**： *0.0 - 1.0*\
-  对噪声进行相移以引入较小的变化。
-* **反转**： *False/True*\
-  反转结果。
-* **画笔图案**： *0.0 - 1.0*\
-  用作画笔Alpha时，可在边缘周围添加蒙版。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/grungemap-005-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>余额</b> <i>0.0 - 1.0</i> | 在黑白图像之间改变结果的平衡，就像亮度调整一样。 |
+| <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
+| <b>无序</b> <i>0.0 - 1.0</i> | 对噪声进行相移以引入较小的变化。 |
+| <b>反转</b> <i>False/True</i> | 反转结果。 |
+| <b>画笔图案</b> <i>0.0 - 1.0</i> | 用作画笔Alpha时，可在边缘周围添加蒙版。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-map-005.resources/grunge-map-005-02.gif" />
+        </td>
+    </tr>
 </table>

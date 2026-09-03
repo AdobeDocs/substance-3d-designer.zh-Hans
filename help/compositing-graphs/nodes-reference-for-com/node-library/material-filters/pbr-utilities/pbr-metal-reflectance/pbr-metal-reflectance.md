@@ -10,9 +10,9 @@ helpx_tags: ""
 title: pbr金属反射率
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
+![](pbr-metal-reflectance.resources/pbr-metal-reflectance-01.png){width="128px"}
 
-## pbr金属反射率
-
-**在：** *材质滤镜/PBR实用工具*
-
-**简单**
+<b>进入：</b>材质过滤器> PBR实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,16 +37,14 @@ ht-degree: 1%
 
 当需要纯金属的起始点时，此节点非常有用，可让您避免从图表中进行拾色。
 
-## 参数
-
-* **金属颜色**：*金、银、铝、铁、铜、钛、镍、钴、铂*&#x200B;选取预定义的金属值。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>金属颜色</b> <i>金、银、铝、铁、铜、钛、镍、钴、铂</i> | 选取预定义的金属值。 |

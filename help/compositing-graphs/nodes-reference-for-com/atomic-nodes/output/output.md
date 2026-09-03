@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,26 +24,26 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：输出](../../../../assets/comp_output_1.png "原子节点：输出"){width="200px"}
+![原子节点：输出](output.resources/output-01.png "原子节点：输出"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 输出节点指定Substance图形的<b>结果</b>，如果其中存在多个输出节点，则指定其结果之一。
 
-连接到图形的输出节点的图像或值由表示此图形的任何[实例节点](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)输出，并且可以[导出为图形输出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。
+连接到图形的输出节点的图像或值由表示此图形的任何[实例化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)输出，并且可以[导出为图形输出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。
 
 </td>
 </tr>
 </table>
 
-同样，当[发布的SBSAR文件](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)包含此图形时，该文件可以在使用该文件的任何集成或增效工具中输出该图像。
+同样，当[发布的Sbsar 文件](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)包含此图形时，该文件可以在使用该文件的任何集成或增效工具中输出该图像。
 
 它具有类型无关的单个输入插槽，这意味着它会在连接到它的数据类型之后键入自己。
 
 它没有参数，而是一些对正确标示输出并将其用于预期用途非常重要的属性。
 
-每个Substance图形都必须具有&#x200B;*至少一个*&#x200B;输出节点。 如果不存在输出，图形将永远不会返回实际结果，并引发[警告](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md)。
+每个图形都必须具有&#x200B;*至少一个*&#x200B;输出节点。 如果不存在输出，则图形无法返回实际结果，并会引发[警告](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md)。
 
 ## 属性
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/output-02.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/output-03.png" alt="defaultouput1">
       <br><i>之后</i>
     </td>
   </tr>

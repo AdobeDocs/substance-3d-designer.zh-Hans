@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 操作员
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 运算符节点允许您对输入节点进行经典的数学运算：
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/operator-nodes-01.png)
 
 >[!NOTE]
 >

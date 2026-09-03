@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 配置列表 — SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG文件图标](../../assets/sbscfg.png "SBSCFG文件图标")
+![SBSCFG文件图标](configuration-list-sbscfg.resources/configuration-list-sbscfg-01.png "SBSCFG文件图标")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 突出显示的部分是与配置文件相关的部分，您只需将更多项目添加到列表，这些项目存储在上面定义的SSBSCFG文件中。
 
-![项目设置](../../assets/config-ui.png "项目设置")
+![项目设置](configuration-list-sbscfg.resources/configuration-list-sbscfg-02.png "项目设置")
 
 ### 以XML形式进行外部编辑
 

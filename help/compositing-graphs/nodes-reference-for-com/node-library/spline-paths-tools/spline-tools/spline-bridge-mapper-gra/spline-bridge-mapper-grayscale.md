@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 样条桥映射器灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "节点图标")
+![节点图标](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -49,47 +49,38 @@ ht-degree: 0%
 >
 > 另请参阅[样条桥映射器颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-col/spline-bridge-mapper-color.md)。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>样条坐标</b> *颜色*&#x200B;在彩色图像的RGBA通道中编码的输入样条点的坐标：
+## 输入
 
-<b> R</b> - X位置\
-<b> G</b> - Y位置\
-<b> B</b> -Height\
-<b>A</b> — 打包的数据：\
-*符号：样条是封闭的（负）或开放的（正）；\
-*绝对值：Thickness+ 1。
+|  |  |
+|:---|:---|
+| <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
+| <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
+| <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
+| <b>彩图</b> <i>灰度</i> | 应跨输入样条映射的输入灰度图像。 |
 
-<b>样条数据</b> *颜色*&#x200B;编码在彩色图像的RGBA通道中的输入样条的其他数据。\
-<b> R</b> — 切线X\
-<b> G</b> — 切线Y\
-<b> B</b> — 未使用\
-<b> A</b> — 未使用
+<a name="outputs"></a>
 
-<b>样条量</b> *整数*&#x200B;输入样条的数量。
+## 输出
 
-<b>彩图&#x200B;</b>*灰度*&#x200B;应跨输入样条映射的输入灰度图像。
+|  |  |
+|:---|:---|
+| <b>颜色</b> <i>灰度</i> | 在样条之间映射输入彩色图像作为灰度图像的结果。 |
+| <b>Height</b> <i>灰度</i> | 映射跨样条的样条作为灰度图像的Height。 |
+| <b>UV</b> <i>颜色</i> | 用彩色图像的红色(U)和绿色(V)通道编码的映射图像的UV（即坐标）。 |
+| <b>蒙版</b> <i>灰度</i> | 跨样条映射的蒙版。 |
 
-## 输出连接器
-
-<b>颜色</b> *灰度*&#x200B;将输入彩色图像映射为灰度图像跨样条的结果。
-
-<b>Height</b> *灰度*&#x200B;作为灰度图像，跨样条映射的样条的Height。
-
-<b>UV</b> *颜色*&#x200B;用彩色图像的红色(U)和绿色(V)通道编码的映射图像的UV（即坐标）。
-
-<b>蒙版</b> *灰度*&#x200B;跨样条映射的蒙版。
+<a name="parameters"></a>
 
 ## 参数
 
-<b>段数量</b> *整数*&#x200B;样条在图像坐标遍历之前被简化为段。\
-段数量越多，沿曲线映射就越平滑。
-
-<b>减少UV伸缩</b> *布尔值*&#x200B;调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时最小化拉伸。
-
-<b>UV 缩放</b> *浮点2*&#x200B;调整图像坐标的比例。 值越高，拼贴的图像就越致密。
-
-<b>UV旋转</b> *浮动*&#x200B;围绕图像坐标中心旋转图像坐标。
+|  |  |
+|:---|:---|
+| <b>段数量</b> <i>整数</i> | 在图像坐标遍历样条之前，将样条简化为段。 段数量越多，沿曲线映射就越平滑。 |
+| <b>减少UV伸缩</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
+| <b>UV 缩放</b> <i>浮点2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
+| <b>UV旋转</b> <i>浮动</i> | 围绕图像坐标中心旋转图像坐标。 |
 
 ## 示例
 
@@ -100,11 +91,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -113,7 +104,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineBridgeMapper-Demo.gif "节点示例2")
+![节点示例2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "节点示例2")
 
 </td>
 </tr>
@@ -123,12 +114,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "节点示例1")
+![节点示例1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "节点示例2")
+![节点示例2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "节点示例2")
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 大型污渍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
+![](grunge-galvanic-large.resources/grunge-galvanic-large-01.jpg){width="200px"}
 
-**在：** *纹理生成器**/杂波*
-
-**简单**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,30 +39,30 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-* **平衡** *浮动*&#x200B;调整暗值和亮值之间的平衡。
-* **对比度** *浮动*&#x200B;调整图像的对比度。
-* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
-* **非正方形扩展***布尔值*&#x200B;启用以非方形比率补偿挤压和拉伸。
-* 高级
-  * **变形强度***浮动*&#x200B;调整主变形效果的强度。
-  * **脊部细节不透明度***浮动*&#x200B;调整较亮脊部的不透明度。
-  * **锐化强度***浮动*&#x200B;调整全局锐化效果的强度。
+|  |  |
+|:---|:---|
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>高级</b> |  |
+| <b>变形强度</b> <i>浮动</i> | 调整主变形效果的强度。 |
+| <b>脊细节不透明度</b> <i>浮动</i> | 调整较亮脊的不透明度。 |
+| <b>锐化强度</b> <i>浮动</i> | 调整全局锐化效果的强度。 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvaniclarge-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvaniclarge-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-03.jpg" />
+        </td>
+    </tr>
 </table>

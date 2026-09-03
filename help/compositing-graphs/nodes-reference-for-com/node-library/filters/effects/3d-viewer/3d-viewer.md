@@ -1,7 +1,7 @@
 ---
 title: 3D查看器
 description: Designer >Substance合成图形>用于Substance合成图形的节点参考>节点库>滤镜>效果> 3D查看器
-source-git-commit: cf997d97732d612012e12714280edb5cc9842cb8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D查看器图标](./3d-viewer.resources/3d-viewer.png "3D查看器")
+![3D查看器图标](./3d-viewer.resources/3d-viewer-01.png "3D查看器")
 
 <b>进入：</b>滤镜>效果
 
@@ -94,32 +94,32 @@ ht-degree: 0%
 | <b>变换帮助程序</b> *布尔值* | 上次应用的旋转的可视化。<br><br>可视化包括<br>-<b>表示旋转轴方向矢量的箭头</b>，并在每个世界空间轴的权重之后着色。<br>-<b>表示旋转角度的圆弧</b>，与与其颜色匹配的箭头正交。 |
 | <b>SDF等值线</b> *布尔值* | 符号距离场(SDF)函数等值线的彩色可视化。<br><br>等高线是在给定Height上表示XY平面上形状的<i>距离场</i>的规则重复线。<br><br>这对于检查SDF 函数所定义的空间的<i>一致性</i>非常有用。<br><br>使用<b>SDF等值线频率</b>和<b>SDF等值线位置</b>参数调整等值线的密度和Height。 |
 | <b>SDF等值线频率</b> *浮动* | 在给定距离内的等值线重复量。<br><br>值越高，线条越密，越细。 |
-| <b>SDF等值线位置</b> *浮动* | 用于绘制等高线的XY平面的世界空间Height。<br><br>使用此选项检查形状在不同高度处的距离场。 |
-| <b>分钟。 命中距离</b> *浮动* | 定义SDF光线行进过程中转化为命中的最小距离。<br><br>较低的值将增加光线行进步骤的数量。 |
+| <b>SDF等值线位置</b> *浮动* | 用于绘制等高线的XY平面的Height。<br><br>使用此选项检查形状在不同高度处的距离场。 |
+| <b>分钟。 命中距离</b> *浮动* | 定义平移为SDF光线行进过程命中的最小距离。<br><br>较低的值将增加光线行进步骤的数量。 |
 
 ## 示例
 
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="示例1" />
+            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="示例1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="示例1" />
+                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="示例1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="示例2" />
+                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="示例2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="示例3" />
+                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="示例3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="示例4" />
+                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="示例4" />
                     </td>
                 </tr>
             </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 编织生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
@@ -22,37 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-generator.png){width="128px"}
+![](weave-generator.resources/weave-generator-01.png){width="128px"}
 
-## 编织生成器
-
-**英寸：** *纹理生成器**/Patterns*
-
-**中级**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 此节点生成一个简单的交织图案，其中包含几个选项。 它允许比预定义的编织模式更多的控制，并且呈现了一种不能用其它节点实现的模式。
 
-## 参数
-
-* **平铺X**： *1 - 20*&#x200B;设置X轴上重复的数据块数。
-* **平铺Y**： *1 - 20*&#x200B;设置Y轴上重复的数据块数。
-* **形状**： *0.0 - 1.0*&#x200B;设置拼接的曲线Height配置文件。
-* **织造**： *1 - 10*&#x200B;设置每个块有多少针迹。
-* **间隙**： *0.0 - 1.0*&#x200B;设置X轴和Y轴上缝合线之间的间隙。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/weave-generator-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>平铺X</b> <i>1 - 20</i> | 设置X轴上重复的数据块数。 |
+| <b>平铺Y</b> <i>1 - 20</i> | 设置Y轴上重复的数据块数。 |
+| <b>形状</b> <i>0.0 - 1.0</i> | 设置串联的曲线Height轮廓。 |
+| <b>编织</b> <i>1 - 10</i> | 设置每个块的缝合数。 |
+| <b>间隙</b> <i>0.0 - 1.0</i> | 设置X轴和Y视图上线迹之间的间隙。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="weave-generator.resources/weave-generator-02.gif" />
+        </td>
+    </tr>
 </table>

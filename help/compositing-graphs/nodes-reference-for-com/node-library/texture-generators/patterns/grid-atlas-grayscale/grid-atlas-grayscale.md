@@ -1,7 +1,7 @@
 ---
 title: 网格图集灰度
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>生成器>图案>网格图集灰度
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>生成器>图案>网格图集灰度
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![网格图集的灰度图标](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "网格图集的灰度")
+![网格图集的灰度图标](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "网格图集的灰度")
 
 <b>进入：</b>生成器>图案
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 描述
 
-在XY大小可调的网格上打包多达16张灰度图像。<br>输出地图集图像可以由[形状飞溅v2](../shape-splatter-v2/shape-splatter-v2.md)或[形状飞溅映射器灰度图](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)节点采样。
+在XY尺寸可调的网格上打包多达16个灰度图像。<br>输出地图集图像可以由[形状飞溅v2](../shape-splatter-v2/shape-splatter-v2.md)或[形状飞溅映射器灰度图](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)节点采样。
 
 另请参阅[网格图集颜色](../grid-atlas-color/grid-atlas-color.md)。
 
@@ -75,5 +75,5 @@ ht-degree: 1%
 
 ## 示例
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="在图形的上下文中网格图集灰度节点" style="width: 50%"><br>
-<i>在图形的上下文中网格图集灰度节点</i>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="在图形上下文中网格图集灰度节点" style="width: 50%"><br>
+<i>图形上下文中的灰度节点</i>

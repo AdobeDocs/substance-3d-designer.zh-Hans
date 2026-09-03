@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高度挤出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-extrude.png){width="200px"}
+![](height-extrude.resources/height-extrude-01.png){width="200px"}
 
-## 高度挤出
-
-**英寸：** *纹理生成器**/Patterns*
-
-**中级**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,25 +37,20 @@ ht-degree: 0%
 
 与[形状凸出](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)的主要区别在于，输入映射不必是二进制“alpha”类型的映射，而是全范围灰度映射。 这意味着您可以更好地控制凸出Height（有机、复杂形状），但不能控制斜面配置文件（硬表面、更简单的形状）。
 
-## 参数
-
-* **相机角度**：\
-  摄像机的欧拉角，半转角。 请注意，水平旋转和缩放直接应用于输入。
-* **相机比例**： *0.001 - 3.0*\
-  应用于输出的全局缩放。
-* **Height比例**： *0.0 - 2.0*\
-  将全局因子应用于输入Height值。
-* **垂直偏移**： *-1.0 - 1.0*\
-  向上或向下移动最终输出。
-* **接地**： *关闭/打开*\
-  如果“地面”处于关闭状态，则显示输入为0的黑色背景，而不是像地面的平面。
-* **普通格式**： *DirectX/OpenGL*\
-  **法线格式**&#x200B;参数反转法线映射的y坐标。
-* **正常强度**： *0.0 - 256.0*\
-  与&#x200B;**正常**&#x200B;节点的&#x200B;**强度**&#x200B;参数相同。 将其设置为256可在旋转时获得无共享的正常。
-
-## 示例图像
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>相机角度</b> | 摄像机的欧拉角，半转角。 请注意，水平旋转和缩放直接应用于输入。 |
+| <b>相机比例</b> <i>0.001 - 3.0</i> | 应用于输出的全局缩放。 |
+| <b>Height比例</b> <i>0.0 - 2.0</i> | 将全局因子应用于输入Height值。 |
+| <b>垂直偏移</b> <i>-1.0 - 1.0</i> | 向上或向下移动最终输出。 |
+| <b>地面</b> <i>关闭/打开</i> | 如果“地面”处于关闭状态，则显示输入为0的黑色背景，而不是像地面的平面。 |
+| <b>正常格式</b> <i>DirectX/OpenGL</i> | <b>法线格式</b>参数反转法线映射的y坐标。 |
+| <b>正常强度</b> <i>0.0 - 256.0</i> | 与<b>正常</b>节点的<b>强度</b>参数相同。 将其设置为256可在旋转时获得无共享的正常。 |

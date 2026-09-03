@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 增效工具搜索路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Designer将在特定目录（即，搜索路径）中查找插件。 本页介�
 1. 在<b>Python</b>选项卡中，单击*<b>+</b>*按钮以添加包含插件的目录
 1. 单击“<b>确定</b>”进行验证
 
-![设置Python插件搜索路径项目设置](../../assets/image-70.png "设置Python插件搜索路径项目设置")
+![设置Python插件搜索路径项目设置](plugin-search-paths.resources/plugin-search-paths-01.png "设置Python插件搜索路径项目设置")
 
 ## 使用环境变量
 

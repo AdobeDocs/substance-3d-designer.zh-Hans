@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 使其拼贴贴贴面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '268'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](../../../../../../assets/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
-## 使其平铺图案（灰度）
-
-**范围：** *筛选器/拼贴*
-
-**复杂**
+<b>在</b>个筛选器中>拼贴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -47,27 +43,36 @@ ht-degree: 0%
 
 要对整个素材执行此操作，请参阅[智能自动拼贴](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)。
 
-## 参数
-
-* **蒙版大小**： *0.0 - 1.0*&#x200B;盖印修补程序时使用的圆形蒙版大小。
-* **蒙版精度**： *0.0 - 1.0*&#x200B;蒙版的衰减/Smoothness精度。
-* **蒙版变形**： *-100.0 - 100.0*&#x200B;在蒙版边缘引入变形。 适合避免曲面片之间平滑、未定义的过渡。
-* **图案大小宽度**： *0.0 - 1000.0*&#x200B;将修补的宽度更改得不均匀。
-* **图案大小Height**： *0.0 - 1000.0*&#x200B;将修补程序的Height更改为非一致的。
-* **无序**： *0.0 - 1.0*\
-  引入了平移随机性，略微移动斑块。
-* **大小变化**： *0.0 - 100.0*&#x200B;引入蒙版的大小变化。
-* **八度音阶**： *0 - 6*&#x200B;这是确定整体大小的主控件。
-* **旋转**： *-360.0 - 360.0*&#x200B;预旋转修补程序。
-* **旋转变化**： *0.0 - 360.0*&#x200B;为每个修补图章引入随机旋转。
-* **背景颜色**： *（颜色值）*设置没有显示修补程序的区域的背景颜色。
-* **颜色变化**： *0.0 - 1.0（仅限颜色版本）*引入每个修补的颜色变化。
-* **明度变化** *（仅限灰度版本）*引入每个修补的明度变化。
-
-## 示例图像
-
-![](../../../../../../assets/patch-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>蒙版大小</b> <i>0.0 - 1.0</i> | 盖印修补时使用的圆形蒙版的大小。 |
+| <b>蒙版精度</b> <i>0.0 - 1.0</i> | 蒙版的衰减/Smoothness精度。 |
+| <b>蒙版变形</b> <i>-100.0 - 100.0</i> | 在蒙版边缘引入变形。 适合避免曲面片之间平滑、未定义的过渡。 |
+| <b>图案大小宽度</b> <i>0.0 - 1000.0</i> | 将修补的宽度更改得不均匀。 |
+| <b>图案大小Height</b> <i>0.0 - 1000.0</i> | 更改曲面片的Height不均匀。 |
+| <b>无序</b> <i>0.0 - 1.0</i> | 引入了平移随机性，略微移动斑块。 |
+| <b>大小变化</b> <i>0.0 - 100.0</i> | 引入蒙版的大小变化。 |
+| <b>八度音阶</b> <i>0 - 6</i> | 这是确定总体大小的主控件。 |
+| <b>旋转</b> <i>-360.0 - 360.0</i> | 预旋转修补。 |
+| <b>旋转变化</b> <i>0.0 - 360.0</i> | 为每个修补图章引入随机旋转。 |
+| <b>背景颜色</b> <i>（颜色值）</i> | 设置没有显示修补的区域的背景色。 |
+| <b>颜色变化</b> <i>0.0 - 1.0（仅限颜色版本）</i> | 引入每个修补的颜色变化。 |
+| <b>明度变化</b> <i>（仅限灰度版本）</i> | 引入每个修补的明度变化。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
+        </td>
+    </tr>
 </table>

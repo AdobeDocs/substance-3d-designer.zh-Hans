@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 面向法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/facing-normal.png){width="128px"}
+![](facing-normal.resources/facing-normal-01.png){width="128px"}
 
-## 面向法线
-
-**范围：** *筛选器/法线图*
-
-**简单**
+<b>在</b>个筛选器中>法线图
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 此滤镜将正常映射作为入门图像，并生成灰度图像，在该图像中，值对应于在纹理空间中观看者所面对的正常值的程度。
-
-## 参数
-
-*无参数。*
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
 
 </td>
 </tr>

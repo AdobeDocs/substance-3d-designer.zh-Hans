@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 基色金属粗糙度转换器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
 
-## 基色/金属/粗糙度转换器
-
-**在：** *材质滤镜/PBR实用工具*
-
-**简单**
+<b>进入：</b>材质过滤器> PBR实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,17 +37,15 @@ ht-degree: 1%
 
 如果具有用一个PBR模型制作的图形或材质，而目标需要不同的模型，则此功能非常有用。
 
-## 参数
-
-* **使用SpecularLevel输入**： *False/True*&#x200B;向SpecularLevel输入公开额外的输入槽。 在转换过程中也会考虑这一点。
-* ***目标**： *PBR Spinder/Specular/Gloss、Vray (GGX)、Corona、Corona 1.6+、Redshift 1.x、Arnold 4 (AiStandard)、Arnold 4 (AlSurface)、RenderMan (PxrSurface)**设置转换目标模型。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>使用SpecularLevel输入</b> <i>False/True</i> | 将额外的输入槽公开为SpecularLevel输入。 在转换过程中也会考虑这一点。 |
+| <b>目标</b> <i>PBRDiffuse/Specular/光泽、Vray (GGX)、Corona、Corona 1.6+、Redshift 1.x、Arnold 4 (AiStandard)、Arnold 4 (AlSurface)、RenderMan (PxrSurface)</i> | 设置转换目标模型。 |

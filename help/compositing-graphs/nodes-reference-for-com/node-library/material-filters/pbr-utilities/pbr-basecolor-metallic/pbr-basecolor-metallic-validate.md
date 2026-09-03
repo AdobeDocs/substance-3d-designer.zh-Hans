@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR BaseColor金属验证
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-basecolor-metallic-validate.png){width="128px"}
+![](pbr-basecolor-metallic-validate.resources/pbr-basecolor-metallic-validate-01.png){width="128px"}
 
-## PBR基色/金属验证
-
-**在：** *材质滤镜/PBR实用工具*
-
-**简单**
+<b>进入：</b>材质过滤器> PBR实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,19 +39,17 @@ ht-degree: 0%
 
 不要将此工具用作最终工具，但仍要确保您始终清楚地了解为什么要违反此工具可能突出显示的任何规则。
 
-## 参数
-
-* **验证模式**： *反照率、金属、组合*&#x200B;设置是否仅检查反照率、金属或两者组合作为概述模式。
-* **反照率暗范围阈值**： *50 sRGB， 30 sRGB*&#x200B;将反照率下限设置为50或30 sRGB。 可以减小或增大红色区域的容差。
-* **金属反射范围**： *70-100%反射，60-100%反射*&#x200B;改变金属范围，认为正确。 可以减小或增大红色区域的容差。
-* **叠加图**： *False/True*&#x200B;用于叠加输入图的快速调试模式，可更快地跟踪问题区域。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>验证模式</b> <i>反照率，金属，已合并</i> | 设置是仅检查反照率模式、金属模式还是同时检查这两种模式作为概述模式。 |
+| <b>反照率的深色范围阈值</b> <i>50 sRGB， 30 sRGB</i> | 将反照率下限设置为50或30 sRGB。 可以减小或增大红色区域的容差。 |
+| <b>金属反射范围</b> <i>70-100%反光，60-100%反光</i> | 将金属范围更改为正确。 可以减小或增大红色区域的容差。 |
+| <b>叠加地图</b> <i>False/True</i> | 通过快速调试模式叠加输入图，可更快地跟踪问题区域。 |

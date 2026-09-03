@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 参数未按预期方式工作
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 5%
+source-wordcount: '295'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 5%
 
 ## 参数在预览模式下不起作用且已发布Substance 3D资源(SBSAR)
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](parameters-not-working-as-expected.resources/error.svg)问题</b>
 
 在Designer中使用[预览模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，或者在图表中的Substance 3D资源(SBSAR) [已发布](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的参数列表中，图形的某些公开参数&#x200B;*未列出*。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](parameters-not-working-as-expected.resources/check.svg)建议的步骤</b>
 
 缺少的参数可能是[静态参数](../../glossary/glossary.md)，在图形&#x200B;*被烹调*&#x200B;后&#x200B;*无法动态编辑*，即经过处理以便快速高效地运行其算法。 每次图形&#x200B;*已编辑*&#x200B;或&#x200B;*已发布*&#x200B;时，Designer中都会发生烹饪。 受此类限制影响的参数列在此文档的[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)页的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分中。
 
@@ -47,10 +47,10 @@ ht-degree: 5%
 
 ## 应用于参数的Substance函数图的结果不正确
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](parameters-not-working-as-expected.resources/error.svg)问题</b>
 
 当使用负整数时，应用于Substance参数的节点函数图形不会输出预期值。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](parameters-not-working-as-expected.resources/check.svg)建议的步骤</b>
 
-当前不支持负整数。 作为解决方法，在[Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)值中使用负整数值，并使用[Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)节点提取它。
+当前不支持负整数。 作为解决方法，请使用[整数2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)值中的负整数，然后使用[节点](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)Swizzle 整数提取该值。

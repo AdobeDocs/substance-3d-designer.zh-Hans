@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,85 +22,71 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extend-shape-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extend-shape-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**英寸：**&#x200B;滤镜*/效果*
-
-**简单**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-**Extend Shape**&#x200B;节点将&#x200B;**输入**&#x200B;的&#x200B;*节*&#x200B;延伸至设定的方向和距离。
+<b>Extend Shape</b>节点将<b>输入</b>的<i>节</i>延伸至设定的方向和距离。
 
-使用&#x200B;**Show helper**&#x200B;参数可以可视化扩展部分和扩展方向。
+使用<b>Show helper</b>参数可以可视化扩展部分和扩展方向。
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-* **模式** *整数*&#x200B;定义用于应用扩展的&#x200B;*参数*：
-  * *双向*：由&#x200B;**扩展位置**&#x200B;和&#x200B;**扩展角度**&#x200B;指定的&#x200B;**输入**&#x200B;部分在&#x200B;*相反方向*&#x200B;上扩展到&#x200B;**扩展距离**&#x200B;上
-  * *单向*：由&#x200B;**扩展位置**&#x200B;和&#x200B;**扩展角度**&#x200B;指定的&#x200B;**输入**&#x200B;部分在&#x200B;*单向*&#x200B;中扩展到&#x200B;**扩展距离**&#x200B;上
-  * *开始/结束位置*：扩展&#x200B;*矢量*&#x200B;由&#x200B;**开始位置**&#x200B;和&#x200B;**结束位置**&#x200B;定义。 **开始位置**&#x200B;处&#x200B;**输入**&#x200B;的&#x200B;*垂直*&#x200B;部分在&#x200B;*上在此矢量*&#x200B;上扩展到&#x200B;**结束位置**
-* **延伸距离** *浮动*&#x200B;应延伸由&#x200B;**延伸位置**&#x200B;和&#x200B;**延伸角度**&#x200B;所指定的截面的距离。 距离以图像范围的&#x200B;*比例*&#x200B;表示。
-* **扩展位置** *浮点*&#x200B;应扩展的分区图像中的位置。 该值表示为距中心&#x200B;*的*&#x200B;偏移。
-* **扩展角度** *浮点*&#x200B;考虑到起始点为&#x200B;*垂直截面*，应扩展的截面的角度。
-* **开始位置** *浮点2* *扩展矢量*&#x200B;的开始位置。
-* **结束位置** *浮点2* *扩展矢量*&#x200B;的结束位置。
-* **开始明亮度偏移** *浮动*&#x200B;将明亮度偏移应用于&#x200B;*位于*&#x200B;扩展部分之前的图像区域。 此明亮度偏移是沿截面&#x200B;*向截面之后的图像区域的明亮度插入的*。\
-  *注意*：此参数仅在节点的&#x200B;**灰度**&#x200B;版本中可用。
-* **结束明亮度偏移** *浮动*&#x200B;将明亮度偏移应用于&#x200B;*跟随扩展部分*&#x200B;的图像区域。 此明亮度偏移是沿截面&#x200B;*向截面前图像区域的明亮度插入的*。\
-  *注意*：此参数仅在节点的&#x200B;**灰度**&#x200B;版本中可用。
-* **亮度。 “偏移”忽略黑色像素** *布尔值*&#x200B;当设置为&#x200B;*True*&#x200B;时，*两者* **开始明亮度偏移**&#x200B;和&#x200B;**结束明亮度偏移**&#x200B;中指定的明亮度偏移仅应用于&#x200B;*非黑色*&#x200B;像素，即值大于0的像素。\
-  *注意*：此参数仅在节点的&#x200B;**灰度**&#x200B;版本中可用。
-* **筛选模式** *整数*&#x200B;定义在像素之间&#x200B;*插值*&#x200B;时如何处理取样结果：
-  * *最接近的*：将对&#x200B;*相同的*&#x200B;值取样（较快）
-  * *双线性*：将在结果上应用双线性滤镜，以实现&#x200B;*更平滑*&#x200B;的外观
-* **显示帮助程序** *布尔值*&#x200B;将&#x200B;*扩展部分*&#x200B;显示为叠加，箭头显示扩展的&#x200B;*方向*。
+|  |  |
+|:---|:---|
+| <b>模式</b> <i>整数</i> | 定义用于应用扩展的<i>参数</i>： <b>扩展位置</b>和<b>扩展角度</b>指定的<b>输入</b>部分在<b>扩展距离</b>上沿<i>相反方向</i><br>- <i>单向</i>延伸： <b>扩展位置</b>和<b>扩展指定的<b>输入</b>部分角度</b>沿<i>单向</i><br>- <i>开始/结束位置</i>延伸<b>延伸距离</b>：延伸<i>矢量</i>由<b>开始位置</b>和<b>结束位置</b>定义。 <br><br><i></i><b>开始位置</b>处<b>输入</b>的<i>垂直</i>部分在<i>上在此矢量</i>上扩展到<b>结束位置</b> |
+| <b>扩展距离</b> <i>浮动</i> | 由<b>扩展位置</b>和<b>扩展角度</b>指定的部分应扩展到的距离。 距离以图像范围的<i>比例</i>表示。 |
+| <b>扩展位置</b> <i>浮动</i> | 应延伸的截面在图像中的位置。 该值表示为距中心</i>的<i>偏移。 |
+| <b>扩展角度</b> <i>浮动</i> | 考虑到起始点为<i>垂直截面</i>，应扩展的截面的角度。 |
+| <b>起始位置</b> <i>浮点2</i> | <i>扩展矢量</i>的开始位置。 |
+| <b>结束位置</b> <i>浮点2</i> | <i>扩展矢量</i>的结束位置。 |
+| <b>开始明亮度偏移</b> <i>浮动</i> | 将明亮度偏移应用于扩展部分<i></i>之前的图像区域。 此明亮度偏移是沿节</i>向节之后的图像区域明亮度插入的<i>。<br><br><i>注意</i>：此参数仅在节点的<b>灰度</b>版本中可用。 |
+| <b>结束明亮度偏移</b> <i>浮动</i> | 将明亮度偏移应用于扩展部分<i>之后</i>的图像区域。 此明亮度偏移是沿节</i>向节前图像区域的明亮度插入的<i>。<br><br><i>注意</i>：此参数仅在节点的<b>灰度</b>版本中可用。 |
+| <b>亮度。 偏移忽略黑色像素</b> <i>布尔值</i> | 设置为<i>True</i>时，在<i>both</i>中指定的明亮度偏移 <b>开始明亮度偏移</b>和<b>结束明亮度偏移</b>仅应用于<i>非黑色</i>像素，即值大于0的像素。<br><br><i>注意</i>：此参数仅在节点的<b>灰度</b>版本中可用。 |
+| <b>筛选模式</b> <i>整数</i> | 定义在像素<br><br>- <i>最近的</i>：之间<i>插值</i>时如何处理采样结果：将对完全相同的<i>相同</i>值（更快）<br>- <i>双线性</i>：对结果应用双线性的滤镜以获得<i>更平滑</i>的外观 |
+| <b>显示助手</b> <i>布尔值</i> | 将<i>扩展部分</i>显示为叠加，箭头显示扩展的<i>方向</i>。 |
 
-## 示例图像
+## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-node.png){width="360px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-06.png" />
+        </td>
+    </tr>
 </table>

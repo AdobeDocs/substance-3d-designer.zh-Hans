@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点： FX-Map](../../../../assets/fxmap.png "原子节点： FX-Map"){width="200px"}
+![原子节点： FX-Map](fx-map.resources/fx-map-01.png "原子节点： FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,4 +102,4 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 
 ## 示例
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

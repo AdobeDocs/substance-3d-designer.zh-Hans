@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：正常](../../../../assets/comp_normal_1.png "原子节点：正常"){width="200px"}
+![原子节点：正常](normal.resources/normal-01.png "原子节点：正常"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 属性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![属性程序坞](../../assets/image2020-11-9-13-49-48.png "属性程序坞")
+![属性程序坞](properties.resources/properties-01.png "属性程序坞")
 
 </td>
 </tr>

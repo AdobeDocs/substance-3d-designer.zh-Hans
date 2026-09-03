@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 网格1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-1.png){width="128px"}
+![](mesh-1.resources/mesh-1-01.png){width="128px"}
 
-## 网格1
-
-**英寸：** *纹理生成器**/Patterns*
-
-**简单**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 具有细块的简单网格图案。 适合创建Height和细节映射。
 
-## 参数
-
-* **拼贴**： *1 - 16*\
-  设置结果应平铺的次数。
-* **旋转45度**： *False/True*&#x200B;将结果旋转45度。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/mesh-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
+| <b>旋转45度</b> <i>False/True</i> | 将结果旋转45度。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-1.resources/mesh-1-02.gif" />
+        </td>
+    </tr>
 </table>

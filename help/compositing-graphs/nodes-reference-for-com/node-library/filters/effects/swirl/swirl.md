@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 漩涡
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
@@ -22,33 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
+![](swirl.resources/swirl-01.png)![](swirl.resources/swirl-02.png)
 
-## 漩涡（灰度）
-
-**范围：** *滤镜/效果*
-
-**简单**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-这可以通过在旋转方向变形输入图像来变换该图像。 它还可以控制将旋流移动到画布的某些部分。
-
-## 参数
-
-* **矩阵**\
-  允许您手动移动旋流效果。 也可以通过与2D预览中的手柄交互来修改。
-  * **矩阵**： *（转换矩阵）*
-  * **偏移**： *0.0 - 1.0*
-* **数量**： *-16.0 - 16.0*&#x200B;旋转效果的强度。
-
-## 示例图像
+这可以通过在旋转方向变形输入图像来变换颜色。 它还可以控制将旋流移动到画布的某些部分。
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>矩阵</b> | 允许您手动移动旋流效果。 也可以通过与2D预览中的手柄交互来修改。 |
+| <b>矩阵</b> <i>（转换矩阵）</i> |  |
+| <b>偏移</b> <i>0.0 - 1.0</i> |  |
+| <b>金额</b> <i>-16.0 - 16.0</i> | 旋转效果的强度。 |

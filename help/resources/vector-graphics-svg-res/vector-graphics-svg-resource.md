@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 矢量图形 (SVG) 资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 * 支持描边，但仅会导致1像素宽的描边，并且忽略描边样式；
 * 虚线样式一定会断开；
 * 文本需要转换为要渲染的路径/轮廓；
-* 不支持[复合路径](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)；
+* 不支持[复合路径](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)；
 * 不支持渐变等高级功能；
 * 不支持CSS属性的样式元素。
 
@@ -87,7 +87,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 > 画板可能会影响生成的SVG文件的结果。 某些Illustrator文件模板引入了多个画板。\
 > 尝试仅保留一个已正确裁剪的画板，并在另存为SVG时在“画板”窗口中选择它。
 
-![SVG导出选项](../../assets/svg-export-options-ai.jpg "IllustratorSVG导出选项"){width="512px"}
+![SVG导出选项](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "IllustratorSVG导出选项"){width="512px"}
 
 ### Inkscape
 

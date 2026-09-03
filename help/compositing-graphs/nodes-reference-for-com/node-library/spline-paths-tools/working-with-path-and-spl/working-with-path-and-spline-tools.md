@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用路径样条曲线工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![路径多边形输出](../../../../../assets/PathsPolygon_Data.jpg "路径多边形输出")
+![路径多边形输出](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "路径多边形输出")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![2D视图中的样条三次](../../../../../assets/SplineCubic-Demo.gif "2D视图中的样条三次")
+![2D视图中的样条三次](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "2D视图中的样条三次")
 
 </td>
 </tr>
@@ -79,14 +79,14 @@ ht-degree: 0%
 
 路径和样条曲线工具需要大量计算，因此，在使用工具集时，您应该注意一些设置，以确保实现最佳性能和响应速度：
 
-1. 该工具集广泛使用了<b>Substance 引擎</b>功能，这些功能在GPU上的运行速度要快得多。 因此，请为您的系统使用GPU版本的引擎： <b>Direct3D</b> (Windows)或<b>OpenGL</b> (macOS)。\
-   您可以通过按<b>F9</b>键或转到主菜单栏中的<b>工具>切换引擎……</b>来切换引擎。
+1. 该工具集广泛使用了<b>Substance 引擎</b>功能，这些功能在GPU上的运行速度要快得多。 因此，请对您的系统使用GPU版本的引擎： <b>Direct3D</b> (Windows)或<b>OpenGL</b> (macOS)。\
+   您可以通过按<b>F9</b>键或转到主菜单栏中的<b>引擎>切换引擎...</b>来切换工具。
 1. 然后，我们强烈建议在[首选项](../../../../../interface/preferences-window/preferences-window.md)的<b>图形</b>部分中关闭<b>上下文编辑</b>（转到主菜单栏中的<b>编辑>首选项……</b>以访问此窗口）。\
-   使用上下文编辑可以在主机图形的上下文中打开实例节点，这虽然非常方便，但也会带来负面影响，即工具集的图像缓存所需的计算量会成指数级增加。
+   使用上下文编辑功能，您可以在宿主图形的上下文中打开实例化，这虽然非常方便，但也会产生副作用，如成倍地增加工具集的图像缓存所需的计算。
 
 当将这两个设置中的任何一个更改为推荐状态时，您应该会注意到性能的大幅提升。
 
-![库中的路径工具](../../../../../assets/PathsTools.jpg "库中的路径工具")
+![库中的路径工具](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "库中的路径工具")
 
 ## 路径工具
 
@@ -94,14 +94,14 @@ ht-degree: 0%
 
 [路径多边形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)生成具有指定半径和边数的多边形形状的路径。
 
-或者，可以使用[蒙版到路径](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)节点从灰度图像中提取路径。\
-这是当前生成复杂形状的唯一方法，它允许您利用[Substance图形节点](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)的整个库来生成最终将转换为路径的形状。
+或者，可以使用[蒙版到路径](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)灰度图像从节点中提取路径。\
+这是当前生成复杂形状的唯一方法，它允许您利用[图形节点](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)的整个库来生成最终将转换为路径的形状。
 
-![路径生成节点](../../../../../assets/Paths_Generation.jpg "路径生成节点"){width="600px"}
+![路径生成节点](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "路径生成节点"){width="600px"}
 
 ### 编辑路径
 
-[路径2D变换](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)、[路径变形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)和[路径四元变换](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)允许您编辑路径的形状。
+[路径2D变换](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)、[路径变形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)和[路径上的四边变换](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)允许您编辑路径的形状。
 
 您也可以使用[路径选择](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)节点，通过按索引或按长度选择路径来删除不需要的路径。
 
@@ -114,14 +114,14 @@ ht-degree: 0%
 ### “预览路径”节点
 
 使用专用的[预览路径](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)节点预览路径节点的结果。\
-此节点没有输出。 双击节点上的LMB可在[2D视图](../../../../../interface/2d-view/2d-view.md)中显示预览。
+此节点没有输出。 双击节点上的LMB以在[2D 视图](../../../../../interface/2d-view/2d-view.md)中显示预览。
 
 单独的路径在预览中具有唯一的颜色，以便轻松地区分每个路径。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![预览路径节点](../../../../../assets/PreviewPaths_Node.jpg "预览路径节点")
+![预览路径节点](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "预览路径节点")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 <b>蒙版>路径蒙版>样条路径</b>
 
-![样条路径](../../../../../assets/Spline_PathToSpline.jpg "样条路径")
+![样条路径](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "样条路径")
 
 ### 路径格式规范
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 您可以使用此规范生成您自己的节点，并充分利用[路径顶点处理器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)节点。
 
-![库中的样条曲线工具](../../../../../assets/SplineTools.jpg "库中的样条曲线工具")
+![库中的样条曲线工具](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "库中的样条曲线工具")
 
 ## 样条曲线工具
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 这会影响需要合并样条的节点，如[样条桥（列表）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)、[样条桥映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)和[样条合并列表](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)。
 
-![添加具有链接创建模式的样条](../../../../../assets/LinkCreationMode_Splines.gif "添加具有链接创建模式的样条")
+![添加具有链接创建模式的样条](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "添加具有链接创建模式的样条")
 
 ### 样条输入和输出
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![在样条节点上预览输出](../../../../../assets/Spline_PreviewOutput.jpg "在样条节点上预览输出")
+![在样条节点上预览输出](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "在样条节点上预览输出")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![样条渲染为段](../../../../../assets/Spline_Segments.jpg "样条渲染为段")
+![样条渲染为段](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "样条渲染为段")
 
 </td>
 </tr>

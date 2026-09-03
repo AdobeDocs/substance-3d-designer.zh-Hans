@@ -1,7 +1,7 @@
 ---
 title: 形状飞溅v2映射器颜色
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>生成器>图案>形状飞溅v2映射器颜色
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+description: Designer >Substance合成图形>Substance合成节点的图形参考>节点库>生成器>图案>形状飞溅v2映射器颜色
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![形状飞溅v2映射器颜色图标](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "形状飞溅v2映射器颜色")
+![形状飞溅v2映射器颜色图标](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "形状飞溅v2映射器颜色")
 
 <b>进入：</b>生成器>图案
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 |                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:--------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>输入</b>网格图集 *颜色* | 打包到网格版面中的图案的彩色图像。<br><br>网格大小应与[形状飞溅v2](../shape-splatter-v2/shape-splatter-v2.md)节点使用的网格大小匹配。<br><br>使用[网格图集颜色](../grid-atlas-color/grid-atlas-color.md)节点将单独的图案打包到网格图集中。 |
+| <b>输入</b>网格图集 *颜色* | 打包到网格布局中的图案的彩色图像。<br><br>网格大小应与[形状飞溅v2](../shape-splatter-v2/shape-splatter-v2.md)节点使用的颜色大小匹配。<br><br>使用[网格图集颜色](../grid-atlas-color/grid-atlas-color.md)节点将单独的图案打包到网格图集中。 |
 | <b>模式输入1</b> *颜色* | 映射到形状的#1图案的彩色图像。<br><br><i>提示：</i>请使用接近图案在散布时可能具有的最大大小的分辨率。 |
 | <b>模式输入2</b> *颜色* | 映射到形状的#2图案的彩色图像。<br><br><i>提示：</i>请使用接近图案在散布时可能具有的最大大小的分辨率。 |
 | <b>模式输入3</b> *颜色* | 映射到形状的#3图案的彩色图像。<br><br><i>提示：</i>请使用接近图案在散布时可能具有的最大大小的分辨率。 |
@@ -68,7 +68,7 @@ ht-degree: 0%
 | <b>Splatter UVW</b> *颜色* | <b>R</b> — 形状的UV的U分量。<br><b>G</b> — 形状的UV的V分量。<br><b>B</b> — 形状的Height。 (W)<br><b>A</b> — 打包的数据：<br> - <i>整数部分：</i>形状的唯一标识符。 (ID)<br> - <i>分数部分：</i>取决于<b>形状类型</b>：如果是SDF/基元，则为素材ID；如果是pattern input/atlas，则为图案ID*。<br><br><b>*：</b>图案ID是列表/地图集中形状的索引。 |
 | <b>飞溅数据1</b> *颜色* | <b>R</b> — 对象空间中形状表面位置的X分量。<br><b>G</b> — 对象空间中形状表面位置的Y分量。<br><b>B</b> — 对象空间中形状表面位置的Z分量。<br><b>A</b> — 打包的数据：<br> - <i>整数部分：</i>U数据2/3输出中形状数据的UV坐标分量。<br> - <i>小数部分：</i> V组成数据2/3输出中形状数据的UV坐标。<br> - <i>符号：</i>用于形状与背景Height混合的二进制蒙版。 |
 | <b>飞溅数据2</b> *颜色* | <b>R</b> — 形状的3D旋转的X分量。<br><b>G</b> — 形状的3D旋转的Y分量。<br><b>B</b> — 形状的3D旋转的Z分量。<br><b>A</b> — 形状围绕其法线旋转。<br><br>所有旋转均按旋转次数定义。 |
-| <b>飞溅数据3</b> *颜色* | <b>R</b> — 形状位置的X分量。<br><b>G</b> — 形状位置的Y分量。<br><b>B</b> — 形状沿其法向偏移。<br><b>A</b> — 压缩数据：<br> - <i>整数部分：</i>形状的ID。<br> - <i>小数部分：</i>形状图案在其源地图集中的索引。 （如果使用网格图集图案类型） |
+| <b>飞溅数据3</b> *颜色* | <b>R</b> — 形状位置的X分量。<br><b>G</b> — 形状位置的Y分量。<br><b>B</b> — 形状沿其法向偏移。<br><b>A</b> — 打包数据：<br> - <i>整数部分：</i>形状的ID。<br> - <i>小数部分：</i>形状图案在其源地图集中的索引。 （如果使用网格图集图案类型） |
 | <b>飞溅数据4</b> *颜色* | <i>像素1</i><br><b>R</b> — 数据2/3输出图像的X大小。<br><b>G</b> — 数据2/3输出图像的Y大小。<br><b>B</b> — 数据4输出图像的X大小。<br><b>A</b> — 数据4输出图像的Y大小。<br><br><i>像素2</i><br><b>R</b> — 形状类型。 (E.g. Cube、圆柱体、...)<br><b>G</b> — 打包的数据：<br> - <i>绝对值：</i>模式输入编号。<br> - <i>符号：</i>输出法线映射的法线格式。 （正：DirectX/负： OpenGL）<br><b>B</b> - X网格图集大小。 （即列数）<br><b>A</b> - Y网格图集的大小。 （即行数） |
 
 <a name="outputs"></a>
@@ -97,15 +97,15 @@ ht-degree: 0%
 | <b>模式输入编号</b> *整数* | 应映射到形状的<b>图案输入#</b>输入图像的数量。 |
 | <b>图像索引</b> *整数* | 应映射到形状的<b>模式输入#</b>或<b>网格图集输入</b>的输入模式的索引。 |
 | <b>随机范围</b> *整数2* | 应随机选择来自<b>图案输入#</b>或<b>网格图集输入</b>的索引范围，以便将其映射到形状上。 |
-| <b>HSL调整</b> *浮点3* | 统一应用于所有形状的色相、饱和度和明亮度(HSL)的偏移。 |
-| <b>HSL随机</b> *浮点3* | 应用于形状的色相、饱和度和明亮度(HSL)的随机正偏移或负偏移，直到指定值。 |
-| <b>颜色输入不透明度</b> *浮动* | 根据所选的<b>颜色输入混合模式</b>，<b>颜色输入</b>对形状颜色的贡献的强度。 |
+| <b>HSL调整</b> *Float3* | 统一应用于所有形状的色相、饱和度和明亮度(HSL)的偏移。 |
+| <b>HSL random</b> *浮点3* | 应用于形状的色相、饱和度和明亮度(HSL)的随机正或负偏移，直到达到指定值。 |
+| <b>颜色输入不透明度</b> *Float* | 根据所选的<b>颜色输入混合模式</b>，<b>颜色输入</b>对形状颜色的贡献的强度。 |
 | <b>颜色输入混合模式</b> *整数* | 用于合并前景图像和背景图像的颜色混合操作。<br><br>这些操作与<b>混合</b>节点中的对应操作相同。<br><br>可用模式：<br>- <b>复制</b><br>- <b>相加（线性减淡）</b><br>- <b>相减</b><br>- <b>相乘</b><br>- <b>叠加</b> |
-| <b>法线角度随机</b> *浮动* | 在围绕法矢的一个圆锥的基底上，从法矢的原点到随机点生成方向矢量，然后将法矢与该随机方向矢量混合。<br><br>此参数调整圆锥的<i>角度</i>，其中1是半球，0表示方向矢量等于法向量。 |
-| <b>拼贴模式</b> *整数* | 纹理应沿的轴： <br> - <b>无拼贴</b><br> - <b>水平拼贴</b><br> - <b>垂直拼贴</b><br> - <b>H和V拼贴</b>：组合的水平和垂直拼贴。 |
-| <b>UV拼贴</b> *浮动* | 调整映射到形状的图像的全局拼贴<br><br>值越高，重复次数越多。 |
-| <b>UV 缩放</b> *浮点2* | 使用单独的控件，按U和V缩放以指定系数调整映射到形状上的图像的拼贴。 值越高重复次数越多。 |
-| <b>UV 偏移</b> *浮点2* | 将偏移应用于形状上的图像映射，从而能够微调图像在形状上的位置。<br><br>此偏移已添加到<b>随机偏移</b>（如果有）。 |
+| <b>法线角度随机</b> *Float* | 在围绕法矢的一个圆锥的基底上，从法矢的原点到随机点生成方向矢量，然后将法矢与该随机方向矢量混合。<br><br>此参数调整圆锥的<i>角度</i>，其中1是半球，0表示方向矢量等于法向量。 |
+| <b>拼贴模式</b> *整数* | 应沿其重复纹理的轴： <br> - <b>无拼贴</b><br> - <b>水平拼贴</b><br> - <b>垂直拼贴</b><br> - <b>H和V拼贴</b>：组合水平和垂直拼贴。 |
+| <b>UV拼贴</b> *Float* | 调整映射到形状的图像的全局拼贴<br><br>值越高，重复次数越多。 |
+| <b>UV 缩放</b> *浮点2* | 使用单独的U和V缩放控件按指定因子调整映射到形状的图像的拼贴。 值越高重复次数越多。 |
+| <b>UV 偏移</b> *Float2* | 将偏移应用于形状上的图像映射，从而能够微调图像在形状上的位置。<br><br>此偏移已添加到<b>随机偏移</b>（如果有）。 |
 | <b>随机偏移</b> *浮动* | 将每个形状</i>的随机正偏移量或负偏移量<i>应用于形状间图像的映射，直到达到指定的值。<br><br>此偏移已添加到<b>UV 偏移</b>（如果有）。 |
 
 ## 示例
@@ -113,24 +113,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>三平面映射</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>三平面映射</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>正常映射</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>正常映射</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>从SDF形状映射每个材质ID</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>从SDF形状映射每个材质ID</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>使用三平面映射进行拼贴调整</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>使用三平面映射进行拼贴调整</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>从圆柱形状映射每个材质ID</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>从圆柱形状映射每个材料ID</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>图形上下文中的节点</i>" /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>图形上下文中的节点</i>" /&gt;
         </td>
     </tr>
 </table>

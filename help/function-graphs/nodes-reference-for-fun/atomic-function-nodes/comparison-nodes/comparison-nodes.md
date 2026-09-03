@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 对比
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -24,4 +24,4 @@ ht-degree: 2%
 
 它返回True或False，具体取决于比较结果：
 
-![](../../../../assets/image2015-12-23-11-57-3.png)
+![](comparison-nodes.resources/comparison-nodes-01.png)

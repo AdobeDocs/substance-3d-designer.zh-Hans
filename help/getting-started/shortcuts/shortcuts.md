@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快捷键
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ ht-degree: 17%
 
 **Windows**
 
-![Windows上的键盘快捷键](../../assets/keyboard_shortcuts_win.png "Windows上的键盘快捷键"){zoomable="yes"}
+![Windows上的键盘快捷键](shortcuts.resources/shortcuts-01.png "Windows上的键盘快捷键"){zoomable="yes"}
 
 **macOS**
 
-![macOS上的键盘快捷键](../../assets/keyboard_shortcuts_mac.png "macOS上的键盘快捷键"){zoomable="yes"}
+![macOS上的键盘快捷键](shortcuts.resources/shortcuts-02.png "macOS上的键盘快捷键"){zoomable="yes"}
 
 ## 快捷键列表
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 | 粘贴 | Ctrl + V | ⌘ + V |
 | 上下文菜单 | 人民币 | 人民币 |
 | 节点菜单 | 空格键 | 空格键 |
-| 循环[导航图钉](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| 循环[导航大头针](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>链接创建模式</b>
 

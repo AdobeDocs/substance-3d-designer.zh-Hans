@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
-description: 使用“棋盘格1”节点生成具有可自定义的拼贴大小和颜色的棋盘格图案，以用于测试和纹理。
+description: 使用“棋盘格1”节点生成具有可自定义的拼贴大小和颜色的棋盘格图案，以供测试和纹理之用。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Checker 1
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 棋盘格1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-01.png){width="128px"}
 
-## 棋盘格1
-
-**英寸：** *纹理生成器**/Patterns*
-
-**简单**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-非常简单的棋盘格图案。 拼贴有意设置为较低值，以尽可能使其泛为一体。
+非常简单的棋盘格图案。 拼贴有意设置为较低值，以使其尽可能通用。
 
-由于该模式具有明显的对比度和拼贴效果，是一种非常有用的测试用例模式。
-
-## 参数
-
-* **拼贴**： *1 - 16*\
-  设置结果应平铺的次数。
-* **旋转45度**： *False/True*&#x200B;将整个图案旋转45度。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/checker-1-ex.gif)
+该方法具有明显的对比和拼贴，是一种比较实用的试验方法。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
+| <b>旋转45度</b> <i>False/True</i> | 将整个图案旋转45度。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="checker-1.resources/checker-1-02.gif" />
+        </td>
+    </tr>
 </table>

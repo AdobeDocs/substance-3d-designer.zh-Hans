@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 样条填充
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/spline-fill-icon.png "节点图标")
+![节点图标](spline-fill.resources/spline-fill-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -45,28 +45,23 @@ ht-degree: 0%
 >
 > 建议不要在[0， 1]拼贴之外的样条上使用此节点。 这种情况下，充填过程是不可靠的。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>样条坐标</b> *颜色*&#x200B;在彩色图像的RGBA通道中编码的输入样条点的坐标：\
-<b> R</b> - X位置\
-<b> G</b> - Y位置\
-<b> B</b> -Height\
-<b>A</b> — 打包的数据：\
-*符号：样条是封闭的（负）或开放的（正）；\
-*绝对值：Thickness+ 1。
+## 输入
 
-<b>样条数据</b> *颜色*&#x200B;编码在彩色图像的RGBA通道中的输入样条的其他数据。\
-<b> R</b> — 切线X\
-<b> G</b> — 切线Y\
-<b> B</b> — 未使用\
-<b> A</b> — 未使用
+|  |  |
+|:---|:---|
+| <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
+| <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
+| <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
 
-<b>样条量</b> *整数*&#x200B;输入样条的数量。
+<a name="outputs"></a>
 
-## 输出连接器
+## 输出
 
-<b>输出</b> *灰度*\
-在纯黑色背景上使用纯白色填充输入样条的结果图像。
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 在纯黑色背景上使用纯白色填充输入样条的结果图像。 |
 
 ## 示例
 
@@ -77,11 +72,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/spline-fill-02.jpg" alt="SplineFill-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="样条填充 — 变量1-After">
+      <img src="spline-fill.resources/spline-fill-03.jpg" alt="样条填充 — 变量1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -90,7 +85,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineFill-Demo.gif "节点示例2")
+![节点示例2](spline-fill.resources/spline-fill-04.gif "节点示例2")
 
 </td>
 </tr>

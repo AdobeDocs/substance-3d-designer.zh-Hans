@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出大小
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 输出大小
 
-它是图形的<b>基本参数</b>中的第一个，与<b>输出格式</b>（或位深度）一起使用对于更好地了解图形至关重要，因为它在Designer中以及作为[已发布的Substance 3D资源(SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)文件在其他应用程序中对图形的输出都有很大影响。
+它是图形的<b>基本参数</b>中的第一个，与<b>输出格式</b>（或位深度）一起使用对于理解至关重要，因为它在Designer中以及作为[已发布的Substance 3D资源(SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)文件在其他图形中对SBSAR的输出都有很大影响。
 
 >[!TIP]
 >
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 使用“![](../../assets/props-output-size-lock.jpg)”锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值。
+> 使用“![](output-size.resources/output-size-01.jpg)”锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值。
 
 <table>
 <tr style="border: 0;">
@@ -98,16 +98,16 @@ ht-degree: 5%
 
 单击节点或图形的属性，然后在[属性](../../interface/properties/properties.md)面板中的<b>基本参数</b>部分中找到<b>输出大小</b>属性。 单击继承方法下拉菜单，选择所需的继承方法。
 
-![输出大小继承方法](../../assets/change-mode.gif "输出大小继承方法"){width="512px"}
+![输出大小继承方法](output-size.resources/output-size-02.gif "输出大小继承方法"){width="512px"}
 
 ## 示例问题
 
 如果您是新的[Adobe Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)用户，则可能会遇到一些常见问题。 我们将在下面列出一些示例以及解决方案。
 
 +++问题1
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](output-size.resources/error.svg)问题**
 
-![示例问题1](../../assets/problem2-bad.png "示例问题1")
+![示例问题1](output-size.resources/output-size-03.png "示例问题1")
 
 
 
@@ -115,9 +115,9 @@ ht-degree: 5%
 
 在图表的属性中，输出大小属性的继承方法设置为&#x200B;*绝对*，这将停止继承，而采用任意值。
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](output-size.resources/check.svg)解决方案**
 
-![示例问题1解决方案](../../assets/problem2-good.png "示例问题1解决方案")
+![示例问题1解决方案](output-size.resources/output-size-04.png "示例问题1解决方案")
 
 
 
@@ -126,9 +126,9 @@ ht-degree: 5%
 +++
 
 +++问题2
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](output-size.resources/error.svg)问题**
 
-![示例问题2](../../assets/problem1-bad.png "示例问题2")
+![示例问题2](output-size.resources/output-size-05.png "示例问题2")
 
 
 
@@ -136,9 +136,9 @@ ht-degree: 5%
 
 此问题源于[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点。 它默认为&#x200B;*Absolute*&#x200B;继承方法，并基于[位图资源](../../resources/bitmap-resource/bitmap-resource.md)选择512\*512作为分辨率。 与其连接的节点设置为&#x200B;*相对于输入*，因此从Bitmap节点继承其“输出大小”。
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](output-size.resources/check.svg)解决方案**
 
-![示例问题2解决方案](../../assets/problem1-good.png "示例问题2解决方案")
+![示例问题2解决方案](output-size.resources/output-size-06.png "示例问题2解决方案")
 
 
 
@@ -147,9 +147,9 @@ ht-degree: 5%
 +++
 
 +++问题3
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](output-size.resources/error.svg)问题**
 
-![示例问题3](../../assets/problem3-bad.png "示例问题3")
+![示例问题3](output-size.resources/output-size-07.png "示例问题3")
 
 
 
@@ -157,9 +157,9 @@ ht-degree: 5%
 
 此问题是由[变换2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点上的相对修饰符3引起的，使输出增大8倍。
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](output-size.resources/check.svg)解决方案**
 
-![示例问题3解决方案](../../assets/problem3-good.png "示例问题3解决方案")
+![示例问题3解决方案](output-size.resources/output-size-08.png "示例问题3解决方案")
 
 
 

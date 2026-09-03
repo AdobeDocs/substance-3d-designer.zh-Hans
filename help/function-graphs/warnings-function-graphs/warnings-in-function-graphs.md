@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 函数图表中的警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 警告显示在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。\
 如果函数&#x200B;*应用于[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的参数*，则任何警告都将导致为该参数引发警告“*[x]参数的函数存在一些错误*”。
 
-## ![（错误）](../../assets/error.svg)未定义输出节点
+## ![（错误）](warnings-in-function-graphs.resources/error.svg)未定义输出节点
 
 函数未定义输出节点。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](warnings-in-function-graphs.resources/check.svg)解决方案**
 
 选择图形中输出类型与此函数的预期类型匹配的值的任何节点（如果有），然后单击RMB并在上下文菜单中选择&#x200B;**设置为输出节点**&#x200B;选项。\
 函数图表的输出节点被着色&#x200B;*橙色*。
@@ -45,13 +45,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-01.gif)
 
 </td>
 </tr>
 </table>
 
-### ![（错误）](../../assets/error.svg)当前输出节点返回类型为&#x200B;*x*&#x200B;的值
+### ![（错误）](warnings-in-function-graphs.resources/error.svg)当前输出节点返回类型为&#x200B;*x*&#x200B;的值
 
 函数的输出节点返回一个类型与该函数的预期输出值类型不匹配的值。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](warnings-in-function-graphs.resources/check.svg)解决方案**
 
 选择图形中输出类型与此函数的预期类型匹配的值的任何节点，然后单击RMB并在上下文菜单中选择&#x200B;**设置为输出节点**&#x200B;选项。\
 函数图表的输出节点被着色&#x200B;*橙色*。
@@ -71,13 +71,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-02.gif)
 
 </td>
 </tr>
 </table>
 
-### ![（错误）](../../assets/error.svg)某些Get节点没有变量名称
+### ![（错误）](warnings-in-function-graphs.resources/error.svg)某些Get节点没有变量名称
 
 一个或多个[Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)节点的<b>Get...</b>属性留空，因此不引用任何变量。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](warnings-in-function-graphs.resources/check.svg)解决方案**
 
 将与该函数作用域&#x200B;*中可用的变量*&#x200B;的名称匹配的字符串输入到Get节点的&#x200B;**Get...**&#x200B;属性中，引发此警告。
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-03.gif)
 
 </td>
 </tr>
 </table>
 
-### ![（错误）](../../assets/error.svg)某些集节点没有变量名称
+### ![（错误）](warnings-in-function-graphs.resources/error.svg)某些集节点没有变量名称
 
 一个或多个[Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)节点的&#x200B;**Set**&#x200B;属性留空，因此不引用任何变量。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（刻度）](../../assets/check.svg)解决方案**
+**![（刻度）](warnings-in-function-graphs.resources/check.svg)解决方案**
 
 将任何字符串输入到Set节点的&#x200B;**Set**&#x200B;属性中引发此警告。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-04.gif)
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 表达式可见
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 * 图形的[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)节点；
 * 图形的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点。
 
-![切换输入参数可见性](../../assets/visible-if-example.gif "切换输入参数可见性"){width="512px"}
+![切换输入参数可见性](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "切换输入参数可见性"){width="512px"}
 
 如果逻辑表达式的计算结果为`true`，则在表示当前图表的所有[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)中显示参数、输入或输出。 否则，它是&#x200B;*隐藏*。
 

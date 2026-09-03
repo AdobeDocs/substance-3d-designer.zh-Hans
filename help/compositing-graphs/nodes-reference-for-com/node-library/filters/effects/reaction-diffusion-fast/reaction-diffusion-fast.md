@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 快速反应扩散
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![反应扩散节点图标](../../../../../../assets/reaction-diffusion.png "反应扩散节点图标")
+![反应扩散节点图标](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "反应扩散节点图标")
 
 <b>英寸：</b>滤镜>效果
 
@@ -43,20 +43,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>输入</b> *灰度*&#x200B;应用反应扩散效果的灰度图像。
+## 输入
 
-## 输出连接器
+|  |  |
+|:---|:---|
+| <b>输入</b> <i>灰度</i> | 应用反应漫射效果的灰度图像。 |
 
-<b>输出&#x200B;</b>*灰度*&#x200B;表示应用于输入图像的反应扩散效果的灰度图像。
+<a name="outputs"></a>
+
+## 输出
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 表示应用于输入图像的反作用漫射效果的灰度图像。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>半径</b> *浮动*&#x200B;效果应扩散的距离。
-
-<b>对比度</b> *浮动*\
-调整输入内容的对比度，有点像是主动变更。
+|  |  |
+|:---|:---|
+| <b>半径</b> *浮动* | 这种影响应该扩散到多远。 |
+| <b>对比度</b> *浮动* | 调整输入内容的对比度，有点像是主动变更。 |
 
 ## 示例
 
@@ -64,17 +74,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![示例1](../../../../../../assets/reactdiff03.png "示例1")
+![示例1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例2](../../../../../../assets/reactdiff02.png "示例2")
+![示例2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "示例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例3](../../../../../../assets/reactdiff01.gif "示例3")
+![示例3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "示例3")
 
 </td>
 </tr>

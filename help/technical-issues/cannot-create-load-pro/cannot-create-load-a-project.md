@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 无法创建加载项目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 应用程序太旧，无法打开URL
 
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](cannot-create-load-a-project.resources/error.svg)问题**
 
 **Substance 3D文件(SBS)**&#x200B;正由&#x200B;*不支持其格式*&#x200B;的Substance 3D Designer版本加载。 Substance 3D文件可能&#x200B;*保存为较新的软件版本*，该软件对这些文件使用了更新的格式。
 
-**![（刻度）](../../assets/check.svg)建议的步骤**
+**![（刻度）](cannot-create-load-a-project.resources/check.svg)建议的步骤**
 
 随着Substance 3D Designer的发展，Substance 3D文件格式(SBS)也将不断发展。 新版本的软件通常需要&#x200B;*更新您的文件*，以便它们可以支持最新功能。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 首先，检查您使用的是否是当前许可证允许的最新版本的Substance 3D Designer。 以下是每个版本的更新访问点：
 
 * <b>Substance 3D订阅：</b>转到[Adobe Creative Cloud桌面](https://creativecloud.adobe.com/en/apps/download/creative-cloud)应用程序中“应用程序”选项卡的“更新”部分
-* <b>[Substance3d.com](http://Substance3d.com)订阅：在Substance 3D Designer中提示时更新</b>，或在[订阅3d.com](http://substance3d.com)网站的[我的Substance](https://store.substance3d.com/user)部分中下载最新安装程序
+* <b>[Substance3d.com](http://Substance3d.com)订阅：</b>在Substance 3D Designer中提示时更新，或在[订阅3d.com](http://substance3d.com)网站的[我的许可证](https://store.substance3d.com/user)部分中下载最新的安装程序Substance
 * <b>Steam：</b>应用程序将默认自动更新。 您可以通过启动Substance 3D Designer或转到“下载”屏幕手动触发更新
 
 >[!WARNING]
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 创建或加载项目时崩溃
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](cannot-create-load-a-project.resources/error.svg)问题</b>
 
 创建或加载项目时崩溃通常是由初始化[3D视图](../../interface/3d-view/3d-view.md)期间出错（在设置工作区时发生）引起的。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 如果在会话之间更改&#x200B;*显示配置或缩放*，以便3D视图渲染帧在无效坐标下创建，也可能会发生崩溃。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](cannot-create-load-a-project.resources/check.svg)建议的步骤</b>
 
 考虑到导致此崩溃的多种可能原因，我们建议按顺序执行以下故障诊断步骤：
 

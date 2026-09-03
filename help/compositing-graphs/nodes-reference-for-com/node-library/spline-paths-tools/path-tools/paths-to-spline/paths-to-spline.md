@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 样条路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/paths-to-splines-icon.png "节点图标")
+![节点图标](paths-to-spline.resources/paths-to-spline-01.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -47,35 +47,31 @@ ht-degree: 1%
 >
 > 此节点可在[蒙版到路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)节点之后使用，以形成将蒙版转换为样条的链。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>路径</b> *颜色*\
-已编码段路径的列表。 将此输入连接到[路径蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)的结果或连接到另一个路径处理节点。
+## 输入
 
-## 输出连接器
+|  |  |
+|:---|:---|
+| <b>路径</b> <i>颜色</i> | 已编码段路径的列表。 将此输入连接到[路径蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)的结果或连接到另一个路径处理节点。 |
 
-<b>样条坐标&#x200B;</b>*颜色*&#x200B;在彩色图像的RGBA通道中编码的输入样条点的坐标：\
-<b>R</b> - X位置\
-<b>G</b> - Y位置\
-<b>B</b> -Height\
-<b>A</b> — 打包的数据：\
-*符号：样条是封闭的（负）或开放的（正）；\
-*绝对值：Thickness+ 1。
+<a name="outputs"></a>
 
-<b>样条数据</b> *颜色*\
-以<b>颜色</b>图像的RGBA通道编码的输入样条的其他数据：\
-<b>R</b> — 切线X\
-<b>G</b> — 切线Y\
-<b>B</b> — 未使用\
-<b>A</b> — 未使用
+## 输出
 
-<b>样条量</b> *整数*\
-输入样条的数量。
+|  |  |
+|:---|:---|
+| <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> *符号：样条是闭合（负）或开放（正）；<br> *绝对值：Thickness+ 1。 |
+| <b>样条数据</b> <i>颜色</i> | 以<b>颜色</b>图像的RGBA通道编码的输入样条的其他数据：<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
+| <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>样条精度</b> *整数*\
-在“路径”输入的每个路径中采样的顶点数的base-2对数(log2)以构建相应的样条。
+|  |  |
+|:---|:---|
+| <b>样条精度</b> <i>整数</i> | 在“路径”输入的每个路径中采样的顶点数的base-2对数(log2)以构建相应的样条。 |
 
 ## 示例
 
@@ -86,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>

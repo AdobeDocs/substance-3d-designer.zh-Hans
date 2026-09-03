@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 提取素材值和纹理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![从纹理输入创建图形 — “3D视图”视口中的操作](../../assets/createGraphFromTexturesActionViewport.png "从纹理输入创建图形 — “3D视图”视口中的操作"){zoomable="yes"}
+![从纹理输入创建图形 — “3D视图”视口中的操作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "从纹理输入创建图形 — “3D视图”视口中的操作"){zoomable="yes"}
 
 *3D视图视口中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![从纹理输入创建图形 — “材质”菜单中的操作](../../assets/createGraphFromTexturesActionMaterials.png "从纹理输入创建图形 — “材质”菜单中的操作"){zoomable="yes"}
+![从纹理输入创建图形 — “材质”菜单中的操作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "从纹理输入创建图形 — “材质”菜单中的操作"){zoomable="yes"}
 
 *“材质”菜单中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![从纹理输入创建图形 — “属性”停放中的操作](../../assets/createGraphFromTexturesActionProps.png "从纹理输入创建图形 — “属性”停放中的操作"){zoomable="yes"}
+![从纹理输入创建图形 — “属性”停放中的操作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "从纹理输入创建图形 — “属性”停放中的操作"){zoomable="yes"}
 
 *属性停放中的操作*
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![从素材纹理创建图形的结果](../../assets/createGraphFromTexturesResult.png "从素材纹理创建图形的结果"){zoomable="yes"}
+![从素材纹理创建图形的结果](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "从素材纹理创建图形的结果"){zoomable="yes"}
 
 *从素材纹理创建图形的结果*
 
 +++演示
-![从纹理输入创建图形 — 演示](../../assets/createGraphFromTextures.gif "从纹理输入创建图形 — 演示"){zoomable="yes"}
+![从纹理输入创建图形 — 演示](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "从纹理输入创建图形 — 演示"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![将纹理提取到图形 — 在属性停放区中操作](../../assets/extractTextureAction.png "将纹理提取到图形 — 在属性停放区中操作"){zoomable="yes"}
+![将纹理提取到图形 — 在属性停放区中操作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "将纹理提取到图形 — 在属性停放区中操作"){zoomable="yes"}
 
 在“属性”停放中对材质属性执行的操作
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将纹理提取到图形 — “选择目标图形”对话框](../../assets/extractTextureSelectGraph.png "将纹理提取到图形 — “选择目标图形”对话框"){zoomable="yes"}
+![将纹理提取到图形 — “选择目标图形”对话框](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "将纹理提取到图形 — “选择目标图形”对话框"){zoomable="yes"}
 
 “选择目标图表”对话框
 
@@ -136,12 +136,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![纹理提取的结果](../../assets/extractTextureResult.png "纹理提取的结果"){zoomable="yes"}
+![纹理提取的结果](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "纹理提取的结果"){zoomable="yes"}
 
 纹理提取的结果
 
 +++演示
-![将纹理提取到图形 — 演示](../../assets/extractTextureToGraph.gif "将纹理提取到图形 — 演示"){zoomable="yes"}
+![将纹理提取到图形 — 演示](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "将纹理提取到图形 — 演示"){zoomable="yes"}
 
 
 
@@ -164,27 +164,27 @@ ht-degree: 0%
 
 如果图形中已存在为素材属性&#x200B;*配置的输出*，则&#x200B;*不会创建任何节点*。
 
-例如：将“各向异性级别”属性的值提取到已承载为“各向异性级别”配置的输出节点的图形将导致未在图形中创建节点。
+例如：将“Anisotropy level”属性的值提取到已承载为“Anisotropy level”配置的输出图形的节点将导致在图形中未创建任何节点。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![将值提取到图形 — 属性停放中的动作](../../assets/extractValueAction.png "将值提取到图形 — 属性停放中的动作"){zoomable="yes"}
+![将值提取到图形 — 属性停放中的动作](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "将值提取到图形 — 属性停放中的动作"){zoomable="yes"}
 
-在“属性”停放中对材质属性执行的操作
+在“属性”停放中对材料属性执行的操作
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将值提取到图形 — “选择目标图形”对话框](../../assets/extractValueSelectGraph.png "将值提取到图形 — “选择目标图形”对话框"){zoomable="yes"}
+![将值提取到图形 — “选择目标图形”对话框](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "将值提取到图形 — “选择目标图形”对话框"){zoomable="yes"}
 
 “选择目标图表”对话框
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将值提取到图形 — 值处理器节点函数中的常量节点](../../assets/extractValueResult2.png "将值提取到图形 — 值处理器节点函数中的常量节点"){zoomable="yes"}
+![将值提取到图形 — 值处理器节点函数中的常量节点](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "将值提取到图形 — 值处理器节点函数中的常量节点"){zoomable="yes"}
 
 值处理器节点函数中的常量节点
 
@@ -192,12 +192,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![值提取的结果](../../assets/extractValueResult.png "值提取的结果"){zoomable="yes"}
+![值提取的结果](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "值提取的结果"){zoomable="yes"}
 
 值提取的结果
 
 +++演示
-![将值提取到图形 — 演示](../../assets/extractValueToGraph.gif "将值提取到图形 — 演示"){zoomable="yes"}
+![将值提取到图形 — 演示](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "将值提取到图形 — 演示"){zoomable="yes"}
 
 
 

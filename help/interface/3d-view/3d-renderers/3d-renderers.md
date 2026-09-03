@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D渲染器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 路径追踪</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 +++
 
-![光栅器 — 示例1](../../../assets/3dRendererRasterizer.jpg "光栅器 — 示例1"){zoomable="yes"}
+![光栅器 — 示例1](3d-renderers.resources/3d-renderers-04.jpg "光栅器 — 示例1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 +++
 
-![GPU路径跟踪器 — 示例1](../../../assets/3dRendererPathtracer.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
+![GPU路径跟踪器 — 示例1](3d-renderers.resources/3d-renderers-05.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,13 +178,13 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 <b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
 
-Adobe标准素材详细记录在文档的[此部分](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中。
+该Adobe Standard Material已在我们文档的[此部分](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中详细记录。
 
 +++
 
 +++ AxF SVBRDF
 
-一种着色器，专门用于可视化从[AxF文件](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)中提取的材质并使用<b>SVBRDF</b>表示法。
+一个专门用于可视化从[AxF 文件](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)中提取的材料并使用<b>SVBRDF</b>表示法的着色器。
 
 有两种技术可用于可视化Height：
 
@@ -192,13 +192,13 @@ Adobe标准素材详细记录在文档的[此部分](https://experienceleague.ad
 
 <b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
 
-此着色器当前是&#x200B;*正在创作的作品*，它概述了材质的特性，但不应将其用于精细调整，并且某些特性仍不受支持。
+此着色器当前是&#x200B;*正在创作的作品*，提供了材料特性的概览，但不应将其用于精细调整，并且某些功能仍不受支持。
 
 +++
 
 +++ Blinn
 
-“老一代”，非PBR校正着色器。 使用“不透明度”、“Specular”和“正常”等标准通道旁边的扩散、Height和光泽度通道。
+“老一代”，非PBR正确着色器。 使用Diffuse、Specular和光泽度等标准声道旁的通道，如不透明度、Height和正常。
 
 有两种技术可用于可视化Height：
 
@@ -210,7 +210,7 @@ Adobe标准素材详细记录在文档的[此部分](https://experienceleague.ad
 
 +++ 朗贝尔
 
-非常简单的lambert光照着色器，仅支持扩散通道。 使用旧的点光源系统，不支持HDR图像光照。
+非常简单的lambert光照着色器，仅支持Diffuse通道。 使用旧的点光源系统，不支持HDR图像光照。
 
 +++
 
@@ -230,7 +230,7 @@ Adobe标准素材详细记录在文档的[此部分](https://experienceleague.ad
 
 * 顶点颜色
 
-* 位置（世界空间）
+* 位置(世界空间)
 
 可视化被固定到[0， 1]。 因此，不能获得对屏幕上该范围之外的值的直接读取。
 
@@ -238,7 +238,7 @@ Adobe标准素材详细记录在文档的[此部分](https://experienceleague.ad
 
 +++ 金属粗糙度
 
-金属粗糙度模型的标准PBR材料。 使用基色、金属色和粗糙度通道。
+金属粗糙度模型的标准PBR材料。 使用Base color、金属和粗糙度声道。
 
 有两种技术可用于可视化Height：
 
@@ -250,7 +250,7 @@ Adobe标准素材详细记录在文档的[此部分](https://experienceleague.ad
 
 +++ 金属粗糙度 — 铜版纸
 
-涂层的PBR材料用于金属粗糙度模型。 使用基色、金属色和粗糙度通道以及额外的“涂层”通道。
+金属粗糙度模型的涂层PBR材料。 使用Base color、金属和粗糙度声道，以及额外的“皮毛”声道。
 
 有两种技术可用于可视化Height：
 
@@ -260,9 +260,9 @@ Adobe标准素材详细记录在文档的[此部分](https://experienceleague.ad
 
 +++
 
-+++ 金属粗糙度 — SSS
++++ 金属粗糙度- SSS
 
-亚表面散射PBR材料用于金属粗糙度模型。 使用“基色”、“金属”和“粗糙度”通道以及“额外散射”通道。
+针对金属粗糙度模型的次表面散射PBR材料。 使用Base color、金属和粗糙度通道以及额外的散射通道。
 
 有两种技术可用于可视化Height：
 
@@ -296,4 +296,4 @@ Designer还为您提供了使用GLSLFX文件[&#128279;](../../../interface/3d-vi
 > 
 > 此渲染器&#x200B;**已弃用**：它将不接收新功能，并且将在未来版本的Designer中弃用。
 
-![OpenGL — 示例1](../../../assets/3dRendererOpenGL.jpg "OpenGL — 示例1"){zoomable="yes"}
+![OpenGL — 示例1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL — 示例1"){zoomable="yes"}
