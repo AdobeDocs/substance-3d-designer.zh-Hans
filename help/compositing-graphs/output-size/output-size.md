@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: 配置Substance合成图形的输出大小设置以控制纹理分辨率和质量。
 helpx_creative_field: ""

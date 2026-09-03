@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 在3D视图中的栅格化渲染器和路径跟踪器渲染器之间进行选择，以获得不同的预览品质和性能。
 helpx_creative_field: ""
@@ -178,7 +178,7 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 <b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
 
-该Adobe Standard Material已在我们文档的[此部分](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中详细记录。
+该Adobe Standard Material已在我们文档的[此部分](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中详细记录。
 
 +++
 

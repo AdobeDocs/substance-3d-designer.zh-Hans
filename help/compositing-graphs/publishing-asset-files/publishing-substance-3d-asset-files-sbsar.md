@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 了解如何从Designer发布Substance 3D资源文件(SBSAR)，以便在其他应用程序和引擎中使用。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 此页面介绍了Substance 3D Designer如何将包发布为<b>Substance 3D资源</b>文件，这是一种扩展名为<b>SBSAR</b>的特殊文件格式，在Substance生态系统以及支持该格式的其他应用程序中使用。
 
-通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
+通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)、[Sampler](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-sampler/using/home)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
 
 ![简化了发布SBSAR文件](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "简化了发布SBSAR文件")
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 * 您<b>发布包</b>，其中包含所有内容，而不是单个[图形](../../compositing-graphs/substance-compositing-graphs.md)。 然后，您可以使用Substance 3D资源从此包内的所有Substance图形生成内容。
 * 已发布的包<b>完全独立</b>：所需的所有资源都嵌入到文件中。 这意味着它们比SBS文件更易于共享。
 * Substance 3D Assets的输出可以<b>完全动态</b>。 [未设置分辨率；可以修改公开参数。](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) 但是，无法再编辑图形。
-* 可在Designer之外、所有Adobe的Substance 3D产品、Adobe Dimension以及任何其他具有[Substance集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)的应用程序中使用Substance 3D资源。
+* 可在Designer之外、所有Adobe的Substance 3D产品、Adobe Dimension以及任何其他具有[Substance集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)的应用程序中使用Substance 3D资源。
 * 发布与[导出](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)不同，请确保您充分理解其中的区别。
 
 ## 正在准备发布

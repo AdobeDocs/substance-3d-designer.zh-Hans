@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ''
 description: 探索Substance 3D Designer中的示例函数图形，以了解高级技术和最佳实践。
 helpx_creative_field: ""

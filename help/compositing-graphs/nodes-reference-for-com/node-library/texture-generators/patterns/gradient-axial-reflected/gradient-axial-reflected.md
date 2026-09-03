@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
 breadcrumb-title: ''
 description: 使用“渐变轴向反射”节点为对称颜色转变创建反射轴向渐变。
 helpx_creative_field: ""

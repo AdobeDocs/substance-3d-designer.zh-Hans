@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer函数图表中创建自定义变量以获取可重用的值和参数。
 helpx_creative_field: ""

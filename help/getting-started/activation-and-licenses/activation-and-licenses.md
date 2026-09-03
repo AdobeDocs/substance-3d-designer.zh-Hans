@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: 了解如何激活Substance 3D Designer并管理用于访问所有特性和功能的许可证。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 版本 | 激活过程 |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud桌面(CCD) | 从CCD应用程序安装该产品，然后启动它。 如果您遇到许可证问题，请转到以下页面：[应用程序由于订阅错误无法启动](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html)/[帐户、计划和计费帮助](https://helpx.adobe.com/account/individual.html) |
+| Creative Cloud桌面(CCD) | 从CCD应用程序安装该产品，然后启动它。 如果您遇到许可证问题，请转到以下页面：[应用程序由于订阅错误无法启动](https://helpx.adobe.com/cn/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html)/[帐户、计划和计费帮助](https://helpx.adobe.com/cn/account/individual.html) |
 | 蒸汽 | 直接从Steam库中启动产品。 |
 | Substance（独立） | 请参阅下述激活流程。 |
 

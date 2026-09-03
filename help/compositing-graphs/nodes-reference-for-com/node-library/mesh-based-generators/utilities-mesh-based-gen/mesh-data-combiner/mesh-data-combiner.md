@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: 使用“网格数据组合器”节点可组合多个网格数据输入，以便生成基于网格的高级纹理。
 helpx_creative_field: ""

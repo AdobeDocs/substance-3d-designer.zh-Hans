@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的主屏幕访问最近的项目、模板和学习资源。
 helpx_creative_field: ""

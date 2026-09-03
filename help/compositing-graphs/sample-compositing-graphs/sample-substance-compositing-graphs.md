@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 探索Designer中的Substance合成图形示例，了解高级技术和最佳实践。
 helpx_creative_field: ""
