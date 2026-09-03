@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: 使用“反应扩散”快速节点，使用程序纹理的快速反应 — 扩散算法生成有机图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快速反应扩散
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![反应扩散节点图标](reaction-diffusion-fast.resources/reaction-diffusion.png "反应扩散节点图标")
+![反应扩散节点图标](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "反应扩散节点图标")
 
 <b>英寸：</b>滤镜>效果
 
@@ -74,17 +74,17 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![示例1](reaction-diffusion-fast.resources/reactdiff03.png "示例1")
+![示例1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例2](reaction-diffusion-fast.resources/reactdiff02.png "示例2")
+![示例2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "示例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例3](reaction-diffusion-fast.resources/reactdiff01.gif "示例3")
+![示例3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "示例3")
 
 </td>
 </tr>

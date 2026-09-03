@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: 使用“漫射颜色”节点可应用漫射效果，以创建平滑的颜色混合和过渡。
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 扩散颜色
+title: 漫射颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# 扩散颜色
+# 漫射颜色
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-01.png){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -68,32 +68,32 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-07.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-08.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-09.jpg" />
         </td>
     </tr>
 </table>

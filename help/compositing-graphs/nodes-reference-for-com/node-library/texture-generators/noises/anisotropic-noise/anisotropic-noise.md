@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: 使用“Anoistic Noise”（各向异性噪声）节点生成定向噪声图案，用于创建各向异性纹理效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 各向异性噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性噪声 — 图标](anisotropic-noise.resources/anisotropic_noise_v2.png "各向异性噪声 — 图标"){width="200px"}
+![各向异性噪声 — 图标](anisotropic-noise.resources/anisotropic-noise-01.png "各向异性噪声 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![各向异性噪声 — 示例1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "各向异性噪声 — 示例1"){zoomable="yes"}
+![各向异性噪声 — 示例1](anisotropic-noise.resources/anisotropic-noise-02.png "各向异性噪声 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![各向异性噪声 — 示例2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向异性噪声 — 示例2"){zoomable="yes"}
+![各向异性噪声 — 示例2](anisotropic-noise.resources/anisotropic-noise-03.gif "各向异性噪声 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

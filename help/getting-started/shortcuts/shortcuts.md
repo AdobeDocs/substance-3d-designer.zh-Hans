@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的键盘快捷键，以加快您的工作流程并提高工作效率。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快捷键
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ ht-degree: 17%
 
 **Windows**
 
-![Windows上的键盘快捷键](shortcuts.resources/keyboard_shortcuts_win.png "Windows上的键盘快捷键"){zoomable="yes"}
+![Windows上的键盘快捷键](shortcuts.resources/shortcuts-01.png "Windows上的键盘快捷键"){zoomable="yes"}
 
 **macOS**
 
-![macOS上的键盘快捷键](shortcuts.resources/keyboard_shortcuts_mac.png "macOS上的键盘快捷键"){zoomable="yes"}
+![macOS上的键盘快捷键](shortcuts.resources/shortcuts-02.png "macOS上的键盘快捷键"){zoomable="yes"}
 
 ## 快捷键列表
 

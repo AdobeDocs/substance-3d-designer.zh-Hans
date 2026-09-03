@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: 使用“Shape Glow”（形状发光）节点为形状和纹理添加发光效果，创造明亮的大气视觉效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形状发光
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-glow.resources/shape-glow-grayscale.png){width="128px"}
+![](shape-glow.resources/shape-glow-01.png){width="128px"}
 
-![](shape-glow.resources/shape-glow.png){width="128px"}
+![](shape-glow.resources/shape-glow-02.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 描述
 
-在输入蒙版（适用于灰度版本）或具有Alpha通道的形状（适用于颜色版本）周围创建柔和发光。 与[发光](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)相比，它的工作方式更类似其他2D图像编辑软件，因为它具有更多控件，是一种更完整的效果。
+在输入蒙版（适用于灰度版本）或带有Alpha 通道的形状（适用于彩色版本）周围创建柔和发光。 与[发光](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)相比，它的工作方式更类似其他2D图像编辑软件，因为它具有更多控件，是一种更完整的效果。
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-glow.resources/shapeglow-ex.png" />
+            <img src="shape-glow.resources/shape-glow-03.png" />
         </td>
     </tr>
 </table>

@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
-description: 使用“材质网格数据混合器”节点来混合材质网格数据，以便在不同的材质区域之间创建平滑过渡。
+description: 使用网格数据混合器节点混合材料网格数据，以便在不同的材料区域之间创建平滑的过渡。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Mesh Data Blender
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 材质网格数据混合器
+title: 网格数据混合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -18,13 +18,13 @@ ht-degree: 8%
 ---
 
 
-# 材质网格数据混合器
+# 网格数据混合器
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>实用工具
 
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## 描述
 
-此节点旨在使添加基于烘焙数据的细节更加容易。 它随附了许多滑块，可根据任何和所有已烘焙贴图来修改输入的完整素材。 尝试一下，因为有很多选项
+此节点旨在使基于烘焙数据添加细节更加容易。 它随附了许多滑块，可根据任何和所有材料来修改输入的完整已烘焙贴图。 尝试一下，因为有很多选项
 
-可用于执行诸如基于曲率或其他映射添加边缘突出显示、在某些AO中与扩散/基色混合、添加基于曲率和/或AO的遮蔽等操作。
+它可以用于执行诸如基于弯曲或其他地图添加边缘突出显示、在某些AO中与Diffuse/基色混合、基于Specular和/或AO添加弯曲遮蔽等操作。
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 8%
 | <b>Height</b> <i>灰度输入</i> |  |
 | <b>正常</b> <i>颜色输入</i> |  |
 | <b>顶点颜色</b> <i>颜色输入</i> |  |
-| <b>世界空间法线</b> <i>颜色输入</i> |  |
+| <b>世界空间正常</b> <i>颜色输入</i> |  |
 
 <a name="parameters"></a>
 
@@ -91,7 +91,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
         </td>
     </tr>
 </table>

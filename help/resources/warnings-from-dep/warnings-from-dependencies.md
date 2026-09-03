@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: 了解来自Substance 3D Designer中资源依赖项的警告以及如何解决这些警告。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 依赖项中的警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    然后，通过在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中单击主机包上的RMB，并在上下文菜单中选择<b>重新加载</b>选项来重新加载该主机包。
 
-   ![“无效的依赖包”解决方案1](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg.gif "“无效的依赖包”解决方案1")
+   ![“无效的依赖包”解决方案1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif "“无效的依赖包”解决方案1")
 1. <b>在包中重新定位依赖项</b>
 
    可以使用[依赖关系管理器](../../interface/dependency-manager/dependency-manager.md)重新定位依赖关系。 单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的主机包上的RMB，然后在上下文菜单中选择<b>依赖关系管理器</b>选项。
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    然后，通过在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中单击主机包上的RMB，并在上下文菜单中选择<b>重新加载</b>选项来重新加载该主机包。
 
-   ![“无效的依赖包”解决方案2](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg-2.gif "“无效的依赖包”解决方案2")
+   ![“无效的依赖包”解决方案2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif "“无效的依赖包”解决方案2")
 
 ## ![（错误）](warnings-from-dependencies.resources/error.svg)检查别名&#x200B;*&#39;X&#39;*&#x200B;是否在项目中定义
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 [项目文件](../../interface/preferences-window/project-settings/project-settings.md)中至少应有一个定义警告中报告的别名。
 
-![“检查别名是否已定义”解决方案](warnings-from-dependencies.resources/warnings-dep-alias.gif "“检查别名是否已定义”解决方案")
+![“检查别名是否已定义”解决方案](warnings-from-dependencies.resources/warnings-from-dependencies-03.gif "“检查别名是否已定义”解决方案")
 
 ## ![（错误）](warnings-from-dependencies.resources/error.svg)找不到与此资源匹配的文件
 
@@ -73,12 +73,12 @@ ht-degree: 0%
 
    转到资源的<b>文件路径</b>属性指定的位置，并检查模板之后的文件是否存在。 如果没有，请恢复或重新创建它们。
 
-   ![“没有与资源解决方案1](warnings-from-dependencies.resources/warnings-dep-udim-2.gif "匹配的文件”没有与资源解决方案1")匹配的文件
+   ![“没有与资源解决方案1](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "匹配的文件”没有与资源解决方案1")匹配的文件
 1. <b>重新定位文件</b>
 
    如果移动或重命名了文件，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB来重新定位文件，然后选择<b>重新定位</b>选项将该资源链接到一组同类型UDIM图像&#x200B;*第一个文件*。
 
-   ![“没有与资源解决方案2](warnings-from-dependencies.resources/warnings-dep-udim.gif "匹配的文件”没有与资源解决方案2")匹配的文件
+   ![“没有与资源解决方案2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "匹配的文件”没有与资源解决方案2")匹配的文件
 
 ## ![（错误）](warnings-from-dependencies.resources/error.svg)未找到链接的文件
 
@@ -92,12 +92,12 @@ ht-degree: 0%
 
    转到资源的<b>文件路径</b>属性指定的位置，并检查该文件是否存在。 如果没有，请恢复或重新创建它。
 
-   ![“未找到链接的文件”解决方案1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif "“未找到链接的文件”解决方案1")
+   ![“未找到链接的文件”解决方案1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif "“未找到链接的文件”解决方案1")
 1. <b>重新定位文件</b>
 
    如果该文件已被移动或重命名，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB将其重新定位，然后选择<b>重新定位</b>选项以将该资源链接到另一个相同类型的文件。
 
-   ![“未找到链接的文件”解决方案2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif "“未找到链接的文件”解决方案2")
+   ![“未找到链接的文件”解决方案2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif "“未找到链接的文件”解决方案2")
 
 ## ![（错误）](warnings-from-dependencies.resources/error.svg)未找到色彩空间
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 >
 > 仅当使用&#x200B;**旧版**&#x200B;以外的色彩管理模式（类似于禁用色彩管理）时，才会触发此警告。 您可以在[项目设置](../../interface/preferences-window/project-settings/project-settings.md)的&#x200B;**色彩管理**&#x200B;部分中启用色彩管理。
 
-![“未找到色彩空间”解决方案](warnings-from-dependencies.resources/warnings-dep-color-space.gif "“未找到色彩空间”解决方案")
+![“未找到色彩空间”解决方案](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "“未找到色彩空间”解决方案")
 
 ## ![（错误）](warnings-from-dependencies.resources/error.svg)未找到引用资源
 
-在警告中报告的位置找不到分配给[3D场景资源](../3d-scene-resource/3d-scene-resource.md)的UV磁贴的图形。
+在警告中报告的位置找不到分配给[3D 场景资源](../3d-scene-resource/3d-scene-resource.md)的UV磁贴的图形。
 
 <b>！[(tick)](warnings-from-dependencies.resources/check.svg)解决方案</b>
 
@@ -125,35 +125,35 @@ ht-degree: 0%
 
 1. <b>还原图形</b>
 
-   在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中检查<b>UV磁贴</b>列表中指定的图形的包内容。 如果它不存在，请恢复或重新创建它。
+   检查[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中包的内容是否包含在<b>UV 平铺</b>列表中指定的图形。 如果它不存在，请恢复或重新创建它。
 
-   ![“未找到引用资源”解决方案1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif "“未找到引用资源”解决方案1")
+   ![“未找到引用资源”解决方案1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif "“未找到引用资源”解决方案1")
 1. <b>选择其他图形</b>
 
-   将包中的另一个图形分配给UV图块。
+   将包中的另一个图形分配给UV磁贴。
 
-   ![“未找到引用资源”解决方案1](warnings-from-dependencies.resources/warnings-dep-udim-graph.gif "“未找到引用资源”解决方案2")
+   ![“未找到引用资源”解决方案1](warnings-from-dependencies.resources/warnings-from-dependencies-10.gif "“未找到引用资源”解决方案2")
 
-## 多次分配![（错误）](warnings-from-dependencies.resources/error.svg)个UV磁贴
+## 已多次分配![（错误）](warnings-from-dependencies.resources/error.svg)个UV磁贴
 
-[3D场景资源](../3d-scene-resource/3d-scene-resource.md)的UV磁贴被多次分配给[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
+[3D 场景资源](../3d-scene-resource/3d-scene-resource.md)的UV磁贴被多次分配给[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
 
 <b>！[(tick)](warnings-from-dependencies.resources/check.svg)解决方案</b>
 
-对于3D网格资源的每个UV集，请确保<b>UV磁贴</b>列表中没有&#x200B;*存在*&#x200B;以上的UDIM索引。
+对于3D 网格资源的每个UV 集，确保<b>UDIM</b>列表中没有&#x200B;*存在*&#x200B;次以上的UV 平铺索引。
 
-已多次分配![&#39;UV磁贴&#39;解决方案](warnings-from-dependencies.resources/warnings-dep-udim-same.gif "&#39;已多次分配&#39;UV磁贴&#39;解决方案")
+已多次分配![个UV的磁贴](warnings-from-dependencies.resources/warnings-from-dependencies-11.gif "个已多次分配UV的磁贴")
 
 ## ![（错误）](warnings-from-dependencies.resources/error.svg)无效的UV磁贴
 
-在网格中未定义或损坏为[3D场景资源](../3d-scene-resource/3d-scene-resource.md)列出的UV磁贴。
+网格中未定义[3D 场景资源](../3d-scene-resource/3d-scene-resource.md)列出的UV磁贴或已损坏。
 
 <b>！[(tick)](warnings-from-dependencies.resources/check.svg)解决方案</b>
 
-对于3D网格资源的每个UV集，请确保<b>UV磁贴</b>列表中的所有项都引用链接资源中&#x200B;*存在*&#x200B;的UDIM。
+对于3D 网格资源的每个UV 集，确保<b>UV 平铺</b>列表中的所有项目都引用链接资源中&#x200B;*存在*&#x200B;的UDIM。
 
 >[!NOTE]
 >
-> 此警告无法通过用户界面触发，因为它&#x200B;*仅*&#x200B;列出了在链接的资源中检测到的UDIM。 仅直接修改Substance 3D文件(SBS) **&#x200B;中的数据，会导致触发此警告。
+> 无法通过用户界面触发此警告，因为它&#x200B;*仅*&#x200B;列出了在链接的资源中检测到的UDIM。 仅直接修改Substance 3D文件(SBS) **&#x200B;中的数据，会导致触发此警告。
 
-![“无效的UV磁贴”解决方案](warnings-from-dependencies.resources/warnings-dep-udim-invalid.gif "“无效的UV磁贴”解决方案")
+![“无效的UV磁贴”解决方案](warnings-from-dependencies.resources/warnings-from-dependencies-12.gif "“无效的UV磁贴”解决方案")

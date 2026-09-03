@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
-description: 使用PBR 渲染节点以真实的光照渲染基于物理的材质，从而预览材质外观。
+description: 使用PBR 渲染节点以真实的光照渲染基于物理的材料，从而预览材料外观。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR 渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render-01.png){width="250px"}
 
 <b>进入：</b>材质过滤器> PBR实用工具
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 使用基于图像的光照(IBL)将PBR素材渲染到球体、平面或圆柱体上。这是节点内的渲染引擎，对于生成缩览图、预览或2D资源非常有用。 它不是如3D视图那样进行渲染，而是图形中生成的实际纹理。
 
-此节点要求至少插入一个完整的PBR材料。 理想情况下，可使用“链接创建模式”将材料连接到PBR 渲染。 此外，您还需要一个球面展开的HDRI环境，以便渲染从中计算光照。 可以在PBR Materials下找到用于测试的材质，也可以在库中的[&#x200B; 3D View下找到环境地图。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+此节点要求至少插入一个完整的PBR材料。 理想情况下，可使用“链接创建模式”将材料连接到PBR 渲染。 此外，您还需要一个球面展开的HDRI环境，以便渲染从中计算光照。 可以在PBR Materials下找到用于测试的材质，也可以在库中的[ 3D View下找到环境地图。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 6%
 >
 > **CPU (SSE2)引擎**
 > 
-> PBR 渲染节点非常重，无法与SSE2 CPU引擎配合使用。 如果节点性能极差，则按F9切换到另一个引擎。
+> PBR 渲染节点非常重，无法与SSE2 CPU引擎配合使用。 如果引擎性能极差，请按F9键切换到另一个节点。
 
 <a name="inputs"></a>
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 | <b>镜头Dirt映射</b> <i>灰度输入</i> | 镜头上Dirt的自定映射，当镜头眩光可见时显示。 |
 | <b>镜头光圈映射</b> <i>灰度输入</i> | 可用于覆盖散景、离焦形状。 对比越明显，它就越明显。 请记住，只对纹理中的一个圆圈进行取样，因此任何形状都必须适合一个圆圈。 |
 | <b>背景输入</b> <i>颜色输入</i> | 将<b>背景模式</b>参数设置为<i>背景输入</i>时用作背景的自定义映射 |
-| <b>环境映射</b> <i>颜色输入</i> | 用于计算光照的环境图。 必须是HDR中的球面映射关系。 |
+| <b>环境图</b> <i>颜色输入</i> | 用于计算光照的环境图。 必须球面映射且在HDR中。 |
 
 <a name="outputs"></a>
 
@@ -68,8 +68,8 @@ ht-degree: 6%
 | <b>美丽</b> | 最终渲染 |
 | <b>原始辐照度</b> | 最终渲染<br><br><i>Alpha</i>不透明度映射的辐照度数据 |
 | <b>原始Specular</b> | 最终渲染<br><br><i>Alpha</i>Specular阴影映射的Specular数据 |
-| <b>普通世界空间</b> | 最终渲染<br><br><i>Alpha的世界空间法线数据： </i>世界空间高度图 |
-| <b>普通切线空间</b> | 正切空间法线最终渲染<br><br><i>Alpha：</i>正切空间高度图的数据 |
+| <b>正常世界空间</b> | 最终渲染<br><br><i>Alpha的世界空间法线数据： </i>世界空间高度图 |
+| <b>法向切空间</b> | 正切空间法线最终渲染<br><br><i>Alpha：</i>正切空间高度图的数据 |
 | <b>UV</b> | 最终渲染<br><br><i>Alpha的UV数据： </i>不透明度映射 |
 
 <a name="parameters"></a>
@@ -96,9 +96,9 @@ ht-degree: 6%
 | <b>拼贴</b> <i>1.0 - 6.0</i> | 设置UV拼贴的量。 |
 | <b>球体UV 缩放</b> <i>0.0 - 4.0</i> | 设置UV在球面上的比例。 |
 | <b>平面UV 缩放</b> <i>1.0 - 4.0</i> | 设置UV在平面上的比例。 |
-| <b>圆柱体UV 缩放</b> <i>1.0 - 6.0</i> | 设置UV在圆柱上的比例。 |
+| <b>圆柱体UV 缩放</b> <i>1.0 - 6.0</i> | 设置圆柱上UV的比例。 |
 | <b>UV 偏移</b> <i>0.0 - 1.0</i> | 偏移UV |
-| <b>倾斜UV</b> <i>False/True</i> | 将球体的UV倾斜45度。 |
+| <b>倾斜UV</b> <i>False/True</i> | UV的倾斜角度是45度。 |
 | <b>相机</b> |  |
 | <b>曝光</b> <i>-4.0 - 4.0</i> | 设置相机曝光。 |
 | <b>色调映射器</b> <i>线性， ACE， Filmic Hejl</i> | 设置用于最终图像的色调映射解决方案。 |
@@ -160,30 +160,30 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/pbr-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/pbr-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-05.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/pbr-render-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/pbr-render-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/pbr-render-09.jpg" />
         </td>
     </tr>
 </table>

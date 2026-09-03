@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
-description: 使用Fur 3节点生成高级毛皮纹理，具有可自定义的属性，用于创建头发和纤维效果。
+description: 使用Fur 3节点生成高级毛皮纹理，其具有可自定义的属性，用于创建头发和纤维效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 皮毛3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-3.resources/fur-3.png){width="128px"}
+![](fur-3.resources/fur-3-01.png){width="128px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## 描述
 
-这将产生扩展/毛刷类型噪声。
+这将生成扩散/硬毛刷类型噪声。
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-3.resources/fur-3-ex.gif" />
+            <img src="fur-3.resources/fur-3-02.gif" />
         </td>
     </tr>
 </table>

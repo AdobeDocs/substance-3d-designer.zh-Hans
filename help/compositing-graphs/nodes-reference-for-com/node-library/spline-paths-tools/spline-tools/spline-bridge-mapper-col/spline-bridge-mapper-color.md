@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
 description: 使用“样条桥映射器颜色”节点可通过颜色映射在两个样条之间桥接纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条桥映射器颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "节点图标")
+![节点图标](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -92,11 +92,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "节点示例2")
+![节点示例2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "节点示例2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "节点示例1")
+![节点示例1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "节点示例2")
+![节点示例2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "节点示例2")
 
 </td>
 </tr>

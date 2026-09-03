@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
 description: 使用材料调整混合节点可在材料之间混合材料调整，以微调复合效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 素材调整混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-adjustment-blend.resources/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
 
 <b>进入：</b>材质过滤器>混合
 
@@ -65,9 +65,9 @@ ht-degree: 2%
 | <b>具发射性</b> | 在蒙版定义的区域中，对发射通道执行调整操作。 |
 | <b>光泽度</b> | 在蒙版定义的区域中，对光泽度通道执行调整操作。 |
 | <b>粗糙度</b> | 在蒙版定义的区域中，对粗糙度通道执行调整操作。 |
-| <b>金属质感</b> | 在蒙版定义的区域中，对金属通道执行调整操作。 |
+| <b>金属</b> | 在蒙版定义的区域中，对金属通道执行调整操作。 |
 | <b>Specular level</b> | 在蒙版定义的区域中，对Specular level通道执行调整操作。 |
-| <b>环境遮蔽</b> | 在蒙版定义的区域中，对环境遮蔽通道执行调整操作。 |
+| <b>Ambient occlusion</b> | 在蒙版定义的区域中，对Ambient occlusion通道执行调整操作。 |
 | <b>Height</b> | 在蒙版定义的区域中，对Height通道执行调整操作。 |
 | <b>不透明度</b> | 在不透明度通道上，在蒙版定义的区域中执行调整操作。 |
 | <b>色彩 ID 蒙版</b> <i>False/True</i> | 设置为使用色彩 ID 蒙版而非灰度蒙版。 |

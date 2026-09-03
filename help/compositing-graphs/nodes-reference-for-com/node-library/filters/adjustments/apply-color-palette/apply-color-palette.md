@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: 使用“应用调色板”节点，使用调色板重新映射纹理以实现风格化的颜色效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 应用调色板
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](apply-color-palette.resources/ApplyColorPalette.png "量化颜色图标"){width="200px"}
+![量化颜色图标](apply-color-palette.resources/apply-color-palette-01.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -60,35 +60,35 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>颜色</i> | 将调色板中的颜色映射到Id 图索引的结果。 |
+| <b>输出</b> <i>颜色</i> | 将调色板中的颜色映射到ID映射的索引的结果。 |
 
 ## 示例
 
-![应用调色板：示例1](apply-color-palette.resources/apply_color_palette_example_2.png "应用调色板：示例1"){zoomable="yes"}
+![应用调色板：示例1](apply-color-palette.resources/apply-color-palette-02.png "应用调色板：示例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply-color-palette-03.jpg" alt="apply_color_palette_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply-color-palette-04.jpg" alt="apply_color_palette_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![应用调色板：示例3](apply-color-palette.resources/apply_color_palette_example_4.png "应用调色板：示例3"){zoomable="yes"}
+![应用调色板：示例3](apply-color-palette.resources/apply-color-palette-05.png "应用调色板：示例3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply-color-palette-06.jpg" alt="apply_color_palette_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply-color-palette-07.jpg" alt="apply_color_palette_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>

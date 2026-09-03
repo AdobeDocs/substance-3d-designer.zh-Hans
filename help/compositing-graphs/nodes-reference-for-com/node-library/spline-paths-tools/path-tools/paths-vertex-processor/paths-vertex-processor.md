@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
-description: 使用“路径顶点处理器”节点可通过高级选项转换和处理路径顶点。
+description: 使用“路径顶点处理器”节点可使用高级选项变换和处理路径顶点。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Vertex Processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径顶点处理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](paths-vertex-processor.resources/paths-vertex-processor-icon.png "节点图标")
+![节点图标](paths-vertex-processor.resources/paths-vertex-processor-01.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-在输入<b>路径</b>的顶点位置应用变换。
+对输入<b>顶点</b>的路径位置应用变换。
 
 该节点的使用方法如下：
 
@@ -47,8 +47,8 @@ ht-degree: 1%
 </table>
 
 在查询&#x200B;*prev.pos*&#x200B;或&#x200B;*next.pos*&#x200B;之前，请确保设置适当的<b>访问的上一个顶点</b>和<b>访问的下一个顶点</b>值\
-您还可以添加输入图像，并从该功能中对其进行取样。 必须首先连接输入，才能从函数中对其进行取样。 （请注意，第一个输入是&#x200B;*图像1*！）\
-您也可以访问&#x200B;*prev[2].pos* (Float2)、*next[2].pos* (Float2)、*vertex.corner* (bool)和&#x200B;*path.id* (float)变量。
+您还可以添加输入图像并从函数中对其进行取样。 必须首先连接输入，才能从函数中对其进行取样。 （请注意，第一个输入是&#x200B;*图像1*！）\
+您还可以访问&#x200B;*prev[2].pos*(Float2)、*next[2].pos*(Float2)、*path.corner*(bool)和&#x200B;*顶点.id*(float)变量。
 
 >[!TIP]
 >
@@ -92,7 +92,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "节点示例2")
+![节点示例2](paths-vertex-processor.resources/paths-vertex-processor-02.gif "节点示例2")
 
 </td>
 <td style="border: 0;" valign="top">

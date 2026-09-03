@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图表中的sampler节点以对纹理进行采样并提取颜色值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 采样器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Sampler节点
 
-![Sampler节点](sampler-nodes.resources/image2016-1-12-14-45-43.png "Sampler节点")
+![Sampler节点](sampler-nodes.resources/sampler-nodes-01.png "Sampler节点")
 
 这些节点在提供的2D坐标下对输入图像中的值进行采样：
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![像素坐标](sampler-nodes.resources/samplercoords.png "像素坐标")
+![像素坐标](sampler-nodes.resources/sampler-nodes-02.png "像素坐标")
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 1%
 像素将在匹配坐标处映射到目标&#x200B;*“原样”*。 如果目标的分辨率较低，则可以完全忽略像素。 如果目标具有更高分辨率，则将映射到覆盖其范围的所有像素。 输出更清晰&#x200B;**，看起来略有&#x200B;*锯齿*。
 
 <b>双线性过滤</b>\
-对源图像应用筛选处理，以便将其像素映射到目标分辨率，从而使&#x200B;*像素之间的过渡变平滑*。 输出为&#x200B;*更平滑*，看起来略有&#x200B;*模糊*。
+对源图像应用滤镜过程，以便&#x200B;*平滑*&#x200B;像素之间的过渡的方式将其像素映射到目标分辨率。 输出为&#x200B;*更平滑*，看起来略有&#x200B;*模糊*。
 
 +++
 

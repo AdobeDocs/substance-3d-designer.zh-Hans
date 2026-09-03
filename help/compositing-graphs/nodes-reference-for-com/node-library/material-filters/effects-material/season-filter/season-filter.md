@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
-description: 使用季节滤镜节点对材料应用季节性效果，打造春季、夏季、秋季和冬季变体。
+description: 使用“季节过滤器”节点将季节性效果应用于创建春季、夏季、秋季和冬季变体的素材。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 季节过滤器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](season-filter.resources/default-icon.png){width="128px"}
+![](season-filter.resources/season-filter-01.png){width="128px"}
 
 <b>进入：</b>材质过滤器>效果
 

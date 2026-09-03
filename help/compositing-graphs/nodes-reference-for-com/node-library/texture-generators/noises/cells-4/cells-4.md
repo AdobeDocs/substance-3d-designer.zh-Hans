@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
 breadcrumb-title: ''
-description: 使用细胞4节点产生高级细胞图案，用于产生有机和生物纹理效果。
+description: 使用细胞4节点生成高级细胞图案，用于创建有机和生物纹理效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 4
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 细胞4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![细胞4 — 图标](cells-4.resources/cells_4.png "细胞4 — 图标"){width="200px"}
+![细胞4 — 图标](cells-4.resources/cells-4-01.png "细胞4 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 描述
 
-<b>细胞</b>壁噪声的变体。
+<b>细胞</b>壁噪声的变化。
 
-每个单元格被分配一种平坦颜色，该颜色可以是随机的，也可以是从输入图像中取样的。
+每个单元被分配平坦颜色，该平坦颜色可以是随机的，也可以是从输入图像取样的。
 
 另请参阅：[细胞1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)、[细胞2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md)、[细胞3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md)
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞4 — 示例1](cells-4.resources/cells_4_1.png "细胞4 — 示例1"){zoomable="yes"}
+![细胞4 — 示例1](cells-4.resources/cells-4-02.png "细胞4 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞4 — 示例2](cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif "细胞4 — 示例2"){zoomable="yes"}
+![细胞4 — 示例2](cells-4.resources/cells-4-03.gif "细胞4 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

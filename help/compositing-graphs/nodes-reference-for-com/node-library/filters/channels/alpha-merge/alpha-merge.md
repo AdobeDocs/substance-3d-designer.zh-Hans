@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
-description: 使用“Alpha合并”节点可将RGB纹理与Alpha通道相结合，以创建RGBA纹理。
+description: 使用“Alpha合并”节点将RGB纹理与Alpha 通道相结合，以创建RGBA纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Merge
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alpha合并
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alpha-merge.resources/rgb-a-merge.png)
+![](alpha-merge.resources/alpha-merge-01.png)
 
 <b>范围：</b>滤镜>通道
 

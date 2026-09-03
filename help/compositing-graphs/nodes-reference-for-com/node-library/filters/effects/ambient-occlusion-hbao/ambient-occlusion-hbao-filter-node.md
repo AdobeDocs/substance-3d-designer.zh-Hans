@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
-description: 使用环境遮蔽HBAO滤波器节点，使用基于水平线的算法生成环境遮蔽图，以实现逼真的着色。
+description: 使用Ambient occlusionHBAO滤镜节点可以使用基于水平线的算法生成ambient occlusion图，以实现逼真的着色。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 环境遮蔽(HBAO)（滤镜节点）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](ambient-occlusion-hbao-filter-node.resources/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## 描述
 
-将Heightmap作为输入项，并从中生成环境遮蔽映射。 它使用了基于水平线的环境遮蔽，一种最初用于屏幕空间实时AO生成的算法。 对于从程序Heightmap创建程序AO映射非常有用。
+将Heightmap作为输入并从中生成Ambient occlusion映射。 它使用了基于水平的Ambient occlusion，一种最初用于屏幕空间实时AO生成的算法。 对于从程序化高度图创建程序化AO映射非常有用。
 
-有关替代、更高但更慢版本的AO，请参阅[环境遮蔽(RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+有关替代的、更高但较慢的AO版本，请参阅[Ambient occlusion(RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
 </td>
 </tr>
@@ -60,10 +60,10 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-11-1.png" />
+            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-22.png" />
+            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-03.png" />
         </td>
     </tr>
 </table>

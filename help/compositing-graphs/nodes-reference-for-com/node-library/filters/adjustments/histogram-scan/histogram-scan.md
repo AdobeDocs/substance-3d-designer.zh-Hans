@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
 description: 使用“直方图扫描”节点扫描和分析纹理直方图，以进行颜色校正和调整。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图扫描
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-scan.resources/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -56,13 +56,13 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan.gif" />
+            <img src="histogram-scan.resources/histogram-scan-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan2.gif" />
+            <img src="histogram-scan.resources/histogram-scan-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan3.gif" />
+            <img src="histogram-scan.resources/histogram-scan-04.gif" />
         </td>
     </tr>
 </table>

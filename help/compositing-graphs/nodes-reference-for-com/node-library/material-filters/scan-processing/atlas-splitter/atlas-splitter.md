@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: 使用Atlas Splitter节点将纹理图集分割成单独的纹理，用于处理扫描的材料。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](atlas-splitter.resources/atlas-splitter.png "节点图标")
+![节点图标](atlas-splitter.resources/atlas-splitter-01.png "节点图标")
 
 <b>进入：</b>个材质筛选器/扫描处理
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 | <b>自动旋转</b> <i>布尔值</i> | 根据其定界框大小比例自动旋转形状。 |
 | <b>旋转</b> <i>浮动</i> | 全局形状旋转角度 |
 | <b>输入法线格式</b> <i>整数</i> | 设置输入法线的格式。 设置错误的格式将导致错误的结果。 |
-| <b>缩小不透明度蒙版</b> <i>整数</i> | 缩小不透明度蒙版以移除潜在噪声或隔离像素。 它防止了不需要形状的检测，并且还提高了性能。 |
-| <b>膨胀宽度</b> <i>浮动</i> | 在除“正常”和“Height”以外的所有声道上，应用基于膨胀度蒙版的不透明度效果。 |
+| <b>缩小不透明度蒙版</b> <i>整数</i> | 缩小不透明度蒙版以移除潜在的杂色或孤立像素。 它防止了不需要形状的检测，并且还提高了性能。 |
+| <b>扩展宽度</b> <i>浮动</i> | 在除“正常”和“Height”以外的所有声道上，应用基于“不透明度”蒙版的膨胀效果。 |
 | <b>启用其他输入</b> <i>布尔值</i> | 对于未涵盖的任何其他地图，提供“用户1”和“用户2”的输入和设置。 |
 | <b>自定义背景颜色</b> <i>布尔值</i> | 允许您选择自定义背景颜色，而不是扩展该图层的内容。 |
 | <b>Base color背景色</b> <i>浮点3</i> | 基色的自定背景颜色。 |

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
-description: 使用“曲率”过滤器节点，从Height图生成曲率图以检测凸曲面和凹曲面。
+description: 使用滤镜节点从高度图中生成弯曲图以检测凸曲面和凹曲面。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲率（筛选器节点）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# 曲率（筛选器节点）
+# 弯曲(滤镜节点)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curvature-filter-node.resources/curvature-1.png){width="128px"}
+![](curvature-filter-node.resources/curvature-filter-node-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="curvature-filter-node.resources/curvature-ex.png" />
+            <img src="curvature-filter-node.resources/curvature-filter-node-02.png" />
         </td>
     </tr>
 </table>

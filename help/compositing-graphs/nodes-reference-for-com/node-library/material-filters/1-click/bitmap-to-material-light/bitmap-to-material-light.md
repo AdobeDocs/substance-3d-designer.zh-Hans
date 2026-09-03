@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: 使用“位图转换为材质光照”节点可以将位图图像快速转换为具有优化光照的材质，从而实现快速工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 将位图转换为材质光照
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
 <b>在</b>个材质过滤器中>一键式
 
@@ -83,5 +83,5 @@ ht-degree: 11%
 | <b>Diffuse中的Ambient occlusion</b> <i>0.0 - 1.0</i> | 将生成的AO中的混合转换为Diffuse输出。 |
 | <b>Ambient occlusion跨页</b> <i>0.0 - 1.0</i> | 设置AO跨页的生成距离。 |
 | <b>Ambient occlusion光距离</b> <i>0.0 - 1.0</i> | 设置AO“深度”解释。 当跨距较大时，影响较小。 |
-| <b>Ambient occlusion的光角度</b> <i>0.0 - 1.0</i> | 设置假光照AO强制转换角度。 如果设置为相反角度，可用于补偿漫射中已有的任何方向AO。 |
+| <b>Ambient occlusion的光角度</b> <i>0.0 - 1.0</i> | 设置假光照AO强制转换角度。 如果设置为相反的角度，可用于补偿Diffuse中已有的任何方向AO。 |
 | <b>Ambient occlusion级别</b> <i>0.0 - 1.0</i> | 修改AO输出级别。 |

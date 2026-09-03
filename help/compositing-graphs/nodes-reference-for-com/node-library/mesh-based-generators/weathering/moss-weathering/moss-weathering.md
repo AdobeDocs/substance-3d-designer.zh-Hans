@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
-description: 使用苔藓风化节点可根据网格曲率和位置将苔藓生长图案添加到素材。
+description: 使用Moss风化节点根据网格弯曲和位置向材料添加苔藓增长模式。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Moss Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 苔藓风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](moss-weathering.resources/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>风化
 
@@ -35,9 +35,9 @@ ht-degree: 7%
 
 这是一种同时适用于多个通道的完全素材效果。 它通过单个传播控件生成过度生长的苔藓效果。
 
-此效果最适合用于生成的世界空间位置图和其他高度图。 虽然这不是一个确切的要求，但它使效果更加可靠。
+此效果最适合用于烘焙的世界空间位置图和其他高度图。 虽然这不是一个确切的要求，但它使效果更加可靠。
 
-在使用完整素材时，请确保正确理解[链接创建模式](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)。
+在使用完整材料时，确保正确理解[链接创建模式](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)。
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>位置</b> <i>颜色输入</i> | 烘焙的世界空间位置。 |
+| <b>位置</b> <i>颜色输入</i> | 世界空间位置。 |
 | <b>Height</b> <i>灰度输入</i> | 其他Heightmap输入。 |
 | <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“Mask”参数切换。 |
 
@@ -80,7 +80,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="moss-weathering.resources/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-weathering-02.gif" />
         </td>
     </tr>
 </table>

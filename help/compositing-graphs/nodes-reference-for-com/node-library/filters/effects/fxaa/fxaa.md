@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
 breadcrumb-title: ''
 description: 使用FXAA节点可对纹理应用“快速近似消除锯齿”，减少锯齿伪影。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-01.png)![](fxaa.resources/fxaa-02.png)
 
 <b>英寸：</b>滤镜>效果
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fxaa.resources/fxaa-ex.png" />
+            <img src="fxaa.resources/fxaa-03.png" />
         </td>
     </tr>
 </table>

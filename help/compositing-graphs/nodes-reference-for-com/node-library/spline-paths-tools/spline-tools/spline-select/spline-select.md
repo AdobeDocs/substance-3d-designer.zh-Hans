@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: 使用“样条选择”节点，根据图形中的样条路径选择和遮盖特定区域。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-select.resources/spline-select-icon.png "节点图标")
+![节点图标](spline-select.resources/spline-select-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/spline-select-03.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>之后</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2之前">
+      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect-Variant2之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-At">
+      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-Variant2-At">
       <br><i>之后</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-select.resources/SplineSelect-Demo.gif "节点示例1")
+![节点示例1](spline-select.resources/spline-select-06.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

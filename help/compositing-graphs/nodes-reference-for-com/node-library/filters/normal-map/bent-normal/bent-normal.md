@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: 使用“弯曲法线”节点生成考虑环境遮蔽和间接光照的弯曲法线图。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 弯曲法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![弯曲正常节点图标](bent-normal.resources/rt-bent-normal.png "弯曲正常节点图标")
+![弯曲正常节点图标](bent-normal.resources/bent-normal-01.png "弯曲正常节点图标")
 
 <b>在</b>个筛选器中>法线图
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
         </td>
     </tr>
 </table>

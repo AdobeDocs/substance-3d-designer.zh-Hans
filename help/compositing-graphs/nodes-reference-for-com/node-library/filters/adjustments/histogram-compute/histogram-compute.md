@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
 description: 使用直方图计算节点计算纹理中的直方图数据，以便进行分析和处理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图计算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方图计算：图标](histogram-compute.resources/histogram_compute.png "直方图计算：图标"){width="200px"}
+![直方图计算：图标](histogram-compute.resources/histogram-compute-01.png "直方图计算：图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 计算灰度图像的直方图。
 
-直方图被编码为图像中的像素行，其中每个像素值是与图像上X轴的像素位置匹配的颜色值的&#x200B;*种群*。\
+直方图被编码为图像中的像素行，其中每个像素值是与像素在X轴上的位置匹配的颜色值的&#x200B;*种群*。\
 例如，75的像素值(0.25， 0)表示图像中具有0.25颜色值的75个像素。
 
 </td>
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>直方图</b> <i>灰度</i> | 为该输入图像计算的直方图，编码为一行像素，其中每个像素值是与该X轴上的像素位置匹配的颜色值的&#x200B;*种群*。   例如，75的像素值(0.25， 0)表示图像中具有0.25颜色值的75个像素。 |
+| <b>直方图</b> <i>灰度</i> | 为输入图像计算的直方图，编码为一行像素，其中每个像素值是与像素在X轴上的位置匹配的颜色值的&#x200B;*总体*。   例如，75的像素值(0.25， 0)表示图像中具有0.25颜色值的75个像素。 |
 | <b>CDF</b> <i>灰度</i> | 为图像计算的&#x200B;*累积分布函数* (CDF)的结果，以像素行编码，其中每个像素是其左侧所有像素值的总和。   然后，该和相对于图像中的像素总数为&#x200B;*规范化*。 |
 
 <a name="parameters"></a>
@@ -77,16 +77,16 @@ ht-degree: 1%
 
 ## 示例
 
-![直方图计算：示例1](histogram-compute.resources/histogram_compute_example_1.jpg "直方图计算：示例1"){zoomable="yes"}
+![直方图计算：示例1](histogram-compute.resources/histogram-compute-02.jpg "直方图计算：示例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram-compute-03.jpg" alt="histogram_compute_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram-compute-04.jpg" alt="histogram_compute_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>

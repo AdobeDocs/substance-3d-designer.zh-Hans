@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: 使用“样条颜色”散点沿程序性图案的样条路径分布颜色元素。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条颜色散点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "节点图标")
+![节点图标](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "节点图标")
 
 引入：样条和路径工具>样条曲线工具
 
@@ -134,9 +134,9 @@ ht-degree: 0%
 | <b>旋转随机居中（中）</b> <i>浮动</i> | 围绕图案中心旋转“旋转随机”参数应用的随机旋转中心。 |
 | <b>颜色</b> |  |
 | <b>背景颜色</b> <i>浮点4</i> | 输出图像中的背景颜色。 |
-| <b>混合模式</b> <i>整数</i> | 将具有背景图案和其他重叠图案的图案的颜色混合在一起的方法： <br>*— 添加*：将颜色添加到；<br>**&#x200B;混合*：使用图案的Alpha 通道应用简单的透明度混合。 最后绘制的图案位于前面。 |
+| <b>混合模式</b> <i>整数</i> | 将具有背景图案和其他重叠图案的图案的颜色混合在一起的方法：<br>*— 添加*：将颜色混合在一起；<br>**&#x200B;混合*：使用图案的Alpha 通道应用简单的透明度混合。 最后绘制的图案位于前面。 |
 | <b>颜色模式</b> <i>整数</i> | 混合选择每个图案颜色的方法： <br>*-Base color*：Base color应用于所有图案；<br>**&#x200B;位置*：图案在纹理空间中的位置用于驱动其颜色，以使X和Y坐标分别映射到红色和绿色通道。 |
-| <b>形状基色</b> <i>浮点4</i> | 图案的base color。 |
+| <b>形状Base color</b> <i>Float4</i> | 图案的base color。 |
 | <b>颜色输入乘数</b> <i>浮动</i> | 控制色图输入的强度。 此映射充当图案当前颜色的乘数。<br>此映射的效果与“颜色”组中的其他参数组合。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>彩图输入采样模式</b> <i>整数</i> | 将颜色映射中的值映射到样条的方法： <br>*-纹理空间*：将这些值应用于样条，如果使用纹理的UV坐标将这些值放置在纹理中。 这有效地将值应用于样条的“原位”；<br>*— 沿样条水平*：值直接应用于编码后的样条坐标（请参阅样条坐标输入），其中每行从上到下应用于不同的样条；<br>*-Hor。 沿样条线(rand. 偏移X)*：值直接应用于已编码的样条坐标（请参阅样条坐标输入），每个样条在“颜色映射”中具有随机水平偏移（即，样条坐标中的每一行）；<br>*- Hor。 沿样条线(rand. 偏移Y)*：值直接应用于已编码的样条坐标（请参阅样条坐标输入），每个样条在颜色映射中具有随机垂直偏移（即，样条坐标中的每一行）。 |
 | <b>随机颜色</b> <i>浮点4</i> | 将随机偏移（最大为指定值）应用于HSV空间中的图案颜色及其Alpha。<br>*注意：*&#x200B;输出颜色是所有颜色乘数的加权结果。 |
@@ -167,11 +167,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "节点示例1")
+![节点示例1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "节点示例2")
+![节点示例2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "节点示例2")
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
-description: 使用Crystal 1节点生成用于产生结晶和多面纹理效果的晶体图案。
+description: 使用Crystal 1节点生成用于创建晶体和多面纹理效果的晶体图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 水晶1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crystal-1.resources/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1-01.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## 描述
 
-生成Worlye Voronoi类型的噪声，使用稍多一些angular距离度量。 它可用于某些angular和几何目的。
+使用稍多一点的angular距离度量生成Worlye Voronoi类型的噪声。 它可用于某些angular和几何目的。
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="crystal-1.resources/crystal-1-ex.gif" />
+            <img src="crystal-1.resources/crystal-1-02.gif" />
         </td>
     </tr>
 </table>

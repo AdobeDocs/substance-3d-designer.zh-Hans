@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-1.html"
 breadcrumb-title: ''
-description: 使用“杂乱纤维1”节点生成基本纤维图案，用于创建织物和织物纹理细节。
+description: 使用“杂乱纤维1”节点生成基本纤维图案，用于创建织物和纺织品纹理细节。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 杂乱纤维1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![杂乱纤维1 — 图标](messy-fibers-1.resources/messy_fibers_1.png "杂乱纤维1 — 图标"){width="200px"}
+![杂乱纤维1 — 图标](messy-fibers-1.resources/messy-fibers-1-01.png "杂乱纤维1 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-<b>杂乱纤维</b>结构噪声的变体。
+<b>杂乱纤维</b>结构噪声的变化。
 
 另请参阅：[杂乱纤维2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)，[杂乱纤维3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 图标](messy-fibers-1.resources/messy_fibers_1_1.png "杂乱纤维1 — 图标"){zoomable="yes"}
+![杂乱纤维1 — 图标](messy-fibers-1.resources/messy-fibers-1-02.png "杂乱纤维1 — 图标"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 示例2](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "杂乱纤维1 — 示例2"){zoomable="yes"}
+![杂乱纤维1 — 示例2](messy-fibers-1.resources/messy-fibers-1-03.gif "杂乱纤维1 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 示例3](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "杂乱纤维1 — 示例3"){zoomable="yes"}
+![杂乱纤维1 — 示例3](messy-fibers-1.resources/messy-fibers-1-04.gif "杂乱纤维1 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 示例4](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "杂乱纤维1 — 示例4"){zoomable="yes"}
+![杂乱纤维1 — 示例4](messy-fibers-1.resources/messy-fibers-1-05.gif "杂乱纤维1 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

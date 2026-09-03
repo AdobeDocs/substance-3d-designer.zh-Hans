@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: 使用污渍飞溅灰尘节点创建飞溅图案，用于添加经风化的纹理细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍飞溅尘土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grunge-splashes-dusty-01.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-03.jpg" />
         </td>
     </tr>
 </table>

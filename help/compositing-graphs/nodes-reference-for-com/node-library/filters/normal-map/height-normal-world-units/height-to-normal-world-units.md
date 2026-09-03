@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
-description: 使用“Height到正常世界单位”节点，可使用世界单位缩放将高度图转换为法线图，以便获得准确的细节。
+description: 使用“Height到正常世界单位”节点，可以使用世界单位缩放将Height地图转换为正常地图，以便获取准确的细节。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height to Normal World Units
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 正常世界单位的Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-to-normal-world-units.resources/normal-hq.png){width="128px"}
+![](height-to-normal-world-units.resources/height-to-normal-world-units-01.png){width="128px"}
 
 <b>在</b>个筛选器中>法线图
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 一种高级的“Height到正常”转换节点，在转换过程中使用真实世界的单位。
 
-当您知道源高度图的尺寸并希望执行最精确的转换时（例如，在处理扫描的材料时），此功能非常有用。
+当您知道源高度图的尺寸并希望执行最精确的转换时（例如，在处理扫描的材质时），此功能非常有用。
 
 </td>
 </tr>

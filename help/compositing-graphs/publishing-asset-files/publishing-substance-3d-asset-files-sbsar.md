@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 了解如何从Designer发布Substance 3D资源文件(SBSAR)，以便在其他应用程序和引擎中使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 发布 Substance 3D 资源文件 (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 2%
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 此页面介绍了Substance 3D Designer如何将包发布为<b>Substance 3D资源</b>文件，这是一种扩展名为<b>SBSAR</b>的特殊文件格式，在Substance生态系统以及支持该格式的其他应用程序中使用。
 
-通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)、[Sampler](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-sampler/using/home)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
+通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
 
-![简化了发布SBSAR文件](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "简化了发布SBSAR文件")
+![简化了发布SBSAR文件](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "简化了发布SBSAR文件")
 
 ## 发布概念
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 * 您<b>发布包</b>，其中包含所有内容，而不是单个[图形](../../compositing-graphs/substance-compositing-graphs.md)。 然后，您可以使用Substance 3D资源从此包内的所有Substance图形生成内容。
 * 已发布的包<b>完全独立</b>：所需的所有资源都嵌入到文件中。 这意味着它们比SBS文件更易于共享。
 * Substance 3D Assets的输出可以<b>完全动态</b>。 [未设置分辨率；可以修改公开参数。](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) 但是，无法再编辑图形。
-* 可在Designer之外、所有Adobe的Substance 3D产品、Adobe Dimension以及任何其他具有[Substance集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)的应用程序中使用Substance 3D资源。
+* 可在Designer之外、所有Adobe的Substance 3D产品、Adobe Dimension以及任何其他具有[Substance集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)的应用程序中使用Substance 3D资源。
 * 发布与[导出](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)不同，请确保您充分理解其中的区别。
 
 ## 正在准备发布
@@ -55,14 +55,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在资源管理器中，右键单击包并选择![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **Publish .sbsar 文件...**，备用热键Ctrl + P。
+在资源管理器中，右键单击该包，然后选择![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Publish .sbsar文件……**，备用热键Ctrl + P。
 
-通过对话框发布一次后，您还可以使用![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar 文件作为早期版本**&#x200B;重复发布过程，而不看到对话框，而立即使用相同的设置发布。
+使用对话框发布一次后，您还可以使用![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) **Publish .sbsar文件作为上一个文件**&#x200B;重复发布过程，而不看到对话框，而是使用相同的设置立即发布。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在资源管理器中，单击顶部工具栏中的“Publish”按钮![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png)。
+在资源管理器中，单击顶部工具栏中的“Publish”按钮![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png)。
 
-通过对话框发布一次后，您还可以使用“Publish”作为上一个按钮![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png)重复发布过程，而不看到对话框，而立即使用相同的设置发布。
+通过对话框发布一次后，您还可以使用“Publish”作为上一个按钮![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png)重复发布过程，而不看到对话框，而立即使用相同的设置发布。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![资源发布选项](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "资源发布选项")
+![资源发布选项](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "资源发布选项")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: 使用“四元变换”节点将四边形变换应用于纹理，以进行透视校正和变形。
+description: 使用“四边变换”节点可将四边形变换应用于纹理以进行透视校正和变形。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 四元变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-01.png){width="128px"}
 
-![](quad-transform.resources/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform-02.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 描述
 
-特殊的变换节点，允许通过与四边形角点的交互来变换该形状。 允许非常具体的变换以实际操作的方式进行。
+特殊变换节点，允许通过与四边形角点的交互来变换该形状。 允许以实际操作的方式进行非常具体的变换。
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="quad-transform.resources/quad-example.gif" />
+            <img src="quad-transform.resources/quad-transform-03.gif" />
         </td>
     </tr>
 </table>

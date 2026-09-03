@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: 使用“RT阴影”节点计算来自几何的实时阴影信息，以创建动态光照效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT阴影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RT阴影节点图标](rt-shadow.resources/rt-shadow.png "RT阴影节点图标")
+![RT阴影节点图标](rt-shadow.resources/rt-shadow-01.png "RT阴影节点图标")
 
 <b>英寸：</b>滤镜>效果
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-01.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-02.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-03.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-04.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: 使用“MLV灰度模糊”滤镜将运动模糊效果应用于灰度纹理，以获得动态外观。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV灰度：图标](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV灰度：图标")
+![MLV灰度：图标](mlv-grayscale.resources/mlv-grayscale-01.png "MLV灰度：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -78,11 +78,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="mlv_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="mlv_Variant1A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="mlv_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="mlv_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="mlv_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="mlv_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>之后</i>
     </td>
   </tr>

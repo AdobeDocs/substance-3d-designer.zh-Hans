@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: 使用“球面光”节点将球面光源添加到HDRI环境中，以增强光照控制。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 球面光
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sphere-light.resources/panorama-sphere-light.png){width="200px"}
+![](sphere-light.resources/sphere-light-01.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 | <b>位置模式</b> <i>距原点距离，世界位置</i> | 选择两种放置模式。 距原点距离类似于极坐标，球体相对于全景图的中心设置，世界位置类似于标准的三维坐标。 |
 | <b>位置坐标</b> |  |
 | <b>向上矢量</b> <i>Z向上，Y向上</i> | 仅在“世界位置”模式下确定坐标系的方向。 |
-| <b>球面世界位置</b> <i>-2.0 - 2.0</i> | 仅在“世界位置”模式下，在世界空间中设置球体位置。 |
+| <b>球面世界位置</b> <i>-2.0 - 2.0</i> | 只有在“世界位置”模式下，才在世界空间中设置球体位置。 |
 | <b>位置</b> | 仅适用于距原点距离模式。 设置相对于中心的位置。 可在2D视图中操作。 |
 | <b>距原点距离</b> <i>0.0 - 20.0</i> | 仅适用于距原点距离模式。 设置到原点的距离，影响球体的可见大小。 |
 | <b>形状颜色模式</b> <i>RGB、温度（开氏温度）、图像输入</i> | 选择用来设置形状颜色的方法。 “Image Input（图像输入）”允许使用第二个输入插槽。 |
@@ -82,10 +82,10 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-ex.gif" />
+            <img src="sphere-light.resources/sphere-light-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/spherelight-ex1.png" />
+            <img src="sphere-light.resources/sphere-light-03.png" />
         </td>
     </tr>
 </table>

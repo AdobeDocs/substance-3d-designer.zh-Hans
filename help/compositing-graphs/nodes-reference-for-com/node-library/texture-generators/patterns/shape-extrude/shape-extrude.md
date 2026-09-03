@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
-description: 使用“形状凸出”节点在纹理中凸出形状并创建类似3D的深度效果。
+description: 使用“形状凸出”节点在Substance 3D Designer纹理中凸出形状并创建类似3D的深度效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形状凸出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,16 +24,16 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
 
-<b>英寸：</b>纹理生成器>图案
+<b>进入：</b>纹理生成器>图案
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-一个高级节点，允许将2d二进制“形状”输入渲染为3D旋转的高图。 其工作方式与3D包中的凸出类似，沿其轴凸出形状，从而创建体积。 结合使用轮廓渐变蒙版，还可以创建旋转/车床类型主体。 对于为高地图创建复杂的人工形状非常有用。
+一个高级节点，允许将2d二进制“形状”输入渲染为3D旋转的高图。 其工作方式与3D包中的凸出类似，沿其轴凸出形状，从而创建体积块。 结合使用轮廓渐变蒙版，还可以创建旋转/车床类型主体。 对于为高地图创建复杂的人工形状非常有用。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>凸出形状输入</b> <i>灰度输入</i> | 如果“Extrude Shape”（凸出形状）设置为“Custom”（自定），请在这里插入您自己的（最好是）“Binary Shape”（二进制形状）蒙版 |
 | <b>配置文件渐变</b> <i>灰度输入</i> | 如果“截面梁类型”设置为“垂直渐变”，则可用于为旋转主体定义形状沿轴的比例。 |
-| <b>个人资料蒙版</b> <i>灰度输入</i> | 蒙版槽，用于隐藏或显示沿其轴的凸出形状。 可用于中断形状沿其轴的连续性。 仅解释为二进制：灰度put值四舍五入为0或1。 |
+| <b>个人资料蒙版</b> <i>灰度输入</i> | 用于沿凸出形状的轴隐藏或显示凸出形状的蒙版槽。 可用于中断形状沿其轴的连续性。 仅解释为二进制：灰度put值四舍五入为0或1。 |
 
 <a name="parameters"></a>
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-02.png" />
         </td>
     </tr>
 </table>

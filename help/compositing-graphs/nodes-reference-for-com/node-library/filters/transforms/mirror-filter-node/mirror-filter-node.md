@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
 description: 使用“镜像”滤镜节点可水平或垂直镜像纹理，以创建对称图案和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 镜像（筛选器节点）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mirror-filter-node.resources/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-01.png){width="128px"}
 
-![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-02.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mirror-filter-node.resources/mirror-example.png" />
+            <img src="mirror-filter-node.resources/mirror-filter-node-03.png" />
         </td>
     </tr>
 </table>

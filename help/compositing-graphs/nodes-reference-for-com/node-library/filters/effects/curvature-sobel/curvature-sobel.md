@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
-description: 使用弯曲Sobel节点通过Sobel运算符检测弯曲边缘，以创建基于边缘的蒙版。
+description: 使用Sobel运算符通过曲率Sobel节点检测曲率边缘，以创建基于边缘的蒙版。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Sobel
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Sobel弯曲
+title: 弯曲Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Sobel弯曲
+# 弯曲Sobel
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## 描述
 
-对输入[标准映射](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)执行简单而苛刻的单程弯曲转换。 生成的贴图具有凸形区域的白色色调和凹形区域的黑色色调。 弯曲将始终产生较粗的线条和尖锐的过渡。
+对输入[正常映射](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)执行简单、苛刻的单程曲率转换。 生成的贴图具有凸形区域的白色色调和凹形区域的黑色色调。 曲率将始终产生较粗的线条和尖锐的过渡。
 
-此节点对于快速突出显示或调暗某些边缘非常有用。 它与[弯曲](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)略有不同，因为它可以产生更好的质量结果，但仍然清晰且严苛。
+此节点对于快速突出显示或调暗某些边缘非常有用。 它与[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)略有不同，因为它可产生更好的质量结果，但仍然清晰且生硬。
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
+            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
         </td>
     </tr>
 </table>

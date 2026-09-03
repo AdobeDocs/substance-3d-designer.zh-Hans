@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: 使用“样条附加”节点将多个样条附加在一起，以创建更长的连续路径。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 添加样条
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-append.resources/spline-append-icon.png "节点图标")
+![节点图标](spline-append.resources/spline-append-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-append.resources/SplineAppend-Demo.jpg "节点示例1")
+![节点示例1](spline-append.resources/spline-append-02.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-append.resources/SplineAppend-Graph.jpg "节点示例2")
+![节点示例2](spline-append.resources/spline-append-03.jpg "节点示例2")
 
 </td>
 </tr>
 </table>
 
-![节点演示](spline-append.resources/SplineAppend-Demo2.gif "节点演示")
+![节点演示](spline-append.resources/spline-append-04.gif "节点演示")

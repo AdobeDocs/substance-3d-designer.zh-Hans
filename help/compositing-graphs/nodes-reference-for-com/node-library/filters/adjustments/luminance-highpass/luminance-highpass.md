@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
-description: 使用“明亮度高光”节点从纹理中提取高频明亮度细节，以增强表面细节。
+description: 使用“明亮度高通”节点从纹理中提取高频明亮度细节，以增强表面细节。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Luminance Highpass
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 明亮度高通
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](luminance-highpass.resources/luminance-highpass.png){width="128px"}
+![](luminance-highpass.resources/luminance-highpass-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 描述
 
-通过对输入的明亮度值执行[高通](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)来取消光照信息。 用于修复包含光照信息的拍摄纹理。 可在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中使用多个通道进行组合，以消除不同频率的光照细节。
+通过对输入的明亮度值执行[高通](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)来取消光照信息。 修复包含光照信息的拍摄纹理时有用。 可在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中使用多个通道进行组合，以消除不同频率的光照细节。
 
 与[光照取消低频](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)相比，在保留颜色方面效果稍好。
 
@@ -54,7 +54,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="luminance-highpass.resources/luminance-highpass-example.png" />
+            <img src="luminance-highpass.resources/luminance-highpass-02.png" />
         </td>
     </tr>
 </table>

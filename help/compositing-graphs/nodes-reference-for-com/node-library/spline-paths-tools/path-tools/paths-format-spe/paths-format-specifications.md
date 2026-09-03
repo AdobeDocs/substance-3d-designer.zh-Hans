@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: 了解路径和样条节点使用的路径格式规范和数据结构。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径格式规范
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![路径多边形编码数据](paths-format-specifications.resources/PathsPolygon_Data.jpg "路径多边形编码数据")
+![路径多边形编码数据](paths-format-specifications.resources/paths-format-specifications-01.jpg "路径多边形编码数据")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ top[uv\_pos]和bottom[uv\_pos]共同构成文档的语义单元U[uv\_pos]，由8
 
 本文档中定义的最后一个顶点的地址。 这有助于附加新数据。
 
-因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于&rbrack;0， 1[×]0，.5&lbrack;范围内
+因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于]0， 1[×]0，.5[范围内
 
 <b>ZW</b>
 
@@ -147,7 +147,7 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 ### 顶点信息
 
-可以在图像标题（文档或路径标题）后的任意位置找到顶点。 顶点可以是各种“类型”（“开始”、“中间”或“结束”），并且它们使用2个地址指针（“链接”）显式链接在一起。
+可以在图像标题（文档或路径标题）后的任意位置找到顶点。 顶点可以是各种“类型”（“开始”、“中间”或“结束”），并且它们是使用两个地址指针（“链接”）显式链接在一起的。
 
 <b>开始</b>和<b>结束</b>顶点在这方面是特殊的：为了允许表示闭合路径或链接在一起的任意路径网络，实际使用链接之一来形成表示相同顶点的其他所有开始或结束顶点的循环向前链接列表。 这种相互匹配的顶点称为“兄弟姐妹”。 [插图受到欢迎]
 
@@ -164,21 +164,21 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 <b>宽</b>
 
-顶点类型。 它在值的符号与其绝对值之间拆分：
+顶点类型。 它在值的符号和绝对值之间分配：
 
-在符号部分中，值为0表示实际上此处没有顶点（所有其他元件也都应为0）。 负值表示将顶点标记为“边角”；正值表示顶点“平滑”。 角点与平滑顶点是一个纯粹的隔离属性，对于其余路径编码没有影响或意义。
+在符号部分中，值为0表示实际上此处没有顶点（所有其他元件也都应为0）。 负值表示将顶点标记为“边角”；正值表示顶点“平滑”。 角路径与平滑顶点是纯粹的隔离属性，对其余Paths编码没有影响或意义。
 
-在绝对值部分，对像素的类型（开始、中间或结束）和另一个标志(trivial\_link)进行编码：
+在绝对值部分，对像素的类型（开始、中间或结束）和另一个标记(trivial\_link)进行编码：
 
 * *0.125*：结束顶点（形状的最后一个顶点；始终是非普通链接，请参阅下文）
 
 * *0.25*：起始顶点（形状的第一个顶点；始终是非平庸链接，请参阅下文）
 
-* *0.5*：带有非平凡链接的中间顶点
+* *0.5*：带有非普通链接的中间顶点
 
-* *1*：带有简单链接的中间顶点
+* *1*：包含简单链接的中间顶点
 
-“普通链接”是指上一个和下一个顶点（在当前路径的顶点列表中）分别存储在左侧(vert\_addr-(0，pixel\_size))和右侧(vert\_addr+(0，pixel\_size))的像素中，而“非普通链接”意味着其中至少一个顶点存储在其他位置。
+“普通链接”是指上一个和下一个顶点（在当前路径的顶点列表中）分别存储在左侧(vert\_addr-(0，pixel\_size))和右侧(vert\_addr+(0，pixel\_size))的像素中，而“非普通链接”意味着其中至少一个路径存储在其他位置。
 
 +++
 
@@ -187,7 +187,7 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 <b>XY</b>
 
-此路径的上一个顶点的地址。 对于起始顶点，将指向下一个同级顶点。\
+此路径的上一个顶点的地址。 对于“开始”顶点，将指向下一个同级顶点。\
 如果 |top[vert\_addr].W| = 1，然后bottom[vert\_addr].XY = vert\_addr - (0，pixel\_size)
 
 <b>ZW</b>
@@ -269,11 +269,11 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 可以在第三迭代节点的Iterations参数中检查`*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)，以说明如何使用它。
 
-![sample_next的最小用例](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next的最小用例")
+![sample_next的最小用例](paths-format-specifications.resources/paths-format-specifications-02.png "sample_next的最小用例")
 
 
 
-![预览路径中sample_next的用例(path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "预览路径中sample_next的用例(path_trace)")
+![预览路径中sample_next的用例(path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "预览路径中sample_next的用例(path_trace)")
 
 
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 创建MDL图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本页介绍了在Substance 3D Designer中创建用于创作MDL 材质的MDL 图的过程。
 
-![MDL 图创建路径](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "MDL 图创建路径")
+![MDL 图创建路径](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "MDL 图创建路径")
 
 *在Designer界面中创建新MDL 图的路径*
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 您可以使用以下任一方法创建MDL 图：
 
 * 在&#x200B;*主菜单栏*&#x200B;中选择&#x200B;**文件>新建>MDL 图**&#x200B;选项
-* 单击&#x200B;*主工具栏*&#x200B;中的![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **添加MDL 图**&#x200B;按钮
+* 单击&#x200B;*主工具栏*&#x200B;中的![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png) **添加MDL 图**&#x200B;按钮
 * 右键单击&#x200B;**资源管理器**&#x200B;面板中的&#x200B;*现有包*，然后选择&#x200B;**新建>MDL 图**&#x200B;选项
 
 您将看到&#x200B;**新建MDL 图**&#x200B;对话框，请参阅下文。
 
-![新建MDL 图对话框](creating-an-mdl-graph.resources/mdl-templates.png "新建MDL 图对话框")
+![新建MDL 图对话框](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "新建MDL 图对话框")
 
 *新建MDL 图对话框*
 
@@ -59,10 +59,10 @@ ht-degree: 0%
 
 可以使用&#x200B;**项目**&#x200B;组合框旁边的&#x200B;*按钮*&#x200B;以不同模式显示模板列表：
 
-* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)显示最近使用的模板**：筛选列表以显示最近使用的模板，其顺序为&#x200B;*最近到最近最少*，顶部项是最近使用的项
-* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)显示图形**：模板按其&#x200B;*仅标签*&#x200B;显示，按模板目录中的[Substance 3D](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)文件的顺序
-* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)显示Substance 3D文件**：按照模板目录中文件的顺序，模板按其标签显示为&#x200B;*它们所属的Substance 3D文件的子级*
-* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)显示目录**：模板按其标签显示为其所属目录的&#x200B;*子级*，顺序为模板目录中的文件
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)显示最近使用的模板**：筛选列表以显示最近使用的模板，其顺序为&#x200B;*最近到最近最少*，顶部项是最近使用的项
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)显示图形**：模板按其&#x200B;*仅标签*&#x200B;显示，按模板目录中的[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)文件的顺序
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)显示Substance 3D文件**：按照模板目录中文件的顺序，模板按其标签显示为&#x200B;*它们所属的Substance 3D文件的子级*
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)显示目录**：模板按其标签显示为其所属目录的&#x200B;*子级*，顺序为模板目录中的文件
 
 ### 属性
 

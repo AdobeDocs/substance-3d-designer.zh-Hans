@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer中的Substance合成图表，用于创建过程纹理和材质工作流程。
+description: 了解Substance 3D Designer中的Substance合成图形，用于创建程序化纹理和材料工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,16 +24,16 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-[Substance图形](https://substance3d.adobe.com/)是在Substance 3D Designer中创建的主要图形类型。 其目的是<b>生成和处理不受设置分辨率、颜色或形状限制的2D图像数据</b>。 这些模板是用途极为广泛的图像处理和生成工具，而不仅仅是静态的预设置结果。
+[图形](https://substance3d.adobe.com/)是在Substance 3D Designer中创建的主要图形类型。 其目的是<b>生成和处理不受设置分辨率、颜色或形状限制的2D图像数据</b>。 这些模板是用途极为广泛的图像处理和生成工具，而不仅仅是静态的预设置结果。
 
-结果可以是简单的黑白图案、只在其他图像上运行并且不单独生成内容的滤镜，或者甚至是具有多个通道的完整的程序材料。
+结果可以表现为简单的黑白图案、只在其他图像上运行并且不单独生成内容的滤镜，或者甚至是具有多个通道的完整材料。
 
-Substance图形是[最受支持的图形类型](../getting-started/overview/overview.md)，可以导出并在大量不同的工作流程中使用。
+图形是[最广泛支持的图形类型](../getting-started/overview/overview.md)，可以导出并在大量不同的工作流程中使用。
 
 </td>
 </tr>
@@ -44,18 +44,18 @@ Substance图形是[最受支持的图形类型](../getting-started/overview/over
 在下面您可以找到一些常见用例的典型示例。
 
 +++简单形状
-![Substance图中的简单形状](substance-compositing-graphs.resources/simpleshape.png "Substance图中的简单形状"){width="512px"}
+![图形中的简单形状](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Substance图形中的简单形状"){width="512px"}
 
 
 
 通过生成[一段文本](../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)和[圆盘形状](../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md)，[从圆盘中提取边缘](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)，最后[将它们混合在一起](../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)，然后将它们设置为最终的[输出](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)，可以创建贴花的简单蒙版形状。
 
-带有编号的文本或边缘的Thickness可以对外公开，使其成为更动态的图表。
+带有编号的文本或边缘的Thickness可在外部公开，使其成为更动态的图形。
 
 +++
 
 +++调整滤镜
-![Substance图中的调整滤镜](substance-compositing-graphs.resources/simplefilter.png "Substance图中的调整滤镜"){width="512px"}
+![Substance图中的调整滤镜](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Substance图中的调整滤镜"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Substance图形是[最受支持的图形类型](../getting-started/overview/over
 +++
 
 +++全材质
-![Substance图中的完整素材](substance-compositing-graphs.resources/simplematerial.png "Substance图中的完整素材"){width="512px"}
+![Substance图中的完整素材](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Substance图中的完整素材"){width="512px"}
 
 
 

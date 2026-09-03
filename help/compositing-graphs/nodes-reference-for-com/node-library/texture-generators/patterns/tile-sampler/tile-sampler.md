@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: 使用“拼贴Sampler”节点可对输入纹理中的拼贴进行采样和排列，以便在Substance 3D Designer中创建拼贴图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>示例显示参数如何由输入图（图案分布、缩放、旋转）驱动。</i>
+            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>示例显示参数如何由输入图（图案分布、缩放、旋转）驱动。</i>
         </td>
     </tr>
 </table>

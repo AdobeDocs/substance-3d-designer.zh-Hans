@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: 使用“锐化”节点来增强纹理细节和边缘，以创建清晰、定义的表面细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 锐化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![锐化节点图标](sharpen.resources/sharpen-4.png "锐化节点图标")
+![锐化节点图标](sharpen.resources/sharpen-01.png "锐化节点图标")
 
 <b>在：</b>个原子节点中
 
@@ -56,4 +56,4 @@ ht-degree: 4%
 
 ## 示例
 
-![锐化节点 — 示例1](sharpen.resources/sharpen-ex.png "锐化节点 — 示例1")
+![锐化节点 — 示例1](sharpen.resources/sharpen-02.png "锐化节点 — 示例1")

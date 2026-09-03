@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: 使用3D纹理SDF节点从3D数据生成有符号距离场纹理，以创建平滑的形状和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D纹理SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3d-texture-sdf-01.png){width="200px"}
 
 <b>进入：</b>滤镜>效果
 
@@ -61,13 +61,13 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-04.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: 对Substance 3D Designer中的图像输出错误问题进行故障诊断，并了解如何修复渲染问题。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图像输出不正确
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substan
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
 
 </td>
 </tr>
@@ -101,12 +101,12 @@ Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substan
 
 **![（错误）](incorrect-image-output.resources/error.svg)问题**
 
-使用某些混合后，形状略微模糊，如[变换 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)或[节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
+使用某些节点后，形状略微模糊，如[变换2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)或[混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
 
 </td>
 </tr>

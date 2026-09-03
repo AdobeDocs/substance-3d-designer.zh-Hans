@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
 description: 使用“中间值滤镜”“灰度”节点可降低杂色并保留灰度纹理的边缘。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 中间值滤镜灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![中间值滤镜灰度：图标](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "中间值滤镜灰度：图标")
+![中间值滤镜灰度：图标](median-filter-grayscale.resources/median-filter-grayscale-01.png "中间值滤镜灰度：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-此滤镜平滑图像中的杂色同时保留边缘。
+此滤镜可对图像中的噪声进行平滑处理，同时保留边缘。
 
 对于每个像素，节点根据像素的相邻像素的中值计算灰度值。
 
@@ -75,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
       <br><i>之后</i>
     </td>
   </tr>

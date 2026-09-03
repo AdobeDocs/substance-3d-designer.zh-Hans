@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
 description: 使用“边缘Dirt”节点在网格边缘上生成Dirt累积蒙版，以创建逼真的边缘风化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 边缘Dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-dirt.resources/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
-此蒙版表示仅基于曲率图在边缘周围累积的Dirt效果。
+此蒙版表示仅基于弯曲图在边缘周围累积的Dirt效果。
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-dirt.resources/edge-dirt-ex.gif" />
+            <img src="edge-dirt.resources/edge-dirt-02.gif" />
         </td>
     </tr>
 </table>

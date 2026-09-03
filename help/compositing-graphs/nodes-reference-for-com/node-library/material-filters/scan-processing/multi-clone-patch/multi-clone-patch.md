@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
 description: 使用“多克隆修补”节点来克隆和修补多个纹理通道，以修复扫描的素材伪影。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多克隆修补程序
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
 
-![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

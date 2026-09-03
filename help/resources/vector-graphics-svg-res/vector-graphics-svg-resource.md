@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中导入SVG矢量图形并将其用作创建程序性素材的资源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 矢量图形 (SVG) 资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer通过可缩放矢量图形格式支持有限形式的矢量图形。 SVG文件可按不同方式作为资源引入，以用作图表的资源。
 
-SVG文件[可以通过原子SVG节点创建或编辑，](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)它们也可以由[UV到SVG烘焙器创建。](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG文件[可以通过原子SVG节点创建或编辑，](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)它们也可以由[UV到SVG烘焙器创建。](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 | 标识符 | 用于引用包中的SVG资源，必须是唯一的。 |
 | 文件路径 | 资源引用的SVG文件的磁盘路径。 |
 | 描述 | 此资源的[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)和[库](../../interface/the-library/the-library.md)工具提示中显示的说明。 |
-| 类别 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 标签 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 作者 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 作者 URL | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 标记 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 类别 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 标签 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 作者 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 作者 URL | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 标记 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
 | 用户数据 | 可选的额外数据，不适用于矢量图形。 |
 | 在图库中显示 | 确定SVG资源是否应在[库视图](../../interface/the-library/the-library.md)中隐藏。 |
 | 矢量图形质量 | 影响渲染品质。 此范围不是线性的，在0.5时达到最佳质量。 |
@@ -70,7 +70,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 
 ### Adobe Illustrator
 
-如果您注意以下选项，[Illustrator](https://www.adobe.com/cn/products/illustrator.html)允许对您的SVG导出进行最大程度的控制。
+如果您注意以下选项，[Illustrator](https://www.adobe.com/products/illustrator.html)允许对您的SVG导出进行最大程度的控制。
 
 * 仅使用<b>“另存为”</b>，*“不”*“导出为”！
 * <b>SVG配置文件</b>无关紧要，但Tiny配置文件将（大部分）默认为绝对正确的设置；
@@ -87,7 +87,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 > 画板可能会影响生成的SVG文件的结果。 某些Illustrator文件模板引入了多个画板。\
 > 尝试仅保留一个已正确裁剪的画板，并在另存为SVG时在“画板”窗口中选择它。
 
-![SVG导出选项](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "IllustratorSVG导出选项"){width="512px"}
+![SVG导出选项](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "IllustratorSVG导出选项"){width="512px"}
 
 ### Inkscape
 

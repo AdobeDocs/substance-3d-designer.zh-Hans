@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: 使用“路径多边形”节点从顶点数据创建多边形路径以生成几何图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径多边形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](paths-polygon.resources/paths-polygon-icon.png "节点图标")
+![节点图标](paths-polygon.resources/paths-polygon-01.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -63,12 +63,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "节点示例1")
+![节点示例1](paths-polygon.resources/paths-polygon-02.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](paths-polygon.resources/PathsPolygon_Variant2.jpg "节点示例2")
+![节点示例2](paths-polygon.resources/paths-polygon-03.jpg "节点示例2")
 
 </td>
 </tr>

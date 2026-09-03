@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
 breadcrumb-title: ''
 description: 使用定向噪声4节点生成四八度的定向噪声图案，用于创建各向异性纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定向噪声4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![定向噪声4 — 图标](directional-noise-4.resources/directional_noise_4.png "定向噪声4 — 图标"){width="200px"}
+![定向噪声4 — 图标](directional-noise-4.resources/directional-noise-4-01.png "定向噪声4 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -71,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![定向噪声4 — 示例1](directional-noise-4.resources/directional_noise_4_1.png "定向噪声4 — 示例1"){zoomable="yes"}
+![定向噪声4 — 示例1](directional-noise-4.resources/directional-noise-4-02.png "定向噪声4 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![定向噪声4 — 示例2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "定向噪声4 — 示例2"){zoomable="yes"}
+![定向噪声4 — 示例2](directional-noise-4.resources/directional-noise-4-03.gif "定向噪声4 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![定向噪声4 — 示例3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "定向噪声4 — 示例3"){zoomable="yes"}
+![定向噪声4 — 示例3](directional-noise-4.resources/directional-noise-4-04.gif "定向噪声4 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![定向噪声4 — 示例4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "定向噪声4 — 示例4"){zoomable="yes"}
+![定向噪声4 — 示例4](directional-noise-4.resources/directional-noise-4-05.gif "定向噪声4 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

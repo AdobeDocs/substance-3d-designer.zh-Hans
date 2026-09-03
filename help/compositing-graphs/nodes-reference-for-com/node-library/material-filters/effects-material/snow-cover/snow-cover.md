@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
 breadcrumb-title: ''
-description: 利用“Snow覆盖”节点，根据表面角度和位置为材料添加积雪效果。
+description: 使用Snow覆盖节点，根据表面角度和位置，为材料添加积雪效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Snow Cover
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Snow封面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](snow-cover.resources/snow-cover.png){width="128px"}
+![](snow-cover.resources/snow-cover-01.png){width="128px"}
 
 <b>进入：</b>材质过滤器>效果
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## 描述
 
-在满布材料上添加积雪的一体式效果。 强烈依赖于良好、高质量的高图（例如来自照片扫描的图像）。 结果旨在确保PBR正确。
+一体式效果，可在整个材料上增加积雪。 强烈依赖于良好、高质量的高图（例如来自照片扫描的图像）。 结果旨在确保PBR正确。
 
 </td>
 </tr>

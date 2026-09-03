@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: 使用“Perlin杂色”节点生成平滑、自然的杂色图案，用于创建有机纹理和变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Perlin噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Perlin噪声 — 图标](perlin-noise.resources/perlin_noise.png "Perlin噪声 — 图标"){width="200px"}
+![Perlin噪声 — 图标](perlin-noise.resources/perlin-noise-01.png "Perlin噪声 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlin噪声 — 示例1](perlin-noise.resources/perlin_noise_1.png "Perlin噪声 — 示例1"){zoomable="yes"}
+![Perlin噪声 — 示例1](perlin-noise.resources/perlin-noise-02.png "Perlin噪声 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Perlin噪声 — 示例2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin噪声 — 示例2"){zoomable="yes"}
+![Perlin噪声 — 示例2](perlin-noise.resources/perlin-noise-03.gif "Perlin噪声 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

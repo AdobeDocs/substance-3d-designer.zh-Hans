@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer中的图表项目，包括用于组织图表的框架、注释、图钉和门户节点。
+description: 了解Substance 3D Designer中的图形项目，包括用于整理图形的帧、注释、大头针和门户节点。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形项目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -20,20 +20,20 @@ ht-degree: 7%
 
 # 图形项目
 
-图表项目是特殊对象，可帮助您组织图表、提高其可读性并加快浏览速度。
+图形项目是特殊对象，可帮助您整理图形、提高其可读性并加快浏览速度。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![点节点图标](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![点节点图标](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## 点节点（也称为门户）
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![框架图标](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![帧图标](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## 取景框
 
@@ -60,14 +60,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![注释图标](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![注释图标](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## 注释
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![导航PIN图标](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![导航大头针图标](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## 固定
 
@@ -79,12 +79,12 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-为图表添加批注。
+为您的图形添加批注。
 
 </td>
 <td style="border: 0;" valign="top">
 
-在图表中标记目标点，然后快速跳转到这些点。
+在您的图形中标记感兴趣的点，然后快速跳转到这些点。
 
 </td>
 </tr>

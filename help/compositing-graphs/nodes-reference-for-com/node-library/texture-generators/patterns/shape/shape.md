@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
 description: 使用“形状”节点可生成用于在Substance 3D Designer中创建图案和纹理的基本几何形状。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形状
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape.resources/shape-2.png){width="128px"}
+![](shape.resources/shape-01.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 | <b>大小</b> <i>0.0 - 1.0</i> | 允许在X或Y轴上进行非均匀缩放。 |
 | <b>角度</b> <i>0.0 - 1.0</i> | 旋转整个形状。 |
 | <b>旋转45°</b> <i>False/True</i> | 以预设45度旋转。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>非方形拼贴</b> <i>False/True</i> | 启用非正方形扩展功能后，这将拼贴形状而不压缩。 |
 
 ## 示例
@@ -62,7 +62,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape.resources/shape-ex.gif" />
+            <img src="shape.resources/shape-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
 description: 使用“扩散灰度”节点可应用灰度扩散效果，以创建平滑的颜色过渡和混合。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 扩散灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-01.png){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 |:---|:---|
 | <b>源</b> <i>灰度</i> | 要扩散的图像。 |
 | <b>蒙版</b> <i>灰度</i> | 扩散蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
-| <b>强度</b> <i>灰度</i> | 局部定义扩散过程应用的强度。 此地图应该为<i>对比图</i>，才能产生显着的效果。 |
+| <b>强度</b> <i>灰度</i> | 在本地定义漫射过程应用的强度。 此地图应该为<i>对比图</i>，才能产生显着的效果。 |
 
 <a name="parameters"></a>
 
@@ -66,24 +66,24 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-07.jpg" />
         </td>
     </tr>
 </table>

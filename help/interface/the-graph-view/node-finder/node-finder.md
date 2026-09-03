@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: 使用Node Finder在图形中快速搜索和定位节点，以便有效地导航。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 节点查找器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 节点查找器
 
-![节点查找器工具栏](node-finder.resources/node-finder-toolbar.png "节点查找器工具栏"){zoomable="yes"}
+![节点查找器工具栏](node-finder.resources/node-finder-01.png "节点查找器工具栏"){zoomable="yes"}
 
 节点查找器工具允许您使用文本查询执行<b>节点和变量</b>搜索。 所有与查询不匹配的节点将变暗，以使结果突出。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 在图形视图中，按<b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS)以显示Node Finder工具栏并自动将焦点设置为查询字段。 这使您可以快速执行搜索。
 
-在图形视图工具栏中，单击<b>“节点查找器”按钮![](node-finder.resources/graph-node-finder.png)</b>以显示“节点查找器”工具栏。 显示后，仅通过单击此按钮关闭工具栏。
+在图形视图工具栏中，单击<b>“节点查找器”按钮![](node-finder.resources/node-finder-02.png)</b>以显示“节点查找器”工具栏。 显示后，仅通过单击此按钮关闭工具栏。
 
 <b>搜索遍历图形</b>。 换句话说，通过下列操作打开图形时，搜索将保持活动状态：
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 * FX-Map：编辑FX-Map图形(Ctrl+E / Cmd+E)
 * 节点参数：编辑函数
 
-![节点查找器：搜索期间遍历图形](node-finder.resources/node-finder-traversal.gif "节点查找器：搜索期间遍历图形"){zoomable="yes"}
+![节点查找器：搜索期间遍历图形](node-finder.resources/node-finder-03.gif "节点查找器：搜索期间遍历图形"){zoomable="yes"}
 
 ### 搜索查询
 
-![节点查找器查询字段](node-finder.resources/node-finder-query-field.png "节点查找器查询字段"){zoomable="yes"}
+![节点查找器查询字段](node-finder.resources/node-finder-04.png "节点查找器查询字段"){zoomable="yes"}
 
 可将搜索词键入此字段，箭头按钮可打开查询建议列表，其中包含当前上下文中可用的一些变量。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 节点类型
 
-![节点类型](node-finder.resources/node-finder-node-types.png "节点类型"){zoomable="yes"}
+![节点类型](node-finder.resources/node-finder-05.png "节点类型"){zoomable="yes"}
 
 使用此组合框可以筛选搜索结果，以便仅保留特定类型的节点。
 
@@ -70,13 +70,13 @@ ht-degree: 0%
 +++节点类型列表
 该列表与当前图形类型相关联。
 
-![节点类型（合成）](node-finder.resources/node-finder-types-compositing.png "节点类型（合成）"){zoomable="yes"}
+![节点类型（合成）](node-finder.resources/node-finder-06.png "节点类型（合成）"){zoomable="yes"}
 
 
 
 *合成图形的节点类型*
 
-![节点类型（函数）](node-finder.resources/node-finder-types-function.png "节点类型（函数）"){zoomable="yes"}
+![节点类型（函数）](node-finder.resources/node-finder-07.png "节点类型（函数）"){zoomable="yes"}
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 +++
 
 +++搜索原子节点
-![节点查找器：按“级别”类型搜索（合成）](node-finder.resources/node-finder-compositing-levels.png "节点查找器：按“级别”类型搜索（合成）"){zoomable="yes"}
+![节点查找器：按“级别”类型搜索（合成）](node-finder.resources/node-finder-08.png "节点查找器：按“级别”类型搜索（合成）"){zoomable="yes"}
 
 
 
@@ -94,13 +94,13 @@ ht-degree: 0%
 +++
 
 +++搜索实例节点
-![节点查找器：按“实例”类型（合成）搜索](node-finder.resources/node-finder-compositing-instances.png "节点查找器：按“实例”类型（合成）搜索"){zoomable="yes"}
+![节点查找器：按“实例”类型（合成）搜索](node-finder.resources/node-finder-09.png "节点查找器：按“实例”类型（合成）搜索"){zoomable="yes"}
 
 
 
 *在Substance图形中搜索“实例”节点类型*
 
-![节点查找器：按“实例”类型（函数）搜索](node-finder.resources/node-finder-functions-instances.png "节点查找器：按“实例”类型（函数）搜索"){zoomable="yes"}
+![节点查找器：按“实例”类型（函数）搜索](node-finder.resources/node-finder-10.png "节点查找器：按“实例”类型（函数）搜索"){zoomable="yes"}
 
 
 
@@ -114,14 +114,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-使用<b>搜索选项按钮![](node-finder.resources/node-finder-search-options.png)</b>可打开用于搜索的可打开和关闭设置的列表。
+使用<b>搜索选项按钮![](node-finder.resources/node-finder-11.png)</b>可打开用于搜索的可打开和关闭设置的列表。
 
 可在下面的搜索选项部分中了解有关这些选项的更多信息。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点查找器搜索选项](node-finder.resources/node-finder-search-options-open.png "节点查找器搜索选项"){zoomable="yes"}
+![节点查找器搜索选项](node-finder.resources/node-finder-12.png "节点查找器搜索选项"){zoomable="yes"}
 
 </td>
 </tr>
@@ -143,14 +143,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### 实例图形标识符
+### 实例标识符
 
-可以使用它们引用的图形的<b>标识符</b>找到[实例节点](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
+可以使用他们引用的实例化的<b>标识符</b>找到[图形](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点查找器：按图形标识符搜索](node-finder.resources/node-finder-functions-identifier.png "节点查找器：按图形标识符搜索"){zoomable="yes"}
+![节点查找器：按标识符搜索](node-finder.resources/node-finder-13.png "节点查找器：按图形标识符搜索"){zoomable="yes"}
 
 *单击图像可放大*
 
@@ -161,16 +161,16 @@ ht-degree: 0%
 +++资源管理器中的标识符
 图形在资源管理器中按其标识符列出。
 
-![资源管理器：包内容](node-finder.resources/explorer-package-simple.png "资源管理器：包内容"){zoomable="yes"}
+![资源管理器：包内容](node-finder.resources/node-finder-14.png "资源管理器：包内容"){zoomable="yes"}
 
 
 
 +++
 
-+++实例节点的工具提示中的标识符
-实例节点的工具提示包括它们参照图形的标识符。
++++实例化工具提示中的标识符
+实例化的工具提示包括其引用图形的标识符。
 
-![实例节点的工具提示中的图形标识符](node-finder.resources/node-finder-compositing-identifier.png "实例节点的工具提示中的图形标识符"){zoomable="yes"}
+![实例化工具提示中的图形标识符](node-finder.resources/node-finder-15.png "实例化工具提示中的图形标识符"){zoomable="yes"}
 
 
 
@@ -180,14 +180,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### 公开的参数和变量
+### 公开参数和变量
 
 可以直接搜索[公开参数](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的标识符或任何其他变量。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点查找器：节点变量](node-finder.resources/node-finder-compositing-variable.png "节点查找器：节点变量"){zoomable="yes"}
+![节点查找器：节点变量](node-finder.resources/node-finder-16.png "节点查找器：节点变量"){zoomable="yes"}
 
 *单击图像可放大*
 
@@ -200,13 +200,13 @@ ht-degree: 0%
 
 其中包括可用于当前图形类型的[内置变量](../../../function-graphs/variables/system-variables/system-variables.md)，以及图形公开参数的标识符。
 
-![节点查找器查询建议](node-finder.resources/node-finder-available-query-suggestions.png "节点查找器查询建议"){zoomable="yes"}
+![节点查找器查询建议](node-finder.resources/node-finder-17.png "节点查找器查询建议"){zoomable="yes"}
 
 
 
 也可以在[Substance图形属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中直接复制或编辑公开参数的标识符。
 
-![节点查找器：公开参数](node-finder.resources/node-finder-compositing-exposed-parameter.png "节点查找器：公开参数"){zoomable="yes"}
+![节点查找器：公开参数](node-finder.resources/node-finder-18.png "节点查找器：公开参数"){zoomable="yes"}
 
 
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 还可以使用任意文本编辑器直接从SBS文件中的XML数据复制变量。
 
-![节点查找器：从控制台警告/错误搜索变量](node-finder.resources/node-finder-console-identifier.png "节点查找器：从控制台警告/错误搜索变量"){zoomable="yes"}
+![节点查找器：从控制台警告/错误搜索变量](node-finder.resources/node-finder-19.png "节点查找器：从控制台警告/错误搜索变量"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 +++获取/设置节点
 在图形中搜索变量（包括公开的参数）时，搜索将突出显示所有节点，其中[Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)或[Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)节点在任何节点的参数函数中使用该变量。
 
-![节点查找器：搜索变量匹配使用它的Get节点](node-finder.resources/node-finder-exposed-parameter-01.gif "节点查找器：搜索变量匹配使用它的Get节点"){zoomable="yes"}
+![节点查找器：搜索变量匹配使用它的Get节点](node-finder.resources/node-finder-20.gif "节点查找器：搜索变量匹配使用它的Get节点"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点查找器：按UID搜索](node-finder.resources/node-finder-compositing-uid-search.png "节点查找器：按UID搜索"){zoomable="yes"}
+![节点查找器：按UID搜索](node-finder.resources/node-finder-21.png "节点查找器：按UID搜索"){zoomable="yes"}
 
 *单击图像可放大*
 
@@ -260,7 +260,7 @@ ht-degree: 0%
 
 uid=1234567890
 
-![节点查找器：复制节点UID操作](node-finder.resources/node-finder-compositing-uid-copy.png "节点查找器：复制节点UID操作"){zoomable="yes"}
+![节点查找器：复制节点UID操作](node-finder.resources/node-finder-22.png "节点查找器：复制节点UID操作"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ uid=1234567890
 
 还可以使用任何文本编辑器直接从SBS文件中的XML数据复制节点UID。
 
-![节点查找器：从控制台搜索节点UID](node-finder.resources/node-finder-console-uid.png "节点查找器：从控制台搜索节点UID"){zoomable="yes"}
+![节点查找器：从控制台搜索节点UID](node-finder.resources/node-finder-23.png "节点查找器：从控制台搜索节点UID"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ uid=1234567890
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-使用<b>搜索选项按钮![](node-finder.resources/node-finder-search-options.png)</b>可以切换用于搜索节点的<b>递归</b>和<b>模糊</b>模式。
+使用<b>搜索选项按钮![](node-finder.resources/node-finder-11.png)</b>可以切换用于搜索节点的<b>递归</b>和<b>模糊</b>模式。
 
 可以同时启用这两者。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点查找器搜索选项](node-finder.resources/node-finder-search-options-open.png "节点查找器搜索选项"){zoomable="yes"}
+![节点查找器搜索选项](node-finder.resources/node-finder-12.png "节点查找器搜索选项"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ uid=1234567890
 
 在对图形进行故障排除时，如果您需要根据从控制台中的警告或错误消息获取的UID查找节点，则此选项可能非常重要。
 
-![节点查找器：递归搜索](node-finder.resources/node-finder-recursion-01.png "节点查找器：递归搜索"){zoomable="yes"}
+![节点查找器：递归搜索](node-finder.resources/node-finder-24.png "节点查找器：递归搜索"){zoomable="yes"}
 
 *右侧的查询突出显示下面的实例节点，因为其左侧的引用图形与该查询匹配*
 
 +++示例1
-![节点查找器：递归搜索示例1](node-finder.resources/node-finder-recursion-01.gif "节点查找器：递归搜索示例1"){zoomable="yes"}
+![节点查找器：递归搜索示例1](node-finder.resources/node-finder-25.gif "节点查找器：递归搜索示例1"){zoomable="yes"}
 
 
 
@@ -322,7 +322,7 @@ uid=1234567890
 +++
 
 +++示例2
-![节点查找器：递归搜索示例2](node-finder.resources/node-finder-recursion-02.gif "节点查找器：递归搜索示例2"){zoomable="yes"}
+![节点查找器：递归搜索示例2](node-finder.resources/node-finder-26.gif "节点查找器：递归搜索示例2"){zoomable="yes"}
 
 
 
@@ -336,4 +336,4 @@ uid=1234567890
 
 请注意，使用此选项可能会导致不需要的匹配。
 
-![节点查找器：模糊模式](node-finder.resources/node-finder-functions-fuzzy.png "节点查找器：模糊模式"){zoomable="yes"}
+![节点查找器：模糊模式](node-finder.resources/node-finder-27.png "节点查找器：模糊模式"){zoomable="yes"}

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL图表中的警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 选择图形中输出类型与此函数的预期类型匹配的值的任何节点（如果有），然后单击RMB并选择上下文菜单中的<b>设置为根</b>选项或双击节点上的LMB。\
 Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
-![“未定义输出节点”解决方案](warnings-in-mdl-graphs.resources/warnings-model-output.gif "“未定义输出节点”解决方案")
+![“未定义输出节点”解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "“未定义输出节点”解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)至少有一个输入值被拒绝
 
@@ -47,7 +47,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
 调整该值，使其与目标参数相符。
 
-![“至少有一个输入值已被拒绝”解决方案](warnings-in-mdl-graphs.resources/warnings-model-rejected-value.gif "“至少有一个输入值已被拒绝”解决方案")
+![“至少有一个输入值已被拒绝”解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "“至少有一个输入值已被拒绝”解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)没有输入值
 
@@ -59,7 +59,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
 将节点输入连接到另一个节点的匹配类型的输出连接器。
 
-![“无输入值”解决方案](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "“无输入值”解决方案")
+![“无输入值”解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "“无输入值”解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)节点未计算
 
@@ -69,7 +69,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
 在图形中转到上游，并检查由问题触发的警告，这些问题导致节点无法提供有效输出。
 
-![“Node not computed”解决方案](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "“Node not computed”解决方案")
+![“Node not computed”解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "“Node not computed”解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)引用的数据有一些警告
 
@@ -85,7 +85,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 * 有关图表，请参阅本页中的其他项目
 * 有关任何其他类型的资源，请参阅“来自依赖项的警告”页
 
-![&#39;引用的数据有一些警告&#39;解决方案](warnings-in-mdl-graphs.resources/warnings-model-referenced-data.gif "&#39;引用的数据有一些警告&#39;解决方案")
+![&#39;引用的数据有一些警告&#39;解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "&#39;引用的数据有一些警告&#39;解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)未找到引用的资源
 
@@ -106,7 +106,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 在[资源管理器](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)面板中查找引用的资源，并检查这些资源存在于保存在其<b>文件路径</b>属性中的位置。\
 否则，请单击资源管理器中的资源项上的&#x200B;*人民币*，然后在上下文菜单中选择<b>重定位...</b>选项，以设置该资源的新有效目标文件。
 
-![“未找到引用的资源”解决方案](warnings-in-mdl-graphs.resources/warnings-model-referenced-resource.gif "“未找到引用的资源”解决方案")
+![“未找到引用的资源”解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "“未找到引用的资源”解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)软范围不包含值
 
@@ -120,7 +120,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 >
 > 此警告无法通过用户界面触发，因为它&#x200B;*自动调整*&#x200B;软范围以包含默认值。 仅直接修改Substance 3D文件(SBS) **&#x200B;中的数据，会导致触发此警告。
 
-![&#39;软范围不包含值&#39;解决方案](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;软范围不包含值&#39;解决方案")
+![&#39;软范围不包含值&#39;解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;软范围不包含值&#39;解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)软范围超出硬范围
 
@@ -134,7 +134,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 >
 > 此警告无法通过用户界面触发，因为它&#x200B;*自动调整*&#x200B;软范围以完全包含在硬范围中。 仅直接修改Substance 3D文件(SBS) **&#x200B;中的数据，会导致触发此警告。
 
-![“软范围”超出硬范围“解决方案](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "”软范围“超出硬范围”解决方案")
+![“软范围”超出硬范围“解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "”软范围“超出硬范围”解决方案")
 
 ### ![（错误）](warnings-in-mdl-graphs.resources/error.svg)值超出硬范围
 
@@ -148,4 +148,4 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 >
 > 此警告无法通过用户界面触发，因为它&#x200B;*自动调整*&#x200B;要包括在硬范围中的默认值。 仅直接修改Substance 3D文件(SBS) **&#x200B;中的数据，会导致触发此警告。
 
-![“值超出硬范围”解决方案](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "“值超出硬范围”解决方案")
+![“值超出硬范围”解决方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "“值超出硬范围”解决方案")

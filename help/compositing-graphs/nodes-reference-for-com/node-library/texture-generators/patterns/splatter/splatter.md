@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
 description: 使用“飞溅”节点跨散点形状，以创建随机图案和有机纹理细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 飞溅
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter.resources/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](splatter.resources/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
 <b>进入：</b>纹理生成器>图案
 
@@ -77,7 +77,7 @@ Scplatter是一种图案生成器，用于随机放置地图输入。 它具有�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter.resources/splatter-ex.gif" />
+            <img src="splatter.resources/splatter-03.gif" />
         </td>
     </tr>
 </table>

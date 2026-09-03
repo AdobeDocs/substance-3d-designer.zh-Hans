@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance图形和MDL材料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 
 通过按压Substance图形节点上的RMB并拖入3D视图，可以将来自Substance图形的单个纹理连接到支持纹理采样的任何MDL材料参数，而不管标识符如何。 此时会显示可用采样器用法的列表，您可以为所选纹理选择目标用法。
 
-![公开的MDL图形输入](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "公开的MDL图形输入")
+![公开的MDL图形输入](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "公开的MDL图形输入")
 
 *Substance图形输出的纹理连接到3D视图中MDL图形的公开参数*
 
@@ -48,7 +48,7 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 通过将Substance图形实例从<b>资源管理器</b>面板拖动到MDL图形中，可将它们直接放入MDL图形中。 在MDL图中使用来自<b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源文件</b> (SBSAR)的Substance图。
 
 +++从Substance 3D文件(SBS)Substance图形
-![在MDL图形中从SBS文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "在MDL图形中从SBS文件Substance图形")
+![在MDL图形中从SBS文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "在MDL图形中从SBS文件Substance图形")
 
 
 
@@ -57,7 +57,7 @@ Substance图表的输出可以通过两种方式传递到MDL材料的公开参�
 +++
 
 +++从Substance 3D资源(SBSAR)Substance图表
-![在MDL图表中从SBSAR文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "在MDL图表中从SBSAR文件Substance图形")
+![在MDL图表中从SBSAR文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "在MDL图表中从SBSAR文件Substance图形")
 
 
 

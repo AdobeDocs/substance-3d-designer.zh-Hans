@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: 使用“量化颜色”节点可减少风格化色调分离效果的色阶数量。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 量化颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](quantize-color.resources/QuantizeColor.png "量化颜色图标"){width="200px"}
+![量化颜色图标](quantize-color.resources/quantize-color-01.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 除了处理图像外，节点还提取以下内容：
 
 * 其余颜色的<b>调色板</b>，可用于为其他图像着色
-* 量化区域的<b>Id 图</b>，可用于使用其他调色板为处理的图像重新着色
-* <b>数量</b>的剩余整数作为原始颜色值
+* 量化区域的<b>ID映射</b>，可用于使用不同的调色板为处理的图像重新着色
+* 作为原始整数值的剩余颜色的<b>数量</b>
 
 </td>
 </tr>
@@ -77,9 +77,9 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>最大 颜色量</b> *整数* | 量化图像应使用的最大颜色量。   此数量与从图像中提取的调色板中使用的数量相同。  “最大值”表示由于使用了量化技术，可能无法满足此金额。 检查“调色板颜色数量”输出以查看实际提取的颜色数量。 |
-| <b>轮廓平滑</b> *浮动* | 控制应用于输入图像的平滑效果的半径，用于将量化图像简化为更坚实、更具凝聚力的形状。   注意：此平滑需要大量计算，因此提高此值会显着增加节点的计算时间。 |
-| <b>抖动</b> *浮动* | 应用抖动图案以在原始图像中重新创建渐变和颜色混合，同时仍仅使用量化后剩余的颜色。   确保使用“轮廓平滑”值0产生预期的抖动效果。 |
-| <b>抖动模式</b> *整数* | 用于在原始图像中重新创建渐变和颜色混合的抖动图案：<ul data-preserve-html="true"> <li data-preserve-html="true">蓝色杂色</li> <li data-preserve-html="true">拜耳</li> </ul> |
+| <b>轮廓平滑</b> *浮动* | 控制应用于输入图像的平滑效果的半径，用于将量化图像简化为更坚实、更有凝聚力的形状。   注意：此平滑操作需要密集的计算，因此提高此值会显着增加节点的计算时间。 |
+| <b>仿色</b> *Float* | 应用仿色图案以在原始图像中重新创建渐变和颜色混合，同时仍仅使用量化后剩余的颜色。   确保使用“轮廓平滑”值0产生预期的仿色效果。 |
+| <b>仿色模式</b> *整数* | 用于在原始图像中重新创建渐变和颜色混合的抖动图案：<ul data-preserve-html="true"> <li data-preserve-html="true">蓝色杂色</li> <li data-preserve-html="true">拜耳</li> </ul> |
 | <b>忽略Alpha</b> *布尔值* | 默认情况下，原始图像的Alpha通道用于选择在量化过程中应从中提取颜色的图像区域，而透明区域中的颜色会被忽略。 这有效地提供了对提取颜色的一些控制。   实际上，您可能希望仅使用图像的可见部分中的颜色来进行量化。   此切换功能可让您禁用此蒙版并使用&#x200B;*完整*&#x200B;图像，而不考虑透明度。 |
 | <b>距离色彩空间</b> *整数* | 在&#x200B;*立方体*&#x200B;中排列颜色，其宽度、Height和深度是渐变，其中颜色的每个分量从0增加到1(例如 红、绿、蓝RGB)。   量化过程包括在图像中选择&#x200B;*定义颜色*，然后在立方体中查找与其最接近的颜色并用该定义颜色替换它们。   此参数允许您选择用于在立方体中分布颜色的色彩空间，该色彩空间通过更改检测定义颜色和重新排列相邻颜色的标准来更改量化结果。   您可以选择适合您用例的色彩空间：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Lab（颜色）：</b>标准的可感知色彩空间，它以这样一种方式分配颜色，“感觉”接近的颜色实际上在立方体中靠近。 这适合用于显示器上可能显示的图像</li> <li data-preserve-html="true"><b>RGB（数据）：</b>颜色被分为红色、绿色和蓝色，并沿这些轴直接分布，而不考虑人类的感觉。 这适合用于包含原始数据的图像，例如正常映射</li> </ul> |
 | <b>ID排序模式</b> *整数* | 在&#x200B;*立方体*&#x200B;中排列颜色，其中宽度、Height和深度是渐变，其中颜色的每个分量从0增加到1(例如 红、绿、蓝RGB)。   此参数选择用于对提取的调色板中的颜色列表以及提取的Id 图区域中的索引进行排序的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Z曲线：</b>颜色会根据Z曲线在颜色立方体中找到的下一个颜色进行排序（从白色到黑色）</li> <li data-preserve-html="true"><b>色相：</b>颜色按最接近的色相排序</li> <li data-preserve-html="true"><b>代表性：</b>颜色在量化图像中使用率从高到低排序</li> </ul> |
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize-color-02.jpg" alt="quantize_color_example_6_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize-color-03.jpg" alt="quantize_color_example_6_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -103,11 +103,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize-color-04.jpg" alt="quantize_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize-color-05.jpg" alt="quantize_color_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -116,11 +116,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize-color-06.jpg" alt="quantize_color_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize-color-07.jpg" alt="quantize_color_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize-color-08.jpg" alt="quantize_color_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize-color-09.jpg" alt="quantize_color_example_4_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize-color-10.jpg" alt="quantize_color_example_5_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize-color-11.jpg" alt="quantize_color_example_5_after">
       <br><i>之后</i>
     </td>
   </tr>

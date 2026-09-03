@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
 breadcrumb-title: ''
 description: 使用“皮革磨损”节点，根据弯曲和接触点在皮革表面生成磨损蒙版。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 皮革磨损
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-wear.resources/leather-wear.png){width="128px"}
+![](leather-wear.resources/leather-wear-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -62,7 +62,7 @@ ht-degree: 5%
 | <b>佩戴对比度</b> <i>0.0 - 1.0</i> | 设置效果的对比度。 |
 | <b>污渍量</b> <i>0.0 - 1.0</i> | 设置要在边缘之间混合的污渍量（默认皮革图案）。 |
 | <b>Ambient occlusion蒙版</b> <i>0.0 - 1.0</i> | 设置AO遮蔽磨损效果的程度。 |
-| <b>弯曲粗细</b> <i>0.0 - 1.0</i> | 设置弯曲的边缘对最终结果的影响程度。 即使设置为0，您仍需要曲率图。 |
+| <b>弯曲粗细</b> <i>0.0 - 1.0</i> | 设置弯曲的边缘对最终结果的影响程度。 即使设置为0，您仍然需要弯曲图。 |
 | <b>使用自定义污渍</b> <i>False/True</i> | 允许覆盖内置的默认皮革图案。 请改用自定义输入槽。 |
 
 ## 示例
@@ -70,7 +70,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-wear.resources/leather-wear-ex.gif" />
+            <img src="leather-wear.resources/leather-wear-02.gif" />
         </td>
     </tr>
 </table>

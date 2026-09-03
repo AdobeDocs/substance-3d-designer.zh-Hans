@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
-description: 使用“皮革风化”节点，根据网格弯曲为皮革材料添加磨损图案和老化效果。
+description: 使用“皮革风化”节点，根据网格曲率为皮革材料添加磨损图案和老化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 皮革风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-weathering.resources/leather-weathering.png){width="128px"}
+![](leather-weathering.resources/leather-weathering-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>风化
 
@@ -89,10 +89,10 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-ex.gif" />
+            <img src="leather-weathering.resources/leather-weathering-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-ex2.png" />
+            <img src="leather-weathering.resources/leather-weathering-03.png" />
         </td>
     </tr>
 </table>

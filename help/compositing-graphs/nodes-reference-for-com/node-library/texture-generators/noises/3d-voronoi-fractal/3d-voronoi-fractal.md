@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
-description: 使用3D Voronoi Fractal节点生成基于三维位置的分形Voronoi图案，用于立体纹理。
+description: 利用3D Voronoi Fractal节点生成基于三维位置的分形Voronoi图案，用于体积纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 描述
 
-<b>3D Voronoi Fractal</b>节点基于<b>位置映射</b>输入在3D空间中生成<i>分形</i> Voronoi噪声。
+<b>3D Voronoi Fractal</b>节点基于<b>位置映射</b>输入在3D空间中生成<i>分形</i>Voronoi噪声。
 
 此节点可以使用[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)作为输入而不是实际已烘焙贴图进行测试（如下面的示例图像所示）。
 
@@ -53,8 +53,8 @@ ht-degree: 0%
 |:---|:---|
 | <b>反转</b> <i>布尔值</i> | 反转输出图像。 |
 | <b>缩放</b> <i>浮动</i> | 控制分形3D Voronoi噪声的比例。<br><br><i>注意</i>：在<i>任意轴</i>上启用<b>拼贴</b>时，比例调整为<i>分步</i>。 这是预期的。 |
-| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的分形3D Voronoi噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，大小调整为<i>步进</i>。 这是预期的。 |
-| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中的分形3D Voronoi噪声的<i>位置</i>。 |
+| <b>大小</b> <i>浮点3</i> | 在<b>X</b>、<b>Y</b>和<b>Z</b>轴中控制分形3D Voronoi噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，大小调整为<i>步进</i>。 这是预期的。 |
+| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴的分形3D Voronoi噪声的<i>位置</i>。 |
 | <b>无序</b> <i>浮点3</i> | 应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中每个噪声点的<i>随机偏移</i>的强度。 |
 | <b>扭曲强度</b> <i>浮动</i> | 控制应用于分形3D Voronoi噪声的<i>变形效果</i>的强度。 |
 | <b>扭曲比例乘数</b> <i>浮动</i> | 控制变形效果中使用的<i>变形图案</i>的比例，该比例由<b>扭曲强度</b>控制。 |
@@ -77,24 +77,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
         </td>
     </tr>
 </table>

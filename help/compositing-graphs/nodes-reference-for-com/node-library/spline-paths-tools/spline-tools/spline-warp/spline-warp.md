@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: 使用“样条变形”节点沿样条路径扭曲纹理，以创建弯曲的有机图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-warp.resources/spline-warp-icon.png "节点图标")
+![节点图标](spline-warp.resources/spline-warp-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | <b>强度图拼贴</b> <i>浮动</i> | （当“采样模式”未设置为“纹理空间”时可用）直接映射到样条坐标时调整强度映射的拼贴（请参阅样条坐标输入）。 |
 | <b>开始衰减</b> <i>浮动</i> | （当“使用衰减曲线”设置为“假”时可用）在样条开始处衰减变形效果的乘数。<br>值为1表示在样条开始处不应用变形。 |
 | <b>结束衰减</b> <i>浮动</i> | （当“使用衰减曲线”设置为“假”时可用）在样条末端附近衰减变形效果的乘数。<br>值为1表示样条末端不应用变形。 |
-| <b>重新计算切线</b> <i>布尔值</i> | 如果为True，则在应用变形效果后重新计算样条的正切。<br>这样可以确保样条在节点（如样条上的正切或样条流映射器）中使用时，样条的散点与其轨迹保持一致。 |
+| <b>重新计算正切</b> <i>布尔值</i> | 如果为True，则在应用变形效果后重新计算样条的正切。<br>这样可以确保样条在节点（如样条上的正切或样条流映射器）中使用时，样条的散点与其轨迹保持一致。 |
 | <b>预览</b> |  |
 | <b>段数量</b> <i>整数</i> | 调整用于在预览输出中绘制样条可视化效果的段数。<br>值越高，线条越平滑。 |
 | <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2之前">
+      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-warp.resources/SplineWarp-Demo.gif "节点示例1")
+![节点示例1](spline-warp.resources/spline-warp-06.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

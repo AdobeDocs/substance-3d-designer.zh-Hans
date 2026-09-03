@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: 使用Non Uniform Directional Warp节点可应用非均匀方向变形以创建各种扭曲效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-directional-warp.resources/non-uniform-directional-warp-color.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-01.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-02.png)
 
 <b>英寸：</b>滤镜>效果
 
@@ -62,5 +62,5 @@ ht-degree: 5%
 | <b>变形角度输入乘数</b> <i>0.0 - 1.0</i> | 设置变形角度输入映射的效果。 “变形角度输入”映射将用于从0插入此参数的值。 |
 | <b>试用模式</b> <i>最小、最大、平均</i> | 设置描摹的混合方式。 |
 | <b>轨迹长度</b> <i>0.0 - 1.0</i> | 设置尾迹的长度。 |
-| <b>跟踪渐隐</b> <i>0.0 - 1.0</i> | 设置每个描摹应淡出的量 |
+| <b>跟踪渐隐</b> <i>0.0 - 1.0</i> | 设置每个“跟踪”应渐隐的量 |
 | <b>轨迹曲线</b> <i>-1.0 - 1.0</i> | 仅当“轨迹”渐隐不是0时才有效。 设置淡化效果的行为方式。 |

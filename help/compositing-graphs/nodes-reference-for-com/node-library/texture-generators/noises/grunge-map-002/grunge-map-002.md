@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
 breadcrumb-title: ''
-description: 使用“污渍映射002”节点生成程序化的污渍图案，用于创建老化的饱和材料表面。
+description: 使用“污渍图002”节点生成用于创建经过风化的和老化的材料表面的程序污渍图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 002
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍图002
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-002.resources/grungemap-002.png){width="128px"}
+![](grunge-map-002.resources/grunge-map-002-01.png){width="128px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-生成一个复杂的组合噪声映射。 作为详细的程序化，此节点可能非常有用，但请记住，这些节点非常消耗性能，因此生成速度较慢。
+生成一个复杂的组合噪声映射。 作为详细的程序，此节点可能非常有用，但请记住，这些程序非常消耗性能，因此生成速度较慢。
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-002.resources/grungemap-002-ex.gif" />
+            <img src="grunge-map-002.resources/grunge-map-002-02.gif" />
         </td>
     </tr>
 </table>

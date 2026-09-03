@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
 breadcrumb-title: ''
-description: 使用“水位”节点可根据水位Height混合材料，以创建逼真的水面效果。
+description: 使用“水位”节点根据水位Height混合素材，以创建逼真的水效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Water Level
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 水位
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](water-level.resources/water-level.png){width="128px"}
+![](water-level.resources/water-level-01.png){width="128px"}
 
 <b>进入：</b>材质过滤器>效果
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## 描述
 
-将水位添加到完整材料输入的一体式效果。 输入材料必须拥有优质、高质量的Heightmap效果才能发挥作用。 结果是PBR正确的。
+向全部材质输入添加水位的一体式效果。 输入材质必须拥有优质、高质量的高图才能使效果起作用。 结果是PBR正确的。
 
 </td>
 </tr>

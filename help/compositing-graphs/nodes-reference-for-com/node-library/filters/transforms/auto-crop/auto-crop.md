@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: 使用“自动裁剪”节点自动裁剪纹理，以移除空边框并优化纹理尺寸。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 自动裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](auto-crop.resources/autocropgrayscale.png){width="200px"}
+![](auto-crop.resources/auto-crop-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](auto-crop.resources/autocropcolor.png){width="200px"}
+![](auto-crop.resources/auto-crop-02.png){width="200px"}
 
 </td>
 </tr>
@@ -69,22 +69,22 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="auto-crop.resources/autocrop-demo-01-resized.gif" />
+            <img src="auto-crop.resources/auto-crop-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="auto-crop.resources/autocrop-variant2.jpg" />
+            <img src="auto-crop.resources/auto-crop-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="auto-crop.resources/autocrop-variant.jpg" />
+            <img src="auto-crop.resources/auto-crop-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="auto-crop.resources/autocrop-variant4.png" />
+            <img src="auto-crop.resources/auto-crop-06.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="auto-crop.resources/autocrop-variant3.png" />
+            <img src="auto-crop.resources/auto-crop-07.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="auto-crop.resources/autocrop-node.png" />
+            <img src="auto-crop.resources/auto-crop-08.png" />
         </td>
     </tr>
 </table>

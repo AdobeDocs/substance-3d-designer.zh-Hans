@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
-description: 使用蒙版生成器节点可组合多个蒙版输入并为素材效果创建复杂的蒙版图案。
+description: 使用“蒙版生成器”节点可合并多个蒙版输入，并为材料效果创建复杂的蒙版图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Mask Builder
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 蒙版生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mask-builder.resources/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -35,9 +35,9 @@ ht-degree: 10%
 
 根据已烘焙贴图和用户设置生成黑白蒙版。 这几乎是Painter蒙版生成器的Designer版本。
 
-它是一种复杂的工具，旨在作为基于已烘焙贴图、用户参数和污渍模式及地图的全方位蒙版生成器。 它主要是作为一个非常先进的、完全控制的节点，用于混合折痕Dirt和边缘磨损。 此节点功能强大，足以模拟其他所有蒙版生成器。
+它是一种复杂的工具，旨在作为基于已烘焙贴图、用户参数和污渍模式及地图的全方位蒙版生成器。 它主要是作为一个非常先进的、完全控制的节点，用于混合折痕Dirt和边缘磨损。 该节点功能强大，足以模拟其他所有蒙版生成器。
 
-没有明确要求的烘焙，但您提供的越多，此节点所能执行的操作就越多。
+没有明确要求烘焙，但提供的资源越多，该节点能够执行的操作就越多。
 
 </td>
 </tr>
@@ -51,7 +51,7 @@ ht-degree: 10%
 |:---|:---|
 | <b>环境遮蔽</b> <i>灰度输入</i> |  |
 | <b>曲率</b> <i>灰度输入</i> |  |
-| <b>世界空间法线</b> <i>颜色输入</i> |  |
+| <b>世界空间正常</b> <i>颜色输入</i> |  |
 | <b>污渍输入</b> <i>灰度输入</i> |  |
 | <b>污渍输入2</b> <i>灰度输入</i> |  |
 | <b>输入散点</b> <i>灰度输入</i> | 自定义散点图章，使用散点参数时需要使用该图章。 |
@@ -82,7 +82,7 @@ ht-degree: 10%
 | <b>杂色</b> <i>0.0 - 1.0</i> | 设置要混合到AO效果中的噪声/污渍量。 |
 | <b>噪声比例</b> <i>0 - 10</i> | 设置AO噪声/污渍的比例。 |
 | <b>噪声类型</b> <i>斑点、云、潮湿、白噪声</i> | 在4种不同类型的AO噪声之间切换。 |
-| <b>反转</b> <i>False/True</i> | 反转对AO地图的解释：噪声将出现在明亮的AO区域，而不是暗区。 |
+| <b>反转</b> <i>False/True</i> | 反转AO图的解释：噪点将出现在AO亮区，而不是暗区。 |
 | <b>曲率</b> <i>0.0 - 1.0</i> | 设置应该在弯曲边上显示的效果量；可以是凸的，也可以是凹的。 用下面的组稍作调整。 |
 | <b>曲率</b> |  |
 | <b>凸范围</b> <i>-1.0 - 1.0</i> | 设置凸形（明亮）弯曲边缘要呈现的效果。 |

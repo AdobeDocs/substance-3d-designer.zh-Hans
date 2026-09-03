@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: 配置Substance合成图形的输出大小设置以控制纹理分辨率和质量。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出大小
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 使用“![](output-size.resources/props-output-size-lock.jpg)”锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值。
+> 使用“![](output-size.resources/output-size-01.jpg)”锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值。
 
 <table>
 <tr style="border: 0;">
@@ -98,7 +98,7 @@ ht-degree: 5%
 
 单击节点或图形的属性，然后在[属性](../../interface/properties/properties.md)面板中的<b>基本参数</b>部分中找到<b>输出大小</b>属性。 单击继承方法下拉菜单，选择所需的继承方法。
 
-![输出大小继承方法](output-size.resources/change-mode.gif "输出大小继承方法"){width="512px"}
+![输出大小继承方法](output-size.resources/output-size-02.gif "输出大小继承方法"){width="512px"}
 
 ## 示例问题
 
@@ -107,7 +107,7 @@ ht-degree: 5%
 +++问题1
 **![（错误）](output-size.resources/error.svg)问题**
 
-![示例问题1](output-size.resources/problem2-bad.png "示例问题1")
+![示例问题1](output-size.resources/output-size-03.png "示例问题1")
 
 
 
@@ -117,7 +117,7 @@ ht-degree: 5%
 
 **![（刻度）](output-size.resources/check.svg)解决方案**
 
-![示例问题1解决方案](output-size.resources/problem2-good.png "示例问题1解决方案")
+![示例问题1解决方案](output-size.resources/output-size-04.png "示例问题1解决方案")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++问题2
 **![（错误）](output-size.resources/error.svg)问题**
 
-![示例问题2](output-size.resources/problem1-bad.png "示例问题2")
+![示例问题2](output-size.resources/output-size-05.png "示例问题2")
 
 
 
@@ -138,7 +138,7 @@ ht-degree: 5%
 
 **![（刻度）](output-size.resources/check.svg)解决方案**
 
-![示例问题2解决方案](output-size.resources/problem1-good.png "示例问题2解决方案")
+![示例问题2解决方案](output-size.resources/output-size-06.png "示例问题2解决方案")
 
 
 
@@ -149,7 +149,7 @@ ht-degree: 5%
 +++问题3
 **![（错误）](output-size.resources/error.svg)问题**
 
-![示例问题3](output-size.resources/problem3-bad.png "示例问题3")
+![示例问题3](output-size.resources/output-size-07.png "示例问题3")
 
 
 
@@ -159,7 +159,7 @@ ht-degree: 5%
 
 **![（刻度）](output-size.resources/check.svg)解决方案**
 
-![示例问题3解决方案](output-size.resources/problem3-good.png "示例问题3解决方案")
+![示例问题3解决方案](output-size.resources/output-size-08.png "示例问题3解决方案")
 
 
 

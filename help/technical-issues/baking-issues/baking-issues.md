@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: 查找在Substance 3D Designer中与烘焙纹理相关的技术问题的故障排除步骤。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 烘焙问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![场景树中的几何对象及其父对象](baking-issues.resources/sceneTree_objectsName.png "场景树中的几何对象及其父对象"){zoomable="yes"}
+![场景树中的几何对象及其父对象](baking-issues.resources/baking-issues-01.png "场景树中的几何对象及其父对象"){zoomable="yes"}
 
 </td>
 </tr>

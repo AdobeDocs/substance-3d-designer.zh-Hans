@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
-description: 使用细胞3节点产生用于产生有机和生物纹理效果的中间细胞图案。
+description: 使用细胞3节点生成用于创建有机和生物纹理效果的中间细胞图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 3
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 细胞3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![细胞3 — 图标](cells-3.resources/cells_3.png "细胞3 — 图标"){width="200px"}
+![细胞3 — 图标](cells-3.resources/cells-3-01.png "细胞3 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-<b>细胞</b>壁噪声的变体。
+<b>细胞</b>壁噪声的变化。
 
 盘交叉产生具有不均匀柔软度的薄壁的单元。
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例1](cells-3.resources/cells_3_1.png "细胞3 — 示例1"){zoomable="yes"}
+![细胞3 — 示例1](cells-3.resources/cells-3-02.png "细胞3 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "细胞3 — 示例2"){zoomable="yes"}
+![细胞3 — 示例2](cells-3.resources/cells-3-03.gif "细胞3 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "细胞3 — 示例3"){zoomable="yes"}
+![细胞3 — 示例3](cells-3.resources/cells-3-04.gif "细胞3 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "细胞3 — 示例4"){zoomable="yes"}
+![细胞3 — 示例4](cells-3.resources/cells-3-05.gif "细胞3 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

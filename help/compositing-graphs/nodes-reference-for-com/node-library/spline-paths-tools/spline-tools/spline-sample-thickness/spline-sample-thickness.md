@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
-description: 使用“样条采样Thickness”节点沿样条采样Thickness值，以获得程序化效果。
+description: 使用“样条采样Thickness”节点沿样条采样Thickness值，以获得程序化的效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条采样Thickness
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-sample-thickness.resources/spline-sample-thickness-icon.png "节点图标")
+![节点图标](spline-sample-thickness.resources/spline-sample-thickness-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 描述
 
-通过将输入Thickness映射映射到输入样条上来修改输入样条的Thickness。
+通过将输入Thickness映射到输入样条上来修改输入样条的厚度图。
 
 映射Height映射的效果可以通过更改其混合模式以及该效果的不透明度来调整。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
 | <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
-| <b>厚度图</b> <i>灰度</i> | 用于更改输入样条的Thickness的输入灰度图像。 |
+| <b>Thickness映射</b> <i>灰度</i> | 用于更改输入样条的Thickness的输入灰度图像。 |
 
 <a name="outputs"></a>
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-02.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-03.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-04.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-05.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-sample-thickness.resources/SplineSampleThickness-Variant1-After1.jpg "节点示例1")
+![节点示例1](spline-sample-thickness.resources/spline-sample-thickness-06.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-sample-thickness.resources/SplineSampleThickness-Demo.gif "节点示例2")
+![节点示例2](spline-sample-thickness.resources/spline-sample-thickness-07.gif "节点示例2")
 
 </td>
 </tr>

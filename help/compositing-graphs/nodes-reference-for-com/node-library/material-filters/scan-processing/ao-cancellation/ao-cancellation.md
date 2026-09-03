@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
 description: 使用“AO取消”节点从扫描的材料中删除ambient occlusion，以便进行干净的纹理处理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AO取消
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](ao-cancellation.resources/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancellation-01.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## 描述
 
-此节点尝试根据单独的AO映射输入，从反照率(Base color)映射中删除任何Ambient occlusion光照信息。 使用它可以确保反照率信息的PBR正确，并且基本上不含（强）光照信息。
+此节点尝试根据单独的AO映射输入，从反照率（基色）映射中移除任何环境遮蔽光照信息。 使用它可以确保反照率信息的PBR正确，并且基本上不含（强）光照信息。
 
-当具有来自扫描的网格的烘焙的AO映射，或甚至从Height或正常信息生成的AO映射时，这是一个有用的节点。
+一个有用的节点，可用于从扫描的网格生成已烘焙的AO映射，或甚至从“Height”或“正常”信息生成的AO映射。
 
 </td>
 </tr>

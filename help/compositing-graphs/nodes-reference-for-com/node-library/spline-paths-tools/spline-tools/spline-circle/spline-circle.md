@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: 使用“样条圆”节点创建用于生成圆形图案和形状的圆形样条。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条圆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-circle.resources/spline-circle-icon.png "节点图标")
+![节点图标](spline-circle.resources/spline-circle-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | <b>追加输入样条</b> <i>布尔值</i> | 将生成的样条添加到连接到<b>样条</b>输入的样条列表的末尾。 |
 | <b>非方形校正</b> <i>布尔值</i> | 调整点的位置和Thickness以保持样条形状的非方形分辨率。 这也会影响均匀分布。 |
 | <b>预览</b> |  |
-| <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向助手</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
 | <b>段数量</b> <i>整数</i> | 调整用于在“预览”输出中绘制样条可视化效果的段数。 值越高，线条越平滑。 |
 | <b>Thickness（像素）</b> <i>浮动</i> | 在预览输出中调整样条可视化的Thickness（以像素为单位）。 |
@@ -96,12 +96,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-circle.resources/SplineCircle-Variant1.jpg "节点示例1")
+![节点示例1](spline-circle.resources/spline-circle-02.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-circle.resources/SplineCircle-Demo.gif "节点示例2")
+![节点示例2](spline-circle.resources/spline-circle-03.gif "节点示例2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![示例3](spline-circle.resources/SplineCircle-Variant2.jpg "示例3")
+![示例3](spline-circle.resources/spline-circle-04.jpg "示例3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例4](spline-circle.resources/SplineCircle-Variant3.jpg "示例4")
+![示例4](spline-circle.resources/spline-circle-05.jpg "示例4")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: 解决Substance 3D Designer中的3D视图问题，包括渲染、显示和性能问题。
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D查看问题
+title: 3D 视图问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 3D查看问题
+# 3D 视图问题
 
 本页列出了与Substance 3D Designer中的[3D视图](../../interface/3d-view/3d-view.md)相关的技术问题，并提供了针对每个问题的故障排除步骤。
 
@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 根据Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)，支持的GPU包括NVIDIA RTX 20系列（图例）或更高版本。
 
-通过使用“项目设置”[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的new选项，您可以继续默认使用OpenGL渲染器：
+通过使用“项目设置”](../../interface/preferences-window/project-settings/project-settings.md)中的[new选项，您可以继续默认使用OpenGL渲染器：
 
 1. 转到编辑>首选项>项目
 2. 选择列表中的最后一个项目文件
@@ -163,7 +163,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>

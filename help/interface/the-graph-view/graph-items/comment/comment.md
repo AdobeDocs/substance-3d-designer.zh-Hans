@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: 向Substance 3D Designer图表添加注释，以记录您的工作流程并解释节点连接。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 注释
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![注释图标](comment.resources/graphatomic-comment_1.png "注释图标")
+![注释图标](comment.resources/comment-01.png "注释图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![注释：父注释](comment.resources/graph-comment_parented.gif "注释：父注释")
+![注释：父注释](comment.resources/comment-02.gif "注释：父注释")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 1%
 
 ## HTML格式设置
 
-可以使用HTML标记设置文本的格式。 在注释的<b>Description</b>属性中，使用![](comment.resources/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮切换此格式。
+可以使用HTML标记设置文本的格式。 在注释的<b>Description</b>属性中，使用![](comment.resources/comment-03.png) <b>HTML标记</b>按钮切换此格式。
 
 >[!TIP]
 >
 > 请在[帧](../../../../interface/the-graph-view/graph-items/frame/frame.md)文档的<b>描述</b>部分中了解有关此功能的更多信息。
 
-![注释：HTML标记](comment.resources/graph-comment_html-markup.gif "注释：HTML标记")
+![注释：HTML标记](comment.resources/comment-04.gif "注释：HTML标记")

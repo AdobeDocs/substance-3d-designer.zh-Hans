@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: 了解如何在FXMaps中使用迭代变量和数字变量来创建循环模式和过程变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 迭代和数字变量
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # 迭代和`$number`变量
 
-![](iterate-and-number-variable.resources/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-and-number-variable-01.jpg)
 
 “迭代”节点将按照“迭代”值所指定的时间量渲染连接到右侧的节点。
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1次迭代：高斯图案渲染一次 |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/iterate-and-number-variable-02.png"/></div> | 1次迭代：高斯图案渲染一次 |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10次迭代：高斯图案将在同一位置渲染10次 |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/iterate-and-number-variable-03.png"/></div> | 10次迭代：高斯图案将在同一位置渲染10次 |
 
 使用Iterate节点时，可以使用`$number`变量获取当前迭代值。 `$number`是浮点值，从0开始。
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/iterate-and-number-variable-04.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/iterate-and-number-variable-05.png){width="300px"}
 
 </td>
 </tr>

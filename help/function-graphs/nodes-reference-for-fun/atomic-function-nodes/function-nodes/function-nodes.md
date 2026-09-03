@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图中的函数节点，以调用和执行自定义函数图。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 函数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -20,14 +20,14 @@ ht-degree: 5%
 
 # 函数节点
 
-函数节点根据它们所代表的数学函数来变换输入值。
+函数节点根据它们所代表的数学函数变换输入值。
 
 虽然它们的输入连接器通常不键入，但它们不支持所有值类型。
 
 ## 节点列表
 
 +++Pow
-![电源节点图标](function-nodes.resources/Pow_Node.jpg "电源节点图标")
+![电源节点图标](function-nodes.resources/function-nodes-01.jpg "电源节点图标")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2电源节点图标](function-nodes.resources/2Pow_Node.jpg "2电源节点图标")
+![2电源节点图标](function-nodes.resources/function-nodes-02.jpg "2电源节点图标")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++平方根
-![方形根节点图标](function-nodes.resources/SquareRoot_Node.jpg "方形根节点图标")
+![方形根节点图标](function-nodes.resources/function-nodes-03.jpg "方形根节点图标")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++指数
-![指数节点图标](function-nodes.resources/Exponential_Node.jpg "指数节点图标")
+![指数节点图标](function-nodes.resources/function-nodes-04.jpg "指数节点图标")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++对数
-![对数节点图标](function-nodes.resources/Logarithm_Node.jpg "对数节点图标")
+![对数节点图标](function-nodes.resources/function-nodes-05.jpg "对数节点图标")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++以 2 为底的对数
-![对数基2节点图标](function-nodes.resources/LogarithmBase2_Node.jpg "对数基2节点图标")
+![对数基2节点图标](function-nodes.resources/function-nodes-06.jpg "对数基2节点图标")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++绝对值
-![绝对节点图标](function-nodes.resources/Absolute_Node.jpg "绝对节点图标")
+![绝对节点图标](function-nodes.resources/function-nodes-07.jpg "绝对节点图标")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 +++
 
 +++上限
-![Ceil节点图标](function-nodes.resources/Ceil_Node.jpg "Ceil节点图标")
+![Ceil节点图标](function-nodes.resources/function-nodes-08.jpg "Ceil节点图标")
 
 
 
@@ -101,16 +101,16 @@ ht-degree: 5%
 +++
 
 +++向下取整
-![楼层节点图标](function-nodes.resources/Floor_Node.jpg "楼层节点图标")
+![楼层节点图标](function-nodes.resources/function-nodes-09.jpg "楼层节点图标")
 
 
 
-向下舍入其输入值。 它返回不大于X的最大整数值： <b>floor(X)</b>。
+向下舍入其输入值。 它返回不大于X的最大整数： <b>floor(X)</b>。
 
 +++
 
 +++线性插值
-![线性插值节点图标](function-nodes.resources/LinearInterpolation_Node.jpg "线性插值节点图标")
+![线性插值节点图标](function-nodes.resources/function-nodes-10.jpg "线性插值节点图标")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++最小
-![最小节点图标](function-nodes.resources/Minimum_Node.jpg "最小节点图标")
+![最小节点图标](function-nodes.resources/function-nodes-11.jpg "最小节点图标")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++最大
-![最大节点图标](function-nodes.resources/Maximum_Node.jpg "最大节点图标")
+![最大节点图标](function-nodes.resources/function-nodes-12.jpg "最大节点图标")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++余弦
-![余弦节点图标](function-nodes.resources/Cosine_Node.jpg "余弦节点图标")
+![余弦节点图标](function-nodes.resources/function-nodes-13.jpg "余弦节点图标")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++正弦
-![正弦节点图标](function-nodes.resources/Sine_Node.jpg "正弦节点图标")
+![正弦节点图标](function-nodes.resources/function-nodes-14.jpg "正弦节点图标")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++正切
-![切线节点图标](function-nodes.resources/Tangent_Node.jpg "切线节点图标")
+![切线节点图标](function-nodes.resources/function-nodes-15.jpg "切线节点图标")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++反正切 2
-![反正切2节点图标](function-nodes.resources/ArcTangent2_Node.jpg "反正切2节点图标")
+![反正切2节点图标](function-nodes.resources/function-nodes-16.jpg "反正切2节点图标")
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 5%
 +++
 
 +++直角坐标
-![绝对节点图标](function-nodes.resources/Absolute_Node.jpg "绝对节点图标")
+![绝对节点图标](function-nodes.resources/function-nodes-07.jpg "绝对节点图标")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 5%
 +++
 
 +++随机
-![随机节点图标](function-nodes.resources/Random_Node.jpg "随机节点图标")
+![随机节点图标](function-nodes.resources/function-nodes-17.jpg "随机节点图标")
 
 
 

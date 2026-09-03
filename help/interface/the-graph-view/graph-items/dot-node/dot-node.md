@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中使用点节点和门户节点创建连接点并组织图形流。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 点节点（也称为门户）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![点节点图标](dot-node.resources/graphatomic-dot_1.png "点节点图标")
+![点节点图标](dot-node.resources/dot-node-01.png "点节点图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 0%
 +++在链接上插入
 悬停连接时按住<b>Alt</b>键可显示“点”节点预览，然后单击LMB可在该位置的连接上添加“点”节点。
 
-![插入点节点](dot-node.resources/dot-node-insert-optim.gif "插入点节点"){width="512px"}
+![插入点节点](dot-node.resources/dot-node-02.gif "插入点节点"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 您可以继续拖动新连接，并重复该操作以您喜欢的方式路由该连接。
 
-![点：从连接器创建](dot-node.resources/graph-dot_create-from-connector.gif "点：从连接器创建")
+![点：从连接器创建](dot-node.resources/dot-node-03.gif "点：从连接器创建")
 
 
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++节点菜单
 按<b>空格键</b>显示<b>节点菜单</b>，然后选择“点”项或在搜索字段中键入“点”以呈现该项并更快地找到它。
 
-![节点菜单中的点节点](dot-node.resources/dot-node-insert-menu.png "节点菜单中的点节点")
+![节点菜单中的点节点](dot-node.resources/dot-node-04.png "节点菜单中的点节点")
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![合并链接](dot-node.resources/dot-node-congrenate-links-optim.gif "合并链接"){width="512px"}
+![合并链接](dot-node.resources/dot-node-05.gif "合并链接"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![点节点作为入口 — 图标](dot-node.resources/DotNode_Portal-1.png "点节点作为入口 — 图标")
+![点节点作为入口 — 图标](dot-node.resources/dot-node-06.png "点节点作为入口 — 图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,11 +108,11 @@ ht-degree: 0%
 </tr>
 </table>
 
-![点节点作为门户](dot-node.resources/DotNode_Portal.gif "点节点作为门户")
+![点节点作为门户](dot-node.resources/dot-node-07.gif "点节点作为门户")
 
 ### 创建门户
 
-当发射机点节点被命名时，在两个点节点（发射机和接收机）之间自动创建入口。 点节点命名是通过在其<b>Name</b>属性中设置唯一标识符来完成的。
+当发射机点节点被命名时，在两个点节点（发射机和接收机）之间自动创建入口。 点节点命名是通过在其<b>名称</b>属性中设置唯一标识符完成的。
 
 当图中存在一个或多个命名的Dot节点时，可通过以下方式将任何Dot节点作为接收器连接到该节点：
 

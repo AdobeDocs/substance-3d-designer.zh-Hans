@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 使用“点列表”节点创建和管理用于样条和路径生成的点列表。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 点列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](point-list.resources/point-list-icon.png "节点图标")
+![节点图标](point-list.resources/point-list-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> <b>点列表</b>和<b>点数</b>连接器&#x200B;*不兼容*，它们与<b>样条坐标</b>、<b>样条数据</b>和<b>样条量</b>连接器不兼容，因为它们依赖于不同的数据。
+> <b>点列表</b>和<b>点数</b>连接器&#x200B;*不兼容*&#x200B;与<b>样条坐标</b>、<b>样条数据</b>和<b>样条量</b>连接器不兼容，因为它们依赖于不同的数据。
 
 <a name="inputs"></a>
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 | <b>显示标签</b> <i>布尔值</i> | 在“预览”输出中，每个点旁边都显示该点的名称。 |
 | <b>标签大小</b> <i>浮动</i>（在“显示标签”设置为“True”时可用） | 纹理空间中每个点的标签大小，其中0.1是纹理宽度的十分之一。 |
 | <b>显示点数</b> <i>布尔值</i> | 在“预览”输出中显示点。 |
-| <b>点大小</b> <i>浮动</i>（在“显示点数”设置为“True”时可用） | 纹理空间中的点的半径，其中0.1是纹理宽度的十分之一。 |
+| <b>点大小</b> <i>Float</i>（在“显示点数”设置为“True”时可用） | 纹理空间中点的半径，其中0.1是纹理宽度的十分之一。 |
 
 ## 示例
 
@@ -93,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](point-list.resources/PointList-Variant1.jpg "节点示例1")
+![节点示例1](point-list.resources/point-list-02.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](point-list.resources/PointList-Demo1.gif "节点示例2")
+![节点示例2](point-list.resources/point-list-03.gif "节点示例2")
 
 </td>
 </tr>

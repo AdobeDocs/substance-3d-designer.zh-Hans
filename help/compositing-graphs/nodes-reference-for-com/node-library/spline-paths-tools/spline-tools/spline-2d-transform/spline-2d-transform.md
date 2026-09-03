@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
 description: 使用“样条2D变换”节点通过平移、旋转和缩放操作来变换样条。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条2D变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-2d-transform.resources/spline-2d-transform-icon.png "节点图标")
+![节点图标](spline-2d-transform.resources/spline-2d-transform-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -85,11 +85,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant2-After.jpg" alt="样条2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="样条2DTransform-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -119,7 +119,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-2d-transform.resources/Spline2DTransform-Demo1.gif "节点示例1")
+![节点示例1](spline-2d-transform.resources/spline-2d-transform-05.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

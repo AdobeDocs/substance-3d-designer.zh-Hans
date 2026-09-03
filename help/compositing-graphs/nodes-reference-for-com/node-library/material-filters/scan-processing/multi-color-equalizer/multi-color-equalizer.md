@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
 breadcrumb-title: ''
-description: 使用“多Color Equalizer”节点可在多个纹理通道之间实现色彩均化，以便进行一致的扫描材料处理。
+description: 使用“多Color Equalizer”节点可在多个Texture通道之间均衡颜色，以实现一致的扫描材料处理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多Color Equalizer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-color-equalizer.resources/color-equalizer-multi.png){width="128px"}
+![](multi-color-equalizer.resources/multi-color-equalizer-01.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

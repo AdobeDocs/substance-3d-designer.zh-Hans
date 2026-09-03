@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: 使用“Flood Fill到渐变”节点，用渐变值填充区域，以创建平滑的颜色过渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-gradient.resources/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/flood-fill-to-gradient-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 | <b>角度变化</b> <i>0.0 - 1.0</i> | 分别随机选择每个拼贴的角度。 这是最有用且最强大的参数！ |
 | <b>乘以定界框大小</b> <i>0.0 - 1.0</i> | 根据拼贴的单个定界框大小缩放整个线性效果。 这意味着较小的拼贴最终会比较大的拼贴暗。 |
 | <b>角度图像输入乘数</b> <i>0.0 - 1.0</i> | 设置可选的“角度”输入图对生成的渐变方向的影响 |
-| <b>图像输入乘数</b>斜率 <i>0.0 - 1.0</i> | 设置可选输入图对生成的渐变斜率强度的影响。 |
+| <b>图像输入乘数</b>斜率 <i>0.0 - 1.0</i> | 设置可选斜率输入映射对生成的渐变斜率强度的影响。 |
 | <b>乘以斜率强度</b> <i>0.0 - 1.0</i> |  |
 | <b>平面斜率颜色</b> <i>（灰度值）</i> | 允许为平整斜率设置实心值。 |
 
@@ -68,10 +68,10 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-gradient.resources/floodgradient-ex2.png" />
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-gradient.resources/floodgradient-ex1.png" />
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-03.png" />
         </td>
     </tr>
 </table>

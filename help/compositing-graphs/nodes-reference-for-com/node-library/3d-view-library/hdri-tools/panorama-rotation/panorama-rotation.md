@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: 使用“全景旋转”节点旋转HDRI全景图环境，以便在3D视图中调整光照方向。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 全景旋转
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](panorama-rotation.resources/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 
 ## 描述
 
-围绕输入球面映射的全景图图像的中心点旋转该图像，从而保持投影/映射的正确性。 用于倾斜或调整HDRI图像。
+围绕输入球面映射的全景图图像的中心点旋转该图像，以保持投影/映射正确。 用于倾斜或调整HDRI图像。
 
 </td>
 </tr>

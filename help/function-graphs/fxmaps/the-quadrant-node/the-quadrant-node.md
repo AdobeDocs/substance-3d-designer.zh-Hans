@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: 使用FXMaps中的象限节点将纹理分为四个部分，以创建拼贴图案和变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 象限节点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -102,12 +102,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](the-quadrant-node.resources/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](the-quadrant-node.resources/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

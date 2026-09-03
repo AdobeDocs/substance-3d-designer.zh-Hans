@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: 使用“方向变形”节点将方向扭曲应用于纹理，以创建流畅和运动效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定向翘曲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：方向变形](directional-warp.resources/comp_directionalwarp_1.png "原子节点：方向变形"){width="200px"}
+![原子节点：方向变形](directional-warp.resources/directional-warp-01.png "原子节点：方向变形"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例1](directional-warp.resources/dir-warp.gif "方向变形 — 示例1"){zoomable="yes"}
+![方向变形 — 示例1](directional-warp.resources/directional-warp-02.gif "方向变形 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例2](directional-warp.resources/dir-warp02.gif "方向变形 — 示例2"){zoomable="yes"}
+![方向变形 — 示例2](directional-warp.resources/directional-warp-03.gif "方向变形 — 示例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例3](directional-warp.resources/dir-warp03.gif "方向变形 — 示例3"){zoomable="yes"}
+![方向变形 — 示例3](directional-warp.resources/directional-warp-04.gif "方向变形 — 示例3"){zoomable="yes"}
 
 </td>
 </tr>

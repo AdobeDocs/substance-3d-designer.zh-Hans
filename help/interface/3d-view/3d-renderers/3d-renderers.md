@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 在3D视图中的栅格化渲染器和路径跟踪器渲染器之间进行选择，以获得不同的预览品质和性能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D渲染器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 路径追踪</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 >[!TIP]
 >
-> 在项目设置[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)的“3D视图”部分中启动新3D视图时，您可以选择默认使用的渲染器。
+> 在项目设置](../../../interface/preferences-window/project-settings/project-settings.md)的[“3D视图”部分中启动新3D视图时，您可以选择默认使用的渲染器。
 
 <a name="rasterizer"></a>
 
@@ -111,7 +111,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 +++
 
-![光栅器 — 示例1](3d-renderers.resources/3dRendererRasterizer.jpg "光栅器 — 示例1"){zoomable="yes"}
+![光栅器 — 示例1](3d-renderers.resources/3d-renderers-04.jpg "光栅器 — 示例1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 +++
 
-![GPU路径跟踪器 — 示例1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
+![GPU路径跟踪器 — 示例1](3d-renderers.resources/3d-renderers-05.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 <b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
 
-该Adobe Standard Material已在我们文档的[此部分](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中详细记录。
+该Adobe Standard Material已在我们文档的[此部分](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中详细记录。
 
 +++
 
@@ -290,10 +290,10 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 +++
 
-Designer还为您提供了使用GLSLFX文件[&#128279;](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)为OpenGL渲染器配置自己的着色器的可能性。
+Designer还为您提供了使用GLSLFX文件](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)为OpenGL渲染器[配置自己的着色器的可能性。
 
 >[!IMPORTANT]
 > 
 > 此渲染器&#x200B;**已弃用**：它将不接收新功能，并且将在未来版本的Designer中弃用。
 
-![OpenGL — 示例1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL — 示例1"){zoomable="yes"}
+![OpenGL — 示例1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL — 示例1"){zoomable="yes"}

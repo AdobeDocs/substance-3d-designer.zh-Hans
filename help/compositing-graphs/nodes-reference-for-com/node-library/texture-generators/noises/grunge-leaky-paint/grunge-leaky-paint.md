@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: 使用污渍渗漏油画节点可生成油画渗漏图案，用于创建老化的表面效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍渗漏油漆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
         </td>
     </tr>
 </table>

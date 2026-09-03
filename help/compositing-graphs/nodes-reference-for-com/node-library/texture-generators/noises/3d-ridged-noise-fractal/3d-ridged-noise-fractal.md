@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
-description: 利用3D脊状噪声分形结点，在3D空间内生成脊状分形噪声图案，生成山状纹理。
+description: 使用3D脊状噪声分形节点在3D空间中生成脊状分形噪声图案，用于创建山状纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D脊形噪声分形
+title: 三维脊状噪声分形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# 3D脊形噪声分形
+# 三维脊状噪声分形
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 描述
 
-<b>3D脊状噪声分形</b>节点根据<b>位置映射</b>输入在3D空间中生成<i>分形</i>脊状噪声。
+“<b>3D脊状噪声分形</b>”节点基于“<b>位置映射</b>”输入在3D空间中生成“<i>分形</i>”脊状噪声。
 
 此节点可以使用[Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)作为输入而不是实际已烘焙贴图进行测试（如下面的示例图像所示）。
 
@@ -52,10 +52,10 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>反转</b> <i>布尔值</i> | 反转输出图像。 |
-| <b>缩放</b> <i>浮动</i> | 控制分形3D边缘噪声的比例。 |
-| <b>大小</b> <i>浮点3</i> | 在<b>X</b>、<b>Y</b>和<b>Z</b>轴中控制分形3D边缘噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。 |
-| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中的分形3D边缘噪声的<i>位置</i>。 |
-| <b>扭曲强度</b> <i>浮动</i> | 控制应用于分形3D脊形噪声的<i>变形效果</i>的强度。 |
+| <b>缩放</b> <i>浮动</i> | 控制分形3D脊状杂色的缩放比例。 |
+| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的分形3D脊状噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。 |
+| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中的分形3D脊状噪点<i>位置</i>。 |
+| <b>扭曲强度</b> <i>浮动</i> | 控制应用于分形3D脊状噪点<i>变形效果</i>的强度。 |
 | <b>扭曲比例乘数</b> <i>浮动</i> | 控制变形效果中使用的<i>变形图案</i>的比例，该比例由<b>扭曲强度</b>控制。 |
 | <b>最小级别</b> <i>整数</i> | 分形图案中使用的最小<i>重复级别</i>。 更宽的最小值/最大值范围会生成<i>更丰富的图案</i>，并且随更多频率范围而变化。 |
 | <b>最大级别</b> <i>整数</i> | 分形图案中使用的最大重复级别<i>为</i>。 更宽的最小值/最大值范围会生成<i>更丰富的图案</i>，并且随更多频率范围而变化。 |
@@ -71,10 +71,10 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
         </td>
     </tr>
 </table>

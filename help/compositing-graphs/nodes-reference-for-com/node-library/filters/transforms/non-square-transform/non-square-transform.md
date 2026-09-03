@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: 使用“非正方形变换”节点，可以将变换应用于具有独立X和Y缩放的非正方形纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非方形变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-square-transform.resources/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](non-square-transform.resources/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
 <b>英寸：</b>筛选器>变换
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-square-transform.resources/nonsquare-ex.png" />
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 常数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 +++ 库中的常量节点
 
-![constants-library.png](constant.resources/constants-library.png)
+![constants-library.png](constant.resources/constant-01.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="常量浮点节点" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="常量浮点节点" /></p>
 
 ## 整数
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数类型图标](constant.resources/fn-constant-integer.png "整数类型图标")
+![整数类型图标](constant.resources/constant-03.png "整数类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数2类型图标](constant.resources/fn-constant-integer2.png "整数2类型图标")
+![整数2类型图标](constant.resources/constant-04.png "整数2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Integer2的一个常见用例是设置X和Y网格大小，如[Tile Generator](..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数3类型图标](constant.resources/fn-constant-integer3.png "整数3类型图标")
+![整数3类型图标](constant.resources/constant-05.png "整数3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Integer3节点生成带有(X、Y、Z)分量的静态3分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数4类型图标](constant.resources/fn-constant-integer4.png "整数4类型图标")
+![整数4类型图标](constant.resources/constant-06.png "整数4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮点类型图标](constant.resources/fn-constant-float.png "浮点类型图标")
+![浮点类型图标](constant.resources/constant-07.png "浮点类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Float具有单个组件，通常用于任何需要精度的单个值。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2类型图标](constant.resources/fn-constant-float2.png "Float2类型图标")
+![Float2类型图标](constant.resources/constant-08.png "Float2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2常用于[采样坐标](../../../../function-graphs/nodes-reference-for-fu
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3类型图标](constant.resources/fn-constant-float3.png "Float3类型图标")
+![Float3类型图标](constant.resources/constant-09.png "Float3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3主要用于处理3D对象和[3D缩放坐标](../../../../compositing-grap
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4类型图标](constant.resources/fn-constant-float4.png "Float4类型图标")
+![Float4类型图标](constant.resources/constant-10.png "Float4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,16 +202,16 @@ Float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方法，例
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布尔型图标](constant.resources/fn-constant-boolean.png "布尔型图标")
+![布尔型图标](constant.resources/constant-11.png "布尔型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>布尔值</b>
 
-布尔值是最简单的数据类型，只知道两种状态： <code>true</code> 或<code>false</code>.
+布尔型是最简单的数据类型，只知道两种状态： <code>true</code> 或<code>false</code>.
 
-此类型在使用切换参数和[If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)条件时非常常见。<br>布尔值是控制函数或图形流的简单而有效的方法，例如使用[切换节点](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)。
+此类型在使用切换参数和[If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)条件时非常常见。<br>布尔值是控制函数或图表的流的简单而有效的方法，例如使用[切换节点](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)。
 
 </td>
 </tr>

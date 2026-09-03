@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: 使用“拼贴随机2”节点，在Substance 3D Designer中使用高级变化控件创建随机拼贴图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺随机2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
 
-<b>英寸：</b>纹理生成器>图案
+<b>进入：</b>纹理生成器>图案
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 **拼贴随机2**&#x200B;节点生成随机大小和Height与宽度比的相邻拼贴。
 
-网格可以通过随机&#x200B;*倾斜*&#x200B;形状的两侧来调整以断开角度。
+可以通过随机&#x200B;*倾斜*&#x200B;形状的两侧来调整网格以断开角度。
 
 可以使用&#x200B;*缩放*、*斜切*、*圆角化*&#x200B;以及&#x200B;*扭曲旋转*&#x200B;的选项调整形状。
 
-这些调整可以由&#x200B;*输入映射*&#x200B;控制。
+这些调整可由&#x200B;*输入图*&#x200B;控制。
 
 专用输出允许您将形状的&#x200B;**UV**&#x200B;输入到&#x200B;**Flood Fill(...)**&#x200B;中 用于应用其他变体的节点。
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>随机大小映射</b> <i>灰度</i> | 灰度输入图像，控制形状的随机比例。<br><br>其影响由<b>随机大小输入图乘数</b>参数控制。 |
+| <b>随机大小映射</b> <i>灰度</i> | 控制形状的随机缩放的灰度输入图像。<br><br>其影响由<b>随机大小输入图乘数</b>参数控制。 |
 | <b>随机倾斜映射</b> <i>灰度</i> | 控制形状随机倾斜的灰度输入图像。<br><br>其影响由<b>随机倾斜输入图乘数</b>参数控制。 |
-| <b>圆角半径映射</b> <i>灰度</i> | 灰度输入图像，用于控制形状的圆角半径。<br><br>其影响由<b>圆角半径输入图Mult</b>控制。 参数。 |
+| <b>圆角半径映射</b> <i>灰度</i> | 控制形状圆角半径的灰度输入图像。<br><br>其影响由<b>圆角半径输入图Mult</b>控制。 参数。 |
 | <b>斜角距离图</b> <i>灰度</i> | 控制形状斜角的灰度输入图像。<br><br>其影响由<b>斜面距离输入图Mult控制。</b> 参数。 |
 | <b>蒙版图</b> <i>灰度</i> | 控制形状蒙版的灰度输入图像。<br><br>其影响由<b>蒙版映射输入开始</b>和<b>蒙版映射输入结束</b>参数控制。 |
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | <b>斜角圆曲线</b> <i>浮动</i> | 调整应用于斜角的圆角强度，使其更为<i>凸起</i>。 |
 | <b>启用每个轴斜角控件</b> <i>布尔值</i> | 当<i>True</i>时，可以在<b>X</b>和<b>Y</b>轴上<i>分别</i>应用和调整斜角。<br><br><i>注意</i>：此<i>取消</i><b>圆角</b>效果。 |
 | <b>斜面距离X</b> <i>浮动</i> | 仅调整<b>X</b>轴<i></i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
-| <b>斜面距离Y</b> <i>浮动</i> | 调整<b>Y</b>轴<i>仅</i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
+| <b>斜面距离Y</b> <i>浮动</i> | 仅调整<b>Y</b>轴<i></i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
 | <b>蒙版</b> |  |
 | <b>蒙版随机反转</b> <i>布尔值</i> | 反转形状的随机蒙版。 |
 | <b>蒙版随机起始</b> <i>浮动</i> | 对于给定的<b>随机植入</b>，伪随机蒙版按照从起始形状到结束形状的<i>特定顺序</i>应用。 此参数允许您<i>偏移<i>起始</i>形状的索引</i>。<br><br><i>注意</i>：此参数确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>掩码随机结束</b>值<i>大</i>。 |
@@ -104,7 +104,7 @@ ht-degree: 0%
 | <b>按单元格区域进行蒙版反转</b> <i>布尔值</i> | 按形状单元格的区域反转形状蒙版。 |
 | <b>按单元格区域开始蒙版</b> <i>浮动</i> | 调整蒙版形状的<i>最小值</i>单元格的区域阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>按单元格区域结束蒙版</b>的值大<i></i>。 |
 | <b>按单元格区域结束设置蒙版</b> <i>浮动</i> | 调整蒙版形状的<i>最大</i>单元格的区域阈值。<br><br><i>注意</i>：这确定了蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>按单元格区域蒙版起始</b>值<i>低</i>。 |
-| <b>蒙版映射输入反转</b> <i>布尔值</i> | 通过<b>蒙版映射</b>输入图反转形状的蒙版。 |
+| <b>蒙版映射输入反转</b> <i>布尔值</i> | 通过<b>蒙版映射</b>输入映射反转形状的蒙版。 |
 | <b>蒙版映射输入开始</b> <i>浮动</i> | 调整蒙版形状在<b>蒙版映射</b>输入图中的<i>最小灰度值</i>阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>掩码映射输入端</b>值<i>大</i>。 |
 | <b>蒙版映射输入端</b> <i>浮动</i> | 调整蒙版形状在<b>蒙版映射</b>输入图中的<i>最大灰度值</i>阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>蒙版映射输入开始</b>值<i>低</i>。 |
 
@@ -113,25 +113,25 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tile-random-2-05.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tile-random-2-06.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tile-random-2-07.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tile-random-2-08.png" />
         </td>
     </tr>
 </table>

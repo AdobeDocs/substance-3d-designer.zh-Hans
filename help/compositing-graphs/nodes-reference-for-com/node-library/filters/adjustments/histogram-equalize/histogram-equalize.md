@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: 使用直方图均衡节点重新分布像素强度以提高对比度和亮度。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图均衡
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方图色调均化：图标](histogram-equalize.resources/histogram_equalize.png "直方图色调均化：图标"){width="200px"}
+![直方图色调均化：图标](histogram-equalize.resources/histogram-equalize-01.png "直方图色调均化：图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -69,44 +69,44 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram-equalize-02.jpg" alt="histogram_equalize_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram-equalize-03.jpg" alt="histogram_equalize_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![直方图均衡：示例1](histogram-equalize.resources/histogram_equalize_example_3.png "直方图均衡：示例1"){zoomable="yes"}
+![直方图均衡：示例1](histogram-equalize.resources/histogram-equalize-04.png "直方图均衡：示例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram-equalize-05.jpg" alt="histogram_equalize_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram-equalize-06.jpg" alt="histogram_equalize_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![直方图均衡：示例2](histogram-equalize.resources/histogram_equalize_example_5.png "直方图均衡：示例2"){zoomable="yes"}
+![直方图均衡：示例2](histogram-equalize.resources/histogram-equalize-07.png "直方图均衡：示例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram-equalize-08.jpg" alt="histogram_equalize_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram-equalize-09.jpg" alt="histogram_equalize_example_4_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![直方图均衡：示例3](histogram-equalize.resources/histogram_equalize_example_6.png "直方图均衡：示例3"){zoomable="yes"}
+![直方图均衡：示例3](histogram-equalize.resources/histogram-equalize-10.png "直方图均衡：示例3"){zoomable="yes"}

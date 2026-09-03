@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
-description: 使用污渍Concrete节点生成类似Concrete的污渍图案，用于创建风化的砖石纹理。
+description: 使用“污渍混凝土”节点生成类似于混凝土的污渍图案，用于创建风化的砖石纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Concrete
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍混凝土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-**具体污渍**&#x200B;节点生成类似于混凝土表面高度图的污渍映射。
+**具体污渍**&#x200B;节点生成与具体曲面的污渍映射类似的Height映射。
 
 </td>
 </tr>
@@ -55,14 +55,14 @@ ht-degree: 1%
 | <b>反转Dirt</b> <i>布尔值</i> | 反转Dirt斑点的影响。 |
 | <b>Scratches不透明度</b> <i>浮动</i> | 调整划痕的不透明度。 |
 | <b>锐化</b> <i>浮动</i> | 调整应用于图像的锐化效果的强度。 |
-| <b>大变化强度</b> <i>浮动</i> | 调整应用于基本纹理的大规模（低频率）变化。 |
+| <b>大变化强度</b> <i>Float</i> | 调整应用于基本纹理的大规模（低频率）变化。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
+            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
 breadcrumb-title: ''
-description: 使用“边损坏”节点在网格边上生成损坏蒙版，以创建逼真的边磨损和破损效果。
+description: 使用“边缘损坏”节点在网格边缘上生成损坏蒙版，从而创建逼真的边缘磨损和破损效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Damages
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 边缘损坏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-damages.resources/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
-此蒙版表示基于曲率和烘烤的AO对凸起的凸边缘造成的损坏。
+此蒙版表示对基于弯曲和烘焙AO的凸起的边缘所做的损坏。
 
 </td>
 </tr>
@@ -66,7 +66,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-damages.resources/edge-damages-ex.gif" />
+            <img src="edge-damages.resources/edge-damages-02.gif" />
         </td>
     </tr>
 </table>

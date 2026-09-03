@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中查找常见警告和错误的解决方案，以快速解决问题。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 警告和错误
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 6%
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 ### 资源管理器
 
-对于[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中有警告的任何项目，该警告在列表中项目的最右边缘显示有一个![](warnings-and-errors.resources/warning-icon.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
+对于[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中有警告的任何项目，该警告在列表中项目的最右边缘显示有一个![](warnings-and-errors.resources/warnings-and-errors-01.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
 
 它们遵循以下规则：
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-02.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 ### 图形视图
 
-对于[图形视图](../../interface/the-graph-view/the-graph-view.md)面板中有警告的任何项目，该警告在视区的&#x200B;*左下角*&#x200B;以彩色文本显示。 如果警告是由特定节点触发的，则该节点将具有![](warnings-and-errors.resources/warning-badge.png)警告标记。 将光标置于该徽章上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
+对于[图形视图](../../interface/the-graph-view/the-graph-view.md)面板中有警告的任何项目，该警告在视区的&#x200B;*左下角*&#x200B;以彩色文本显示。 如果警告是由特定节点触发的，则该节点将具有![](warnings-and-errors.resources/warnings-and-errors-03.png)警告标记。 将光标置于该徽章上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
 
 它们遵循以下规则：
 
@@ -71,7 +71,7 @@ ht-degree: 6%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-04.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ ht-degree: 6%
 
 ### 属性
 
-对于[属性](../../interface/properties/properties.md)面板中带有警告的任何项目，该警告在列表中该项目的最右边缘显示有一个![](warnings-and-errors.resources/warning-icon.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
+对于[属性](../../interface/properties/properties.md)面板中带有警告的任何项目，该警告在列表中该项目的最右边缘显示有一个![](warnings-and-errors.resources/warnings-and-errors-01.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
 
 它们遵循以下规则：
 
@@ -94,7 +94,7 @@ ht-degree: 6%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-05.png){width="256px"}
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ ht-degree: 6%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-06.png){width="256px"}
 
 </td>
 </tr>

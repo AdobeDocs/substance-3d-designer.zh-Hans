@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
-description: 使用“色阶”节点可以调整纹理的亮度、对比度和色调范围，以进行颜色校正和增强。
+description: 使用“色阶”节点可调整纹理的亮度、对比度和色调范围，以进行颜色校正和增强。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色阶
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：级别](levels.resources/comp_levels_1.png "原子节点：级别"){width="200px"}
+![原子节点：级别](levels.resources/levels-01.png "原子节点：级别"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ ht-degree: 4%
 </tr>
 </table>
 
-它是Substance 3D Designer中最核心且最有用的节点之一，通常用于重新映射和调整图表中的值，因为它为更改值提供了最精确和准确的界面。
+它是Substance 3D Designer中最核心且最有用的节点之一，通常用于重新映射和调整图形中的值，因为它为更改值提供了最精确和准确的界面。
 
 尽管它是一个重要节点，但对于某些用例而言，界面可能会有点繁琐，因此请确保查看[自动色阶](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)、[对比度/明度](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md)和[直方图扫描](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以获取替代项。
 
@@ -76,9 +76,9 @@ ht-degree: 4%
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-02.png)
 
-![](levels.resources/levels-1-1.png)
+![](levels.resources/levels-03.png)
 
 </td>
 </tr>
@@ -86,11 +86,11 @@ ht-degree: 4%
 
 |  |  |
 | --- | --- |
-| <b>低处的级别</b> *浮动/浮动4* | 定义输入图像的低光级别。 重新映射输入的Low值，使其变为全黑色。 |
-| <b>高处的级别</b> *浮动/浮动4* | 定义输入图像的高光级别。  将输入的High值重新映射为全白色。 |
-| <b>中间级别</b> *浮动/浮动4* | 定义输入图像的中间色调级别。  将输入Mid值重新映射为中间灰色。 |
-| <b>水平输出低</b> *浮动/浮动4* | 定义输出图像的低光级别。  固定输出Black值以设置限制。 |
-| <b>水平超高</b> *浮动/浮动4* | 定义输出图像的高光级别。  钳制输出白色值以设置限制。 |
+| <b>输入低光色阶</b> *浮动/浮动4* | 定义输入图像的低光级别。 重新映射输入的Low值，使其变为全黑色。 |
+| <b>输入高光色阶</b> *浮动/浮动4* | 定义输入图像的高光级别。  将输入的High值重新映射为全白色。 |
+| <b>输入中间色阶</b> *Float/Float4* | 定义输入图像的中间色调级别。  将输入Mid值重新映射为中间灰色。 |
+| <b>水平输出低</b> *浮动/浮动4* | 定义输出图像的低光级别。  钳制输出Black值以设置限制。 |
+| <b>输出高光色阶</b> *浮动/浮动4* | 定义输出图像的高光级别。  钳制输出白色值以设置限制。 |
 | <b>中间夹具</b> *布尔值* | 在计算输出电平之前，确定转换的输入值是否被固定到[0， 1]。 |
 
 ## 使用指南
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 在“特定参数”标题栏中，您可以找到一些按钮，以访问直方图的便捷功能：
 
-![级别节点快速操作](levels.resources/levels-2.png "级别节点快速操作")
+![级别节点快速操作](levels.resources/levels-04.png "级别节点快速操作")
 
 <b>1 — 反转：</b>交换“Level out low”和“Level out high”参数的值。
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 
 直方图编辑器旨在进行可视、快速调整，其中并不真正需要精确值，并且曝光参数无关紧要。 通常，这是使用色阶的最为快捷简便的方式。
 
-![](levels.resources/levels-histo.gif)
+![](levels.resources/levels-05.gif)
 
 根据输入类型（“颜色”或“灰度”），您可以使用“直方图”上方的下拉菜单选择要修改的通道。
 

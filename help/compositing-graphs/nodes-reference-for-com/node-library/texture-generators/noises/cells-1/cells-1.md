@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
 breadcrumb-title: ''
 description: 使用细胞1节点生成基本细胞图案，用于创建有机和生物纹理效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 细胞1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![细胞1 — 图标](cells-1.resources/cells_1.png "细胞1 — 图标"){width="200px"}
+![细胞1 — 图标](cells-1.resources/cells-1-01.png "细胞1 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞1 — 示例1](cells-1.resources/cells_1_1.png "细胞1 — 示例1"){zoomable="yes"}
+![细胞1 — 示例1](cells-1.resources/cells-1-02.png "细胞1 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞1 — 示例2](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif "细胞1 — 示例2"){zoomable="yes"}
+![细胞1 — 示例2](cells-1.resources/cells-1-03.gif "细胞1 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞1 — 示例3](cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif "细胞1 — 示例3"){zoomable="yes"}
+![细胞1 — 示例3](cells-1.resources/cells-1-04.gif "细胞1 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞1 — 示例4](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif "细胞1 — 示例4"){zoomable="yes"}
+![细胞1 — 示例4](cells-1.resources/cells-1-05.gif "细胞1 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

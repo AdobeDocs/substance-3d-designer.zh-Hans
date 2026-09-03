@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本11.2的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -20,26 +20,26 @@ ht-degree: 0%
 
 # 版本 11.2
 
-**Substance 3D Designer 11.2**&#x200B;名称略有更改，现已连接到Adobe Creative Cloud。 它带来了第一个版本的Substance模型图、发送到(Send To)功能、一些基于Raytrace的节点和一些UI更改。
+**Substance 3D Designer 11.2**&#x200B;名称略有更改，现已连接到Adobe Creative Cloud。 它带来了Substance Model Graphs的第一个版本、“发送到”功能、许多基于Raytrace的节点和一些UI更改。
 
 发行日期：*2021年6月23日*
 
 ## 主要功能
 
-### 新Substance模型图
+### 新的Substance模型图表
 
-可使用一种全新的“图形”类型，即“Substance模型图形”，它允许您使用熟悉的“节点”界面创建程序化3D模型。
+我们提供了一个全新的图形类型 — Substance模型图形，它允许您使用熟悉的节点界面创建程序化的3D模型。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Substance 3D Designer的Adobe版本具有新的“发送到”功能，可让您快速将资源发送到其他Substance 3D应用程序。 无需再以SBSAR格式发布并加载单个文件，只需单击一下“发送至”即可解决此问题。
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -61,18 +61,18 @@ Substance 3D Designer的Adobe版本具有新的“发送到”功能，可让您
 
 ### 新建Raytrace节点
 
-没有新节点，任何Designer版本都不会完成。 基于PBR 渲染的惊人强度，5个新的基于RT的节点在此版本中加入了我们。
+没有新节点，任何Designer版本都不会完成。 在PBR 渲染的非凡强度基础上，5个新的基于RT的节点将加入我们的行列。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Substance 3D Designer的Adobe版本具有新的“发送到”功能，可让您
 
 与之前的HBAO节点相比，RTAO在清晰的、正确的AO方面做得更好。
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
-焦散线基于高度图（如简单的Perlin噪声）生成物理上正确的光线跟踪焦散线。 适合为实时焦散线创建逼真的动画Flipbook纹理。
+焦散线基于高度图（如简单的Perlin噪声）生成物理上正确的光线跟踪焦散线。 适合为实时焦散创建逼真的动画Flipbook纹理。
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 RT Shadow可通过一些简单的控件生成精确的光线跟踪阴影。
 
@@ -92,39 +92,39 @@ RT Shadow可通过一些简单的控件生成精确的光线跟踪阴影。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
 </table>
 
-RT辐照度是新节点中最先进的。 它根据具有Height图、环境图和/或发射图的材料进行光线追踪。
+RT辐照度是新节点中最先进的。 它根据带有高度图的材料以及环境图和/或Emissive映射来光线追踪照度。
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
-这意味着，您可以使用预烘焙的光照进行纹理处理，就像处理风格化项目一样，或者您可以烘焙从高光地图上反射出来的光线跟踪光照。
+这意味着您可以使用预烘焙的光照进行纹理，就像对项目进行风格化处理一样，或者可以烘焙从高光地图上反弹出来的光线跟踪发光。
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
-最后是“Bent Normal”（弯曲正常）节点。 与常规正常转换相比，此节点使用AO修改正常映射以使用该AO信息。 在您需要Baker创建效果之前，此节点以文本空间为您创建效果。
+最后是“Bent Normal”（弯曲正常）节点。 与常规正常转换相比，此节点使用AO修改正常映射以使用该AO信息。 在需要网格烘焙器创建效果之前，此节点以纹理空间为您创建效果。
 
-### 着色器
+### Adobe标准素材着色器
 
-为了在各应用程序间统一材料和渲染，3D视图中的新默认着色器是Adobe Standard Material着色器。 乍一看，它与旧的PBR着色器没有区别（无论如何，它都是基于它的），但它支持更多奇特的通道，让您无需外部渲染器即可预览这些通道。
+为了统一应用程序中的素材和渲染，Adobe标准素材着色器是3D视图中新的默认着色器。 乍一看，它和旧的PBR金属粗糙度着色器没有区别（无论如何，它都是基于它），但它支持更多奇特的通道，让您无需外部渲染器即可预览这些通道。
 
 ### UI更改
 
-对UI进行了一些小的修改，但最明显的修改是改进的“文件”>“新建包”菜单（允许您选择图形类型），以及主工具栏上改进和更新的按钮（提供新图形类型的快捷键并发送到其他应用程序）。
+对UI进行了一些小的修改，但最明显的修改是改进的“文件”>“新建包”菜单（允许您选择图表类型），以及主工具栏上改进和更新的按钮（提供新图表类型的快捷方式并发送给其他应用程序）。
 
 ## 教程
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: 查找Substance 3D Designer中技术问题的故障排除指南，以快速解决问题。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 技术问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Designer包括直接报告崩溃和错误的方法。
 </td>
 <td style="border: 0;" valign="top">
 
-![崩溃报告对话框](technical-issues.resources/crash-reporter-2.png "崩溃报告对话框"){zoomable="yes"}
+![崩溃报告对话框](technical-issues.resources/technical-issues-01.png "崩溃报告对话框"){zoomable="yes"}
 
 *单击以放大*
 
@@ -91,7 +91,7 @@ Designer包括直接报告崩溃和错误的方法。
 </td>
 <td style="border: 0;" valign="top">
 
-![错误报告对话框](technical-issues.resources/bug-reporter.png "错误报告对话框"){zoomable="yes"}
+![错误报告对话框](technical-issues.resources/technical-issues-02.png "错误报告对话框"){zoomable="yes"}
 
 *单击以放大*
 

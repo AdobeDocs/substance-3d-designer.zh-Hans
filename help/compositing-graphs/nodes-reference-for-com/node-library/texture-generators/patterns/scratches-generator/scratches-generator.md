@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
-description: 使用Scratches生成器节点可创建用于增加材料磨损和损坏的程序性划痕图案。
+description: 使用Scratches生成器节点创建程序化的划痕图案，以增加材料的磨损和损坏。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](scratches-generator.resources/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator-01.png)
 
-<b>英寸：</b>纹理生成器>图案
+<b>进入：</b>纹理生成器>图案
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Scratches生成器的一个特殊版本是Scratches生成器Normal，它根据�
 | <b>样条扭曲频率</b> <i>0.0 - 1.0</i> | 设置扭曲频率，控制扭曲细节的比例。 |
 | <b>样条宽度</b> <i>0.0 - 2.0</i> | 统一设置所有样条的宽度。 |
 | <b>样条宽度随机</b> <i>0.0 - 1.0</i> | 分别随机化每个样条的样条宽度。 |
-| <b>样条位置随机</b> <i>0.0 - 1.0</i> | 分别随机化每个样条的位置。 此值越低，聚集到画布中心的样条就越多。 可用于创建划痕点。 |
+| <b>样条位置随机</b> <i>0.0 - 1.0</i> | 分别随机化每个样条的位置。 此值越低，群集到画布中心的样条越多。 可用于创建划痕点。 |
 | <b>以像素为单位设置样条宽度</b> <i>False/True</i> | 确定用于样条宽度设置的单位。 |
 | <b>随机明亮度（仅限灰度版本）</b> <i>0.0 - 1.0</i> | 分别随机化每个样条的明亮度。 |
 | <b>正常强度（仅限正常版本）</b> <i>0.0 - 1.0</i> | 全局设置每个样条的“正常”效果强度。 |
@@ -73,10 +73,10 @@ Scratches生成器的一个特殊版本是Scratches生成器Normal，它根据�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-ex1.png" />
+            <img src="scratches-generator.resources/scratches-generator-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-ex2.png" />
+            <img src="scratches-generator.resources/scratches-generator-03.png" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
-description: 使用“Edge Select”（边缘选择）网格生成蒙版，选择节点边缘创建基于边缘的风化磨损效果。
+description: 使用“边选择”节点生成用于选择网格边的蒙版，以创建基于边的风化和磨损效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 边缘选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-select.resources/edge-select.png){width="128px"}
+![](edge-select.resources/edge-select-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
-此蒙版是根据弯曲选择任何边缘类型的最佳方法。 凸的、凹的、任何层级或对比度都可以隔离，这提供了绝佳的快捷键，可以避免通过[层节点](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)手动执行此操作。
+此蒙版是基于曲率选择任何类型的边缘的最佳方法。 凸的、凹的、任何层级或对比度都可以隔离，这提供了绝佳的快捷方式，以避免通过[层节点](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)手动执行此操作。
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-select.resources/edge-select-ex.gif" />
+            <img src="edge-select.resources/edge-select-02.gif" />
         </td>
     </tr>
 </table>

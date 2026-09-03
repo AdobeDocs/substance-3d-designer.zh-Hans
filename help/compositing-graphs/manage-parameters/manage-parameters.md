@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: 了解如何管理和整理Substance合成图表中的参数，以便更好地整理工作流。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ ht-degree: 3%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![属性中的全局“管理参数”菜单](manage-parameters.resources/manage-parameters-menu-global.png "属性中的全局“管理参数”菜单"){zoomable="yes"}
+![属性中的全局“管理参数”菜单](manage-parameters.resources/manage-parameters-01.png "属性中的全局“管理参数”菜单"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 3%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![属性中的本地“管理参数”菜单](manage-parameters.resources/manage-parameters-menu.png "属性中的本地“管理参数”菜单"){zoomable="yes"}
+![属性中的本地“管理参数”菜单](manage-parameters.resources/manage-parameters-02.png "属性中的本地“管理参数”菜单"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ ht-degree: 3%
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![节点上下文菜单中的“管理参数”菜单](manage-parameters.resources/manage-parameters-node-menu.png "节点上下文菜单中的“管理参数”菜单"){zoomable="yes"}
+![节点上下文菜单中的“管理参数”菜单](manage-parameters.resources/manage-parameters-03.png "节点上下文菜单中的“管理参数”菜单"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ ht-degree: 3%
 </td>
 <td style="border: 0;" valign="top">
 
-![复制和粘贴参数](manage-parameters.resources/copy-paste-parameters.gif "复制和粘贴参数"){zoomable="yes"}
+![复制和粘贴参数](manage-parameters.resources/manage-parameters-04.gif "复制和粘贴参数"){zoomable="yes"}
 
 </td>
 </tr>

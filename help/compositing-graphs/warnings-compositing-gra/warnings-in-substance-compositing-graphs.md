@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解Substance合成图表中的警告，并了解如何解决常见问题和错误。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 图形中的警告
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 > 通过[新建图形](../creating-compositing-gra/creating-a-substance-compositing-graph.md)对话框可用的图形模板具有准备好使用的预设输出节点。
 
-![修复“未定义输出节点”警告](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "修复“未定义输出节点”警告"){width="512px"}
+![修复“未定义输出节点”警告](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "修复“未定义输出节点”警告"){width="512px"}
 
 ### ![（错误）](warnings-in-substance-compositing-graphs.resources/error.svg) *[x]*&#x200B;参数的函数有一些警告
 
@@ -51,7 +51,7 @@ E.g. 均匀颜色[输出颜色]，像素处理器[每个像素函数]
 
 然后，评估图形视图左下角列出的警告并解决问题。 您可以参阅[函数图形中的警告](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md)页，以解决函数图形中报告的警告。
 
-![修复“Parameter函数有一些警告”警告](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "修复“Parameter函数有一些警告”警告")
+![修复“Parameter函数有一些警告”警告](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "修复“Parameter函数有一些警告”警告")
 
 ### ![（错误）](warnings-in-substance-compositing-graphs.resources/error.svg)引用的数据有一些警告
 
@@ -69,11 +69,11 @@ E.g. 均匀颜色[输出颜色]，像素处理器[每个像素函数]
 * 有关图表，请参阅本页中的其他项目
 * 有关任何其他类型的资源，请参阅[来自依赖项的警告](../../resources/warnings-from-dep/warnings-from-dependencies.md)页
 
-![修复“引用的数据有一些警告”警告](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "修复“引用的数据有一些警告”警告")
+![修复“引用的数据有一些警告”警告](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "修复“引用的数据有一些警告”警告")
 
 ### ![（错误）](warnings-in-substance-compositing-graphs.resources/error.svg)未找到引用资源
 
-在[Substance 3D](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)文件(SBS)中保存的路径中找不到节点引用的资源。 以下是引用资源的一些节点：
+在[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)文件(SBS)中保存的路径中找不到节点引用的资源。 以下是引用资源的一些节点：
 
 * [图形实例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)节点引用了图形
 * [位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点引用[位图资源](../../resources/bitmap-resource/bitmap-resource.md)
@@ -92,7 +92,7 @@ E.g. 均匀颜色[输出颜色]，像素处理器[每个像素函数]
 在“资源管理器”面板中查找引用的资源，并检查这些资源存在于保存在其&#x200B;**文件路径**&#x200B;属性中的位置。\
 否则，请单击资源管理器中的资源项上的RMB，然后在上下文菜单中选择&#x200B;**重新定位……**&#x200B;选项，以设置该资源的新有效目标文件。
 
-![修复“未找到引用资源”警告](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "修复“未找到引用资源”警告")
+![修复“未找到引用资源”警告](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "修复“未找到引用资源”警告")
 
 ### ![（错误）](warnings-in-substance-compositing-graphs.resources/error.svg)文本节点使用了无效的字体
 

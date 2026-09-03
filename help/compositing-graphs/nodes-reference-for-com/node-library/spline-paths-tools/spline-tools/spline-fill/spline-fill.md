@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
 breadcrumb-title: ''
-description: 使用“样条填充”节点，用纹理或颜色填充由封闭样条定义的区域。
+description: 使用“样条填充”节点，用纹理或颜色填充由闭合样条定义的区域。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条填充
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-fill.resources/spline-fill-icon.png "节点图标")
+![节点图标](spline-fill.resources/spline-fill-01.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -72,11 +72,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/spline-fill-02.jpg" alt="SplineFill-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="样条填充 — 变量1-After">
+      <img src="spline-fill.resources/spline-fill-03.jpg" alt="样条填充 — 变量1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-fill.resources/SplineFill-Demo.gif "节点示例2")
+![节点示例2](spline-fill.resources/spline-fill-04.gif "节点示例2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: 使用“油脂”节点，根据网格几何形状和接触区域生成油脂栈积蒙版。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 油脂
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grease.resources/grease.png){width="128px"}
+![](grease.resources/grease-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -59,7 +59,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>级别</b> <i>0.0 - 1.0</i> | 设置要显示的效果总量。 |
 | <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
-| <b>Thickness阈值</b> <i>0.0 - 1.0</i> | 设置效果应显示的最小Thickness。 与“水平”同等重要；调整此参数以适合您的Thickness图。 |
+| <b>Thickness阈值</b> <i>0.0 - 1.0</i> | 设置效果应显示的最小Thickness。 与“级别”同等重要；请根据您的厚度图对此进行调整。 |
 | <b>覆盖噪声</b> <i>False/True</i> | 设置为使用自定义输入插槽覆盖内部油脂污渍图。 |
 
 ## 示例
@@ -67,7 +67,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grease.resources/grease-ex.gif" />
+            <img src="grease.resources/grease-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Designer中创建和使用材料定义语言图形执行高级材料工作流程。
+description: 了解如何在Substance 3D Designer中创建和使用材质定义语言图表以用于高级材质工作流。
 helpx_creative_field: ""
 helpx_description: Designer > MDL graphs
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL图表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 此页面在Substance 3D Designer中显示MDL图表，通过这些图表，您可以创作MDL材质并实时预览其行为。
 
-![孔雀石MDL 材质](mdl-graphs.resources/mdl-malachite-example.jpg "孔雀石MDL 材质")
+![孔雀石MDL材料](mdl-graphs.resources/mdl-graphs-01.jpg "孔雀石MDL材料")
 
-*带有Chrysocolla的Malachite，由[Mark Foreman](https://www.artstation.com/oggyart)MDL 材质&#x200B;**在我们的[旧版Substance share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台*&#x200B;上提供
+*带有Chrysocolla的Malachite，由[Mark Foreman](https://www.artstation.com/oggyart)**提供的MDL材料，可在我们的[旧版Substance share](https://share-legacy.substance3d.com/libraries/4043)**平台*&#x200B;上使用
 
 >[!WARNING]
 > 
-> Designer 16.0.0版中删除了MDL 图和所有相关功能。
+> 16.0.0版中已从Designer中删除MDL图表和所有相关功能。
 > 
 > 在此处了解详情： [MDL图表和Iray生命周期结束](../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 概述
 
-MDL表示[材料定义语言](http://www.nvidia.com/object/material-definition-language.html)：“[NVIDIA](https://www.nvidia.com/)开发的用于定义基于物理的渲染解决方案的材料的技术。” （来源： [NVIDIA MDL文档](https://raytracing-docs.nvidia.com/mdl/index.html)）
+MDL表示[材质定义语言](http://www.nvidia.com/object/material-definition-language.html)：“由[NVIDIA](https://www.nvidia.com/)开发的技术，用于定义基于物理的材质以用于基于物理的渲染解决方案。” （来源： [NVIDIA MDL文档](https://raytracing-docs.nvidia.com/mdl/index.html)）
 
 使用此语言，完整的素材定义是可移植的，因此可在应用程序和渲染器间使用以实现一致的输出。 Substance 3D Designer当前是&#x200B;*仅*&#x200B;个应用程序，通过将MDL函数和值类型公开为MDL图表中的节点来提供MDL素材的基于图表的节点创作。
 
@@ -62,7 +62,7 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 >
 > 您可以在[NVIDIA MDL文档](https://raytracing-docs.nvidia.com/mdl/index.html)中详细了解材质定义语言的技术实现，该文档包括指向MDL规范和[MDL手册](http://mdlhandbook.com/)的链接，均由NVIDIA编写和维护。
 
-![MDL图形属性](mdl-graphs.resources/mdl-main.png "MDL图形属性")
+![MDL图形属性](mdl-graphs.resources/mdl-graphs-02.png "MDL图形属性")
 
 *“属性”面板中的MDL图形属性*
 
@@ -89,14 +89,14 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 
 ### 图形输入
 
-本节列出连接到公开参数的交互式参数，并定义其&#x200B;*默认值*。 它们可能随时&#x200B;*被调整*&#x200B;和&#x200B;*重新排序*。
+此部分列出连接到MDL图形的公开参数的交互式参数，并定义其&#x200B;*默认值*。 它们可能随时&#x200B;*被调整*&#x200B;和&#x200B;*重新排序*。
 
 这些输入的接口和行为由它们所连接的公开参数的&#x200B;*值类型*&#x200B;和&#x200B;*范围*&#x200B;定义。 例如：
 
 * 设置为软范围[0.0,4.0]的<b>Float</b>类型的公开值将显示为范围从0.0到4.0的&#x200B;*单个滑块*
 * <b>颜色</b>类型的公开值将显示为&#x200B;*颜色构件*，其中包括选取渐变和颜色缩略图
 
-要对图形输入重新排序，请将光标放在参数左侧的&#x200B;*深色手柄*&#x200B;上，单击并&#x200B;*按住* <b>LMB</b>并向上或向下拖动光标。 此自定义顺序用于在以下上下文中显示MDL材料的属性：
+要对图形输入重新排序，请将光标放在参数左侧的&#x200B;*深色手柄*&#x200B;上，单击并&#x200B;*按住* <b>LMB</b>并向上或向下拖动光标。 此自定义顺序用于在以下上下文中显示MDL 材质的属性：
 
 * 引用此材料的MDL图表的实例节点
 * [3D视图](../interface/3d-view/3d-view.md)中的材质属性

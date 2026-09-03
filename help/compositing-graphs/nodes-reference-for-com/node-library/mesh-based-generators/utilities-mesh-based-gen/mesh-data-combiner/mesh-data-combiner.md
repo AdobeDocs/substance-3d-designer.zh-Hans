@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: 使用“网格数据组合器”节点可组合多个网格数据输入，以便生成基于网格的高级纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 网格数据组合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>实用工具
 
@@ -59,4 +59,4 @@ ht-degree: 1%
 | <b>位置(RGB)</b> <i>False/True</i> |  |
 | <b>颜色ID</b> <i>False/True</i> |  |
 | <b>世界空间方向</b> <i>False/True</i> |  |
-| <b>世界空间正常</b> <i>False/True</i> |  |
+| <b>世界空间法线</b> <i>False/True</i> |  |

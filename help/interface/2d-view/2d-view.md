@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的2D视图可预览和检查材质图表中的纹理输出。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本页介绍了Substance 3D Designer中&#x200B;**2D视图**&#x200B;面板的用户界面和功能。
 
-![2D视图](2d-view.resources/2d-view-main.png "2D视图")
+![2D视图](2d-view.resources/2d-view-01.png "2D视图")
 
 ## 概述
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 * 控制参数“*小工具*”
 
 修改显示的图像或值后，2D视图&#x200B;*会自动更新*&#x200B;以与数据的当前状态保持同步。\
-*多个* 2D视图面板可以随时处于活动状态，并且每个面板可以显示不同的图像或值。 您可以使用用户界面面板的![](2d-view.resources/2d-view-icon-pin.png) <b>针脚</b>功能来控制何时应使用新面板。
+*多个* 2D视图面板可以随时处于活动状态，并且每个面板可以显示不同的图像或值。 您可以使用用户界面面板的![](2d-view.resources/2d-view-02.png) <b>针脚</b>功能来控制何时应使用新面板。
 
 ### 在2D视图中显示内容
 
@@ -66,14 +66,14 @@ ht-degree: 0%
 
 * <b>Pan：</b> Ctrl+RMB / MMB
 * <b>缩放：</b> Alt+RMB / MouseWheel / “显示比例”工具：\
-  ![](2d-view.resources/2d-view-icon-zoom.png)
-* <b>调整以适合视区：</b> F /“适合视图”按钮![](2d-view.resources/2d-view-icon-fit-to-view.png)
-* <b>调整为1:1比例：</b> Z / “适合比例”按钮![](2d-view.resources/2d-view-icon-fit-to-scale.png)
+  ![](2d-view.resources/2d-view-03.png)
+* <b>调整以适合视区：</b> F /“适合视图”按钮![](2d-view.resources/2d-view-04.png)
+* <b>调整为1:1比例：</b> Z / “适合比例”按钮![](2d-view.resources/2d-view-05.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![2D视图视口导航](2d-view.resources/2d-view-viewport-navigation.gif "2D视图视口导航")
+![2D视图视口导航](2d-view.resources/2d-view-06.gif "2D视图视口导航")
 
 </td>
 </tr>
@@ -107,43 +107,43 @@ ht-degree: 0%
 
 除了导航之外，视区还提供以下功能：
 
-* 拼贴显示： *在视区中以拼贴图案重复图像*。 这对于检查图案或纹理将如何重复非常有用。 已使用&#x200B;**空格键**&#x200B;或![](2d-view.resources/2d-view-icon-tiling.png) **平铺显示**&#x200B;按钮启用该功能
-* 物理尺寸显示：显示具有匹配图形的[物理尺寸](../../compositing-graphs/graph-parameters/graph-parameters.md)属性的&#x200B;*比率*&#x200B;的图像使用![](2d-view.resources/2d-view-icon-physical-size.png) **物理尺寸比率**&#x200B;按钮启用此功能
-* 保持视图大小：此选项&#x200B;*锁定显示比例*，使其在不同的图像中保持一致。 默认情况下，*已启用此功能*，可使用![](2d-view.resources/2d-view-icon-lock-scale.png) **保持视图大小**&#x200B;按钮将其禁用
+* 拼贴显示： *在视区中以拼贴图案重复图像*。 这对于检查图案或纹理将如何重复非常有用。 已使用&#x200B;**空格键**&#x200B;或![](2d-view.resources/2d-view-07.png) **平铺显示**&#x200B;按钮启用该功能
+* 物理尺寸显示：显示具有匹配图形的[物理尺寸](../../compositing-graphs/graph-parameters/graph-parameters.md)属性的&#x200B;*比率*&#x200B;的图像使用![](2d-view.resources/2d-view-08.png) **物理尺寸比率**&#x200B;按钮启用此功能
+* 保持视图大小：此选项&#x200B;*锁定显示比例*，使其在不同的图像中保持一致。 默认情况下，*已启用此功能*，可使用![](2d-view.resources/2d-view-09.png) **保持视图大小**&#x200B;按钮将其禁用
 
 ## 主工具栏
 
 <b>2D视图</b>面板的主工具栏允许您对显示的图像执行更多操作，并提供以下功能：
 
 +++背景图像
-![二维视图背景图像](2d-view.resources/2d-view-background.png "二维视图背景图像"){width="360px"}
+![二维视图背景图像](2d-view.resources/2d-view-10.png "二维视图背景图像"){width="360px"}
 
 
 
-您可以在当前显示的图像上&#x200B;*叠加其他图像*。 按![](2d-view.resources/2d-view-icon-background.png) <b>背景图像</b>按钮，系统将提示您选择要用作叠加的图像文件。
+您可以在当前显示的图像上&#x200B;*叠加其他图像*。 按![](2d-view.resources/2d-view-11.png) <b>背景图像</b>按钮，系统将提示您选择要用作叠加的图像文件。
 
 选择文件后，将出现一个新工具栏，其中包含图像叠加的以下控件：
 
-<b>![](2d-view.resources/2d-view-icon-background-close.png)关闭：</b> *关闭*&#x200B;叠加控件工具栏和&#x200B;*禁用*&#x200B;背景图像叠加。
+<b>![](2d-view.resources/2d-view-12.png)关闭：</b> *关闭*&#x200B;叠加控件工具栏和&#x200B;*禁用*&#x200B;背景图像叠加。
 
-<b>![](2d-view.resources/2d-view-icon-background-loadpng.png)加载图像：</b>选择&#x200B;*其他图像文件*&#x200B;用作叠加。
+<b>![](2d-view.resources/2d-view-13.png)加载图像：</b>选择&#x200B;*其他图像文件*&#x200B;用作叠加。
 
-<b>![](2d-view.resources/2d-view-icon-background-0.png)源图像：</b>将叠加图像设置为&#x200B;*0%*&#x200B;不透明度。
+<b>![](2d-view.resources/2d-view-14.png)源图像：</b>将叠加图像设置为&#x200B;*0%*&#x200B;不透明度。
 
-<b>![](2d-view.resources/2d-view-icon-background-100.png)背景图像：</b>将叠加图像设置为&#x200B;*100%*&#x200B;不透明度。
+<b>![](2d-view.resources/2d-view-15.png)背景图像：</b>将叠加图像设置为&#x200B;*100%*&#x200B;不透明度。
 
-<b>![](2d-view.resources/2d-view-icon-background-50.png)重置：</b>将叠加图像设置为&#x200B;*50%*&#x200B;不透明度。
+<b>![](2d-view.resources/2d-view-16.png)重置：</b>将叠加图像设置为&#x200B;*50%*&#x200B;不透明度。
 
 滑块可为您提供&#x200B;*对叠加图像的不透明度进行手动控制*。
 
 +++
 
 +++导出图像
-![2D视图导出图像](2d-view.resources/2d-view-export-bitmap.png "2D视图导出图像"){width="360px"}
+![2D视图导出图像](2d-view.resources/2d-view-17.png "2D视图导出图像"){width="360px"}
 
 
 
-当前显示的图像可以&#x200B;*导出到图像文件*。 按![](2d-view.resources/2d-view-icon-export.png) <b>保存图像……</b>按钮，系统将提示您为导出的文件选择&#x200B;*位置*、*名称*&#x200B;和&#x200B;*文件格式*。
+当前显示的图像可以&#x200B;*导出到图像文件*。 按![](2d-view.resources/2d-view-18.png) <b>保存图像……</b>按钮，系统将提示您为导出的文件选择&#x200B;*位置*、*名称*&#x200B;和&#x200B;*文件格式*。
 
 虽然图像将导出为其&#x200B;*本机分辨率*（显示在视区的左下方），但&#x200B;*位深度*&#x200B;和&#x200B;*色彩格式*&#x200B;将&#x200B;*取决于所选的图像格式*。 例如，32位浮点精确度图像只能在其完整数据范围内使用支持此精确度的图像格式（例如TIFF、EXR和HDR）导出。 如果图像格式不支持数据，则在导出的图像中可能会出现钳位和/或颜色条纹。\
 通常，请注意您要使用的图像格式（浮点支持、ICC配置文件等）提供了哪些精确度和功能。
@@ -153,37 +153,37 @@ ht-degree: 0%
 +++
 
 +++复制到剪贴板
-![2D视图复制到剪贴板](2d-view.resources/2d-view-copy-clipboard.gif "2D视图复制到剪贴板"){width="360px"}
+![2D视图复制到剪贴板](2d-view.resources/2d-view-19.gif "2D视图复制到剪贴板"){width="360px"}
 
 
 
-当前显示的图像可以&#x200B;*复制到剪贴板*。 按![](2d-view.resources/2d-view-icon-copy.png) <b>“将图像复制到剪贴板”</b>按钮，即可将图像粘贴到任何第三方软件（如Adobe Photoshop）中。
+当前显示的图像可以&#x200B;*复制到剪贴板*。 按![](2d-view.resources/2d-view-20.png) <b>“将图像复制到剪贴板”</b>按钮，即可将图像粘贴到任何第三方软件（如Adobe Photoshop）中。
 
 图像将作为精度为&#x200B;*8位*&#x200B;的图像以&#x200B;*本机分辨率*&#x200B;进行复制，该分辨率显示在视区的左下方区域。
 
 +++
 
 +++切换图形输出
-![2D视图切换图表输出](2d-view.resources/2d-view-switch-graph-outputs.gif "2D视图切换图表输出"){width="360px"}
+![2D视图切换图表输出](2d-view.resources/2d-view-21.gif "2D视图切换图表输出"){width="360px"}
 
 
 
-如果当前显示的图像是&#x200B;*图形输出*，则您可以使用![](2d-view.resources/2d-view-icon-view-outputs.png) <b>选择输出</b>按钮&#x200B;*快速切换到任何*&#x200B;其他图形输出。
+如果当前显示的图像是&#x200B;*图形输出*，则您可以使用![](2d-view.resources/2d-view-22.png) <b>选择输出</b>按钮&#x200B;*快速切换到任何*&#x200B;其他图形输出。
 
 此功能&#x200B;*不*&#x200B;可用于其他节点，包括具有多个输出的节点。
 
 +++
 
 +++uv叠加
-![2D视图UV叠加](2d-view.resources/2d-view-uv.png "2D视图UV叠加"){width="357px"}
+![2D视图UV叠加](2d-view.resources/2d-view-23.png "2D视图UV叠加"){width="357px"}
 
 
 
 如果在[3D视图](../../interface/3d-view/3d-view.md)停靠区的<b>场景</b>菜单中启用了<b>在2D视图中显示UV</b>选项，则UV叠加功能在2D视图中可用。
 
-您可以使用<b>UV</b>按钮启用它。![](2d-view.resources/2d-view-icon-uv.png)
+您可以使用<b>UV</b>按钮启用它。![](2d-view.resources/2d-view-24.png)
 
-这样会将当前在3D视图[&#128279;](../../interface/3d-view/3d-view.md)中选定的网格的UV显示为彩色线框。
+这样会将当前在3D视图](../../interface/3d-view/3d-view.md)中选定的网格[的UV显示为彩色线框。
 
 如果素材颜色信息在网格文件中可用，则素材颜色将用作UV叠加的颜色。
 
@@ -192,11 +192,11 @@ ht-degree: 0%
 +++
 
 +++图像信息
-![2D查看图像信息](2d-view.resources/2d-view-information.png "2D查看图像信息"){width="360px"}
+![2D查看图像信息](2d-view.resources/2d-view-25.png "2D查看图像信息"){width="360px"}
 
 
 
-您可以使用<b>信息</b>面板在图像中显示&#x200B;*精确像素值* *和坐标*，该面板是使用![](2d-view.resources/2d-view-icon-information.png) <b>图像信息</b>按钮启用的。 例如，在检查HDR图像或确保像素之间的步进遵循预期进度时，此功能非常有用。
+您可以使用<b>信息</b>面板在图像中显示&#x200B;*精确像素值* *和坐标*，该面板是使用![](2d-view.resources/2d-view-26.png) <b>图像信息</b>按钮启用的。 例如，在检查HDR图像或确保像素之间的步进遵循预期进度时，此功能非常有用。
 
 颜色用<b>RGBA</b>和<b>HSV</b>值表示，并根据图像的&#x200B;*精度*&#x200B;显示，如下所示：
 
@@ -213,11 +213,11 @@ ht-degree: 0%
 +++
 
 +++直方图
-![2D视图直方图](2d-view.resources/2d-view-histogram.png "2D视图直方图"){width="360px"}
+![2D视图直方图](2d-view.resources/2d-view-27.png "2D视图直方图"){width="360px"}
 
 
 
-您可以使用<b>直方图</b>面板显示图像的&#x200B;*直方图*，该面板是使用![](2d-view.resources/2d-view-icon-histogram.png) <b>显示直方图</b>按钮启用的。
+您可以使用<b>直方图</b>面板显示图像的&#x200B;*直方图*，该面板是使用![](2d-view.resources/2d-view-28.png) <b>显示直方图</b>按钮启用的。
 
 以下&#x200B;*直方图模式*&#x200B;可用：
 
@@ -273,11 +273,11 @@ ht-degree: 0%
 >
 > 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**2D视图**&#x200B;面板&#x200B;*重新定位*。
 
-![2D视图颜色通道](2d-view.resources/2d-view-color-channel.png "2D视图颜色通道"){width="360px"}
+![2D视图颜色通道](2d-view.resources/2d-view-29.png "2D视图颜色通道"){width="360px"}
 
 ### 颜色通道
 
-可以使用![](2d-view.resources/2d-view-icon-channels.png) <b>颜色通道</b>按钮显示图像的单个通道。 这将打开一个组合框，允许您选择应显示<b>红色</b>、<b>绿色</b>、<b>蓝色</b>和<b>Alpha</b>声道中的哪一个。 通过选择<b>RGB</b>选项，可以恢复包含所有通道的图像的正常外观。
+可以使用![](2d-view.resources/2d-view-30.png) <b>颜色通道</b>按钮显示图像的单个通道。 这将打开一个组合框，允许您选择应显示<b>红色</b>、<b>绿色</b>、<b>蓝色</b>和<b>Alpha</b>声道中的哪一个。 通过选择<b>RGB</b>选项，可以恢复包含所有通道的图像的正常外观。
 
 可使用以下&#x200B;*键盘快捷键*&#x200B;快速切换到不同的颜色通道：
 
@@ -295,27 +295,27 @@ ht-degree: 0%
 > 
 > 由于面板需要焦点，因此这些快捷键&#x200B;*不干扰*&#x200B;您为在图表中创建节点而设置的任何&#x200B;*自定义快捷键* — 在[此处](../../interface/preferences-window/preferences-window.md)了解有关此功能的更多信息。
 
-![2D视图透明度切换](2d-view.resources/2d-view-transparency.png "2D视图透明度切换"){width="360px"}
+![2D视图透明度切换](2d-view.resources/2d-view-31.png "2D视图透明度切换"){width="360px"}
 
 ### 透明度切换开关
 
-可以使用![](2d-view.resources/2d-view-icon-transparency-off.png)/![](2d-view.resources/2d-view-icon-transparency-on.png) <b>显示棋盘</b>按钮打开和关闭透明度显示。 启用此选项后，将使用棋盘图案显示透明度。
+可以使用![](2d-view.resources/2d-view-32.png)/![](2d-view.resources/2d-view-33.png) <b>显示棋盘</b>按钮打开和关闭透明度显示。 启用此选项后，将使用棋盘图案显示透明度。
 
-解释透明度有两种主要方式，可使用![](2d-view.resources/2d-view-icon-transparency-straight.png)/![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) <b>透明度模式</b>按钮选择它们：
+解释透明度有两种主要方式，可使用![](2d-view.resources/2d-view-34.png)/![](2d-view.resources/2d-view-35.png) <b>透明度模式</b>按钮选择它们：
 
-<b>![](2d-view.resources/2d-view-icon-transparency-straight.png)直接：</b>透明度信息仅存储在Alpha通道中，不影响图像的任何其他方面
+<b>![](2d-view.resources/2d-view-34.png)直接：</b>透明度信息仅存储在Alpha通道中，不影响图像的任何其他方面
 
-<b>![](2d-view.resources/3d-view-icon-transparency-premultiplied.png)预乘：</b>透明度信息存储在Alpha通道中，并且还会影响RGB通道，因为它们已针对Alpha通道进行了有效乘
+<b>![](2d-view.resources/2d-view-35.png)预乘：</b>透明度信息存储在Alpha通道中，并且还会影响RGB通道，因为它们已针对Alpha通道进行了有效乘
 
 若要显示&#x200B;*正确的颜色*，应在<b>2D视图</b>面板中选择适当的透明度模式，以匹配在&#x200B;*创建图像*&#x200B;时应用的透明度方法。
 
-![二维视图色彩空间](2d-view.resources/2d-view-viewport-color-space.png "二维视图色彩空间"){width="360px"}
+![二维视图色彩空间](2d-view.resources/2d-view-36.png "二维视图色彩空间"){width="360px"}
 
 ### 色彩空间
 
 为了最准确地呈现颜色，默认情况下，图像以&#x200B;*色彩空间*&#x200B;显示，与&#x200B;*监视器*&#x200B;使用的色彩空间相匹配。
 
-![](2d-view.resources/2d-view-icon-color-space.png)/![](2d-view.resources/2d-view-icon-color-space-linear.png) <b>色彩空间</b>按钮的可用控件和效果将取决于[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中设置的[色彩管理模式](../../color-management/color-management.md)。 在本页的色彩管理部分中了解有关这些控件的更多信息。
+![](2d-view.resources/2d-view-37.png)/![](2d-view.resources/2d-view-38.png) <b>色彩空间</b>按钮的可用控件和效果将取决于[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中设置的[色彩管理模式](../../color-management/color-management.md)。 在本页的色彩管理部分中了解有关这些控件的更多信息。
 
 <table>
 <tr style="border: 0;">
@@ -335,7 +335,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![2D视图位图绘画工具](2d-view.resources/2dview-paintingtools-main.png "2D视图位图绘画工具")
+![2D视图位图绘画工具](2d-view.resources/2d-view-39.png "2D视图位图绘画工具")
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![2D视图矢量图形编辑器](2d-view.resources/2dview-vectorediting-main.png "2D视图矢量图形编辑器")
+![2D视图矢量图形编辑器](2d-view.resources/2d-view-40.png "2D视图矢量图形编辑器")
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ ht-degree: 0%
 >
 > 您可以在文档的[矢量编辑工具](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)（已弃用）页面中了解更多信息。
 
-![2D视图色彩管理](2d-view.resources/2d-view-color-management-ocio.png "2D视图色彩管理"){width="360px"}
+![2D视图色彩管理](2d-view.resources/2d-view-41.png "2D视图色彩管理"){width="360px"}
 
 ## 色彩管理
 
@@ -378,9 +378,9 @@ ht-degree: 0%
 
 这些控件将适应在[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中设置的当前[色彩管理模式](../../color-management/color-management.md)，如下所示：
 
-* <b>旧版：</b>您可以将图像显示为![](2d-view.resources/2d-view-icon-color-space.png) sRGB或![](2d-view.resources/2d-view-icon-color-space-linear.png)线性sRGB色彩空间；
-* <b>ACE：</b>您可以![](2d-view.resources/2d-view-icon-color-space.png) *启用*&#x200B;色彩管理，并为&#x200B;*当前监视器*&#x200B;设置最合适的色彩空间（由AdobeACE引擎检测到），或![](2d-view.resources/2d-view-icon-color-space-linear.png) *禁用*&#x200B;色彩管理，并使用Raw颜色值显示图像；
-* <b>OCIO：</b>您可以![](2d-view.resources/2d-view-icon-color-space.png)*启用*&#x200B;色彩管理，并为&#x200B;*当前监视器*&#x200B;设置最合适的色彩管理（OCIO引擎检测到此项），使用组合框并选择当前使用的[OCIO配置文件](../../color-management/color-management.md)中可用的&#x200B;*显示色彩空间*&#x200B;或![](2d-view.resources/2d-view-icon-color-space-linear.png)*禁用*&#x200B;色彩管理，并使用Raw颜色值显示图像。
+* <b>旧版：</b>您可以将图像显示为![](2d-view.resources/2d-view-37.png) sRGB或![](2d-view.resources/2d-view-38.png)线性sRGB色彩空间；
+* <b>ACE：</b>您可以![](2d-view.resources/2d-view-37.png) *启用*&#x200B;色彩管理，并为&#x200B;*当前监视器*&#x200B;设置最合适的色彩空间（由AdobeACE引擎检测到），或![](2d-view.resources/2d-view-38.png) *禁用*&#x200B;色彩管理，并使用Raw颜色值显示图像；
+* <b>OCIO：</b>您可以![](2d-view.resources/2d-view-37.png)*启用*&#x200B;色彩管理，并为&#x200B;*当前监视器*&#x200B;设置最合适的色彩管理（OCIO引擎检测到此项），使用组合框并选择当前使用的[OCIO配置文件](../../color-management/color-management.md)中可用的&#x200B;*显示色彩空间*&#x200B;或![](2d-view.resources/2d-view-38.png)*禁用*&#x200B;色彩管理，并使用Raw颜色值显示图像。
 
 >[!WARNING]
 >

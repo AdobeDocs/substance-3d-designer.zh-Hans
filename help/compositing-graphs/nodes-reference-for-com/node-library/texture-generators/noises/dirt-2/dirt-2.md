@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-2.html"
 breadcrumb-title: ''
 description: 使用“Dirt2”节点生成基本Dirt图案，用于创建风化的表面细节和积累效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt2 — 图标](dirt-2.resources/dirt_2.png "Dirt2 — 图标"){width="200px"}
+![Dirt2 — 图标](dirt-2.resources/dirt-2-01.png "Dirt2 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt2 — 示例1](dirt-2.resources/dirt_2_1.png "Dirt2 — 示例1"){zoomable="yes"}
+![Dirt2 — 示例1](dirt-2.resources/dirt-2-02.png "Dirt2 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt2 — 示例2](dirt-2.resources/noise_dirt_2_v2_speed0.6_aniso0.gif "Dirt2 — 示例2"){zoomable="yes"}
+![Dirt2 — 示例2](dirt-2.resources/dirt-2-03.gif "Dirt2 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt2 — 示例3](dirt-2.resources/noise_dirt_2_v2_speed0.6_aniso1.gif "Dirt2 — 示例3"){zoomable="yes"}
+![Dirt2 — 示例3](dirt-2.resources/dirt-2-04.gif "Dirt2 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt2 — 示例4](dirt-2.resources/noise_dirt_2_v2_speed0.3_aniso0.6.gif "Dirt2 — 示例4"){zoomable="yes"}
+![Dirt2 — 示例4](dirt-2.resources/dirt-2-05.gif "Dirt2 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

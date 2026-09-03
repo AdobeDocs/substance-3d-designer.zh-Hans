@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
-description: 使用素材切换节点根据输入蒙版或条件在多个素材之间进行切换。
+description: 使用材料切换节点，根据输入蒙版或条件在多个材料之间切换。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Switch
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材质开关
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-switch.resources/material-switch.png){width="128px"}
+![](material-switch.resources/material-switch-01.png){width="128px"}
 
 <b>进入：</b>材质过滤器>混合
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 描述
 
-此节点是[交换机](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)的多通道、完整材质版本。 它以两种材料作为输入，根据开关参数只返回其中一种。
+此节点是[交换机](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)的多通道、完整材料版本。 它以两个材料作为输入，并根据切换参数只返回其中一个变量。
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: 使用“RT辐照度”节点从几何计算实时辐照度信息，以进行真实光照计算。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT辐照度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -70,13 +70,13 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
         </td>
     </tr>
 </table>

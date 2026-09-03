@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图形中的比较节点，以比较值和生成布尔型结果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 对比
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -24,4 +24,4 @@ ht-degree: 2%
 
 它返回True或False，具体取决于比较结果：
 
-![](comparison-nodes.resources/image2015-12-23-11-57-3.png)
+![](comparison-nodes.resources/comparison-nodes-01.png)

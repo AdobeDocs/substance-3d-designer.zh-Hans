@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
 description: 使用马赛克节点通过将纹理分为像素化的块和图案来创建马赛克拼贴效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 马赛克
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mosaic.resources/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-01.png){width="128px"}
 
-![](mosaic.resources/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-02.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -66,7 +66,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mosaic.resources/mosaci-ex.png" />
+            <img src="mosaic.resources/mosaic-03.png" />
         </td>
     </tr>
 </table>

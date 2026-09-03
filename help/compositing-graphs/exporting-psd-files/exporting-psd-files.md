@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: 了解如何将Substance合成图形导出为PSD文件，以便在Adobe Photoshop和其他图像编辑工作流程中使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 导出 PSD 文件
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Substance 3D Designer允许将纹理导出为Adobe Photoshop文档或PSD文件�
 
 ## PSD导出对话框
 
-只能通过一种方法打开PSD导出对话框。 在要导出到PSD的图形的[图形视图](../../interface/the-graph-view/the-graph-view.md)中，单击![](exporting-psd-files.resources/image2019-9-17-14-44-17.png) <b>“工具”</b>按钮并选择<b>PSD 导出器</b>。 该界面在<b>图形视图</b>内变为可见。
+只能通过一种方法打开PSD导出对话框。 在要导出到PSD的图形的[图形视图](../../interface/the-graph-view/the-graph-view.md)中，单击![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>“工具”</b>按钮并选择<b>PSD 导出器</b>。 该界面在<b>图形视图</b>内变为可见。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![用户界面PSD 导出器](exporting-psd-files.resources/psd-dialog.png "用户界面PSD 导出器")
+![用户界面PSD 导出器](exporting-psd-files.resources/exporting-psd-files-02.png "用户界面PSD 导出器")
 
 </td>
 <td style="border: 0;" valign="top">

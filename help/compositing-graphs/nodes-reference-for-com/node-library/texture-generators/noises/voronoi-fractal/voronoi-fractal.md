@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
 breadcrumb-title: ''
 description: 使用Voronoi分形节点生成分形Voronoi图案，用于创建有机细胞纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voronoi分形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoifractal.png){width="200px"}
+![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | <b>最大级别</b> <i>整数</i> | 分形图案中使用的最大重复级别&#x200B;*为*。 更宽的最小值/最大值范围会生成&#x200B;*更丰富的图案*，并且随更多频率范围而变化。 |
 | <b>粗糙度</b> <i>浮动</i> | 控制分形图案中低和高&#x200B;*重复级别*&#x200B;之间的&#x200B;*平衡*。<br><br>*注意*：值&#x200B;**0**&#x200B;导致输出&#x200B;*与随后的其他低值不符*。 这是预期的。<br><br>*注意2*：仅当&#x200B;**混合模式**&#x200B;参数设置为&#x200B;*添加*&#x200B;时，此参数才可用。 |
 | <b>隙度</b> <i>浮动</i> | 控制应用的分形图案&#x200B;*填充空间*&#x200B;的方式。 *较高的*&#x200B;值会使图案中的间隙减少&#x200B;*，从而产生*&#x200B;更密&#x200B;*的杂色。* |
-| <b>全局不透明度</b> <i>浮动</i> | 从0控制分形Perlin噪声值的&#x200B;*范围*。 |
+| <b>全局不透明度</b> <i>浮动</i> | 从0控制分形Perlin杂色值的&#x200B;*范围*。 |
 | <b>圆角曲线</b> <i>浮动</i> | 围绕噪声的每个点对&#x200B;*斜率*&#x200B;进行圆整，使其成为&#x200B;*凸形*。<br><br>*注意*：当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数不可用。 |
 | <b>距离刻度</b> <i>浮动</i> | 调整渐变&#x200B;*在每个噪声点周围的*&#x200B;距离。 |
 | <b>距离模式</b> <i>整数</i> | 将方法设置为&#x200B;*计算噪声的每个点周围的距离渐变*：<br><br>- *欧几里德*<br>- *曼哈顿*<br>- *切比雪夫*<br>- *明科夫斯基* |
@@ -79,28 +79,28 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
         </td>
     </tr>
 </table>

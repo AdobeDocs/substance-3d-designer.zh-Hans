@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
-description: 使用“场景”菜单中的导出场景操作，导出包含在Designer中所做的所有编辑的3D3D 视图。
+description: 使用3D视图场景菜单中的导出场景操作，导出包含在Designer中所做的所有编辑的3D场景。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 导出场景
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 >
 > 通过Designer添加到场景的所有项目都将包含在导出的场景中：默认相机、默认环境、所有材质都会复制任何附加光源。
 
-![场景导出操作](exporting-scenes.resources/exportActions.png "场景导出操作"){zoomable="yes"}
+![场景导出操作](exporting-scenes.resources/exporting-scenes-01.png "场景导出操作"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![导出的场景文件 — 拼合](exporting-scenes.resources/exportFlattened.png "导出的场景文件 — 拼合"){zoomable="yes"}
+![导出的场景文件 — 拼合](exporting-scenes.resources/exporting-scenes-02.png "导出的场景文件 — 拼合"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![导出场景文件 — 分层](exporting-scenes.resources/exportLayered.png "导出场景文件 — 分层"){zoomable="yes"}
+![导出场景文件 — 分层](exporting-scenes.resources/exporting-scenes-03.png "导出场景文件 — 分层"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: 使用图形实例和子图创建可重用的图形组件和模块化材质工作流。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 绘制实例和子图图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 绘制实例和子图图形
 
-![](graph-instances-sub-graphs.resources/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 图形实例是<b>引用其他图形</b>的节点。 宿主图中的实例子图引用的图形可以称为宿主图的<b>节点</b>。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 通过选择节点并使用上下文菜单中的“从所选对象创建图形”，可将节点快速拆分为新图形。 然后，系统会提示您设置新图形的标识符，该标识符应该是唯一的。
 
-请注意，如果所选节点已连接到图形中的其他节点，则您还应在新图形中创建[输入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点，以将这些连接传递到子图。
+请注意，如果所选节点已连接到图形中的其他节点，则您还应在新图形中创建[输入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点，以便将这些连接传递到子图。
 
 此外，用引用新图形的实例节点替换原始节点之后应手动完成。
 
@@ -62,18 +62,18 @@ ht-degree: 0%
 
 ### 是否可以检查图形实例的源图形？
 
-![（刻度）](graph-instances-sub-graphs.resources/check.svg)是，对于&#x200B;**Substance 3D文件(SBS)**&#x200B;中加载的图形实例&#x200B;*仅*。 这些实例节点具有&#x200B;*深红色*&#x200B;标签。\
+![（刻度）](graph-instances-sub-graphs.resources/check.svg)是，对于从&#x200B;**Substance 3D文件(SBS)**&#x200B;加载的图形实例，*仅*。 这些实例化具有&#x200B;*深红色*&#x200B;标签。\
 右键单击节点以打开其上下文菜单，然后选择&#x200B;**打开引用**&#x200B;选项。
 
 >[!NOTE]
 >
-> 检查源图表时，如果[首选项](../../../interface/preferences-window/preferences-window.md)的&#x200B;**图表**&#x200B;部分中的&#x200B;**In-context editing**&#x200B;选项为&#x200B;*已选中*，则可以使用实例图表的输入数据。
+> 检查源图形时，如果[首选项](../../../interface/preferences-window/preferences-window.md)的&#x200B;**图形**&#x200B;部分中的&#x200B;**In-context editing**&#x200B;选项为&#x200B;*已选中*，则可以使用实例图形的输入数据。
 
-![（减号）](graph-instances-sub-graphs.resources/forbidden.svg) *不能*&#x200B;检查从&#x200B;**Substance 3D资源(SBSAR)**&#x200B;实例加载的图形，因为这些图形已编译。 您只能在&#x200B;**资源管理器**&#x200B;面板中加载资源以检查显示的图形列表及其参数。 这些实例节点具有&#x200B;*绿色*&#x200B;标签。\
+![（减号）](graph-instances-sub-graphs.resources/forbidden.svg) *不能*&#x200B;检查从&#x200B;**Substance 3D资源(SBSAR)**&#x200B;图形加载的实例，因为这些实例已编译。 您只能在&#x200B;**资源管理器**&#x200B;面板中加载资源以检查公开的图形列表及其参数。 这些实例化具有&#x200B;*绿色*&#x200B;标签。\
 右键单击节点以打开其上下文菜单，然后选择&#x200B;**加载包**&#x200B;选项。
 
 >[!NOTE]
 >
 > **原子节点**
 > 
-> *原子*&#x200B;节点是通过在Substance引擎中的代码直接实现的，并且是图形的&#x200B;*非*&#x200B;实例，因此其名称为atomic：它们是[Substance图形](../../../compositing-graphs/substance-compositing-graphs.md)中&#x200B;*所有*&#x200B;其他节点的&#x200B;*最小构造块*。
+> *原子*&#x200B;节点是通过代码在引擎中直接实现的，并且是&#x200B;*不是*&#x200B;图形的实例，因此其名称为atomic：它们是[Substance图形](../../../compositing-graphs/substance-compositing-graphs.md)中&#x200B;*所有*&#x200B;其他节点的&#x200B;*最小构造块*。

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 > 
 > Iray渲染器以及所有相关功能已从Designer 16.0.0版中移除。
 > 
-> 在此处了解详情： [MDL图表和Iray生命周期结束](../../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
+> 在此处了解详情： [MDL 图和Iray生命周期结束](../../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray徽标](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray徽标](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![使用Iray渲染的中世纪城堡墙材料](iray.resources/iray-overview.png "使用Iray渲染的中世纪城堡墙材料")
+![使用Iray渲染的中世纪城堡墙材料](iray.resources/iray-02.png "使用Iray渲染的中世纪城堡墙材料")
 
 *材质：[中世纪城堡](https://oggyart.artstation.com/projects/Xnzx0a)**，作者[Mark Foreman](https://www.artstation.com/oggyart)**，可在我们的[Substance 3D资源](https://substance3d.adobe.com/assets)**库*&#x200B;中使用
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 > 在渲染之前和期间，细分网格&#x200B;*会以指数方式增加其处理时间*。 我们建议在输入值时保持&#x200B;*保守*。\
 > 请注意在Parameter方法中使用&#x200B;*高* **数字**&#x200B;值，在Length方法中使用&#x200B;*低* **最小长度**&#x200B;值。
 
-![场景选项](iray.resources/iray-scene-subdivision.gif "场景选项")
+![场景选项](iray.resources/iray-03.gif "场景选项")
 
 <a name="materials"></a>
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 由于Iray依赖于NVIDIA开发的[MDL着色模型](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/)，因此可用于场景素材的素材将替换为Designer加载的MDL库。 此库使用以下源生成：
 
 * Designer安装中包含的MDL文件
-* 在加载的[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中由用户[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)列出的目录中找到了MDL文件
+* 在加载的[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中由用户](../../../interface/preferences-window/project-settings/project-settings.md)列出的[目录中找到了MDL文件
 * [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials)库（如果已安装）
 
 >[!NOTE]
@@ -137,7 +137,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![材质菜单](iray.resources/iray-mdl-list.png "材质菜单")
+![材质菜单](iray.resources/iray-04.png "材质菜单")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ ht-degree: 1%
 * <b>焦距</b>：离焦点的相机的距离 — 即图像最清晰的地方
 * <b>光圈直径</b>：驱动相机光圈的值。 此值越低，图像元素在焦点之前和之后就越锐利 — 用更简单的术语来说，此值控制场效果深度的强度
 
-![相机设置](iray.resources/camera-dof.png "相机设置")
+![相机设置](iray.resources/iray-05.png "相机设置")
 
 <a name="environment"></a>
 
@@ -205,11 +205,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-environment-hidden.png" alt="Iray — 环境隐藏">
+      <img src="iray.resources/iray-06.png" alt="Iray — 环境隐藏">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-env-visible.png" alt="Iray — 环境可见">
+      <img src="iray.resources/iray-07.png" alt="Iray — 环境可见">
       <br><i>之后</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ ht-degree: 1%
 
 
 
-![Iray — 环境隐藏](iray.resources/iray-environment-hidden.png "Iray — 环境隐藏")
+![Iray — 环境隐藏](iray.resources/iray-06.png "Iray — 环境隐藏")
 
-![Iray — 环境可见](iray.resources/iray-env-visible.png "Iray — 环境可见")
+![Iray — 环境可见](iray.resources/iray-07.png "Iray — 环境可见")
 
 +++
 
@@ -229,11 +229,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iray — 仅限无限球体">
+      <img src="iray.resources/iray-08.png" alt="Iray — 仅限无限球体">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray — 无限带地面的球体平面">
+      <img src="iray.resources/iray-09.png" alt="Iray — 无限带地面的球体平面">
       <br><i>之后</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ ht-degree: 1%
 
 
 
-![Iray — 仅限无限球体](iray.resources/iray-env-infinite-sphere.png "Iray — 仅限无限球体")
+![Iray — 仅限无限球体](iray.resources/iray-08.png "Iray — 仅限无限球体")
 
-![Iray — 无限带地面的球体平面](iray.resources/iray-env-sphere-ground.png "Iray — 无限带地面的球体平面")
+![Iray — 无限带地面的球体平面](iray.resources/iray-09.png "Iray — 无限带地面的球体平面")
 
 +++
 
 +++旋转环境
-![旋转环境](iray.resources/iray-env-rotation.gif "旋转环境")
+![旋转环境](iray.resources/iray-10.gif "旋转环境")
 
 
 
 +++
 
 +++调整地面平面
-![地面反射](iray.resources/iray-env-ground-options.gif "地面反射")
+![地面反射](iray.resources/iray-11.gif "地面反射")
 
 
 
 +++
 
 +++调整无限球体
-![环境缩放（球体）](iray.resources/iray-env-sphere-radius.gif "环境缩放（球体）")
+![环境缩放（球体）](iray.resources/iray-12.gif "环境缩放（球体）")
 
 
 
 +++
 
 +++调整封闭框
-![环境缩放（多维数据集）](iray.resources/iray-env-box-dimensions.gif "环境缩放（多维数据集）")
+![环境缩放（多维数据集）](iray.resources/iray-13.gif "环境缩放（多维数据集）")
 
 
 
@@ -287,7 +287,7 @@ ht-degree: 1%
 * <b>分辨率</b>：有效的渲染分辨率。 如果相机属性中的“使用窗口分辨率”选项设置为“假”，则会自动调整图像的比例以匹配分辨率比例
 * <b>场景统计信息</b>：与呈现的场景相关的统计信息列表，其中包括三角形计数和材料计数以及其他数据
 
-![显示选项](iray.resources/iray-display-data.png "显示选项"){width="512px"}
+![显示选项](iray.resources/iray-14.png "显示选项"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -300,13 +300,13 @@ ht-degree: 1%
 * <b>最小采样数</b>：在考虑停止逐行渲染的条件之前，要计算的每个像素的最小采样数
 * <b>最大采样数</b>：如果已经渲染了每个像素的此样本数，则自动停止逐行渲染
 * <b>最大时间（秒）</b>：渐进渲染应在秒后自动终止
-* <b>已启用焦散取样器</b>：通过专用焦散取样器增加默认取样器。 焦散线是光线穿过不透明对象的结果，因此仅当将支持半透明的[MDL](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)材质应用于场景中的任何对象时才需要
+* <b>已启用焦散取样器</b>：通过专用焦散取样器增加默认取样器。 焦散线是光线通过不透明对象的结果，因此只有在场景中的任何对象上应用了[MDL](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)材料支持translucency时才需要
 * <b>已启用Firefly滤镜</b>：启用萤火虫滤镜，该滤镜使用预定义的算法，在渲染过程中移除计算图像中的萤火虫。 Firefly是视觉伪影，图像中的&#x200B;*孤立像素*&#x200B;比其相邻像素明显亮&#x200B;**，并且是光线样本不足，无法准确确定光线分布的结果
 * 帖子降噪器\
   Iray渲染器使用[NVIDIA Optix AI-Accelerated Denoiser](https://developer.nvidia.com/optix-denoiser)算法对正在渲染的图像进行迭代的高质量去噪。
 
-  * <b>已启用</b>：使预定义的&#x200B;*降噪算法*&#x200B;能够在设置的渲染迭代中触发，并在渲染的&#x200B;*结束*&#x200B;之前处于活动状态
-  * <b>开始迭代</b>：如果启用降噪器，则此选项设置降噪过程开始时的迭代。 这可以防止降噪器的性能开销影响交互性，例如，在移动摄像机时。 此外，由于迭代收敛性不强，前几代迭代往往不适合作为降噪器的输入，导致结果不理想。
+  * <b>已启用</b>：允许在设置的渲染迭代触发预定义的&#x200B;*降噪算法*，并在渲染的&#x200B;*末尾*&#x200B;之前保持活动状态
+  * <b>启动迭代</b>：如果启用降噪器，则此选项会设置降噪过程开始的迭代。 这可以防止降噪器的性能开销影响交互性，例如在移动相机时。 此外，由于前几个迭代的收敛性不强，往往不适合作为降噪器的输入，导致效果不理想。
 
 以下图像比较演示了其中一些设置的影响：
 
@@ -316,11 +316,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-none.png" alt="图像 — 基本渲染">
+      <img src="iray.resources/iray-15.png" alt="Iray — 基本渲染">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray — 已启用焦散取样器">
+      <img src="iray.resources/iray-16.png" alt="Iray — 焦散取样器已启用">
       <br><i>之后</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ ht-degree: 1%
 
 
 
-![Iray — 基本渲染](iray.resources/iray-renderer-none.png "Iray — 基本渲染")
+![Iray — 基本渲染](iray.resources/iray-15.png "Iray — 基本渲染")
 
-![Iray — 焦散取样器已启用](iray.resources/iray-renderer-caustics.png "Iray — 焦散取样器已启用")
+![Iray — 焦散取样器已启用](iray.resources/iray-16.png "Iray — 焦散取样器已启用")
 
 +++
 
@@ -340,11 +340,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray — 已禁用Firefly过滤器">
+      <img src="iray.resources/iray-16.png" alt="Iray — 已禁用Firefly过滤器">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray — 已启用Firefly过滤器">
+      <img src="iray.resources/iray-17.png" alt="Iray — 已启用Firefly过滤器">
       <br><i>之后</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ ht-degree: 1%
 
 
 
-![Iray — 已禁用Firefly筛选器](iray.resources/iray-renderer-caustics.png "Iray — 已禁用Firefly筛选器")
+![Iray — 已禁用Firefly筛选器](iray.resources/iray-16.png "Iray — 已禁用Firefly筛选器")
 
-![Iray — 已启用Firefly筛选器](iray.resources/iray-renderer-caustics-fireflies.png "Iray — 已启用Firefly筛选器")
+![Iray — 已启用Firefly筛选器](iray.resources/iray-17.png "Iray — 已启用Firefly筛选器")
 
 +++
 
@@ -364,11 +364,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray — 禁用降噪后功能">
+      <img src="iray.resources/iray-17.png" alt="Iray — 禁用降噪后功能">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray — 启用后降噪器">
+      <img src="iray.resources/iray-18.png" alt="Iray — 启用后降噪器">
       <br><i>之后</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ ht-degree: 1%
 
 
 
-![Iray — 禁用后降噪器](iray.resources/iray-renderer-caustics-fireflies.png "Iray — 禁用后降噪器")
+![Iray — 禁用后降噪器](iray.resources/iray-17.png "Iray — 禁用后降噪器")
 
-![Iray — 启用后降噪器](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray — 启用后降噪器")
+![Iray — 启用后降噪器](iray.resources/iray-18.png "Iray — 启用后降噪器")
 
 +++
 
@@ -404,4 +404,4 @@ Iray渲染器专门在NVIDIA GPU上提供硬件加速，具有下列优势：
 > GPU硬件加速使用[NVIDIA CUDA](https://developer.nvidia.com/cuda-zone)技术。 确保您的&#x200B;*图形驱动程序是最新的*，以实现最佳兼容性和可靠性。 在[此处](https://www.nvidia.com/Download/index.aspx?lang=en-us)查找您的NVIDIA GPU的最新驱动程序。\
 > 对于多GPU配置，建议&#x200B;*禁用SLI*，并仅选择一个GPU以获得最佳可靠性。
 
-![Iray首选项](iray.resources/iray-preferences-hardware.png "Iray首选项")
+![Iray首选项](iray.resources/iray-19.png "Iray首选项")

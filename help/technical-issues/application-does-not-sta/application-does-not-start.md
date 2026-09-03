@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: 解决阻止Substance 3D Designer启动的问题，并找到启动该应用程序的解决方案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 应用程序不启动
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -111,7 +111,7 @@ LD_PRELOAD=./plugins/pythonsdk/lib/python3.11/lib-dynload/libffi.so.6 %command%
 
 完成此操作后，Designer可能会在Steam中正常启动，以供将来所有会话使用。
 
-![蒸汽启动选项](application-does-not-start.resources/steam_linux_launch_option.jpg "蒸汽启动选项")
+![蒸汽启动选项](application-does-not-start.resources/application-does-not-start-01.jpg "蒸汽启动选项")
 
 
 

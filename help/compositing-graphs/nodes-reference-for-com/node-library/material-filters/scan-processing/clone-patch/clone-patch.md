@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
 description: 使用“仿制修补”节点可以克隆和修补扫描材料中的区域，以移除伪影和瑕疵。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 克隆修补程序
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -18,15 +18,15 @@ ht-degree: 3%
 ---
 
 
-# 克隆修补程序
+# 仿制修补程序
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-patch.resources/clone-patch.png){width="128px"}
+![](clone-patch.resources/clone-patch-01.png){width="128px"}
 
-![](clone-patch.resources/clone-patch-grayscale.png){width="128px"}
+![](clone-patch.resources/clone-patch-02.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

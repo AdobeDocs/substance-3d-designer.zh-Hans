@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: 使用“横截面”节点可根据用于剪切和切片效果的Height图创建横截面蒙版。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 横截面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![“横截面”节点图标](cross-section.resources/cross-section-2.png "“横截面”节点图标"){width="200px"}
+![“横截面”节点图标](cross-section.resources/cross-section-01.png "“横截面”节点图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -50,10 +50,10 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>横截面坐标</b> *浮动* | 设置对切片采样的坐标。 取决于“截面轴”，可以是X或Y坐标。 |
-| <b>节轴</b> *整数* | 设置切片是垂直还是水平。 |
-| <b>显示帮助程序</b> *布尔值* | 启用叠加以在输入图像上显示部分的位置。 |
+| <b>分区轴</b> *整数* | 设置切片是垂直还是水平。 |
+| <b>显示助手</b> *布尔值* | 启用叠加以显示截面在输入图像上的位置。 |
 | <b>助手设置</b> |  |
-| <b>帮助器缩放</b> *浮动* | 以倍数表示的叠加大小，其中1.0表示整个图像。 |
+| <b>助手缩放</b> *浮动* | 以倍数表示的叠加大小，其中1.0表示整个图像。 |
 | <b>助手位置</b> *浮点2* | 叠加在输出图像中的(X， Y)位置，其中(0.0， 0.0)是左上角，(1.0， 1.0)是右下角。 |
 | <b>Height缩放</b> *浮动* | 缩小整个图表。 适用于HDR查看。 |
 | <b>Height偏移</b> *浮动* | 向上或向下移动整个图表。 适用于HDR查看。 |
@@ -69,10 +69,10 @@ ht-degree: 0%
 
 ## 示例
 
-![横截面：示例1](cross-section.resources/cross-section-example-01.gif "横截面：示例1")
+![横截面：示例1](cross-section.resources/cross-section-02.gif "横截面：示例1")
 
-![横截面：示例2](cross-section.resources/cross-section-example-02.gif "横截面：示例2")
+![横截面：示例2](cross-section.resources/cross-section-03.gif "横截面：示例2")
 
-![横截面：示例3](cross-section.resources/cross-section-example-03.png "横截面：示例3")
+![横截面：示例3](cross-section.resources/cross-section-04.png "横截面：示例3")
 
-![横截面：示例4](cross-section.resources/cross-section-example-04.png "横截面：示例4")
+![横截面：示例4](cross-section.resources/cross-section-05.png "横截面：示例4")

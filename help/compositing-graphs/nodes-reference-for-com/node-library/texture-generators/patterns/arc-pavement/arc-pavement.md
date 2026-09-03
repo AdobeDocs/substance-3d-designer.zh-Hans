@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
 breadcrumb-title: ''
-description: 使用“弧形路面”节点生成弧形路面图案，用于创建弯曲的道路和路径纹理。
+description: 使用弧形路面节点生成弧形路面图案，用于创建弯曲的道路和路径纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 弧形路面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,9 +24,9 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](arc-pavement.resources/arcpavement-ex.png)
+![](arc-pavement.resources/arc-pavement-01.png)
 
-<b>英寸：</b>纹理生成器>图案
+<b>进入：</b>纹理生成器>图案
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,10 +46,10 @@ ht-degree: 11%
 |  |  |
 |:---|:---|
 | <b>缩放</b> <i>1 - 8</i> | 设置全局缩放/拼贴。 |
-| <b>图案数量</b> <i>1 - 32</i> | 设置每条弧线中使用的砖块数量。 |
-| <b>图案数量随机</b> <i>0.0 - 1.0</i> | 随机选择每条弧线中的砖块数量。 具有赋予砖块不同比例的附加效果。 |
+| <b>图案数量</b> <i>1 - 32</i> | 设置每条弧线中使用的砖块量。 |
+| <b>图案数量随机</b> <i>0.0 - 1.0</i> | 将每条弧线中的砖块量随机分布。 具有赋予砖块不同比例的附加效果。 |
 | <b>图案最小数量</b> <i>1 - 10</i> | 在随机弧线时控制砖块的最小数量。 |
-| <b>弧线数量</b> <i>0 - 20</i> | 设置垂直栈叠的弧线数量。 更改程序块Height。 |
+| <b>弧线数量</b> <i>0 - 20</i> | 设置垂直栈叠的弧线数量。 更改Height。 |
 | <b>图案</b> <i>输入图像，方形，磁盘，抛物面，铃声，高斯，荆棘，金字塔，砖块，层次，波浪，半圆，脊状的圆，新月，胶囊体，锥形</i> | 选择要使用的图案形状。 |
 | <b>输入图像的筛选</b> <i>双线性+ Mipmaps，双线性，最接近</i> |  |
 | <b>图案缩放</b> <i>0.0 - 1.0</i> | 设置每个拼贴的缩放比例。 |
@@ -67,7 +67,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="arc-pavement.resources/arcpavement-ex.png" />
+            <img src="arc-pavement.resources/arc-pavement-01.png" />
         </td>
     </tr>
 </table>

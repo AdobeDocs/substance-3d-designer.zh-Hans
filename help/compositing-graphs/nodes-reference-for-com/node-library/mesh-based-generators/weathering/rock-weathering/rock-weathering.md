@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: 使用岩石风化节点，根据网格几何形状在岩石表面生成风化图案，以实现逼真的侵蚀效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 岩石风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>风化
 
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-ex.gif" />
+            <img src="rock-weathering.resources/rock-weathering-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
 breadcrumb-title: ''
 description: 使用Edge Wear节点在网格边缘生成磨损蒙版，以创建逼真的边缘损坏和风化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-wear.resources/edge-wear.png){width="128px"}
+![](edge-wear.resources/edge-wear-01.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -60,14 +60,14 @@ ht-degree: 7%
 | <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
 | <b>阈值</b> <i>0.0 - 1.0</i> | 与级别类似，可设置效果的总分布。 |
 | <b>边缘宽度</b> <i>0.0 - 1.0</i> | 设置加亮效果的饱满度。 减少以使它们更稀疏。 |
-| <b>无序</b> <i>0.0 - 1.0</i> | 设置要混合以分解Smoothness的噪声量。 |
+| <b>无序</b> <i>0.0 - 1.0</i> | 设置要混合以分解Smoothness的杂色量。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-wear.resources/edge-wear-ex.gif" />
+            <img src="edge-wear.resources/edge-wear-02.gif" />
         </td>
     </tr>
 </table>

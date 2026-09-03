@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer函数图表中创建自定义变量以获取可重用的值和参数。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 创建变量
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -27,9 +27,9 @@ Substance 3D Designer中有多种创建变量的方法：
 
 ## 使用输入参数
 
-创建输入参数时，将创建变量并将其与它关联。 然后可以在图形的任何函数中重用此变量。
+创建输入参数时，将创建变量并将其与变量相关联。 然后可以在图形的任何函数中重用此变量。
 
-因此，一个曝光参数可能影响图表的多个部分。
+因此，单个公开参数可能会影响图形的多个部分。
 
 ## 使用Set节点
 
@@ -54,14 +54,14 @@ Substance 3D Designer中有多种创建变量的方法：
 * 将Set节点链接到序列节点的“In”输入。
 * 将序列设置为输出节点
 
-完成此操作后，该变量将可在同一节点的其他函数图中使用。
+完成此操作后，该变量将在同一节点的其他函数图形中可用。
 
 >[!WARNING]
 >
-> 当节点由Substance Engine处理时，其参数（以及可以控制它们的函数）从上到下读取。 因此， Set节点只能通过节点参数栈栈中位于它下面的参数来访问。
+> 在Substance引擎处理节点时，其参数（以及可以控制它们的函数）从上到下读取。 因此，只能通过node parameters堆叠中位于它下面的参数来访问Set节点。
 
 >[!NOTE]
 >
 > 如果要创建多个变量，只需重复&#x200B;*Set*&#x200B;和&#x200B;*Sequence*&#x200B;节点创建操作，并将最后一个序列节点设置为输出节点：
 > 
-> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图形中的常量节点以定义常量值和参数。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 常数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数类型图标](constant-nodes.resources/fn-constant-integer.png "整数类型图标")
+![整数类型图标](constant-nodes.resources/constant-nodes-01.png "整数类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数2类型图标](constant-nodes.resources/fn-constant-integer2.png "整数2类型图标")
+![整数2类型图标](constant-nodes.resources/constant-nodes-02.png "整数2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2节点生成带有(X， Y)分量的静态2分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数3类型图标](constant-nodes.resources/fn-constant-integer3.png "整数3类型图标")
+![整数3类型图标](constant-nodes.resources/constant-nodes-03.png "整数3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer3节点生成带有(X、Y、Z)分量的静态3分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数4类型图标](constant-nodes.resources/fn-constant-integer4.png "整数4类型图标")
+![整数4类型图标](constant-nodes.resources/constant-nodes-04.png "整数4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮点类型图标](constant-nodes.resources/fn-constant-float.png "浮点类型图标")
+![浮点类型图标](constant-nodes.resources/constant-nodes-05.png "浮点类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ float具有单个组件，为了简洁起见，名称中省略了(1)。 float非
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2类型图标](constant-nodes.resources/fn-constant-float2.png "Float2类型图标")
+![Float2类型图标](constant-nodes.resources/constant-nodes-06.png "Float2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ float2节点生成静态2分量Float向量。 组件命名为X、Y。Float2非�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3类型图标](constant-nodes.resources/fn-constant-float3.png "Float3类型图标")
+![Float3类型图标](constant-nodes.resources/constant-nodes-07.png "Float3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ float3节点生成静态3分量Float向量。 组件名为X、Y、Z。Float3不�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4类型图标](constant-nodes.resources/fn-constant-float4.png "Float4类型图标")
+![Float4类型图标](constant-nodes.resources/constant-nodes-08.png "Float4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,14 +197,14 @@ Substance函数图形内存在另外两种数据类型：布尔值和字符串�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布尔型图标](constant-nodes.resources/fn-constant-boolean.png "布尔型图标")
+![布尔型图标](constant-nodes.resources/constant-nodes-09.png "布尔型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>布尔值</b>
 
-布尔型是最简单的数据类型，只知道两种状态：True或False、1或0。 它用白色表示。 如果不使用[转换](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用[逻辑节点](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md)，则无法在布尔值和整数之间进行交换。 布尔非常常见，它是控制函数或图形流量的绝佳方法，典型用法是[切换节点。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+布尔值是最简单的数据类型，只知道两种状态：True或False、1或0。 它用白色表示。 如果没有[强制转换](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用[逻辑整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md)，则无法在布尔值和节点之间进行交换。 布尔非常常见，它是控制函数或图形流量的绝佳方法，典型用法是[切换节点。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>
@@ -214,14 +214,14 @@ Substance函数图形内存在另外两种数据类型：布尔值和字符串�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![字符串类型图标](constant-nodes.resources/fn-constant-string.png "字符串类型图标")
+![字符串类型图标](constant-nodes.resources/constant-nodes-10.png "字符串类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>字符串</b>
 
-字符串节点生成静态字符串（一段文本）。 它是Function中可用的最独特的数据类型，通常不能与其他Function节点结合使用。 其主要目标是作为[文本节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)的最终输出运行。
+字符串节点生成静态字符串（一段文本）。 它是函数中可用的最奇特的数据类型，通常不能与其他函数节点结合使用。 其主要目标是作为[文本节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)的最终输出运行。
 
 </td>
 </tr>

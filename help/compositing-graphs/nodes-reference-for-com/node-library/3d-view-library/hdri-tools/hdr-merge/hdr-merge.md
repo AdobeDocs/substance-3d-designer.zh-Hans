@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
-description: 使用HDR合并节点将多个HDR图像合并到单个全景图中，以创建复合环境映射。
+description: 使用HDR合并节点可以将多个HDR图像合并到单个全景图中，以创建复合环境图。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > HDR Merge
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HDR 合并
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](hdr-merge.resources/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge-01.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 
@@ -33,7 +33,7 @@ ht-degree: 13%
 
 ## 描述
 
-合并多个摄影曝光以创建高动态范围图像。 第一个输入是曝光最不足的图像。
+合并多个摄影曝光以创建高动态范围图像。 第一个输入是公开最不足的图像。
 
 </td>
 </tr>
