@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![孔雀石MDL材料](mdl-graphs.resources/mdl-graphs-01.jpg "孔雀石MDL材料")
 
-*带有Chrysocolla的Malachite，由[Mark Foreman](https://www.artstation.com/oggyart)**提供的MDL材料，可在我们的[旧版Substance share](https://share-legacy.substance3d.com/libraries/4043)**平台*&#x200B;上使用
+*带有Chrysocolla的Malachite，由[Mark Foreman](https://www.artstation.com/oggyart)**提供的MDL材料，可在我们的[旧版Substance share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台*&#x200B;上使用
 
 >[!WARNING]
 > 

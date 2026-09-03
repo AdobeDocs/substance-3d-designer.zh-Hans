@@ -28,13 +28,13 @@ ht-degree: 0%
 
 [2D 视图](../../../interface/2d-view/2d-view.md)面板提供了基本的位图绘画工具，您可以直接在应用程序中&#x200B;*手动*&#x200B;创建或编辑图像。 例如，这些工具对于快速绘制&#x200B;*蒙版*&#x200B;特别有用。
 
-这些工具支持笔输入，包括&#x200B;*笔压力*。 要利用笔显示功能，您可以[取消停靠](../../../interface/customizing-your-wor/customizing-your-workspace.md)[2D 视图](../../../interface/2d-view/2d-view.md)面板，然后将其放置并调整到更适合绘画的任何配置中。
+这些工具支持笔输入，包括&#x200B;*笔压力*。 要利用笔显示功能，您可以[取消停靠](../../../interface/customizing-your-wor/customizing-your-workspace.md) [2D 视图](../../../interface/2d-view/2d-view.md)面板，然后将其放置并调整到更适合绘画的任何配置中。
 
 编辑操作可以&#x200B;*逐个撤消*，并且您仍然可以在编辑图像时&#x200B;*使用* 2D 视图面板的所有其他功能，例如[直方图](../../../interface/2d-view/2d-view.md)面板、[拼贴显示](../../../interface/2d-view/2d-view.md)和[背景图像](../../../interface/2d-view/2d-view.md)。
 
 >[!IMPORTANT]
 >
-> 您只能&#x200B;*在* 8位&#x200B;*[位图资源](../../../resources/bitmap-resource/bitmap-resource.md)上绘画* 1}，这些位图资源是[新的或导入的](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)。
+> 您只能&#x200B;*在* 8位&#x200B;*[位图资源](../../../resources/bitmap-resource/bitmap-resource.md)上绘画* 1&rbrace;，这些位图资源是[新的或导入的](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)。
 
 >[!WARNING]
 >

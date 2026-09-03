@@ -130,18 +130,18 @@ ht-degree: 1%
 * [Substance模型]改进基数的显示方式
 * [Substance模型]将Substance模型图形导出为.fbx时保留对象的层次结构
 * [Substance模型]支持从Substance模型图表以FBX/OBJ方式导出多种材质
-* [Substance模型][内容]粒子节点
-* [Substance模型][内容]生成式转换节点
-* [Substance模型][内容]有机图案节点
-* [Substance模型][内容] Instances节点的粒子
+* [Substance模型]&#x200B;[内容]粒子节点
+* [Substance模型]&#x200B;[内容]生成式转换节点
+* [Substance模型]&#x200B;[内容]有机图案节点
+* [Substance模型]&#x200B;[内容] Instances节点的粒子
 * [Substance模型] [内容]粒子剪枝节点
-* [Substance模型][内容]车床节点
-* [Substance模型][内容] Shell节点
-* [Substance模型][内容]投影节点
-* [Substance模型][内容]曲线修剪节点
-* [Substance模型][内容]更新曲线Sampler节点
-* [Substance模型][内容]更新网格Sampler节点
-* [Substance模型][内容]更新抖动节点
+* [Substance模型]&#x200B;[内容]车床节点
+* [Substance模型]&#x200B;[内容] Shell节点
+* [Substance模型]&#x200B;[内容]投影节点
+* [Substance模型]&#x200B;[内容]曲线修剪节点
+* [Substance模型]&#x200B;[内容]更新曲线Sampler节点
+* [Substance模型]&#x200B;[内容]更新网格Sampler节点
+* [Substance模型]&#x200B;[内容]更新抖动节点
 * [UX]用于最大化当前视图的按钮
 * [UX]更新“新建图形”窗口
 * [UX]在“工具”菜单中添加“下载播放器”选项，然后与“定位播放器”聚合
@@ -179,7 +179,7 @@ ht-degree: 1%
 * [UI]必须按两次Tab键才能在值之间导航
 * [UI]使用鼠标拖动进行缩放时，3D 视图和其他视口之间的缩放比例会发生反转
 * [UI]使用“最近打开的文件”列表加载已打开的SBS时，错误地触发“未找到包”提示
-* [UI][macOS]启动应用程序后的默认界面布局不正确
+* [UI]&#x200B;[macOS]启动应用程序后的默认界面布局不正确
 * [UI]包无法保存到驱动器的根目录（仅限Windows）
 * [图形]在特定情况下，“在2D视图中自动显示”选项不一致
 * [图形] “打开引用”选项适用于SBSAR实例化

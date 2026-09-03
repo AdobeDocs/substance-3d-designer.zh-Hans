@@ -39,7 +39,7 @@ ht-degree: 2%
 
 此外，其他节点以特定的方式处理它们：
 
-如果将“值”连接插入输出节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)，则输出节点[会自动调整为值输出，就像之前使用“灰度”和“颜色”时一样。
+如果将“值”连接插入输出节点[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)，则输出节点会自动调整为值输出，就像之前使用“灰度”和“颜色”时一样。
 
 ![输出值节点](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-03.gif "输出值节点"){width="512px"}
 

@@ -183,7 +183,7 @@ ht-degree: 0%
 
 您可以使用<b>UV</b>按钮启用它。![](2d-view.resources/2d-view-24.png)
 
-这样会将当前在3D视图](../../interface/3d-view/3d-view.md)中选定的网格[的UV显示为彩色线框。
+这样会将当前在3D视图[&#128279;](../../interface/3d-view/3d-view.md)中选定的网格的UV显示为彩色线框。
 
 如果素材颜色信息在网格文件中可用，则素材颜色将用作UV叠加的颜色。
 

@@ -35,7 +35,7 @@ ht-degree: 6%
 
 使用基于图像的光照(IBL)将PBR素材渲染到球体、平面或圆柱体上。这是节点内的渲染引擎，对于生成缩览图、预览或2D资源非常有用。 它不是如3D视图那样进行渲染，而是图形中生成的实际纹理。
 
-此节点要求至少插入一个完整的PBR材料。 理想情况下，可使用“链接创建模式”将材料连接到PBR 渲染。 此外，您还需要一个球面展开的HDRI环境，以便渲染从中计算光照。 可以在PBR Materials下找到用于测试的材质，也可以在库中的[ 3D View下找到环境地图。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+此节点要求至少插入一个完整的PBR材料。 理想情况下，可使用“链接创建模式”将材料连接到PBR 渲染。 此外，您还需要一个球面展开的HDRI环境，以便渲染从中计算光照。 可以在PBR Materials下找到用于测试的材质，也可以在库中的[&#x200B; 3D View下找到环境地图。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
