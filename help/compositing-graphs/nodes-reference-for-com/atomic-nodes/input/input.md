@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
+> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
 
 ## 集成属性
 
