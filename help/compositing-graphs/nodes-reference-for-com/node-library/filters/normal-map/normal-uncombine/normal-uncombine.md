@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
 description: 使用“正常取消组合”节点将组合法线图数据拆分为单独的X、Y和Z组件。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 正常取消合并
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '213'
+ht-degree: 2%
 
 ---
 
@@ -39,44 +39,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>正常合并</b> *颜色*&#x200B;主要 | 应从中删除详细信息的法线图。 |
-| <b>Height</b> *灰度* | 表示应从组合法线图中移除的曲面细节的高度图。 |
+|:---|:---|
+| <b>正常合并</b> <i>颜色</i>主要 | 应从中删除详细信息的法线图。 |
+| <b>Height</b> <i>灰度</i> | 表示应从组合法线图中移除的曲面细节的高度图。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>未组合的普通</b> *颜色* | 删除由输入高度图描述的曲面细节的法线图。 |
-| <b>猜测的强度</b> *Float* | 强度估计，为了匹配输入高度图的强度，应将其设置为与输入法线图连接的[正常](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)节点。 |
+|:---|:---|
+| <b>未组合的普通</b> <i>颜色</i> | 删除由输入高度图描述的曲面细节的法线图。 |
+| <b>猜测的强度</b> <i>Float</i> | 强度估计，为了匹配输入高度图的强度，应将其设置为与输入法线图连接的[正常](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)节点。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>正常格式</b> *整数* | 输入法线图的格式。 有效地反转绿色通道。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b> Y轴指向</li> <li data-preserve-html="true"><b>OpenGL：</b> Y轴点向下</li> </ul> |
 
 ## 示例

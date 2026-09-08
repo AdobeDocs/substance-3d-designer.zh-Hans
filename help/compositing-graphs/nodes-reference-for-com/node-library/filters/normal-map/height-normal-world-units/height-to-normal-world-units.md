@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
 description: 使用“Height到正常世界单位”节点，可使用世界单位缩放将高度图转换为法线图，以便获得准确的细节。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 正常世界单位的Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/normal-hq.png){width="128px"}
 
-## 正常世界单位的Height
-
-**范围：** *筛选器/法线图*
-
-**简单**
+<b>在</b>个筛选器中>法线图
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,20 +37,17 @@ ht-degree: 1%
 
 当您知道源高度图的尺寸并希望执行最精确的转换时（例如，在处理扫描的材料时），此功能非常有用。
 
-## 参数
-
-* **表面大小(cm)**： *0.0 - 1000.0*&#x200B;输入Heightmap的Dimension。
-* **深度(cm)**： *0.0 - 100.0* Heightmap详细信息的最大深度。
-* **普通格式**： *OpenGL，DirectX*\
-  在不同正常映射格式之间切换（反转绿色通道）。
-* **采样**： *标准，Sobel*&#x200B;在两个采样模式之间切换以确定精度。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>表面大小（厘米）</b> <i>0.0 - 1000.0</i> | 输入高度映射的Dimension。 |
+| <b>深度（厘米）</b> <i>0.0 - 100.0</i> | Heightmap详细信息的最大深度。 |
+| <b>正常格式</b> <i>OpenGL，DirectX</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
+| <b>取样</b> <i>标准， Sobel</i> | 在两个采样模式之间切换以确定精度。 |

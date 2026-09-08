@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: 使用“法向混合”节点将法线图混合在一起，以便在表面细节之间创建平滑的过渡。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 正常混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/normal-blend.png){width="128px"}
 
-## 正常混合
-
-**范围：** *筛选器/法线图*
-
-**中级**
+<b>在</b>个筛选器中>法线图
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,30 +37,35 @@ ht-degree: 2%
 
 普通混合不适用于组合（叠加）正常映射，后者顶部映射将细节添加到底部映射。 为此，请改用[普通合并](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)。
 
-## 参数
-
-### 输入
-
-* **NormalFG**： *颜色输入*\
-  前景/顶部正常映射。
-* **NormalBG**： *颜色输入*\
-  背景/底部正常映射。
-* **蒙版**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。 可以使用“使用蒙版”参数切换。
-
-### 参数
-
-* **不透明度**： *0.0 - 1.0*\
-  在前景和背景之间混合不透明度
-* **使用蒙版**： *False/True*\
-  启用或禁用蒙版图。
-
-## 示例图像
-
-![](../../../../../../assets/normalblend-ex.gif)
-
-*（.gif格式在示例中引入了仿色，应用程序内结果平滑）*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>NormalFG</b> <i>颜色输入</i> | 前景/顶部正常映射。 |
+| <b>NormalBG</b> <i>颜色输入</i> | 背景/底部正常映射。 |
+| <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“使用蒙版”参数切换。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度 |
+| <b>使用蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>（.gif格式在示例中引入了仿色，应用程序内结果平滑）</i>
+        </td>
+    </tr>
 </table>
