@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
-description: 使用“渐变映射”节点，通过渐变渐变渐变将灰度值映射到颜色以实现着色和效果。
+description: 使用渐变图节点可通过渐变渐变将灰度值映射到颜色以实现着色和效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变映射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：渐变映射](../../../../assets/comp_gradient_1.png "原子节点：渐变映射"){width="200px"}
+![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,24 +71,24 @@ ht-degree: 2%
 
 ## 渐变编辑器
 
-此窗口提供控件，可用于编辑渐变映射节点用于将灰度值映射到颜色的参考渐变。
+此窗口提供控件，可用于编辑渐变图节点用于将灰度值映射到颜色的参考渐变。
 
-可以通过以下方式从渐变映射节点的<b>属性</b>中打开它：
+可以通过以下方式从渐变图节点的<b>属性</b>中打开它：
 
 * 单击<b>渐变编辑器</b>按钮上的LMB；
-* 双击渐变栏中某个图钉上的LMB 。 然后，将在“渐变编辑器”中自动选择单击的图钉，以便您可以直接编辑其值。
+* 双击渐变栏中大头针上的LMB。 然后，将在“渐变编辑器”中自动选择所单击的大头针，以便您可以直接编辑其值。
 
-![渐变编辑器](../../../../assets/image2017-2-17-16-13-5.png "渐变编辑器")
+![渐变编辑器](gradient-map.resources/image2017-2-17-16-13-5.png "渐变编辑器")
 
-### 编辑渐变图钉
+### 编辑渐变大头针
 
-颜色及其沿渐变的位置由渐变条上放置的图钉控制。
+渐变中的颜色及其位置由渐变条沿线放置的大头针控制。
 
-每个图钉都将在其渐变上的位置设置颜色。
+每个大头针都会在其渐变上的位置设置一种颜色。
 
 将第一个和最后一个图钉前后的渐变部分分别设置为这些图钉的颜色。
 
-![渐变编辑器 — 渐变视图](../../../../assets/image2017-2-17-17-27-46.png "渐变编辑器 — 渐变视图")
+![渐变编辑器 — 渐变视图](gradient-map.resources/image2017-2-17-17-27-46.png "渐变编辑器 — 渐变视图")
 
 下列控件可用于编辑图钉：
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 添加pin](../../../../assets/move-pin.gif "渐变编辑器 — 添加pin")
+![渐变编辑器 — 添加pin](gradient-map.resources/move-pin.gif "渐变编辑器 — 添加pin")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ ht-degree: 2%
 
 也可以通过选择一个图钉位置并使用<b>位置</b>参数来设置图钉位置及其数值。 位置是[0；1]范围内的值，其中0是渐变的开始，1是渐变的结束。
 
-![渐变编辑器 — 固定位置参数](../../../../assets/image2015-8-27-13-56-2.png "渐变编辑器 — 固定位置参数")
+![渐变编辑器 — 固定位置参数](gradient-map.resources/image2015-8-27-13-56-2.png "渐变编辑器 — 固定位置参数")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 移动图钉](../../../../assets/movepin2.gif "渐变编辑器 — 移动图钉")
+![渐变编辑器 — 移动图钉](gradient-map.resources/movepin2.gif "渐变编辑器 — 移动图钉")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 删除图钉](../../../../assets/removepin.gif "渐变编辑器 — 删除图钉")
+![渐变编辑器 — 删除图钉](gradient-map.resources/removepin.gif "渐变编辑器 — 删除图钉")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器：反转位置](../../../../assets/invert.gif "渐变编辑器：反转位置")
+![渐变编辑器：反转位置](gradient-map.resources/invert.gif "渐变编辑器：反转位置")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 全部清除](../../../../assets/remove.gif "渐变编辑器 — 全部清除")
+![渐变编辑器 — 全部清除](gradient-map.resources/remove.gif "渐变编辑器 — 全部清除")
 
 </td>
 </tr>
@@ -190,27 +190,27 @@ ht-degree: 2%
 
 <b>反转颜色</b>
 
-此按钮可将选定针脚的颜色切换为负色。
+此按钮可将选定大头针的颜色切换为负色。
 
 <b>降低饱和度</b>
 
-此按钮降低所选图钉上设置的颜色的饱和度。
+该按钮降低所选大头针上设置的颜色的饱和度。
 
 ### 插值模式
 
-设置图钉后，可使用可用的插值模式控制颜色从一个图钉过渡到下一个图钉的方式：
+设置大头针后，您可以使用可用的插值模式控制颜色从一种大头针过渡到另一种颜色的方式：
 
 +++线性
-默认插值模式：在每个图钉之间应用简单的线性插值，以便渐变均匀进行。
+默认插值模式：在每个大头针之间应用简单的线性插值，以便渐变均匀进行。
 
 +++
 
 +++平面切线
-将渐变之间的过渡视为贝塞尔曲线时（曲线上的点为图钉），此模式会将这些点设置为具有水平切线。
+将渐变之间的过渡视为贝塞尔曲线（其中大头针是曲线的点）时，此模式会将这些点设置为具有水平正切。
 
 这将产生一个过渡，它唤起了对平滑步长插值的回忆。
 
-选择此模式时，将启用<b>中点</b>参数，并允许您偏移曲线垂直中点在点之间的水平位置。 这有效地调整了“out”和“in”切线之间的比例。
+选择此模式时，将启用<b>中点</b>参数，并允许您偏移曲线垂直中点在点之间的水平位置。 这有效地缩小了“out”和“in”正切之间的范围。
 
 +++
 
@@ -222,15 +222,15 @@ ht-degree: 2%
 +++
 
 +++无插值
-颜色仅在图钉位置发生变化，并在渐变条上的下一个图钉之前保持不变。
+颜色仅在大头针的位置发生变化，并在渐变条上的下一个大头针之前保持不变。
 
-这会导致颜色之间出现硬步骤，并且仅渐变上存在由图钉设置的颜色。
+这会导致颜色之间出现硬步骤，并且仅由大头针设置的颜色显示在渐变上。
 
 +++
 
 ### 拾色器
 
-![渐变编辑器 — 拾色器](../../../../assets/image2017-2-17-18-21-29.png "渐变编辑器 — 拾色器")
+![渐变编辑器 — 拾色器](gradient-map.resources/image2017-2-17-18-21-29.png "渐变编辑器 — 拾色器")
 
 拾色器允许您通过多种方式设置颜色：
 
@@ -245,7 +245,7 @@ ht-degree: 2%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![拾色器 — 渐变区域和色相栏](../../../../assets/colorpalette.gif "拾色器 — 渐变区域和色相栏")
+  ![拾色器 — 渐变区域和色相栏](gradient-map.resources/colorpalette.gif "拾色器 — 渐变区域和色相栏")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ ht-degree: 2%
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![拾色器 — RGB、HSV和Alpha滑块](../../../../assets/image2017-2-17-18-31-41.png "拾色器 — RGB、HSV和Alpha滑块")
+  ![拾色器 — RGB、HSV和Alpha滑块](gradient-map.resources/image2017-2-17-18-31-41.png "拾色器 — RGB、HSV和Alpha滑块")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ ht-degree: 2%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![拾色器 — 按屏幕拾色](../../../../assets/pick.gif "拾色器 — 按屏幕拾色")
+  ![拾色器 — 按屏幕拾色](gradient-map.resources/pick.gif "拾色器 — 按屏幕拾色")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ ht-degree: 2%
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![拾色器 — 还原颜色](../../../../assets/image2015-8-27-14-40-39.png "拾色器 — 还原颜色")
+![拾色器 — 还原颜色](gradient-map.resources/image2015-8-27-14-40-39.png "拾色器 — 还原颜色")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ ht-degree: 2%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![拾色器 — 按钮](../../../../assets/invert2.gif "拾色器 — 按钮")
+![拾色器 — 按钮](gradient-map.resources/invert2.gif "拾色器 — 按钮")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ ht-degree: 2%
 
 “渐变”吸管是此节点提供的最有用的功能之一，因为只需在参考图片上绘制一条线即可创建复杂的渐变。
 
-![渐变编辑器 — 渐变拾色器](../../../../assets/pickgradient.gif "渐变编辑器 — 渐变拾色器")
+![渐变编辑器 — 渐变拾色器](gradient-map.resources/pickgradient.gif "渐变编辑器 — 渐变拾色器")
 
 <b>精度</b>滑块将通过增加或减少键数帮助您调整新创建的渐变：键值越小，渐变与所选值的匹配越精确。
 
