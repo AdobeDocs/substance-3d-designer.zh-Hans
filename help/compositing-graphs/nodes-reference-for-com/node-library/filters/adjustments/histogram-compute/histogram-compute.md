@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
-description: 使用直方图计算节点计算来自纹理的直方图数据，以便进行分析和处理。
+description: 使用直方图计算节点计算纹理中的直方图数据，以便进行分析和处理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 直方图计算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 计算灰度图像的直方图。
 
-直方图被编码为图像中的像素行，其中每个像素值是与图像上X轴的像素位置匹配的颜色值的&#x200B;*种群*。\
+直方图被编码为图像中的像素行，其中每个像素值是与像素在X轴上的位置匹配的颜色值的&#x200B;*种群*。\
 例如，75的像素值(0.25， 0)表示图像中具有0.25颜色值的75个像素。
 
 </td>
@@ -50,43 +50,29 @@ ht-degree: 1%
 >
 > 所有超出[0,1]范围的值都会被固定，因此直方图对于HDR图像可能并不准确。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>输入</b> *灰度*&#x200B;主要 | 应为其计算直方图的图像。 |
+|:---|:---|
+| <b>输入</b> <i>灰度</i>主要 | 应为其计算直方图的图像。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>直方图</b> *灰度* | 为该输入图像计算的直方图，编码为一行像素，其中每个像素值是与该X轴上的像素位置匹配的颜色值的&#x200B;*种群*。   例如，75的像素值(0.25， 0)表示图像中具有0.25颜色值的75个像素。 |
-| <b>CDF</b> *灰度* | 为图像计算的&#x200B;*累积分布函数* (CDF)的结果，以像素行编码，其中每个像素是其左侧所有像素值的总和。   然后，该和相对于图像中的像素总数为&#x200B;*规范化*。 |
+|:---|:---|
+| <b>直方图</b> <i>灰度</i> | 为输入图像计算的直方图，编码为一行像素，其中每个像素值是与像素在X轴上的位置匹配的颜色值的&#x200B;*总体*。   例如，75的像素值(0.25， 0)表示图像中具有0.25颜色值的75个像素。 |
+| <b>CDF</b> <i>灰度</i> | 为图像计算的&#x200B;*累积分布函数* (CDF)的结果，以像素行编码，其中每个像素是其左侧所有像素值的总和。   然后，该和相对于图像中的像素总数为&#x200B;*规范化*。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>直方图分辨率</b> *整数* | 直方图的宽度。 值越高，值分布越精细。   可用分辨率为：256、512、1024、2048、4096（像素） |
 
 ## 示例

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: 使用“直方图范围”节点可根据直方图范围重新映射纹理值，以进行颜色校正和调整。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方图范围
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/histogram-range-1.png){width="128px"}
 
-## 直方图范围
-
-**范围：** *滤镜/调整*
-
-**简单**
+<b>英寸：</b>滤镜>调整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -42,15 +38,25 @@ ht-degree: 1%
 
 [单击此处观看关于直方图范围的Substance学院视频。](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## 参数
-
-* **范围**： *0.0 - 1.0*&#x200B;范围减小自的量。 这类似于向内移动“最小色阶”和“最大色阶”滑块。
-* **位置**： *0.0 - 1.0*&#x200B;范围减小的偏移，为范围减小设置不同的中点。
-
-## 示例图像
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>范围</b> <i>0.0 - 1.0</i> | 将范围减小到什么程度。 这类似于向内移动“最小色阶”和“最大色阶”滑块。 |
+| <b>位置</b> <i>0.0 - 1.0</i> | 范围减小的偏移，为范围减小设置不同的中点。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

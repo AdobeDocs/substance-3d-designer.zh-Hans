@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: 使用“量化灰度”节点可减少海报化效果的灰度级别数。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 量化灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -39,18 +39,16 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 参数
 
-<b>步骤</b> *整数*&#x200B;输入范围应该接近的单独值的数目。
-
-<b>偏移</b> *Float*&#x200B;将偏移应用于输入范围，这将沿该范围&#x200B;*移动*&#x200B;结果。
-
-<b>斜率</b> *Float*&#x200B;将斜率渐变应用于近似值之间的&#x200B;*过渡*，最大可达步骤的&#x200B;*全跨度*。
-
-<b>斜率曲线</b> *整数*&#x200B;设置获取由<b>斜率</b>参数设置的斜率的曲线的方法：
-* *线性*：应用线性曲线，生成直线斜率
-* *平滑步骤*：应用平滑步骤曲线，从而产生平滑斜率
-* *曲线输入*：应用<b>曲线输入</b>输入图描述的曲线。 您可以使用[曲线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)节点通过大量控制来描述此曲线。
+|  |  |
+|:---|:---|
+| <b>步骤</b> *整数* | 输入范围应接近的单独值的数目。 |
+| <b>偏移</b> *Float* | 将偏移应用于输入范围，该范围会&#x200B;*沿该范围移动*&#x200B;结果。 |
+| <b>斜率</b> *Float* | 将斜率渐变应用于近似值之间的&#x200B;*过渡*，最大为步骤的&#x200B;*全宽*。 |
+| <b>斜率曲线</b> *整数* | 设置获取由<b>斜率</b>参数设置的斜率集的曲线的方法：<ul data-preserve-html="true"> <li data-preserve-html="true">*线性*：应用线性曲线，生成直线斜率</li> <li data-preserve-html="true">*平滑步骤*：应用平滑步骤曲线，从而产生平滑斜率</li> <li data-preserve-html="true">*曲线输入*：应用<b>曲线输入</b>输入图描述的曲线。 您可以使用[曲线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)节点通过大量控制来描述此曲线。</li> </ul> |
 
 ## 示例
 

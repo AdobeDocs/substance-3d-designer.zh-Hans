@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: 使用“查看调色板”节点可以将从纹理中提取的调色板数据可视化以供分析。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 查看调色板
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '232'
+ht-degree: 1%
 
 ---
 
@@ -44,38 +44,22 @@ ht-degree: 0%
 
 此节点可用于可视化以下节点生成的调色板： [量化颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)、[创建调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)、[修改调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>调色板</b> *颜色*&#x200B;主要 | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。   这是节点打包和渲染的调色板。 |
-| <b>调色板颜色量</b> *整数* | 调色板中存储的颜色量。   如果该数值与“调色板”图像输入中实际颜色量不匹配，则可视化可能是不完整的，或者具有的空白槽比绝对必需的多。 |
+|:---|:---|
+| <b>调色板</b> <i>颜色</i>主要 | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。   这是节点打包和渲染的调色板。 |
+| <b>调色板颜色量</b> <i>整数</i> | 调色板中存储的颜色量。   如果该数值与“调色板”图像输入中实际颜色量不匹配，则可视化可能是不完整的，或者具有的空白槽比绝对必需的多。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *颜色* | 打包调色板的可视化。 |
+|:---|:---|
+| <b>输出</b> <i>颜色</i> | 打包调色板的可视化。 |
 
 ## 示例
 
