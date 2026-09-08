@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用SBSPRJ项目配置文件来管理项目设置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 项目配置文件 — SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ文件图标](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "SBSPRJ文件图标")
+![SBSPRJ文件图标](../../assets/sbsprj.png "SBSPRJ文件图标")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 在编辑器中打开SBSPRJ文件后，您应该会看到一个相当简单的结构化版面，其中的各部分与UI中的选项卡相对应。 并非所有设置都会记录在这里，因为它相当容易解释。
 
-![XML编辑](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "XML编辑")
+![XML编辑](../../assets/project-xml.png "XML编辑")
 
 ## 相对路径和别名
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 在多台用户的PC上，文件引用系统中其他文件的主要问题之一是绝对文件路径不起作用。 用户可以在完全不同的位置(例如， C：/John/Gamedev/SubstanceLibrary或D：/Dev/SubstanceLibrary)。 别名和相对路径共同解决这个问题。 否则，您可能会打开其他人的文件，而该文件将尝试查找用户本地拥有该文件的特定位置所使用的自定义节点，您可能没有以完全相同的方式定义该节点。
 
-<b>别名</b>是替换（部分）路径的关键字。 它类似于Windows环境变量（如%TEMP%），其中单个单词替换了经常使用的路径，然后该路径被集中定义。 优点是简化了所有位置的路径，并且当您决定重定位此路径时，可以一次性修改所有引用。
+<b>别名</b>是替换（部分）路径的关键字。 它类似于Windows环境变量（如%TEMP%），其中单个单词替换了经常使用的路径，然后该路径被集中定义。 其优点是简化了所有位置的路径，并且当您决定重新定位此路径时，可以一次性修改所有引用。
 
 >[!NOTE]
 >

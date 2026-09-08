@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: 概要了解Substance 3D Designer，并了解其用于创建过程性材质和纹理的功能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 下面是它与其他应用程序的比较：
 
-|  | <div><img alt="Substance 3D Sampler图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Substance 3D Sampler图标" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Substance 3D Designer图标" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Sampler图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Sampler图标" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer图标" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>学习曲线</b> | 低 | 中 | 高 |
 | <b>作者素材</b> | 是 | 是 | 是 |
@@ -60,7 +60,7 @@ Substance 3D Designer是基于节点的编辑器，可让您以多种不同的�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-04.png)
+![](../../assets/ds-sbs-48.png)
 
 ### Substance 3D文件
 
@@ -71,18 +71,18 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-05.png)
+![](../../assets/sbsar-48.png)
 
 ### Substance 3D 资源
 
 *(\*.SBSAR)*
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-06.png){width="48px"}
+![](../../assets/bmp-96.png){width="48px"}
 
 ### 静态文件
 
@@ -104,7 +104,7 @@ Substance 3D文件可能包含多种用于不同用途的资源。 某些资源�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

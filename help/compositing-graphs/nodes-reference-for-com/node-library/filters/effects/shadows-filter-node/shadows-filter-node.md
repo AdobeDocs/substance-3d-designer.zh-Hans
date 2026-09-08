@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
 description: 使用阴影滤镜节点通过输入纹理生成阴影效果，从而为材料增加深度和真实感。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 阴影(滤镜节点)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
+![](../../../../../../assets/shadows-1.png){width="128px"}
 
-<b>英寸：</b>滤镜>效果
+## 阴影
+
+**范围：** *滤镜/效果*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -37,27 +41,19 @@ ht-degree: 8%
 
 如果您刚好位于阴影之后，不想处理更完整的节点（例如，构建自己的材料或烘焙的光照），则此功能将非常有用。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>阴影距离</b> <i>0.0 - 1.0</i> | 控制阴影应落至多远。 |
-| <b>光线角度</b> <i>0.0 - 1.0</i> | 控制光线的入射角。 |
-| <b>边缘柔和度</b> <i>0.0 - 1.0</i> | 确定阴影边缘的硬度或柔和程度。 |
-| <b>示例</b> <i>1 - 16</i> | 设置“边缘柔和度”设置的品质。 |
+* **阴影距离**： *0.0 - 1.0*&#x200B;控制阴影应掉落的距离。
+* **光线角度**： *0.0 - 1.0*&#x200B;控制光线的入射角度。
+* **边缘柔和度**： *0.0 - 1.0*&#x200B;确定阴影边缘的硬度或柔和程度。
+* **示例**： *1 - 16*&#x200B;设置“边缘柔和度”设置的品质。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

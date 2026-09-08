@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的主工具栏，以访问工作流程的常用工具和命令。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主工具栏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![主工具栏](the-main-toolbar.resources/the-main-toolbar-01.png "主工具栏")
+![主工具栏](../../assets/mainmenu.png "主工具栏")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ ht-degree: 2%
 
 ## 快速访问按钮
 
-![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>新Substance图形……：</b> (Ctrl+N)为您显示[新图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)窗口，然后使用[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)创建新包。
+![](../../assets/newsubstance.png) <b>新Substance图形……：</b> (Ctrl+N)为您显示[新图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)窗口，然后使用[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)创建新包。
 
-![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>打开……：</b> (Ctrl+O)打开现有的[Substance包(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)。
+![](../../assets/open.png) <b>打开……：</b> (Ctrl+O)打开现有的[Substance包(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)。
 
-![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>保存全部：</b> (Ctrl+⇧+S)保存[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有包。
+![](../../assets/saveall.png) <b>保存全部：</b> (Ctrl+⇧+S)保存[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有包。
 
-![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>撤消：</b> (Ctrl+Z)撤消上一个操作。
+![](../../assets/undo.png) <b>撤消：</b> (Ctrl+Z)撤消上一个操作。
 
-![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>重做：</b> (Ctrl+Y)重做上一个撤消的操作。
+![](../../assets/redo.png) <b>重做：</b> (Ctrl+Y)重做上一个撤消的操作。
 
 ## 文件
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新增功能……：</b>显示一个屏幕，其中突出显示了Designer最新版本中新增的功能
 
-<b>欢迎屏幕……\*：</b>显示一个屏幕，引导新用户了解Designer的用途及其在[Substance 3D生态系统](https://helpx.adobe.com/cn/substance-3d.html)中的位置
+<b>欢迎屏幕……\*：</b>显示一个屏幕，引导新用户了解Designer的用途及其在[Substance 3D生态系统](https://helpx.adobe.com/substance-3d.html)中的位置
 
 <b>合作伙伴：</b>允许您访问Designer中我们的合作伙伴针对第三方集成的免责声明和声明。
 

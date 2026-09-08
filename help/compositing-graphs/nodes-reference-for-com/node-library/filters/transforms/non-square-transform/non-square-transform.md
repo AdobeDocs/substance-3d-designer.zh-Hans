@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: 使用“非正方形变换”节点，可以将变换应用于具有独立X和Y缩放的非正方形纹理。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 非方形变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 4%
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](non-square-transform.resources/non-square-transform-01.png)
+![](../../../../../../assets/safe-transform.png)
 
-![](non-square-transform.resources/non-square-transform-02.png)
+![](../../../../../../assets/safe-transform-grayscale.png)
 
-<b>英寸：</b>筛选器>变换
+## 非方形变换（灰度）
+
+**英寸：** *筛选器/变换*
+
+**中级**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,29 +47,22 @@ ht-degree: 4%
 * 将非正方形变换&#x200B;**节点的**&#x200B;输出大小设置为“*相对于父代*”。
 * 如果只想将输入变换到单个位置，请将&#x200B;**节点的**&#x200B;拼贴模式设置为“*无拼贴*”。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>平铺模式</b> <i>自动，手动</i> | 是否启用自动非方形补偿。 |
-| <b>平铺</b> <i>1 - 16</i> | 只有在“平铺模式”设置为“手动”时才能访问。 允许您以拼贴安全的方式更改比例。 |
-| <b>偏移</b> <i>0.0 - 1.0</i> | 移动或转换结果。 双击滑块以输入负值。 |
-| <b>旋转</b> <i>0.0 - 1.0</i> | 旋转输入图像。 |
-| <b>安全旋转（仅限正方形）</b> <i>False/True</i> | 捕捉到安全值以保持像素的锐度。 |
-| <b>背景颜色</b> <i>（颜色值）</i> | 用于填充图像的背景色。 仅当Base Parameters中的[拼贴模式设置为“*无拼贴*”](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)时可见。 |
+* **磁贴模式**：*自动、手动*&#x200B;是否启用自动非方形补偿。
+* **磁贴**： *1 - 16*&#x200B;仅当“磁贴模式”设置为“手动”时可访问。 允许您以拼贴安全的方式更改比例。
+* **偏移**： *0.0 - 1.0*\
+  移动或转换结果。 双击滑块以输入负值。
+* **旋转**： *0.0 - 1.0*&#x200B;旋转输入图像。
+* **安全旋转（仅限正方形）**： *False/True*&#x200B;捕捉安全值以保持像素的锐度。
+* **背景颜色**： *（颜色值）*要用来填充图像的背景颜色。 仅当Base Parameters中的[拼贴模式设置为“*无拼贴*”](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)时可见。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="non-square-transform.resources/non-square-transform-03.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

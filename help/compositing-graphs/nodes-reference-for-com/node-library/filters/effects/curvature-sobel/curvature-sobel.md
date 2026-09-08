@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: 使用Sobel运算符通过曲率Sobel节点检测曲率边缘，以创建基于边缘的蒙版。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 弯曲Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
+![](../../../../../../assets/curvature-sobel.png){width="128px"}
 
-<b>英寸：</b>滤镜>效果
+## 弯曲Sobel
+
+**范围：** *滤镜/效果*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -37,25 +41,17 @@ ht-degree: 4%
 
 此节点对于快速突出显示或调暗某些边缘非常有用。 它与[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)略有不同，因为它可产生更好的质量结果，但仍然清晰且生硬。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>强度</b> <i>0.0 - 1.0</i> | 效果的强度，调整对比度。 |
-| <b>正常类型</b> <i>DirectX， OpenGL</i> |  |
+* **强度**： *0.0 - 1.0*&#x200B;效果的强度，用于调整对比度。
+* **正常类型**： *DirectX，OpenGL*
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

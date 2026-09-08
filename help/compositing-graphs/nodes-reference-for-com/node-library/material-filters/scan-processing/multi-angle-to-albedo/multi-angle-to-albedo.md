@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: 使用多角度反照率节点从多角度扫描图像中提取反照率图，以实现干净的素材颜色。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多角度反照率
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](multi-angle-to-albedo.resources/multi-angle-to-albedo-01.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
 
-<b>在</b>个材质过滤器中>扫描处理
+## 多角度反照率
+
+**在：** *材质筛选器/扫描处理*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,22 +47,22 @@ ht-degree: 2%
 > 
 > [博客文章“您的智能手机是素材扫描仪”对此过程进行了更好的说明。](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
+## 参数
+
+### 输入
+
+* **输入1-8**： *颜色输入*&#x200B;输入数由Samples Amount参数决定。
+
+### 参数
+
+* **样本量**： *2 - 8*&#x200B;设置处理中使用的样本（输入）数。
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>输入1-8</b> <i>颜色输入</i> | 输入数量由样本量参数决定。 |
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>样本量</b> <i>2 - 8</i> | 设置要在处理中使用的样本（输入）数。 |

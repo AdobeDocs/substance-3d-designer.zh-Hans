@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer首选项中配置项目设置以自定义默认项目行为。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Project settings
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 >
 > 有关在&#x200B;**生产管道**&#x200B;中设置和集成Substance 3D Designer的详细信息，我们&#x200B;*强烈推荐*，请参阅文档的[管道和项目配置](../../../pipeline-and-project-con/pipeline-and-project-configuration.md)部分。
 
-![项目设置](project-settings.resources/project-settings-01.png "项目设置"){zoomable="yes"}
+![项目设置](../../../assets/2019-3-0-prefs-proj-01.png "项目设置"){zoomable="yes"}
 
 ## 配置
 
@@ -69,7 +69,7 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 
 |                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>默认渲染器</b> | 此设置允许您选择在启动&#x200B;*新的*[&#128279;](../../../interface/3d-view/3d-view.md)3D 视图时默认使用的[3D渲染器](../../../interface/3d-view/3d-renderers/3d-renderers.md)。<br><br>*默认：默认（预定义的渲染器）* |
+| <b>默认渲染器</b> | 此设置允许您选择在启动&#x200B;*新的*[](../../../interface/3d-view/3d-view.md)3D 视图时默认使用的[3D渲染器](../../../interface/3d-view/3d-renderers/3d-renderers.md)。<br><br>*默认：默认（预定义的渲染器）* |
 | <b>默认着色器</b> | 此设置允许您选择在启动&#x200B;*新* [3D 视图&#x200B;](../../../interface/3d-view/3d-view.md)<br><br>*时默认使用的着色器： open_pbr.glslfx* |
 | <b>默认环境图</b> | 此设置允许您选择在启动&#x200B;*新建*[3D 视图&#x200B;](../../../interface/3d-view/3d-view.md)<br><br>*默认环境时默认应用于环境的纹理： panorama\_map.hdr* |
 | <b>默认状态文件</b> | [3D 视图](../../../interface/3d-view/3d-view.md) **场景状态文件**&#x200B;包含一些3D 视图设置，如相机位置、环境曝光和网格。 它用于存储3D 视图的状态，以便您可以快速加载根据您的需求定制的场景。 场景状态文件使用&#x200B;**\*.sbsscn**&#x200B;扩展名。此设置允许您选择在启动新3D 视图时应使用的3D 视图场景状态文件。  **警报：**&#x200B;某些软件更新可能会更改场景状态的保存/加载方式。 如果场景&#x200B;*未正确还原*，建议手动设置场景的所需状态，并&#x200B;*重新导出*&#x200B;默认使用的场景状态文件。 <br><br>*默认：空（在本例中使用预设场景状态）* |
@@ -77,7 +77,7 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 
 ### 别名
 
-别名用于&#x200B;*缩短*&#x200B;系统路径，并允许团队更高效地&#x200B;*共享*&#x200B;资源。 在整个软件&#x200B;*以及* SBS文件&#x200B;*中使用别名*。
+别名用于&#x200B;*缩短*&#x200B;系统路径，并允许团队更高效地&#x200B;*共享*&#x200B;资源。 在整个软件&#x200B;*以及* SBS文件&#x200B;*中*&#x200B;使用了别名。
 
 这些设置允许您&#x200B;*添加*&#x200B;和&#x200B;*编辑*&#x200B;别名。 应用别名后，*将使用以下语法替换*&#x200B;映射路径： <b>：//</b>。
 
@@ -95,10 +95,10 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 |                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>默认资源名称</b> | 此设置允许您设置将用于输出图像文件的默认&#x200B;**命名模板**。 [烘焙窗口](../../../bakers/bakers.md)中可用的别名也可以在此使用(即，*$（网格）*，*$（烘焙名称）*，*$(udim)*，*$（自定义）*)<br><br>*默认值： $（网格）\_$（烘焙名称）* |
-| <b>默认预设</b> | 打开[烘焙窗口](../../../bakers/bakers.md)时，您可以使用此选项指向预设&#x200B;*JSON*&#x200B;文件，使其&#x200B;**已配置**&#x200B;特定Baker和设置。 根据您的需要设置此文件后，可以从烘焙窗口中将其导出&#x200B;<br><br>*默认值：无* |
+| <b>默认预设</b> | 打开[烘焙窗口](../../../bakers/bakers.md)时，您可以使用此选项指向预设&#x200B;*JSON*&#x200B;文件，使其&#x200B;**已配置**&#x200B;特定的烘焙程序和设置。 根据您的需要设置此文件后，可以从烘焙窗口中导出此文件&#x200B;<br><br>*默认值：无* |
 | <b>名称筛选模式</b> | 匹配低多边形和高多边形场景对象时应使用的场景对象：<ul data-preserve-html="true"> <li data-preserve-html="true">几何名称：使用网格几何对象的名称</li> <li data-preserve-html="true">父级名称（旧版）：使用网格几何对象的父级名称（与Designer 14.1及更低版本中的名称相同）</li> </ul>*默认：几何名称* |
-| <b>资源名称宏</b> | 除了&#x200B;*$(bakername)*&#x200B;别名之外，您还可以对[每个贝克](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/bakers-settings)使用自己的字符串。  在输出图像名称中使用&#x200B;***$（自定义）***&#x200B;别名作为任何烘焙商时，该别名将被替换为与列表中该烘焙商匹配的字符串。 如果将与面包机对应的列表单元格留空，则此面包机&#x200B;*$（自定义）*&#x200B;别名&#x200B;*将*&#x200B;不会被替换。示例：分配给“从网格曲率映射”面包机的“c-mesh”值将&#x200B;*t\_mymesh\_&#x200B;**$（自定义）***自动重命名为&#x200B;*t\_mymesh\_&#x200B;**c-mesh***，以获得从网格面包机曲率输出&#x200B;*仅&#x200B;*<br><br>*默认： None* |
-| <b>子网格名称筛选器</b> | 在[生成器](../../../bakers/bakers.md)中使用&#x200B;**按名称匹配**&#x200B;选项时，如果在定义的&#x200B;**后缀**&#x200B;之前网格的低清晰度版本和高清晰度版本的名称是&#x200B;*相同*，则这些部分的名称&#x200B;*匹配*。 此设置允许您设置自己的后缀以适应您的特定工作流程。 网格的匹配部分可以使光线忽略烘焙操作中不需要的几何形状。示例：*body.fbx*&#x200B;网格中的&#x200B;*body-torso&#x200B;**\_low***&#x200B;对象将与&#x200B;*body\_high.fbx，* *中的* body-torso **\_high***对象匹配，如果这些对象存在*&#x200B;这些网格中&#x200B;*。**默认值： \_low （低多边形网格） / \_high （高多边形网格）*同样，**&#x200B;背面&#x200B;**可以是&#x200B;*有选择性的对于包含**&#x200B;忽略背面**选项<br><br>*&#x200B;默认：\_ignorebf *<br><br>*&#x200B;注意：*忽略背面和低/高多边形网格后缀可以*以任何顺序*组合[&#x200B; （例如，*body-torso\_low\_ignorebf*），对于名称包含定义的&#x200B;**后缀**&#x200B;的网格部分，忽略*](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/bakers-settings) |
+| <b>资源名称宏</b> | 除了&#x200B;*$(bakername)*&#x200B;别名之外，您还可以对[每个贝克](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)使用自己的字符串。  在输出图像名称中使用&#x200B;***$（自定义）***&#x200B;别名作为任何烘焙商时，该别名将被替换为与列表中该烘焙商匹配的字符串。 如果将与面包机对应的列表单元格留空，则此面包机&#x200B;*$（自定义）*&#x200B;别名&#x200B;*将*&#x200B;不会被替换。示例：分配给“从网格曲率映射”面包机的“c-mesh”值将&#x200B;*t\_mymesh\_**$（自定义）***自动重命名为&#x200B;*t\_mymesh\_**c-mesh***，以获得从网格面包机曲率输出&#x200B;*仅&#x200B;*<br><br>*默认： None* |
+| <b>子网格名称筛选器</b> | 在[生成器](../../../bakers/bakers.md)中使用&#x200B;**按名称匹配**&#x200B;选项时，如果在定义的&#x200B;**后缀**&#x200B;之前网格的低清晰度版本和高清晰度版本的名称是&#x200B;*相同*，则这些部分的名称&#x200B;*匹配*。 此设置允许您设置自己的后缀以适应您的特定工作流程。 网格的匹配部分可以使光线忽略烘焙操作中不需要的几何形状。示例：*body.fbx*&#x200B;网格中的&#x200B;*body-torso**\_low***&#x200B;对象将与&#x200B;*body\_high.fbx，* *中的* body-torso **\_high***对象匹配，如果这些对象存在*&#x200B;这些网格中&#x200B;*。**默认值： \_low （低多边形网格） / \_high （高多边形网格）*同样，**&#x200B;背面&#x200B;**可以是&#x200B;*有选择性的对于包含**忽略背面**选项<br><br>*&#x200B;默认：\_ignorebf *<br><br>*&#x200B;注意：*忽略背面和低/高多边形网格后缀可以*以任何顺序*组合[ （例如，*body-torso\_low\_ignorebf*），对于名称包含定义的**后缀**的网格部分，忽略*](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings) |
 
 ### 色彩管理
 
@@ -116,13 +116,13 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 | <b>3D场景</b> | 默认情况下，Designer在3D视图中使用&#x200B;**MikkT切线空间**。 MikkT被广泛使用，并且是Unity、Unreal Engine 4、Blender和xNormal等程序的默认值。您可以将&#x200B;**自己的切线空间**&#x200B;用于3D视图，该视图以&#x200B;*DLL文件*&#x200B;输入此设置的形式提供给Designer。 系统会自动从DLL文件中检测到标签，您可以编辑插件的说明&#x200B;<br><br>*默认值： miktspace.dll*&#x200B;始终重新计算正切帧&#x200B;<br><br>*默认值：未选中*&#x200B;法线和正切平滑角度&#x200B;<br><br>*默认值： 180.0°* |
 | <b>杂项</b> | 可以使用<b>DirectX</b>或<b>OpenGL</b>格式生成或处理正常映射。 此设置在多个位置设置此格式的值，例如[3D视图](../../../interface/3d-view/3d-view.md)中的[素材属性](../../../interface/3d-view/material-properties/material-properties.md)和[普通](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)滤镜节点参数。<br><br>*默认值：DirectX*<br><br>&#x200B;关于[普通](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)滤镜节点，您可以设置<b>Alpha通道内容</b>参数的默认值。 在所有情况下，您可以选择强制Alpha为1，或使用其输入的信息填充它。<br><br>*默认：强制Alpha为1* |
 | <b>图像格式</b> | 这使您可以指定&#x200B;*已导出*&#x200B;图像&#x200B;<br><br>*的默认格式设置：默认(BMP)/基于Piz的小波、未选中、未选中(EXR)/未选中、未选中、75 (JPG)/最佳速度、未选中(PNG)/默认(TGA)/LZW (TIF)/未选中、75 (WEBP)* |
-| <b>依赖关系路径</b> | <p>SBS包通常具有<b>依赖项</b>，即依赖于<i>外部资源</i>，例如其他SBS包、位图或矢量文件。<br>这些依赖项，列在[依赖项管理器](../../../interface/dependency-manager/dependency-manager.md)中，它们存储在SBS包</i>中并<i>被引用，其路径为<b>路径</b>，指向这些资源。</p><p>对于包含与SBS包相同的<i>路径</i>的依赖项（即，它们位于同一位置或来自该位置的子文件夹中），将引用路径写入<b>相对于</b> SBS包位置。</p><p>示例：对于SBS包<code>myproject/mypackage.sbs</code>，图像<code>myproject/myfolder/myimage.png</code> 将引用到<code>myfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>).</p><p>对于<i>不</i>包含与SBS包相同的路径的依赖项（即，它们与SBS包位于完全不同的位置），您可以选择路径写入方式。</p><p>如果它被设置为<b>相对路径</b>，则将按上述相同方式引用资源。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>../myotherfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>.</p><p>如果设置为<b>绝对路径</b>，则资源将由其完整系统路径引用。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>mypackage.sbs中的同一完整路径</code></p><p><i>默认： ...相对路径。</i></p><p><i>注意：</i>在所有情况下，移动资源将<i>中断依赖关系</i>，这将在图形中产生<b>幽灵实例</b>节点。  若要将</i>所有依赖项与SBS包<i>合并到一个项目文件夹中，可以在[资源管理器](../../the-explorer-window/the-explorer-window.md)面板中使用<b>带依赖项导出……功能</b>。 这实际上创建了一个可自由移动的<i>自包含的</i>项目文件夹。 |
+| <b>依赖关系路径</b> | <p>SBS包通常具有<b>依赖项</b>，即依赖于<i>外部资源</i>，例如其他SBS包、位图或矢量文件。<br>这些依赖项，列在[依赖项管理器](../../../interface/dependency-manager/dependency-manager.md)中，它们存储在SBS包</i>中并<i>被引用，其路径为<b>路径</b>，指向这些资源。</p><p>对于包含与SBS包相同的<i>路径</i>的依赖项（即，它们位于同一位置或来自该位置的子文件夹中），将引用路径写入<b>相对于</b> SBS包位置。</p><p>示例：对于SBS包<code>myproject/mypackage.sbs</code>，图像<code>myproject/myfolder/myimage.png</code> 将引用到<code>myfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>).</p><p>对于<i>不</i>包含与SBS包相同的路径的依赖项（即，它们与SBS包位于完全不同的位置），您可以选择路径写入方式。</p><p>如果它被设置为<b>相对路径</b>，则将按上述相同方式引用资源。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>../myotherfolder/myimage.png</code> <code>mypackage.sbs中的路径</code>.</p><p>如果设置为<b>绝对路径</b>，则资源将由其完整系统路径引用。</p><p>示例：对于SBS包<code>myparentfolder/myproject/mypackage.sbs</code>，图像<code>myparentfolder/myotherfolder/myimage.png</code> 将引用到<code>mypackage.sbs中的同一完整路径</code></p><p><i>默认： ...相对路径。</i></p><p><i>注意：</i>在所有情况下，移动资源将<i>中断依赖关系</i>，这将在图形中生成<b>Ghost实例</b>节点。  若要将</i>所有依赖项与SBS包<i>合并到一个项目文件夹中，可以在[资源管理器](../../the-explorer-window/the-explorer-window.md)面板中使用<b>带依赖项导出……功能</b>。 这实际上创建了一个可自由移动的<i>自包含的</i>项目文件夹。 |
 
 ### 库
 
 此部分允许您<b>管理[库](../../../interface/the-library/the-library.md)的自定义内容</b>。
 
-<b>添加的路径</b>列表中列出的所有文件夹的内容都将包含在库中。 对内容所做的任何更改都会反映在库中，刷新期之后即可在[首选项](../../../interface/preferences-window/preferences-window.md)窗口的[库](../../../interface/preferences-window/preferences-window.md) [选项卡](../../../interface/preferences-window/preferences-window.md)中设置。
+<b>添加的路径</b>列表中列出的所有文件夹的内容都将包含在库中。 对内容所做的任何更改都会反映在库中，刷新期之后即可在[首选项](../../../interface/preferences-window/preferences-window.md)窗口的[库](../../../interface/preferences-window/preferences-window.md)[选项卡](../../../interface/preferences-window/preferences-window.md)中设置。
 
 在列表的列中，您可以找到一些选项，这些选项使您可以更精细地控制将这些文件夹的内容添加到库的方式：
 
@@ -132,11 +132,11 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 * **排除扩展名：** *扩展名*&#x200B;包含输入文本字符串的文件&#x200B;*不*&#x200B;显示在库中。 多个字符串应该用`;`分号分隔。 (E.g. `jpg;png;tif;fbx`)
 
 如果将SBS包添加到库中，并且其&#x200B;**在库中可见**&#x200B;参数设置为“是”，则它包含的&#x200B;**图形**&#x200B;和&#x200B;**资源**&#x200B;可以&#x200B;*作为单独的条目显示在库中*。\
-在包中创建/添加新图形或资源时，可定义此参数是否应在默认情况下&#x200B;**&#x200B;设置为“是”。
+在包中创建/添加新图形或资源时，可使用此选项来定义此参数是否应在默认情况下&#x200B;**&#x200B;设置为“是”。
 
 *默认值：已选中*
 
-如果PSD中包含的[Photoshop](https://www.adobe.com/cn/products/photoshop.html)文档（\*.library文件）具有<b>多个图层</b>，则可以使用某个选项将*&#x200B;每个图层的内容作为单独的图像条目*显示在库中。
+如果PSD中包含的[Photoshop](https://www.adobe.com/products/photoshop.html)文档（\*.library文件）具有<b>多个图层</b>，则可以通过某个选项将*&#x200B;每个图层的内容作为单独的图像条目*显示在库中。
 
 *默认值：已选中*
 
@@ -167,25 +167,25 @@ Substance 3D Designer将自动加载您添加到<b>Url</b>列表的文件夹中�
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>操作</b> | Designer已预先配置了&#x200B;**回调触发器**，它将会&#x200B;*执行您在下述&#x200B;**解释器**&#x200B;列表中设置的解释器所提供的脚本*。包含的回调如下：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>onBeforeFileLoaded</strong> — 在加载SBS包</em>之前<em>执行脚本</li><li data-preserve-html="true"><strong>onAfterFileLoaded</strong> — 在加载SBS包</em>后<em>执行脚本</li><li data-preserve-html="true"><strong>onBeforeFileSaved</strong> — 在保存SBS包</em>之前<em>执行脚本</li><li data-preserve-html="true"><strong>onAfterFileSaved</strong> — 在保存SBS包</em>后<em>执行脚本</li><li data-preserve-html="true"><strong>getGraphExportOptions</strong> — 在调用[导出输出](../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)选项时执行脚本</li></ul>安装文件中包含[Python](https://www.python.org/)脚本，每个回调&#x200B;*触发的函数已设置*&#x200B;且可以使用。 您可以将其用作起点，并根据需要添加功能。 此脚本为&#x200B;**functions.py**，位于安装文件的&#x200B;**tools > scripting**&#x200B;文件夹中&#x200B;<br><br>*默认： None *<br><br>*注意：*&#x200B;最初，为任何回调选择一个脚本都将在&#x200B;*全部*&#x200B;回调中输入该脚本以方便使用。 之后，您可以为特定回调自由设置不同的脚本。 |
+| <b>操作</b> | Designer已预先配置了&#x200B;**回调触发器**，它将会&#x200B;*执行您在下述&#x200B;**解释器**列表中设置的解释器所提供的脚本*。包含的回调如下：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>onBeforeFileLoaded</strong> — 在加载SBS包</em>之前<em>执行脚本</li><li data-preserve-html="true"><strong>onAfterFileLoaded</strong> — 在加载SBS包</em>之后<em>执行脚本</li><li data-preserve-html="true"><strong>onBeforeFileSaved</strong> — 在</em>保存SBS包之前<em>执行脚本</li><li data-preserve-html="true"><strong>onAfterFileSaved</strong> — 在保存SBS包</em>后<em>执行脚本</li><li data-preserve-html="true"><strong>getGraphExportOptions</strong> — 在调用[导出输出](../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)选项时执行脚本</li></ul>安装文件中包含[Python](https://www.python.org/)脚本，每个回调&#x200B;*触发的函数已设置*&#x200B;且可以使用。 您可以将其用作起点，并根据需要添加功能。 此脚本为&#x200B;**functions.py**，位于安装文件的&#x200B;**tools > scripting**&#x200B;文件夹中&#x200B;<br><br>*默认： None *<br><br>*注意：*&#x200B;最初，为任何回调选择一个脚本都将在&#x200B;*全部*&#x200B;回调中输入该脚本以方便使用。 之后，您可以为特定回调自由设置不同的脚本。 |
 | **解释器** | 在此列表中，您可以提供特定的&#x200B;*解释器*，Designer应使用这些解释器执行在上述&#x200B;**操作**&#x200B;列表中设置的脚本。 解释器使用&#x200B;*自定义别名*&#x200B;进行标识，您可以在列表每个条目的文本字段中进行编辑。Designer安装文件随附了一个[Python](https://www.python.org/) 3.6解释器。 您可以在安装文件的&#x200B;**plugins > pythonsdk**&#x200B;文件夹中&#x200B;<br><br>*找到它。默认：无* |
 
 ### 版本控制
 
 >[!WARNING]
 >
-> [性能](https://www.perforce.com/)是版本控制当前支持的&#x200B;*仅*&#x200B;工具。
+> [Perforce](https://www.perforce.com/)是版本控制当前支持的&#x200B;*仅*&#x200B;工具。
 
-请参阅[版本控制](../../../interface/preferences-window/version-control/version-control.md)页面。
+请参阅[版本控制](../../../interface/preferences-window/version-control/version-control.md)页。
 
 **应该如何使用它？**
 
 您应在Designer的项目文件(\*.sbsprj)中设置所有特定于项目的首选项**。 这些首选项包括：
 
-* 切空间插件
+* 切线空间插件
 * 库
 * 别名
-* 3D视图设置
+* 3D 视图设置
 * 烘焙设置
 * [版本控制设置](../../../interface/preferences-window/version-control/version-control.md)
 

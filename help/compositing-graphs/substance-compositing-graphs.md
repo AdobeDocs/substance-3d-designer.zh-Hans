@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的Substance合成图形，用于创建程序化纹理和材料工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 1%
 在下面您可以找到一些常见用例的典型示例。
 
 +++简单形状
-![图形中的简单形状](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Substance图形中的简单形状"){width="512px"}
+![图形中的简单形状](../assets/simpleshape.png "Substance图形中的简单形状"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 +++
 
 +++调整滤镜
-![Substance图中的调整滤镜](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Substance图中的调整滤镜"){width="512px"}
+![Substance图中的调整滤镜](../assets/simplefilter.png "Substance图中的调整滤镜"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 +++
 
 +++全材质
-![Substance图中的完整素材](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Substance图中的完整素材"){width="512px"}
+![Substance图中的完整素材](../assets/simplematerial.png "Substance图中的完整素材"){width="512px"}
 
 
 

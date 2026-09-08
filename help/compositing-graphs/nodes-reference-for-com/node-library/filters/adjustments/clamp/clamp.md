@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: 使用“夹紧”节点将纹理值夹紧在指定的最小和最大范围内，以控制值限制。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 夹持
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -22,41 +22,37 @@ ht-degree: 14%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](clamp.resources/clamp-01.png){width="128px"}
+![](../../../../../../assets/clamp-grayscale.png){width="128px"}
 
-![](clamp.resources/clamp-02.png){width="128px"}
+![](../../../../../../assets/clamp-1.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## 钳制（灰度）
+
+**范围：** *滤镜/调整*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
-将输入值钳制为定义的限制。
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+将输入值限制到定义的限制。
 
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>分钟</b> <i>0.0 - 1.0</i> | 下夹具限制。 |
-| <b>最大</b> <i>0.0 - 1.0</i> | 夹具上限。 |
-| <b>应用于Alpha</b> <i>False/True</i>（仅限颜色版本） | 选择是否也对Alpha应用夹紧。 |
+* **分钟**： *0.0 -* 1.0\
+  下夹具限制。
+* **最大**： *0.0 - 1.0*&#x200B;固定上限。
+* **应用于Alpha**： *False/True*（仅限颜色版本）\
+  选择是否也对Alpha应用夹紧。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="clamp.resources/clamp-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/clamp.gif)
+
+</td>
+</tr>
 </table>

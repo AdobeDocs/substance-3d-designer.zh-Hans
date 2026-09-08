@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: 使用污渍渗漏油画节点可生成油画渗漏图案，用于创建老化的表面效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 污渍渗漏油漆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
-<b>在：</b>纹理生成器>杂色
+**位置：** *纹理生成器* */杂色*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,31 +41,31 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
-| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
-| <b>高级</b> |  |
-| <b>泄漏强度</b> <i>浮动</i> | 调整液滴的密度和强度。 |
-| <b>泄漏缩放</b> <i>整数</i> | 调整液滴分离的比例。 |
-| <b>泄漏角度随机</b> <i>浮动</i> | 调整&#x200B;*最大角度*&#x200B;滴可以随机旋转为&#x200B;*圈数*。 |
-| <b>泄漏清晰度</b> <i>浮动</i> | 调整滴落的清晰度和锐度。 |
+* **平衡***Float*&#x200B;调整明暗值之间的平衡。
+* **对比度** *浮动*&#x200B;调整图像的对比度。
+* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
+* **非正方形扩展***布尔值*&#x200B;启用以非方形比率补偿挤压和拉伸。
+* 高级
+  * **泄漏强度***浮动*&#x200B;调整滴子的密度和强度。
+  * **泄漏比例** *整数*&#x200B;调整滴滤分离的比例。
+  * **漏角随机***Float*&#x200B;调整&#x200B;*最大角度*&#x200B;滴，可在&#x200B;*匝数*&#x200B;中随机旋转为。
+  * **泄漏的清晰度***Float*&#x200B;调整滴落的清晰度和锐度。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

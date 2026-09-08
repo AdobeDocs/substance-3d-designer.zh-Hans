@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: 使用污渍粗糙脏节点生成粗糙和脏污渍纹理，以添加经过风化的表面细节。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 污渍粗糙
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '141'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-rough-dirty.resources/grunge-rough-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+**在：** *纹理生成器* */噪声*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,31 +41,31 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
-| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
-| <b>高级</b> |  |
-| <b>主污渍强度</b> <i>浮动</i> | 调整用于分解曲面的主纹理的强度。 |
-| <b>反转Scratches</b> <i>布尔值</i> | 反转表面划痕的明亮度。 |
-| <b>Scratches强度</b> <i>浮动</i> | 调整表面划痕的强度。 |
-| <b>颗粒强度</b> <i>浮动</i> | 调整全局颗粒效果的强度。 |
+* **平衡***Float*&#x200B;调整明暗值之间的平衡。
+* **对比度***Float*&#x200B;调整图像的对比度。
+* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
+* **非正方形扩展***布尔值*&#x200B;启用压缩补偿并使用非正方形比率拉伸。
+* 高级
+  * **主污渍强度***Float*&#x200B;调整用于分解表面的主要污渍纹理的强度。
+  * **反转Scratches***布尔值*&#x200B;反转表面划痕的明亮度。
+  * **Scratches强度***Float*&#x200B;调整表面划痕的强度。
+  * **颗粒强度***Float*&#x200B;调整全局颗粒效果的强度。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeroughdirty-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeroughdirty-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 在MDL图表中公开参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面说明了在MDL图形中公开参数的过程，以便这些参数可以连接到图形中&#x200B;*其他节点*&#x200B;或&#x200B;*外部源*&#x200B;提供的值和纹理。
 
-![节点输入的公开状态](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-01.png "节点输入的公开状态")
+![节点输入的公开状态](../../assets/mdl-node-inputs-hl.png "节点输入的公开状态")
 
 *节点输入的公开状态*
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 在<b>图形视图</b>中选择某个节点后，其属性将显示在<b>属性</b>面板中。 大多数属性的标签右侧都列出了一组按钮：
 
-* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-02.png)将值复制到新节点并将其链接到此参数**：为此属性创建&#x200B;*输入连接器*&#x200B;并将其连接到输出此属性的当前值的&#x200B;*新节点*
-* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-03.png)为此参数创建输入插针**：为此属性创建&#x200B;*输入连接器*
-* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-04.png)将此参数重置为默认值**：当没有值连接到此属性的输入连接器时，将其值重置为默认值
+* **![](../../assets/mdl-expose-new-node.png)将值复制到新节点并将其链接到此参数**：为此属性创建&#x200B;*输入连接器*&#x200B;并将其连接到输出此属性的当前值的&#x200B;*新节点*
+* **![](../../assets/mdl-expose-new-input.png)为此参数创建输入插针**：为此属性创建&#x200B;*输入连接器*
+* **![](../../assets/mdl-expose-reset.png)将此参数重置为默认值**：当没有值连接到此属性的输入连接器时，将其值重置为默认值
 
-![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-05.gif)
+![](../../assets/mdl-expose-input.gif)
 
 *操作节点输入*
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 通过再次单击&#x200B;**创建此参数的输入管脚**&#x200B;按钮，可以&#x200B;*删除*&#x200B;输入连接器。 此时，属性值将返回到&#x200B;**属性**&#x200B;面板中设置的值。
 
-![公开节点参数](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-06.png "公开节点参数")
+![公开节点参数](../../assets/mdl-exposed-float-hl.png "公开节点参数")
 
 *公开的节点参数*
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 可公开的节点的上下文菜单中包含<b>公开</b>选项。 在大多数情况下，这些是生成值或数据（如Float、颜色或纹理坐标）的节点。
 
-节点上下文菜单中的![“公开”选项](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&amp;quot；公开&amp;quot；选项")
+节点上下文菜单中的![“公开”选项](../../assets/mdl-expose-float-menu-hl.png "&amp;quot；公开&amp;quot；选项")
 
 *节点上下文菜单中的“公开”选项*
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 >
 > 当在&#x200B;*节点*&#x200B;级别设置图形输入时，将在[图形属性](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)的&#x200B;**图形输入**&#x200B;部分中的&#x200B;*图形*&#x200B;级别管理其排序。
 
-![将节点公开到图形输入中](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-08.gif "将节点公开到图形输入中")
+![将节点公开到图形输入中](../../assets/mdl-expose-parameter.gif "将节点公开到图形输入中")
 
 *将节点公开到图形输入中*

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
-description: 使用“功率”节点将功率函数调整应用于纹理，以控制亮度曲线和灰度系数校正。
+description: 使用“电源”节点将功率函数调整应用于用于控制亮度曲线和灰度系数校正的纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 8%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](pow.resources/pow-01.png){width="128px"}
+![](../../../../../../assets/pow-1.png){width="128px"}
 
-![](pow.resources/pow-02.png){width="128px"}
+![](../../../../../../assets/pow-grayscale.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## Pow（灰度）
+
+**范围：** *滤镜/调整*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,24 +43,14 @@ ht-degree: 8%
 
 重要提示：根据您输入的是颜色还是灰度，确保使用正确的版本！
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>指数</b> <i>0.0 - 10.0</i> | 为输入供电的指数。 |
+* **指数**： *0.0 - 10.0*&#x200B;为输入供电的指数。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="pow.resources/pow-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/pow.gif)
+
+</td>
+</tr>
 </table>

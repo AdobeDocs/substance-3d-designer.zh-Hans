@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: 使用污渍Galvanic Small节点生成小尺寸的电偶腐蚀图案，用于金属风化效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 小型污渍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
-<b>在：</b>纹理生成器>杂色
+**在：** *纹理生成器**/噪声*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,30 +41,30 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
-| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
-| <b>高级</b> |  |
-| <b>清晰度</b> <i>浮动</i> | 调整镀锌形状的锐化程度和锐化程度。 |
-| <b>Dirt</b> <i>浮动</i> | 调整Dirt叠加的不透明度。 |
-| <b>微型扭曲</b> <i>浮动</i> | 调整高频变形效果的强度。 |
+* **平衡***Float*&#x200B;调整明暗值之间的平衡。
+* **对比度** *浮动*&#x200B;调整图像的对比度。
+* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
+* **非正方形扩展***布尔值*&#x200B;启用以非方形比率补偿挤压和拉伸。
+* 高级
+  * **清晰度***浮动*&#x200B;调整镀锌形状的清晰度和锐度。
+  * **Dirt** *Float*&#x200B;调整Dirt叠加的不透明度。
+  * **微扭曲***Float*&#x200B;调整高频变形效果的强度。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvanicsmall-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvanicsmall-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

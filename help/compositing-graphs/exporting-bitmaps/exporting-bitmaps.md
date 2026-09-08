@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 了解如何从Substance合成图导出纹理和位图以在外部应用程序和工作流程中使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 导出位图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 本页介绍Substance 3D Designer如何导出为多种不同的位图文件格式，以及如何批量导出多个UV磁贴。如果要[导出到PSD文件](../exporting-psd-files/exporting-psd-files.md)，请为此创建一个单独的专用页。
 
-![导出简化](exporting-bitmaps.resources/exporting-bitmaps-01.png "导出简化")
+![导出简化](../../assets/exportflow.png "导出简化")
 
 ## 导出概念
 
@@ -43,14 +43,14 @@ ht-degree: 2%
 
 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)窗口中，右键单击要导出的图形，然后选择&#x200B;**“将输出导出为位图”**
 
-![](exporting-bitmaps.resources/exporting-bitmaps-02.gif)
+![](../../assets/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-在[图形视图](../../interface/the-graph-view/the-graph-view.md)中，单击“工具”按钮![](exporting-bitmaps.resources/exporting-bitmaps-03.png)并选择&#x200B;**“导出输出……”**
+在[图形视图](../../interface/the-graph-view/the-graph-view.md)中，单击“工具”按钮![](../../assets/image2019-9-17-14-44-17.png)并选择&#x200B;**“导出输出……”**
 
-![](exporting-bitmaps.resources/exporting-bitmaps-04.gif)
+![](../../assets/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 2%
 1. <b>自动导出：</b>切换按钮用于在更改后立即启用图形输出的自动重新导出。 仅适用于当前图表。 可能很重且速度较慢，具体取决于设置。
 1. <b>导出按钮：</b>使用当前设置导出，或关闭对话框。
 
-![导出输出对话框](exporting-bitmaps.resources/exporting-bitmaps-05.png "导出输出对话框")
+![导出输出对话框](../../assets/fromgraph-1.png "导出输出对话框")
 
 ## “导出”对话框（批处理/UV磁贴）
 
@@ -90,4 +90,4 @@ ht-degree: 2%
 1. <b>UV拼贴：</b>与输出一样，允许您打开或关闭特定UV拼贴的导出。
 1. <b>[输出大小](../../compositing-graphs/output-size/output-size.md)： </b>覆盖导出分辨率，允许您以最大大小导出时进行更小、更高效的工作。
 
-![批量导出输出对话框](exporting-bitmaps.resources/exporting-bitmaps-06.png "批量导出输出对话框")
+![批量导出输出对话框](../../assets/batch.png "批量导出输出对话框")

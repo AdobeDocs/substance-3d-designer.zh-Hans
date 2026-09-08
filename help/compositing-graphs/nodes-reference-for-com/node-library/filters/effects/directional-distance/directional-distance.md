@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
 description: 使用方向距离节点计算过程效果的特定方向上的距离字段。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 方向距离
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性科威特灰度图标](directional-distance.resources/directional-distance-01.png "各向异性科威特灰度图标"){width="200px"}
+![各向异性科威特灰度图标](../../../../../../assets/directional_distance.png "各向异性科威特灰度图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -47,31 +47,45 @@ ht-degree: 0%
 >
 > [斜面平滑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)节点提供类似功能，其中扩展可在所有方向执行。
 
-<a name="inputs"></a>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-## 输入
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+### 输出连接器
+
+</td>
+<td style="border: 0;" valign="top">
+
+### 参数
+
+</td>
+</tr>
+</table>
+
+## 输入连接器
 
 |  |  |
-|:---|:---|
-| <b>输入</b> <i>灰度</i>主要 | 应从中提取蒙版的图像。   0.5以上的所有值在该蒙版中均为白色。 |
-| <b>距离图</b> <i>灰度</i> | “距离图乘数”参数的值大于0时使用的可选输入。   它用于调整沿蒙版边界的斜角/扩展距离，其中较暗的值导致较短的距离。 |
-| <b>角度映射</b> <i>灰度</i> | 一个可选输入，在“角度映射乘数”参数的值大于0时使用。   它用于通过将距离渐变的值添加到方向角（匝数）来调整距离渐变的方向。   使用“角度映射偏移”参数，可以通过指定哪个值为0来重新映射值。 |
+| --- | --- |
+| <b>输入</b> *灰度*&#x200B;主要 | 应从中提取蒙版的图像。   0.5以上的所有值在该蒙版中均为白色。 |
+| <b>距离图</b> *灰度* | “距离图乘数”参数的值大于0时使用的可选输入。   它用于调整沿蒙版边界的斜角/扩展距离，其中较暗的值导致较短的距离。 |
+| <b>角度映射</b> *灰度* | 一个可选输入，在“角度映射乘数”参数的值大于0时使用。   它用于通过将距离渐变的值添加到方向角（匝数）来调整距离渐变的方向。   使用“角度映射偏移”参数，可以通过指定哪个值为0来重新映射值。 |
 
-<a name="outputs"></a>
-
-## 输出
+## 输出连接器
 
 |  |  |
-|:---|:---|
-| <b>输出</b> <i>灰度</i> | 根据选定的“输出模式”生成结果图像。 |
-| <b>UV</b> <i>颜色</i> | UV映射，其中UV沿指定方向从蒙版边界扩展。   可以将其连接到[UV映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)节点，以使用这些扩展的UV映射任何其他图像。 |
-
-<a name="parameters"></a>
+| --- | --- |
+| <b>输出</b> *灰度* | 根据选定的“输出模式”生成结果图像。 |
+| <b>UV</b> *颜色* | UV映射，其中UV沿指定方向从蒙版边界扩展。   可以将其连接到[UV映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)节点，以使用这些扩展的UV映射任何其他图像。 |
 
 ## 参数
 
 |  |  |
-|:---|:---|
+| --- | --- |
 | <b>输出模式</b> *整数* | 从蒙版边界绘制距离渐变的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>反向归一化距离：</b>从1到0的渐变，其中0位于“最大距离”处，如果已连接，则乘以“距离图”</li> <li data-preserve-html="true"><b>距离：</b>距蒙版边框的原始距离值的渐变，其中1是输入图像较短一侧的长度</li> </ul> |
 | <b>最大距离</b> *浮动* | 在归一化图像空间中，距离渐变所行进的距离，其中1是输入图像的较短侧的长度。 |
 | <b>角度</b> *浮动* | 以匝数表示的距离渐变的方向，其中0为水平且向右 — 即(1,0)矢量。 |
@@ -88,11 +102,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional-distance-02.jpg" alt="directional_distance_example_1_before">
+      <img src="../../../../../../assets/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional-distance-03.jpg" alt="directional_distance_example_1_after">
+      <img src="../../../../../../assets/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -104,11 +118,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional-distance-04.jpg" alt="directional_distance_example_3_before">
+      <img src="../../../../../../assets/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional-distance-05.jpg" alt="directional_distance_example_3_after">
+      <img src="../../../../../../assets/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -125,11 +139,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional-distance-06.jpg" alt="directional_distance_example_2_before">
+      <img src="../../../../../../assets/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional-distance-07.jpg" alt="directional_distance_example_2_after">
+      <img src="../../../../../../assets/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -141,11 +155,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional-distance-08.jpg" alt="directional_distance_example_5_before">
+      <img src="../../../../../../assets/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional-distance-09.jpg" alt="directional_distance_example_5_after">
+      <img src="../../../../../../assets/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -158,11 +172,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional-distance-10.jpg" alt="directional_distance_example_4_before">
+      <img src="../../../../../../assets/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional-distance-11.jpg" alt="directional_distance_example_4_after">
+      <img src="../../../../../../assets/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
       <br><i>之后</i>
     </td>
   </tr>

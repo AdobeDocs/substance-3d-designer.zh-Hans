@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
 description: 使用“Color blend”（颜色混合）节点通过颜色模式混合纹理，可以在更改色相和饱和度时保留明亮度。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Color（混合节点）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '108'
 ht-degree: 4%
 
 ---
@@ -22,38 +22,41 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](color-blend-node.resources/color-blend-node-01.png){width="128px"}
+![](../../../../../../assets/difference.png){width="128px"}
 
-<b>英寸：</b>滤镜>混合
+## 颜色
+
+**范围：** *滤镜/混合*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 执行“颜色”混合模式，该模式可在采用前景色相和色度的同时保留背景的明亮度。
 
+## 参数
+
+### 输入
+
+* **前景**： *颜色输入*
+* **背景**： *颜色输入*
+* **蒙版**： *灰度输入*\
+  用于遮盖节点效果的遮罩槽。
+
+### 参数
+
+* **不透明度**： *0.0 - 1.0*\
+  在前景和背景之间混合不透明度。
+* **Alpha 值混合处理**： *False/True*\
+  切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。
+
+## 示例图像
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>前景</b> <i>颜色输入</i> |  |
-| <b>背景</b> <i>颜色输入</i> |  |
-| <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度。 |
-| <b>Alpha 值混合处理</b> <i>False/True</i> | 切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。 |

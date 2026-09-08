@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
 description: 使用材料切换节点，根据输入蒙版或条件在多个材料之间切换。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 材质开关
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
@@ -22,28 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](material-switch.resources/material-switch-01.png){width="128px"}
+![](../../../../../../assets/material-switch.png){width="128px"}
 
-<b>进入：</b>材质过滤器>混合
+## 材质开关
+
+**范围：** *材质过滤器/混合*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 此节点是[交换机](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)的多通道、完整材料版本。 它以两个材料作为输入，并根据切换参数只返回其中一个变量。
 
+## 参数
+
+### 参数
+
+* **频道**\
+  在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。
+* **切换**： *False/True*&#x200B;切换以返回材料1或2。
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
-| <b>切换</b> <i>False/True</i> | 切换以返回材料1或2。 |

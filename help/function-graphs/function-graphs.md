@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: 了解如何在Designer中创建和使用Substance函数图表来构建自定义函数和可重复使用的节点网络。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance函数图表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### Simple函数
 
-![](function-graphs.resources/function-graphs-02.png)
+![](../assets/lerpfunction_1.png)
 
 公开参数上下文中的简单函数。 它会获取一个名为“强度”的输入浮点值，该值决定为从0到1（一个易于理解的范围），并将它重新映射到设置为0.1 - 0.8的范围。 这意味着，如果用户将强度设置为0，则将使用内部0.1，如果Ui设置为1，则将使用0.8，并且其间的任何值都将进行线性插值。 在[公开参数](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)但使用自定义函数时，常使用此类型的函数。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 高级功能
 
-![](function-graphs.resources/function-graphs-03.png){width="545px"}
+![](../assets/pixel-function_1.png){width="545px"}
 
 此高级函数显示[像素处理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的内部工作，该处理器用于根据第二灰度蒙版输入的强度调整色图输入的色相。
 

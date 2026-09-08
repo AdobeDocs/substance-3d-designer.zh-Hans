@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
 breadcrumb-title: ''
 description: 使用“网格1”节点生成基本网格图案，用于创建几何纹理和基于网格的纹理。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 网格1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '80'
+ht-degree: 2%
 
 ---
 
@@ -22,39 +22,35 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](mesh-1.resources/mesh-1-01.png){width="128px"}
+![](../../../../../../assets/mesh-1.png){width="128px"}
 
-<b>进入：</b>纹理生成器>图案
+## 网格1
+
+**英寸：** *纹理生成器**/Patterns*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 具有细块的简单网格图案。 适合创建Height和细节映射。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
-| <b>旋转45度</b> <i>False/True</i> | 将结果旋转45度。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+* **拼贴**： *1 - 16*\
+  设置结果应平铺的次数。
+* **旋转45度**： *False/True*&#x200B;将结果旋转45度。
+* **非正方形扩展**： *False/True*\
+  启用以非方形比例补偿挤压和拉伸。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="mesh-1.resources/mesh-1-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/mesh-1-ex.gif)
+
+</td>
+</tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
 description: 使用噪声Upscale 1纹理，使用基于噪声的算法放大节点，以便在提高纹理分辨率时保留细节。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 噪声放大1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 6%
+source-wordcount: '161'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](noise-upscale-1.resources/noise-upscale-1-01.png){width="128px"}
+![](../../../../../../assets/noise-upscale.png){width="128px"}
 
-<b>英寸：</b>筛选器>变换
+## 噪声放大1
+
+**在：** *筛选器/变换*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,27 +43,20 @@ ht-degree: 6%
 
 另请参阅[噪声放大2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)和[噪声放大3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)，了解此过程的不同变化。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>偏移1X</b> <i>0.0 - 1.0</i> | 在X轴上滑动顶部和底部。 |
-| <b>偏移1Y</b> <i>0.0 - 1.0</i> | 在Y轴上滑动顶部和底部。 |
-| <b>偏移2X</b> <i>0.0 - 1.0</i> | 在X轴上滑动左右部件。 |
-| <b>偏移2年</b> <i>0.0 - 1.0</i> | 在Y轴上滑动左右部分。 |
+* **偏移1X**： *0.0 - 1.0*&#x200B;将顶部和底部滑过X轴。
+* **偏移1Y**： *0.0 - 1.0*\
+  在Y轴上滑动顶部和底部。
+* **偏移2X**： *0.0 - 1.0*&#x200B;将左右部分滑过X轴。
+* **偏移2Y**： *0.0 - 1.0*&#x200B;在Y轴上左右滑动部件。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="noise-upscale-1.resources/noise-upscale-1-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise1ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

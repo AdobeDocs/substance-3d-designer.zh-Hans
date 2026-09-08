@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer中的图形视图创建和编辑基于节点的材质图形。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -49,20 +49,20 @@ ht-degree: 0%
 > 
 > 可在[首选项](../../interface/preferences-window/preferences-window.md)中反转缩放方向。
 
-![视区导航](the-graph-view.resources/the-graph-view-01.gif "视区导航")
+![视区导航](../../assets/navigating.gif "视区导航")
 
 使用F键将<b>焦点</b>聚焦所选节点，如果未选择任何内容，则聚焦整个图形。
 
-也可以使用<b>导航图钉</b>和F2键进行导航，请参阅下面的[图形项](#graph-items) [。](../../interface/the-graph-view/graph-items/graph-items.md)
+也可以使用<b>导航图钉</b>和F2键进行导航，请参阅下面的[图形项](#graph-items)[。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## 移动对象
 
 单击对象（即节点或图形项）上的LMB，然后按住并拖动光标以在图形周围<b>移动节点</b>。 如果选择了多个对象，则所有选定对象都将随光标下的对象一起移动。
 
 如果光标<b>在移动对象时到达图形视图的边框</b>，则视图将沿光标的方向平移。 请注意，当光标远离边框时，平移速度会更快。\
-这同样适用于跨图形视图边框绘制选择框。
+这同样适用于跨“图形视图”边框绘制选择框。
 
-默认情况下，对象在移动时将<b>对齐到网格</b>。 在移动对象时按住Ctrl (Windows) / ⌘ (macOS)可禁用该捕捉。
+默认情况下，对象在移动时将<b>对齐到网格</b>。 在移动对象时按住Ctrl (Windows) / ⌘ (macOS)可禁用该对齐。
 
 ## 图形项目
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 <b>点节点</b>允许您重新路由和合并连接，并可用作<b>门户</b>来隐藏长连接或笨重的连接；
 
-<b>帧</b>可帮助您对具有可见标题和颜色编码的节点进行分组；
+<b>帧</b>可帮助您将具有可见标题和颜色编码的节点分组；
 
 通过<b>注释</b>，您可以跟踪节点或节点组的用途，并创建任何其他有用的批注；
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 <b>添加点节点：</b>添加[点](../../interface/the-graph-view/graph-items/graph-items.md)节点；
 
-<b>在3D视图中查看输出：</b>通过匹配的使用情况将所有图形的输出分配给[3D视图](../../interface/3d-view/3d-view.md)中的材料，请参阅下面的[与3D视图交互](#interacting-with-the-3d-view)；
+<b>在3D视图中查看输出：</b>通过匹配用法，将图形的所有输出分配给[3D视图](../../interface/3d-view/3d-view.md)中的材质，请参阅下面的[与3D视图交互](#interacting-with-the-3d-view)；
 
 <b>在3D视图中重置和查看输出：</b>在[3D视图中重置素材](../../interface/3d-view/3d-view.md)并通过匹配使用实例将图形的所有输出分配给该素材，请参阅下面的[与3D视图交互](#interacting-with-the-3d-view)；
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 <b>计算节点缩略图：</b>触发对图形中所有节点（将存储在[图像缓存](../../interface/preferences-window/preferences-window.md)中）的结果的计算，并使用它们的第一个输出作为其缩略图；
 
-<b>清除节点缩略图：</b>清除包含图形中所有节点结果的[图像缓存](../../interface/preferences-window/preferences-window.md)，这又会清除节点的缩略图；
+<b>清除节点缩略图：</b>清除包含图形中所有节点结果的[图像缓存](../../interface/preferences-window/preferences-window.md)，这又清除节点的缩略图；
 
 <b>保存包：</b>保存包含此图表的包；
 
@@ -144,13 +144,13 @@ ht-degree: 0%
 
 无论图形类型如何，节点都可以以5种方式放置到图形中：
 
-* 从节点工具栏上的图标单击或拖动（请参阅下文）。 只能以这种方式放置[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
-* 右键单击图形的空白区域，然后选择<b>添加节点</b>。 只能以这种方式放置[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
-* 将缩览图从“库视图”拖动到图形视图中。 此方法适用于[所有类型的节点，包括节点实例](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)。
+* 从节点工具栏上的图标单击或拖动（请参阅下文）。 只能以这种方式放置[个原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
+* 右键单击图形的空白区域，然后选择<b>添加node</b>。 只能以这种方式放置[个原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
+* 将缩览图从“图库视图”拖动到图形视图中。 此方法适用于[所有类型的节点，包括节点实例](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)。
 * 按<b>空格键</b>访问<b>节点菜单</b>。 请参阅以下内容。
 * 使用映射到节点的键盘快捷键。 映射在[首选项窗口](../../interface/preferences-window/preferences-window.md)中执行。
 
-![放置节点](the-graph-view.resources/the-graph-view-02.gif "放置节点")
+![放置节点](../../assets/nodecreation.gif "放置节点")
 
 如果在选择另一个节点时放置了某个节点，则Designer将尝试自动将新节点连接到旧节点。\
 此自动连接始终将新节点&#x200B;*置于*&#x200B;工作流中的旧节点之后。
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ### 节点菜单
 
-按图表视图中的<b>空格键</b>可显示“节点”菜单。
+按图形视图中的<b>空格键</b>可显示“节点”菜单。
 
 此菜单通过搜索界面提供对[库](../../interface/the-library/the-library.md)中所有节点的访问，并允许收藏的节点显示在列表顶部。
 
@@ -174,13 +174,13 @@ ht-degree: 0%
 
 搜索为&#x200B;*模糊*，这意味着它原谅搜索词中的细微差异。 例如，“颜色”与“颜色”、“标准化”与“标准化”等。
 
-如果在图形中选择了&#x200B;*单个*&#x200B;节点，或通过拖动节点连接器生成“节点”菜单，则搜索结果将根据输出类型自动&#x200B;*筛选*。\
+如果在图形中选择了&#x200B;*单个*&#x200B;节点，或者通过拖动节点连接器生成了“节点”菜单，则搜索结果将根据输出类型自动&#x200B;*筛选*。\
 例如，对于“灰度”类型的输出，仅列出具有“[主输入](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)”类型的“灰度”节点。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![图形视图：节点菜单](the-graph-view.resources/the-graph-view-03.png "图形视图：节点菜单")
+![图形视图：节点菜单](../../assets/graph-node-menu_fuzzy-search.png "图形视图：节点菜单")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ ht-degree: 0%
 * <b>上游：</b>单击某个节点上的RMB并选择<b>选择上游节点</b>选项：选中该节点以及属于连接到该节点的&#x200B;*输入*&#x200B;的流的所有节点；
 * <b>下游：</b>单击某个节点上的RMB并选择<b>选择下游节点</b>选项：将选中该节点以及作为连接到该节点的&#x200B;*输出*&#x200B;的流的一部分的所有节点。
 
-![选择节点](the-graph-view.resources/the-graph-view-04.gif "选择节点")
+![选择节点](../../assets/graph-selecting-nodes.gif "选择节点")
 
 ### 节点上下文菜单
 
@@ -223,9 +223,9 @@ ht-degree: 0%
 
 <b>创建\*：</b>为此节点的每个输入和/或输出创建输入和/或输出节点；
 
-<b>打开引用\*：</b>将此图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的Node 加载为单独的图形视图选项卡；
+<b>打开引用\*：</b>将此图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的Node [加载为单独的图形视图选项卡；
 
-<b>在上下文中打开引用\*\*：</b>在当前图形的上下文中将此图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的节点加载为现有图形视图选项卡中的痕迹导航；
+<b>在上下文中打开引用\*\*：</b>在当前图形的上下文中将此图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的节点[加载为现有图形视图选项卡中的痕迹导航；
 
 <b>从所选对象创建图形：</b>将所选节点复制到新图形中；
 
@@ -268,7 +268,7 @@ ht-degree: 0%
 > * 对于&#x200B;*输入*&#x200B;连接器：节点将回退到为该输入设置的默认值；
 > * 对于&#x200B;*输出*&#x200B;连接器：计算图形时会忽略并丢弃数据。
 
-![连接节点](the-graph-view.resources/the-graph-view-05.gif "连接节点")
+![连接节点](../../assets/links.gif "连接节点")
 
 您可以按&#x200B;*任意顺序*&#x200B;单击每个连接器上的LMB，以<b>创建</b>一个新链接。\
 此外，如果在选择节点A的同时创建节点B，则节点A的&#x200B;*第一输出*&#x200B;将自动连接到节点B的&#x200B;*主输入*。
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 禁用的节点具有下列行为：
 
-* 它们具有![](the-graph-view.resources/the-graph-view-06.png) <b>已禁用</b>徽章&#x200B;*、*&#x200B;一个&#x200B;*虚线轮廓*&#x200B;和一个内部*重路由*链接，而不是缩略图；
+* 它们具有![](../../assets/graph-badge-disabled.png) <b>已禁用</b>徽章&#x200B;*、*&#x200B;一个&#x200B;*虚线轮廓*&#x200B;和一个内部*重路由*链接，而不是缩略图；
 * 节点将输出在其&#x200B;*主输入*&#x200B;中接收的数据；
 * 禁用的节点可以&#x200B;*链接在一起*；
 * 它们的属性和连接是&#x200B;*未修改的*；
@@ -309,15 +309,15 @@ ht-degree: 0%
 > * 主输入和输出的&#x200B;*类型*&#x200B;必须&#x200B;*匹配* — 即灰度到灰度，颜色到颜色
 > * 所有选定节点都必须具有&#x200B;*相同状态* — 即，必须启用所有节点，相同的规则适用于启用节点
 
-![正在禁用节点](the-graph-view.resources/the-graph-view-07.gif "正在禁用节点"){width="512px"}
+![正在禁用节点](../../assets/graph-disable-node.gif "正在禁用节点"){width="512px"}
 
 ## 与2D视图交互
 
 >[!NOTE]
 >
-> 这仅适用于[图形](../../compositing-graphs/substance-compositing-graphs.md)。
+> 这仅适用于[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
 
-要在[2D 视图](../../interface/2d-view/2d-view.md)中显示节点输出，请双击节点上的LMB，或单击节点上的RMB，然后在上下文菜单中选择[在2D 视图中查看输出](#interacting-with-the-2d-view)选项。 如果节点有多个输出，请在子菜单中选择所需的输出。
+要在[2D视图](../../interface/2d-view/2d-view.md)中显示节点输出，请双击节点上的LMB，或单击节点上的RMB，然后在上下文菜单中选择[在2D视图中查看输出](#interacting-with-the-2d-view)选项。 如果节点有多个输出，请在子菜单中选择所需的输出。
 
 您可以通过单击[图形视图](https://substance3d.adobe.com/)中的空白区域上的RMB，然后在上下文菜单中选择[在2D视图中查看输出](#interacting-with-the-2d-view)选项，在2D视图中显示任何图形输出。 如果图形有多个输出，请在子菜单中选择所需的输出。
 
@@ -325,11 +325,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 这仅适用于[图形](../../compositing-graphs/substance-compositing-graphs.md)。
+> 这仅适用于[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
 
 若要在[3D视图](../../interface/3d-view/3d-view.md)中应用节点输出，请在节点上单击RMB，然后在上下文菜单中选择<b>在3D视图中视图</b>选项。 如果节点有多个输出，请在子菜单中选择所需的输出。 然后，选择当前在3D视图中使用的着色器的目标通道。
 
-（*[仅限图形](../../compositing-graphs/substance-compositing-graphs.md)*）您可以通过单击图形视图中空白区域的RMB，然后在上下文菜单中选择<b>在3D视图中查看输出</b>选项，来应用3D视图中的所有图形输出。 确保图形中存在一个或多个[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点，并且该节点[设置正确](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
+（*[仅Substance图形](../../compositing-graphs/substance-compositing-graphs.md)*）您可以通过单击“图形”视图的空白区域上的“人民币”，然后在上下文菜单中选择<b>在3D视图中查看输出</b>选项，来应用3D视图中的所有图形输出。 确保图形中存在一个或多个[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点，并且该节点[设置正确](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
 ## 工具栏
 
@@ -341,78 +341,78 @@ ht-degree: 0%
 
 主工具栏可以在每种图形类型中找到，并提供常规功能以及切换其他工具栏的可见性。 您可以找到以下函数：
 
-![](the-graph-view.resources/the-graph-view-08.png) <b>焦点选择</b> (F)\
+![](../../assets/image2020-6-26-16-25-57.png) <b>焦点选择</b> (F)\
 将视图集中在选区上，如果选区为空，则聚焦整个场景。
 
-![](the-graph-view.resources/the-graph-view-09.png) <b>重置缩放</b> (Z)\
-将当前缩放级别恢复到默认状态，并将视图置于图形的中间。 可能意味着放大或缩小。
+![](../../assets/image2020-6-26-16-26-8.png) <b>重置缩放</b> (Z)\
+将当前缩放级别恢复到默认状态，并将视图居中显示在图形的中间。 可能意味着放大或缩小。
 
-![](the-graph-view.resources/the-graph-view-10.png) <b>导出图形视图\
+![](../../assets/image2020-6-26-16-26-26.png) <b>导出图形视图\
 </b>以1:1的分辨率将完整图形导出为图像。 用于共享整个图形的屏幕截图。
 
-![](the-graph-view.resources/the-graph-view-11.png) <b>节点信息\
+![](../../assets/image2020-6-26-16-26-37.png) <b>节点信息\
 </b>*— 显示连接器名称：*&#x200B;切换节点上每个单独连接器的名称显示。\
 *— 显示节点徽章：*&#x200B;在所有节点上切换节点徽章。\
 *— 显示节点大小：*&#x200B;切换节点分辨率显示（仅[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)）。\
 *— 显示计时：*&#x200B;切换每个节点的毫秒计时的显示（仅[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)）。\
 *— 缩小时限制文本缩放：*&#x200B;使[图形项](../../interface/the-graph-view/graph-items/graph-items.md)的文本保持固定的屏幕大小，超过缩放阈值，这样在缩小时文本仍清晰可见。
 
-![](the-graph-view.resources/the-graph-view-12.png)<b>节点查找器</b> (Ctrl+F)\
+![](../../assets/image2020-6-26-16-26-52.png)<b>节点查找器</b> (Ctrl+F)\
 启用工具以在图形中查找节点、公开的参数和其他变量。 在[专用页面](../../interface/the-graph-view/node-finder/node-finder.md)中了解更多信息。
 
-![](the-graph-view.resources/the-graph-view-13.png) <b>高光流\
+![](../../assets/image2020-6-26-16-27-43.png) <b>高光流\
 </b>突出显示当前所选节点之前或之后连接的所有节点。 适用于跟踪节点的复杂路径。
 
-![](the-graph-view.resources/the-graph-view-14.png) <b>节点调板\
+![](../../assets/image2020-6-26-16-28-30.png) <b>节点调板\
 </b>显示或隐藏节点工具栏，请参阅下文。
 
-![](the-graph-view.resources/the-graph-view-15.png) <b>矩形链接\
+![](../../assets/image2020-6-26-16-32-33.png) <b>矩形链接\
 </b>在节点之间的圆角或矩形链接之间切换。 不适用于[FX-Maps。](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](the-graph-view.resources/the-graph-view-16.png) <b>节点对齐工具\
+![](../../assets/image2020-6-26-16-38-2.png) <b>节点对齐工具\
 </b>启用工具在图表中排列选定节点。 在[专用页面](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)中了解更多信息。
 
 仅在[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)上：
 
-![](the-graph-view.resources/the-graph-view-17.png) <b>主页大小\
+![](../../assets/image2020-6-26-16-29-6.png) <b>主页大小\
 </b>切换显示父分辨率控制设置，请参阅下文。
 
-![](the-graph-view.resources/the-graph-view-18.png) <b>链接创建模式</b> (1， 2， 3)\
+![](../../assets/image2020-6-26-16-31-15.png) <b>链接创建模式</b> (1， 2， 3)\
 在“标准”(1)、“材料”(2)和“紧凑材料”(3)链接创建模式之间进行选择，以单独或批量链接节点连接器。 在[专用页面](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)中了解更多信息。
 
-![](the-graph-view.resources/the-graph-view-19.png) <b>计时控件\
+![](../../assets/image2020-6-26-16-33-35.png) <b>计时控件\
 </b>允许您重置所有节点和重置所有计时。
 
-![](the-graph-view.resources/the-graph-view-20.png) <b>工具\
+![](../../assets/image2020-6-26-16-34-12.png) <b>工具\
 </b>*— 清理：*&#x200B;删除属于未连接到[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点的流的所有节点。\
 *— 导出输出：*&#x200B;打开[位图导出接口](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。\
 *— 重新导出输出：*&#x200B;再次执行上一个导出操作。\
 *-PSD 导出器：*&#x200B;打开[PSD 导出器](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md)接口。
 
-![](the-graph-view.resources/the-graph-view-21.png) <b>节点映像缓存\
+![](../../assets/image2020-6-26-16-37-16.png) <b>节点映像缓存\
 </b>切换节点图像缓存切换的显示，请参阅下文。
 
-![](the-graph-view.resources/the-graph-view-22.jpg)删除未使用的节点\
+![](../../assets/graph-cleaner.jpg)删除未使用的节点\
 </b>显示用于删除图形中未使用的节点的选项，请参阅下文。
 
 ### 节点调板
 
 节点工具栏因图形类型而异：
 
-[![节点调板](the-graph-view.resources/the-graph-view-23.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![节点调板](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[图形](../../compositing-graphs/substance-compositing-graphs.md)：</b>查看[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)和[图形项](../../interface/the-graph-view/graph-items/graph-items.md)。
 
 
-![图形项调色板](the-graph-view.resources/the-graph-view-24.png "图形项调色板")<br>
+![图形项调色板](../../assets/image2020-6-26-16-46-32.png "图形项调色板")<br>
 <b>[函数图形](../../function-graphs/function-graphs.md)Substance：</b>请参阅[图形项](../../interface/the-graph-view/graph-items/graph-items.md)。
 
 
-![FX-Map调色板](the-graph-view.resources/the-graph-view-25.png "FX-Map调色板")<br>
+![FX-Map调色板](../../assets/image2020-6-26-16-48-4.png "FX-Map调色板")<br>
 <b>[图形](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)：</b>查看[图形项。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### 主页大小
 
-![主页大小工具栏](the-graph-view.resources/the-graph-view-26.png "主页大小工具栏")
+![主页大小工具栏](../../assets/image2020-6-26-17-0-48.png "主页大小工具栏")
 
 此工具栏仅在[图形](../../compositing-graphs/substance-compositing-graphs.md)中可用，并设置了图形&#x200B;*父级*&#x200B;的[输出大小](../../compositing-graphs/output-size/output-size.md)，如果它使用&#x200B;*相对于父代* [继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，则会影响图形的输出大小。
 
@@ -420,29 +420,29 @@ ht-degree: 0%
 
 ### 节点映像缓存
 
-![节点映像缓存设置](the-graph-view.resources/the-graph-view-27.png "节点映像缓存设置")
+![节点映像缓存设置](../../assets/graph-toolbar-node-cache.png "节点映像缓存设置")
 
-这样可在计算[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的节点时切换缓存的使用。
+在计算[Substance节点](../../compositing-graphs/substance-compositing-graphs.md)中的图形时，此切换缓存的使用。
 
-计算某个节点时，其输出图像存储在内存（即缓存）中，因此如果该节点不受更改的影响，则重新计算图表时可以&#x200B;*重新使用它们*。 这意味着只重新计算图表中实际发生更改的部分。
+计算节点时，其输出图像存储在内存（即缓存）中，因此如果此图形不受更改的影响，则在重新计算节点时可以&#x200B;*重新使用它们*。 这意味着只重新计算实际更改的图形部分。
 
 此缓存的内存存储限制可在[首选项](../../interface/preferences-window/preferences-window.md)的<b>常规</b>部分的<b>内存</b>部分下更改。
 
-启用此选项将导致图形计算的整体响应性大幅提升，但代价是显着增加Designer的内存使用量。
+启用此选项会大幅提高计算的整体响应速度，但代价是显着增加Designer的内存使用量。
 
 ### 移除未使用的节点
 
-![删除未使用的节点下拉菜单](the-graph-view.resources/the-graph-view-28.jpg "删除未使用的节点下拉菜单")
+![删除未使用的节点下拉菜单](../../assets/graph-cleaner-menu.jpg "删除未使用的节点下拉菜单")
 
-在图形中进行迭代并尝试操作时，某些对最终结果没有影响的节点可能会落在后面。 这增加了杂乱和浪费计算，因为所有节点在图形绘制的第一阶段都被评估。
+在迭代图形并尝试操作时，某些对最终结果没有影响的节点可能会落在后面。 由于在图形渲染的第一阶段评估所有计算，因此这会增加杂乱和浪费。
 
-![](the-graph-view.resources/the-graph-view-22.jpg)移除未使用的节点</b>工具将删除&#x200B;*在输出*&#x200B;节点中结束的流中&#x200B;*不是*&#x200B;的所有节点。 唯一的例外是&#x200B;*输入*&#x200B;节点，因为删除这些节点将更改引用此图形的[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的接口。
+![](../../assets/graph-cleaner.jpg)移除未使用的节点</b>工具将删除&#x200B;*在输出*&#x200B;节点中结束的流中&#x200B;*不是*&#x200B;的所有节点。 唯一的例外是&#x200B;*输入*&#x200B;节点，因为删除这些节点将更改引用此图形的[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的接口。
 
-![移除未使用的节点](the-graph-view.resources/the-graph-view-29.gif "移除未使用的节点")
+![移除未使用的节点](../../assets/graph-cleaner.gif "移除未使用的节点")
 
 第一个选项仅将清理应用于&#x200B;*当前*&#x200B;图形。
 
-如果当前图形是[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)，则会启用第二个选项，使您可以在清理过程中&#x200B;*包括所有节点参数函数*。 这意味着，如果控制节点参数值的[函数图形](../../function-graphs/function-graphs.md)具有未使用的节点，则还将按照相同的规则清除该图形。
+如果当前图形是[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)，则会启用第二个选项，使您可以在清理过程中&#x200B;*包括所有node参数函数*。 这意味着，如果控制节点参数值的[函数图形](../../function-graphs/function-graphs.md)具有未使用的图形，则也将按照相同的规则清除该节点。
 
 完成清理后，将显示报告对话框。 您将在<b>控制台</b>中找到更多详细信息，如标记为`GraphCleaner`的日志。 这些日志将包括每个图形和参数函数中已删除的节点数。
 

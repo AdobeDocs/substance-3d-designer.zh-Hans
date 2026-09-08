@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: 使用“转换为sRGB”节点，可以将用于显示和输出工作流程的纹理从线性转换为sRGB色彩空间。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 转换为sRGB
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,34 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](convert-to-srgb.resources/convert-to-srgb-01.png){width="128px"}
+![](../../../../../../assets/convert-to-srgb-grayscale.png){width="128px"}
 
-![](convert-to-srgb.resources/convert-to-srgb-02.png){width="128px"}
+![](../../../../../../assets/convert-to-srgb.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## 转换为sRGB（灰度）
+
+**范围：** *滤镜/调整*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 将线性输入转换为sRGB色彩空间。 例如，在使用照片参考材料进行处理和转换时非常有用。
+
+## 参数
+
+*无参数。*
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
 
 </td>
 </tr>

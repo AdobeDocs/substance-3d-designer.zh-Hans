@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer图形视图中的帧来组织和分组节点，以便提高视觉清晰度。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 取景框
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![框架图标](frame.resources/frame-01.png "框架图标")
+![框架图标](../../../../assets/graphatomic-frame_1.png "框架图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 在<b>标题</b>属性中设置的标题在框架的左上角呈灰色。
 
-![帧（默认状态）](frame.resources/frame-02.png "帧（默认状态）")
+![帧（默认状态）](../../../../assets/graph-frames-default.png "帧（默认状态）")
 
 
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 可以通过拖动标题栏或其标题来移动框架。
 
-![帧（悬停状态）](frame.resources/frame-03.png "帧（悬停状态）")
+![帧（悬停状态）](../../../../assets/graph-frames-hover.png "帧（悬停状态）")
 
 
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 +++选定项
 选中后，框架的标题和轮廓以白色突出显示。 轮廓变得更粗。
 
-![帧（选定状态）](frame.resources/frame-04.png "帧（选定状态）")
+![帧（选定状态）](../../../../assets/graph-frames-selected.png "帧（选定状态）")
 
 
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 考虑到这一点，使用键盘快捷键创建框架可以更快地设置图表中内容的框架。
 
-![帧：创建方法](frame.resources/frame-05.gif "帧：创建方法"){width="480px"}
+![帧：创建方法](../../../../assets/graph-frames_creation.gif "帧：创建方法"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧：交互区域](frame.resources/frame-06.png "帧：交互区域")
+![帧：交互区域](../../../../assets/graph-frames_interaction-zones.png "帧：交互区域")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧：网格对齐](frame.resources/frame-07.gif "帧：网格对齐")
+![帧：网格对齐](../../../../assets/graph-frames_grid-snapping.gif "帧：网格对齐")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 可以将字幕的大小锁定为最小屏幕大小，以便在缩小图表时保持可读性。 您可以通过选中[图形视图](../../../../interface/the-graph-view/the-graph-view.md)工具栏的<b>信息</b>下拉列表中的“框架标题”选项来执行此操作。
 
-![帧：标题](frame.resources/frame-08.gif "帧：标题"){width="640px"}
+![帧：标题](../../../../assets/graph_frames_title.gif "帧：标题"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ ht-degree: 1%
 +++描述
 <b>描述</b>是可选的附加文本，可用于对帧的内容进行批注。
 
-可以使用HTML标记设置文本的格式。 通过单击![](frame.resources/frame-09.png) <b>HTML标记</b>按钮来切换此格式。
+可以使用HTML标记设置文本的格式。 通过单击![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮来切换此格式。
 
 请在下面的“描述”部分中了解更多信息。
 
-![帧：描述](frame.resources/frame-10.gif "帧：描述"){width="640px"}
+![帧：描述](../../../../assets/graph-frames_description.gif "帧：描述"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 
 颜色的Alpha通道控制帧的&#x200B;*不透明度*，其中值0表示帧完全透明。
 
-![帧：颜色](frame.resources/frame-11.gif "帧：颜色"){width="640px"}
+![帧：颜色](../../../../assets/graph-frames_colour.gif "帧：颜色"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧（默认描述）](frame.resources/frame-12.png "帧（默认描述）"){zoomable="yes"}
+![帧（默认描述）](../../../../assets/graph-frames-descr.png "帧（默认描述）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ ht-degree: 1%
 
 ### HTML格式设置
 
-可使用框架的<b>描述</b>属性中的HTML标记来设置文本的格式。 必须在该属性中使用![](frame.resources/frame-09.png) <b>HTML标记</b>按钮启用格式设置。
+可使用框架的<b>描述</b>属性中的HTML标记来设置文本的格式。 必须在该属性中使用![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮启用格式设置。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![帧（HTML格式说明）](frame.resources/frame-13.png "帧（HTML格式说明）"){zoomable="yes"}
+![帧（HTML格式说明）](../../../../assets/graph-frames-descr-html.png "帧（HTML格式说明）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -279,13 +279,13 @@ ht-degree: 1%
 
 节点下方显示的徽章、连接器和信息均被忽略。
 
-节点可以是不同的Height，这取决于其输入或输出连接器的数量。
+根据输入或输出连接器的数量，Height可以是不同的。
 
-当连接器被显示或隐藏、添加或删除时，节点的Height会从其&#x200B;*中心*&#x200B;进行调整。
+当连接器显示或隐藏、添加或删除时，节点的Height会从其&#x200B;*中心*&#x200B;进行调整。
 
 因此，在&#x200B;*有意移动*&#x200B;之前，不应更改节点中心点的位置。
 
-![帧包含：高节点](frame.resources/frame-14.png "帧包含：高节点")
+![帧包含：高节点](../../../../assets/frame_inclusion_node_tall.png "帧包含：高节点")
 
 
 
@@ -297,11 +297,11 @@ ht-degree: 1%
 
 节点下方显示的徽章、连接器和信息均被忽略。
 
-![帧包含：停靠节点](frame.resources/frame-15.png "帧包含：停靠节点")
+![帧包含：停靠节点](../../../../assets/frame_inclusion_node_docked.png "帧包含：停靠节点")
 
 
 
-![帧包含： nodes](frame.resources/frame-16.png "帧包含： nodes")
+![帧包含： nodes](../../../../assets/frame_inclusion_node.png "帧包含： nodes")
 
 
 
@@ -312,7 +312,7 @@ ht-degree: 1%
 
 连接器、门户图标和名称都将被忽略。
 
-![帧包含：点节点](frame.resources/frame-17.png "帧包含：点节点")
+![帧包含：点节点](../../../../assets/frame_inclusion_dot.png "帧包含：点节点")
 
 
 
@@ -329,11 +329,11 @@ ht-degree: 1%
 
 
 
-![帧包含：父注释](frame.resources/frame-18.png "帧包含：父注释")
+![帧包含：父注释](../../../../assets/frame_inclusion_comment_parented.png "帧包含：父注释")
 
 
 
-![包含帧：注释](frame.resources/frame-19.png "包含帧：注释")
+![包含帧：注释](../../../../assets/frame_inclusion_comment.png "包含帧：注释")
 
 
 
@@ -342,7 +342,7 @@ ht-degree: 1%
 +++图钉
 使用图钉图标的<b>提示</b>。
 
-![帧包含：导航标记](frame.resources/frame-20.png "帧包含：导航标记")
+![帧包含：导航标记](../../../../assets/frame_inclusion_pin.png "帧包含：导航标记")
 
 
 
@@ -355,7 +355,7 @@ ht-degree: 1%
 
 标题将被忽略。
 
-![包含帧：嵌套帧](frame.resources/frame-21.png "包含帧：嵌套帧")
+![包含帧：嵌套帧](../../../../assets/frame_inclusion_frame.png "包含帧：嵌套帧")
 
 
 
@@ -363,7 +363,7 @@ ht-degree: 1%
 
 ## 使尺寸适合内容
 
-![帧：大小适合内容](frame.resources/frame-22.png "帧：大小适合内容")
+![帧：大小适合内容](../../../../assets/graph-frames_fit-size-to-content.png "帧：大小适合内容")
 
 在图表中进行调整时，框架可能不会再顺畅地适应其内容。 在这种情况下，可以自动调整帧的位置和大小，以便通过填充一个中等网格单元来调整其内容的跨度。
 
@@ -386,14 +386,14 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧：大小适合内容（带说明）](frame.resources/frame-23.png "帧：大小适合内容（带说明）")
+![帧：大小适合内容（带说明）](../../../../assets/graph-frames_fit-description.png "帧：大小适合内容（带说明）")
 
 </td>
 </tr>
 </table>
 
 +++示例
-![帧：大小适合内容(GIF)](frame.resources/frame-24.gif "帧：大小适合内容(GIF)"){width="640px"}
+![帧：大小适合内容(GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "帧：大小适合内容(GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ ht-degree: 1%
 
 ## 自动扩展
 
-![帧：自动扩展](frame.resources/frame-25.png "帧：自动扩展")
+![帧：自动扩展](../../../../assets/graph-frames_auto-expand.png "帧：自动扩展")
 
 随着图形的增长，可能需要重新排列帧的内容。 节点可能会移动以便为添加留出空间，也可能需要将内容隔开更多以提高可读性。
 
@@ -416,7 +416,7 @@ ht-degree: 1%
 > 虽然在移动期间可随时按下<b>Shift</b>键或释放该键以触发或取消自动调整帧，但在完成移动时必须按住&#x200B;*Shift*&#x200B;键以有效地应用调整。
 
 +++示例
-![帧：自动扩展(GIF)](frame.resources/frame-26.gif "帧：自动扩展(GIF)"){width="640px"}
+![帧：自动扩展(GIF)](../../../../assets/graph-frames_auto-expand.gif "帧：自动扩展(GIF)"){width="640px"}
 
 
 

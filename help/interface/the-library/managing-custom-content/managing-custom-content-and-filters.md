@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer Library中管理自定义内容和过滤器，以便有条不紊地访问资源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理自定义内容和过滤器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 这意味着，对于一个或多个项目文件，您可以设置应添加到<b>库</b>中的内容的文件夹，以及将对内容进行排序和组织的类别和过滤器。
 
-![库中的自定义内容](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "库中的自定义内容")
+![库中的自定义内容](../../../assets/library-filters.png "库中的自定义内容")
 
 ## 图形属性
 
@@ -57,11 +57,11 @@ Filters是简单的布尔型(True/False)搜索参数，当选择<b>Filter</b>时
 
 使用下列按钮创建和编辑类别（即文件夹）和过滤器：
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png)添加文件夹： </b>在库视图中创建一个可展开的文件夹。 您&#x200B;*无法*&#x200B;创建子文件夹。
+<b>![](../../../assets/library-icon-new-folder.png)添加文件夹： </b>在库视图中创建一个可展开的文件夹。 您&#x200B;*无法*&#x200B;创建子文件夹。
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png)添加筛选器：</b>在所选文件夹中添加新的筛选器。 您&#x200B;*无法*&#x200B;将筛选器添加到现有的默认文件夹。
+<b>![](../../../assets/library-icon-new-filter.png)添加筛选器：</b>在所选文件夹中添加新的筛选器。 您&#x200B;*无法*&#x200B;将筛选器添加到现有的默认文件夹。
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png)编辑项：</b>编辑当前选定的文件夹或筛选器。 您&#x200B;*无法*&#x200B;编辑默认文件夹和筛选器的任何属性。
+<b>![](../../../assets/library-icon-edit.png)编辑项：</b>编辑当前选定的文件夹或筛选器。 您&#x200B;*无法*&#x200B;编辑默认文件夹和筛选器的任何属性。
 
 要&#x200B;*删除*&#x200B;文件夹或筛选器，请&#x200B;*右键单击该文件夹或筛选器*，然后从上下文菜单中选择<b>删除</b>选项。
 
@@ -76,11 +76,11 @@ Filters是简单的布尔型(True/False)搜索参数，当选择<b>Filter</b>时
 >
 > *非常*&#x200B;重要的是正确设置这些项，以确保您正在编辑&#x200B;*正确的项目*！
 
-![自定义筛选器版本](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "自定义筛选器版本")
+![自定义筛选器版本](../../../assets/library-filters-edit.png "自定义筛选器版本")
 
-**筛选器**&#x200B;通常需要设置&#x200B;*条件*&#x200B;才能达到其筛选目的。 可使用以下条件配置这些条件：
+**筛选器**&#x200B;通常需要设置&#x200B;*条件*&#x200B;才能实现其筛选目的。 可使用以下条件配置这些条件：
 
-* **资源类型**：设置特定的[资源类型](../../../resources/resources.md)，如[图表](../../../compositing-graphs/substance-compositing-graphs.md)
+* **资源类型**：设置特定的[资源类型](../../../resources/resources.md)，例如[图形](../../../compositing-graphs/substance-compositing-graphs.md)
 * **属性**&#x200B;将条件应用于 — 请参阅上面的列表
 * **条件逻辑**：允许筛选器包含正匹配、负匹配、部分匹配和完全匹配的结果
 * **条件关键字：**&#x200B;用来测试&#x200B;**属性**&#x200B;和&#x200B;**条件逻辑**&#x200B;条件的字符串。 如果留空，则包含与这两个条件匹配的任何资源

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: 了解如何在FXMaps中使用SetSequence节点创建顺序模式和过程变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用SetSequence节点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 
 ## 概述
 
-在<b>FX-Maps</b>中使用函数时，有时需要从参数的&#x200B;*[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)*&#x200B;输出值，这样您就可以&#x200B;*将它用于另一个函数中。* 但默认情况下，Substance函数图形仅输出&#x200B;*一个*&#x200B;值：驱动相关参数的值。
+在<b>FX-Maps</b>中使用函数时，有时需要从参数的&#x200B;*[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)*&#x200B;输出值，这样您就可以&#x200B;*将它用于另一个函数图形*。 但默认情况下，Substance函数图表仅输出&#x200B;*一个*&#x200B;值：驱动相关参数的值。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![设置和序列节点](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-01.png "设置和序列节点")
+![设置和序列节点](../../../../assets/image2017-3-17-15-5-5.png "设置和序列节点")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![设置节点](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-02.png "设置节点")
+![设置节点](../../../../assets/image2017-3-17-15-12-52.png "设置节点")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![设置节点示例](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-03.png "设置节点示例")
+![设置节点示例](../../../../assets/image2018-8-30-17-45-35.png "设置节点示例")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![序列节点](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-04.png "序列节点")
+![序列节点](../../../../assets/image2017-3-17-15-17-38.png "序列节点")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![序列节点示例](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-05.png "序列节点示例")
+![序列节点示例](../../../../assets/image2018-8-30-17-49-41.png "序列节点示例")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 例如，您可以先&#x200B;*设置*&#x200B;变量，*更新*&#x200B;稍后再更新其值，然后&#x200B;*读取*&#x200B;其最终值，同时确保这些操作以&#x200B;*特定顺序*&#x200B;发生。
 
-![序列节点已链接](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-06.png "序列节点已链接")
+![序列节点已链接](../../../../assets/image2018-8-30-17-52-27.png "序列节点已链接")
 
 ## 变量可见性
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限属性](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-07.png "象限属性")
+![象限属性](../../../../assets/image2018-8-30-18-1-6.png "象限属性")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限的颜色/亮度函数](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-08.png "象限的颜色/亮度函数")
+![象限的颜色/亮度函数](../../../../assets/image2018-8-30-18-4-46.png "象限的颜色/亮度函数")
 
 </td>
 </tr>
 </table>
 
-![散布的图案](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-09.png "散布的图案")
+![散布的图案](../../../../assets/image2018-8-30-18-5-30.png "散布的图案")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![图案旋转的参数函数菜单](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-10.png "图案旋转的参数函数菜单")
+![图案旋转的参数函数菜单](../../../../assets/image2018-8-30-18-7-57.png "图案旋转的参数函数菜单")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![图案旋转的Get float输出](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-11.png "图案旋转的Get float输出")
+![图案旋转的Get float输出](../../../../assets/image2018-8-30-18-10-58.png "图案旋转的Get float输出")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ ht-degree: 0%
 
 亮度现在还可以控制旋转。
 
-![旋转图案](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-12.png "旋转图案")
+![旋转图案](../../../../assets/image2018-8-30-18-12-25.png "旋转图案")

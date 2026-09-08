@@ -1,56 +1,67 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
 breadcrumb-title: ''
-description: 使用材质裁剪节点从扫描的材质中裁剪纹理区域，以隔离特定兴趣区域。
+description: 使用材料裁剪节点裁剪扫描材料中的纹理区域，以隔离特定兴趣区域。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Crop
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 素材裁剪
+title: 材料裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 4%
+source-wordcount: '160'
+ht-degree: 1%
 
 ---
 
 
-# 素材裁剪
+# 材料裁剪
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](material-crop.resources/material-crop-01.png){width="128px"}
+![](../../../../../../assets/crop-material.png){width="128px"}
 
-<b>在</b>个材质过滤器中>扫描处理
+## 材料裁剪
+
+**位置：** *材质过滤器/扫描处理*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
-此节点是[裁剪](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)的多通道、完整素材版本。 它允许您对任意和所有材质通道并行执行裁剪操作。
+此节点是[裁剪](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)的多通道、完整材料版本。 它允许您并行对任意和所有材料声道执行裁剪操作。
 
 >[!NOTE]
 >
-> [查看原始照片](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [裁剪](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [了解更多信息。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
+> [查看原始照片](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[裁剪](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[了解更多信息。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
+
+## 参数
+
+### 参数
+
+* **频道**
+  * 例如，在使用Specular/光泽度映射而非金属/粗糙度时，可打开和关闭此组中的材料通道。
+* **输入大小**： *0 - 8192*&#x200B;输入图像的分辨率和比例。 对于非方形图像非常重要。
+* **背景**： *（颜色值） /（灰度值）*未被“裁剪”覆盖的区域的背景统一值。
+* **变换**： *（转换矩阵）*\
+  旋转和缩放结果。 可以通过直接与画布交互来修改结果。
+* **偏移**： *0.0 - 1.0*\
+  移动或平移结果。 可以通过直接与画布交互来修改结果。
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
 
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>频道</b> | 当使用“Specular/光泽度”映射而不是“金属/粗糙度”时，可打开和关闭此组中的素材通道。 |
-| <b>输入大小</b> <i>0 - 8192</i> | 输入图像的分辨率和比例。 对于非方形图像非常重要。 |
-| <b>背景</b> <i>（颜色值）/（灰度值）</i> | “裁剪”未覆盖的区域的背景统一值。 |
-| <b>转换</b> <i>（转换矩阵）</i> | 旋转和缩放结果。 可以通过直接与画布交互来修改结果。 |
-| <b>偏移</b> <i>0.0 - 1.0</i> | 移动或转换结果。 可以通过直接与画布交互来修改结果。 |

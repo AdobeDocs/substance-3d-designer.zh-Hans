@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: 使用“Flood Fill到灰度”节点，用灰度颜色填充连接的区域，以创建单色图案。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill为GrayscaleColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 4%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
+![](../../../../../../assets/floodfill-to-color.png){width="128px"}
 
-<b>英寸：</b>滤镜>效果
+## Flood Fill为随机灰度/彩色
+
+**范围：** *滤镜/效果*
+
+****简单****
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,24 +43,18 @@ ht-degree: 4%
 
 它是一个功能强大的系统，可以为每个细胞提供独特的价值或颜色，同时仍然保持控制，并以预先确定的输入为基础。
 
+## 参数
+
+### 输入
+
+* **Flood Fill**： *颜色输入*
+* **灰度/彩色输入**： *灰度/彩色输入*
+
+### 参数
+
+* **明亮度/色彩调整**： *-1.0 - 1.0*&#x200B;设置节点的偏差或基值。 当使用灰度或彩色输入时，这用于将初始值更改为一个起点。
+* **明亮度/颜色随机**： *-1.0 - 1.0*&#x200B;设置变化量。
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>Flood Fill</b> <i>颜色输入</i> |  |
-| <b>灰度/彩色输入</b> <i>灰度/彩色输入</i> |  |
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>明亮度/色彩调整</b> <i>-1.0 - 1.0</i> | 设置节点的偏差或基值。 当使用灰度或彩色输入时，这用于将初始值更改为一个起点。 |
-| <b>明亮度/颜色随机</b> <i>-1.0 - 1.0</i> | 设置变化量。 |

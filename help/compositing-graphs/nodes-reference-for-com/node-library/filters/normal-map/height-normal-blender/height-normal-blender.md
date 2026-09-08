@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
 description: 使用“Height法线混合器”节点混合Height和法线图，以组合表面详细信息。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Height标准混合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,39 +22,46 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
+![](../../../../../../assets/height-normal-blender.png){width="128px"}
 
-<b>在</b>个筛选器中>法线图
+## Height标准混合器
+
+**范围：** *筛选器/法线图*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
-将灰度海图图混合到正常映射上的快捷键节点。 Height输入在内部转换为正常映射，然后与正常输入正确混合。
+将灰度高图混合到正常映射上的快捷节点。 Height输入在内部转换为正常映射，然后与正常输入正确混合。
 
 与手动对单独节点执行此操作相比，这是混合细节的一种更快的方式，但您可能会发现它缺乏对某些需求的控制和优化。
+
+## 参数
+
+### 输入
+
+* **Height**： *灰度输入*\
+  要混合的灰度高度图。
+* **正常**： *颜色输入*\
+  要混合到的基本正常映射。
+
+### 参数
+
+* **正常强度**： *0.0 - 16.0* Height输入的正常转换强度。
+* **普通格式**： *DirectX，OpenGL*\
+  在不同正常映射格式之间切换（反转绿色通道）。
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
 
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>Height</b> <i>灰度输入</i> | 要混合的灰度高度图。 |
-| <b>正常</b> <i>颜色输入</i> | 要混合到的基本正常映射。 |
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>正常强度</b> <i>0.0 - 16.0</i> | Height输入的正常转换的强度。 |
-| <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |

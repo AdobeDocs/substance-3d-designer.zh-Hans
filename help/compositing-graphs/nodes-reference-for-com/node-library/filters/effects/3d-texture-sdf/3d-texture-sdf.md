@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: 使用3D纹理SDF节点从3D数据生成有符号距离场纹理，以创建平滑的形状和效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D纹理SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-texture-sdf.resources/3d-texture-sdf-01.png){width="200px"}
+![](../../../../../../assets/3dtexturesdf.png){width="200px"}
 
-<b>进入：</b>滤镜>效果
+**范围：** *滤镜/效果*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,35 +41,40 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>蒙版输入</b> <i>灰度</i> | 表示形状<i>体积</i>切片的<i>3D纹理</i>蒙版。 |
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>阈值</b> <i>浮动</i> | 当形状体积由<i>渐隐渐变</i>描述时，设置渐变值，在该渐变值处，形状的<i>表面</i>被<i>检测到</i>。 |
-| <b>输出</b> <i>整数</i> | 应输出的距离字段的类型： <br>- <i>距离字段</i>：输出描述形状<i>外部</i>距离的距离字段。<br>- <i>符号距离场</i>：输出描述形状的<i>外部</i>（正）和<i>内部</i>（负）距离的距离字段。 |
+### 输入
 
-## 示例
+* **蒙版输入** *灰度*\
+  表示形状&#x200B;*体积*&#x200B;切片的&#x200B;*3D纹理*&#x200B;蒙版。
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3d-texture-sdf-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3d-texture-sdf-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3d-texture-sdf-04.png" />
-        </td>
-    </tr>
+### 参数
+
+* **阈值** *浮动*\
+  当形状体积由&#x200B;*渐隐渐变*&#x200B;描述时，设置渐变值，在该渐变值处，形状的&#x200B;*表面*&#x200B;被&#x200B;*检测到*。
+* **输出** *整数*\
+  应输出的距离字段的类型：
+  * *距离字段*：输出描述形状&#x200B;*外部*&#x200B;距离的距离字段。
+  * *符号距离场*：输出一个距离字段，描述形状的&#x200B;*外部*（正）和&#x200B;*内部*（负）的距离。
+
+## 示例图像
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
+
+</td>
+</tr>
 </table>

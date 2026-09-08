@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: 使用“扩散UV”节点在UV空间中应用扩散效果，以创建平滑的颜色过渡和混合。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 扩散UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
+![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
-<b>英寸：</b>滤镜>效果
+**范围：** *滤镜/效果*
+
+**中级**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -47,40 +49,45 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="inputs"></a>
+## 参数
+
+* **迭代**： *0.0 - 64.0*&#x200B;要执行的漫射迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。\
+  请注意，如果您不寻求数学正确性，则低值会更优秀。
 
 ## 输入
 
-|  |  |
-|:---|:---|
-| <b>源</b> <i>颜色</i> | UV扩散。 请注意，在此筛选器中以特殊方式处理拼贴（请参阅<i>描述</i>）。 |
-| <b>蒙版</b> <i>灰度</i> | 漫射蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
+* **源** *颜色*\
+  UV扩散。 请注意，在此筛选器中以特殊方式处理拼贴（请参阅&#x200B;*描述*）。
+* **蒙版***灰度*&#x200B;漫射蒙版：白色像素在&#x200B;*源*&#x200B;中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。
 
-<a name="parameters"></a>
+## 示例图像
 
-## 参数
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-|  |  |
-|:---|:---|
-| <b>迭代</b> <i>0.0 - 64.0</i> | 要执行的迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。<br>请注意，如果您不寻找数学正确性，则低值会很合适，甚至更好。 |
+![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
 
-## 示例
+</td>
+<td style="border: 0;" valign="top">
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
-        </td>
-    </tr>
+![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

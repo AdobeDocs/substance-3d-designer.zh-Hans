@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：输出](output.resources/output-01.png "原子节点：输出"){width="200px"}
+![原子节点：输出](../../../../assets/comp_output_1.png "原子节点：输出"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ ht-degree: 0%
 | <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   标识符被使用，因为节点的标签是“Label”属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是Substance图形。 |
 | <b>标签</b> *字符串* | 这用作输出节点及其在[实例节点](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中代表此图形的对应连接器的标签。 标签可以包含空格和特殊字符。 |
-| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
+| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
 | <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输出分组的特性。   在“紧凑素材”链接创建模式下，具有相同“组”属性的输出显示为单个连接。 |
 
 ## 集成属性
@@ -101,11 +101,11 @@ ht-degree: 0%
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="output.resources/output-02.png" alt="defaultouput2">
+      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td style="border: 0">
-      <img src="output.resources/output-03.png" alt="defaultouput1">
+      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
       <br><i>之后</i>
     </td>
   </tr>

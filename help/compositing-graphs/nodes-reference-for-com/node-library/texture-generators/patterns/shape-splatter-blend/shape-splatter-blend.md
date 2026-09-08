@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
 description: 使用“形状飞溅”混合节点可以混合多个形状飞溅，以创建复杂的程序化图案。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 形状飞溅混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 14%
+source-wordcount: '112'
+ht-degree: 2%
 
 ---
 
@@ -22,45 +22,43 @@ ht-degree: 14%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
+![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
-<b>进入：</b>纹理生成器>图案
+## 形状飞溅混合（颜色）
+
+**在：** *纹理生成器**/Patterns*
+
+**复杂**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 将[形状飞溅](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)数据作为输入以从中生成颜色或灰度映射。
 
+## 参数
+
+* **背景颜色**： *颜色输入*
+* **图案1-8**： *颜色输入*
+* **颜色输入**： *颜色输入*
+* **飞溅数据1**： *颜色输入*
+* **飞溅数据2**： *颜色输入*
+
+### 参数
+
+* **图案编号**： *1 - 8*
+* **随机模式分配（仅限颜色）**： *0.0 - 1.0*
+* **&#x200B;是法线图**（仅彩色）****： *False/True*
+* **HSL/明亮度调整**： *-1.0 - 1.0*
+* **HSL/明亮度随机**： *-1.0 - 1.0*
+* **&#x200B;法线角度随机**（仅限颜色）****： *0.0 - 1.0*
+* **颜色输入不透明度**： *0.0 - 1.0*
+
+## 示例图像
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>背景颜色</b> <i>颜色输入</i> |  |
-| <b>图案1-8</b> <i>颜色输入</i> |  |
-| <b>颜色输入</b> <i>颜色输入</i> |  |
-| <b>飞溅数据1</b> <i>颜色输入</i> |  |
-| <b>飞溅数据2</b> <i>颜色输入</i> |  |
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>图案编号</b> <i>1 - 8</i> |  |
-| <b>随机模式分配（仅限颜色）</b> <i>0.0 - 1.0</i> |  |
-| <b>法线图（仅彩色）</b> <i>False/True</i> |  |
-| <b>HSL/明亮度调整</b> <i>-1.0 - 1.0</i> |  |
-| <b>HSL/明亮度随机</b> <i>-1.0 - 1.0</i> |  |
-| <b>法线角度随机（仅限颜色）</b> <i>0.0 - 1.0</i> |  |
-| <b>颜色输入不透明度</b> <i>0.0 - 1.0</i> |  |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
 breadcrumb-title: ''
 description: 使用“形状描边”节点为形状添加描边轮廓，以创建边框和边缘效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 形状描边
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 4%
+source-wordcount: '159'
+ht-degree: 1%
 
 ---
 
@@ -22,16 +22,20 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](shape-stroke.resources/shape-stroke-01.png){width="128px"}
+![](../../../../../../assets/shape-stroke.png){width="128px"}
 
-![](shape-stroke.resources/shape-stroke-02.png){width="128px"}
+![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
 
-<b>英寸：</b>滤镜>效果
+## 形状描边（灰度）
+
+**范围：** *滤镜/效果*
+
+**中级**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,29 +43,20 @@ ht-degree: 4%
 
 适用于各种图像编辑效果。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>宽度</b> <i>-1.0 - 1.0</i> | 描边效果的宽度。 |
-| <b>不透明度</b> <i>0.0 - 1.0</i> | 效果的全球不透明度。 |
-| <b>（轮廓）颜色</b> <i>（颜色值）</i> | 用于轮廓效果的颜色。 |
-| <b>蒙版颜色</b> <i>（颜色值）（仅限灰度版本）</i> | 用于透明度映射输出的纯色。 |
-| <b>输入已预乘</b> <i>False/True（仅限颜色版本）</i> | 是否应假设输入为预乘。 |
-| <b>预乘输出</b> <i>False/True</i> | 是否应预乘输出。 |
+* **宽度**： *-1.0 - 1.0*&#x200B;描边效果的宽度。
+* **不透明度**： *0.0 - 1.0*\
+  效果的全球不透明度。
+* **（轮廓）颜色**： *（颜色值）*用于轮廓效果的颜色。
+* **蒙版颜色**： *（颜色值） *（仅限灰度版本）**纯色用于透明度映射输出。
+* **输入是预乘**： *False/True *（仅限颜色版本）**是否应该假定输入是预乘。
+* **预乘输出**： *False/True*&#x200B;是否应该预乘输出。
 
-## 示例
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapestroke-ex.png" width="300px"/></div> |
+| --- |
+|  |
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="shape-stroke.resources/shape-stroke-03.png" />
-        </td>
-    </tr>
+</td>
+</tr>
 </table>

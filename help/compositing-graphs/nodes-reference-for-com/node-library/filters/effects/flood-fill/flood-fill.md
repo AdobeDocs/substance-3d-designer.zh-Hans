@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
 breadcrumb-title: ''
 description: 使用Flood Fill节点可填充颜色相近的连接区域，以创建蒙版和纹理处理效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 1%
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](flood-fill.resources/flood-fill-01.png){width="128px"}
+![](../../../../../../assets/floodfill.png){width="128px"}
 
-<b>英寸：</b>滤镜>效果
+## Flood Fill
+
+**范围：** *滤镜/效果*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -43,31 +47,20 @@ Flood Fill是高级效果集的一部分，该效果允许您将更多的变化�
 > 
 > 如果拼贴未用全黑像素分隔，通常在使用灰度值时会出现问题。 可以通过结果中整体缺少红色值以及可能具有奇怪的人为线条来识别这一点。 在这种情况下，请调整输入图的对比度或切出输入图。 确保更改“安全/速度”的平衡设置，看看是否会有改善。
 
+## 参数
+
+* **安全/速度折中**： *形状简单或小，形状复杂或大，无故障模式。*将计算模式设置为最适合输入形状。 如果选择正确的模式，则允许获得更准确的结果。
+* **高级选项**： *显示高级参数和输出/隐藏高级参数和输出*
+* **覆盖安全/速度折中**： *-1 - 100*&#x200B;仅在打开“高级选项”时可见。 允许覆盖内部功能。 非常高级，可用于创建自己的效果或调试。
+
+## 示例图像
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
+| --- | --- |
+|  |  |
+
+Flood Fill结果的好例子和坏示例。
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>安全/速度取舍</b> <i>形状简单或小，形状复杂或大，无失败模式。</i> | 设置最适合输入形状的计算模式。 如果选择正确的模式，则允许获得更准确的结果。 |
-| <b>高级选项</b> <i>显示高级参数和输出/隐藏高级参数和输出</i> |  |
-| <b>覆盖安全/速度权衡</b> <i>-1 - 100</i> | 仅在打开“高级选项”时可见。 允许覆盖内部功能。 非常高级，可用于创建自己的效果或调试。 |
-
-## 示例
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="flood-fill.resources/flood-fill-02.png" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="flood-fill.resources/flood-fill-03.png" />
-        </td>
-    </tr>
-</table>
-
-Flood Fill结果的好例子和坏示例。

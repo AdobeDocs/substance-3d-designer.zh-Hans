@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
 breadcrumb-title: ''
-description: 使用“污渍图002”节点生成用于创建经过风化的和老化的材料表面的程序污渍图案。
+description: 使用“污渍映射002”节点生成程序化的污渍图案，用于创建老化的饱和材料表面。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 002
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 污渍图002
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 7%
+source-wordcount: '128'
+ht-degree: 1%
 
 ---
 
@@ -22,41 +22,39 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](grunge-map-002.resources/grunge-map-002-01.png){width="128px"}
+![](../../../../../../assets/grungemap-002.png){width="128px"}
 
-<b>在：</b>纹理生成器>杂色
+## 污渍图002
+
+**在：** *纹理生成器**/噪声*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
-生成一个复杂的组合噪声映射。 作为详细的程序，此节点可能非常有用，但请记住，这些程序非常消耗性能，因此生成速度较慢。
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+生成一个复杂的组合噪声映射。 作为详细的程序化，此节点可能非常有用，但请记住，这些节点非常消耗性能，因此生成速度较慢。
 
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>余额</b> <i>0.0 - 1.0</i> | 在黑白图像之间改变结果的平衡，就像亮度调整一样。 |
-| <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
-| <b>反转</b> <i>False/True</i> | 反转结果。 |
-| <b>画笔图案</b> <i>0.0 - 1.0</i> | 用作画笔Alpha时，可在边缘周围添加蒙版。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+* **余额**： *0.0 - 1.0*\
+  在黑白图像之间改变结果的平衡，就像亮度调整一样。
+* **对比度**： *0.0 - 1.0*\
+  调整结果的对比度。
+* **反转**： *False/True*\
+  反转结果。
+* **画笔图案**： *0.0 - 1.0*&#x200B;在用作画笔Alpha时，在边缘周围添加蒙版。
+* **非正方形扩展**： *False/True*\
+  启用压缩补偿并使用非正方形比例拉伸。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-002.resources/grunge-map-002-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/grungemap-002-ex.gif)
+
+</td>
+</tr>
 </table>

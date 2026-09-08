@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中自定义工作区以优化工作流程和版面首选项。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 自定义工作区
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 显示/隐藏视图
 
-要显示或隐藏特定接口项，请在&#x200B;*Windows*&#x200B;菜单中单击其名称。 显示的项目具有![](customizing-your-workspace.resources/customizing-your-workspace-01.png)个复选标记。
+要显示或隐藏特定接口项，请在&#x200B;*Windows*&#x200B;菜单中单击其名称。 显示的项目具有![](../../assets/image2015-12-17-10-43-24.png)个复选标记。
 
 ### 使用视图填充停放区
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Windows菜单](customizing-your-workspace.resources/customizing-your-workspace-02.png "Windows菜单")
+![Windows菜单](../../assets/windows-menu-1.png "Windows菜单")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 可通过移动坞站的任何边缘来调整其大小。 其他坞站将动态调整大小以适合。
 
-![调整坞站大小](customizing-your-workspace.resources/customizing-your-workspace-03.gif "调整坞站大小")
+![调整坞站大小](../../assets/interface-customisation-resize.gif "调整坞站大小")
 
 ## 移动坞站
 
 可以使用其&#x200B;*标题栏*&#x200B;在主窗口周围移动任何停放。 根据停放的位置，停放将调整大小以适合。
 
-![移动坞站](customizing-your-workspace.resources/customizing-your-workspace-04.gif "移动坞站")
+![移动坞站](../../assets/interface-customisation-move.gif "移动坞站")
 
 ## Tab键切换坞站
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 您可以通过将停放区的标题栏&#x200B;*移动到现有停放区*&#x200B;来定位停放区，例如停放区不会调整大小或移动，但目标停放区周围会显示&#x200B;*帧*。
 
-![Tab键切换停靠台](customizing-your-workspace.resources/customizing-your-workspace-05.gif "Tab键切换停靠台")
+![Tab键切换停靠台](../../assets/interface-customisation-tab.gif "Tab键切换停靠台")
 
 ## 取消停靠
 
@@ -78,10 +78,10 @@ ht-degree: 0%
 
 这可以通过两种方式实现：
 
-* 使用其&#x200B;*标题栏*&#x200B;移动停放区，然后将其&#x200B;*放在主窗口之外*，或放在主窗口的&#x200B;*不是停放区*&#x200B;的区域上。 您可以重新停放此停放，方法是：在主窗口&#x200B;*中将它移动到另一个停放*&#x200B;上，或者单击“<b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png)重新停放</b>”按钮；
-* 单击<b>![](customizing-your-workspace.resources/customizing-your-workspace-07.png)取消停靠</b>按钮。 使用此方法取消停靠的停靠可以通过<b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png)重新停靠</b>按钮来&#x200B;*仅*&#x200B;重新停靠。
+* 使用其&#x200B;*标题栏*&#x200B;移动停放区，然后将其&#x200B;*放在主窗口之外*，或放在主窗口的&#x200B;*不是停放区*&#x200B;的区域上。 您可以重新停放此停放，方法是：在主窗口&#x200B;*中将它移动到另一个停放*&#x200B;上，或者单击“<b>![](../../assets/dock-icons-redock.png)重新停放</b>”按钮；
+* 单击<b>![](../../assets/dock-icons-undock.png)取消停靠</b>按钮。 使用此方法取消停靠的停靠可以通过<b>![](../../assets/dock-icons-redock.png)重新停靠</b>按钮来&#x200B;*仅*&#x200B;重新停靠。
 
-![取消固定](customizing-your-workspace.resources/customizing-your-workspace-08.gif "取消固定")
+![取消固定](../../assets/interface-customisation-undock.gif "取消固定")
 
 ## 最大化坞站
 
@@ -93,12 +93,12 @@ ht-degree: 0%
 可通过两种方式最大化坞站：
 
 * 将&#x200B;*光标放在停放区上*，然后按<b>Shift+空格键</b>击键
-* 单击其<b>![](customizing-your-workspace.resources/customizing-your-workspace-09.png)最大化</b>按钮
+* 单击其<b>![](../../assets/dock-icons-maximise.png)最大化</b>按钮
 
 最大化的坞站可以在最大化&#x200B;*之前最小化到它们保持的*&#x200B;的大小和位置。 这可以通过三种方式实现：
 
 * 将&#x200B;*光标放在停放区上*，然后按<b>Shift+空格键</b>击键
-* 单击其<b>![](customizing-your-workspace.resources/customizing-your-workspace-10.png)“最小化”</b>按钮
+* 单击其<b>![](../../assets/dock-icons-minimise.png)“最小化”</b>按钮
 * 打开<b>窗口</b>菜单并选择<b>取消最大化窗口</b>选项
 
 >[!NOTE]
@@ -114,7 +114,7 @@ ht-degree: 0%
 > * 停靠标题栏中的按钮&#x200B;*已禁用*
 > * 主窗口&#x200B;*中最大化的停放区不能使用其标题栏移动*
 
-![最大化坞站](customizing-your-workspace.resources/customizing-your-workspace-11.gif "最大化坞站")
+![最大化坞站](../../assets/interface-customisation-maximise.gif "最大化坞站")
 
 ## 固定坞站
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 固定停放区时，任何将来应在其意愿中显示的内容都应&#x200B;*创建一个新停放区*&#x200B;来托管它。 此新停放区将不会固定，因此可以更新和托管新内容。
 
-要大头针停放，请单击其![](customizing-your-workspace.resources/customizing-your-workspace-12.png) <b>大头针</b>按钮。 然后，您可以使用![](customizing-your-workspace.resources/customizing-your-workspace-13.png) <b>取消固定</b>按钮&#x200B;*取消固定*&#x200B;该文档，以使其再次&#x200B;*可用*&#x200B;来承载任何新内容。
+要大头针停放，请单击其![](../../assets/dock-icons-pin.png) <b>大头针</b>按钮。 然后，您可以使用![](../../assets/dock-icons-pinned.png) <b>取消固定</b>按钮&#x200B;*取消固定*&#x200B;该文档，以使其再次&#x200B;*可用*&#x200B;来承载任何新内容。
 
 可以一次固定多个&#x200B;*停放，包括*&#x200B;相同类型&#x200B;*的多个停放。*
 
@@ -132,11 +132,11 @@ ht-degree: 0%
 * 同时显示两个或更多位图
 * 同时处理多个图形
 
-![固定坞站](customizing-your-workspace.resources/customizing-your-workspace-14.gif "固定坞站")
+![固定坞站](../../assets/interface-customisation-pin.gif "固定坞站")
 
 ## 关闭坞站
 
-通过单击其![](customizing-your-workspace.resources/customizing-your-workspace-15.png) <b>关闭</b>按钮，可以关闭任何停靠区。
+通过单击其![](../../assets/dock-icons-close.png) <b>关闭</b>按钮，可以关闭任何停靠区。
 
 ## 重置界面布局
 
@@ -144,4 +144,4 @@ ht-degree: 0%
 
 其显示状态也会重置，这意味着已关闭的停放可能为&#x200B;*重新打开*（例如3D视图），而已显示的停放可能为&#x200B;*已关闭*（例如，控制台、依赖关系管理器、插件创建的停放）。
 
-![重置布局](customizing-your-workspace.resources/customizing-your-workspace-16.gif "重置布局")
+![重置布局](../../assets/interface-customisation-reset.gif "重置布局")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
 breadcrumb-title: ''
 description: 使用3D Linear gradient节点可根据空间效果的3D世界位置创建线性渐变。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D Linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](3d-linear-gradient.resources/3d-linear-gradient-01.png){width="128px"}
+![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
 
-<b>进入：</b>纹理生成器>图案
+## 3D Linear gradient
+
+**英寸：** *纹理生成器**/Patterns*
+
+**中级**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -37,27 +41,20 @@ ht-degree: 3%
 
 另请参阅[3D体积蒙版](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md)，了解类似效果。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>点位置模式</b> <i>UV位置，世界空间位置</i> | 如果要手动输入精确位置，请选择渐变点在UV空间中（在2D 视图中设置它们时效果最佳）还是在3D坐标中有效。 |
-| <b>点1</b> | 渐变的起始点。 可以是基于“位置”模式的2D或3D坐标。 |
-| <b>点2</b> | 渐变的终点。 可以是基于“位置”模式的2D或3D坐标。 |
-| <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
+* **点位置模式**：*UV位置、世界空间位置*&#x200B;如果您想手动输入精确位置，请选择渐变点在UV空间中（在2D 视图中设置时效果最佳）还是在3D坐标中有效。
+* **点1**：\
+  渐变的起始点。 可以是基于“位置”模式的2D或3D坐标。
+* **点2**：\
+  渐变的终点。 可以是基于“位置”模式的2D或3D坐标。
+* **对比度**： *0.0 - 1.0*\
+  调整结果的对比度。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-linear-gradient.resources/3d-linear-gradient-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/3d-gradient.gif)
+
+</td>
+</tr>
 </table>

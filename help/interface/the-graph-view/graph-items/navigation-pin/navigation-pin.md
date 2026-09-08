@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: 使用图形视图中的导航图钉可在Substance 3D Designer图形中的不同位置之间快速跳转。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 固定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![导航图钉图标](navigation-pin.resources/navigation-pin-01.png "导航图钉图标")
+![导航图钉图标](../../../../assets/graphatomic-pin_1.png "导航图钉图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Pin是一个帮助程序，可让您在图形中的特定位置快速跳转。
 
 图钉将在视区中以当前缩放级别取框。
 
-![图钉：跳转至图钉](navigation-pin.resources/navigation-pin-02.gif "图钉：跳转至图钉")
+![图钉：跳转至图钉](../../../../assets/graph-pin_jumping.gif "图钉：跳转至图钉")

@@ -1,7 +1,7 @@
 ---
 title: 3D查看器
 description: Designer >Substance合成图形>用于Substance合成图形的节点参考>节点库>滤镜>效果> 3D查看器
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D查看器图标](./3d-viewer.resources/3d-viewer-01.png "3D查看器")
+![3D查看器图标](./3d-viewer.resources/3d-viewer.png "3D查看器")
 
 <b>进入：</b>滤镜>效果
 
@@ -59,10 +59,10 @@ ht-degree: 0%
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |:----------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>场景类型</b> *整数* | 用于描述要渲染的曲面和形状的函数类型： <br>- <b>SDF： </b>使用可描述复杂形状的带符号距离字段(SDF)函数。<br>- <b>交集： </b>使用交集函数，当只需要简单的基本形状时，这种速度更快。 |
-| <b>SDF场景</b> *浮动* | 描述场景中的表面和形状的符号距离字段(SDF)函数。<br><br>使用库的[SDF 函数](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)类别中的节点来创作函数。 |
-| <b>与场景相交</b> *浮动* | 描述场景中的表面和形状的交叉函数。<br><br>简单基元和运算符的交叉函数在<b>3d_functions.sbs</b>库包的<b>3d_intersection</b>文件夹中可用。<br><br><i>提示：</i>可通过将库中的任何SDF节点放到资源管理器中来访问该包。 |
-| <b>输出</b> *整数* | 应由节点输出的3D渲染类型，通常称为AOV（任意输出变量）。<br><br>可用的AOV包括：<br>-<b>美观：</b>3D渲染的最终结果，具有艺术导向的颜色和效果。<br>-<b>正常WS：</b>场景中形状的世界空间法线。<br>-<b>正常TS：</b>场景中形状的切线空间法线。<br>-<b>位置：</b>位置：场景中形状表面的世界空间位置。<br>- <b>距离：</b>从相机到场景中形状的原始距离<br>- <b>深度：</b>形状与相机目标平面的符号距离，平面始终面向相机。<br>- <b>颜色：</b>形状的基色（使用“设置颜色”节点为场景函数中的形状指定颜色）<br>- <b>材质ID：</b>材质ID应用于形状表面（使用“设置材质ID”节点将材质ID分配给场景功能中的形状）<br>- <b>球面跟踪步骤：</b>定义形状表面所需步骤数量的可视化效果。 值越亮，意味着需要更多步骤。<br>- <b>自定义：</b>编写自定义函数以计算每个像素的渲染颜色。<br><br><i>注意：</i>对于某些AOV中的准确读取，请确保2D视图使用线性色彩空间，并且节点使用HDR 32位输出格式。 |
-| <b>自定义输出</b> *浮点4* | 函数图形，将渲染场景的每像素RGBA颜色定义为Float4值。<br><br>可用变量：<br>- <code>scene.position</code> (Float3)场景表面的世界空间位置。<br>- <code>scene.normal</code> (Float3)场景表面的世界空间法线。<br>- <code>scene.hit</code> （布尔值）当曲面被摄像机光线照射时，返回“True”。<br>- <code>view.origin</code> （浮点3）相机视图的每像素世界空间位置。<br>- <code>view.direction</code> （浮点3）根据投影模式得出的相机视图的每像素前向矢量。 (E.g. 透视或正交)<br>- <code>material.color</code> (Float3)场景表面的基色。<br>- <code>material.metalness</code> （浮动）场景表面的金属度。<br>- <code>material.roughness</code> （浮动）场景表面的粗糙度。<br>- <code>material.id</code> （整数）场景表面的材质ID。<br><br>可以通过选择以下[示例颜色](../../../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)节点插槽对节点的图像输入进行采样：<br>- <b>图像输入0</b>示例输入1.<br>- <b>图像输入1</b>示例输入2。 |
+| <b>SDF场景</b> *Float* | 描述场景中的曲面和形状的带符号距离字段(SDF)函数。<br><br>使用库的[SDF 函数](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)类别中的节点来创作函数。 |
+| <b>交叉场景</b> *Float* | 描述场景中的表面和形状的交叉函数。<br><br>简单基元和运算符的交叉函数在<b>3d_functions.sbs</b>库包的<b>3d_intersection</b>文件夹中可用。<br><br><i>提示：</i>可通过将库中的任何SDF资源管理器放到节点中来访问该包。 |
+| <b>输出</b> *整数* | 应由节点输出的3D渲染的类型，通常称为AOV（任意输出变量）。<br><br>可用的AOV包括：<br>-<b>美观：</b>3D渲染的最终结果，具有艺术导向的色彩和效果。<br>-<b>普通WS：</b>场景中形状的世界空间法线。<br>-<b>普通TS：</b>场景中形状的正切空间法线。<br>-<b>位置：</b>位置：形状表面在场景中的世界空间位置。<br>- <b>距离： </b>从相机到场景中形状的原始距离<br>- <b>深度：</b>形状与相机目标平面的带符号距离，平面始终脸部相机。<br>- <b>颜色：</b>形状的base color（使用“设置颜色”节点在场景函数中为形状分配颜色）<br>- <b>材料ID：</b>应用于形状曲面的材料ID（使用“设置材料ID”节点将材料ID分配给场景函数中的形状）<br>- <b>球面跟踪步骤：</b>定义形状曲面所需步骤数量的可视化效果。 较高的值意味着需要更多步骤。<br>- <b>自定义：</b>编写自定义函数以计算每个像素的渲染颜色。<br><br><i>注意：</i>对于某些AOV中的准确读取，请确保2D 视图使用线性色彩空间，并且节点使用HDR 32位输出格式。 |
+| <b>自定义输出</b> *Float4* | 将渲染场景的每像素RGBA颜色定义为Float4值的函数图形。<br><br>可用变量：<br>- <code>场景.位置</code> (Float3)场景表面的世界空间位置。<br>- <code>场景.normal</code> (Float3)场景表面的世界空间法线。<br>- <code>场景.hit</code> (布尔值)当表面被相机光线照射时，返回“True”。<br>- <code>view.origin</code> (Float3)相机世界空间的每像素视图位置。<br>- <code>view.direction</code> (Float3)根据投影模式的相机视图的每像素前向矢量。 (E.g. 透视或正交)<br>- <code>材料.color</code> (Float3)场景表面的base color。<br>- <code>材料.metalness</code> (Float)场景表面的金属度。<br>- <code>材料.粗糙度</code> (Float)场景表面的粗糙度。<br>- <code>材料.id</code> (整数)场景曲面的材料ID。<br><br>可以通过选择以下[示例颜色](../../../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)节点插槽对节点的图像输入进行采样：<br>- <b>图像输入0</b>示例输入1.<br>- <b>图像输入1</b>示例输入2。 |
 | <b>环境旋转</b> *浮动* | <b>环境</b>的轮转次数。 |
 | <b>背景模式</b> *整数* | 指定场景背景的源，该背景绘制在没有形状表面可见的地方。<br><br>- <b>颜色： </b>平坦的“背景颜色”。<br>- <b>环境：</b>提供给“环境”输入的图像，使用等距柱状投影应用到无限球体。  （如果未连接输入，则使用默认环境。） |
 | <b>背景颜色</b> *浮点4* | 用作场景背景的纯色。 |
@@ -95,31 +95,31 @@ ht-degree: 0%
 | <b>SDF等值线</b> *布尔值* | 符号距离场(SDF)函数等值线的彩色可视化。<br><br>等高线是在给定Height上表示XY平面上形状的<i>距离场</i>的规则重复线。<br><br>这对于检查SDF 函数所定义的空间的<i>一致性</i>非常有用。<br><br>使用<b>SDF等值线频率</b>和<b>SDF等值线位置</b>参数调整等值线的密度和Height。 |
 | <b>SDF等值线频率</b> *浮动* | 在给定距离内的等值线重复量。<br><br>值越高，线条越密，越细。 |
 | <b>SDF等值线位置</b> *浮动* | 用于绘制等高线的XY平面的Height。<br><br>使用此选项检查形状在不同高度处的距离场。 |
-| <b>分钟。 命中距离</b> *浮动* | 定义平移为SDF光线行进过程命中的最小距离。<br><br>较低的值将增加光线行进步骤的数量。 |
+| <b>分钟。 命中距离</b> *Float* | 定义平移为SDF光线行进过程命中的最小距离。<br><br>较低的值将增加光线行进步骤的数量。 |
 
 ## 示例
 
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="示例1" />
+            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="示例1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="示例1" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="示例1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="示例2" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="示例2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="示例3" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="示例3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="示例4" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="示例4" />
                     </td>
                 </tr>
             </table>

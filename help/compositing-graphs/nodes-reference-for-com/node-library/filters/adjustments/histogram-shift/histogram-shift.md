@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
 description: 使用“直方图偏移”节点可以移动纹理中的直方图分布，从而调整亮度和对比度范围。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方图偏移
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](histogram-shift.resources/histogram-shift-01.png){width="128px"}
+![](../../../../../../assets/histogram-shift-1.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## 直方图偏移
+
+**范围：** *滤镜/调整*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -37,27 +41,17 @@ ht-degree: 6%
 
 [单击此处观看Substance学院关于直方图偏移的视频。](https://youtu.be/p9wcmJBFyGA?t=492)
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>位置</b> <i>0.0 - 1.0</i> | 输入移动量。 1.0为完全旋转，等于0.0。 |
+* **位置**： *0.0 - 1.0*\
+  输入移动量。 1.0为完全旋转，等于0.0。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="histogram-shift.resources/histogram-shift-02.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="histogram-shift.resources/histogram-shift-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/histogram-shift.gif)
+
+![](../../../../../../assets/histogram-shift2.gif)
+
+</td>
+</tr>
 </table>

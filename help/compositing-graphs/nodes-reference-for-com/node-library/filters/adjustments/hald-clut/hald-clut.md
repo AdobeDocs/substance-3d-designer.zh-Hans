@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: 使用Hald CLOT节点可应用颜色查找表，并使用Hald CLOT格式进行颜色分级和校正。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Hald CLUT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---
@@ -22,46 +22,37 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](hald-clut.resources/hald-clut-01.png){width="128px"}
+![](../../../../../../assets/hald-clut.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## Hald CLUT
+
+**范围：** *滤镜/调整*
+
+**中级**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 在输入图像上应用LUT。 LUT必须为Hald格式，分辨率为4096\*4096。 有关详细信息，请参阅<http://www.quelsolaar.com/technology/clut.html>。
 
-</td>
-</tr>
-</table>
+### 输入
 
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>输入</b> <i>颜色输入</i> | 要应用LUT的图像。 |
-| <b>lut</b> <i>颜色输入</i> | Lut输入插槽。 必须为4096x4096。 |
-
-<a name="parameters"></a>
+* **输入**： *颜色输入*\
+  要应用LUT的图像。
+* **lut**： *颜色输入* Lut输入槽。 必须为4096x4096。
 
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>按Alpha排列的LUT强度</b> <i>False/True</i> | 定义LUT效果是否由Alpha 通道加权。 |
+* **按Alpha排列的LUT强度**： *False/True*&#x200B;定义LUT效果是否由Alpha 通道加权。
 
-## 示例
+示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="hald-clut.resources/hald-clut-02.jpg" />
-        </td>
-    </tr>
+![](../../../../../../assets/content-hald-clut.jpg)
+
+</td>
+</tr>
 </table>

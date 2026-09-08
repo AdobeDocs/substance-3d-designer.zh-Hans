@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: 在函数图中使用散列函数根据输入坐标生成确定性随机值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Hash函数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![哈希节点：图标](hash-functions.resources/hash-functions-01.png "哈希节点：图标"){width="200px"}
+![哈希节点：图标](../../../../../assets/hash-icon.png "哈希节点：图标"){width="200px"}
 
 <b>In：</b>函数>随机
 
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![哈希14示例](hash-functions.resources/hash-functions-02.png "哈希14示例"){zoomable="yes"}
+![哈希14示例](../../../../../assets/hash14-example.png "哈希14示例"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![哈希32示例](hash-functions.resources/hash-functions-03.png "哈希32示例"){zoomable="yes"}
+![哈希32示例](../../../../../assets/hash32-example.png "哈希32示例"){zoomable="yes"}
 
 </td>
 </tr>

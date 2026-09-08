@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: 使用“直方图范围”节点可根据直方图范围重新映射纹理值，以进行颜色校正和调整。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方图范围
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](histogram-range.resources/histogram-range-01.png){width="128px"}
+![](../../../../../../assets/histogram-range-1.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## 直方图范围
+
+**范围：** *滤镜/调整*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -38,25 +42,15 @@ ht-degree: 5%
 
 [单击此处观看关于直方图范围的Substance学院视频。](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>范围</b> <i>0.0 - 1.0</i> | 将范围减小到什么程度。 这类似于向内移动“最小色阶”和“最大色阶”滑块。 |
-| <b>位置</b> <i>0.0 - 1.0</i> | 范围减小的偏移，为范围减小设置不同的中点。 |
+* **范围**： *0.0 - 1.0*&#x200B;范围减小自的量。 这类似于向内移动“最小色阶”和“最大色阶”滑块。
+* **位置**： *0.0 - 1.0*&#x200B;范围减小的偏移，为范围减小设置不同的中点。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="histogram-range.resources/histogram-range-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/histogram-range.gif)
+
+</td>
+</tr>
 </table>

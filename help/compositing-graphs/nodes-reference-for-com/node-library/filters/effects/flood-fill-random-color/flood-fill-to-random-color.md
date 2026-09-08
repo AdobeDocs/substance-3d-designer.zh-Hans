@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
 breadcrumb-title: ''
 description: 使用“Flood Fill到随机颜色”节点，用随机颜色填充连接的区域，以创建不同的纹理图案。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Flood Fill为随机颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '63'
 ht-degree: 3%
 
 ---
@@ -22,32 +22,33 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](flood-fill-to-random-color.resources/flood-fill-to-random-color-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-random-color.png){width="128px"}
 
-<b>英寸：</b>滤镜>效果
+## Flood Fill为随机颜色
+
+**范围：** *滤镜/效果*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 从[RGB](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)基生成具有随机Flood Fill的拼贴。 用于向拼贴添加颜色变化。
 
+## 参数
+
+*无参数。*
+
+## 示例图像
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodrandomcolor-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodrandomcolor-ex1.png" width="256px"/></div> |
+| --- | --- |
+|  |  |
+
 </td>
 </tr>
-</table>
-
-## 示例
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-02.png" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-03.png" />
-        </td>
-    </tr>
 </table>

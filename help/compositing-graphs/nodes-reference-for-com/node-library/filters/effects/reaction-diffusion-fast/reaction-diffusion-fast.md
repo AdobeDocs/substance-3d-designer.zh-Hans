@@ -1,30 +1,30 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: 使用“反应扩散”快速节点，使用程序纹理的快速反应 — 扩散算法生成有机图案。
+description: 使用“反应漫射快速”节点，针对程序化的纹理使用快速反应漫射算法生成有机模式。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 快速反应扩散
+title: 反应漫射快速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
 
-# 快速反应扩散
+# 反应漫射快速
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![反应扩散节点图标](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "反应扩散节点图标")
+![反应漫射节点图标](../../../../../../assets/reaction-diffusion.png "反应漫射节点图标")
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## 描述
 
-此节点对输入灰度图像执行反应 — 扩散效果。
+此节点对输入灰度图像执行反应漫射效果。
 
-反应 — 扩散是物质扩散（扩散）并与其他物质相互作用（反应）的过程。 它是一种数学模型，可以模拟自然界中某些图案在动物皮肤上形成时会发生什么。
+反应漫射是物质扩散（扩散）并与其他物质相互作用（反应）的过程。 它是一种数学模型，可以模拟自然界中某些图案在动物皮肤上形成时会发生什么。
 
 此节点已针对性能进行了优化，并且确实在速度方面做出了一些精确的权衡。
 
@@ -43,30 +43,20 @@ ht-degree: 3%
 </tr>
 </table>
 
-<a name="inputs"></a>
+## 输入连接器
 
-## 输入
+<b>输入</b> *灰度*&#x200B;应应用反应漫射效果的灰度图像。
 
-|  |  |
-|:---|:---|
-| <b>输入</b> <i>灰度</i> | 应用反应漫射效果的灰度图像。 |
+## 输出连接器
 
-<a name="outputs"></a>
-
-## 输出
-
-|  |  |
-|:---|:---|
-| <b>输出</b> <i>灰度</i> | 表示应用于输入图像的反作用漫射效果的灰度图像。 |
-
-<a name="parameters"></a>
+<b>输出&#x200B;</b>*灰度*&#x200B;表示应用于输入图像的反应漫射效果的灰度图像。
 
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>半径</b> *浮动* | 这种影响应该扩散到多远。 |
-| <b>对比度</b> *浮动* | 调整输入内容的对比度，有点像是主动变更。 |
+<b>半径</b> *Float*&#x200B;效果应传播多远。
+
+<b>对比度</b> *Float*\
+调整输入内容的对比度，有点像是主动变更。
 
 ## 示例
 
@@ -74,17 +64,17 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![示例1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "示例1")
+![示例1](../../../../../../assets/reactdiff03.png "示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "示例2")
+![示例2](../../../../../../assets/reactdiff02.png "示例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "示例3")
+![示例3](../../../../../../assets/reactdiff01.gif "示例3")
 
 </td>
 </tr>

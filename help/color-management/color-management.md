@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的色彩管理，包括色彩空间、配置文件和专色工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -104,13 +104,13 @@ Designer随附多种ICC配置文件。 可在Designer安装文件的`resources >
 
 |  |  |
 | --- | --- |
-| <b>2D和3D视图显示默认值</b> | 为[2D视图](../interface/2d-view/2d-view.md)和[3D视图](../interface/3d-view/3d-view.md)视区设置默认&#x200B;*显示*&#x200B;色彩空间。 *默认：从OS中检索到主屏幕的&#x200B;*** ICC配置文件&#x200B;**&#x200B;** |
+| <b>2D和3D视图显示默认值</b> | 为[2D视图](../interface/2d-view/2d-view.md)和[3D视图](../interface/3d-view/3d-view.md)视区设置默认&#x200B;*显示*&#x200B;色彩空间。 *默认：从OS中检索到主屏幕的*** ICC配置文件&#x200B;**** |
 
 ### 图形显示
 
 |  |  |
 | --- | --- |
-| <b>色彩管理缩览图</b> | 在&#x200B;*选中*&#x200B;后，Designer会将&#x200B;*节点缩略图*&#x200B;转换为当前&#x200B;*工作色彩空间*。 *默认值：***&#x200B;未选中&#x200B;**&#x200B;** |
+| <b>色彩管理缩览图</b> | 在&#x200B;*选中*&#x200B;后，Designer会将&#x200B;*节点缩略图*&#x200B;转换为当前&#x200B;*工作色彩空间*。 *默认值：***&#x200B;未选中&#x200B;**** |
 
 ## 旧版模式
 
@@ -152,18 +152,18 @@ Designer随附多种ICC配置文件。 可在Designer安装文件的`resources >
 > 
 > 特别是，**文件名**&#x200B;可用于自动设置适当的色彩空间&#x200B;**。 请注意，文件名中的色彩空间名称必须&#x200B;*与OpenColorIO配置文件中的名称*&#x200B;匹配（例如，*myImage\_utility - linear -srgb.png*&#x200B;将设置为&#x200B;*Utility - Linear - sRGB*&#x200B;色彩空间）。
 
-![位图色彩空间设置](color-management.resources/color-management-01.png "位图色彩空间设置")
+![位图色彩空间设置](../assets/2019-3-0-bitmap-clr-space.png "位图色彩空间设置")
 
 ## 导出输出
 
 使用<b>导出输出</b>对话框时，可以为&#x200B;*每个*&#x200B;输出分配<b>色彩空间</b> (OCIO)或附加<b>ICC配置文件</b> (AdobeACE)。\
 Designer将在保存图像文件之前&#x200B;*将*&#x200B;张图像转换为指定的色彩空间。
 
-![导出输出对话框](color-management.resources/color-management-02.png "导出输出对话框"){width="512px"}
+![导出输出对话框](../assets/2019-3-0-clr-mgt-export-outputs.png "导出输出对话框"){width="512px"}
 
 还可分配色彩空间(OCIO)或将ICC配置文件(AdobeACE)附加到从[2D 视图](../interface/2d-view/2d-view.md)保存的&#x200B;*图像*。
 
-![2D 视图导出选项](color-management.resources/color-management-03.png "2D 视图导出选项")
+![2D 视图导出选项](../assets/2019-3-0-clr-mgt-save-image.png "2D 视图导出选项")
 
 ## 2D和3D视图
 
@@ -171,7 +171,7 @@ Designer将在保存图像文件之前&#x200B;*将*&#x200B;张图像转换为指
 
 您可以使用显示工具栏中的下拉菜单，随时&#x200B;*打开/关闭*&#x200B;色彩管理，并更改视图的&#x200B;*显示变换*。
 
-![2D 视图中的色彩空间设置](color-management.resources/color-management-04.png "2D 视图中的色彩空间设置"){width="512px"}
+![2D 视图中的色彩空间设置](../assets/2019-3-0-clr-mgt-display-toolbar.png "2D 视图中的色彩空间设置"){width="512px"}
 
 ### 库HDRI环境
 
@@ -180,7 +180,7 @@ Designer附带的HDRI环境位于<b>线性sRGB</b>色彩空间中。\
 
 在这种情况下，应在可在3D视图面板<b>环境</b>菜单中的环境属性中&#x200B;*手动*&#x200B;设置库HDRI环境的色彩空间。
 
-![3D视图环境的色彩空间设置](color-management.resources/color-management-05.png "3D视图环境的色彩空间设置"){width="512px"}
+![3D视图环境的色彩空间设置](../assets/2019-3-0-clr-mgt-hdri-env.png "3D视图环境的色彩空间设置"){width="512px"}
 
 ## 颜色转换节点
 
@@ -211,7 +211,7 @@ Designer附带的HDRI环境位于<b>线性sRGB</b>色彩空间中。\
 
 在处理&#x200B;*创建的没有*&#x200B;色彩管理的图表或来自[Substance 3D资源](https://substance3d.adobe.com/assets)库的素材时，这些功能非常有用。
 
-![库中的颜色转换节点](color-management.resources/color-management-06.png "库中的颜色转换节点"){width="512px"}
+![库中的颜色转换节点](../assets/2019-3-0-clr-mgt-nodes.png "库中的颜色转换节点"){width="512px"}
 
 ## 已知限制
 

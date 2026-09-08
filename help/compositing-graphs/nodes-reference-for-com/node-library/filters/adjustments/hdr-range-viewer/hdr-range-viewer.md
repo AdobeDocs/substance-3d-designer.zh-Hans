@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
 description: 使用HDR Range Viewer节点可以可视化HDR纹理范围，以便分析和调整高动态范围值。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: HDR范围查看器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 10%
+source-wordcount: '70'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,36 @@ ht-degree: 10%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](hdr-range-viewer.resources/hdr-range-viewer-01.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](hdr-range-viewer.resources/hdr-range-viewer-02.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
 
-<b>英寸：</b>滤镜>调整
+## HDR Range Viewer（灰度）
+
+**范围：** *滤镜/调整*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
 使用“Debug Tool”（调试工具）检查高动态范围的确切区域 颜色版本和灰度版本都存在。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>范围最小值</b> <i>-2.0 - 0.0</i> | 开始高亮显示的最小范围。 |
-| <b>范围最大值</b> <i>1.0 - 3.0</i> | 最大范围：最多可高亮显示。 |
+* **范围最小值**： *-2.0 - 0.0*&#x200B;开始突出显示的最小范围。
+* **范围最大值**： *1.0 - 3.0*&#x200B;最大范围，最多可突出显示。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="hdr-range-viewer.resources/hdr-range-viewer-03.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

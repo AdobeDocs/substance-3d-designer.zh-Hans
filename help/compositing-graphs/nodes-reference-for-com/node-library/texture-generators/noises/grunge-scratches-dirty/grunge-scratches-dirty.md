@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
 breadcrumb-title: ''
-description: 使用Scratches脏节点添加脏的划痕图案，用于创建经过风化的和老化的素材效果。
+description: 使用“Scratches脏”节点添加脏刮痕图案，用于创建老化的材料效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Dirty
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scratches已脏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-scratches-dirty.resources/grunge-scratches-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesdirty.jpg){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+**在：** *纹理生成器* */噪声*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,29 +41,29 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
-| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
-| <b>高级</b> |  |
-| <b>基本污渍强度</b> <i>浮动</i> | 调整应用于基础曲面的污渍映射的强度。 |
-| <b>Scratches强度</b> <i>浮动</i> | 调整基础曲面上的划痕强度。 |
+* **平衡***Float*&#x200B;调整明暗值之间的平衡。
+* **对比度***Float*&#x200B;调整图像的对比度。
+* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
+* **非正方形扩展***布尔值*&#x200B;启用压缩补偿并使用非正方形比率拉伸。
+* 高级
+  * **基础污渍强度***Float*&#x200B;调整应用于基础表面的污渍映射的强度。
+  * **Scratches强度***Float*&#x200B;调整基础表面上的划痕强度。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesdirty-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesdirty-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

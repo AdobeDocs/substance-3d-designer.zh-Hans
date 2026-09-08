@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
-description: 使用污渍污点脏节点添加污点图案，用于创建老化的材料效果。
+description: 使用“污渍污点脏污”节点添加污点图案，用于创建老化的材料效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots Dirty
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 污渍斑点脏污
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+**在：** *纹理生成器* */噪声*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -39,29 +41,29 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 参数
 
-|  |  |
-|:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
-| <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
-| <b>高级</b> |  |
-| <b>覆盖率</b> <i>浮动</i> | 调整Dirt的覆盖范围。 |
-| <b>缩放</b> <i>整数</i> | 调整Dirt斑点的比例。 *较高的*&#x200B;值会产生&#x200B;*更细的*&#x200B;污点。 |
+* **平衡***Float*&#x200B;调整明暗值之间的平衡。
+* **对比度***Float*&#x200B;调整图像的对比度。
+* **反转** *布尔值*&#x200B;使用`1-x`操作反转图像的输出。
+* **非正方形扩展***布尔值*&#x200B;启用压缩补偿并使用非正方形比率拉伸。
+* 高级
+  * **覆盖范围** *Float*&#x200B;调整Dirt的覆盖范围。
+  * **缩放***整数*&#x200B;调整Dirt斑点的缩放。 *较高的*&#x200B;值会产生&#x200B;*更细的*&#x200B;污点。
 
-## 示例
+## 示例图像
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungespotsdirty-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungespotsdirty-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

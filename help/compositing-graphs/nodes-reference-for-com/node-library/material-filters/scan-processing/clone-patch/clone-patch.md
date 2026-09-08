@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
 description: 使用“仿制修补”节点可以克隆和修补扫描材料中的区域，以移除伪影和瑕疵。
 helpx_creative_field: ""
@@ -10,28 +10,32 @@ helpx_tags: ""
 title: 克隆修补程序
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 3%
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
 
-# 仿制修补程序
+# 克隆修补程序
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](clone-patch.resources/clone-patch-01.png){width="128px"}
+![](../../../../../../assets/clone-patch.png){width="128px"}
 
-![](clone-patch.resources/clone-patch-02.png){width="128px"}
+![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
 
-<b>在</b>个材质过滤器中>扫描处理
+## 仿制修补/仿制修补灰度
+
+**在：** *材质筛选器/扫描处理*
+
+**复杂**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -49,25 +53,28 @@ ht-degree: 3%
 > 
 > 如果要同时对多个输入执行此操作（不作为材料），请参阅[多仿制修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)。
 
+## 参数
+
+* **正常（仅适用于颜色）**： *False/True*\
+  设置输入是否为正常映射，以及是否应该将混合视为正常映射。
+* **形状**： *正方形，磁盘*&#x200B;设置图章形状。 仅用作基础。
+* **边缘**
+  * **阈值**： *0.0 - 1.0*&#x200B;设置混合区域应达到的距离。 这沿着目标区域中的形状逐步增长，对于均匀的背景几乎没有影响*。*
+  * **模糊**： *0.0 - 2.0*&#x200B;模糊图章区域的边缘，以备需要更柔和的过渡。
+  * **Smoothness**： *0.0 - 2.0*&#x200B;磨圆图章形状的边缘，使轮廓更加流畅。
+  * **网格分辨率**： *1 - 11*&#x200B;设置混合分析的质量分辨率。 值越高，混合越准确。
+* **转换**
+  * **源矩阵**： *（变换矩阵）*变换源（缩放和旋转）。 无法在画布上完成，请仅通过这些参数更改。
+  * **源偏移**： *-0.5 - 0.5*&#x200B;平移源位置。 无法在画布上完成，请仅通过这些参数更改。 *此参数可能是您要更改的主要参数！*
+  * **目标矩阵**： *（变换矩阵）*变换目标位置（缩放和旋转）。 也可通过画布上的小工具完成。
+  * **目标偏移**： *-0.5 - 0.5*&#x200B;平移目标位置。 也可通过画布上的小工具完成。
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>正常（仅适用于颜色）</b> <i>False/True</i> | 设置输入是否为正常映射，以及是否应该将混合视为正常映射。 |
-| <b>形状</b> <i>方形，磁盘</i> | 设置图章形状。 仅用作基础。 |
-| <b>边缘</b> |  |
-| <b>阈值</b> <i>0.0 - 1.0</i> | 设置混合区域应达到的距离。 这沿着目标区域中的形状逐步增长，对于均匀的背景<i>几乎没有影响。</i> |
-| <b>模糊</b> <i>0.0 - 2.0</i> | 模糊图章区域的边缘，以备需要更柔和的过渡。 |
-| <b>Smoothness</b> <i>0.0 - 2.0</i> | 磨圆图章形状的边缘，使轮廓更加流畅。 |
-| <b>网格分辨率</b> <i>1 - 11</i> | 设置混合分析的质量分辨率。 值越高，混合越准确。 |
-| <b>转换</b> |  |
-| <b>源矩阵</b> <i>（转换矩阵）</i> | 变换源（缩放和旋转）。 无法在画布上完成，请仅通过这些参数更改。 |
-| <b>源偏移</b> <i>-0.5 - 0.5</i> | 平移源位置。 无法在画布上完成，请仅通过这些参数更改。 <i>此参数可能是您要更改的主要参数！</i> |
-| <b>目标矩阵</b> <i>（转换矩阵）</i> | 变换目标位置（缩放和旋转）。 也可通过画布上的小工具完成。 |
-| <b>目标偏移</b> <i>-0.5 - 0.5</i> | 平移目标位置。 也可通过画布上的小工具完成。 |

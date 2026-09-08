@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
 breadcrumb-title: ''
 description: 利用“多角度 — 法向”法线图，从多角度扫描图像中生成精确表面细节的节点。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多角度法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 3%
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](multi-angle-to-normal.resources/multi-angle-to-normal-01.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
 
-<b>在</b>个材质过滤器中>扫描处理
+## 多角度法线
+
+**在：** *材质筛选器/扫描处理*
+
+**中级**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,26 +45,27 @@ ht-degree: 3%
 >
 > 有关此节点的反照率版本，请参阅[反照率多角度](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)。 如果要对输入进行预处理，[多Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md)、[多裁剪](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md)和[多仿制修补](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)可能会很有用，因为它们旨在与这些节点组合使用。
 
+## 参数
+
+### 输入
+
+* **输入1-8**： *颜色输入*
+
+### 参数
+
+* **普通格式**： *DirectX，OpenGL*\
+  在不同正常映射格式之间切换（反转绿色通道）。
+* **样本量**： *2 - 8*&#x200B;设置要处理的样本量（输入）。
+* **强度**： *0.0 - 1.0*&#x200B;设置正常映射强度。
+* **第一个样本光照角度**： *0.0 - 360.0*&#x200B;设置第一个输入的光照角度方向。
+* **下一个采样光角度**：*逆时针、顺时针*&#x200B;设置下一个采样中光照的方向。
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>输入1-8</b> <i>颜色输入</i> |  |
-
-<a name="parameters"></a>
-
-## 参数
-
-|  |  |
-|:---|:---|
-| <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
-| <b>样本量</b> <i>2 - 8</i> | 设置要处理的样本量（输入）。 |
-| <b>强度</b> <i>0.0 - 1.0</i> | 设置正常映射强度。 |
-| <b>第一个示例光线角度</b> <i>0.0 - 360.0</i> | 设置第一个输入的光照角度方向。 |
-| <b>下一个示例光线角度</b> <i>逆时针，顺时针</i> | 设置下一个采样中光照移动的方向。 |

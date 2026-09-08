@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
 description: 使用“RGBA合并”节点将单独的红色、绿色、蓝色和Alpha 通道合并为单个RGBA纹理。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: RGBA合并
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '109'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
+![](../../../../../../assets/rgba-merge.png){width="128px"}
 
-<b>范围：</b>滤镜>通道
+## RGBA合并
+
+**范围：** *筛选器/通道*
+
+**简单**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 描述
 
@@ -37,17 +41,23 @@ ht-degree: 2%
 
 一起进行声道打包映射非常有用。 例如可以用于将Smoothness、金属和AO打包到各自的R、G和B信道中。
 
+## 参数
+
+### 输入
+
+* **R**： *灰度输入*
+* **G**： *灰度输入*
+* **B**： *灰度输入*
+* **A**： *灰度输入*
+
+*无参数。*
+
+## 示例图像
+
+|  |
+| --- |
+| 没有附加到此页面的图像。 |
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## 输入
-
-|  |  |
-|:---|:---|
-| <b>R</b> <i>灰度输入</i> |  |
-| <b>G</b> <i>灰度输入</i> |  |
-| <b>B</b> <i>灰度输入</i> |  |
-| <b>A</b> <i>灰度输入</i> |  |
