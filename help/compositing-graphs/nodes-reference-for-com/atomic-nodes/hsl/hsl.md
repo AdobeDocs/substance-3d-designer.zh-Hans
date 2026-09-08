@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
-description: 使用HSL节点调整纹理的色相、饱和度和亮度，以进行颜色操作和校正。
+description: 使用HSL节点可调整纹理的色相、饱和度和明亮度，以进行颜色操作和校正。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：HSL](hsl.resources/hsl-01.png "原子节点：HSL"){width="200px"}
+![原子节点：HSL](../../../../assets/comp_hsl_1.png "原子节点：HSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,9 +78,9 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>色相</b> *浮动* | 确定输入图像的颜色。   低于0.5的值对色相的影响是负的，高于0.5的值对色相的影响是正的。 |
+| <b>色相</b> *Float* | 确定输入图像的颜色。   低于0.5的值对色相的影响是负的，高于0.5的值对色相的影响是正的。 |
 | <b>饱和度</b> *Float* | 确定输入图像颜色的饱和度。   低于0.5的值会降低饱和度，高于0.5的值会增加饱和度。 |
-| <b>明亮度</b> *浮动* | 确定低于0.5的输入图像值的明亮度会减小明亮度，高于0.5的值会增大深度。 |
+| <b>明亮度</b> *Float* | 确定低于0.5的输入图像值的明亮度会减小明亮度，高于0.5的值会增大深度。 |
 
 ## 输入连接器
 

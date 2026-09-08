@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 导出 PSD 文件
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Substance 3D Designer允许将纹理导出为Adobe Photoshop文档或PSD文件�
 
 ## PSD导出对话框
 
-只能通过一种方法打开PSD导出对话框。 在要导出到PSD的图形的[图形视图](../../interface/the-graph-view/the-graph-view.md)中，单击![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>“工具”</b>按钮并选择<b>PSD 导出器</b>。 该界面在<b>图形视图</b>内变为可见。
+只能通过一种方法打开PSD导出对话框。 在要导出到PSD的图形的[图形视图](../../interface/the-graph-view/the-graph-view.md)中，单击![](../../assets/image2019-9-17-14-44-17.png) <b>“工具”</b>按钮并选择<b>PSD 导出器</b>。 该界面在<b>图形视图</b>内变为可见。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![用户界面PSD 导出器](exporting-psd-files.resources/exporting-psd-files-02.png "用户界面PSD 导出器")
+![用户界面PSD 导出器](../../assets/psd-dialog.png "用户界面PSD 导出器")
 
 </td>
 <td style="border: 0;" valign="top">

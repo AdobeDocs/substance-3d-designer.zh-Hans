@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 预乘为直线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pre-multiplied-to-straight.resources/pre-multiplied-to-straight-01.png){width="128px"}
+![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
 
 <b>范围：</b>滤镜>通道
 

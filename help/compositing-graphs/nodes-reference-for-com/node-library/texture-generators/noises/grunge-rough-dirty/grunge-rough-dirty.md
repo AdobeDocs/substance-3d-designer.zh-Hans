@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍粗糙
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rough-dirty.resources/grunge-rough-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-02.jpg" />
+            <img src="../../../../../../assets/grungeroughdirty-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-03.jpg" />
+            <img src="../../../../../../assets/grungeroughdirty-variant2.jpg" />
         </td>
     </tr>
 </table>

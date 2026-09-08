@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条2D变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-2d-transform.resources/spline-2d-transform-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-2d-transform-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -85,11 +85,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="样条2DTransform-Variant2-After">
+      <img src="../../../../../../assets/Spline2DTransform-Variant2-After.jpg" alt="样条2DTransform-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="../../../../../../assets/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -119,7 +119,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-2d-transform.resources/spline-2d-transform-05.gif "节点示例1")
+![节点示例1](../../../../../../assets/Spline2DTransform-Demo1.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Scatter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](atlas-scatter.resources/atlas-scatter-01.png){width="200px"}
+![](../../../../../../assets/atlas-scatter.png){width="200px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-从Atlas中提取元素，并将其散点在背景上。 Atlas输入是全素材，由排列并打包在单个纹理片上的单个元素组成。 此节点会将其拆分（使用内部[Atlas Splitter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md)进程）并散点，这类似于[形状飞溅](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)。 Atlas Scatter至少需要一个“不透明度映射”输入以及“贴图集”的高度图输入才能正常工作。
+从Atlas中提取元素，并将其散点在背景上。 Atlas输入是全素材，由排列并打包在单个纹理片上的单个元素组成。 此节点会将其拆分（使用内部[Atlas Splitter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md)进程）并散点，这类似于[形状飞溅](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)。 Atlas Scatter至少需要“不透明度映射”输入以及“贴图集”的“Height映射”输入才能正常工作。
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="atlas-scatter.resources/atlas-scatter-02.png" />
+            <img src="../../../../../../assets/atlas-scatter-11.png" />
         </td>
     </tr>
 </table>

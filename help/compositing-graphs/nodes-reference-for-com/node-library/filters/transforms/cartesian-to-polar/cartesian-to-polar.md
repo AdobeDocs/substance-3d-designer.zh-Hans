@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 笛卡尔坐标到极坐标
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cartesian-to-polar.resources/cartesian-to-polar-01.png){width="128px"}
+![](../../../../../../assets/cartesian-to-polar.png){width="128px"}
 
-![](cartesian-to-polar.resources/cartesian-to-polar-02.png){width="128px"}
+![](../../../../../../assets/cartesian-to-polar-grayscale.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cartesian-to-polar.resources/cartesian-to-polar-03.png" />
+            <img src="../../../../../../assets/cartesian-to-polar-example.png" />
         </td>
     </tr>
 </table>

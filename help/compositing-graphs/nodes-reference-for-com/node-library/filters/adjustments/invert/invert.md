@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 反相
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](invert.resources/invert-01.png){width="128px"}
+![](../../../../../../assets/invert-greyscale.png){width="128px"}
 
-![](invert.resources/invert-02.png){width="128px"}
+![](../../../../../../assets/invert-3.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -56,7 +56,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="invert.resources/invert-03.png" />
+            <img src="../../../../../../assets/invert-gray.png" />
         </td>
     </tr>
 </table>

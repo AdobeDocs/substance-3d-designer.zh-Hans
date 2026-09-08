@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 首选项
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # “首选项”窗口
 
-![首选项窗口](preferences-window.resources/preferences-window-01.png "首选项窗口")
+![首选项窗口](../../assets/image2021-6-22-20-56-1.png "首选项窗口")
 
 此页面显示<b>首选项</b>窗口及其所有设置。
 
@@ -157,14 +157,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![已禁用上下文编辑](preferences-window.resources/preferences-window-02.gif "已禁用上下文编辑")
+![已禁用上下文编辑](../../assets/substance3ddesigner_incontext_no.gif "已禁用上下文编辑")
 
 *打开引用*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![已启用上下文编辑](preferences-window.resources/preferences-window-03.gif "已启用上下文编辑")
+![已启用上下文编辑](../../assets/substance3ddesigner_incontext_yes.gif "已启用上下文编辑")
 
 *在上下文中打开引用*
 

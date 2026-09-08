@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条桥映射器颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-bridge-mapper-color-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -78,10 +78,10 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>段数量</b> <i>整数</i> | 在图像坐标遍历样条之前，将样条简化为段。 段数量越多，沿曲线映射就越平滑。 |
-| <b>减少UV伸缩</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
-| <b>UV 缩放</b> <i>浮点2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
-| <b>UV旋转</b> <i>浮动</i> | 围绕图像坐标中心旋转图像坐标。 |
-| <b>背景颜色</b> <i>浮点4</i> | 输出图像中的背景颜色。 |
+| <b>减少UV拉伸</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
+| <b>UV 缩放</b> <i>Float2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
+| <b>UV旋转</b> <i>Float</i> | 围绕图像坐标中心旋转图像坐标。 |
+| <b>背景颜色</b> <i>Float4</i> | 输出图像中的背景颜色。 |
 
 ## 示例
 
@@ -92,11 +92,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "节点示例2")
+![节点示例2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "节点示例2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "节点示例1")
+![节点示例1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "节点示例2")
+![节点示例2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "节点示例2")
 
 </td>
 </tr>

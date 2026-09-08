@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材质仿制修补
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# 仿制修补程序
+# 材质仿制修补
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-clone-patch.resources/material-clone-patch-01.png){width="128px"}
+![](../../../../../../assets/clone-patch-material.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
+| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
 | <b>形状</b> <i>方形，磁盘</i> | 设置图章形状。 仅用作基础。 |
 | <b>边缘</b> |  |
 | <b>阈值（适用于多个通道）</b> <i>0.0 - 1.0</i> | 设置混合区域应达到的距离。 这种效果是分阶段生长的，沿目标区域中的形状生长，因此对于均匀背景的影响非常小。 请注意在通道之间过度更改此设置，因为这可能会导致视觉差异！ |

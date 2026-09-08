@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 面包师旧版界面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -24,25 +24,25 @@ ht-degree: 3%
 
 ## 概述
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 烘焙面板分为四个部分：
 
 ### 1：场景
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 允许您定义网格的哪一部分参与烘焙过程。
 
 第6版中的新增功能，您还可通过材质进行选择：
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2：面包师
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-按![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png)按钮可将所需的面包师添加到处理列表中
+按![](../../assets/image2017-3-13-9-47-47.png)按钮可将所需的面包师添加到处理列表中
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ ht-degree: 3%
 
 单击面包师布局中的“+”图标可将面包师添加到栈叠中（您可以将任意数量的面包师放在栈叠中）。
 
-.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-通过按![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)，可以从列表中移除烘焙过程
+通过按![](../../assets/image2017-3-13-9-54-33.png)，可以从列表中移除烘焙过程
 
-您可以通过选择烘焙过程并使用![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)对烘焙过程列表重新排序
+您可以通过选择烘焙过程并使用![](../../assets/image2017-3-13-9-55-33.png)对烘焙过程列表重新排序
 
 ### 3：烘焙参数
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 此部分显示当前所选烘焙的特定选项。
 
 ### 4：公共参数
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 显示面包师之间共享的参数。
 
@@ -82,4 +82,4 @@ ht-degree: 3%
 
 版本6中的新功能：您现在可以使用取消按钮取消烘焙过程：
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)
+![](../../assets/image2017-3-13-13-50-4.png)

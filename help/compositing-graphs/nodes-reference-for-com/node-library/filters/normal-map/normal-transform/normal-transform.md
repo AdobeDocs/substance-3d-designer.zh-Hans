@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 法线变换
+title: 正常变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# 法线变换
+# 正常变换
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-transform.resources/normal-transform-01.png){width="128px"}
+![](../../../../../../assets/normal-transform.png){width="128px"}
 
 <b>在</b>个筛选器中>法线图
 
@@ -46,5 +46,5 @@ ht-degree: 3%
 |  |  |
 |:---|:---|
 | <b>矩阵2x2</b> <i>（转换矩阵）：</i> | 旋转或缩放输入。 |
-| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或转换结果。 当存在变换控件时，可以通过直接与画布交互来修改结果。 |
+| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或平移结果。 当存在变换控件时，可以通过直接与画布交互来修改结果。 |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同的法线贴图格式之间切换（反转绿色通道） |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 网格1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-1.resources/mesh-1-01.png){width="128px"}
+![](../../../../../../assets/mesh-1.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mesh-1.resources/mesh-1-02.gif" />
+            <img src="../../../../../../assets/mesh-1-ex.gif" />
         </td>
     </tr>
 </table>

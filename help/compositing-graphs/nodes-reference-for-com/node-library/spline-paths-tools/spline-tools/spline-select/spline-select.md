@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-select.resources/spline-select-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-select-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 | <b>结束</b> <i>浮动</i> | 偏移应选取的样条部分的终点。 这有效地修剪了样条。<br>该值表示样条的规范化长度。 |
 | <b>预览</b> |  |
 | <b>段数量</b> <i>整数</i> | 调整用于在预览输出中绘制样条可视化效果的段数。<br>值越高，线条越平滑。 |
-| <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向助手</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
-| <b>Thickness（像素）</b> <i>浮动</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
+| <b>Thickness（像素）</b> <i>Float</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
 
 ## 示例
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-03.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>之后</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect-Variant2之前">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-Variant2-At">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-At">
       <br><i>之后</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-select.resources/spline-select-06.gif "节点示例1")
+![节点示例1](../../../../../../assets/SplineSelect-Demo.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

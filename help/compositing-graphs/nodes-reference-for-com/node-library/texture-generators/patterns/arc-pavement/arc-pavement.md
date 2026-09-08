@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 弧形路面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](arc-pavement.resources/arc-pavement-01.png)
+![](../../../../../../assets/arcpavement-ex.png)
 
 <b>进入：</b>纹理生成器>图案
 
@@ -67,7 +67,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="arc-pavement.resources/arc-pavement-01.png" />
+            <img src="../../../../../../assets/arcpavement-ex.png" />
         </td>
     </tr>
 </table>

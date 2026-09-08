@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: 使用“垂直于Height”HQ节点将法线图转换为高品质高度图以进行表面细节提取。
+description: 使用“法线到Height” HQ节点将法线映射转换为高质量的Height映射，以便进行表面细节提取。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 正常到Height总部
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-to-height-hq.resources/normal-to-height-hq-01.png){width="128px"}
+![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
 
 <b>在</b>个筛选器中>法线图
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-to-height-hq.resources/normal-to-height-hq-02.png" />
+            <img src="../../../../../../assets/normal2height-hq-ex.png" />
         </td>
     </tr>
 </table>

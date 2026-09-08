@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer函数图中的函数节点，以调用和执行自定义函数图。
+description: 访问Substance 3D Designer函数图形中的函数节点以调用和执行自定义函数图形。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 函数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 ## 节点列表
 
 +++Pow
-![电源节点图标](function-nodes.resources/function-nodes-01.jpg "电源节点图标")
+![电源节点图标](../../../../assets/Pow_Node.jpg "电源节点图标")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2电源节点图标](function-nodes.resources/function-nodes-02.jpg "2电源节点图标")
+![2电源节点图标](../../../../assets/2Pow_Node.jpg "2电源节点图标")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++平方根
-![方形根节点图标](function-nodes.resources/function-nodes-03.jpg "方形根节点图标")
+![方形根节点图标](../../../../assets/SquareRoot_Node.jpg "方形根节点图标")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++指数
-![指数节点图标](function-nodes.resources/function-nodes-04.jpg "指数节点图标")
+![指数节点图标](../../../../assets/Exponential_Node.jpg "指数节点图标")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++对数
-![对数节点图标](function-nodes.resources/function-nodes-05.jpg "对数节点图标")
+![对数节点图标](../../../../assets/Logarithm_Node.jpg "对数节点图标")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++以 2 为底的对数
-![对数基2节点图标](function-nodes.resources/function-nodes-06.jpg "对数基2节点图标")
+![对数基2节点图标](../../../../assets/LogarithmBase2_Node.jpg "对数基2节点图标")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++绝对值
-![绝对节点图标](function-nodes.resources/function-nodes-07.jpg "绝对节点图标")
+![绝对节点图标](../../../../assets/Absolute_Node.jpg "绝对节点图标")
 
 
 
@@ -92,16 +92,16 @@ ht-degree: 5%
 +++
 
 +++上限
-![Ceil节点图标](function-nodes.resources/function-nodes-08.jpg "Ceil节点图标")
+![Ceil节点图标](../../../../assets/Ceil_Node.jpg "Ceil节点图标")
 
 
 
-向上舍入其输入值。 它返回不小于X的最小整数值： <b>ceil(X)</b>。
+向上舍入其输入值。 它返回不小于X的最小整数： <b>ceil(X)</b>。
 
 +++
 
 +++向下取整
-![楼层节点图标](function-nodes.resources/function-nodes-09.jpg "楼层节点图标")
+![Floor节点图标](../../../../assets/Floor_Node.jpg "Floor节点图标")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 +++
 
 +++线性插值
-![线性插值节点图标](function-nodes.resources/function-nodes-10.jpg "线性插值节点图标")
+![线性插值节点图标](../../../../assets/LinearInterpolation_Node.jpg "线性插值节点图标")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++最小
-![最小节点图标](function-nodes.resources/function-nodes-11.jpg "最小节点图标")
+![最小节点图标](../../../../assets/Minimum_Node.jpg "最小节点图标")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++最大
-![最大节点图标](function-nodes.resources/function-nodes-12.jpg "最大节点图标")
+![最大节点图标](../../../../assets/Maximum_Node.jpg "最大节点图标")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++余弦
-![余弦节点图标](function-nodes.resources/function-nodes-13.jpg "余弦节点图标")
+![余弦节点图标](../../../../assets/Cosine_Node.jpg "余弦节点图标")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++正弦
-![正弦节点图标](function-nodes.resources/function-nodes-14.jpg "正弦节点图标")
+![正弦节点图标](../../../../assets/Sine_Node.jpg "正弦节点图标")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++正切
-![切线节点图标](function-nodes.resources/function-nodes-15.jpg "切线节点图标")
+![切线节点图标](../../../../assets/Tangent_Node.jpg "切线节点图标")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++反正切 2
-![反正切2节点图标](function-nodes.resources/function-nodes-16.jpg "反正切2节点图标")
+![反正切2节点图标](../../../../assets/ArcTangent2_Node.jpg "反正切2节点图标")
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 5%
 +++
 
 +++直角坐标
-![绝对节点图标](function-nodes.resources/function-nodes-07.jpg "绝对节点图标")
+![绝对节点图标](../../../../assets/Absolute_Node.jpg "绝对节点图标")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 5%
 +++
 
 +++随机
-![随机节点图标](function-nodes.resources/function-nodes-17.jpg "随机节点图标")
+![随机节点图标](../../../../assets/Random_Node.jpg "随机节点图标")
 
 
 

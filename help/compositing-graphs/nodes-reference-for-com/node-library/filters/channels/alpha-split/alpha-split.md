@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alpha拆分
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alpha-split.resources/alpha-split-01.png){width="128px"}
+![](../../../../../../assets/rgb-a-split.png){width="128px"}
 
 <b>范围：</b>滤镜>通道
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 删除并单选输入图像的Alpha值。 另请参阅[Alpha合并](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md)以获取相反的结果。
 
-分别输出去除了Alpha的图像和Alpha通道。
+分别输出去除了Alpha的图像和Alpha 通道。
 
 </td>
 </tr>

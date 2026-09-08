@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺随机2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
+![](../../../../../../assets/tilerandom2.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -68,10 +68,10 @@ ht-degree: 0%
 | <b>数量X</b> <i>整数</i> | <b>X</b>轴上的单元格数。 |
 | <b>数量Y</b> <i>整数</i> | <b>Y</b>轴上的单元格数。 |
 | <b>大小</b> |  |
-| <b>随机大小乘数</b> <i>浮动</i> | 将<i>全局</i>调整应用于随机缩放的强度。 |
-| <b>随机大小输入图乘数</b> <i>浮动</i> | 使用从<b>随机大小映射</b>输入值<i>采样</i>调整随机缩放的强度。 |
-| <b>随机大小X</b> <i>浮动</i> | 调整<b>X</b>轴<i>仅</i>上的随机缩放强度。 |
-| <b>随机大小Y</b> <i>浮动</i> | 调整<b>Y</b>轴<i>仅</i>上的随机缩放强度。 |
+| <b>随机大小乘数</b> <i>Float</i> | 将<i>全局</i>调整应用于随机缩放的强度。 |
+| <b>随机大小输入图乘数</b> <i>Float</i> | 使用从<b>随机大小映射</b>输入值<i>采样</i>调整随机缩放的强度。 |
+| <b>随机大小X</b> <i>Float</i> | 调整<b>仅<i>X</b>轴</i>上的随机缩放强度。 |
+| <b>随机大小Y</b> <i>Float</i> | 调整<b>Y</b>轴<i>仅</i>上的随机缩放强度。 |
 | <b>随机大小分布</b> <i>整数</i> | 控制分布随机缩放值的方法： <br><br>- <i>一致</i>：对所有单元格以<i>相同方式</i>应用随机缩放<br>- <i>蓝色噪声</i>：使用蓝色噪声模式<i>调整随机缩放</i> |
 | <b>形状长宽比 — 变换</b> |  |
 | <b>间隙Thickness</b> <i>浮动</i> | 调整形状之间间隙的Thickness。 所有</i>形状的<i>相等。 |
@@ -91,12 +91,12 @@ ht-degree: 0%
 | <b>随机倾斜分布</b> <i>整数</i> | 控制分布随机倾斜值的方法： <br><br>- <i>一致</i>：随机倾斜以<i>相同方式</i>应用于所有单元格<br>- <i>蓝色噪声</i>：随机倾斜是使用蓝色噪声模式<i>调整的</i> |
 | <b>斜面</b> |  |
 | <b>斜面距离模式</b> <i>整数</i> | 设置<i>获取形状应有斜角的距离</i>的方法：<br><br>-<i>相对于网格大小</i>：形状按指定的<i>网格大小比例进行斜角</i><br>-<i>相对于形状大小</i>：形状按指定的<i>大小比例进行斜角</i><br>-<i>相对于图像大小</i>：形状按指定的<i>图像比例</i>进行斜角 |
-| <b>斜距乘数</b> <i>浮动</i> | 将<i>全局</i>调整应用于斜面距离。 |
-| <b>斜距输入映射多项式。</b> <i>浮动</i> | 使用<b>斜角距离图</b>输入映射作为<i>每像素</i>乘数调整斜角的距离。 |
-| <b>斜角圆曲线</b> <i>浮动</i> | 调整应用于斜角的圆角强度，使其更为<i>凸起</i>。 |
+| <b>斜距乘数</b> <i>Float</i> | 将<i>全局</i>调整应用于斜面距离。 |
+| <b>斜面距离输入图马尔特。</b> <i>Float</i> | 使用<b>斜角距离图</b>输入图作为<i>每像素</i>乘数调整斜角的距离。 |
+| <b>斜角圆曲线</b> <i>Float</i> | 调整应用于斜角的圆角强度，使其更为<i>凸起</i>。 |
 | <b>启用每个轴斜角控件</b> <i>布尔值</i> | 当<i>True</i>时，可以在<b>X</b>和<b>Y</b>轴上<i>分别</i>应用和调整斜角。<br><br><i>注意</i>：此<i>取消</i><b>圆角</b>效果。 |
-| <b>斜面距离X</b> <i>浮动</i> | 仅调整<b>X</b>轴<i></i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
-| <b>斜面距离Y</b> <i>浮动</i> | 仅调整<b>Y</b>轴<i></i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
+| <b>斜面距离X</b> <i>Float</i> | 调整<b>X</b>轴<i>仅</i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
+| <b>斜面距离Y</b> <i>Float</i> | 仅调整<b>Y</b>轴<i></i>上的斜面距离。 此距离取决于<b>斜面距离模式</b>参数的值。<br><br><i>注意</i>：仅当<b>启用每轴斜面控制</b>参数设置为<i>True</i>时，此参数才可用。 |
 | <b>蒙版</b> |  |
 | <b>蒙版随机反转</b> <i>布尔值</i> | 反转形状的随机蒙版。 |
 | <b>蒙版随机起始</b> <i>浮动</i> | 对于给定的<b>随机植入</b>，伪随机蒙版按照从起始形状到结束形状的<i>特定顺序</i>应用。 此参数允许您<i>偏移<i>起始</i>形状的索引</i>。<br><br><i>注意</i>：此参数确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>掩码随机结束</b>值<i>大</i>。 |
@@ -113,25 +113,25 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-05.gif" />
+            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-06.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-07.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-08.png" />
+            <img src="../../../../../../assets/tilerandom2-node.png" />
         </td>
     </tr>
 </table>

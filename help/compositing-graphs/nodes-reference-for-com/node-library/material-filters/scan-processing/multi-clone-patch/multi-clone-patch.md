@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多克隆修补程序
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
+![](../../../../../../assets/clone-patch-multi.png){width="128px"}
 
-![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
+![](../../../../../../assets/clone-patch-multi-grayscale.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非均匀旋转
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-01.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-02.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -71,8 +71,8 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>旋转角度乘数</b> <i>浮动</i> | 调整&#x200B;**旋转贴图**&#x200B;输入的强度。 |
-| <b>旋转角度偏移</b> <i>浮动</i> | 应用指定的额外旋转量。 |
+| <b>旋转角度乘数</b> <i>Float</i> | 调整&#x200B;**旋转贴图**&#x200B;输入的强度。 |
+| <b>旋转角度偏移</b> <i>Float</i> | 应用指定的额外旋转量。 |
 | <b>使用中心点位置映射</b> <i>布尔值</i> | 使用&#x200B;*位图输入*&#x200B;指定旋转透视点的位置。 **X/Y**&#x200B;位置映射到&#x200B;**位置映射**&#x200B;输入的&#x200B;**R/G**&#x200B;通道。 |
 | <b>中心点位置</b> <i>浮点2</i> | 图像围绕其旋转的枢轴的位置。 |
 | <b>背景颜色</b> <i>浮动/浮动4</i> | 背景色，用于在拼贴未设置为&#x200B;**H和V拼贴**&#x200B;的情况下显示图像边界的&#x200B;*外部*。 |
@@ -83,13 +83,13 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-03.gif" />
+            <img src="../../../../../../assets/nonuniformrotation-demo-02-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-04.jpg" />
+            <img src="../../../../../../assets/nonuniformrotation-variant-png.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-05.png" />
+            <img src="../../../../../../assets/nonuniformrotation-node.png" />
         </td>
     </tr>
 </table>

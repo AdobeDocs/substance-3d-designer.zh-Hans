@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
+![](../../../../../../assets/tile-sampler.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 拼贴Sampler是终极的拼贴图案生成节点。 它是[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)的演化版本，更为复杂。 截至2017年2.1月，拼贴Sampler与[生成器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)之间的差异已小得多。 主要的差异现在仅在七个不同的映射槽中，这些槽可用于驱动缩放、位置、旋转、大小、颜色和蒙版。 它们的效果可以单独混合。
 
-拼贴Sampler可用于创建人造程序模式，并可额外控制由外部输入映射驱动的特定参数。
+拼贴Sampler可用于创建人工程序化图案，并可额外控制由外部输入图驱动的特定参数。
 
 在转到“平铺Sampler”之前，请确保您熟悉[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)。 在大多数情况下，您会发现[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)已足够，您不需要增加平铺Sampler的复杂性。
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>示例显示参数如何由输入图（图案分布、缩放、旋转）驱动。</i>
+            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>示例显示参数如何由输入图（图案分布、缩放、旋转）驱动。</i>
         </td>
     </tr>
 </table>

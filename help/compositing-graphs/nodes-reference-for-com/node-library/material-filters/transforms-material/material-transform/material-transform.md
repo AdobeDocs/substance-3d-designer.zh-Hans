@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 变换
+title: 材质变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-transform.resources/material-transform-01.png){width="128px"}
+![](../../../../../../assets/material-transforms.png){width="128px"}
 
 <b>进入：</b>材质过滤器>变换
 
@@ -48,6 +48,6 @@ ht-degree: 2%
 |  |  |
 |:---|:---|
 | <b>转换</b> <i>（转换矩阵）</i> | 旋转和缩放结果。 移动/平移通过“偏移”参数完成 |
-| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或平移结果。 当存在变换控件时，可以直接与画布交互来修改结果。 |
+| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或转换结果。 当存在变换控件时，可以直接与画布交互来修改结果。 |
 | <b>正常格式</b> | 在DirectX和OpenGL格式之间进行选择（翻转绿色）。 |
-| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
+| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |

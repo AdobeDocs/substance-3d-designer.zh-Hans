@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：转换2D](transformation-2d.resources/transformation-2d-01.png "原子节点：转换2D"){width="200px"}
+![原子节点：转换2D](../../../../assets/comp_transformation_1.png "原子节点：转换2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 5%
 > 
 > 将“拼贴模式”[基本参数](../../../../glossary/glossary.md)的[继承方法](../../../../glossary/glossary.md)设置为“Absolute”，随后即可将参数值设置为“无拼贴”：
 > 
-> ![](transformation-2d.resources/transformation-2d-02.png)
+> ![](../../../../assets/tilingmode.png)
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 5%
 | <b>偏移</b> *浮点2* | 定义图像的二维位移。 允许您更改位置或偏移。也可以通过2D视图中的小工具来调整该位置。   与2D视图输出直接相关。 |
 | <b>Mipmap模式</b> *整数* | 允许您切换到手动[mipmap](../../../../glossary/glossary.md)级别，这将使用纹理过滤减少图像中的伪影。 |
 | <b>多级渐远纹理级别</b> *整数* | 设置要使用的[镜像转换](../../../../glossary/glossary.md)级别。     *当“镜像转换模式”设置为“手动”时可用* |
-| <b>遮罩颜色</b> *浮点4* | 禁用变换拼贴时用作背景的颜色。 即，设置当变换的输入不覆盖输出的区域时使用的颜色。   如果使用的是RGBA颜色，则可以使其透明。 |
+| <b>遮罩颜色</b> *Float4* | 禁用变换拼贴时用作背景的颜色。 即，设置当变换的输入不覆盖输出的区域时使用的颜色。   如果使用的是RGBA颜色，则可以使其透明。 |
 | <b>筛选</b> *整数* | 设置使用的缩减像素采样方法。 当多级渐远纹理级别减少时，效果并不特别好。 |
 
 ## 输入连接器

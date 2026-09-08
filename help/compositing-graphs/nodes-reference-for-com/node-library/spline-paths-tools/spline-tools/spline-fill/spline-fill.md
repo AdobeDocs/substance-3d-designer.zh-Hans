@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条填充
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-fill.resources/spline-fill-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-fill-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -72,11 +72,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-fill.resources/spline-fill-02.jpg" alt="SplineFill-Variant1-Before">
+      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-fill.resources/spline-fill-03.jpg" alt="样条填充 — 变量1-After">
+      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="样条填充 — 变量1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-fill.resources/spline-fill-04.gif "节点示例2")
+![节点示例2](../../../../../../assets/SplineFill-Demo.gif "节点示例2")
 
 </td>
 </tr>

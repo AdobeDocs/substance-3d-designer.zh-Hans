@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条（二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![样条（二次）：图标](spline-quadratic.resources/spline-quadratic-01.png "样条（二次）：图标")
+![样条（二次）：图标](../../../../../../assets/spline-quadratic-icon.png "样条（二次）：图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 | <b>显示方向帮助程序</b> <i>布尔值</i> | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
 | <b>段数量</b> <i>整数</i> | 调整用于在<b>预览</b>输出中绘制样条可视化效果的段数。<br>值越高，线条越平滑。 |
-| <b>Thickness（像素）</b> <i>Float</i> | 在<b>预览</b>输出中调整样条可视化的Thickness（以像素为单位）。 |
+| <b>Thickness（像素）</b> <i>浮动</i> | 在<b>预览</b>输出中调整样条可视化的Thickness（以像素为单位）。 |
 
 ## 示例
 
@@ -103,12 +103,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条（二次）：示例1](spline-quadratic.resources/spline-quadratic-02.png "样条（二次）：示例1"){zoomable="yes"}
+![样条（二次）：示例1](../../../../../../assets/spline-quadratic-example-1.png "样条（二次）：示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条（二次）：示例2](spline-quadratic.resources/spline-quadratic-03.png "样条（二次）：示例2"){zoomable="yes"}
+![样条（二次）：示例2](../../../../../../assets/spline-quadratic-example-2.png "样条（二次）：示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条（二次）：演示](spline-quadratic.resources/spline-quadratic-04.gif "样条（二次）：演示"){zoomable="yes"}
+![样条（二次）：演示](../../../../../../assets/spline-quadratic-demo.gif "样条（二次）：演示"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

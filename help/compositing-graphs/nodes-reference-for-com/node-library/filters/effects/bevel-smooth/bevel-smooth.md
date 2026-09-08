@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 斜面平滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性科威特灰度图标](bevel-smooth.resources/bevel-smooth-01.png "各向异性科威特灰度图标"){width="200px"}
+![各向异性科威特灰度图标](../../../../../../assets/bevel_smooth.png "各向异性科威特灰度图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [方向距离](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)节点提供了类似功能，其中扩展是在特定方向执行的。
+> [方向距离](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)节点提供了类似功能，其中膨胀是在特定方向执行的。
 
 <a name="inputs"></a>
 
@@ -54,8 +54,8 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>蒙版输入</b> <i>灰度</i>主要 | 应从中提取蒙版的图像。   所有高于“蒙版阈值”的值在该蒙版中均为白色。 |
-| <b>源输入</b> <i>灰度</i> | 仅当“Output Mode”参数设置为“Displation”时才使用可选输入。   在这种情况下，该图像将叠加在蒙版的白色区域上，并且扩展边界处的灰度值。 |
-| <b>距离图</b> <i>灰度</i> | “距离图乘数”参数的值大于0时使用的可选输入。   它用于调整沿蒙版边界的斜角/扩展距离，其中较暗的值导致较短的距离。 |
+| <b>源输入</b> <i>灰度</i> | 仅当“Output Mode”参数设置为“膨胀”时才使用可选输入。   在这种情况下，该图像将叠加在蒙版的白色区域上，并且扩展边界处的灰度值。 |
+| <b>距离图</b> <i>灰度</i> | “距离图乘数”参数的值大于0时使用的可选输入。   该选项用于调整蒙版边界上的斜角/膨胀距离，较暗的值会产生较短的距离。 |
 
 <a name="outputs"></a>
 
@@ -77,8 +77,8 @@ ht-degree: 0%
 | <b>最大距离</b> *浮动* | 在归一化图像空间中，膨胀的距离，其中1是输入图像的短边的长度。 |
 | <b>蒙版Smoothness</b> *浮动* | 应用于蒙版的平滑程度。   该值是模糊的半径，1个单位是图像的1/256。 |
 | <b>蒙版偏移</b> *浮动* | 向内或向外移动蒙版边界。 |
-| <b>蒙版阈值</b> *浮动* | 用于检测“蒙版输入”图像中的蒙版边界的值。   高于此阈值的值是蒙版形状的&#x200B;*内*，低于此阈值的值是&#x200B;*外*。 |
-| <b>缩放</b> *浮点2* | 调整扩展的水平(X)和垂直(Y)距离。   这些值是“最大距离”参数值的乘数。 |
+| <b>蒙版阈值</b> *Float* | 用于检测“蒙版输入”图像中的蒙版边界的值。   高于此阈值的值是蒙版形状的&#x200B;*内*，低于此阈值的值是&#x200B;*外*。 |
+| <b>缩放</b> *Float2* | 调整膨胀的水平(X)和垂直(Y)距离。   这些值是“最大距离”参数值的乘数。 |
 | <b>距离图乘数</b> *整数* | 在“最大距离”上调整“距离图”的影响。 |
 
 ## 示例
@@ -87,12 +87,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![斜面平滑：示例1](bevel-smooth.resources/bevel-smooth-02.gif "斜面平滑：示例1"){width="1024px" zoomable="yes"}
+![斜面平滑：示例1](../../../../../../assets/bevel_smooth_example_1.gif "斜面平滑：示例1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![斜面平滑：示例8](bevel-smooth.resources/bevel-smooth-03.jpg "斜面平滑：示例8"){width="1024px" zoomable="yes"}
+![斜面平滑：示例8](../../../../../../assets/bevel_smooth_example_8.jpg "斜面平滑：示例8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="bevel_smooth_example_4_before">
+      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="bevel_smooth_example_4_after">
+      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="bevel_smooth_example_2_before">
+      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_smooth_example_2_after">
+      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="bevel_smooth_example_3_before">
+      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_smooth_example_3_after">
+      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="bevel_smooth_example_5_before">
+      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_smooth_example_5_after">
+      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="bevel_smooth_example_7_before">
+      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="bevel_smooth_example_7_after">
+      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>之后</i>
     </td>
   </tr>

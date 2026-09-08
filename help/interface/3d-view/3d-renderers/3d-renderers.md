@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D渲染器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 路径追踪</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 +++
 
-![光栅器 — 示例1](3d-renderers.resources/3d-renderers-04.jpg "光栅器 — 示例1"){zoomable="yes"}
+![光栅器 — 示例1](../../../assets/3dRendererRasterizer.jpg "光栅器 — 示例1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -125,9 +125,9 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 | **启用位移**&#x200B;布尔值 | 指定是否应启用位移。 |
 | **位移阈值**&#x200B;浮动 | 设置阈值以启用/禁用 GPU 曲面细分。 |
 | **启用背面剔除**&#x200B;布尔值 | 如果为真值，将能够剔除法线背向摄像机的三角形网格。 如果值为false，则禁用背面剔除。 |
-| **像素循环类型**&#x200B;整数 | 指定用于降低交互式渲染的计算分辨率的技术：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>无循环：</i>禁用像素循环并计算每个完整的像素样本。</li> <li data-preserve-html="true"><i>设备优化：</i>根据用于渲染的设备选择理想的像素循环分辨率。</li> <li data-preserve-html="true"><i>4x4：</i>每个循环通道对1/16个像素进行采样。</li> <li data-preserve-html="true"><i>8x8：</i>每个循环通道对1/64个像素进行采样。</li><li data-preserve-html="true"><i>蓝色杂色：</i>自适应地对多个像素进行采样，并将其分割以获得目标帧速率。</li> </ul> |
+| **像素循环类型**&#x200B;整数 | 指定用于降低交互式渲染的计算分辨率的技术：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>无循环：</i>禁用像素循环并计算每个完整的像素样本。</li> <li data-preserve-html="true"><i>设备优化：</i>根据用于渲染的设备选择理想的像素循环分辨率。</li> <li data-preserve-html="true"><i>4x4：</i>每个循环通道对1/16个像素进行采样。</li> <li data-preserve-html="true"><i>8x8：</i>每个循环通道对1/64个像素进行采样。</li><li data-preserve-html="true"><i>蓝色噪声：</i>自适应地对多个像素进行采样，并将它们分割以获得目标帧速率。</li> </ul> |
 | **诊断模式**&#x200B;整数 | 指定渲染所用的诊断模式。 |
-| **通过传输查看背景**&#x200B;布尔值 | 如果为真值，可通过透射或折射对象看到背景图像。   若此值为False，则透射对象将显示场景环境的折射图像。 |
+| **通过传输查看背景**&#x200B;布尔值 | 如果值为true，背景图像便可以通过transmissive或折射对象看到。   如果此项为false，则transmissive对象将显示场景环境的折射图像。 |
 
 +++
 
@@ -135,17 +135,17 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 |                                    |                                                                                                                                                                  |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **已启用**&#x200B;布尔值 | 在渲染场景中切换地平面。 |
-| **Height**&#x200B;浮动 | 控制地平面的Height偏移。   如果编写了此值，则根据场景的比例，预计会内置适当的偏差。 |
-| **阴影强度**&#x200B;浮动 | 启用阴影后，控制投影在地平面上的不透明度，范围从0.0（无阴影）到1.0（全阴影）。 |
+| **已启用**&#x200B;布尔值 | 在渲染的场景中切换地面平面。 |
+| **Height** Float | 控制地面平面的Height偏移。   如果编写了此值，则根据场景的比例，预计会在中烘焙适当的偏差。 |
+| **阴影强度** Float | 启用阴影后，可控制阴影在地面平面上强制转换的不透明度，范围从0.0（无阴影）到1.0（全阴影）。 |
 | **启用本地光源**&#x200B;布尔值 | 控制局部光源的直接光照是否影响阴影捕集器。 |
-| **启用反射**&#x200B;布尔值 | 控制地平面上所有反射的可见性。 |
-| **反射不透明度**&#x200B;浮动 | 启用反射后，将控制反射的不透明度，范围为0.0（无反射）至1.0（完全反射）。 |
-| **反射粗糙度**&#x200B;浮点 | 启用反射后，从0.0（全光泽）到1.0（全粗糙）控制构成反射的地平面的材料粗糙度。 |
+| **启用反射**&#x200B;布尔值 | 控制地面平面上所有反射的可见性。 |
+| **反射不透明度** Float | 启用反射后，将控制反射的不透明度，范围为0.0（无反射）至1.0（完全反射）。 |
+| **反射粗糙度** Float | 启用反射后，从0.0（全光泽）到1.0（全粗糙）控制构成反射的地面平面的材料粗糙度。 |
 
 +++
 
-![GPU路径跟踪器 — 示例1](3d-renderers.resources/3d-renderers-05.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
+![GPU路径跟踪器 — 示例1](../../../assets/3dRendererPathtracer.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -242,9 +242,9 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 +++
 
@@ -254,9 +254,9 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 +++
 
@@ -266,9 +266,9 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 +++
 
@@ -296,4 +296,4 @@ Designer还为您提供了使用GLSLFX文件[&#128279;](../../../interface/3d-vi
 > 
 > 此渲染器&#x200B;**已弃用**：它将不接收新功能，并且将在未来版本的Designer中弃用。
 
-![OpenGL — 示例1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL — 示例1"){zoomable="yes"}
+![OpenGL — 示例1](../../../assets/3dRendererOpenGL.jpg "OpenGL — 示例1"){zoomable="yes"}

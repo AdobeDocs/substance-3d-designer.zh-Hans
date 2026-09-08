@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 预览路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](preview-paths.resources/preview-paths-01.png "节点图标")
+![节点图标](../../../../../../assets/preview-paths-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -66,12 +66,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](preview-paths.resources/preview-paths-02.jpg "节点示例1")
+![节点示例1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](preview-paths.resources/preview-paths-03.jpg "节点示例2")
+![节点示例2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "节点示例2")
 
 </td>
 </tr>

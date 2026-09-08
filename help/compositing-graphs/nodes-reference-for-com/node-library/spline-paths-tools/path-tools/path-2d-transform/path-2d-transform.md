@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径二维变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](path-2d-transform.resources/path-2d-transform-01.png "节点图标")
+![节点图标](../../../../../../assets/path-2d-transform-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -73,11 +73,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
+      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
       <br><i>之后</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
+      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
       <br><i>之后</i>
     </td>
   </tr>

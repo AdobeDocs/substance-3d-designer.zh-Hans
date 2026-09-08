@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲率平滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![曲率平滑节点图标](curvature-smooth.resources/curvature-smooth-01.png "曲率平滑节点图标"){width="200px"}
+![曲率平滑节点图标](../../../../../../assets/CurvatureSmooth.png "曲率平滑节点图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -79,11 +79,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例2](curvature-smooth.resources/curvature-smooth-04.jpg "曲率平滑：示例2"){zoomable="yes"}
+![曲率平滑：示例2](../../../../../../assets/curvature_smooth_example_2.jpg "曲率平滑：示例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例3](curvature-smooth.resources/curvature-smooth-05.jpg "曲率平滑：示例3"){zoomable="yes"}
+![曲率平滑：示例3](../../../../../../assets/curvature_smooth_example_3.jpg "曲率平滑：示例3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_smooth_example_4_before">
+      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_smooth_example_4_after">
+      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例4](curvature-smooth.resources/curvature-smooth-08.jpg "曲率平滑：示例4"){zoomable="yes"}
+![曲率平滑：示例4](../../../../../../assets/curvature_smooth_example_5.jpg "曲率平滑：示例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![曲率平滑：示例5](curvature-smooth.resources/curvature-smooth-09.jpg "曲率平滑：示例5"){zoomable="yes"}
+![曲率平滑：示例5](../../../../../../assets/curvature_smooth_example_6.jpg "曲率平滑：示例5"){zoomable="yes"}
 
 </td>
 </tr>

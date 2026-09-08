@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形项目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![点节点图标](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![点节点图标](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## 点节点（也称为门户）
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![帧图标](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![帧图标](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## 取景框
 
@@ -60,14 +60,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![注释图标](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![注释图标](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## 注释
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![导航大头针图标](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![导航大头针图标](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## 固定
 

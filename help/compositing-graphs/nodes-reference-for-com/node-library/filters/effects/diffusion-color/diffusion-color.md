@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漫射颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-color.resources/diffusion-color-01.png){width="200px"}
+![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -48,8 +48,8 @@ ht-degree: 4%
 |  |  |
 |:---|:---|
 | <b>源</b> <i>颜色</i> | 要扩散的图像。 |
-| <b>蒙版</b> <i>灰度</i> | 扩散蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
-| <b>强度</b> <i>灰度</i> | 局部定义扩散过程应用的强度。 此地图应该为<i>对比图</i>，才能产生显着的效果。 |
+| <b>蒙版</b> <i>灰度</i> | 漫射蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
+| <b>强度</b> <i>灰度</i> | 在本地定义漫射过程应用的强度。 此地图应该为<i>对比图</i>，才能产生显着的效果。 |
 
 <a name="parameters"></a>
 
@@ -68,32 +68,32 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02.jpg" />
+            <img src="../../../../../../assets/diffusion-color-02-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-03.jpg" />
+            <img src="../../../../../../assets/diffusion-color-02a-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-04.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-05.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-06.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-07.jpg" />
+            <img src="../../../../../../assets/diffusion-color-02b-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-08.jpg" />
+            <img src="../../../../../../assets/diffusion-color-01-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-09.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01b-after-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01a-after-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-color-normal.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-color-normal-render.jpg" />
         </td>
     </tr>
 </table>

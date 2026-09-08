@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非均匀模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-blur.resources/non-uniform-blur-01.png){width="128px"}
+![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
 
-![](non-uniform-blur.resources/non-uniform-blur-02.png){width="128px"}
+![](../../../../../../assets/non-uniform-blur.png){width="128px"}
 
 <b>英寸：</b>滤镜>模糊
 
@@ -67,7 +67,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-blur.resources/non-uniform-blur-03.gif" /><br><i>以下示例由“模糊映射”槽中的渐变渐变（90度）驱动。</i>
+            <img src="../../../../../../assets/nonuniform-example.gif" /><br><i>以下示例由“模糊映射”槽中的渐变渐变（90度）驱动。</i>
         </td>
     </tr>
 </table>

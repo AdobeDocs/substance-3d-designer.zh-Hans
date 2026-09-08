@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 各向异性噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性噪声 — 图标](anisotropic-noise.resources/anisotropic-noise-01.png "各向异性噪声 — 图标"){width="200px"}
+![各向异性噪声 — 图标](../../../../../../assets/anisotropic_noise_v2.png "各向异性噪声 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -41,11 +41,15 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 输出
 
 |  |  |
 |:---|:---|
 | <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
@@ -67,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![各向异性噪声 — 示例1](anisotropic-noise.resources/anisotropic-noise-02.png "各向异性噪声 — 示例1"){zoomable="yes"}
+![各向异性噪声 — 示例1](../../../../../../assets/anisotropic_noise_v2_1.png "各向异性噪声 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![各向异性噪声 — 示例2](anisotropic-noise.resources/anisotropic-noise-03.gif "各向异性噪声 — 示例2"){zoomable="yes"}
+![各向异性噪声 — 示例2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向异性噪声 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

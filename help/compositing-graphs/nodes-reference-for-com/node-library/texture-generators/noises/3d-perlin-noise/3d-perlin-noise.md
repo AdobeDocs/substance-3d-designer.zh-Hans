@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Perlin噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
+![](../../../../../../assets/3dperlinnoise.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -52,10 +52,10 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>反转</b> <i>布尔值</i> | 反转输出图像。 |
-| <b>缩放</b> <i>Float</i> | 控制3D Perlin噪声的比例。 |
-| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Perlin噪声的大小。 值不一致会产生<i>拉伸或挤压</i>效果。 |
-| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Perlin噪声的<i>位置</i>。 |
-| <b>扭曲强度</b> <i>Float</i> | 控制应用于3D Perlin噪声的<i>变形效果</i>的强度。 |
+| <b>缩放</b> <i>浮动</i> | 控制3D Perlin杂色的缩放程度。 |
+| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Perlin噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。 |
+| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中3D Perlin噪声的<i>位置</i>。 |
+| <b>扭曲强度</b> <i>浮动</i> | 控制应用于3D Perlin噪声的<i>变形效果</i>的强度。 |
 | <b>扭曲比例乘数</b> <i>浮动</i> | 控制变形效果中使用的<i>变形图案</i>的比例，该比例由<b>扭曲强度</b>控制。 |
 | <b>基线</b> <i>浮动</i> | 将<i>偏移</i>应用于3D Perlin杂色值分布的基线<i>明亮度</i>值。 |
 | <b>对比度</b> <i>浮动</i> | 调整3D Perlin噪声的对比度。 |
@@ -67,13 +67,13 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
+            <img src="../../../../../../assets/3dperlin.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
+            <img src="../../../../../../assets/3dperlinnoise-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
+            <img src="../../../../../../assets/3dperlinnoise-variant.jpg" />
         </td>
     </tr>
 </table>

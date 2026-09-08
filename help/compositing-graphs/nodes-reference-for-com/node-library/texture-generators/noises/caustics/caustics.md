@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 焦散
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](caustics.resources/caustics-01.png){width="128px"}
+![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -51,7 +51,7 @@ ht-degree: 5%
 | <b>表面Height位置</b> <i>0.0 - 1.0</i> | 设置折射曲面到投影的距离。 |
 | <b>表面IOR</b> <i>1.0 - 2.0</i> | 设置折射率，在色散版本中，这将添加更多颜色颜色。 |
 | <b>光子大小</b> <i>1.0 - 50.0</i> | 光子大小影响效果的锐度。 |
-| <b>离散</b> <i>0.0 - 0.01（仅限颜色版本）</i> | 仅影响颜色色散。 IOR值较低时不可见。 |
+| <b>色散</b> <i>0.0 - 0.01（仅限颜色版本）</i> | 仅影响颜色色散。 IOR值较低时不可见。 |
 | <b>抖动</b> <i>0.0 - 1.0</i> | 为强制转换光子粒子添加不规则抖动。 |
 | <b>光源位置</b> | 移动光源位置。 还通过2D 视图中的小工具完成。 |
 | <b>背景颜色</b> <i>（颜色值）（仅限颜色版本）</i> | 更改背景颜色。 灰度版本仅限黑色。 |
@@ -62,7 +62,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="caustics.resources/caustics-02.png" />
+            <img src="../../../../../../assets/rt-caustics-grayscale-1.png" />
         </td>
     </tr>
 </table>

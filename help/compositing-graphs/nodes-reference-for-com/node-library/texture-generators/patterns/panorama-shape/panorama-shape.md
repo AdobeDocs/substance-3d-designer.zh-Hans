@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/panorama-shape.html"
 breadcrumb-title: ''
-description: 使用“全景形状”节点创建映射到全景坐标的形状，以便生成环境纹理。
+description: 使用“全景形状”节点创建映射到全景坐标的形状，以生成环境纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 全景形状
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](panorama-shape.resources/panorama-shape-01.png){width="128px"}
+![](../../../../../../assets/panorama-shape-1.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 描述
 
-对于生成程序化的“Studio”类型的全景图而言，这是一个有用的节点。 允许您放置和修改聚光灯图像，以及设置其HDR属性。 它可以链接在一起用于多个形状。
+对于生成程序化“Studio”类型的全景图而言，这是一个有用的节点。 允许您放置和修改聚光灯图像，以及设置其HDR属性。 它可以链接在一起用于多个形状。
 
 </td>
 </tr>

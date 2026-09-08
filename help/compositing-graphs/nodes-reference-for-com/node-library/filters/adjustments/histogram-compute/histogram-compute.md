@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图计算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方图计算：图标](histogram-compute.resources/histogram-compute-01.png "直方图计算：图标"){width="200px"}
+![直方图计算：图标](../../../../../../assets/histogram_compute.png "直方图计算：图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -77,16 +77,16 @@ ht-degree: 1%
 
 ## 示例
 
-![直方图计算：示例1](histogram-compute.resources/histogram-compute-02.jpg "直方图计算：示例1"){zoomable="yes"}
+![直方图计算：示例1](../../../../../../assets/histogram_compute_example_1.jpg "直方图计算：示例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-compute.resources/histogram-compute-03.jpg" alt="histogram_compute_example_2_before">
+      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="histogram-compute.resources/histogram-compute-04.jpg" alt="histogram_compute_example_2_after">
+      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>

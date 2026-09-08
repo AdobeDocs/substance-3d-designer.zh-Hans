@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 修改调色板
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](modify-color-palette.resources/modify-color-palette-01.png "量化颜色图标"){width="200px"}
+![量化颜色图标](../../../../../../assets/ModifyColorPalette.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -82,18 +82,18 @@ ht-degree: 0%
 
 ## 示例
 
-![修改调色板：示例1](modify-color-palette.resources/modify-color-palette-02.png "修改调色板：示例1"){zoomable="yes"}
+![修改调色板：示例1](../../../../../../assets/modify_color_palette_example_1.png "修改调色板：示例1"){zoomable="yes"}
 
-![修改调色板：示例2](modify-color-palette.resources/modify-color-palette-03.png "修改调色板：示例2"){zoomable="yes"}
+![修改调色板：示例2](../../../../../../assets/modify_color_palette_example_3.png "修改调色板：示例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
+      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
+      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>

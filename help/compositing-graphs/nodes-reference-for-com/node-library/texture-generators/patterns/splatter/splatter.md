@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 飞溅
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter.resources/splatter-01.png)
+![](../../../../../../assets/splatter.png)
 
-![](splatter.resources/splatter-02.png)
+![](../../../../../../assets/splatter-color.png)
 
 <b>进入：</b>纹理生成器>图案
 
@@ -77,7 +77,7 @@ Scplatter是一种图案生成器，用于随机放置地图输入。 它具有�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter.resources/splatter-03.gif" />
+            <img src="../../../../../../assets/splatter-ex.gif" />
         </td>
     </tr>
 </table>

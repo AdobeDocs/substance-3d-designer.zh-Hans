@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 分形求和3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![分形求和3 — 图标](fractal-sum-3.resources/fractal-sum-3-01.png "分形求和3 — 图标"){width="200px"}
+![分形求和3 — 图标](../../../../../../assets/fractal_sum_3.png "分形求和3 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![分形求和3 — 示例1](fractal-sum-3.resources/fractal-sum-3-02.png "分形求和3 — 示例1"){zoomable="yes"}
+![分形求和3 — 示例1](../../../../../../assets/fractal_sum_3_1.png "分形求和3 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![分形求和3 — 示例2](fractal-sum-3.resources/fractal-sum-3-03.gif "分形求和3 — 示例2"){zoomable="yes"}
+![分形求和3 — 示例2](../../../../../../assets/noise_fractal_sum_3_v2_speed0.6_aniso0.gif "分形求和3 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 添加样条
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-append.resources/spline-append-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-append-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 | <b>反向样条#2方向</b> <i>布尔值</i> | 反转第二组中样条的方向。 |
 | <b>预览</b> |  |
 | <b>段数量</b> <i>整数</i> | 调整用于在“预览”输出中绘制样条可视化效果的段数。 值越高，线条越平滑。 |
-| <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向助手</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
-| <b>Thickness（像素）</b> <i>浮动</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
+| <b>Thickness（像素）</b> <i>Float</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
 
 ## 示例
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-append.resources/spline-append-02.jpg "节点示例1")
+![节点示例1](../../../../../../assets/SplineAppend-Demo.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-append.resources/spline-append-03.jpg "节点示例2")
+![节点示例2](../../../../../../assets/SplineAppend-Graph.jpg "节点示例2")
 
 </td>
 </tr>
 </table>
 
-![节点演示](spline-append.resources/spline-append-04.gif "节点演示")
+![节点演示](../../../../../../assets/SplineAppend-Demo2.gif "节点演示")

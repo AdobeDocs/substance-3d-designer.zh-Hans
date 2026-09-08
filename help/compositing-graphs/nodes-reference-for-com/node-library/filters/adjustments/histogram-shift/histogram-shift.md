@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图偏移
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-shift.resources/histogram-shift-01.png){width="128px"}
+![](../../../../../../assets/histogram-shift-1.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -54,10 +54,10 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-shift.resources/histogram-shift-02.gif" />
+            <img src="../../../../../../assets/histogram-shift.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="histogram-shift.resources/histogram-shift-03.gif" />
+            <img src="../../../../../../assets/histogram-shift2.gif" />
         </td>
     </tr>
 </table>

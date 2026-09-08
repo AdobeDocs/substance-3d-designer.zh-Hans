@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 常数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 +++ 库中的常量节点
 
-![constants-library.png](constant.resources/constant-01.png)
+![constants-library.png](constant.resources/constants-library.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="常量浮点节点" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="常量浮点节点" /></p>
 
 ## 整数
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数类型图标](constant.resources/constant-03.png "整数类型图标")
+![整数类型图标](../../../../assets/fn-constant-integer.png "整数类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数2类型图标](constant.resources/constant-04.png "整数2类型图标")
+![整数2类型图标](../../../../assets/fn-constant-integer2.png "整数2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Integer2的一个常见用例是设置X和Y网格大小，如[Tile Generator](..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数3类型图标](constant.resources/constant-05.png "整数3类型图标")
+![整数3类型图标](../../../../assets/fn-constant-integer3.png "整数3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,56 +103,37 @@ Integer3节点生成带有(X、Y、Z)分量的静态3分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数4类型图标](constant.resources/constant-06.png "整数4类型图标")
+![整数4类型图标](../../../../assets/fn-constant-integer4.png "整数4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>整数4</b>
 
-Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
+整数4节点生成具有(X、Y、Z、W)分量的静态4分量整数向量。
 
 </td>
 </tr>
 </table>
 
-## 浮动
+## float
 
-固定浮点值生成小数，即它们支持小数符号后的值，并且可以在小于1的步骤中进行调整。 （默认：0.01）
+常数Float值生成小数，即它们支持小数符号后的值，并且可以在小于1的步骤中进行调整。 （默认：0.01）
 
-[浮点数可以转换为整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但会向上或向下舍入到最接近的整数，这意味着数据和准确性会丢失。
-
-<table>
-<tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
-
-![浮点类型图标](constant.resources/constant-07.png "浮点类型图标")
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-<b>浮动</b>
-
-Float具有单个组件，通常用于任何需要精度的单个值。
-
-</td>
-</tr>
-</table>
+[Float可以转换为整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但会向上或向下四舍五入到最接近的整数，这意味着数据和准确性将丢失。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2类型图标](constant.resources/constant-08.png "Float2类型图标")
+![Float类型图标](../../../../assets/fn-constant-float.png "Float类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮点2</b>
+<b>Float</b>
 
-Float2节点生成带有(X， Y)分量的2分量向量。
-
-Float2常用于[采样坐标](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)、[偏移变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)和常规2D矢量操作。
+float具有单个组件，通常用于任何需要精度的单个值。
 
 </td>
 </tr>
@@ -162,16 +143,16 @@ Float2常用于[采样坐标](../../../../function-graphs/nodes-reference-for-fu
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3类型图标](constant.resources/constant-09.png "Float3类型图标")
+![Float2类型图标](../../../../assets/fn-constant-float2.png "Float2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮点3</b>
+<b>Float2</b>
 
-Float3节点生成3分量(X、Y、Z)矢量。
+float2节点生成具有(X，Y)分量的双分量向量。
 
-Float3主要用于处理3D对象和[3D缩放坐标](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)（例如[3D SDF节点](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)），并且作为一种存储RGB颜色的更简单方法（即无Alpha）。
+float2通常用于[采样坐标](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)、[偏移变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)和常规2D矢量操作。
 
 </td>
 </tr>
@@ -181,16 +162,35 @@ Float3主要用于处理3D对象和[3D缩放坐标](../../../../compositing-grap
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4类型图标](constant.resources/constant-10.png "Float4类型图标")
+![Float3类型图标](../../../../assets/fn-constant-float3.png "Float3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮点4</b>
+<b>Float3</b>
 
-Float4生成4分量(X、Y、Z、W)矢量。
+float3节点产生3分量(X、Y、Z)向量。
 
-Float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方法，例如[统一颜色节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)中。
+float3主要用于处理3D对象和[3D比例坐标](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)（例如[3D SDF节点](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)），并且作为一种存储RGB颜色的更简单方法（即无Alpha）。
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td width="16.67%" style="border: 0;" valign="top">
+
+![Float4类型图标](../../../../assets/fn-constant-float4.png "Float4类型图标")
+
+</td>
+<td width="100.00%" style="border: 0;" valign="top">
+
+<b>Float4</b>
+
+float4生成4分量(X、Y、Z、W)向量。
+
+float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方式，例如[统一颜色节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)中。
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方法，例
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布尔型图标](constant.resources/constant-11.png "布尔型图标")
+![布尔值类型图标](../../../../assets/fn-constant-boolean.png "布尔值类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

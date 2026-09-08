@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RGBA分割
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rgba-split.resources/rgba-split-01.png){width="128px"}
+![](../../../../../../assets/rgba-split.png){width="128px"}
 
 <b>范围：</b>滤镜>通道
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 描述
 
-将输入图像拆分为相应的红、绿、蓝和Alpha 通道。 有效“解包”图像。
+将输入图像拆分为相应的红色、绿色、蓝色和Alpha通道。 有效“解包”图像。
 
-有助于单独分析和使用打包通道。 使用烘焙位置映射或烘焙世界空间范例映射查看Substance Painter中的效果时，可举例突出显示X、Y或Z分量。
+有助于单独分析和使用打包通道。 当使用烘焙的位置图或烘焙的世界空间范本图进行Substance Painter效果时，例如，它可以让您挑出X、Y或Z分量。
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 边缘损坏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-damages.resources/edge-damages-01.png){width="128px"}
+![](../../../../../../assets/edge-damages.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -66,7 +66,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-damages.resources/edge-damages-02.gif" />
+            <img src="../../../../../../assets/edge-damages-ex.gif" />
         </td>
     </tr>
 </table>

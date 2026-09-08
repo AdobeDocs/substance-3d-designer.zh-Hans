@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 苔藓风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](moss-weathering.resources/moss-weathering-01.png){width="128px"}
+![](../../../../../../assets/moss-weathering.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>风化
 
@@ -80,7 +80,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="moss-weathering.resources/moss-weathering-02.gif" />
+            <img src="../../../../../../assets/moss-ex.gif" />
         </td>
     </tr>
 </table>

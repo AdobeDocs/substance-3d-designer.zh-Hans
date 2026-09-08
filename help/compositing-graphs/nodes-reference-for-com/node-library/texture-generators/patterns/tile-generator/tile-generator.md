@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-generator.resources/tile-generator-01.png){width="128px"}
+![](../../../../../../assets/tile-generator.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -118,16 +118,16 @@ Tile Generator是库中最高级的节点之一。 如果学会了如何掌握�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-02.png" />
+            <img src="../../../../../../assets/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-03.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-04.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-05.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill为GrayscaleColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
 
-![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
+![](../../../../../../assets/floodfill-to-color.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 

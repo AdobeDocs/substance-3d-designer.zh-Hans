@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 创建调色板(16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](create-color-palette-16.resources/create-color-palette-16-01.png "量化颜色图标"){width="200px"}
+![量化颜色图标](../../../../../../assets/CreateColorPalette16.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -76,15 +76,15 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![创建调色板：示例1](create-color-palette-16.resources/create-color-palette-16-02.png "创建调色板：示例1"){zoomable="yes"}
+![创建调色板：示例1](../../../../../../assets/create_color_palette_example_1.png "创建调色板：示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![创建调色板：示例2](create-color-palette-16.resources/create-color-palette-16-03.png "创建调色板：示例2"){zoomable="yes"}
+![创建调色板：示例2](../../../../../../assets/create_color_palette_example_2.png "创建调色板：示例2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![创建调色板：示例3](create-color-palette-16.resources/create-color-palette-16-04.png "创建调色板：示例3"){zoomable="yes"}
+![创建调色板：示例3](../../../../../../assets/create_color_palette_example_3.png "创建调色板：示例3"){zoomable="yes"}

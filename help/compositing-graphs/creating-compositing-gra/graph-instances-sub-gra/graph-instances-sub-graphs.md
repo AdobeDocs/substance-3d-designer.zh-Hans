@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 绘制实例和子图图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 绘制实例和子图图形
 
-![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
+![](../../../assets/sub-graph.png)
 
 图形实例是<b>引用其他图形</b>的节点。 宿主图中的实例子图引用的图形可以称为宿主图的<b>节点</b>。
 
@@ -62,14 +62,14 @@ ht-degree: 0%
 
 ### 是否可以检查图形实例的源图形？
 
-![（刻度）](graph-instances-sub-graphs.resources/check.svg)是，对于从&#x200B;**Substance 3D文件(SBS)**&#x200B;加载的图形实例，*仅*。 这些实例化具有&#x200B;*深红色*&#x200B;标签。\
+![（刻度）](../../../assets/check.svg)是，对于从&#x200B;**Substance 3D文件(SBS)**&#x200B;加载的图形实例，*仅*。 这些实例化具有&#x200B;*深红色*&#x200B;标签。\
 右键单击节点以打开其上下文菜单，然后选择&#x200B;**打开引用**&#x200B;选项。
 
 >[!NOTE]
 >
 > 检查源图形时，如果[首选项](../../../interface/preferences-window/preferences-window.md)的&#x200B;**图形**&#x200B;部分中的&#x200B;**In-context editing**&#x200B;选项为&#x200B;*已选中*，则可以使用实例图形的输入数据。
 
-![（减号）](graph-instances-sub-graphs.resources/forbidden.svg) *不能*&#x200B;检查从&#x200B;**Substance 3D资源(SBSAR)**&#x200B;图形加载的实例，因为这些实例已编译。 您只能在&#x200B;**资源管理器**&#x200B;面板中加载资源以检查公开的图形列表及其参数。 这些实例化具有&#x200B;*绿色*&#x200B;标签。\
+![（减号）](../../../assets/forbidden.svg) *不能*&#x200B;检查从&#x200B;**Substance 3D资源(SBSAR)**&#x200B;图形加载的实例，因为这些实例已编译。 您只能在&#x200B;**资源管理器**&#x200B;面板中加载资源以检查公开的图形列表及其参数。 这些实例化具有&#x200B;*绿色*&#x200B;标签。\
 右键单击节点以打开其上下文菜单，然后选择&#x200B;**加载包**&#x200B;选项。
 
 >[!NOTE]

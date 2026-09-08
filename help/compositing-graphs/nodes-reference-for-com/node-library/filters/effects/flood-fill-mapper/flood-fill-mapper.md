@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
-description: 使用Flood Fill映射器节点，使用用于纹理处理的泛洪填充算法跨连接的区域映射值。
+description: 使用Flood Fill映射器节点，使用泛洪填充算法跨连接的纹理映射值，以进行节点处理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill映射器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
+![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 描述
 
-Flood Fill映射器允许将现有图案或Flood Fill重新映射到[纹理](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)的每个单元格上。 它与[随机灰度](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md)或[渐变](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md)等其他Flood Fill转换不同，因为它不生成纯色或纯值，但允许您使用自己的输入映射。 它可以看作是[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)和[平铺Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)或[形状映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md)的某种组合，因为它提供了许多类似的控件和界面。
+Flood Fill映射器允许将现有模式或纹理重新映射到[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)的每个单元格上。 它与[随机灰度](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md)或[渐变](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md)等其他Flood Fill转换不同，因为它不生成纯色或纯值，但允许您使用自己的输入图。 它可以看作是[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)和[平铺Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)或[形状映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md)的某种组合，因为它提供了许多类似的控件和界面。
 
-颜色版本具有处理法线映射的其他控件，它可以[补偿切线空间法线映射旋转](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)。
+彩色版本具有使用法线图的其他控件，它可以[补偿正切空间诺映射旋转](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)。
 
 </td>
 </tr>
@@ -101,10 +101,10 @@ Flood Fill映射器允许将现有图案或Flood Fill重新映射到[纹理](../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
+            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
+            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>

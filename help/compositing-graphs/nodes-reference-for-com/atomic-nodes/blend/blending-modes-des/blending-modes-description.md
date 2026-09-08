@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合模式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -26,19 +26,19 @@ ht-degree: 2%
 
 *复制*&#x200B;混合模式会将前景置于背景之上。
 
-![混合模式：复制](blending-modes-description.resources/blending-modes-description-01.png "混合模式：复制"){zoomable="yes"}
+![混合模式：复制](../../../../../assets/image2015-8-20-9-38-0.png "混合模式：复制"){zoomable="yes"}
 
 对于彩色图像，不透明度中默认考虑Alpha通道。
 
 可使用“Alpha混合”参数更改此设置。
 
-![混合模式：复制(2)](blending-modes-description.resources/blending-modes-description-02.png "混合模式：复制(2)"){zoomable="yes"}
+![混合模式：复制(2)](../../../../../assets/image2015-8-20-14-15-29.png "混合模式：复制(2)"){zoomable="yes"}
 
 ## 添加（线性减淡）
 
 *添加*&#x200B;混合模式会将前景输入值添加到背景中的每个相应像素。
 
-![混合模式：添加（线性减淡）](blending-modes-description.resources/blending-modes-description-03.png "混合模式：添加（线性减淡）"){zoomable="yes"}
+![混合模式：添加（线性减淡）](../../../../../assets/image2015-8-20-9-38-19.png "混合模式：添加（线性减淡）"){zoomable="yes"}
 
 ## 减去
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 如果减去的结果低于0，该值将被限制为0，从而产生纯黑色。
 
-![混合模式：减去](blending-modes-description.resources/blending-modes-description-04.png "混合模式：减去"){zoomable="yes"}
+![混合模式：减去](../../../../../assets/image2015-8-20-9-38-35.png "混合模式：减去"){zoomable="yes"}
 
 ## 正片叠底
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 由于每个像素的值包含在0和1之间，因此结果始终等于或小于原始值（较暗）。
 
-![混合模式：正片叠底](blending-modes-description.resources/blending-modes-description-05.png "混合模式：正片叠底"){zoomable="yes"}
+![混合模式：正片叠底](../../../../../assets/image2015-8-20-9-38-53.png "混合模式：正片叠底"){zoomable="yes"}
 
 ## 添加子项
 
@@ -63,19 +63,19 @@ ht-degree: 2%
 * 值大于0.5的前景像素将添加到其各自的背景像素中。
 * 值小于0.5的前景像素从各自的背景像素中减去。
 
-![混合模式：添加子](blending-modes-description.resources/blending-modes-description-06.png "混合模式：添加子"){zoomable="yes"}
+![混合模式：添加子](../../../../../assets/image2015-8-20-9-39-11.png "混合模式：添加子"){zoomable="yes"}
 
 ## 最大值（变亮）
 
 *Max*&#x200B;混合模式将在背景和前景之间选取较高的值。
 
-![混合模式：最大（变亮）](blending-modes-description.resources/blending-modes-description-07.png "混合模式：最大（变亮）"){zoomable="yes"}
+![混合模式：最大（变亮）](../../../../../assets/image2015-8-20-9-40-12.png "混合模式：最大（变亮）"){zoomable="yes"}
 
 ## 最小值（变暗）
 
 *最小*&#x200B;混合模式将在背景和前景之间选取较低的值。
 
-![混合模式：最小（变暗）](blending-modes-description.resources/blending-modes-description-08.png "混合模式：最小（变暗）"){zoomable="yes"}
+![混合模式：最小（变暗）](../../../../../assets/image2015-8-20-9-40-31.png "混合模式：最小（变暗）"){zoomable="yes"}
 
 ## 切换
 
@@ -88,13 +88,13 @@ ht-degree: 2%
 
 [开关](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)和[开关灰度](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)节点设置为在这些特定配置中使用混合节点。
 
-![混合模式：开关](blending-modes-description.resources/blending-modes-description-01.png "混合模式：开关"){zoomable="yes"}
+![混合模式：开关](../../../../../assets/image2015-8-20-9-38-0.png "混合模式：开关"){zoomable="yes"}
 
 ## 划分
 
 *分割*&#x200B;混合模式会将背景输入像素值除以前景中每个相应的像素。
 
-![混合模式：分割](blending-modes-description.resources/blending-modes-description-09.png "混合模式：分割"){zoomable="yes"}
+![混合模式：分割](../../../../../assets/image2015-8-20-9-41-32.png "混合模式：分割"){zoomable="yes"}
 
 ## 叠加
 
@@ -104,7 +104,7 @@ ht-degree: 2%
   * 如果较低图层像素的值低于0.5，则应用&#x200B;*正片叠底*&#x200B;类型混合
   * 如果较低图层像素的值高于0.5，则应用&#x200B;*滤色*&#x200B;类型混合
 
-![混合模式：叠加](blending-modes-description.resources/blending-modes-description-10.png "混合模式：叠加"){zoomable="yes"}
+![混合模式：叠加](../../../../../assets/image2015-8-20-9-41-50.png "混合模式：叠加"){zoomable="yes"}
 
 ## 滤色
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 
 结果对于正片叠底效果恰好相反，与原始图像相比总是等于或更高（更亮）。
 
-![混合模式：滤色](blending-modes-description.resources/blending-modes-description-11.png "混合模式：滤色"){zoomable="yes"}
+![混合模式：滤色](../../../../../assets/image2015-8-20-9-42-11.png "混合模式：滤色"){zoomable="yes"}
 
 ## 柔光
 
@@ -120,4 +120,4 @@ ht-degree: 2%
 
 混合亮度超过50%的颜色会使背景像素变亮，而亮度低于50%的颜色会使背景像素变暗。
 
-![混合模式：柔光](blending-modes-description.resources/blending-modes-description-12.png "混合模式：柔光"){zoomable="yes"}
+![混合模式：柔光](../../../../../assets/image2015-8-20-9-42-32.png "混合模式：柔光"){zoomable="yes"}

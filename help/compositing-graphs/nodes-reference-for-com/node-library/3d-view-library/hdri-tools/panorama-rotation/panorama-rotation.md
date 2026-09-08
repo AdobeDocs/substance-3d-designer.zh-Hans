@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 全景旋转
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
+![](../../../../../../assets/panorama-rotation.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 

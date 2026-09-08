@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: 使用“AO取消”节点从扫描的材料中删除ambient occlusion，以便进行干净的纹理处理。
+description: 使用“AO取消”节点从扫描素材中移除环境遮蔽，以进行干净的纹理处理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AO取消
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](ao-cancellation.resources/ao-cancellation-01.png){width="128px"}
+![](../../../../../../assets/ao-cancel.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

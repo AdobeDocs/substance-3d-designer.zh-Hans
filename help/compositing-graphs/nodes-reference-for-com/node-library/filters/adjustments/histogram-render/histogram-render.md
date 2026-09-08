@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性科威特灰度图标](histogram-render.resources/histogram-render-01.png "各向异性科威特灰度图标"){width="200px"}
+![各向异性科威特灰度图标](../../../../../../assets/histogram_render.png "各向异性科威特灰度图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -69,6 +69,6 @@ ht-degree: 2%
 
 ## 示例
 
-![直方图渲染：示例1](histogram-render.resources/histogram-render-02.png "直方图渲染：示例1"){zoomable="yes"}
+![直方图渲染：示例1](../../../../../../assets/histogram_render_example_1.png "直方图渲染：示例1"){zoomable="yes"}
 
-![直方图渲染：示例2](histogram-render.resources/histogram-render-03.png "直方图渲染：示例2"){zoomable="yes"}
+![直方图渲染：示例2](../../../../../../assets/histogram_render_example_2.png "直方图渲染：示例2"){zoomable="yes"}

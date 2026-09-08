@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平面光
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/plane-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-plane-light.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 
@@ -57,13 +57,13 @@ ht-degree: 4%
 
 |  |  |
 |:---|:---|
-| <b>位置模式</b> <i>地面/上限、距原点距离、世界位置</i> | 从三种不同的放置模式中进行选择。 地面/天花板和距原点距离支持在2D 视图中操作，世界位置只能通过属性更改，但支持更精确的放置。 |
+| <b>位置模式</b> <i>地面/上限、距原点距离、世界位置</i> | 从三种不同的放置模式中进行选择。 地面/天花板和距原点距离支持在2D视图中操作，“世界”位置只能通过属性更改，但支持更精确的放置。 |
 | <b>显示网格</b> <i>False/True</i> | 用于允许绘制调试地网格的帮助器函数。 帮助估计线段在空间中的位置。 |
 | <b>位置坐标</b> |  |
 | <b>向上矢量</b> <i>Z向上，Y向上</i> | 仅在“世界位置”模式下确定坐标系的方向。 |
-| <b>平面UV位置</b> | 仅适用于地面/天花板和距原点距离。 在UV空间中设置平面位置。 |
-| <b>平面世界位置</b> <i>-2.0 - 2.0</i> | 仅适用于世界位置模式。 设置平面位置世界空间。 不支持2D视图交互。 |
-| <b>平面绝对Height</b> <i>0.0 - 1.0</i> | 仅在“地面/天花板位置模式”下，设置距天花板的绝对Height。 使用“显示地面网格”可以更好地估计位置。 |
+| <b>平面UV位置</b> | 仅用于地面/上限和距原点距离。 在UV空间中设置平面位置。 |
+| <b>平面世界位置</b> <i>-2.0 - 2.0</i> | 仅适用于世界位置模式。 设置平面位置世界空间。 不支持2D 视图交互。 |
+| <b>平面绝对Height</b> <i>0.0 - 1.0</i> | 仅在“地面/天花板位置模式”下，设置距天花板的绝对Height。 使用“显示网格”可以更好地估计位置。 |
 | <b>距原点距离</b> <i>0.0 - 1.0</i> | 仅适用于距原点距离位置模式。 设置两个点到全景图中心的距离。 |
 | <b>形状颜色模式</b> <i>RGB、温度（开氏温度）、图像输入</i> | 选择用来设置形状颜色的方法。 “Image Input（图像输入）”允许使用第二个输入插槽。 |
 | <b>颜色</b> <i>（颜色值）</i> | 仅当“形状颜色模式”设置为“RGB”时。 为形状选取颜色。 |
@@ -89,7 +89,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-02.gif" />
+            <img src="../../../../../../assets/plane-light-ex.gif" />
         </td>
     </tr>
 </table>

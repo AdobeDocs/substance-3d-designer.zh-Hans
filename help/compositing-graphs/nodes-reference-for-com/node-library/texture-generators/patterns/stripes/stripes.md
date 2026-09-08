@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
 breadcrumb-title: ''
-description: 使用“Stripe”节点生成具有可自定义宽度、间距和方向的条纹图案，用于创建纹理。
+description: 使用“Stripe”节点生成具有可自定义宽度、间距和方向的条带图案，以创建纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Stripes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 条纹
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](stripes.resources/stripes-01.png){width="128px"}
+![](../../../../../../assets/stripes.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## 描述
 
-生成拼贴、有角度的条纹图案。 模式会自我调整，始终确保连续性。
+生成拼贴的斜角条纹图案。 模式会自我调整，始终确保连续性。
 
 </td>
 </tr>
@@ -51,14 +51,14 @@ ht-degree: 11%
 | <b>转换</b> <i>0 - 20</i> | 倾斜条纹。 自动添加更多条纹以确保拼贴。 |
 | <b>对齐</b> <i>边缘，中心</i> | 设置偏移的透视。 |
 | <b>筛选</b> <i>False/True</i> | 启用筛选。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="stripes.resources/stripes-02.gif" />
+            <img src="../../../../../../assets/stripes-ex.gif" />
         </td>
     </tr>
 </table>

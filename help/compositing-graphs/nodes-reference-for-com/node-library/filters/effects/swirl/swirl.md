@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漩涡
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](swirl.resources/swirl-01.png)![](swirl.resources/swirl-02.png)
+![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
 
 <b>英寸：</b>滤镜>效果
 

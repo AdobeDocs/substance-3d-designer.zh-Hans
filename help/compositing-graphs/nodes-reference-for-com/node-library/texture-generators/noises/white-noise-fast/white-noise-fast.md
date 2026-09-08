@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快速白噪声
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](white-noise-fast.resources/white-noise-fast-01.png){width="128px"}
+![](../../../../../../assets/white-noise-fast.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="white-noise-fast.resources/white-noise-fast-02.png" />
+            <img src="../../../../../../assets/white-noise-fast-1.png" />
         </td>
     </tr>
 </table>

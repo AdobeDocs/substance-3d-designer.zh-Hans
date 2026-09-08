@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍飞溅尘土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-splashes-dusty.resources/grunge-splashes-dusty-01.jpg){width="200px"}
+![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-02.jpg" />
+            <img src="../../../../../../assets/grungesplashesdusty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-03.jpg" />
+            <img src="../../../../../../assets/grungesplashesdusty-variant.jpg" />
         </td>
     </tr>
 </table>

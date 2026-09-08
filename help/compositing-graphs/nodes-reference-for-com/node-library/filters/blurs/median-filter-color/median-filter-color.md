@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 中间值滤镜颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![中间值滤镜颜色：图标](median-filter-color.resources/median-filter-color-01.png "中间值滤镜颜色：图标")
+![中间值滤镜颜色：图标](../../../../../../assets/MedianFilter_Icon_Color.png "中间值滤镜颜色：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -76,11 +76,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-02.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-03.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-04.png" alt="MedianFilter_Variant3A">
+      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-05.png" alt="MedianFilter_Variant3B">
+      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>之后</i>
     </td>
   </tr>

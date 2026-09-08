@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D纹理体积渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
+![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
 
 <b>进入：</b>滤镜>效果
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>输出分辨率</b> <i>整数2</i> | <b>X</b>和<b>Y</b>中输出图像的分辨率，表示为<i>的二次方</i>。 |
-| <b>相机位置</b> <i>浮点2</i> | 形状周围的相机位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>轨道</i>相机。 |
+| <b>相机位置</b> <i>浮点2</i> | 形状周围相机的位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>轨道</i>相机。 |
 | <b>光源位置</b> <i>浮点2</i> | <i>定向光</i>在形状周围的位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>绕轨</i>光源。 |
 | <b>相机距离</b> <i>浮动</i> | 从相机到形状的距离。 |
 | <b>相机FOV</b> <i>浮动</i> | 相机的视角<i>度</i>。 |
@@ -87,22 +87,22 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

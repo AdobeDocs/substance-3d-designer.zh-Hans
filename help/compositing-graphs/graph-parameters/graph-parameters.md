@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形参数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 图形参数
 
-本页介绍<b>Substance图形</b>的标准参数。
+此页描述<b>图形</b>的标准参数。
 
-一个图形有多个可以修改的参数。 您可以通过单击图形中的&#x200B;*空白区域*&#x200B;或在<b>资源管理器</b>面板中选择&#x200B;*图形项*&#x200B;来查找它们。 然后，参数将显示在“参数”视图中。
+一个图形有多个可以修改的参数。 您可以通过单击图形中的&#x200B;*空白区域*&#x200B;或在<b>图形</b>面板中选择&#x200B;*资源管理器项*&#x200B;来查找它们。 然后，参数将显示在“参数”视图中。
 
 <a name="base-parameters"></a>
 
@@ -34,30 +34,30 @@ ht-degree: 1%
 
 此部分包含对&#x200B;*它包含的所有节点*&#x200B;有影响的参数。
 
-实际上，此图形中基参数设置为“相对于父项”[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的每个节点都将从&#x200B;*图形的*&#x200B;基参数获取其值。
+实际上，此图形中基参数设置为“相对于父代”的[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的每个节点都将从&#x200B;*图形*&#x200B;基参数中获取其值。
 
 反过来，图形的基本参数值将取决于在其中使用图形的上下文。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![基本参数](graph-parameters.resources/graph-parameters-01.png "基本参数"){width="512px" zoomable="yes"}
+![基本参数](../../assets/doc-graph-props-base-params.png "基本参数"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-例如，当图形在其他图形中用作实例节点时，其基本参数默认使用“相对于输入”继承方法。 这意味着他们将从与其主输入连接的节点获取其值。 （除非它们[被覆盖](#input-parameters)）
+例如，当该图形在另一个图形中用作实例化时，其基本参数默认使用“相对于输入”继承方法。 这意味着他们将从与其主输入连接的节点获取其值。 （除非它们[被覆盖](#input-parameters)）
 
-在大多数情况下，继承在定义这些值以及这些值在整个图表中的变化方式中发挥着重要作用。 因此，强烈建议在使用这些参数之前充分了解Substance图中的[继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
+在大多数情况下，继承在定义这些值以及这些值在整个图形中的变化方式方面起着重要作用。 因此，强烈建议在使用这些参数之前充分了解图形[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中的继承。
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>输出大小</b> | 此参数允许您选择图表中图像的&#x200B;*基分辨率*。  使用 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> 锁定按钮，使高度值和宽度值匹配，并在调整大小时保持图像正方形。<br><br>*默认： (0,0) -相对于父代* [了解详情](../../compositing-graphs/output-size/output-size.md) |
+| <b>输出大小</b> | 此参数允许您在图形中选择图像的&#x200B;*基分辨率*。  使用 <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> 锁定按钮，使高度值和宽度值匹配，并在调整大小时保持图像正方形。<br><br>*默认： (0,0) -相对于父代* [了解详情](../../compositing-graphs/output-size/output-size.md) |
 | <b>输出格式</b> | 允许从以下选项中选择图形中的&#x200B;*基本位深度*：<ul data-preserve-html="true"><li data-preserve-html="true">8位</li><li data-preserve-html="true">16位</li><li data-preserve-html="true">HDR Low Precision 16F（16位浮点）</li><li data-preserve-html="true">HDR High Precision 32F（32位浮点）</li></ul>*默认值：每通道8位 — 相对于主页* |
 | <b>像素大小</b> | 定义像素大小。 我们建议将&#x200B;**宽度**&#x200B;和&#x200B;**Height**&#x200B;值都设置为&#x200B;**1**。*默认值： (1,1) — 相对于主页* |
 | <b>拼贴模式</b> | 通过以下选项在图形中定义基&#x200B;*拼贴模式*：<ul data-preserve-html="true"> <li data-preserve-html="true">无平铺</li> <li data-preserve-html="true">水平平铺</li> <li data-preserve-html="true">垂直平铺</li> <li data-preserve-html="true">H+V拼贴（即水平和垂直）</li> </ul>*默认： H和V拼贴 — 相对于主页* |
-| <b>随机植入</b> | 为图形定义基&#x200B;*随机植入*。  使用 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> 按钮以向随机种子分配新的随机值。<br><br>*默认值： 0 — 相对于主页* |
+| <b>随机植入</b> | 为图形定义基&#x200B;*随机植入*。  使用 <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> 按钮以向随机种子分配新的随机值。<br><br>*默认值： 0 — 相对于主页* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![图形属性](graph-parameters.resources/graph-parameters-04.png "图形属性"){zoomable="yes"}
+![图形属性](../../assets/doc-graph-props-attributes.png "图形属性"){zoomable="yes"}
 
 </td>
 </tr>
@@ -109,21 +109,21 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-所有特定于图形的参数（包括[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）均[管理](../../compositing-graphs/manage-parameters/manage-parameters.md)，可在此处编辑和预览。
+特定于图形的所有参数（包括[公开的参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)）均[受管理](../../compositing-graphs/manage-parameters/manage-parameters.md)，可在此处编辑和预览。
 
 也可以为部分或所有参数创建[参数预设](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![输入参数](graph-parameters.resources/graph-parameters-05.png "输入参数"){zoomable="yes"}
+![输入参数](../../assets/doc-graph-props-input-parameters.png "输入参数"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++覆盖基本参数
-将另一个图形中的图形用作[实例化](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)时，可以控制该新实例化上任何基本参数的默认值。
+将另一个图形中的某个图形用作[实例节点](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)时，可以控制该新实例节点上任何基本参数的默认值。
 
 打开“输入参数”部分顶部的汉堡包菜单，然后转到“覆盖基本参数”子菜单以选择要为其设置任意默认值的基本参数。
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输入](graph-parameters.resources/graph-parameters-06.png "输入"){zoomable="yes"}
+![输入](../../assets/doc-graph-props-inputs.png "输入"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![输出](graph-parameters.resources/graph-parameters-07.png "输出"){zoomable="yes"}
+![输出](../../assets/doc-graph-props-outputs.png "输出"){zoomable="yes"}
 
 </td>
 </tr>

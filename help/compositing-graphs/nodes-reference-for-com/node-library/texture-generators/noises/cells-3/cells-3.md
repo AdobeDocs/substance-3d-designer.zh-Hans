@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 细胞3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![细胞3 — 图标](cells-3.resources/cells-3-01.png "细胞3 — 图标"){width="200px"}
+![细胞3 — 图标](../../../../../../assets/cells_3.png "细胞3 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -61,14 +61,14 @@ ht-degree: 1%
 | <b>硬度</b> <i>浮动</i> | 单元格壁的定义，其中较高的值导致更清晰、清晰的壁。 |
 | <b>反转</b> <i>布尔值</i> | 反转图像输出的灰度值。 |
 | <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
-| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
-| <b>无序各向异性</b> <i>浮动</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序各向异性角</b>参数控制。 |
-| <b>无序anisotropy angle</b> <i>浮动</i> | 当“无序位移”参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
-| <b>图案大小</b> <i>浮点2</i> | 单元中散布的磁盘大小的乘数，其中1.0是单元的整个跨度。 |
-| <b>图案缩放</b> <i>浮动</i> | <b>图案大小</b>的乘数，其中1.0为全尺寸。 |
-| <b>角度</b> <i>浮动</i> | 用来设置磁盘方向的角度，以匝数为单位，从右水平方向开始。 |
-| <b>角度随机</b> <i>浮动</i> | 应用于<b>角度</b>值的随机变化的最大值（轮次数）。 |
-| <b>拼贴偏移</b> <i>浮点2</i> | 控制用于渲染杂色的无限平面部分的位置。 |
+| <b>无序速度</b> <i>Float</i> | 调整<b>无序</b>参数应用的位移的距离。    在为噪声制作动画时，这可用于控制位移的速度。 |
+| <b>无序各向异性</b> <i>Float</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序anisotropy angle</b>参数控制。 |
+| <b>无序anisotropy angle</b> <i>Float</i> | 当“无序位移”参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
+| <b>图案大小</b> <i>Float2</i> | 单元中散布的磁盘大小的乘数，其中1.0是单元的整个跨度。 |
+| <b>图案缩放</b> <i>Float</i> | <b>图案大小</b>的乘数，其中1.0为全尺寸。 |
+| <b>角度</b> <i>Float</i> | 用来设置磁盘方向的角度，以匝数为单位，从右水平方向开始。 |
+| <b>角度随机</b> <i>Float</i> | 应用于<b>角度</b>值的随机变化的最大值（轮次数）。 |
+| <b>拼贴偏移</b> <i>Float2</i> | 控制用于渲染杂色的无限平面部分的位置。 |
 | <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
 
 ## 示例
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例1](cells-3.resources/cells-3-02.png "细胞3 — 示例1"){zoomable="yes"}
+![细胞3 — 示例1](../../../../../../assets/cells_3_1.png "细胞3 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例2](cells-3.resources/cells-3-03.gif "细胞3 — 示例2"){zoomable="yes"}
+![细胞3 — 示例2](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso0.gif "细胞3 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例3](cells-3.resources/cells-3-04.gif "细胞3 — 示例3"){zoomable="yes"}
+![细胞3 — 示例3](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso1.gif "细胞3 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![细胞3 — 示例4](cells-3.resources/cells-3-05.gif "细胞3 — 示例4"){zoomable="yes"}
+![细胞3 — 示例4](../../../../../../assets/noise_cells_3_v2_speed0.3_aniso0.6.gif "细胞3 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

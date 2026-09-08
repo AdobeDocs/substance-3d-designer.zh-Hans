@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形状映射器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![形状映射器 — 图标](shape-mapper.resources/shape-mapper-01.png "形状映射器 — 图标"){width="200px"}
+![形状映射器 — 图标](../../../../../../assets/shape_mapper.png "形状映射器 — 图标"){width="200px"}
 
 <b>进入：</b>纹理生成器>图案
 

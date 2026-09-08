@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快速反应扩散
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![反应扩散节点图标](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "反应扩散节点图标")
+![反应扩散节点图标](../../../../../../assets/reaction-diffusion.png "反应扩散节点图标")
 
 <b>英寸：</b>滤镜>效果
 
@@ -74,17 +74,17 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![示例1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "示例1")
+![示例1](../../../../../../assets/reactdiff03.png "示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "示例2")
+![示例2](../../../../../../assets/reactdiff02.png "示例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "示例3")
+![示例3](../../../../../../assets/reactdiff01.gif "示例3")
 
 </td>
 </tr>

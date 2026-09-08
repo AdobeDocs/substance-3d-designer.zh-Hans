@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变映射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：渐变映射](gradient-map.resources/gradient-map-01.png "原子节点：渐变映射"){width="200px"}
+![原子节点：渐变映射](../../../../assets/comp_gradient_1.png "原子节点：渐变映射"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ ht-degree: 2%
 * 单击<b>渐变编辑器</b>按钮上的LMB；
 * 双击渐变栏中某个图钉上的LMB 。 然后，将在“渐变编辑器”中自动选择单击的图钉，以便您可以直接编辑其值。
 
-![渐变编辑器](gradient-map.resources/gradient-map-02.png "渐变编辑器")
+![渐变编辑器](../../../../assets/image2017-2-17-16-13-5.png "渐变编辑器")
 
 ### 编辑渐变图钉
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 将第一个和最后一个图钉前后的渐变部分分别设置为这些图钉的颜色。
 
-![渐变编辑器 — 渐变视图](gradient-map.resources/gradient-map-03.png "渐变编辑器 — 渐变视图")
+![渐变编辑器 — 渐变视图](../../../../assets/image2017-2-17-17-27-46.png "渐变编辑器 — 渐变视图")
 
 下列控件可用于编辑图钉：
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 添加pin](gradient-map.resources/gradient-map-04.gif "渐变编辑器 — 添加pin")
+![渐变编辑器 — 添加pin](../../../../assets/move-pin.gif "渐变编辑器 — 添加pin")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ ht-degree: 2%
 
 也可以通过选择一个图钉位置并使用<b>位置</b>参数来设置图钉位置及其数值。 位置是[0；1]范围内的值，其中0是渐变的开始，1是渐变的结束。
 
-![渐变编辑器 — 固定位置参数](gradient-map.resources/gradient-map-05.png "渐变编辑器 — 固定位置参数")
+![渐变编辑器 — 固定位置参数](../../../../assets/image2015-8-27-13-56-2.png "渐变编辑器 — 固定位置参数")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 移动图钉](gradient-map.resources/gradient-map-06.gif "渐变编辑器 — 移动图钉")
+![渐变编辑器 — 移动图钉](../../../../assets/movepin2.gif "渐变编辑器 — 移动图钉")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 删除图钉](gradient-map.resources/gradient-map-07.gif "渐变编辑器 — 删除图钉")
+![渐变编辑器 — 删除图钉](../../../../assets/removepin.gif "渐变编辑器 — 删除图钉")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器：反转位置](gradient-map.resources/gradient-map-08.gif "渐变编辑器：反转位置")
+![渐变编辑器：反转位置](../../../../assets/invert.gif "渐变编辑器：反转位置")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 全部清除](gradient-map.resources/gradient-map-09.gif "渐变编辑器 — 全部清除")
+![渐变编辑器 — 全部清除](../../../../assets/remove.gif "渐变编辑器 — 全部清除")
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ ht-degree: 2%
 
 ### 拾色器
 
-![渐变编辑器 — 拾色器](gradient-map.resources/gradient-map-10.png "渐变编辑器 — 拾色器")
+![渐变编辑器 — 拾色器](../../../../assets/image2017-2-17-18-21-29.png "渐变编辑器 — 拾色器")
 
 拾色器允许您通过多种方式设置颜色：
 
@@ -245,7 +245,7 @@ ht-degree: 2%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![拾色器 — 渐变区域和色相栏](gradient-map.resources/gradient-map-11.gif "拾色器 — 渐变区域和色相栏")
+  ![拾色器 — 渐变区域和色相栏](../../../../assets/colorpalette.gif "拾色器 — 渐变区域和色相栏")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ ht-degree: 2%
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![拾色器 — RGB、HSV和Alpha滑块](gradient-map.resources/gradient-map-12.png "拾色器 — RGB、HSV和Alpha滑块")
+  ![拾色器 — RGB、HSV和Alpha滑块](../../../../assets/image2017-2-17-18-31-41.png "拾色器 — RGB、HSV和Alpha滑块")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ ht-degree: 2%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![拾色器 — 按屏幕拾色](gradient-map.resources/gradient-map-13.gif "拾色器 — 按屏幕拾色")
+  ![拾色器 — 按屏幕拾色](../../../../assets/pick.gif "拾色器 — 按屏幕拾色")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ ht-degree: 2%
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![拾色器 — 还原颜色](gradient-map.resources/gradient-map-14.png "拾色器 — 还原颜色")
+![拾色器 — 还原颜色](../../../../assets/image2015-8-27-14-40-39.png "拾色器 — 还原颜色")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ ht-degree: 2%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![拾色器 — 按钮](gradient-map.resources/gradient-map-15.gif "拾色器 — 按钮")
+![拾色器 — 按钮](../../../../assets/invert2.gif "拾色器 — 按钮")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ ht-degree: 2%
 
 “渐变”吸管是此节点提供的最有用的功能之一，因为只需在参考图片上绘制一条线即可创建复杂的渐变。
 
-![渐变编辑器 — 渐变拾色器](gradient-map.resources/gradient-map-16.gif "渐变编辑器 — 渐变拾色器")
+![渐变编辑器 — 渐变拾色器](../../../../assets/pickgradient.gif "渐变编辑器 — 渐变拾色器")
 
 <b>精度</b>滑块将通过增加或减少键数帮助您调整新创建的渐变：键值越小，渐变与所选值的匹配越精确。
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
 breadcrumb-title: ''
-description: 使用Color Equalizer节点可平衡扫描素材中的颜色变化，以获得一致的纹理外观。
+description: 使用Color Equalizer节点可以平衡扫描材料中的色彩变化，以保持纹理外观一致。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color Equalizer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-equalizer.resources/color-equalizer-01.png){width="128px"}
+![](../../../../../../assets/color-equalizer.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
-description: 使用“季节过滤器”节点将季节性效果应用于创建春季、夏季、秋季和冬季变体的素材。
+description: 使用季节滤镜节点对材料应用季节性效果，打造春季、夏季、秋季和冬季变体。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 季节过滤器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](season-filter.resources/season-filter-01.png){width="128px"}
+![](../../../../../../assets/default-icon.png){width="128px"}
 
 <b>进入：</b>材质过滤器>效果
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
 | <b>高级</b> |  |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
 | <b>蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |
@@ -80,11 +80,11 @@ ht-degree: 11%
 | <b>苔藓颜色</b> <i>（颜色值）</i> | 设置苔藓的颜色。 |
 | <b>水彩</b> <i>（颜色值）</i> | 设置水的颜色，包括Alpha/不透明度。 |
 | <b>混合</b> |  |
-| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 扩散的混合强度。 |
-| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合基色的强度。 |
-| <b>正常强度</b> <i>0.0 - 1.0</i> | 混合“正常”的强度。 |
-| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合Specular的强度。 |
-| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合光泽度的强度。 |
-| <b>粗糙度强度</b> <i>0.0 - 1.0</i> | 混合粗糙度的强度。 |
-| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 混合环境遮蔽的强度。 |
-| <b>Height强度</b> <i>0.0 - 1.0</i> | 混合Height的强度。 |
+| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>正常强度</b> <i>0.0 - 1.0</i> | “正常”混合强度。 |
+| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>粗糙度强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Height强度</b> <i>0.0 - 1.0</i> | 混合强度。 |

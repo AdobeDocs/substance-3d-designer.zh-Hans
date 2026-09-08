@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 三维脊状噪声分形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -71,10 +71,10 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
+            <img src="../../../../../../assets/3dridgednoisefractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
+            <img src="../../../../../../assets/3dridgednoisefractal-variant2.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nadir Patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](nadir-patch.resources/nadir-patch-01.png){width="200px"}
+![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="nadir-patch.resources/nadir-patch-02.gif" />
+            <img src="../../../../../../assets/nadir-patch-ex.gif" />
         </td>
     </tr>
 </table>

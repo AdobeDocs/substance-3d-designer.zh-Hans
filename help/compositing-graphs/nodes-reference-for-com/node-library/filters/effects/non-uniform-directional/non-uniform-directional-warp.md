@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-directional-warp.resources/non-uniform-directional-warp-01.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-02.png)
+![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## 描述
 
-非均匀方向变形是[方向变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)的高级版本，它允许变形的强度和方向由图像输入驱动。 它允许进行更多的控制，并且可以创建非常有用且有趣的图像扭曲，与[斜率模糊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)同样徒劳。
+非均匀方向变形是[定向翘曲](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)的高级版本，它允许图像的输入驱动变形的强度和方向。 它允许进行更多的控制，并且可以创建非常有用且有趣的图像扭曲，与[斜率模糊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)同样徒劳。
 
-它不同于[多方向变形](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)，因为它允许通过自定义映射输入控制角度，而多方向变形仅允许通过参数控制方向。 这意味着您可以创建高级的尾部效果和曲线效果，否则将无法创建这些效果。
+它不同于[多定向翘曲](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)，因为它允许通过自定义映射输入控制角度，而多定向翘曲仅允许通过参数控制方向。 这意味着您可以创建高级的尾部效果和曲线效果，否则将无法创建这些效果。
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>强度</b> <i>0.0 - 20.0</i> | 设置变形效果的强度，将像素向外推移的距离。 |
 | <b>变形角度</b> <i>0.0 - 1.0</i> | 设置应用变形效果的角度或方向。 |
-| <b>变形角度输入乘数</b> <i>0.0 - 1.0</i> | 设置变形角度输入映射的效果。 “变形角度输入”映射将用于从0插入此参数的值。 |
+| <b>变形角度输入乘数</b> <i>0.0 - 1.0</i> | 设置变形角度输入图的效果。 将使用“变形角度”输入图从0插入此参数的值。 |
 | <b>试用模式</b> <i>最小、最大、平均</i> | 设置描摹的混合方式。 |
 | <b>轨迹长度</b> <i>0.0 - 1.0</i> | 设置尾迹的长度。 |
 | <b>跟踪渐隐</b> <i>0.0 - 1.0</i> | 设置每个“跟踪”应渐隐的量 |

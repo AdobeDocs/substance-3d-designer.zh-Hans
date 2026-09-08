@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-blend.resources/height-blend-01.png){width="128px"}
+![](../../../../../../assets/height-blend.png){width="128px"}
 
 <b>进入：</b>材质过滤器>效果
 

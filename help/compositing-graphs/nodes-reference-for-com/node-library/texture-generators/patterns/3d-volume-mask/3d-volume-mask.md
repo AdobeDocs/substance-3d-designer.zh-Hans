@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D体积蒙版
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
+![](../../../../../../assets/3dvolumemask.png){width="256px"}
 
 <b>进入：</b>生成器>图案
 
@@ -54,8 +54,8 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>形状</b> <i>整数</i> | 应表示的基本形状： <br><br>- *立方体*<br>- *圆柱体*<br>- *球体* |
-| <b>缩放</b> <i>浮动</i> | 定义基元的&#x200B;*全局*&#x200B;缩放，在所有轴上统一应用&#x200B;**。 |
-| <b>大小</b> <i>浮点3</i> | 定义每个轴上的形状大小。 |
+| <b>缩放</b> <i>Float</i> | 定义基元的&#x200B;*全局*&#x200B;缩放，在所有轴上统一应用&#x200B;**。 |
+| <b>大小</b> <i>Float3</i> | 定义每个轴上的形状大小。 |
 | <b>位置输入</b> <i>整数</i> | *通过&#x200B;**位置**&#x200B;输入表示空间*&#x200B;的方法： <br><br>- *UV位置*：使用&#x200B;*UV映射*。 X/Y(U/V)坐标分别映射到R/G通道。 Z轴被假定为&#x200B;*正交向前*&#x200B;矢量。<br>- *世界空间位置*：使用&#x200B;*位置映射*&#x200B;在3D空间中映射基元。 X/Y/Z坐标分别映射到R/G/B通道。 |
 | <b>位置UV</b> <i>浮点2</i> | 基元在UV空间中的位置。<br><br>*注意*：仅当&#x200B;**位置输入**&#x200B;参数设置为&#x200B;*UV位置*&#x200B;时，此参数才可用。 |
 | <b>位置</b> <i>浮点3</i> | 基元在世界空间中的位置。<br><br>*注意*：仅当&#x200B;**位置输入**&#x200B;参数设置为&#x200B;*世界空间位置*&#x200B;时，此参数才可用。 |
@@ -67,16 +67,16 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant4.jpg" />
         </td>
     </tr>
 </table>

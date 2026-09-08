@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 颜色加深
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-burn.resources/color-burn-01.png){width="128px"}
+![](../../../../../../assets/color-burn.png){width="128px"}
 
 <b>英寸：</b>滤镜>混合
 

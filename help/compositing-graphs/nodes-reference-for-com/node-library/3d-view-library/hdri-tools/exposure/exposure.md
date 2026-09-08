@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曝光度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](exposure.resources/exposure-01.png){width="250px"}
+![](../../../../../../assets/exposure-9.png){width="250px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 环境遮蔽(RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO节点图标](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "RTAO节点图标")
+![RTAO节点图标](../../../../../../assets/rt-ao.png "RTAO节点图标")
 
 <b>英寸：</b>滤镜>效果
 
@@ -62,10 +62,10 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-7-48.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-9-0-1.png" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
-description: 使用安全变换节点可应用变换，同时保留纹理边界并避免伪影。
+description: 使用安全变换节点可以应用变换，同时保留纹理边界并避免伪影。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 安全变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](safe-transform.resources/safe-transform-01.png)
+![](../../../../../../assets/safe-transform.png)
 
-![](safe-transform.resources/safe-transform-02.png)
+![](../../../../../../assets/safe-transform-grayscale.png)
 
 <b>英寸：</b>筛选器>变换
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## 描述
 
-拼贴安全版本的[变换2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)。 允许您在不破坏拼贴的情况下进行缩放、旋转和偏移，并且不会由于小的偏移和旋转而丢失像素细节（失去清晰度/锐度）。
+拼贴安全版本的[变换2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)。 允许您在不中断拼贴的情况下进行缩放、旋转和偏移，并且不会由于小的偏移和旋转而丢失像素细节（失去清晰度/锐度）。
 
 当需要最大程度地控制或完美锐化时，可用于噪声。
 

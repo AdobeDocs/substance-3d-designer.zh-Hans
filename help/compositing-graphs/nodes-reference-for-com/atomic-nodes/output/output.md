@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：输出](output.resources/output-01.png "原子节点：输出"){width="200px"}
+![原子节点：输出](../../../../assets/comp_output_1.png "原子节点：输出"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -101,11 +101,11 @@ ht-degree: 0%
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="output.resources/output-02.png" alt="defaultouput2">
+      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td style="border: 0">
-      <img src="output.resources/output-03.png" alt="defaultouput1">
+      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
       <br><i>之后</i>
     </td>
   </tr>

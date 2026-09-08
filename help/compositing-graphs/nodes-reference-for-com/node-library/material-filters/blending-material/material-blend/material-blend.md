@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材质混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-blend.resources/material-blend-01.png){width="128px"}
+![](../../../../../../assets/material-blend.png){width="128px"}
 
 <b>进入：</b>材质过滤器>混合
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 | <b>Specular level</b> |  |
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度 |
 | <b>混合模式</b> <i>正常，相加，去除，相乘，相加/次相加，最大，最小，开关</i> |  |
-| <b>环境遮蔽</b> |  |
+| <b>Ambient occlusion</b> |  |
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度 |
 | <b>混合模式</b> <i>正常，相加，去除，相乘，相加/次相加，最大，最小，开关</i> |  |
 | <b>Height</b> |  |

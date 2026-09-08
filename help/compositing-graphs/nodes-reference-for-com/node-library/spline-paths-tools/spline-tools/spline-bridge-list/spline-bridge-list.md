@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条桥（列表）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-bridge-list.resources/spline-bridge-list-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-bridge-list-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 | <b>Height随机</b> <i>浮动</i> | 桥样条Height的随机调整量，其中调整取决于所选的<b>Height模式</b>参数：<br><br>- <i>从父样条继承：</i>该值是继承Height的乘数。<br>- <i>覆盖：</i>该值是添加到Height的偏移。 |
 | <b>非方形校正</b> <i>布尔值</i> | 调整点的位置和Thickness以保持样条形状的非方形分辨率。 这也会影响均匀分布。 |
 | <b>预览</b> |  |
-| <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向助手</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
 | <b>段数量</b> <i>整数</i> | 调整用于在“预览”输出中绘制样条可视化效果的段数。 值越高，线条越平滑。 |
-| <b>Thickness（像素）</b> <i>浮动</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
-| <b>背景预览强度</b> <i>浮动</i> | 预览可视化的强度。 |
+| <b>Thickness（像素）</b> <i>Float</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
+| <b>背景预览强度</b> <i>Float</i> | 预览可视化的强度。 |
 
 ## 示例
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-list.resources/spline-bridge-list-04.gif "节点示例2")
+![节点示例2](../../../../../../assets/SplineBridge-List_Demo.gif "节点示例2")
 
 </td>
 </tr>
 </table>
 
-![图形中的节点](spline-bridge-list.resources/spline-bridge-list-05.jpg "图形中的节点")
+![图形中的节点](../../../../../../assets/SplineBridge-List_Graph.jpg "图形中的节点")

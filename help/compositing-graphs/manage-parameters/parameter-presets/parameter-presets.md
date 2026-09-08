@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 参数预设
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 存储和加载预设有两种方法，这两种方法都有不同的用例，详见下文。
 
-![加载/保存预设下拉菜单](parameter-presets.resources/parameter-presets-01.gif "加载/保存预设下拉菜单"){width="512px"}
+![加载/保存预设下拉菜单](../../../assets/preset-menu.gif "加载/保存预设下拉菜单"){width="512px"}
 
 ## 外部预设
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > 即使部分匹配也会起作用：存储在加载的节点上不存在的SBSPRS中的参数将被忽略。 这意味着您可以在基本相似的节点之间转移属性，[，例如平铺Sampler的彩色和灰度版本](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)！ 将加载所有共享参数。 标识符和类型匹配。
 
-![嵌入的预设编辑](parameter-presets.resources/parameter-presets-02.gif "嵌入的预设编辑"){width="512px"}
+![嵌入的预设编辑](../../../assets/preset-embed.gif "嵌入的预设编辑"){width="512px"}
 
 ## 嵌入的预设
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 工作流程如下：
 
-1. 为<b>输入参数</b>切换到<b>预览模式</b>
+1. 切换到<b>输入参数</b>的<b>预览模式</b>
 1. 将值设置为所需的结果
 1. 单击预设下拉列表旁边的<b>+</b>以创建新的嵌入预设，然后会立即创建并存储预设
 

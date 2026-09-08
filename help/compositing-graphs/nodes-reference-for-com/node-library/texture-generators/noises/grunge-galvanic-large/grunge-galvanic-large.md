@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 大型污渍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-large.resources/grunge-galvanic-large-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -45,13 +45,13 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
 | <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>高级</b> |  |
-| <b>变形强度</b> <i>浮动</i> | 调整主变形效果的强度。 |
-| <b>脊细节不透明度</b> <i>浮动</i> | 调整较亮脊的不透明度。 |
+| <b>变形强度</b> <i>Float</i> | 调整主变形效果的强度。 |
+| <b>脊细节不透明度</b> <i>Float</i> | 调整较亮脊的不透明度。 |
 | <b>锐化强度</b> <i>浮动</i> | 调整全局锐化效果的强度。 |
 
 ## 示例
@@ -59,10 +59,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-02.jpg" />
+            <img src="../../../../../../assets/grungegalvaniclarge-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-03.jpg" />
+            <img src="../../../../../../assets/grungegalvaniclarge-variant2.jpg" />
         </td>
     </tr>
 </table>

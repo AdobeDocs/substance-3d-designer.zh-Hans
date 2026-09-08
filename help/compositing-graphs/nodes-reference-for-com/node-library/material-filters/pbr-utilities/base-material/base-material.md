@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 基础材质
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](base-material.resources/base-material-01.png){width="128px"}
+![](../../../../../../assets/pbr-base-material.png){width="128px"}
 
 <b>进入：</b>材质过滤器> PBR实用工具
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高通
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](highpass.resources/highpass-01.png){width="128px"}
+![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
 
-![](highpass.resources/highpass-02.png){width="128px"}
+![](../../../../../../assets/high-pass.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 ## 描述
 
 执行高反差滤镜，既可用于彩色版本，也可用于灰度版本。 与具有相同名称的Photoshop操作类似。\
-用于移除图像中的大明亮度差异，例如在清理纹理以进行拼贴时。
+可用于移除图像中的大明亮度差异，例如在清理纹理以拼贴时。
 
 重要提示：请确保使用适用于您的输入的版本！ 对颜色输入使用“高反差保留”，对灰度输入使用“高反差保留灰度”。
 
@@ -57,10 +57,10 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-03.gif" />
+            <img src="../../../../../../assets/highpass.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-04.png" />
+            <img src="../../../../../../assets/highpass-example.png" />
         </td>
     </tr>
 </table>

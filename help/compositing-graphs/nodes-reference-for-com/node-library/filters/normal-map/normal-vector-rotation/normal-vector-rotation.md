@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法线矢量旋转
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-vector-rotation.resources/normal-vector-rotation-01.png){width="128px"}
+![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
 
 <b>在</b>个筛选器中>法线图
 

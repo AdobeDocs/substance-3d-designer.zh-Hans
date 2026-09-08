@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 获取变量值
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 为此，您需要使用&#x200B;*Get*&#x200B;节点：
 
-![](get-a-variable-value.resources/get-a-variable-value-01.png)
+![](../../../assets/image2015-12-21-7-29-51.png)
 
 有多种不同的Get节点：根据要导入的值类型选择正确的节点：
 
-![](get-a-variable-value.resources/get-a-variable-value-02.png)
+![](../../../assets/image2015-12-21-7-31-4.png)
 
 ## 将变量分配给Get节点
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 变量名称将显示在节点中：
 
-![](get-a-variable-value.resources/get-a-variable-value-03.gif)
+![](../../../assets/assign-getfloat.gif)
 
 请注意，只有来自相同类型的Get节点的变量才会出现在列表中。
 

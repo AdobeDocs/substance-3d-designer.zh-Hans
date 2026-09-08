@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 波形1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![波形1 — 图标](waveform-1.resources/waveform-1-01.png "波形1 — 图标"){width="200px"}
+![波形1 — 图标](../../../../../../assets/waveform_01_v2.png "波形1 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 | <b>图案</b> <i>整数</i> | 放置在波形的每个采样处的图案。 |
 | <b>图案变体</b> <i>浮动</i> | 适用于某些图案的额外调整。 |
 | <b>无序</b> <i>浮动</i> | 置换波形的值。    这可用于为其制作动画。 |
-| <b>无序速度</b> <i>Float</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作波形动画时控制位移速度。 |
+| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作波形动画时控制位移速度。 |
 
 ## 示例
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![波形1 — 示例1](waveform-1.resources/waveform-1-02.gif "波形1 — 示例1"){zoomable="yes"}
+![波形1 — 示例1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "波形1 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高斯污点1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![高斯斑点1 — 图标](gaussian-spots-1.resources/gaussian-spots-1-01.png "高斯斑点1 — 图标"){width="200px"}
+![高斯斑点1 — 图标](../../../../../../assets/gaussian_spots_1.png "高斯斑点1 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯斑点1 — 示例1](gaussian-spots-1.resources/gaussian-spots-1-02.png "高斯斑点1 — 示例1"){zoomable="yes"}
+![高斯斑点1 — 示例1](../../../../../../assets/gaussian_spots_1_1.png "高斯斑点1 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯斑点1 — 示例2](gaussian-spots-1.resources/gaussian-spots-1-03.gif "高斯斑点1 — 示例2"){zoomable="yes"}
+![高斯斑点1 — 示例2](../../../../../../assets/noise_gaussian_spots_1_v2_speed0.6_aniso0.gif "高斯斑点1 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯斑点1 — 示例3](gaussian-spots-1.resources/gaussian-spots-1-04.gif "高斯斑点1 — 示例3"){zoomable="yes"}
+![高斯斑点1 — 示例3](../../../../../../assets/noise_gaussian_spots_1_v2_speed0.6_aniso1.gif "高斯斑点1 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯斑点1 — 示例4](gaussian-spots-1.resources/gaussian-spots-1-05.gif "高斯斑点1 — 示例4"){zoomable="yes"}
+![高斯斑点1 — 示例4](../../../../../../assets/noise_gaussian_spots_1_v2_speed0.3_aniso0.6.gif "高斯斑点1 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

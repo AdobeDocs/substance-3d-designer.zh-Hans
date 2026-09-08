@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV颜色：图标](mlv-color.resources/mlv-color-01.png "MLV颜色：图标")
+![MLV颜色：图标](../../../../../../assets/MLV_Color_Icon.png "MLV颜色：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -79,11 +79,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/mlv-color-02.png" alt="mlv_Variant4A">
+      <img src="../../../../../../assets/MLV_Variant4A.png" alt="mlv_Variant4A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
+      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/mlv-color-04.png" alt="mlv_Variant5A">
+      <img src="../../../../../../assets/MLV_Variant5A.png" alt="mlv_Variant5A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
+      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/mlv-color-06.png" alt="mlv_Variant3A">
+      <img src="../../../../../../assets/MLV_Variant3A.png" alt="mlv_Variant3A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
+      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>之后</i>
     </td>
   </tr>

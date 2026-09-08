@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 差值
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](difference.resources/difference-01.png){width="128px"}
+![](../../../../../../assets/difference.png){width="128px"}
 
 <b>英寸：</b>滤镜>混合
 

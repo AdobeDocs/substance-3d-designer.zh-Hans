@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 常数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数类型图标](constant-nodes.resources/constant-nodes-01.png "整数类型图标")
+![整数类型图标](../../../../assets/fn-constant-integer.png "整数类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数2类型图标](constant-nodes.resources/constant-nodes-02.png "整数2类型图标")
+![整数2类型图标](../../../../assets/fn-constant-integer2.png "整数2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2节点生成带有(X， Y)分量的静态2分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数3类型图标](constant-nodes.resources/constant-nodes-03.png "整数3类型图标")
+![整数3类型图标](../../../../assets/fn-constant-integer3.png "整数3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,14 +97,14 @@ Integer3节点生成带有(X、Y、Z)分量的静态3分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数4类型图标](constant-nodes.resources/constant-nodes-04.png "整数4类型图标")
+![整数4类型图标](../../../../assets/fn-constant-integer4.png "整数4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>整数4</b>
 
-Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
+整数4节点生成具有(X、Y、Z、W)分量的静态4分量整数向量。
 
 整数4不常见，不太可能会出现。<b>\
 </b>
@@ -113,22 +113,22 @@ Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
 </tr>
 </table>
 
-## 浮动
+## float
 
 常数Float生成小数，而不是全数，这意味着它们始终在小数符号之后有值，可以按小于1的步长递增或递减（默认为0.01）。
 
-[浮点数可以转换为整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但会向上或向下舍入到最接近的整数，这意味着数据和准确性会丢失。
+[Float可以转换为整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但会向上或向下四舍五入到最接近的整数，这意味着数据和准确性将丢失。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮点类型图标](constant-nodes.resources/constant-nodes-05.png "浮点类型图标")
+![Float类型图标](../../../../assets/fn-constant-float.png "Float类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮动</b>
+<b>Float</b>
 
 float具有单个组件，为了简洁起见，名称中省略了(1)。 float非常常见，可用于任何需要以滑块或角度形式精确控制的值。 您可以在几乎每个Node的参数中找到它。 这也是灰度值的首选数据类型！<b></b>
 
@@ -140,12 +140,12 @@ float具有单个组件，为了简洁起见，名称中省略了(1)。 float非
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2类型图标](constant-nodes.resources/constant-nodes-06.png "Float2类型图标")
+![Float2类型图标](../../../../assets/fn-constant-float2.png "Float2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮点2</b>
+<b>Float2</b>
 
 float2节点生成静态2分量Float向量。 组件命名为X、Y。Float2非常常见，用于[采样坐标](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)和[变换偏移](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
 
@@ -157,12 +157,12 @@ float2节点生成静态2分量Float向量。 组件命名为X、Y。Float2非�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3类型图标](constant-nodes.resources/constant-nodes-07.png "Float3类型图标")
+![Float3类型图标](../../../../assets/fn-constant-float3.png "Float3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮点3</b>
+<b>Float3</b>
 
 float3节点生成静态3分量Float向量。 组件名为X、Y、Z。Float3不常见，它主要用来表示[3D比例坐标](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)，是一种在没有Alpha数据的情况下存储颜色的更简单方法。<b>\
 </b>
@@ -175,12 +175,12 @@ float3节点生成静态3分量Float向量。 组件名为X、Y、Z。Float3不�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4类型图标](constant-nodes.resources/constant-nodes-08.png "Float4类型图标")
+![Float4类型图标](../../../../assets/fn-constant-float4.png "Float4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>浮点4</b>
+<b>Float4</b>
 
 float4生成静态4组件Float向量。组件命名为X、Y、Z、W。Float4非常常见，因为它是存储和设置[颜色信息的首选方法，其中XYZW数据表示RGBA值。](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>
@@ -197,14 +197,14 @@ Substance函数图形内存在另外两种数据类型：布尔值和字符串�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布尔型图标](constant-nodes.resources/constant-nodes-09.png "布尔型图标")
+![布尔值类型图标](../../../../assets/fn-constant-boolean.png "布尔值类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>布尔值</b>
 
-布尔值是最简单的数据类型，只知道两种状态：True或False、1或0。 它用白色表示。 如果没有[强制转换](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用[逻辑整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md)，则无法在布尔值和节点之间进行交换。 布尔非常常见，它是控制函数或图形流量的绝佳方法，典型用法是[切换节点。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+布尔值是最简单的数据类型，只知道两种状态：True或False、1或0。 它用白色表示。 如果没有[强制转换](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用[逻辑整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md)，则无法在布尔值和节点之间进行交换。 布尔值非常常见，它是控制函数或图形流量的绝佳方法，典型用法是[切换节点。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ Substance函数图形内存在另外两种数据类型：布尔值和字符串�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![字符串类型图标](constant-nodes.resources/constant-nodes-10.png "字符串类型图标")
+![字符串类型图标](../../../../assets/fn-constant-string.png "字符串类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 量化灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化灰度图标](quantize-grayscale.resources/quantize-grayscale-01.png "量化灰度图标"){width="200px"}
+![量化灰度图标](../../../../../../assets/quantize-grayscale.png "量化灰度图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -46,12 +46,12 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>步骤</b> *整数* | 输入范围应接近的单独值的数目。 |
-| <b>偏移</b> *浮动* | 将偏移应用于输入范围，该范围会&#x200B;*沿该范围移动*&#x200B;结果。 |
-| <b>斜率</b> *浮动* | 将斜率渐变应用于近似值之间的&#x200B;*过渡*，最大为步骤的&#x200B;*全宽*。 |
-| <b>斜率曲线</b> *整数* | 设置获取由<b>斜率</b>参数设置的斜率集的曲线的方法：<ul data-preserve-html="true"> <li data-preserve-html="true">*线性*：应用线性曲线，生成直线斜率</li> <li data-preserve-html="true">*平滑步骤*：应用平滑步骤曲线，从而产生平滑斜率</li> <li data-preserve-html="true">*曲线输入*：应用<b>曲线输入</b>输入映射描述的曲线。 您可以使用[曲线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)节点通过大量控制来描述此曲线。</li> </ul> |
+| <b>偏移</b> *Float* | 将偏移应用于输入范围，该范围会&#x200B;*沿该范围移动*&#x200B;结果。 |
+| <b>斜率</b> *Float* | 将斜率渐变应用于近似值之间的&#x200B;*过渡*，最大为步骤的&#x200B;*全宽*。 |
+| <b>斜率曲线</b> *整数* | 设置获取由<b>斜率</b>参数设置的斜率集的曲线的方法：<ul data-preserve-html="true"> <li data-preserve-html="true">*线性*：应用线性曲线，生成直线斜率</li> <li data-preserve-html="true">*平滑步骤*：应用平滑步骤曲线，从而产生平滑斜率</li> <li data-preserve-html="true">*曲线输入*：应用<b>曲线输入</b>输入图描述的曲线。 您可以使用[曲线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)节点通过大量控制来描述此曲线。</li> </ul> |
 
 ## 示例
 
-![示例1](quantize-grayscale.resources/quantize-grayscale-02.gif "示例1")
+![示例1](../../../../../../assets/quantizegrayscale.gif "示例1")
 
-![示例2](quantize-grayscale.resources/quantize-grayscale-03.png "示例2")
+![示例2](../../../../../../assets/quantizegrayscale.png "示例2")

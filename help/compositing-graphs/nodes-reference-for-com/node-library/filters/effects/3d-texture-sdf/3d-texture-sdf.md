@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D纹理SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-sdf.resources/3d-texture-sdf-01.png){width="200px"}
+![](../../../../../../assets/3dtexturesdf.png){width="200px"}
 
 <b>进入：</b>滤镜>效果
 
@@ -61,13 +61,13 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3d-texture-sdf-02.jpg" />
+            <img src="../../../../../../assets/3dtexturesdf-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3d-texture-sdf-03.jpg" />
+            <img src="../../../../../../assets/3dtexturesdf-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3d-texture-sdf-04.png" />
+            <img src="../../../../../../assets/3dtexturesdf-node.png" />
         </td>
     </tr>
 </table>

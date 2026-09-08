@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 多定向翘曲
+title: 多方向变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-directional-warp.resources/multi-directional-warp-01.png)![](multi-directional-warp.resources/multi-directional-warp-02.png)
+![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 描述
 
-多方向变形可在置换的纹理保持原位时，沿相反方向多次应用[方向变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)。 它与标准定向翘曲的不同之处在于，它可以在多个方向推送，而原子版本只允许一个方向。 通过这种方式，它解决了经典问题：定向翘曲似乎总是在单个方向将您的图像推走太多，而是沿多个方向或轴而不是单个方向工作。
+多方向变形可在置换的纹理保持原位时，沿相反方向多次应用[方向变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)。 它与标准方向变形的不同之处在于，它可以在多个方向推送，而原子版本只允许一个方向。 通过这种方式，它解决了经典问题：方向变形似乎总是在单个方向将您的图像推走太多，而不是沿多个方向或轴而不是单个方向工作。
 
 它主要与[Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)不同，因为它稍微受限一些：变形的方向仅通过参数控制，不能通过输入映射设置。 优点是使用起来稍微容易一些，并且根据您的用例可以更精确。
 

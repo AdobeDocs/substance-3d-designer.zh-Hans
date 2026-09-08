@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 位图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：位图](bitmap.resources/bitmap-01.png "原子节点：位图"){width="200px"}
+![原子节点：位图](../../../../assets/comp_bitmap.png "原子节点：位图"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

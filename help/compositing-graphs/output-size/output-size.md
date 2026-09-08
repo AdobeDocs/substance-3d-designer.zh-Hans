@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: 配置Substance合成图形的输出大小设置以控制纹理分辨率和质量。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出大小
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -24,11 +24,11 @@ ht-degree: 5%
 
 >[!TIP]
 >
-> 我们强烈建议更好地了解Substance图中的[继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，作为有效使用“输出大小”属性的基础。
+> 我们强烈建议很好地了解图形中的[继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，作为有效使用输出大小属性的基础。
 
 >[!NOTE]
 >
-> 使用“![](output-size.resources/output-size-01.jpg)”锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值。
+> 使用“![](../../assets/props-output-size-lock.jpg)”锁定按钮使Height值&#x200B;*匹配*&#x200B;宽度值。
 
 <table>
 <tr style="border: 0;">
@@ -36,9 +36,9 @@ ht-degree: 5%
 
 ## 2个值的幂
 
-输出大小参数确定图形或节点输出的&#x200B;*纹理*&#x200B;的分辨率。
+Output size参数确定图形或纹理对&#x200B;*节点*&#x200B;输出的分辨率。
 
-一种纹理，它是图形计算中的对象，受图形处理硬件执行其计算的方式所施加的一些限制的约束。 这些限制之一是，纹理应该表示一个图像，其X和Y的像素数是&#x200B;*二的次方*。
+一种纹理，它是图形计算中的对象，受图形处理硬件执行其计算的方式所施加的一些限制的约束。 这些限制之一是纹理应表示一个图像，其像素在X和Y中的计数为&#x200B;*的二次方*。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -63,17 +63,17 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
-> X和Y的分辨率增大或减小会将像素计数乘以或除以&#x200B;*4*，这将对图形的&#x200B;*性能*&#x200B;和&#x200B;*内存空间*&#x200B;产生重大影响。\
+> X和Y的分辨率增大或减小会将像素计数乘以或除以&#x200B;*4*，这会对图形的&#x200B;*性能*&#x200B;和&#x200B;*内存空间*&#x200B;产生重大影响。\
 > 因此，我们强烈建议使用实际需要的&#x200B;*最低分辨率*&#x200B;来获得所需的结果。 将分辨率置于控制之下是我们的[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)之一。
 
 >[!NOTE]
 >
-> 在[函数图表](../../function-graphs/function-graphs.md)中，`$size`和`$sizelog2` [系统变量](../../function-graphs/variables/system-variables/system-variables.md)分别返回与节点或图表的当前分辨率匹配的Float2值作为两个的原始像素计数或幂数。\
+> 在[函数图形](../../function-graphs/function-graphs.md)中，`$size`和`$sizelog2` [系统变量](../../function-graphs/variables/system-variables/system-variables.md)分别返回与节点或图形的当前分辨率匹配的Float2值作为两个的原始像素计数或幂数。\
 > 例如，对于1024\*512图像，`$size`返回`(1024,512)`，而`$sizelog2`返回`(10,9)`。
 
 ## 相对大小
 
-当Output Size属性使用&#x200B;*“相对于……”*[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)时，其值表示为修饰符&#x200B;*，相对于继承的对数值*。
+当Output Size属性使用&#x200B;*“相对于……”*[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)时，其值表示为修饰符&#x200B;*（相对于继承的对数值*）。
 
 在对数范围内，相对于继承分辨率的修饰符范围为–12至+12，默认值为0。 这意味着上述或以下每一步都会导致分辨率增加一倍或减半。 右侧的表格提供了继承值9（即，512 = 2^9）和11（即，2048 = 2^11）在一个维中相对分辨率如何变化的示例：
 
@@ -98,16 +98,16 @@ ht-degree: 5%
 
 单击节点或图形的属性，然后在[属性](../../interface/properties/properties.md)面板中的<b>基本参数</b>部分中找到<b>输出大小</b>属性。 单击继承方法下拉菜单，选择所需的继承方法。
 
-![输出大小继承方法](output-size.resources/output-size-02.gif "输出大小继承方法"){width="512px"}
+![输出大小继承方法](../../assets/change-mode.gif "输出大小继承方法"){width="512px"}
 
 ## 示例问题
 
 如果您是新的[Adobe Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)用户，则可能会遇到一些常见问题。 我们将在下面列出一些示例以及解决方案。
 
 +++问题1
-**![（错误）](output-size.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
-![示例问题1](output-size.resources/output-size-03.png "示例问题1")
+![示例问题1](../../assets/problem2-bad.png "示例问题1")
 
 
 
@@ -115,9 +115,9 @@ ht-degree: 5%
 
 在图表的属性中，输出大小属性的继承方法设置为&#x200B;*绝对*，这将停止继承，而采用任意值。
 
-**![（刻度）](output-size.resources/check.svg)解决方案**
+**![（刻度）](../../assets/check.svg)解决方案**
 
-![示例问题1解决方案](output-size.resources/output-size-04.png "示例问题1解决方案")
+![示例问题1解决方案](../../assets/problem2-good.png "示例问题1解决方案")
 
 
 
@@ -126,9 +126,9 @@ ht-degree: 5%
 +++
 
 +++问题2
-**![（错误）](output-size.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
-![示例问题2](output-size.resources/output-size-05.png "示例问题2")
+![示例问题2](../../assets/problem1-bad.png "示例问题2")
 
 
 
@@ -136,9 +136,9 @@ ht-degree: 5%
 
 此问题源于[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点。 它默认为&#x200B;*Absolute*&#x200B;继承方法，并基于[位图资源](../../resources/bitmap-resource/bitmap-resource.md)选择512\*512作为分辨率。 与其连接的节点设置为&#x200B;*相对于输入*，因此从Bitmap节点继承其“输出大小”。
 
-**![（刻度）](output-size.resources/check.svg)解决方案**
+**![（刻度）](../../assets/check.svg)解决方案**
 
-![示例问题2解决方案](output-size.resources/output-size-06.png "示例问题2解决方案")
+![示例问题2解决方案](../../assets/problem1-good.png "示例问题2解决方案")
 
 
 
@@ -147,9 +147,9 @@ ht-degree: 5%
 +++
 
 +++问题3
-**![（错误）](output-size.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
-![示例问题3](output-size.resources/output-size-07.png "示例问题3")
+![示例问题3](../../assets/problem3-bad.png "示例问题3")
 
 
 
@@ -157,9 +157,9 @@ ht-degree: 5%
 
 此问题是由[变换2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点上的相对修饰符3引起的，使输出增大8倍。
 
-**![（刻度）](output-size.resources/check.svg)解决方案**
+**![（刻度）](../../assets/check.svg)解决方案**
 
-![示例问题3解决方案](output-size.resources/output-size-08.png "示例问题3解决方案")
+![示例问题3解决方案](../../assets/problem3-good.png "示例问题3解决方案")
 
 
 

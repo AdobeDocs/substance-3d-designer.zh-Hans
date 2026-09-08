@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 为其拼贴照片
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-photo.resources/make-it-tile-photo-01.png)
+![](../../../../../../assets/make-it-tile-photo.png)
 
-![](make-it-tile-photo.resources/make-it-tile-photo-02.png)
+![](../../../../../../assets/make-it-tile-photo-grayscale.png)
 
 <b>在</b>个筛选器中>拼贴
 
@@ -59,7 +59,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-photo.resources/make-it-tile-photo-03.png" />
+            <img src="../../../../../../assets/mit-photo-ex.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径选择
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](paths-select.resources/paths-select-01.png "节点图标")
+![节点图标](../../../../../../assets/paths-select-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -75,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
+      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>之后</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
+      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>之后</i>
     </td>
   </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 弯曲Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
+![](../../../../../../assets/curvature-sobel.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
+            <img src="../../../../../../assets/curv-sobel-ex.png" />
         </td>
     </tr>
 </table>

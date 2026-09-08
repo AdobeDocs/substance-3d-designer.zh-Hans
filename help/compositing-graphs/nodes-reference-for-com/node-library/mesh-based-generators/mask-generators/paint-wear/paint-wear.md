@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 油漆磨损
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](paint-wear.resources/paint-wear-01.png){width="128px"}
+![](../../../../../../assets/paint-wear.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="paint-wear.resources/paint-wear-02.gif" />
+            <img src="../../../../../../assets/paint-wear-ex.gif" />
         </td>
     </tr>
 </table>

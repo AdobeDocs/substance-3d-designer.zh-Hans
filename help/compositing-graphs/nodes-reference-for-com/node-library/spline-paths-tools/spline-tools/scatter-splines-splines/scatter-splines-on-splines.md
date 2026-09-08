@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条上的散点样条
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![样条上的散点样条：图标](scatter-splines-on-splines.resources/scatter-splines-on-splines-01.png "样条上的散点样条：图标")
+![样条上的散点样条：图标](../../../../../../assets/scatter-splines-on-splines-icon.png "样条上的散点样条：图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-[![视频样条节点](scatter-splines-on-splines.resources/scatter-splines-on-splines-02.png)](https://youtu.be/aUUWV1dYQdI)
+[![视频样条节点](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -148,13 +148,13 @@ ht-degree: 0%
 | <b>结束Thickness模式</b> *整数* | 计算散布样条结束Thickness的方法。<br><br>-<b>手动</b>为所有散布样条设置相同的绝对值。<br>-<b>从父样条</b>使用父样条的Thickness。<br>-<b>从自定义样条</b>使用自定义样条的Thickness。<br><br><i>注意：</i>将<b>样条类型</b>设置为自定义样条，并将<b>自定义样条</b>输入连接以使用自定义样条的Thickness。 |
 | <b>结束Thickness乘数</b> *浮动* | 缩放散布样条的起始Thickness，其中1是完整Thickness。 |
 | <b>结束Thickness偏移</b> *浮动* | 将绝对偏移应用于散乱样条的结束Thickness。 |
-| <b>结束Thickness</b> *浮动* | 设置散乱样条结束Thickness的绝对值。 |
+| <b>结束Thickness</b> *浮动* | 设置散布样条结束Thickness的绝对值。 |
 | <b>预览</b> |  |
-| <b>显示方向助手</b> *布尔值* | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向帮助程序</b> *布尔值* | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> *布尔值* | 在样条Thickness的边显示附加线。 |
-| <b>Thickness（像素）</b> *Float* | 调整<b>预览</b>输出中样条可视化的Thickness（以像素数为单位）。 |
+| <b>Thickness（像素）</b> *浮动* | 调整<b>预览</b>输出中样条可视化的Thickness（以像素数为单位）。 |
 | <b>段数量</b> *整数* | 调整用于在<b>预览</b>输出中绘制样条可视化效果的段数。 值越高，线条越平滑。 |
-| <b>背景强度</b> *Float* | <b>预览</b>输出可视化中的<b>预览</b>输入的强度。 |
+| <b>背景强度</b> *浮动* | <b>预览</b>输出可视化中的<b>预览</b>输入的强度。 |
 
 ## 示例
 
@@ -162,12 +162,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例1](scatter-splines-on-splines.resources/scatter-splines-on-splines-03.png "样条上的散点样条：示例1"){zoomable="yes"}
+![样条上的散点样条：示例1](../../../../../../assets/scatter-splines-on-splines-example-1.png "样条上的散点样条：示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例1](scatter-splines-on-splines.resources/scatter-splines-on-splines-04.png "样条上的散点样条：示例1"){zoomable="yes"}
+![样条上的散点样条：示例1](../../../../../../assets/scatter-splines-on-splines-example-2.png "样条上的散点样条：示例1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例3](scatter-splines-on-splines.resources/scatter-splines-on-splines-05.png "样条上的散点样条：示例3"){zoomable="yes"}
+![样条上的散点样条：示例3](../../../../../../assets/scatter-splines-on-splines-example-4.png "样条上的散点样条：示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例4](scatter-splines-on-splines.resources/scatter-splines-on-splines-06.png "样条上的散点样条：示例4"){zoomable="yes"}
+![样条上的散点样条：示例4](../../../../../../assets/scatter-splines-on-splines-example-3.png "样条上的散点样条：示例4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：渲染1](scatter-splines-on-splines.resources/scatter-splines-on-splines-07.png "样条上的散点样条：渲染1"){zoomable="yes"}
+![样条上的散点样条：渲染1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "样条上的散点样条：渲染1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：渲染2](scatter-splines-on-splines.resources/scatter-splines-on-splines-08.png "样条上的散点样条：渲染2"){zoomable="yes"}
+![样条上的散点样条：渲染2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "样条上的散点样条：渲染2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![样条上的散点样条：渲染3](scatter-splines-on-splines.resources/scatter-splines-on-splines-09.png "样条上的散点样条：渲染3"){zoomable="yes"}
+![样条上的散点样条：渲染3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "样条上的散点样条：渲染3"){zoomable="yes"}

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 发送至...  互用性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 发送至...  互用性
 
-![从Designer发送到Substance 3D应用程序](send-to-interoperability.resources/send-to-interoperability-01.png "从Designer发送到Substance 3D应用程序"){width="512px"}
+![从Designer发送到Substance 3D应用程序](../../../assets/explorer-interop.png "从Designer发送到Substance 3D应用程序"){width="512px"}
 
 Adobe Substance 3D Designer与[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)和[Substance 3D Stager](https://www.adobe.com/cn/products/substance3d-stager.html)具有互操作性。 它允许您&#x200B;*发送*&#x200B;和&#x200B;*重新发送*&#x200B;您快速工作，从而促进整个Substance 3D生态系统的迭代。
 
@@ -49,7 +49,7 @@ Substance图可以具有多种功能。 您必须预先定义图表的确切功�
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance图形的类型属性](send-to-interoperability.resources/send-to-interoperability-02.jpg "Substance图形的类型属性")
+![Substance图形的类型属性](../../../assets/type-attribute.jpg "Substance图形的类型属性")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ Substance图可以具有多种功能。 您必须预先定义图表的确切功�
 发送内容可通过以下方式执行：
 
 * 右键单击包并打开上下文菜单中的<b>发送到……</b>子菜单，然后为目标应用程序选择<b>发送到……</b>选项；
-* 单击“资源管理器”面板顶部的![](send-to-interoperability.resources/send-to-interoperability-03.jpg)<b>“Publish/发送”</b>按钮，然后为目标应用程序选择<b>“发送至……”</b>选项。
+* 单击“资源管理器”面板顶部的![](../../../assets/sendto-icon.jpg)<b>“Publish/发送”</b>按钮，然后为目标应用程序选择<b>“发送至……”</b>选项。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![资源管理器中的Publish/发送到菜单](send-to-interoperability.resources/send-to-interoperability-04.jpg "资源管理器中的Publish/发送到菜单")
+![资源管理器中的Publish/发送到菜单](../../../assets/explorer-sendto-displayed.jpg "资源管理器中的Publish/发送到菜单")
 
 </td>
 </tr>

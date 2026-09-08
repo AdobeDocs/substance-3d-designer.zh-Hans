@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 噪声放大3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-3.resources/noise-upscale-3-01.png){width="128px"}
+![](../../../../../../assets/noise-upscale.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-3.resources/noise-upscale-3-02.png" />
+            <img src="../../../../../../assets/noise3ex.png" />
         </td>
     </tr>
 </table>

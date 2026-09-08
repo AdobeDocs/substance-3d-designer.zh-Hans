@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-warp.resources/spline-warp-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-warp-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2之前">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-warp.resources/spline-warp-06.gif "节点示例1")
+![节点示例1](../../../../../../assets/SplineWarp-Demo.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

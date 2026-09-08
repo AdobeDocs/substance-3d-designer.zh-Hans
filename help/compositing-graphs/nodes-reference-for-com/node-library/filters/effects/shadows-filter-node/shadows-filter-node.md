@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 阴影(滤镜节点)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
+![](../../../../../../assets/shadows-1.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
+            <img src="../../../../../../assets/shadow-ex.png" />
         </td>
     </tr>
 </table>

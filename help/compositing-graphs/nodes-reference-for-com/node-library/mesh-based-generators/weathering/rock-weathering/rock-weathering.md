@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 岩石风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
+![](../../../../../../assets/rock-weathering.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>风化
 
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-weathering-02.gif" />
+            <img src="../../../../../../assets/rock-ex.gif" />
         </td>
     </tr>
 </table>

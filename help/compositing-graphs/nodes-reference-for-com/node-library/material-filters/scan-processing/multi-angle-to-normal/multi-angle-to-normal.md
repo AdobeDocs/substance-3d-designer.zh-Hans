@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多角度法线
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-angle-to-normal.resources/multi-angle-to-normal-01.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 
