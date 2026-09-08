@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: 使用Nadir Patch节点修补HDRI全景图的低点区域，以修复环境图中的底部伪影。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir Patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
 
-## Nadir Patch
-
-**位置：** *3D 视图/HDRI 工具*
-
-**复杂**
+<b>进入：</b>3D 视图>HDRI 工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,42 +37,44 @@ ht-degree: 1%
 
 可以使用[Nadir Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md)快速检查和验证效果。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 输入
 
-* **输入**： *颜色输入*
-* **蒙版输入**：*灰度输入*\
-  用于遮盖修补的可选蒙版插槽。 像阿尔法一样运作。
+|  |  |
+|:---|:---|
+| <b>输入</b> <i>颜色输入</i> |  |
+| <b>蒙版输入</b> <i>灰度输入</i> | 用于遮盖修补的可选蒙版插槽。 像阿尔法一样运作。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-* **启用**： *False/True*\
-  启用或禁用修补效果。
-* **显示助手**： *False/True*\
-  显示或隐藏助手行，用于调试目的。
-* **Thickness**： *0.0 - 1.0*\
-  助手行的Thickness。
-* **修补程序缩放**： *0.0 - 1.0*\
-  全局一致的补丁缩放。 同时影响源和目标。
-* **修补程序大小**： *0.0 - 1.0*\
-  曲面片大小不均匀。
-* **修补程序旋转**： *0.0 - 1.0*\
-  修补的旋转。 影响源和目标。
-* **修补Alpha**： *平滑方形，高斯，蒙版输入*\
-  设置用于混合修补与背景的Alpha值。
-* **修补程序硬度**： *0.0 - 1.0*\
-  设置Alpha的硬度/对比度。
-* **源旋转偏移**： *0.0 - 1.0*\
-  仅对修补源进行旋转。
-* **位置坐标**
-  * **源位置**：\
-    源的位置。 具有2D视图中的手柄。
-  * **修补程序位置**：\
-    目标的位置。 具有2D视图中的手柄。
+|  |  |
+|:---|:---|
+| <b>启用</b> <i>False/True</i> | 启用或禁用修补效果。 |
+| <b>显示助手</b> <i>False/True</i> | 显示或隐藏助手行，用于调试目的。 |
+| <b>Thickness</b> <i>0.0 - 1.0</i> | 助手行的Thickness。 |
+| <b>修补缩放</b> <i>0.0 - 1.0</i> | 全局一致的补丁缩放。 同时影响源和目标。 |
+| <b>修补程序大小</b> <i>0.0 - 1.0</i> | 曲面片大小不均匀。 |
+| <b>修补程序旋转</b> <i>0.0 - 1.0</i> | 修补的旋转。 影响源和目标。 |
+| <b>修补Alpha</b> <i>平滑方形，高斯，蒙版输入</i> | 设置用于混合修补与背景的Alpha值。 |
+| <b>修补硬度</b> <i>0.0 - 1.0</i> | 设置Alpha的硬度/对比度。 |
+| <b>源旋转偏移</b> <i>0.0 - 1.0</i> | 仅对修补源进行旋转。 |
+| <b>位置坐标</b> |  |
+| <b>源位置</b> | 源的位置。 具有2D视图中的手柄。 |
+| <b>修补程序位置</b> | 目标的位置。 具有2D视图中的手柄。 |
 
-## 示例图像
+## 示例
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/nadir-patch-ex.gif" />
+        </td>
+    </tr>
 </table>
