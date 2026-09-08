@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: 使用“MLV灰度模糊”滤镜将运动模糊效果应用于灰度纹理以获得动态外观。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: MLV灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -45,31 +45,33 @@ MLV表示<b>“最小方差平均值”</b>。 此滤镜增强图像的边缘并
 >
 > 另请参阅[MLV颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md)。
 
-## 输入连接器
+<a name="inputs"></a>
 
-<b>输入&#x200B;</b>*灰度*&#x200B;应处理的灰度图像。
+## 输入
 
-## 输出连接器
+|  |  |
+|:---|:---|
+| <b>输入</b> <i>灰度</i> | 应处理的灰度图像。 |
 
-<b>输出&#x200B;</b>*灰度*&#x200B;已筛选的灰度图像。
+<a name="outputs"></a>
+
+## 输出
+
+|  |  |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 已筛选的灰度图像。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
-<b>强度</b> *Float*&#x200B;应用于图像的筛选强度。\
-值越高，细节的平滑程度越高，噪声越平坦。
-
-<b>Smoothness</b> *Float*&#x200B;应用于结构区域的平滑强度，这将使区域变圆，并减小在更高筛选强度下可能出现的步进效果。
-
-<b>条件</b> *整数*&#x200B;用于选择定义图像中结构区域的值的条件。\
-换句话说，像素应如何&#x200B;*分组*&#x200B;到应进行平滑处理的区域。\
-*— 方差：*&#x200B;选择在平均值周围具有最低色散的值，这将导致像素群集彼此相似\
-*— 变异系数：*&#x200B;在考虑到平均值的情况下选择值，这会导致在较亮区域反差较小
-
-<b>高斯</b> *布尔值*&#x200B;使用高斯分布将像素分组到结构区域。\
-如果为“True”，则生成更平滑的区域且减少拼合效果。
-
-<b>迭代</b> *整数*&#x200B;筛选器运行的次数，其中每个迭代都应用于前一个规则的结果。\
-更多的迭代会产生更平坦、更清晰的区域。
+|  |  |
+|:---|:---|
+| <b>强度</b> *Float* | 应用于图像的筛选的强度。<br><br>值越高，细节的平滑程度越高，平面区域的噪声越平滑。 |
+| <b>Smoothness</b> *Float* | 应用于结构化区域的平滑强度，这会导致区域变圆并减小在较高的筛选强度下可能出现的步进效果。 |
+| <b>条件</b> *整数* | 用于选择将定义图像中结构区域的值的标准。<br><br>换言之，像素应如何&#x200B;*分组*&#x200B;到应平滑的区域中。<br><br>*— 方差：*&#x200B;选择在平均值周围具有最低色散的值，这将导致像素群集彼此相似&#x200B;<br>*— 变异系数：*&#x200B;在考虑到平均值的情况下选择值，这将导致较亮区域反向变化较小 |
+| <b>高斯</b> *布尔值* | 使用高斯分布将像素分组到结构化区域。<br><br>当值为“True”时，这将使区域更平滑，并减小拼合效果。 |
+| <b>迭代</b> *整数* | 运行筛选器的次数，其中每个迭代都应用于前一个规则的结果。<br><br>更多的迭代会产生更平坦、更锐化的结构区域。 |
 
 ## 示例
 
