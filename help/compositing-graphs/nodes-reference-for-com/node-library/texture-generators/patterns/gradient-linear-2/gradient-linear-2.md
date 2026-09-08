@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
 breadcrumb-title: ''
 description: 使用渐变“线性2”节点创建带有增强型控件用于方向颜色转变的线性渐变。
 helpx_creative_field: ""
