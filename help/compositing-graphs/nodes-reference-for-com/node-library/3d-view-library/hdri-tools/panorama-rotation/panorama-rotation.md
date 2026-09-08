@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: 使用“全景旋转”节点旋转HDRI全景图环境，以便在3D视图中调整光照方向。
 helpx_creative_field: ""
