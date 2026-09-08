@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: 使用“路径变形”节点沿路径曲线变形纹理，以创建弯曲和有机图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](paths-warp.resources/paths-warp-01.png "节点图标")
+![节点图标](../../../../../../assets/paths-warp-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -74,11 +74,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="paths-warp.resources/paths-warp-03.jpg" alt="PathsWarp-Variant1-After">
+      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="paths-warp.resources/paths-warp-04.jpg" alt="PathsWarp-Variant2-After">
+      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](paths-warp.resources/paths-warp-05.gif "节点示例1")
+![节点示例1](../../../../../../assets/PathsWarp-Demo1.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">

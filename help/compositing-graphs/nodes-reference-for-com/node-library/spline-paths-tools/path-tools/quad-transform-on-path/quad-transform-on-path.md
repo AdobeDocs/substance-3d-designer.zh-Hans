@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
 description: 使用“路径上的四次变换”节点可将二次变换应用于沿路径曲线的元素。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径上的四次变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](quad-transform-on-path.resources/quad-transform-on-path-01.png "节点图标")
+![节点图标](../../../../../../assets/quad-transform-on-paths-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -75,11 +75,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "节点示例1")
+![节点示例1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "节点示例2")
+![节点示例2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "节点示例2")
 
 </td>
 </tr>

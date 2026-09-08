@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: 使用“样条桥映射器”“灰度”节点可通过灰度映射在两个样条之间桥接纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条桥映射器灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-将灰度图像映射到输入样条列表中，以便图像按顺序遍历样条。
+将灰度图像映射到一系列输入样条，以便图像按顺序遍历样条。
 
 </td>
 </tr>
@@ -78,9 +78,9 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>段数量</b> <i>整数</i> | 在图像坐标遍历样条之前，将样条简化为段。 段数量越多，沿曲线映射就越平滑。 |
-| <b>减少UV伸缩</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
-| <b>UV 缩放</b> <i>浮点2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
-| <b>UV旋转</b> <i>浮动</i> | 围绕图像坐标中心旋转图像坐标。 |
+| <b>减少UV拉伸</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
+| <b>UV 缩放</b> <i>Float2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
+| <b>UV旋转</b> <i>Float</i> | 围绕图像坐标中心旋转图像坐标。 |
 
 ## 示例
 
@@ -91,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "节点示例2")
+![节点示例2](../../../../../../assets/SplineBridgeMapper-Demo.gif "节点示例2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "节点示例1")
+![节点示例1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "节点示例2")
+![节点示例2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "节点示例2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: 使用“样条映射器灰度”节点沿带有可自定义参数的样条路径映射灰度纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条映射器灰度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-mapper-grayscale.resources/spline-mapper-grayscale-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-mapper-grayscale-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 | <b>Thickness</b> <i>浮动</i> | （当“Thickness模式”设置为“手动”时可用）映射图像沿样条的Thickness的任意值。 |
 | <b>Thickness乘数</b> <i>浮动</i> | （当“Thickness模式”设置为“来自样条”时可用）映射图像沿样条的Thickness的全局乘数，当该Thickness由样条驱动时。 |
 | <b>形状</b> <i>整数</i> | 用于沿样条映射图像坐标的基本形状： <br>- <i>平面</i>：坐标映射到平面上；<br>- <i>半圆柱体</i>：坐标映射到基圆的轴沿样条方向的一个半圆柱体；<br>- <i>圆柱体</i>：坐标映射到基圆的轴沿样条方向的一个圆柱体。 |
-| <b>柱面Height乘数</b> <i>Float</i> | （当“形状”设置为“半圆柱体”或“圆柱体”时可用）圆柱体Height在Height输出中贡献的强度的乘数。<br>Height调整是累积的。 |
+| <b>柱面Height乘数</b> <i>浮动</i> | （当“形状”设置为“半圆柱体”或“圆柱体”时可用）圆柱体Height在Height输出中贡献的强度的乘数。<br>Height调整是累积的。 |
 | <b>圆柱体Height偏移</b> <i>浮动</i> | （当“形状”设置为“半圆柱体”或“圆柱体”时可用）将圆柱体或半圆柱体形状轮廓的中心从样条曲面偏移到曲面下面的一个直径。 |
 | <b>扭转UV强度</b> <i>浮动</i> | （当“形状”设置为“半圆柱体”或“圆柱体”时可用）围绕圆柱体的图像坐标的扭曲，以匝数为单位。<br>扭曲仅涉及在样条线的末端旋转圆柱体。 然后沿样条插入旋转。 |
 | <b>扭转UV曲线乘数</b> <i>浮动</i> | （当“形状”设置为“半圆柱体”或“圆柱体”时可用）Twist Curve输入对圆柱体扭曲的贡献强度的乘数。<br>曲线为沿样条线的旋转量提供一个轮廓，行中的第一个像素是样条线开始处的旋转，最后一个像素是样条线结束处的旋转。 灰度值表示若干转弯。 |
@@ -111,11 +111,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-03.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-mapper-grayscale.resources/spline-mapper-grayscale-04.gif "节点示例2")
+![节点示例2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "节点示例2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例3](spline-mapper-grayscale.resources/spline-mapper-grayscale-05.jpg "节点示例3")
+![节点示例3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "节点示例3")
 
 </td>
 <td style="border: 0;" valign="top">

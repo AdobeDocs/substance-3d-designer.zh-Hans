@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: 使用“样条灰度”散点沿程序性图案的样条路径分布灰度元素。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条灰度散点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "节点图标")
+![节点图标](../../../../../../assets/scatter-on-spline-grayscale-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -134,13 +134,13 @@ ht-degree: 0%
 | <b>旋转随机居中（中）</b> <i>浮动</i> | 围绕图案中心旋转“旋转随机”参数应用的随机旋转中心。 |
 | <b>颜色</b> |  |
 | <b>混合模式</b> <i>整数</i> | 将图案的颜色与背景和其他重叠图案混合的方法： <br><br>- <i>最大</i>：使用最亮的颜色；<br>- <i>相加</i>：将颜色相加。 |
-| <b>形状基色</b> <i>Float</i> | 图案的base color。 |
-| <b>形状Base color乘数</b> <i>Float</i> | 图案形状Base color的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
+| <b>形状基色</b> <i>浮动</i> | 图案的base color。 |
+| <b>形状Base color乘数</b> <i>浮动</i> | 图案形状Base color的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>样条Thickness乘数</b> <i>浮动</i> | 每个图案的颜色与其所在位置的样条Thickness相乘的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>形状索引乘数</b> <i>浮动</i> | 每个图案的颜色与其归一化索引相乘的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>半球Height模式</b> <i>整数</i>（当“图案”设置为“半球”时可用） | 样条的Height对散布在其上的半球图案的影响： <br><br> - <i>偏移</i>：将样条Height添加到半球的Height；<br> - <i>缩放</i>：将样条Height与半球的Height相乘。 |
-| <b>样条Height乘数</b> <i>Float</i> | 每个图案的颜色与其所在位置的样条Height相乘的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
-| <b>形状缩放乘数</b> <i>Float</i> | 每个图案的颜色与其比例相乘的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
+| <b>样条Height乘数</b> <i>浮动</i> | 每个图案的颜色与其所在位置的样条Height相乘的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
+| <b>形状缩放乘数</b> <i>浮动</i> | 每个图案的颜色与其比例相乘的强度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>随机明亮度</b> <i>浮动</i> | 将随机乘数应用于指定值，以减少图案的明亮度。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>输入乘数</b>Height <i>浮动</i> | 控制高度图输入的强度。 此映射充当图案当前明亮度的乘数。<br>此映射的效果与“颜色”组中的其他参数组合。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>Height的地图输入采样模式</b> <i>整数</i> | 将高度图中的值映射到样条的方法： <br><br>- <i>纹理空间</i>：将这些值应用于样条，如果使用纹理的UV坐标将这些值放置在纹理中，则将这些值应用于样条。 这有效地将值应用于样条的“原位”；<br>- <i>沿样条水平</i>：值直接应用于编码后的样条坐标（请参阅样条坐标输入），其中每行从上到下应用于不同的样条；<br>- <i>Hor。 沿样条线(rand. 偏移X)</i>：值直接应用于已编码的样条坐标（请参阅样条坐标输入），并且在每个样条的“比例映射”（即，样条坐标中的每一行）中具有随机水平偏移；<br>- <i>Hor。 沿样条线(rand. 偏移Y)</i>：值直接应用于已编码的样条坐标（请参阅样条坐标输入），并且在每个样条的“比例映射”（即，样条坐标中的每一行）中具有随机垂直偏移。 |
@@ -160,11 +160,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "节点示例2")
+![节点示例2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "节点示例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node demo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Node demo 2")
+![Node demo 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "Node demo 2")
 
 </td>
 </tr>

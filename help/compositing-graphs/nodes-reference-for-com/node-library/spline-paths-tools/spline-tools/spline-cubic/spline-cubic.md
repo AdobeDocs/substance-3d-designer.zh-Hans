@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: 使用“样条三次”节点为曲线路径创建具有四个控制点的平滑三次样条。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条（三次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-cubic.resources/spline-cubic-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-cubic-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 | <b>启动Height</b> <i>浮动</i> | 调整p1点的Height，其中较低的值表示较低或较深的位置。 这会影响p1处的样条的Height。 |
 | <b>结束Height</b> <i>浮动</i> | 调整p2点的Height，其中较低的值表示较低或较深的位置。 这会影响p2处的样条的Thickness。 |
 | <b>自动切线Height</b> <i>布尔值</i> | 自动设置样条正切的Height，使其从“起始”Height线性插值到“终止”Height。 |
-| <b>p1Height</b> <i>Float</i>（当“自动正切Height”为True时可用） | 调整p1点“输出”正切的Height，其中较低的值表示较低或较深的位置。 当样条从p1逐渐变淡时，这会影响样条的Height。 |
+| <b>p1正切Height</b> <i>Float</i>（当“自动正切Height”为True时可用） | 调整p1点“输出”正切的Height，其中较低的值表示较低或较深的位置。 当样条从p1逐渐变淡时，这会影响样条的Height。 |
 | <b>p2正切Height</b> <i>Float</i>（当“自动正切Height”为True时可用） | 调整p2点“in”正切的Height，其中较低的值表示较低或较深的位置。 当样条从p2逐渐变淡时，这会影响样条的Height。 |
 | <b>Thickness</b> |  |
 | <b>启动Thickness</b> <i>浮动</i> | 调整p1点的Thickness。 这会影响样条在p1处的Thickness。<br>注意：Thickness由特定的样条节点使用。 |
 | <b>结束Thickness</b> <i>浮动</i> | 调整p2点的Thickness。 这会影响样条在p2处的Thickness。<br>注意：Thickness由特定的样条节点使用。 |
 | <b>自动切线Thickness</b> <i>布尔值</i> | 自动设置样条正切的Thickness，以从“起始”Thickness线性插值到“终止”Thickness。<br>注意：Thickness由特定样条节点使用。 |
-| <b>p1Thickness</b> <i>Float</i>（当“自动正切Thickness”为True时可用） | 调整p1点“出”正切的Thickness。 当样条从p1消失时，这会影响沿样条的Thickness。<br>注意：Thickness由特定样条节点使用。 |
+| <b>p1正切Thickness</b> <i>Float</i>（当“自动正切Thickness”为True时可用） | 调整p1点“出”正切的Thickness。 当样条从p1消失时，这会影响沿样条的Thickness。<br>注意：Thickness由特定样条节点使用。 |
 | <b>p2正切Thickness</b> <i>Float</i>（当“自动正切Thickness”为True时可用） | 调整p2点“in”正切的Thickness。 当样条从p2逐渐变远时，这会影响样条的Thickness。<br>注意：Thickness由特定样条节点使用。 |
 | <b>点坐标</b> |  |
 | <b>p1</b> <i>浮点2</i> | 设置p1点在纹理空间中的位置。 |
@@ -101,12 +101,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](spline-cubic.resources/spline-cubic-02.jpg "节点示例1")
+![节点示例1](../../../../../../assets/SplineCubic-Variant1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-cubic.resources/spline-cubic-03.jpg "节点示例2")
+![节点示例2](../../../../../../assets/SplineCubic-Variant2.jpg "节点示例2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例3](spline-cubic.resources/spline-cubic-04.gif "节点示例3")
+![节点示例3](../../../../../../assets/SplineCubic-Demo.gif "节点示例3")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: 使用“样条映射器颜色”节点，使用可自定义的参数沿样条路径映射颜色纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条映射器颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](spline-mapper-color.resources/spline-mapper-color-01.png "节点图标")
+![节点图标](../../../../../../assets/spline-mapper-color-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 |:---|:---|
 | <b>段数量</b> <i>整数</i> | 在图像坐标遍历样条之前，将样条简化为段。<br>段数量越多，沿曲线的映射就越平滑。 |
 | <b>自动缩放UV</b> <i>布尔值</i> | 沿样条映射正方形图像时，自动调整坐标的比例以保留该图像。 |
-| <b>UV 缩放</b> <i>Float2</i> | 在X（水平）和Y（垂直）中调整映射坐标的比例。<br>值越高，拼贴图像的密度越大。 |
+| <b>UV 缩放</b> <i>浮点2</i> | 在X（水平）和Y（垂直）中调整映射坐标的比例。<br>值越高，拼贴图像的密度越大。 |
 | <b>模式</b> <i>整数</i> | 选择图像应映射的样条的方法： <br>- <i>绘制样条列表</i>：使用输入列表中的所有样条；<br>- <i>绘制单样条</i>：仅使用具有指定索引的样条；<br>- <i>绘制样条范围</i>：仅使用索引包含在指定范围内的样条。 |
 | <b>绘制样条索引</b> <i>整数</i> | （当“模式”设置为“绘制单样条”时可用）图像应映射到的样条的索引。 |
 | <b>绘制样条范围</b> <i>整数2</i> | （当“模式”设置为“绘制样条范围”时可用）应沿其映射图像的样条索引范围。 |
@@ -112,11 +112,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](spline-mapper-color.resources/spline-mapper-color-04.gif "节点示例2")
+![节点示例2](../../../../../../assets/SplineMapperColor-Demo.gif "节点示例2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例3](spline-mapper-color.resources/spline-mapper-color-05.jpg "节点示例3")
+![节点示例3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "节点示例3")
 
 </td>
 <td style="border: 0;" valign="top">

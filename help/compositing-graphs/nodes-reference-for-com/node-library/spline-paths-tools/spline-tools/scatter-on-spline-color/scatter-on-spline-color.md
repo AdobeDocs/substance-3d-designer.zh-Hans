@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
-description: 使用“样条颜色”散点沿程序性图案的样条路径分布颜色元素。
+description: 使用“样条颜色”散点沿样条路径为程序化图案分布颜色元素。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条颜色散点
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "节点图标")
+![节点图标](../../../../../../assets/scatter-on-spline-color-icon.png "节点图标")
 
 引入：样条和路径工具>样条曲线工具
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
 | <b>模式输入#</b> <i>灰度</i> | 应沿样条散布的图案。 |
 | <b>比例图</b> <i>灰度</i> | 该地图控制散布图案的缩放。 此映射的效果由“比例映射输入乘数”参数控制，并与“大小”组中的其他参数组合。 |
-| <b>Height映射</b> <i>灰度</i> | 该地图控制散布图案的Height。 此映射的效果由“Height输入乘数”参数控制，并与“颜色”组中的其他“颜色”参数组合。 |
+| <b>高度图</b> <i>灰度</i> | 该地图控制散布图案的Height。 此映射的效果由“Height输入乘数”参数控制，并与“颜色”组中的其他“颜色”参数组合。 |
 | <b>蒙版图</b> <i>灰度</i> | 该地图控制散布图案的遮罩。 此映射的效果由“蒙版映射阈值”参数控制，并与“颜色”组中的其他“蒙版”参数组合。 |
 
 <a name="outputs"></a>
@@ -83,9 +83,9 @@ ht-degree: 0%
 | <b>形状数量</b> <i>整数</i>（在“散点模式”设置为“形状数量”时可用） | 沿每个样条散布的均匀间隔图案的数量。 |
 | <b>沿样条线的形状分布</b> <i>整数</i>（在“散点模式”设置为“形状数量”时可用） | 沿样条分布图案的方法：<br>**&#x200B;从源&#x200B;*：图案的间距受样条点的正切影响，在带有长正切的点附近，形状距离更远；<br>**均匀*：图案沿样条均匀分布，无论其正切和轨迹如何。 |
 | <b>形状间距</b> <i>Float</i>（在“散点模式”设置为“形状间距”时可用） | 沿样条的最小距离，图案应按此距离隔开，同时仍分别在每个样条的起始处和结尾处放置第一个和最后一个图案。 |
-| <b>开始</b> <i>浮动</i> | 从散布开始的样条起点偏移点。 该值是每个样条的规范化长度。 |
-| <b>结束</b> <i>浮动</i> | 从散布结束处的样条起始点偏移点。 该值是每个样条的规范化长度。 |
-| <b>形状透视</b> <i>浮点2</i> | 在样条正切空间中偏移图案X和Y的枢轴。<br>考虑到旋转轴位于样条上，这有效地沿或垂直于样条偏移图案。<br>注意：旋转轴的位置影响“缩放”和“旋转(旋转（旋转）”参数的影响。 |
+| <b>开始</b> <i>Float</i> | 从散布开始的样条起点偏移点。 该值是每个样条的规范化长度。 |
+| <b>结束</b> <i>Float</i> | 从散布结束处的样条起始点偏移点。 该值是每个样条的规范化长度。 |
+| <b>形状透视</b> <i>Float2</i> | 在样条正切空间中偏移图案X和Y的枢轴。<br>考虑到旋转轴位于样条上，这有效地沿或垂直于样条偏移图案。<br>注意：旋转轴的位置影响“缩放”和“旋转(旋转（旋转）”参数的影响。 |
 | <b>图案</b> |  |
 | <b>图案</b> <i>整数</i> | 应沿样条散布的图案：<br>*— 图案输入*：使用提供给“图案输入#”输入的图案；<br>*— 方形；<br>*&#x200B;磁盘；<br>*抛物面；<br>*贝尔；<br>*高斯；<br>*荆棘；<br>*金字塔；<br>*砖块；<br>*层次；<br>*波形；<br>*半圆；<br>*脊状的圆；<br>*新月；<br>*胶囊体；<br>*层次 锥形；<br>* 偏移；<br>*半球。* |
 | <b>模式输入编号</b> <i>整数</i> （当“Pattern”设置为“Pattern Input”时可用） | 选择应分散的输入模式的索引。 |
@@ -117,15 +117,15 @@ ht-degree: 0%
 | <b>缩放输入采样模式</b> <i>纹理空间</i> | 将比例映射中的值映射到样条的方法： <br>*-纹理空间*：将这些值应用于样条，如果使用纹理的UV坐标将这些值放置在纹理中。 这有效地将值应用于样条的“原位”；<br>*— 沿样条水平*：值直接应用于编码后的样条坐标（请参阅样条坐标输入），其中每行从上到下应用于不同的样条；<br>*-Hor。 沿样条线(rand. 偏移X)*：值直接应用于已编码的样条坐标（请参阅样条坐标输入），并且在每个样条的“比例映射”中具有随机水平偏移（即，样条坐标中的每一行）；<br>*- Hor。 沿样条线(rand. 偏移Y)*：值直接应用于已编码的样条坐标（请参阅样条坐标输入），并且在每个样条的“比例映射”（即，样条坐标中的每一行）中具有随机垂直偏移。 |
 | <b>开始/结束衰减</b> <i>浮点2</i> | 缩放图案时，考虑从样条中点到其“起始”和“终止”的距离。<br>这意味着对于接近样条四端的图案，将减小大小。 |
 | <b>位置</b> |  |
-| <b>本地偏移</b> <i>浮点2</i> | 沿样条的正切（平行）和法向（垂直）将偏移应用于图案的位置。 |
-| <b>局部偏移随机</b> <i>浮点2</i> | 沿样条的正切（平行）和法向（垂直）向图案的位置应用附加的随机偏移。 |
-| <b>局部偏移随机中心</b> <i>浮点2</i> | 沿样条的正切（平行）和法向（垂直）偏移“局部偏移”(Local Offset Random)参数应用的随机偏移的中心。 |
-| <b>局部偏移开始/结束衰减</b> <i>浮点2</i> | 将位置偏移应用到阵列时，考虑从样条的中点到其“起始”和“终止”的距离。<br>这意味着减少图案的偏移量，使其更接近样条极端。 |
-| <b>按Thickness划分的局部偏移衰减</b> <i>浮动</i> | 向图案应用偏移时样条Thickness中的因素。<br>这意味着对于具有较低Thickness的样条的一部分上的重复项会减少偏移。 |
-| <b>样条上的偏移</b> <i>浮动</i> | 将位置偏移应用于沿样条的图案。 |
-| <b>样条上的随机偏移</b> <i>浮动</i> | 沿样条向图案应用附加的位置偏移。 |
+| <b>本地偏移</b> <i>Float2</i> | 沿样条的正切（平行）和法向（垂直）将偏移应用于图案的位置。 |
+| <b>局部偏移随机</b> <i>Float2</i> | 沿样条的正切（平行）和法向（垂直）向图案的位置应用附加的随机偏移。 |
+| <b>局部偏移随机中心</b> <i>Float2</i> | 沿样条的正切（平行）和法向（垂直）偏移“局部偏移”(Local Offset Random)参数应用的随机偏移的中心。 |
+| <b>局部偏移开始/结束衰减</b> <i>Float2</i> | 将位置偏移应用到阵列时，考虑从样条的中点到其“起始”和“终止”的距离。<br>这意味着减少图案的偏移量，使其更接近样条极端。 |
+| <b>按Thickness划分的局部偏移衰减</b> <i>Float</i> | 向图案应用偏移时样条Thickness中的因素。<br>这意味着对于具有较低Thickness的样条的一部分上的重复项会减少偏移。 |
+| <b>样条上的偏移</b> <i>Float</i> | 将位置偏移应用于沿样条的图案。 |
+| <b>样条上的随机偏移</b> <i>Float</i> | 沿样条向图案应用附加的位置偏移。 |
 | <b>旋转</b> |  |
-| <b>与切线对齐</b> <i>布尔值</i> | 旋转阵列以匹配样条在其位置的方向。 |
+| <b>与正切对齐</b> <i>布尔值</i> | 旋转阵列以匹配样条在其位置的方向。 |
 | <b>旋转（透视）</b> <i>浮动</i> | 围绕图案的透视旋转图案。<br>可使用“形状透视”参数偏移中心点位置。 |
 | <b>旋转随机（透视）</b> <i>浮动</i> | 将另一个随机旋转应用到图案透视表周围的图案。<br>可使用“形状透视”参数偏移中心点位置。 |
 | <b>旋转随机中心（透视）</b> <i>浮动</i> | 围绕图案旋转将透视由“旋转随机”参数应用的随机旋转中心。 |
@@ -134,9 +134,9 @@ ht-degree: 0%
 | <b>旋转随机居中（中）</b> <i>浮动</i> | 围绕图案中心旋转“旋转随机”参数应用的随机旋转中心。 |
 | <b>颜色</b> |  |
 | <b>背景颜色</b> <i>浮点4</i> | 输出图像中的背景颜色。 |
-| <b>混合模式</b> <i>整数</i> | 将具有背景图案和其他重叠图案的图案的颜色混合在一起的方法：<br>*— 添加*：将颜色混合在一起；<br>**&#x200B;混合*：使用图案的Alpha 通道应用简单的透明度混合。 最后绘制的图案位于前面。 |
+| <b>混合模式</b> <i>整数</i> | 将具有背景图案和其他重叠图案的图案的颜色混合在一起的方法： <br>*— 添加*：将颜色添加到；<br>**&#x200B;混合*：使用图案的Alpha 通道应用简单的透明度混合。 最后绘制的图案位于前面。 |
 | <b>颜色模式</b> <i>整数</i> | 混合选择每个图案颜色的方法： <br>*-Base color*：Base color应用于所有图案；<br>**&#x200B;位置*：图案在纹理空间中的位置用于驱动其颜色，以使X和Y坐标分别映射到红色和绿色通道。 |
-| <b>形状Base color</b> <i>Float4</i> | 图案的base color。 |
+| <b>形状基色</b> <i>浮点4</i> | 图案的base color。 |
 | <b>颜色输入乘数</b> <i>浮动</i> | 控制色图输入的强度。 此映射充当图案当前颜色的乘数。<br>此映射的效果与“颜色”组中的其他参数组合。<br>注意：输出颜色是所有颜色乘数的加权结果。 |
 | <b>彩图输入采样模式</b> <i>整数</i> | 将颜色映射中的值映射到样条的方法： <br>*-纹理空间*：将这些值应用于样条，如果使用纹理的UV坐标将这些值放置在纹理中。 这有效地将值应用于样条的“原位”；<br>*— 沿样条水平*：值直接应用于编码后的样条坐标（请参阅样条坐标输入），其中每行从上到下应用于不同的样条；<br>*-Hor。 沿样条线(rand. 偏移X)*：值直接应用于已编码的样条坐标（请参阅样条坐标输入），每个样条在“颜色映射”中具有随机水平偏移（即，样条坐标中的每一行）；<br>*- Hor。 沿样条线(rand. 偏移Y)*：值直接应用于已编码的样条坐标（请参阅样条坐标输入），每个样条在颜色映射中具有随机垂直偏移（即，样条坐标中的每一行）。 |
 | <b>随机颜色</b> <i>浮点4</i> | 将随机偏移（最大为指定值）应用于HSV空间中的图案颜色及其Alpha。<br>*注意：*&#x200B;输出颜色是所有颜色乘数的加权结果。 |
@@ -167,11 +167,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "节点示例1")
+![节点示例1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "节点示例2")
+![节点示例2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "节点示例2")
 
 </td>
 </tr>
