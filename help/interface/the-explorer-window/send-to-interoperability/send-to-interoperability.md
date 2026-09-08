@@ -93,7 +93,7 @@ Substance图可以具有多种功能。 您必须预先定义图表的确切功�
 
 ## 发送至 Player
 
-[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)同时支持&#x200B;*3} <b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源</b> (SBSAR)。*
+[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)同时支持&#x200B;*3&rbrace; <b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源</b> (SBSAR)。*
 
 若要发送到Player，Substance Player可执行文件需要由用户&#x200B;*手动定位*，此操作可以完成：
 

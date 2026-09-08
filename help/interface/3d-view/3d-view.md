@@ -313,7 +313,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 <b>将材料重置为场景状态： </b>*（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将[已覆盖材料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的所有属性重置为场景中的原始值，包括原始纹理（如果有）。
 
-<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
+<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器。
 
 +++
 
