@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer的性能优化准则，以改进图形性能并减少处理时间。
+description: 了解Substance 3D Designer的性能优化准则，以提高图形性能并减少处理时间。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 性能优化准则
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -22,26 +22,26 @@ ht-degree: 0%
 
 ## Substance 图形
 
-[图形](../../compositing-graphs/substance-compositing-graphs.md)越复杂，渲染它们所需的处理能力就越强。 您应尝试<b>在复杂性和渲染速度之间找到平衡</b>。\
+[Substance图表](../../compositing-graphs/substance-compositing-graphs.md)越复杂，渲染它们所需的处理能力就越强。 您应尝试<b>在复杂性和渲染速度之间找到平衡</b>。\
 如果您将在实时图形应用程序（如游戏）中使用它们，则这是&#x200B;*尤其是*&#x200B;重要信息。
 
-一般来说，公开自定义参数（可在运行时修改）的节点<b>应尽可能靠近图形的末尾</b>。
+一般来说，公开自定义参数（可在运行时修改）的节点<b>应尽可能靠近图表的末尾</b>。
 
-这是因为每个节点的输出会尽可能进行缓存。 因此，可调整公开参数的图形越靠上，每当修改其中的一个节点时，需要处理的输出就越多。 如果公开的图形靠近结尾，则只需重新计算该节点与输出节点之间的少数节点。
+这是因为每个节点的输出会尽可能进行缓存。 因此，可补间节点在图形上的位置越靠上，只要修改这些公开参数中的一个，就需要处理更多的输出。 如果公开节点靠近图形的末尾，则只需重新计算它与输出节点之间的少数节点。
 
-例如，如果在图形的开头微调统一颜色，则将重新计算以下所有节点。 如果调整位于输出前的HSL节点，则仅重新计算该节点，这极大地改进了图形的性能。
+例如，如果在图形的开头微调统一颜色，则将重新计算以下所有节点。 如果微调输出前放置的HSL节点，则只有此节点会被重新计算，从而大大提高图形的性能。
 
 请注意以下准则：
 
 ### 常规性能相关设置
 
 +++GPU引擎比CPU引擎快得多
-除非您拥有不受支持的（集成）图形卡，否则请使用GPU Substance引擎（使用热键F9更改）。
+除非您拥有不受支持的（集成）图形卡，否则请使用GPU Substance引擎（通过热键F9更改）。
 
 +++
 
-+++切换图形的父分辨率时速度缓慢
-它会重新计算图形、缓存和所有缩略图。 最好使用[导出对话框的<b>“批处理”</b>](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)选项卡，因为它可避免大量不必要的重新计算（例如，导出为8192分辨率时）。
++++切换图表的父分辨率时速度缓慢
+它重新计算图形、缓存和所有缩略图。 最好使用[导出对话框的<b>“批处理”</b>](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)选项卡，因为它可避免大量不必要的重新计算（例如，导出为8192分辨率时）。
 
 +++
 
@@ -50,12 +50,12 @@ ht-degree: 0%
 
 +++
 
-### 图形优化
+### 图优化
 
-+++请注意节点分辨率和总体继承！
-较高的值将严重影响性能，因此请考虑可能如何使用材料以及是否可以减小所涉及的数据大小。
++++请注意节点解析度和一般继承！
+较高的值将严重影响性能，因此请考虑可能如何使用素材以及是否可以减小涉及的数据大小。
 
-我们建议您了解有关[节点分辨率（输出大小）](../../compositing-graphs/output-size/output-size.md)和[图形中的继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的更多信息。
+我们建议您进一步了解[节点分辨率（输出大小）](../../compositing-graphs/output-size/output-size.md)和[Substance图表的继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
 
 +++
 
@@ -143,9 +143,9 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 >
 > 将[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点设置为“相对于主页”并将图形[发布](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)到Substance 3D资源(SBSAR)将以&#x200B;**256x256**&#x200B;的分辨率保存位图，而不是其原始大小。 建议将Bitmap节点的[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) [输出大小](../../compositing-graphs/output-size/output-size.md)保留为“绝对”，并在Bitmap节点之后使用[Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点设置为“相对于父节点”。
 
-![嵌入的位图优化1](../../assets/input-1.jpg "嵌入的位图优化1")
+![嵌入的位图优化1](performance-optimization-guidelines.resources/input-1.jpg "嵌入的位图优化1")
 
-![嵌入式位图优化2](../../assets/relativetoparent.jpg "嵌入式位图优化2")
+![嵌入式位图优化2](performance-optimization-guidelines.resources/relativetoparent.jpg "嵌入式位图优化2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 </td>
 <td style="border: 0;" valign="top">
 
-![嵌入的位图优化3](../../assets/format.jpg "嵌入的位图优化3")
+![嵌入的位图优化3](performance-optimization-guidelines.resources/format.jpg "嵌入的位图优化3")
 
 </td>
 </tr>

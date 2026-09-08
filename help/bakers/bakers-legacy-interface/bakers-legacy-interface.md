@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 了解适用于熟悉旧版本的用户的Substance 3D Designer面包师的旧版界面。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 面包师旧版界面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -24,25 +24,25 @@ ht-degree: 3%
 
 ## 概述
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-33-40.png)
 
 烘焙面板分为四个部分：
 
 ### 1：场景
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-35-53.png)
 
 允许您定义网格的哪一部分参与烘焙过程。
 
 第6版中的新增功能，您还可通过材质进行选择：
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-45-26.png)
 
 ### 2：面包师
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-46-26.png)
 
-按![](../../assets/image2017-3-13-9-47-47.png)按钮可将所需的面包师添加到处理列表中
+按![](bakers-legacy-interface.resources/image2017-3-13-9-47-47.png)按钮可将所需的面包师添加到处理列表中
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ ht-degree: 3%
 
 单击面包师布局中的“+”图标可将面包师添加到栈叠中（您可以将任意数量的面包师放在栈叠中）。
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/image2017-3-13-9-52-8.png)
 
-通过按![](../../assets/image2017-3-13-9-54-33.png)，可以从列表中移除烘焙过程
+通过按![](bakers-legacy-interface.resources/image2017-3-13-9-54-33.png)，可以从列表中移除烘焙过程
 
-您可以通过选择烘焙过程并使用![](../../assets/image2017-3-13-9-55-33.png)对烘焙过程列表重新排序
+您可以通过选择烘焙过程并使用![](bakers-legacy-interface.resources/image2017-3-13-9-55-33.png)对烘焙过程列表重新排序
 
 ### 3：烘焙参数
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-24-0.png)
 
 此部分显示当前所选烘焙的特定选项。
 
 ### 4：公共参数
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-28-12.png)
 
 显示面包师之间共享的参数。
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 * **资源名称**&#x200B;字段允许您根据需要更改生成的位图的名称。
 * **使用“文件格式”**&#x200B;下拉列表可以更改默认的文件格式（Windows或OS/2位图格式“BMP”）。
-* **&#x200B;**&#x200B;**将**&#x200B;资源放入网格特定的文件夹复选框允许您选择生成的位图是存储在模型所在的级别，还是存储在名为“Resources”的新子文件夹中。
+* ******将**&#x200B;资源放入网格特定的文件夹复选框允许您选择生成的位图是存储在模型所在的级别，还是存储在名为“Resources”的新子文件夹中。
 * **方法**&#x200B;允许您定义新位图资源是应链接还是嵌入到Substance包中。
 * **文件夹**&#x200B;允许您定义保存映射的位置。
 
@@ -82,4 +82,4 @@ ht-degree: 3%
 
 版本6中的新功能：您现在可以使用取消按钮取消烘焙过程：
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-50-4.png)
