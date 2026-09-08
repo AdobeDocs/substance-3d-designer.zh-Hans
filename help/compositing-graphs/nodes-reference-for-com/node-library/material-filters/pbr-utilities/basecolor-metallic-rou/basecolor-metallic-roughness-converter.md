@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
 description: 使用“BaseColor金属粗糙度转换器”节点可在不同的PBR材质格式和工作流程之间进行转换。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 基色金属粗糙度转换器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/pbr-convert.png){width="128px"}
 
-## 基色/金属/粗糙度转换器
-
-**在：** *材质滤镜/PBR实用工具*
-
-**简单**
+<b>进入：</b>材质过滤器> PBR实用工具
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,17 +37,15 @@ ht-degree: 1%
 
 如果具有用一个PBR模型制作的图形或材质，而目标需要不同的模型，则此功能非常有用。
 
-## 参数
-
-* **使用SpecularLevel输入**： *False/True*&#x200B;将额外的输入槽公开为SpecularLevel输入。 在转换过程中也会考虑这一点。
-* ***Target**： *PBRDiffuse/Specular/Gloss、Vray (GGX)、Corona、Corona 1.6+、Redshift 1.x、Arnold 4 (AiStandard)、Arnold 4 (AlSurface)、RenderMan (PxrSurface)**设置转换目标模型。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>使用SpecularLevel输入</b> <i>False/True</i> | 将额外的输入槽公开为SpecularLevel输入。 在转换过程中也会考虑这一点。 |
+| <b>目标</b> <i>PBRDiffuse/Specular/光泽、Vray (GGX)、Corona、Corona 1.6+、Redshift 1.x、Arnold 4 (AiStandard)、Arnold 4 (AlSurface)、RenderMan (PxrSurface)</i> | 设置转换目标模型。 |

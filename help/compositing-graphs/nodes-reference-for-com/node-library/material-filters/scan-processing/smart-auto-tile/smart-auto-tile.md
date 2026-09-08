@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
 breadcrumb-title: ''
 description: 使用“智能自动拼贴”节点，可通过智能模式检测，自动从扫描的材料创建无缝拼贴。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 智能自动平铺
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/smart-auto-tile.png){width="128px"}
 
-## 智能自动平铺
-
-**在：** *材质筛选器/扫描处理*
-
-**复杂**
+<b>在</b>个材质过滤器中>扫描处理
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,44 +37,40 @@ ht-degree: 1%
 
 要使用此节点，请先定义裁剪区域，然后使用“边缘”设置来确定拼贴边缘混合到中心的方式。 Treshold参数对此至关重要！ 请记住，大的统一区域对这种效果并不太有效；其中的细节和形状越多，就越需要处理。
 
-## 参数
-
-### 输入
-
-* **蒙版**： *灰度输入*\
-  用于遮盖节点效果的遮罩槽。 可以使用“使用蒙版”参数切换。
-
-### 参数
-
-* **裁剪**
-  * **输入大小**： *0 - 8192*&#x200B;输入图像的分辨率和比例。 对于非方形图像非常重要。
-  * **变换**： *（转换矩阵）*\
-    旋转和缩放结果。 可以通过与画布直接交互来修改描摹结果。
-  * **偏移**： *0.0 - 1.0*\
-    移动或转换结果。 可以通过与画布直接交互来修改描摹结果。
-* **边缘**
-  * **检测边缘**： *False/True*&#x200B;打开或关闭检测到的特殊边缘混合。
-  * **使用每个通道的阈值**： *False/True*&#x200B;在全局阈值之间切换，或为每个通道切换一个阈值。
-  * **阈值**： *0.0 - 1.0*
-  * **阈值基色**： *0.0 - 1.0*
-  * **阈值正常**： *0.0 - 1.0*
-  * **阈值Height**： *0.0 - 1.0*
-  * **切割偏移**： *0.0 - 0.5*&#x200B;移动切割的主控件，X和Y轴是分开的。
-  * **模糊**： *0.0 - 2.0*&#x200B;模糊混合过渡。
-  * **Smoothness**： *0.0 - 2.0*&#x200B;控制边缘分析结果的跳跃程度。
-  * **网格分辨率**： *1 - 11*&#x200B;边缘分析的质量分辨率。
-  * **使用Base color**： *False/True*&#x200B;切换Base color处理（入点和出点）。
-  * **使用普通**： *False/True*&#x200B;切换正常处理（入点和出点）。
-  * **使用Height**： *False/True*&#x200B;切换正常处理（入点和出点）。
-  * **使用蒙版**： *False/True*\
-    为自定图章蒙版形状切换蒙版映射的使用开关。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“使用蒙版”参数切换。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>裁剪</b> |  |
+| <b>输入大小</b> <i>0 - 8192</i> | 输入图像的分辨率和比例。 对于非方形图像非常重要。 |
+| <b>转换</b> <i>（转换矩阵）</i> | 旋转和缩放结果。 可以通过与画布直接交互来修改描摹结果。 |
+| <b>偏移</b> <i>0.0 - 1.0</i> | 移动或转换结果。 可以通过与画布直接交互来修改描摹结果。 |
+| <b>边缘</b> |  |
+| <b>检测边缘</b> <i>False/True</i> | 打开或关闭检测到的特殊边缘混合。 |
+| <b>使用每个通道的阈值</b> <i>False/True</i> | 在全局阈值或每个通道一个阈值之间切换。 |
+| <b>阈值</b> <i>0.0 - 1.0</i> |  |
+| <b>阈值Base color</b> <i>0.0 - 1.0</i> |  |
+| <b>阈值正常</b> <i>0.0 - 1.0</i> |  |
+| <b>阈值Height</b> <i>0.0 - 1.0</i> |  |
+| <b>切割偏移</b> <i>0.0 - 0.5</i> | 用于移动切割的主控制器，X和Y轴都被分离。 |
+| <b>模糊</b> <i>0.0 - 2.0</i> | 模糊混合过渡。 |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | 控制边缘分析结果的跳度。 |
+| <b>网格分辨率</b> <i>1 - 11</i> | 边缘分析的质量分辨率。 |
+| <b>使用Base color</b> <i>False/True</i> | 切换Base color处理（入点和出点）。 |
+| <b>使用普通</b> <i>False/True</i> | 切换正常处理（入点和出点）。 |
+| <b>使用Height</b> <i>False/True</i> | 切换正常处理（入点和出点）。 |
+| <b>使用蒙版</b> <i>False/True</i> | 为自定图章蒙版形状切换蒙版映射的使用开关。 |

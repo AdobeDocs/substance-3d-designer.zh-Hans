@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
 breadcrumb-title: ''
 description: 使用变换节点可将变换应用于材料输出，包括旋转、缩放和偏移。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 材质变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/material-transforms.png){width="128px"}
 
-## 材质变换
-
-**在：** *材质过滤器/变换*
-
-**简单**
+<b>进入：</b>材质过滤器>变换
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,23 +37,17 @@ ht-degree: 1%
 
 只要确保正确设置声道即可！ 默认情况下，同时启用金属/粗糙度和Specular/光泽度，这可能会导致混淆。
 
-## 参数
-
-* **转换**： *（转换矩阵）*\
-  旋转和缩放结果。 移动/平移通过“偏移”参数完成
-* **偏移**： *-0.5 - 0.5*\
-  移动或转换结果。 当存在变换控件时，可以直接与画布交互来修改结果。
-* **正常格式**\
-  在DirectX和OpenGL格式之间进行选择（翻转绿色）。
-* **频道**\
-  在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>转换</b> <i>（转换矩阵）</i> | 旋转和缩放结果。 移动/平移通过“偏移”参数完成 |
+| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或转换结果。 当存在变换控件时，可以直接与画布交互来修改结果。 |
+| <b>正常格式</b> | 在DirectX和OpenGL格式之间进行选择（翻转绿色）。 |
+| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
