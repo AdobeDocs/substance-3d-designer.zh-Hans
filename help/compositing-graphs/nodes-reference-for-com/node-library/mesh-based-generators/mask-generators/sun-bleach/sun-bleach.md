@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
 breadcrumb-title: ''
 description: 使用“Sun Bleach”（太阳漂白）节点可根据太阳曝光生成蒙版，打造逼真的太阳漂白和渐隐效果。
 helpx_creative_field: ""
