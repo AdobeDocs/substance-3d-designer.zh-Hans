@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: ""
-Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+Source: https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '628'

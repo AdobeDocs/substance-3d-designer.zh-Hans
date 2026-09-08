@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer图形视图中的链接创建模式，以便高效地连接节点。
 helpx_creative_field: ""

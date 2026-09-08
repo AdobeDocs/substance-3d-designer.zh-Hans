@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
 description: 使用“转换为线性”节点可将纹理从sRGB转换为线性色彩空间，以便进行准确的色彩计算。
 helpx_creative_field: ""

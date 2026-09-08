@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 了解如何从Designer发布Substance 3D资源文件(SBSAR)，以便在其他应用程序和引擎中使用。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 此页面介绍了Substance 3D Designer如何将包发布为<b>Substance 3D资源</b>文件，这是一种扩展名为<b>SBSAR</b>的特殊文件格式，在Substance生态系统以及支持该格式的其他应用程序中使用。
 
-通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/substance-3d-sampler.html)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
+通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/cn/substance-3d-sampler.html)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
 
 ![简化了发布SBSAR文件](../../assets/exportflow.png "简化了发布SBSAR文件")
 

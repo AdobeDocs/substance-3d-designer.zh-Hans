@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
 breadcrumb-title: ''
 description: 使用“倾斜”节点将倾斜变换应用于用于创建倾斜和扭曲图案的纹理。
 helpx_creative_field: ""

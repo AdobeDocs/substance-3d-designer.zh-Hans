@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: 使用“转换为sRGB”节点，可以将用于显示和输出工作流程的纹理从线性转换为sRGB色彩空间。
 helpx_creative_field: ""

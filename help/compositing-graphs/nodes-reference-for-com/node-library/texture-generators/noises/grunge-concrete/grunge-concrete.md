@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: 使用污渍Concrete节点生成类似Concrete的污渍图案，用于创建风化的砖石纹理。
 helpx_creative_field: ""

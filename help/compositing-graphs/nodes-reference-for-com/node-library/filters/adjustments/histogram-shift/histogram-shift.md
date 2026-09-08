@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
 description: 使用“直方图偏移”节点可以移动纹理中的直方图分布，从而调整亮度和对比度范围。
 helpx_creative_field: ""

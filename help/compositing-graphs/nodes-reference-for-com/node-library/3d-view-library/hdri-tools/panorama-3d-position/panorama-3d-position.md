@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: 使用“全景图3D位置”节点可在3D空间中定位HDRI全景图，以创建自定义光照环境。
 helpx_creative_field: ""

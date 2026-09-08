@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
 breadcrumb-title: ''
 description: 使用“高斯1”节点生成高斯噪声图案，用于创建有机纹理和变化。
 helpx_creative_field: ""

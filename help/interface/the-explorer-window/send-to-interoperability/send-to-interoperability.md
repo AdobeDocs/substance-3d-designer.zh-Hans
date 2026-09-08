@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的发送到互操作性功能将材料导出到其他应用程序。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![从Designer发送到Substance 3D应用程序](../../../assets/explorer-interop.png "从Designer发送到Substance 3D应用程序"){width="512px"}
 
-Adobe Substance 3D Designer与[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)和[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)具有互操作性。 它允许您&#x200B;*发送*&#x200B;和&#x200B;*重新发送*&#x200B;您快速工作，从而促进整个Substance 3D生态系统的迭代。
+Adobe Substance 3D Designer与[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)和[Substance 3D Stager](https://www.adobe.com/cn/products/substance3d-stager.html)具有互操作性。 它允许您&#x200B;*发送*&#x200B;和&#x200B;*重新发送*&#x200B;您快速工作，从而促进整个Substance 3D生态系统的迭代。
 
 工作流程通常如下：
 
@@ -55,12 +55,12 @@ Substance图可以具有多种功能。 您必须预先定义图表的确切功�
 </tr>
 </table>
 
-* 如果尚未设置，**Unspecified**&#x200B;是默认类型。 根据您发送给哪个应用程序，可能会以不同的方式对其进行解释。 例如，[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)将默认为材料；
+* 如果尚未设置，**Unspecified**&#x200B;是默认类型。 根据您发送给哪个应用程序，可能会以不同的方式对其进行解释。 例如，[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)将默认为材料；
 * **标准材质**&#x200B;用于多通道PBR材质，带有正确标记的[输出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)；
-* **贴花材料**&#x200B;用于具有Alpha 通道的多通道PBR材料，将应用为[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)或[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)中的贴花；
-* **贴图集素材**&#x200B;用于由多个贴图集图像组成的多通道PBR素材，可在Designer中的[Atlas Scatter节点](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)或[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)中使用；
-* **筛选器**&#x200B;用于通用筛选器，两者均用于[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)或[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)；
-* **基于网格的生成器**&#x200B;用于多输入蒙版生成器。 此仅由[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)使用；
+* **贴花材料**&#x200B;用于具有Alpha 通道的多通道PBR材料，将应用为[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)中的贴花；
+* **贴图集素材**&#x200B;用于由多个贴图集图像组成的多通道PBR素材，可在Designer中的[Atlas Scatter节点](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)或[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)中使用；
+* **筛选器**&#x200B;用于通用筛选器，两者均用于[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)；
+* **基于网格的生成器**&#x200B;用于多输入蒙版生成器。 此仅由[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)使用；
 * **纹理生成器**&#x200B;用于单通道地图，如2D过程和噪声；
 * **环境光**&#x200B;用于单通道光照环境，用于照亮场景和对象；
 * **光照纹理**&#x200B;用于应用于物理光线的单个通道纹理。

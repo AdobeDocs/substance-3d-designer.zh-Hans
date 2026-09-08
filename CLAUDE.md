@@ -58,7 +58,7 @@ user-guide-title: ""
 
 * 英语是真理的来源；所有其他语言都从它平移。
 * 指向其他文档页面的所有链接都必须是&#x200B;**相对**&#x200B;链接；指向外部资源的所有链接都必须是&#x200B;**绝对**&#x200B;链接。
-* 使用Experience League的自定义扩展/gotcha在GitHub风格的Markdown中编写内容，记录在[此处](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)。 具体内容请使用`write-experience-league-markdown`技能（如果存在）。
+* 使用Experience League的自定义扩展/gotcha在GitHub风格的Markdown中编写内容，记录在[此处](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/writing-essentials/markdown)。 具体内容请使用`write-experience-league-markdown`技能（如果存在）。
 * 每个提交的更改都会通过CI中的自动Lint检查和链接验证（请参阅下文） — 在假定应用了规则或链接需要修复之前，请检查`markdownlint_custom.json`和`linkcheckexclude.json`。
 
 &#x200B;# 验证/CI

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的“首选项”窗口，自定义应用程序设置和行为。
 helpx_creative_field: ""
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>GPU 射线追踪</b>  *默认值：已选中* | 如果选中，将在GPU上对[兼容的烘焙器](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)执行光线追踪。   根据NVIDIA GPU体系结构，以下GPU 射线追踪后端将是默认的：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：图灵及更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal和Maxwell</li> </ul>  **注意：**&#x200B;有关GPU驱动的烘焙工具的更多信息可在[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)文档的[GPU 射线追踪](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)部分中找到。  **提示：**&#x200B;启动应用程序时，可以使用以下&#x200B;*命令行参数*&#x200B;以&#x200B;*强制*&#x200B;使用其他GPU 射线追踪后端： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> ：在Nvidia Turing或更新的GPU上强制使用Optix</li> <li data-preserve-html="true"><code>—force-dxr</code> ：在Nvidia Pascal GPU上强制使用DXR</li> </ul> |
+| <b>GPU 射线追踪</b>  *默认值：已选中* | 如果选中，将在GPU上对[兼容的烘焙器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)执行光线追踪。   根据NVIDIA GPU体系结构，以下GPU 射线追踪后端将是默认的：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：图灵及更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal和Maxwell</li> </ul>  **注意：**&#x200B;有关GPU驱动的烘焙工具的更多信息可在[Substance Bakers](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)文档的[GPU 射线追踪](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)部分中找到。  **提示：**&#x200B;启动应用程序时，可以使用以下&#x200B;*命令行参数*&#x200B;以&#x200B;*强制*&#x200B;使用其他GPU 射线追踪后端： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> ：在Nvidia Turing或更新的GPU上强制使用Optix</li> <li data-preserve-html="true"><code>—force-dxr</code> ：在Nvidia Pascal GPU上强制使用DXR</li> </ul> |
 
 ## 库
 

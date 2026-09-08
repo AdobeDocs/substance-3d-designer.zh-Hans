@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-color.html"
 breadcrumb-title: ''
 description: 使用“Flood Fill到随机颜色”节点，用随机颜色填充连接的区域，以创建不同的纹理图案。
 helpx_creative_field: ""
