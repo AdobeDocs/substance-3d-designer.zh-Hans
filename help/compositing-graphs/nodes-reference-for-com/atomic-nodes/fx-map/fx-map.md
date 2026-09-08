@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: 使用FX-Map节点将函数图形应用于纹理，以创建过程模式和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点： FX-Map](../../../../assets/fxmap.png "原子节点： FX-Map"){width="200px"}
+![原子节点： FX-Map](fx-map.resources/fxmap.png "原子节点： FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 
 ## 参数
 
-请记住，与其他节点不同，FX映射的大多数行为并非由参数决定，而是通过编辑其中的FX映射函数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)而决定。
+请记住，与其他节点不同，FX映射的大多数行为并非由参数决定，而是通过编辑其中的FX映射函数](../../../../function-graphs/fxmaps/fxmaps.md)而决定[。
 
 |  |  |
 | --- | --- |
@@ -102,4 +102,4 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 
 ## 示例
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/image2015-9-10-17-28-32.png)

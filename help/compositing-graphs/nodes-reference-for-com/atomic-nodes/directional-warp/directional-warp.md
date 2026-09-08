@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
-description: 使用定向翘曲节点将方向扭曲应用于用于创建流和运动效果的纹理。
+description: 使用“方向变形”节点将方向扭曲应用于纹理，以创建流畅和运动效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定向翘曲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：方向变形](../../../../assets/comp_directionalwarp_1.png "原子节点：方向变形"){width="200px"}
+![原子节点：方向变形](directional-warp.resources/comp_directionalwarp_1.png "原子节点：方向变形"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,16 +78,16 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>强度</b> *Float* | 设置变形的强度。 |
-| <b>变形角度</b> *Float* | 设置变形效果的角度（以转角数为单位）。 |
-| <b>输入筛选模式</b> *布尔值* | 控制是否使用最接近或双线性的筛选对<b>输入</b>采样。 |
-| <b>强度图偏移</b> *Float* | 此值从<b>强度输入</b>图像值中减去。 |
+| <b>强度</b> *浮动* | 设置变形的强度。 |
+| <b>变形角度</b> *浮动* | 设置变形效果的角度（以转角数为单位）。 |
+| <b>输入筛选模式</b> *布尔值* | 控制是否使用最近或双线性滤波对<b>输入</b>进行采样。 |
+| <b>强度图偏移</b> *浮动* | 此值从<b>强度输入</b>图像值中减去。 |
 
 ## 输入连接器
 
 |  |  |
 | --- | --- |
-| <b>输入</b> *灰度/颜色*&#x200B;主要 | 应用变形效果的灰度或彩色输入图像。 |
+| <b>输入</b> *灰度/颜色*&#x200B;主要 | 应对其应用变形效果的灰度或彩色输入图像。 |
 | <b>强度输入</b> *灰度* | 灰度图像，定义应应用于<b>输入</b>图像的变形量。 |
 
 ## 输出连接器
@@ -102,17 +102,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例1](../../../../assets/dir-warp.gif "方向变形 — 示例1"){zoomable="yes"}
+![方向变形 — 示例1](directional-warp.resources/dir-warp.gif "方向变形 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例2](../../../../assets/dir-warp02.gif "方向变形 — 示例2"){zoomable="yes"}
+![方向变形 — 示例2](directional-warp.resources/dir-warp02.gif "方向变形 — 示例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例3](../../../../assets/dir-warp03.gif "方向变形 — 示例3"){zoomable="yes"}
+![方向变形 — 示例3](directional-warp.resources/dir-warp03.gif "方向变形 — 示例3"){zoomable="yes"}
 
 </td>
 </tr>
