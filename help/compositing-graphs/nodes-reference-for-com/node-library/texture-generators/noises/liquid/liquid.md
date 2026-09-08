@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: 使用“液体”节点生成液体和液体图案，用于产生水、油和其他液体表面效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 液体
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 9%
 
 ---
 
@@ -22,38 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/liquid.png){width="128px"}
 
-## 液体
-
-**在：** *纹理生成器**/噪声*
-
-**简单**
+<b>进入：</b>纹理生成器>噪声
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-这是[高斯杂色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的简单变体，它[本身变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)以创建类似液体的效果。
-
-## 参数
-
-* **缩放**： *1 - 128*\
-  设置效果的全局比例。
-* **无序**： *0.0 - 1.0*\
-  对噪声进行相移以引入较小的变化
-* **变形强度**： *0.0 - 1.0*\
-  设置变形效果的强度。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
-![](../../../../../../assets/liquid-ex.gif)
+这是[高斯噪声](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的简单变体，它[本身变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)以创建类似液体的效果。
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>缩放</b> <i>1 - 128</i> | 设置效果的全局比例。 |
+| <b>无序</b> <i>0.0 - 1.0</i> | 对噪声进行相移以引入较小的变化 |
+| <b>变形强度</b> <i>0.0 - 1.0</i> | 设置变形效果的强度。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/liquid-ex.gif" />
+        </td>
+    </tr>
 </table>
