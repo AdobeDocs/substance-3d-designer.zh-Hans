@@ -1,7 +1,7 @@
 ---
 name: generate-node-documentation
 description: ""
-source-git-commit: 69f546a26d2e09127b1c79ef4003e235536289da
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 4%
@@ -91,7 +91,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 
 ### &#x200B;3. 可选标注
 
-`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`等。在&#x200B;**之后**&#x200B;转到图标/说明表(不是
+`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`等。在&#x200B;**之后**转到图标/说明表(不是
 （在单元格内）。 根据`write-experience-league-markdown`技能的语法。
 
 ### &#x200B;4. 输入
@@ -187,7 +187,7 @@ node记录不同的输出（许多节点具有单个隐式输出并忽略此输�
 
 ## 规则/不该做的事
 
-* **不要伪造**&#x200B;节点没有的输入、输出或参数；省略
+* **不要伪造**节点没有的输入、输出或参数；省略
 部分。 请勿改写、总结或去除现有的技术内容 — 仅限
 重新设置格式。
 * **保持链接相对**&#x200B;于其他`.md`页面；外部链接绝对。

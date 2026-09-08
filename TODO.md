@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 11%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 11%
 ## 附加项
 
 * AdobeDocs上的Python API文档的入口点
+* 3D视图：在高多边形网格上使用位移时，使用`refineLevel = 0`可提高性能
 * “文档弹出”页面中的示例
 * 术语表：
   * HDR
@@ -33,8 +34,6 @@ ht-degree: 11%
 ## 修复
 
 * [输出节点](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)中的链接和格式损坏
-* 删除页面内的ToC(例如， 新噪声)
-* 修复节点页面布局(例如， 新噪声)
 * 修复节点页中第一个示例图像的链接(例如， 新噪声)
 * [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)中缺少“负整数”项和断开的链接
 

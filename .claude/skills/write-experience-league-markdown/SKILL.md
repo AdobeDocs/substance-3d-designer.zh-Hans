@@ -1,11 +1,11 @@
 ---
 name: write-experience-league-markdown
 description: ""
-Source: https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+source-git-commit: 9f19a0232c1f355ba2450995b4a6d23b7ed846d1
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,9 @@ lint/link-check CI失败，或在实时站点上错误地渲染。
 * 用反斜杠（`\*`、`\_`等）转义文本特殊字符。
 * 标题/标题中的&#x200B;**和/或**&#x200B;必须写出(`and`)或编码为
   `&amp;` — 标题中的原始`&`可能会中断分析。
-* 用作文本（非实HTML）的&#x200B;**尖括号**&#x200B;必须经过编码：
+* 用作文本（非实HTML）的&#x200B;**尖括号**必须经过编码：
   `<placeholder>`→`&lt;placeholder&gt;`。
-* 从文字处理器粘贴的&#x200B;**智能引号**&#x200B;必须经过编码，不能保留为
+* 从文字处理器粘贴的&#x200B;**智能引号**必须经过编码，不能保留为
 文本卷形字符：左双`&#8220;`，右双`&#8221;`，
 撇号/右单`&#8217;`。
 
@@ -47,7 +47,7 @@ lint/link-check CI失败，或在实时站点上错误地渲染。
 
 ## 链接
 
-* 内部交叉引用必须是指向&#x200B;**&#x200B;**
+* 内部交叉引用必须是指向&#x200B;****
 目标`.md`文件： `[Overview](../../overview.md)`。
 * 外部引用必须是&#x200B;**绝对**&#x200B;个URL。
 * 将锚点添加到另一页的标题/范围：附加`#anchor-id`，例如，
@@ -62,11 +62,13 @@ lint/link-check CI失败，或在实时站点上错误地渲染。
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * 支持可选的大小/优化查询参数：
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **替代文本不得包含下划线** — 它们不能正确呈现；
 请改用连字符或空格。
-* 特定于页面的图像位于`<page-name>.resources/`中；共享/应用程序图标
-在`help/assets/`中居住（请参见CLAUDE.md）。
+* 特定于页面的图像位于同级`<page-name>.resources/`文件夹中
+相对引用的`.md`旁边的(例如
+  `<page-name>.resources/image.png`). `help/assets/`是旧版共享
+  文件夹 — 不要在那里添加新图像（请参见CLAUDE.md）。
 
 ## 表
 
@@ -91,7 +93,7 @@ lint/link-check CI失败，或在实时站点上错误地渲染。
 
 * 内联代码：单个回退。
 * 带围栏的块：三重backticks，语法为可选语言
-突出显示（` `&#x200B;``python `、` ``&#x200B;`javascript `等）。
+突出显示（` ```python `、` ```javascript `等）。
 
 ## 注释/警告块
 
