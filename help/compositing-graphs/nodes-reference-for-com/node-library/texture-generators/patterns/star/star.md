@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 星形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/star-5.png)
 
-## 星形
-
-**英寸：** *纹理生成器**/Patterns*
-
-**简单**
+<b>进入：</b>纹理生成器>图案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 生成五角星。
 
-## 参数
-
-* **缩放**： *0.0 - 1.0*\
-  统一缩放整个形状。
-* **非正方形扩展**： *False/True*\
-  启用以非方形比例补偿挤压和拉伸。
-
-## 示例图像
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>缩放</b> <i>0.0 - 1.0</i> | 统一缩放整个形状。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
