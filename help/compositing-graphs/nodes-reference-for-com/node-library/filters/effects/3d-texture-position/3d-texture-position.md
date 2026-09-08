@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: 使用3D纹理位置节点从3D纹理中提取位置信息，以创建空间效果和映射。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D纹理位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
@@ -22,44 +22,34 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
-**范围：** *滤镜/效果*
-
-**简单**
+<b>进入：</b>滤镜>效果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-**3D纹理位置**&#x200B;节点生成单位立方体的&#x200B;*位置切片*。
+**3D纹理位置**&#x200B;节点生成单位多维数据集的&#x200B;*位置切片*。
 
-这可用于烘焙3D噪声或作为&#x200B;*3D纹理贴图集*&#x200B;的功能。
+这可用于烘焙3D噪声或作为&#x200B;*3D纹理图集*&#x200B;的功能。
 
 </td>
 </tr>
 </table>
 
-## 参数
+## 示例
 
-无参数。
-
-## 示例图像
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dtextureposition-node.png" />
+        </td>
+    </tr>
 </table>

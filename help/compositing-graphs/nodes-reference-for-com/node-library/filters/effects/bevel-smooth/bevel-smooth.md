@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: 使用斜面平滑节点在形状和图案上创建逼真的表面的平滑斜边。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 斜面平滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -45,54 +45,40 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [方向距离](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)节点提供了类似功能，其中扩展是在特定方向执行的。
+> [方向距离](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)节点提供了类似功能，其中膨胀是在特定方向执行的。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>蒙版输入</b> *灰度*&#x200B;主要 | 应从中提取蒙版的图像。   所有高于“蒙版阈值”的值在该蒙版中均为白色。 |
-| <b>源输入</b> *灰度* | 仅当“Output Mode”参数设置为“Displation”时才使用可选输入。   在这种情况下，该图像将叠加在蒙版的白色区域上，并且扩展边界处的灰度值。 |
-| <b>距离图</b> *灰度* | “距离图乘数”参数的值大于0时使用的可选输入。   它用于调整沿蒙版边界的斜角/扩展距离，其中较暗的值导致较短的距离。 |
+|:---|:---|
+| <b>蒙版输入</b> <i>灰度</i>主要 | 应从中提取蒙版的图像。   所有高于“蒙版阈值”的值在该蒙版中均为白色。 |
+| <b>源输入</b> <i>灰度</i> | 仅当“Output Mode”参数设置为“膨胀”时才使用可选输入。   在这种情况下，该图像将叠加在蒙版的白色区域上，并且扩展边界处的灰度值。 |
+| <b>距离图</b> <i>灰度</i> | “距离图乘数”参数的值大于0时使用的可选输入。   该选项用于调整蒙版边界上的斜角/膨胀距离，较暗的值会产生较短的距离。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *灰度* | 结果图像，根据选定的“输出模式”。 |
-| <b>UV</b> *颜色* | UV图，其中UV沿蒙版边界扩展。   可以将其连接到[UV映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)节点，以使用这些扩展的UV映射任何其他图像。 |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 结果图像，根据选定的“输出模式”。 |
+| <b>UV</b> <i>颜色</i> | UV图，其中UV沿蒙版边界扩展。   可以将其连接到[UV映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)节点，以使用这些扩展的UV映射任何其他图像。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>输出模式</b> *整数* | 扩展蒙版边界的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>斜面：</b>绘制一个从1到0的渐变，其中0已达到最大“距离”</li> <li data-preserve-html="true"><b>膨胀：</b>绘制纯色远至“最大距离”。 此颜色为白色或蒙版边框处的“源输入”图像（如果已连接）</li> <li data-preserve-html="true"><b>距离：</b>距离最接近蒙版边框的原始距离，以规范化的图像空间表示，其中1是图像最短一侧的长度</li> </ul> |
 | <b>方向</b> *整数* *在“输出模式”设置为“斜角”或“膨胀”时可用* | 应扩展的蒙版边框的一侧：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>进入：</b>向蒙版内部绘制</li> <li data-preserve-html="true"><b>向外：</b>向蒙版外部绘制</li> <li data-preserve-html="true"><b>入/出：</b>向蒙版的内部和外部绘制</li> </ul> |
 | <b>最大距离</b> *浮动* | 在归一化图像空间中，膨胀的距离，其中1是输入图像的短边的长度。 |
 | <b>蒙版Smoothness</b> *浮动* | 应用于蒙版的平滑程度。   该值是模糊的半径，1个单位是图像的1/256。 |
 | <b>蒙版偏移</b> *浮动* | 向内或向外移动蒙版边界。 |
-| <b>蒙版阈值</b> *浮动* | 用于检测“蒙版输入”图像中的蒙版边界的值。   高于此阈值的值是蒙版形状的&#x200B;*内*，低于此阈值的值是&#x200B;*外*。 |
-| <b>缩放</b> *浮点2* | 调整扩展的水平(X)和垂直(Y)距离。   这些值是“最大距离”参数值的乘数。 |
+| <b>蒙版阈值</b> *Float* | 用于检测“蒙版输入”图像中的蒙版边界的值。   高于此阈值的值是蒙版形状的&#x200B;*内*，低于此阈值的值是&#x200B;*外*。 |
+| <b>缩放</b> *Float2* | 调整膨胀的水平(X)和垂直(Y)距离。   这些值是“最大距离”参数值的乘数。 |
 | <b>距离图乘数</b> *整数* | 在“最大距离”上调整“距离图”的影响。 |
 
 ## 示例

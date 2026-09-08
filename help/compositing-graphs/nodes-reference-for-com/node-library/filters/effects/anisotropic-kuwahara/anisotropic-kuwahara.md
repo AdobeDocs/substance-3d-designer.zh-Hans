@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
 breadcrumb-title: ''
 description: 使用各向异性Kuwahara颜色滤镜通过方向平滑创建风格化的绘画色彩效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 各向异性科威特颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -66,47 +66,33 @@ ht-degree: 0%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>输入</b> *颜色*&#x200B;主颜色 | 应处理的彩色图像。 |
-| <b>各向异性角度映射</b> *灰度* | 灰度图像，描述应用于计算方向的附加旋转，其中灰度值是旋转数。   当“各向异性”参数设置为0时，映射仍然有效，因为它影响Kuwahara滤镜使用的内核旋转。 |
-| <b>斜率映射</b> *灰度* | 根据“斜率映射输入乘数”参数值，表示方向图所匹配的斜率的映射。 |
-| <b>Radius映射（可选）</b> *灰度* | 连接后，模糊的“半径”将乘以输入图像。 |
-| <b>方向图</b> *颜色* | 描述各向异性滤镜内核使用的方向的映射。   当“各向异性”参数设置为0时，映射仍然有效，因为它影响Kuwahara滤镜使用的内核旋转。   注意：此输入仅在“使用输入方向图”参数设置为“True”时使用。 |
+|:---|:---|
+| <b>输入</b> <i>颜色</i>主颜色 | 应处理的彩色图像。 |
+| <b>各向异性角度映射</b> <i>灰度</i> | 灰度图像，描述应用于计算方向的附加旋转，其中灰度值是旋转数。   当“各向异性”参数设置为0时，映射仍然有效，因为它影响Kuwahara滤镜使用的内核旋转。 |
+| <b>斜率映射</b> <i>灰度</i> | 根据“斜率映射输入乘数”参数值，表示方向图所匹配的斜率的映射。 |
+| <b>Radius映射（可选）</b> <i>灰度</i> | 连接后，模糊的“半径”将乘以输入图像。 |
+| <b>方向图</b> <i>颜色</i> | 描述各向异性滤镜内核使用的方向的映射。   当“各向异性”参数设置为0时，映射仍然有效，因为它影响Kuwahara滤镜使用的内核旋转。   注意：此输入仅在“使用输入方向图”参数设置为“True”时使用。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *颜色* | 节点对输入图像施加各向异性模糊的结果。 |
-| <b>方向图</b> *颜色* | 从输入图像计算的方向图用于驱动各向异性模糊。   如果“使用输入方向图”参数设置为“True”，则会使用提供给“方向图”输入的图像，并按原样输出。 |
+|:---|:---|
+| <b>输出</b> <i>颜色</i> | 节点对输入图像施加各向异性模糊的结果。 |
+| <b>方向图</b> <i>颜色</i> | 从输入图像计算的方向图用于驱动各向异性模糊。   如果“使用输入方向图”参数设置为“True”，则会使用提供给“方向图”输入的图像，并按原样输出。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>半径</b> *浮动* | 模糊半径，值越高，模糊效果越强。   最大值为32。 |
 | <b>Smoothness</b> *浮动* | 调整计算方向上的颜色混合量。   当该值为0时，颜色大部分在该方向上移位，并且很少发生混合。 |
 | <b>锐度</b> *浮动* | 增加模糊区域的对比度，使其看起来更平滑，定义更清晰。 |
@@ -114,9 +100,9 @@ ht-degree: 0%
 | <b>使用输入方向图</b> *布尔值* | 当“True”时，不从输入图像计算任何方向图，并且使用连接到“方向图”输入的图像来驱动各向异性模糊。 |
 | <b>张量Smoothness</b> *浮动* *在“使用输入方向图”设置为“False”时可用* | 调整应用于根据图像计算并存储在方向图中的方向的模糊强度。   当图像包含大量高频细节时，增加此值可确保获得更平滑的结果。 |
 | <b>各向异性角度</b> *浮动* *在“使用输入方向图”设置为“False”时可用* | 按轮转次数向方向图添加旋转。   此附加旋转是&#x200B;*累积*，与“各向异性角度映射”输入指定的旋转相同。 |
-| <b>各向异性的角度映射乘数</b> *Float* *在“使用输入方向图”设置为“False”时可用* | 调整“Anisotropy angle图”输入中值的强度，然后按轮次在应用于方向图的旋转顶部添加。   此附加旋转是&#x200B;*累积*，与“Anisotropy angle”参数指定的旋转相同。 |
-| <b>斜率的地图输入乘数</b> *Float* *在“使用输入方向图”设置为“False”时可用* | 调整方向图与“斜率映射”输入提供的斜率的匹配强度。 |
-| <b>忽略Alpha</b> *布尔值* | 如果设为“True”，则图像的Alpha 通道不受滤镜影响。   如果为“False”，则筛选器也将应用于Alpha 通道。 |
+| <b>各向异性的角度映射乘数</b> *浮动* *在“使用输入方向图”设置为“False”时可用* | 调整“各向异性角度映射”输入中值的强度，然后按轮次在应用于方向图的旋转顶部添加。   此附加旋转是&#x200B;*累积*，与“各向异性角度”参数指定的旋转相同。 |
+| <b>斜率的地图输入乘数</b> *浮动* *在“使用输入方向图”设置为“False”时可用* | 调整方向图与“斜率映射”输入提供的斜率的匹配强度。 |
+| <b>忽略Alpha</b> *布尔值* | 设置为“True”时，图像的Alpha通道不受滤镜的影响。   设置为“False”时，滤镜也将应用于Alpha通道。 |
 
 ## 示例
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
 description: 使用“带光泽的浮雕”节点创建带光泽映射的浮雕效果，以便为纹理添加深度和光泽。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 光泽的浮雕
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
 
-## 光泽的浮雕
-
-**范围：** *滤镜/效果*
-
-**中级**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
@@ -41,28 +37,27 @@ ht-degree: 2%
 
 有关包含更多选项的版本，请参阅[Uber浮雕](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)。 还有更简单的原子版本的[浮雕](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)。
 
-## 参数
-
-### 输入
-
-* **颜色**： *颜色输入*
-* **Height**： *灰度输入*
-
-### 参数
-
-* **高光颜色**： *（颜色值）*Specular高光的颜色。
-* **阴影颜色**： *（颜色值）*在阴影/不亮区域中使用的颜色。
-* **光泽**： *0.0 - 0.5*&#x200B;高光大小光泽度。
-* **强度**： *0.0 - 10.0*&#x200B;高光强度。
-* **光源角度**： *0.0 - 1.0*\
-  （虚假）光的入射角。
-
-## 示例图像
-
-|  |
-| --- |
-| 没有附加到此页面的图像。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>颜色</b> <i>颜色输入</i> |  |
+| <b>Height</b> <i>灰度输入</i> |  |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>突出显示颜色</b> <i>（颜色值）</i> | Specular高亮的颜色。 |
+| <b>阴影颜色</b> <i>（颜色值）</i> | 在阴影/无光照区域中使用的颜色。 |
+| <b>光泽</b> <i>0.0 - 0.5</i> | 光泽度高光大小。 |
+| <b>强度</b> <i>0.0 - 10.0</i> | 高光的强度。 |
+| <b>光线角度</b> <i>0.0 - 1.0</i> | （虚假）光的入射角。 |

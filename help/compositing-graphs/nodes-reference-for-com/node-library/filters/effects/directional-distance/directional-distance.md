@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
-description: 使用方向距离节点计算过程效果的特定方向上的距离字段。
+description: 使用方向距离节点可计算程序化效果的特定方向上的距离字段。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Directional distance
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 方向距离
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -45,53 +45,39 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [斜面平滑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)节点提供类似功能，其中扩展可在所有方向执行。
+> [斜面平滑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)节点提供类似功能，其中膨胀是全方位执行的。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-</tr>
-</table>
-
-## 输入连接器
+## 输入
 
 |  |  |
-| --- | --- |
-| <b>输入</b> *灰度*&#x200B;主要 | 应从中提取蒙版的图像。   0.5以上的所有值在该蒙版中均为白色。 |
-| <b>距离图</b> *灰度* | “距离图乘数”参数的值大于0时使用的可选输入。   它用于调整沿蒙版边界的斜角/扩展距离，其中较暗的值导致较短的距离。 |
-| <b>角度映射</b> *灰度* | 一个可选输入，在“角度映射乘数”参数的值大于0时使用。   它用于通过将距离渐变的值添加到方向角（匝数）来调整距离渐变的方向。   使用“角度映射偏移”参数，可以通过指定哪个值为0来重新映射值。 |
+|:---|:---|
+| <b>输入</b> <i>灰度</i>主要 | 应从中提取蒙版的图像。   0.5以上的所有值在该蒙版中均为白色。 |
+| <b>距离图</b> <i>灰度</i> | “距离图乘数”参数的值大于0时使用的可选输入。   该选项用于调整蒙版边界上的斜角/膨胀距离，较暗的值会产生较短的距离。 |
+| <b>角度映射</b> <i>灰度</i> | 一个可选输入，在“角度映射乘数”参数的值大于0时使用。   它用于通过将距离渐变的值添加到方向角（匝数）来调整距离渐变的方向。   使用“角度映射偏移”参数，可以通过指定哪个值为0来重新映射值。 |
 
-## 输出连接器
+<a name="outputs"></a>
+
+## 输出
 
 |  |  |
-| --- | --- |
-| <b>输出</b> *灰度* | 根据选定的“输出模式”生成结果图像。 |
-| <b>UV</b> *颜色* | UV映射，其中UV沿指定方向从蒙版边界扩展。   可以将其连接到[UV映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)节点，以使用这些扩展的UV映射任何其他图像。 |
+|:---|:---|
+| <b>输出</b> <i>灰度</i> | 根据选定的“输出模式”生成结果图像。 |
+| <b>UV</b> <i>颜色</i> | UV沿指定方向从蒙版边界扩展的UV映射。   这可连接到[UV映射器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)节点，以映射使用这些扩展UV的任何其他图像。 |
+
+<a name="parameters"></a>
 
 ## 参数
 
 |  |  |
-| --- | --- |
-| <b>输出模式</b> *整数* | 从蒙版边界绘制距离渐变的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>反向归一化距离：</b>从1到0的渐变，其中0位于“最大距离”处，如果已连接，则乘以“距离图”</li> <li data-preserve-html="true"><b>距离：</b>距蒙版边框的原始距离值的渐变，其中1是输入图像较短一侧的长度</li> </ul> |
-| <b>最大距离</b> *浮动* | 在归一化图像空间中，距离渐变所行进的距离，其中1是输入图像的较短侧的长度。 |
-| <b>角度</b> *浮动* | 以匝数表示的距离渐变的方向，其中0为水平且向右 — 即(1,0)矢量。 |
-| <b>距离图乘数</b> *浮动* | 在“最大距离”上调整“距离图”的影响。   注意：当“距离图”输入未连接时，此参数不起作用。 |
-| <b>角度映射乘数</b> *浮动* | 调整“角度映射”对“角度”的影响。 |
-| <b>角度映射偏移</b> *浮动* | 通过指定该映射中的哪个值应为0，重新映射“角度映射”中的值。   例如，偏移量0.5表示0.75的值为0.25匝数，0.3的值为–0.2匝数。 |
+|:---|:---|
+| <b>输出模式</b> *整数* | 从蒙版边界绘制距离渐变的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>反向归一化距离：</b>从1到0的渐变，其中0位于“最大距离”处，如果已连接，则乘以“距离图”</li> <li data-preserve-html="true"><b>距离：</b>距蒙版边框的原始距离值的渐变，其中1是输入图像短边的长度</li> </ul> |
+| <b>最大距离</b> *Float* | 在归一化图像空间中，距离渐变所行进的距离，其中1是输入图像较短侧的长度。 |
+| <b>角度</b> *Float* | 以匝数表示的距离渐变的方向，其中0为水平且向右 — 即(1,0)矢量。 |
+| <b>距离图乘数</b> *Float* | 在“最大距离”上调整“距离图”的影响。   注意：当“距离图”输入未连接时，此参数不起作用。 |
+| <b>角度映射乘数</b> *Float* | 调整“角度映射”对“角度”的影响。 |
+| <b>角度映射偏移</b> *Float* | 通过指定该映射中的哪个值应为0，重新映射“角度映射”中的值。   例如，偏移量0.5表示0.75的值为0.25匝数，0.3的值为–0.2匝数。 |
 
 ## 示例
 

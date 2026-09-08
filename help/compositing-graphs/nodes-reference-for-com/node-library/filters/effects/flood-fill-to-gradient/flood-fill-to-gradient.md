@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: 使用“Flood Fill到渐变”节点，用渐变值填充区域，以创建平滑的颜色过渡。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 渐变Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -22,49 +22,56 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
 
-## 渐变Flood Fill
-
-**范围：** *滤镜/效果*
-
-**简单**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
 将[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)基转换为（随机方向）渐变。 对于创建拼贴随机倾斜和倾斜的高度图非常有用。
 
-## 参数
-
-### 输入
-
-* **Flood Fill**： *颜色输入*&#x200B;基本Flood Fill数据。
-* **角度输入**： *灰度输入*\
-  可选映射，用于确定每个单元格与外部映射的角度。
-* **输入斜率**： *灰度输入*&#x200B;用于确定每个单元格渐变斜率强度的可选映射。
-
-### *参数*
-
-* **角度**： *0.0 - 1.0*&#x200B;为所有拼贴设置统一的全局角度/方向。
-* **角度变化**： *0.0 - 1.0*&#x200B;分别随机分布每个拼贴的角度。 这是最有用且最强大的参数！
-* **乘以定界框大小**： *0.0 - 1.0*&#x200B;按拼贴单个定界框大小缩放整个线性效果。 这意味着较小的拼贴最终会比较大的拼贴暗。
-* **角度图像输入乘数**： *0.0 - 1.0*&#x200B;设置可选角度输入图对生成的渐变方向的影响
-* **斜率的图像输入乘数**： *0.0 - 1.0*\
-  设置可选斜率输入映射对生成的渐变斜率强度的影响。
-* **乘以斜率强度**： *0.0 - 1.0*
-* **平面斜率颜色**： *（灰度值）*允许为平面斜率设置纯色值。
-
-## 示例图像
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodgradient-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodgradient-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 输入
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>颜色输入</i> | 基本Flood Fill数据。 |
+| <b>角度输入</b> <i>灰度输入</i> | 可选映射，用于确定每个单元格与外部映射的角度。 |
+| <b>输入斜率</b> <i>灰度输入</i> | 用于确定每个单元格渐变强度的可选映射。 |
+
+<a name="parameters"></a>
+
+## 参数
+
+|  |  |
+|:---|:---|
+| <b>角度</b> <i>0.0 - 1.0</i> | 为所有拼贴设置统一的全局角度/方向。 |
+| <b>角度变化</b> <i>0.0 - 1.0</i> | 分别随机选择每个拼贴的角度。 这是最有用且最强大的参数！ |
+| <b>乘以定界框大小</b> <i>0.0 - 1.0</i> | 根据拼贴的单个定界框大小缩放整个线性效果。 这意味着较小的拼贴最终会比较大的拼贴暗。 |
+| <b>角度图像输入乘数</b> <i>0.0 - 1.0</i> | 设置可选的“角度”输入图对生成的渐变方向的影响 |
+| <b>图像输入乘数</b>斜率 <i>0.0 - 1.0</i> | 设置可选斜率输入映射对生成的渐变斜率强度的影响。 |
+| <b>乘以斜率强度</b> <i>0.0 - 1.0</i> |  |
+| <b>平面斜率颜色</b> <i>（灰度值）</i> | 允许为平整斜率设置实心值。 |
+
+## 示例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/floodgradient-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/floodgradient-ex1.png" />
+        </td>
+    </tr>
 </table>

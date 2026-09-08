@@ -1,93 +1,86 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
-description: 使用“扩散UV”节点在UV空间中应用扩散效果，以创建平滑的颜色过渡和混合。
+description: 使用“UV”节点在UV空间中应用漫射效果，以创建平滑的颜色过渡和混合。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion UV
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 扩散UV
+title: UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# 扩散UV
+# UV
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
-**范围：** *滤镜/效果*
-
-**中级**
+<b>英寸：</b>滤镜>效果
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-根据提供的&#x200B;**蒙版**&#x200B;图像输入，对&#x200B;**源**&#x200B;图像输入中的UV坐标应用扩散过程，并在&#x200B;**源**&#x200B;的值之间插入坐标。
+根据提供的&#x200B;**蒙版**&#x200B;图像输入，对&#x200B;**源**&#x200B;图像输入中的UV坐标应用漫射处理，并在&#x200B;**源**&#x200B;的值之间插入坐标。
 
 只有来自与蒙版匹配的像素的UV会扩散；其他像素不会参与结果。
 
-请注意，拼贴处理方式特殊：当拼贴处于&#x200B;*启用*&#x200B;状态（默认情况下是这种情况）时，相邻坐标的平均值可以超过0/1限制。
+请注意，拼贴处理方式特殊：当拼贴为&#x200B;*已启用*（默认情况下处于启用状态）时，相邻坐标的平均值可以超过0/1限制。
 
-例如，如果U坐标值在一个像素上为0.1，在另一个像素上为0.8，则平均值将是0.95而不是0.45，因为假设了&#x200B;*坐标拼贴*。 这与实际像素位置无关：坐标值在整个图像上的处理方式相同。
+例如，如果U坐标值在一个像素上为0.1，在另一个像素上为0.8，则平均值将是0.95而不是0.45，因为假定坐标的&#x200B;*拼贴*。 这与实际像素位置无关：坐标值在整个图像上的处理方式相同。
 
-使用此滤镜处理&#x200B;*纹理变形*&#x200B;时，这可能会导致不希望出现的结果。 如果发生这种情况，请确保蒙版定义的“控制曲线/点”的间距不超过&#x200B;*半个纹理*。
+使用此滤镜处理&#x200B;*纹理变形*&#x200B;时，这可能导致不良结果。 如果发生这种情况，请确保您的蒙版定义的“控制曲线/点”的纹理长度间隔不超过&#x200B;*一半*。
 
 </td>
 </tr>
 </table>
 
-## 参数
-
-* **迭代**： *0.0 - 64.0*&#x200B;要执行的漫射迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。\
-  请注意，如果您不寻求数学正确性，则低值会更优秀。
+<a name="inputs"></a>
 
 ## 输入
 
-* **源** *颜色*\
-  UV扩散。 请注意，在此筛选器中以特殊方式处理拼贴（请参阅&#x200B;*描述*）。
-* **蒙版***灰度*&#x200B;漫射蒙版：白色像素在&#x200B;*源*&#x200B;中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。
+|  |  |
+|:---|:---|
+| <b>源</b> <i>颜色</i> | UV扩散。 请注意，在此筛选器中以特殊方式处理拼贴（请参阅<i>描述</i>）。 |
+| <b>蒙版</b> <i>灰度</i> | 漫射蒙版：白色像素在<i>源</i>中取样，并以黑色像素扩散。 图像应该是黑白的。 如果蒙版包含渐变，则截止值为0.5。 |
 
-## 示例图像
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## 参数
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>迭代</b> <i>0.0 - 64.0</i> | 要执行的迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。<br>请注意，如果您不寻找数学正确性，则低值会很合适，甚至更好。 |
 
-</td>
-<td style="border: 0;" valign="top">
+## 示例
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
+        </td>
+    </tr>
 </table>
