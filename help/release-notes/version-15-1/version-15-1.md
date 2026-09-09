@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本15.1的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -199,8 +199,8 @@ Substance Designer15.1提供了一个完全改版的图形创建窗口，其中�
 * [3D 视图]Specular level未正确应用
 * [3D 视图]使用Eclair光栅器时Specular edge color不起作用
 * [3D 视图]用户添加的材料未应用于默认场景
-* [3D 视图]&#x200B;[Baker]颜色颜色在被覆盖或使用“材料”Baker时过暗
-* [3D 视图]&#x200B;[Baker] FBX文件没有材料
+* [3D 视图][Baker]颜色颜色在被覆盖或使用“材料”Baker时过暗
+* [3D 视图][Baker] FBX文件没有材料
 * [Baker]无法正确检测到FBX文件中的材料颜色
 * [Baker]在JSON预设导出中，“recompute\_正切”选项始终为“false”
 * [Baker] CLI：通过JSON 文件连续运行同一Baker时崩溃

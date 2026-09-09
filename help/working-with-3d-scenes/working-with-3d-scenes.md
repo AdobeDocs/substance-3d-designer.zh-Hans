@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、编辑和使用3D场景以预览和测试您的素材。
 helpx_creative_field: ""

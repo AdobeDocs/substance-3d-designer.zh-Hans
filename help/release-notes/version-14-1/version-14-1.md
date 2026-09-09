@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本14.1的发行说明，了解节点排列工具以及新的样条和路径节点。
 helpx_creative_field: ""
@@ -146,7 +146,7 @@ ht-degree: 1%
 * [函数图形]长值在“浮点”节点上显示重叠
 * [Fx-Map]显示象限节点属性时崩溃
 * [Graph] [UDIM]在UDIM列表中有一个滚动条会导致1..1 1..2个条目
-* [Graph]&#x200B;[Shortcuts]复制节点后，使用快捷方式创建的节点不会放置在现有链接上
+* [Graph][Shortcuts]复制节点后，使用快捷方式创建的节点不会放置在现有链接上
 * [属性]值无效时显示的参数不正确
 * [Publish]发布包时，相互依赖性导致无限循环
 * [Publish]对具有已卸载依赖关系的包使用“Publish”操作时出现静默故障

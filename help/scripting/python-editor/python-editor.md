@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/python-editor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/python-editor.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的Python编辑器编写、测试和调试Python脚本和增效工具。
 helpx_creative_field: ""

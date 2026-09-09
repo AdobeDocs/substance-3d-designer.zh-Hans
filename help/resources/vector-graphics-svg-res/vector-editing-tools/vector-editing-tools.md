@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: 使用矢量编辑工具在Substance 3D Designer中创建和修改程序化纹理的SVG图形。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [2D 视图](https://docs.substance3d.com/display/SDDOC/2D+view)面板提供了基本的矢量编辑工具，可让您直接在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中&#x200B;*手动*&#x200B;创建或编辑矢量图形。 例如，这些工具对于快速创建&#x200B;*蒙版*&#x200B;或&#x200B;*图案*&#x200B;尤为有用。
 
-这些工具支持笔输入。 要利用笔显示功能，您可以[取消停靠](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) [2D 视图](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然后将其放置并调整到更适合绘画的任何配置中。
+这些工具支持笔输入。 要利用笔显示功能，您可以[取消停靠](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace)[2D 视图](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然后将其放置并调整到更适合绘画的任何配置中。
 
 编辑操作可以&#x200B;*逐个撤消*，并且在编辑矢量图像时，“2D 视图”面板的所有其他功能仍然&#x200B;*可用*，例如[直方图](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram)面板、[拼贴显示](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport)和[背景图像](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage)。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 您只能&#x200B;*在* 8位&#x200B;*[矢量图形资源](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)上绘画* 1&rbrace;，这些资源是[新的或导入的](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)。
+> 您只能&#x200B;*在* 8位&#x200B;*[矢量图形资源](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)上绘画* 1}，这些资源是[新的或导入的](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)。
 
 ![新建SVG资源对话框](../../../assets/2dview-new-vector-image.png "新建SVG资源对话框"){width="512px"}
 
