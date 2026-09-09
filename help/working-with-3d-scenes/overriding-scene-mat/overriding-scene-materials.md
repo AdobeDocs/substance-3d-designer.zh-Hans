@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: 覆盖3D场景中的现有素材，将其替换为您自己的Substance素材以进行测试和预览。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 覆盖场景材质
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您的素材可以从头开始构建，也可以使用已[提取到Substance图形](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)中的场景素材的调整版本。
 
-![覆盖场景素材，对其进行微调并将其重置为场景状态](overriding-scene-materials.resources/overriding-scene-materials-01.gif "覆盖场景素材，对其进行微调并将其重置为场景状态"){zoomable="yes"}
+![覆盖场景素材，对其进行微调并将其重置为场景状态](../../assets/tweakOverriddenMaterial.gif "覆盖场景素材，对其进行微调并将其重置为场景状态"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![覆盖材质 — “3D视图”视口中的操作](overriding-scene-materials.resources/overriding-scene-materials-02.png "覆盖材质 — “3D视图”视口中的操作"){zoomable="yes"}
+![覆盖材质 — “3D视图”视口中的操作](../../assets/overrideMaterialActionViewport.png "覆盖材质 — “3D视图”视口中的操作"){zoomable="yes"}
 
 *3D视图视口中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![覆盖素材 — “素材”菜单中的操作](overriding-scene-materials.resources/overriding-scene-materials-03.png "覆盖素材 — “素材”菜单中的操作"){zoomable="yes"}
+![覆盖素材 — “素材”菜单中的操作](../../assets/overrideMaterialActionMaterials.png "覆盖素材 — “素材”菜单中的操作"){zoomable="yes"}
 
 *“材质”菜单中的操作*
 
@@ -119,21 +119,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![将材料重置为场景状态 — “3D 视图”视口中的操作](overriding-scene-materials.resources/overriding-scene-materials-04.png "将材料重置为场景状态 — “3D 视图”视口中的操作"){zoomable="yes"}
+![将材料重置为场景状态 — “3D 视图”视口中的操作](../../assets/resetMaterialToSceneStateActionViewport.png "将材料重置为场景状态 — “3D 视图”视口中的操作"){zoomable="yes"}
 
 *3D视图视口中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将材料重置为场景状态 — “材料”菜单中的操作](overriding-scene-materials.resources/overriding-scene-materials-05.png "将材料重置为场景状态 — “材料”菜单中的操作"){zoomable="yes"}
+![将材料重置为场景状态 — “材料”菜单中的操作](../../assets/resetMaterialToSceneStateActionMaterials.png "将材料重置为场景状态 — “材料”菜单中的操作"){zoomable="yes"}
 
 *“材质”菜单中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![将材料重置为场景状态 — “Properties”停放中的操作](overriding-scene-materials.resources/overriding-scene-materials-06.png "将材料重置为场景状态 — “Properties”停放中的操作"){zoomable="yes"}
+![将材料重置为场景状态 — “Properties”停放中的操作](../../assets/resetMaterialToSceneStateActionProps.png "将材料重置为场景状态 — “Properties”停放中的操作"){zoomable="yes"}
 
 *材料属性中的操作*
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![重置为场景状态 — 材料属性中的操作](overriding-scene-materials.resources/overriding-scene-materials-07.png "重置为场景状态 — 材料属性中的操作"){zoomable="yes"}
+![重置为场景状态 — 材料属性中的操作](../../assets/resetPropertyToSceneStateAction.png "重置为场景状态 — 材料属性中的操作"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ ht-degree: 0%
 
 这是一组仅在Designer中创作和管理的&#x200B;*其他*&#x200B;数据。 然后，这些材料&#x200B;*连接到副本*，这将覆盖场景的原始材料。
 
-![覆盖材料 — 数据示意图](overriding-scene-materials.resources/overriding-scene-materials-08.png "覆盖材料 — 数据示意图"){zoomable="yes"}
+![覆盖材料 — 数据示意图](../../assets/overridingMaterialsSchematic.png "覆盖材料 — 数据示意图"){zoomable="yes"}
 
 您可以将“材料”菜单中列出的任何材料连接到Designer在场景中创建的副本：在场景浏览器中单击副本上的人民币，然后转到“连接材料”子菜单。
 
 子菜单列出了场景中的所有材料以及您可能从“材料”菜单手动创建的任何材料。
 
-![连接材料](overriding-scene-materials.resources/overriding-scene-materials-09.gif "连接材料"){zoomable="yes"}
+![连接材料](../../assets/connectMaterials.gif "连接材料"){zoomable="yes"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、编辑和使用3D场景以预览和测试您的素材。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用3D场景
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 使用3D场景
 
-![处理3D场景](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "处理3D场景"){zoomable="yes"}
+![处理3D场景](../assets/workingWith3DScenes.png "处理3D场景"){zoomable="yes"}
 
 通过Designer，可加载[3D场景](../glossary/glossary.md)以处理上下文中的材质。 您可以在此处找到支持3D场景的文件格式列表，包括每种格式支持的功能列表。 <b>&lt;需要链接></b>
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 * <b>光源：</b>场景中的所有光源都可以在[场景浏览器](../interface/3d-view/scene-browser/scene-browser.md)中禁用。
 * <b>摄像机：</b>场景中检测到的所有摄像机都会作为预设添加到Designer添加的摄像机中。
 
-![3D场景的内容](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "3D场景的内容"){zoomable="yes"}
+![3D场景的内容](../assets/loaded3DScene.png "3D场景的内容"){zoomable="yes"}
 
 Designer对其3D场景使用美元描述。 其版面可以在场景浏览器中导航，其中每个[USD原型](https://openusd.org/release/glossary.html#usdglossary-prim)类型都有自己的图标（几何、材质、着色器、相机、变换……）。
 
@@ -85,14 +85,14 @@ Designer对其3D场景使用美元描述。 其版面可以在场景浏览器中
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![加载3D场景 — 从3D场景资源](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "加载3D场景 — 从3D场景资源"){zoomable="yes"}
+![加载3D场景 — 从3D场景资源](../assets/load3DScene-3DSceneResource.gif "加载3D场景 — 从3D场景资源"){zoomable="yes"}
 
 加载3D场景资源
 
 </td>
 <td style="border: 0;" valign="top">
 
-![加载3D场景 — 从库](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "加载3D场景 — 从库"){zoomable="yes"}
+![加载3D场景 — 从库](../assets/load3DScene-Library.gif "加载3D场景 — 从库"){zoomable="yes"}
 
 从库加载3D场景
 
@@ -104,14 +104,14 @@ Designer对其3D场景使用美元描述。 其版面可以在场景浏览器中
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![从3D场景文件中加载3D场景](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "从3D场景文件中加载3D场景"){zoomable="yes"}
+![从3D场景文件中加载3D场景](../assets/load3DScene-3DSceneFile.gif "从3D场景文件中加载3D场景"){zoomable="yes"}
 
 载入3D场景文件
 
 </td>
 <td style="border: 0;" valign="top">
 
-![加载3D场景 — 从场景状态文件](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "加载3D场景 — 从场景状态文件"){zoomable="yes"}
+![加载3D场景 — 从场景状态文件](../assets/load3DScene-sceneStateFile.gif "加载3D场景 — 从场景状态文件"){zoomable="yes"}
 
 加载场景状态文件
 
@@ -138,7 +138,7 @@ Designer创建的任何项目在场景浏览器中均以<b>粗体标签</b>列�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![场景浏览器 — 由Designer创建的元素](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "场景浏览器 — 由Designer创建的元素"){zoomable="yes"}
+![场景浏览器 — 由Designer创建的元素](../assets/sceneBrowser-createdByDesigner.png "场景浏览器 — 由Designer创建的元素"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Designer创建的任何项目在场景浏览器中均以<b>粗体标签</b>列�
 
 在3D 视图中设置材料、相机、灯光等后，可将该状态保存到场景状态文件(.sbsscn)中，稍后可加载该文件以恢复该状态。 例如，您可能需要设置一些场景来预览不同类型的环境或特定照明材料。
 
-![加载场景状态文件](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "加载场景状态文件"){zoomable="yes"}
+![加载场景状态文件](../assets/loadSceneStateFile.gif "加载场景状态文件"){zoomable="yes"}
 
 保存的场景状态还可以用作3D 视图的默认状态，这样，每当创建新3D 视图时，都将使用该状态。 如果想在拼贴值为2且特定环境图的“球体2拼贴”网格上默认预览材料的材料，此功能非常有用。
 

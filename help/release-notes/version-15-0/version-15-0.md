@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本15.0的发行说明，了解新的3D渲染器和本机USD支持。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *发行日期：2025年7月15日*
 
-![横幅](version-15-0.resources/version-15-0-01.png "版本15.0横幅")
+![横幅](../../assets/banner-47.png "版本15.0横幅")
 
 ## 新的 3D 渲染器
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 此新版本允许您访问高级[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，其具有栅格化模式（在材料处理时进行实时预览）和路径跟踪器模式（光线跟踪模式可获得完美且准确的渲染）。 此新渲染器通过光栅化器模式中的阴影等功能增强功能，提高了质量和性能，并设计为支持未来技术（如[MaterialX](https://materialx.org/)）。 它对Designer中现有的OpenGL和Iray渲染器进行了补充，并与Substance 3D Viewer和Substance 3D Sampler中提供的渲染器保持一致，从而确保在整个生态系统中提供统一的体验。
 
-![栅格化程序中的阴影和translucency](version-15-0.resources/version-15-0-02.png)
+![栅格化程序中的阴影和translucency](../../assets/feature_1b.png)
 
 [3d视图工具栏](../../interface/3d-view/3d-view.md)已更新，可快速访问此渲染器中提供的某些新功能：
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 * <b>色调映射： </b>使用配置文件设置颜色范围，以获得高动态范围(HDR)效果。
 * <b>场深度：</b>模拟相机镜头的聚焦属性（仅限光栅器）。
 
-![Designer 15.0中的Post FX](version-15-0.resources/version-15-0-03.gif)
+![Designer 15.0中的Post FX](../../assets/postfx.gif)
 
 ## 上下文中的资源版本
 
 在处理材质时，您可能希望在特定3D场景的上下文中[预览它](../../working-with-3d-scenes/working-with-3d-scenes.md)。 因此，我们增加了导入和渲染完整场景的可能性，包括其所有纹理、相机和光线。 最重要的是，如果此场景引用MaterialX着色器，则这些着色器将使用栅格化器进行正确渲染！
 
-![在Designer中加载和渲染USD场景](version-15-0.resources/version-15-0-04.png)
+![在Designer中加载和渲染USD场景](../../assets/feature_2.png)
 
 导入后，您可以通过选择网格（按住SHIFT键并单击或归功于场景浏览器）并[覆盖其任何材质](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)来处理场景。 然后，您可以：
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![混合节点](version-15-0.resources/version-15-0-05.gif)
+![混合节点](../../assets/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![模糊节点](version-15-0.resources/version-15-0-06.gif)
+![模糊节点](../../assets/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![距离节点](version-15-0.resources/version-15-0-07.gif)
+![距离节点](../../assets/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 如果您需要处理非方形纹理，则可以使用此新选项。 在3D视图的[材质属性](../../interface/3d-view/material-properties/material-properties.md)中，在用于控制拼贴的UV选项中，现在可以为两个轴设置不同的值。
 
-![不同的U V比例](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
+![不同的U V比例](../../assets/nonsquare.png){zoomable="yes"}
 
 ## 烘焙
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 视频
 
-[![Substance 3D Designer更新：新建渲染器、Post FX和上下文编辑 |Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designer更新：新建渲染器、Post FX和上下文编辑 |Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## 发行说明
 
@@ -137,17 +137,17 @@ ht-degree: 0%
 * [3D视图]在“材质”菜单中，删除“全部删除”操作
 * [3D视图]使导出的USDZ文件独立
 * [3D视图]切换渲染器模式时持久化渲染器属性
-* [3D 视图]在覆盖材料时保留现有材料输入
-* [3D 视图]重新排列相机属性
-* [3D视图]移除操作“相机/存储屏幕截图……” 以及“将屏幕截图相机/复制到剪贴板”
-* [3D 视图]删除菜单操作“材料/全部重建”
+* [3D视图]覆盖材料时保留现有材料输入
+* [3D视图]重新排列摄像机属性
+* [3D视图]移除操作“相机/存储屏幕截图……” 以及“Camera/Copy screenshot to clipboard”
+* [3D View]移除菜单操作“材料/全部重建”
 * [3D视图]移除默认相机标签的前缀“默认”
-* [3D 视图]将菜单操作“重置为默认值”设置为材料输入属性汉堡包菜单中的最后一个操作
+* [3D视图]将菜单操作“重置为默认值”设置为素材输入属性汉堡菜单中的最后一个操作
 * [3D视图]快捷键调整
 * [3D视图]在实时模式下支持阴影和半透明
 * [3D视图]支持导入美元场景中的MaterialX着色器
 * [3D视图/OpenGL]将“UV 缩放已启用”参数重命名为“启用图形中的物理尺寸”
-* [3D 视图/后期效果]开花
+* [3D视图/后期效果] Bloom
 * [3D视图/后期效果]字段深度
 * [3D视图/后期效果]色调映射
 * [3D视图/场景浏览器]允许在“场景浏览器”中选择材质属性时显示它
@@ -155,12 +155,12 @@ ht-degree: 0%
 * [3D视图/场景浏览器]用粗体显示由预定义实体控制的美元基元
 * [面包师]在树视图中添加具有“全选”/“取消全选”操作的上下文菜单
 * [面包师]添加一个选项以控制混合插值
-* [Baker]在GUI中添加水平拆分器
+* [面包师]在GUI中添加水平拆分器
 * [Bakers]当场景为udim时，在输出名称中默认添加UDIM宏
 * [Bakers]允许重新计算切线
-* [Baker]允许在不断开链接的情况下重命名Baker
+* [面包师]允许在不断开链接的情况下重命名面包师
 * [面包师]更改中间面板的默认大小
-* [Baker]UDIM工作流程的输入纹理
+* [Bakers] UDIM工作流的输入纹理
 * [面包师]制作2D视图地图列表顺序匹配面包师渲染列表顺序
 * [烘焙师]使烘焙窗口模态化
 * [Bakers]管理色调映射参数

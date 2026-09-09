@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本16.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *发行日期：2026年4月14日*
 
-<img src="./version-16-0.resources/version-16-0-01.jpg" alt="Substance 3D Designer版本16.0横幅" style="margin-top: 32px; margin-bottom: 32px">
+<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Substance 3D Designer版本16.0横幅" style="margin-top: 32px; margin-bottom: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-02.gif" alt="形状飞溅v2：泊松分布" /><br><i>泊松分布</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="形状飞溅v2：泊松分布" /><br><i>泊松分布</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-03.gif" alt="形状飞溅v2：均匀分布" /><br><i>均匀分布</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="形状飞溅v2：均匀分布" /><br><i>均匀分布</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-04.gif" alt="密度图" /><br><i>形状飞溅v2：密度图</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="密度图" /><br><i>形状飞溅v2：密度图</i>
         </td>
     </tr>
 </table>
@@ -60,13 +60,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-05.gif" alt="形状飞溅v2：随机3D旋转" /><br><i>随机3D旋转</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="形状飞溅v2：随机3D旋转" /><br><i>随机3D旋转</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-07.gif" alt="形状飞溅v2：形状凸出" /><br><i>形状凸出</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="形状飞溅v2：形状凸出" /><br><i>形状凸出</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-08.jpg" alt="形状飞溅v2:3D SDF形状" /><br><i>3D SDF形状</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="形状飞溅v2:3D SDF形状" /><br><i>3D SDF形状</i>
         </td>
     </tr>
 </table>
@@ -83,13 +83,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" alt="形状飞溅v2颜色映射器：三平面映射" /><br><i>三平面映射</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="形状飞溅v2颜色映射器：三平面映射" /><br><i>三平面映射</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" alt="形状飞溅v2颜色映射器：正常映射" /><br><i>正常映射</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="形状飞溅v2颜色映射器：正常映射" /><br><i>正常映射</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" alt="形状飞溅v2颜色映射器：从SDF形状映射每个材质ID" /><br><i>从SDF形状映射每个材质ID</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="形状飞溅v2颜色映射器：从SDF形状映射每个材质ID" /><br><i>从SDF形状映射每个材质ID</i>
         </td>
     </tr>
 </table>
@@ -102,7 +102,7 @@ ht-degree: 0%
             <p>自定义图案可以单独提供给形状飞溅v2节点，或打包到网格图集中以实现更精简和更高效的工作流程。</p><p>由于新<a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">网格图集</a>打包，简化了节点模式。</p>
         </td>
         <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-02.png" alt="网格图集色节点" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="网格图集色节点" />
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ ht-degree: 0%
             <p><b>生锈螺栓</b><a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材质样本</a>可用于跳转形状飞溅v2系列节点及其特征。</p><p>对图形进行组织和注释以指导您了解其结构、节点设置和技术。</p><p>它也是<i>完全可编辑</i>，因此可用作沙盒，以更深入地了解“形状飞溅”v2工具集。 您可以创建任意数量的示例图表，因此请尽情使用吧！</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="适用于SDF 函数的3D查看器节点的边界帧功能。" />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="适用于SDF 函数的3D查看器节点的边界帧功能。" />
         </td>
     </tr>
 </table>
@@ -130,7 +130,7 @@ ht-degree: 0%
             <p>Designer 16.0使用编写SDF 函数所用的大量图形目录，在函数节点中添加了生成3D形状的强大方法。</p><p>带符号的距离字段是空间表示为到数学定义的曲面的距离。 当使用各种运算符变换和组合这些曲面时，可使用它们定义越来越复杂的形状。</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-02.gif" alt="使用SDF 函数构建形状" />
+            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="使用SDF 函数构建形状" />
         </td>
     </tr>
 </table>
@@ -148,7 +148,7 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
 > 
 > 转至[使用SDF 函数](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)页，开始使用这些节点。
 
-<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="SDF 函数节点" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 函数节点" />
 
 轻量级节点具有清晰易读的图标，这使得构建3DSDF 函数比您想象的更容易，尤其是在将这个工具集添加到工具集后……
 
@@ -161,24 +161,24 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%; border: 0">
         <td style="text-align: center; width: 50%; border: 0; padding: 15px">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-02.jpg" alt="示例1" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="示例1" />
         </td>
         <td style="width: 50%; border: 0; padding: 0">
             <table>
                 <tr style="vertical-align: top; border: 0">
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-03.jpg" alt="示例1" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="示例1" />
                     </td>
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-04.jpg" alt="示例2" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="示例2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top; border: 0; background: transparent">
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-05.jpg" alt="示例3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="示例3" />
                     </td>
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-06.jpg" alt="示例4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="示例4" />
                     </td>
                 </tr>
             </table>
@@ -189,61 +189,61 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
 
 ## OpenPBR 支持
 
-[OpenPBR曲面](https://academysoftwarefoundation.github.io/OpenPBR/)是曲面着色模型的规范，旨在作为计算机图形的标准，能够精确建模绝大多数材料。
+[OpenPBR曲面](https://academysoftwarefoundation.github.io/OpenPBR/)是曲面着色模型的规范，旨在作为计算机图形的标准，能够准确建模绝大多数材料。
 
 现在，整个应用程序都支持此材质模型，新渲染器（栅格化器、GPU 路径追踪）和OpenGL渲染器中都有[专用着色器](../../interface/3d-view/material-properties/material-properties.md#openpbr)。
 
-<img style="display: block; margin: auto" src="./version-16-0.resources/version-16-0-03.gif" alt="Substance 3D Designer中的OpenPBR支持以及与其他DCC的比较" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Substance 3D Designer中的OpenPBR支持以及与其他DCC的比较" />
 
-使用新的图形模板开始了解这一广泛采用的行业标准，或者浏览现在基于OpenPBR的内置材料示例。
+使用新的图形模板开始了解这一广泛采用的行业标准，或者了解现在基于OpenPBR的内置材料示例。
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-04.png" alt="OpenPBR模板" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR模板" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-05.png" alt="OpenPBR材料样本" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="材料示例" />
         </td>
     </tr>
 </table>
 
-现在，OpenPBR着色器是3D视图的默认值，并且通过将旧版PBR用法与OpenPBR的用法匹配，原生支持以前版本中的图形。
+现在，着色器是3D 视图的默认设置，并且可以将旧版PBR使用与OpenPBR的PBR使用进行匹配，从而原生支持以前版本的图形。
 
 与现有的着色器相比，OpenPBR着色器支持更多的效果，如薄膜和薄壁。 所有效果均可在栅格化（栅格化器、OpenGL）中使用，包括最后折射！
 
 <table style="border: none;">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            使用新的<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">“材质模型”属性</a>（用于Substance图表）还可以更轻松地使涉及特定着色器的工作流保持同步，该属性可确保在3D视图中查看的图表对图表的材质模型使用合适的着色器。
+            使用新的<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">“材质模型”属性</a>（用于Substance图形），还可更轻松地使涉及特定着色器的工作流保持同步，从而确保在3D 视图中查看的图形对图形的材质模型使用适当的着色器。
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-06.png" alt="OpenPBR材料样本" />
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="材料示例" />
         </td>
     </tr>
 </table>
 
 >[!NOTE]
 > 
->该属性也包含在已发布的SBSAR文件中，以集成到您的材质工作流程中。
+>该属性也包含在已发布的SBSAR文件中，以集成到您的材料工作流程中。
 
 <a name="displacement-popup"></a>
 
-## 3D视图中的位移控件
+## 3D 视图中的位移控件
 
-现在，通过3D视图工具栏中的[新位移弹出窗口](../../interface/3d-view/displacement/displacement.md)可直接访问，可以更快、更轻松地在3D视图中调整位移和镶嵌。
+现在可以更快速、更轻松地在3D 视图中调整位移和曲面细分，可以直接在3D 视图工具栏中的[新位移弹出窗口](../../interface/3d-view/displacement/displacement.md)中进行访问。
 
-调整&#x200B;**Height比例**、**Height级别**&#x200B;和&#x200B;**镶嵌**&#x200B;值，在素材属性和渲染器设置中前后不重复。
+在材料属性和渲染器设置中调整&#x200B;**Height比例**、**Height级别**&#x200B;和&#x200B;**曲面细分**&#x200B;值，且不会来回重复。
 
 这些控件同时适用于我们的新渲染器（栅格化程序、GPU 路径追踪）和OpenGL渲染器。
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/displacement-01.gif" alt="3D视图中的位移弹出窗口" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D 视图中的位移弹出窗口" />
 
-如果场景包含多种材质，请按住<code>Shift以预先选择要调整的场景对象</code> 然后在场景浏览器中单击它（仅栅格化和GPU 路径追踪）或选择它。
+如果场景包含多个材料，请按住<code>Shift以预先选择要调整的场景对象</code> 然后点击它（仅栅格化和GPU 路径追踪）或在场景浏览器中选择它。
 
 >[!NOTE]
 > 
->网格化是光栅化器和GPU 路径追踪中&#x200B;*每个对象*，以及OpenGL中&#x200B;*每个材质*。
+>在光栅化器和GPU 路径追踪中，曲面细分为&#x200B;*每个对象*，在OpenGL中，为&#x200B;*每个材料*。
 
 <a name="other-changes"></a>
 
@@ -257,7 +257,7 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
             <p>为了更轻松地访问Substance图中的常量值，添加了<a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">个新节点</a>以生成每种类型的简单值。</p><p>您可以在库的<b>值&gt;常量</b>部分中找到所有这些参数。</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constant-02.png" alt="常量“浮点”节点" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="常量“浮点”节点" />
         </td>
     </tr>
 </table>
@@ -329,15 +329,15 @@ macOS的最低支持版本要求已更新为macOS 14 Sonoma。
 * [烘焙师]在预览中显示所选烘焙师的UV
 * [Graph]将新的“材质模型”属性添加到Substance图表
 * [NewGraph]在缩览图视图中添加分隔符
-* [参数]使用“函数”编辑器为输入参数定义默认常量值
+* [Parameters]使用“Function”编辑器为输入参数定义默认的常量值
 * [Parameters]使用可用变量填充`Set`和`Is defined`节点参数的组合框
-* [Preferences]删除“3D 视图”选项卡中过时的“缩放系数”选项
+* [首选项]删除“3D视图”选项卡中过时的“缩放系数”选项
 * [Publish] Publish对话框：在图形信息中包含材质模型
 * [Python]添加新类SDMaterialModelDescription以获取材质模型的信息
 * [Python]允许获取/设置SDSBSCompGraph对象的材质模型属性
 * [Python编辑器]将字体大小增加到12
 * [模板]添加OpenPBR模板
-* [模板]将材料示例转换为OpenPBR
+* [模板]将材料样本转换为OpenPBR
 * [第三方]更新升级到1.88版本
 * [第三方]将C++ API更新为C++20
 * [第三方]将NGL更新到1.42
@@ -350,10 +350,10 @@ macOS的最低支持版本要求已更新为macOS 14 Sonoma。
 
 ### 修复
 
-* [2D 视图]当构件的宽度变小时，直方图选择范围不予保留
+* [2D视图]当构件的宽度变小时，直方图选择范围不予保留
 * [3D导出]从Designer导出的网格无法在usdview中渲染相同的网格
 * [3D视图]将非udim内容分配到3D视图会保留单拼贴渲染模式
-* [3D 视图]使用OCIO时钳制结果
+* [3D视图]使用OCIO时出现固定结果
 * [3D视图]在特定场景的非覆盖材质上应用图形纹理时崩溃
 * [3D View]创建帧缓冲区时崩溃
 * [3D视图] EclairGPU 路径追踪：渲染特定模型时几何损坏且性能较低

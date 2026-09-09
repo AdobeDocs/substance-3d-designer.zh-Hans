@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、创建和管理资源，包括位图、字体和3D场景。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -26,7 +26,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](resources.resources/resources-01.png)
+![](../assets/graph-5.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](resources.resources/resources-02.png)
+![](../assets/folder-4.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

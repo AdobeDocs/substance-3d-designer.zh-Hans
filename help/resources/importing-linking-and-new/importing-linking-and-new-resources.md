@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中为您的材料项目导入、链接和创建新资源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 导入、链接和新资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 |                                                                                                                                                                         | 新建 | 导入 | 链接 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| 图形([Substance图形](../../compositing-graphs/substance-compositing-graphs.md)，[Substance函数图形](../../function-graphs/function-graphs.md) | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（错误）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
-| [位图](../../resources/bitmap-resource/bitmap-resource.md)，[矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
-| 3D场景，[字体](../../resources/font-resource/font-resource.md) | <div><img alt="（错误）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
-| 在SBS文件旁边创建 | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（错误）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
-| 可在Designer中编辑 | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（错误）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
-| 自动同步外部编辑 | <div><img alt="（错误）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
-| 嵌入已发布的SBSAR | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（刻度）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 图形([Substance图形](../../compositing-graphs/substance-compositing-graphs.md)，[Substance函数图形](../../function-graphs/function-graphs.md) | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| [位图](../../resources/bitmap-resource/bitmap-resource.md)，[矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 3D场景，[字体](../../resources/font-resource/font-resource.md) | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 在SBS文件旁边创建 | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| 可在Designer中编辑 | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| 自动同步外部编辑 | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（错误）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 嵌入已发布的SBSAR | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（刻度）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
 
 ## 新资源
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 ## 导入的资源
 
-导入资源意味着将在您的SBS文件（在&#x200B;*图形名称*.resources文件夹中）旁边创建资源文件的副本，但SVG文件[&#128279;](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)除外。 它有时也称为“嵌入的”资源。
+导入资源意味着将在您的SBS文件（在&#x200B;*图形名称*.resources文件夹中）旁边创建资源文件的副本，但SVG文件](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)除外。 [它有时也称为“嵌入的”资源。
 
 导入的资源放入图形后，即可在Designer中使用[2D视图](../../interface/2d-view/2d-view.md)中的[位图绘画工具](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)或[矢量编辑工具](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)进行编辑。 导入的资源不再链接到其原始源文件：这意味着如果您更改、删除或更新最初导入的文件，则这对Designer中的资源没有影响。
 
@@ -69,4 +69,4 @@ ht-degree: 2%
 > 我们建议注意这些项目，并采取必要的操作以&#x200B;*预测因从包中删除项目而造成的任何依赖关系损坏*。\
 > 这些操作包括&#x200B;*删除这些资源的所有使用者*。
 
-![“正在使用的已删除资源”警告](importing-linking-and-new-resources.resources/importing-linking-and-new-resources-01.png "“正在使用的已删除资源”警告"){width="512px"}
+![“正在使用的已删除资源”警告](../../assets/confirm-item-removal.png "“正在使用的已删除资源”警告"){width="512px"}
