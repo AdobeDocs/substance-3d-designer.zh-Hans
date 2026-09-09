@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 通道混合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/channelmixer.gif" />
+            <img src="channel-mixer.resources/channelmixer.gif" />
         </td>
     </tr>
 </table>

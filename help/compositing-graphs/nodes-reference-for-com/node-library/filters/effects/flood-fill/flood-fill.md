@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/floodfill.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -62,10 +62,10 @@ Flood Fill是高级效果集的一部分，该效果允许您将更多的变化�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/flood-ex2.png" />
+            <img src="flood-fill.resources/flood-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/flood-ex1.png" />
+            <img src="flood-fill.resources/flood-ex1.png" />
         </td>
     </tr>
 </table>

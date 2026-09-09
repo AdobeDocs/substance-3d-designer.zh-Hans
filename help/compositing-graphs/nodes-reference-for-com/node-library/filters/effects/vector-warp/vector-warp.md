@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 矢量变形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-grayscale.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/vector-warp-ex.png" />
+            <img src="vector-warp.resources/vector-warp-ex.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 噪声放大1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -59,7 +59,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/noise1ex.png" />
+            <img src="noise-upscale-1.resources/noise1ex.png" />
         </td>
     </tr>
 </table>

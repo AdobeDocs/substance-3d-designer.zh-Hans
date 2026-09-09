@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HDR范围查看器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -55,7 +55,7 @@ ht-degree: 10%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/hdr-viewer-example.png" />
+            <img src="hdr-range-viewer.resources/hdr-viewer-example.png" />
         </td>
     </tr>
 </table>

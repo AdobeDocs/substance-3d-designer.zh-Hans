@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 四变换
+title: 四元变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -18,15 +18,15 @@ ht-degree: 2%
 ---
 
 
-# 四变换
+# 四元变换
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/quad-example.gif" />
+            <img src="quad-transform.resources/quad-example.gif" />
         </td>
     </tr>
 </table>

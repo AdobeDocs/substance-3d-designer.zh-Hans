@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 替换颜色范围
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/replace-color-range-example.png" />
+            <img src="replace-color-range.resources/replace-color-range-example.png" />
         </td>
     </tr>
 </table>

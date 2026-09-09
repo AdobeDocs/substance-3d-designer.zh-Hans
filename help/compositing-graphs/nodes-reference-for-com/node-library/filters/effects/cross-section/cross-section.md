@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 横截面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![“横截面”节点图标](../../../../../../assets/cross-section-2.png "“横截面”节点图标"){width="200px"}
+![“横截面”节点图标](cross-section.resources/cross-section-2.png "“横截面”节点图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -69,10 +69,10 @@ ht-degree: 0%
 
 ## 示例
 
-![横截面：示例1](../../../../../../assets/cross-section-example-01.gif "横截面：示例1")
+![横截面：示例1](cross-section.resources/cross-section-example-01.gif "横截面：示例1")
 
-![横截面：示例2](../../../../../../assets/cross-section-example-02.gif "横截面：示例2")
+![横截面：示例2](cross-section.resources/cross-section-example-02.gif "横截面：示例2")
 
-![横截面：示例3](../../../../../../assets/cross-section-example-03.png "横截面：示例3")
+![横截面：示例3](cross-section.resources/cross-section-example-03.png "横截面：示例3")
 
-![横截面：示例4](../../../../../../assets/cross-section-example-04.png "横截面：示例4")
+![横截面：示例4](cross-section.resources/cross-section-example-04.png "横截面：示例4")

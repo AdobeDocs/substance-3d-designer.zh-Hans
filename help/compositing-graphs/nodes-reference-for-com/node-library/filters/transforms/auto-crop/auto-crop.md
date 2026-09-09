@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 自动裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropgrayscale.png){width="200px"}
+![](auto-crop.resources/autocropgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropcolor.png){width="200px"}
+![](auto-crop.resources/autocropcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 **自动裁剪**&#x200B;节点调整&#x200B;**输入**，以便其内容可以放在图像的&#x200B;*中心*&#x200B;而不调整大小，或调整到图像的&#x200B;*范围*。
 
-图像的内容由符合&#x200B;**X**&#x200B;和&#x200B;**Y**&#x200B;的&#x200B;*第一个和最后一个像素*&#x200B;的框定义，这些像素的值是&#x200B;*大于0*（即非黑色）。 **颜色**&#x200B;版本允许您从RGB和Alpha通道中选择用于定义该框。
+图像的内容由符合&#x200B;**X**&#x200B;和&#x200B;**Y**&#x200B;的&#x200B;*第一个和最后一个像素*&#x200B;的框定义，这些像素的值是&#x200B;*大于0*（即非黑色）。 **颜色**&#x200B;版本允许您从用于定义该框的RGB和Alpha 通道中进行选择。
 
 </td>
 </tr>
@@ -69,22 +69,22 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-demo-01-resized.gif" />
+            <img src="auto-crop.resources/autocrop-demo-01-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant2.jpg" />
+            <img src="auto-crop.resources/autocrop-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant.jpg" />
+            <img src="auto-crop.resources/autocrop-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant4.png" />
+            <img src="auto-crop.resources/autocrop-variant4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant3.png" />
+            <img src="auto-crop.resources/autocrop-variant3.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-node.png" />
+            <img src="auto-crop.resources/autocrop-node.png" />
         </td>
     </tr>
 </table>

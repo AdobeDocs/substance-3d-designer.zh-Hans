@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 警告和错误
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '817'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 ### 资源管理器
 
-对于[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中有警告的任何项目，该警告在列表中项目的最右边缘显示有一个![](warnings-and-errors.resources/warnings-and-errors-01.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
+对于[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中有警告的任何项目，该警告在列表中项目的最右边缘显示有一个![](../../assets/warning-icon.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
 
 它们遵循以下规则：
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warnings-and-errors-02.png){width="256px"}
+![](../../assets/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 ### 图形视图
 
-对于[图形视图](../../interface/the-graph-view/the-graph-view.md)面板中有警告的任何项目，该警告在视区的&#x200B;*左下角*&#x200B;以彩色文本显示。 如果警告是由特定节点触发的，则该节点将具有![](warnings-and-errors.resources/warnings-and-errors-03.png)警告标记。 将光标置于该徽章上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
+对于[图形视图](../../interface/the-graph-view/the-graph-view.md)面板中有警告的任何项目，该警告在视区的&#x200B;*左下角*&#x200B;以彩色文本显示。 如果警告是由特定节点触发的，则该节点将具有![](../../assets/warning-badge.png)警告标记。 将光标置于该徽章上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
 
 它们遵循以下规则：
 
@@ -71,7 +71,7 @@ ht-degree: 6%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warnings-and-errors-04.png){width="256px"}
+![](../../assets/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,18 +83,18 @@ ht-degree: 6%
 
 ### 属性
 
-对于[属性](../../interface/properties/properties.md)面板中带有警告的任何项目，该警告在列表中该项目的最右边缘显示有一个![](warnings-and-errors.resources/warnings-and-errors-01.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
+对于[属性](../../interface/properties/properties.md)面板中带有警告的任何项目，该警告在列表中该项目的最右边缘显示有一个![](../../assets/warning-icon.png)图标。 将光标置于该图标上几秒钟，以显示&#x200B;*工具提示*，其中详细列出了所有警告。
 
 它们遵循以下规则：
 
 * 如果项目嵌套在任何其他项目（例如，节标题）下，则折叠该项目时会对该项目显示警告。
 * 警告列表是&#x200B;*累计*，因为它们是项警告&#x200B;*和*&#x200B;所有已显示其子项警告的总和。
-* 如果应用于[输入参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的[函数图形](../../function-graphs/function-graphs.md)有一个或多个警告，则参数项将有&#x200B;*单个* `The [x] parameter's function has some warnings`警告。
+* 如果应用于[输入参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的[函数图形](../../function-graphs/function-graphs.md)具有一个或多个警告，则参数项将具有&#x200B;*单个* `The [x] parameter's function has some warnings`警告。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warnings-and-errors-05.png){width="256px"}
+![](../../assets/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -110,12 +110,12 @@ ht-degree: 6%
 
 >[!NOTE]
 >
-> 由于控制台中的所有文本均为&#x200B;*可选*，因此您可以使用此面板来&#x200B;*轻松复制警告和错误消息*，并将其粘贴到此文档的&#x200B;**本地搜索**&#x200B;工具或任何Internet搜索引擎中。 这样可加快查找有关故障排除问题的指导的速度。
+> 由于控制台中的所有文本均为&#x200B;*可选*，因此您可以使用此面板&#x200B;*轻松复制警告和错误消息*，并将其粘贴到此文档的&#x200B;**本地搜索**&#x200B;引擎或任何Internet搜索工具中。 这样可加快查找有关故障排除问题的指导的速度。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warnings-and-errors-06.png){width="256px"}
+![](../../assets/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ ht-degree: 6%
 ### Substance 图形中的警告
 
 * 未定义输出节点
-* `[x]`参数的函数有一些警告
+* [x]参数的函数有一些警告
 * 参考数据有部分警告
 * 未找到引用资源
 * 文本节点使用无效的字体
@@ -144,7 +144,7 @@ ht-degree: 6%
 </td>
 <td style="border: 0;" valign="top">
 
-### 函数图表中的警告
+### 函数图形中的警告
 
 * 未定义输出节点
 * 当前输出节点返回x类型的值
@@ -163,5 +163,5 @@ ht-degree: 6%
 * 未找到链接的文件
 * 未找到色彩空间
 * 未找到引用资源
-* UV磁贴被分配多次
-* 无效的UV磁贴
+* 多次分配UV拼贴
+* 无效的UV拼贴

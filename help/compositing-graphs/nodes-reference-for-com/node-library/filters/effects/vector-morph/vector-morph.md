@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 矢量图Morph
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-grayscale.png)![](vector-morph.resources/vector-morph.png)
 
 <b>英寸：</b>滤镜>效果
 

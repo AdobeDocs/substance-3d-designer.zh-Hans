@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Uber浮雕
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -71,7 +71,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/uberemboss-ex.png" />
+            <img src="uber-emboss.resources/uberemboss-ex.png" />
         </td>
     </tr>
 </table>

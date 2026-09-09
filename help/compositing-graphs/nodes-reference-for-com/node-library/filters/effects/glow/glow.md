@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 发光
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-greyscale.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-3.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -61,7 +61,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/glow-ex.png" />
+            <img src="glow.resources/glow-ex.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
 
 <b>英寸：</b>滤镜>效果
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fxaa-ex.png" />
+            <img src="fxaa.resources/fxaa-ex.png" />
         </td>
     </tr>
 </table>

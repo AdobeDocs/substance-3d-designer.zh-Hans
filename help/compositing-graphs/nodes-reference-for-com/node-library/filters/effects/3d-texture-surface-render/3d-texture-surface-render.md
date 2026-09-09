@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D纹理表面渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
 
 <b>进入：</b>滤镜>效果
 
@@ -77,19 +77,19 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant2.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant3.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant4.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-node.png" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
         </td>
     </tr>
 </table>

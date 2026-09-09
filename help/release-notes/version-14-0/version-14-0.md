@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *发行日期：2024年7月30日*
 
-![](version-14-0.resources/version-14-0-01.png)
+![](../../assets/2024-BannerRN.png)
 
 ## 新内容
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 * <b>专用于颜色处理的节点： </b>一个节点<b>（</b>[量化颜色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b>到<b> </b>减少图像中的颜色数量并从中提取调色板，这是一系列工具节点，用于构建您自己的调色板（[视图](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [创建](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [修改](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b>） </b>调色板)以及使用ID映射将其应用于其他图像的调色板（[应用调色板](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）。 您还将找到用于遮盖灰度的[ID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)节点，以便将ID映射（由Quantize颜色计算）转换为灰度蒙版。 有了这整套节点，您就拥有了使用颜色创建风格化效果所需的一切。
 
-![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
+![](../../assets/GIF2_2.gif){zoomable="yes"}
 
-![量化颜色2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
+![量化颜色2](../../assets/GIF3_2.gif){zoomable="yes"}
 
 * <b>Kuwahara滤镜</b>：如果您想进一步进行风格化处理，可以使用[各向异性Kuwahara颜色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)滤镜生成一些绘画效果。 在细节上，应用与图像细节相符的各向异性方向模糊。 结果是一个看起来像顺着形状内部方向流动的图像。
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
+      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
+      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 * <b>2D视图： </b>在[2D视图](../../interface/2d-view/2d-view.md)中启用拼贴显示时，现在即使对于不在原始拼贴上的像素，也可以获取值：这有助于更好地检查[取样](../../glossary/glossary.md)以及拼贴之间的值过渡。
 
-![2d视图](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
+![2d视图](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>渐变映射</b>：使用鼠标中键单击将所有[渐变键](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)向左或向右移动（从而保留所有键之间的所有间隙）。
 * <b>参数</b>：为了通过参数插入自定义函数，现在可以使用“编辑”函数构件。 这是创建自定义工具的强大解决方案，您可使用[Substance函数图形](../../function-graphs/the-function-graph/the-function-graph.md)在自定义工具中驱动参数。
@@ -146,12 +146,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![编辑函数](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
+![编辑函数](../../assets/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![编辑函数2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}
+![编辑函数2](../../assets/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>

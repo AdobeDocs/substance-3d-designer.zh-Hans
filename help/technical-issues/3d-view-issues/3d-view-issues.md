@@ -7,28 +7,28 @@ helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D 视图问题
+title: 3D查看问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1643'
 ht-degree: 0%
 
 ---
 
 
-# 3D 视图问题
+# 3D查看问题
 
 本页列出了与Substance 3D Designer中的[3D视图](../../interface/3d-view/3d-view.md)相关的技术问题，并提供了针对每个问题的故障排除步骤。
 
 ## 低性能：未使用独立GPU
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而使用&#x200B;*集成* GPU (<b>iGPU</b>)。 在渲染图形和/或[3D视图](../../interface/3d-view/3d-view.md)时，这将导致性能降低。
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 具有可切换图形的系统可以&#x200B;*强制使用dGPU*，具体取决于GPU制造商，该GPU应用于专用软件中的&#x200B;*特定应用程序*。
 
@@ -47,11 +47,11 @@ Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而�
 
 ## 3D对象是扁平的
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 在一个会话中以详细卷为特征的3D对象在下一个会话中变为平面对象，但是图形没有改变，并且Height映射带有相同的数据。
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 使用一种称为&#x200B;**镶嵌位移**&#x200B;的技术根据Height映射执行3D对象的变形效果。 这项技术包括两个步骤：
 
@@ -75,11 +75,11 @@ Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而�
 
 ## 3D视图完全为黑色
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 在版本15.0.0及更高版本中，3D视图的视区为纯黑色。 我看到一些文本叠加（例如，采样和渲染时间），但3D场景不可见。
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 版本15.1及更高版本
 
@@ -113,11 +113,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 ## 显示“不支持渲染器”消息
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 在15.0.0及更高版本中，使用新的3D渲染器（栅格化器、GPU路径跟踪器）时，在视区的右下角会显示“不支持渲染器”消息。 3D场景不可见。
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我们新的内部[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，它们使用现代技术，因此不受旧版GPU支持。
 
@@ -144,7 +144,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 ## 3D对象看起来完全平滑
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 在处理发送到&#x200B;**Height** [输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的数据后，对象似乎有一些卷，但&#x200B;*看起来完全平滑*，就好像在着色中忽略了Height信息。
 
@@ -152,7 +152,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 确保Height数据&#x200B;*转换为法线*，这些法线连接到&#x200B;**法线** [输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
@@ -163,7 +163,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
+![](../../assets/3dview-height-without-normals.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 ## 渲染模糊/像素化
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 当系统使用&#x200B;*显示缩放*&#x200B;时，渲染的图像看起来模糊或像素化。
 
@@ -179,7 +179,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 默认情况下，Designer使用&#x200B;*缩放*&#x200B;显示分辨率来定义[3D视图](../../interface/3d-view/3d-view.md)的渲染分辨率。 您可以更改此设置，以便使用&#x200B;*本机*&#x200B;显示分辨率来代替清晰的渲染。
 
@@ -188,7 +188,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
+![](../../assets/demo-viewport-scaling-option.png){width="256px"}
 
 </td>
 </tr>
@@ -196,11 +196,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 ## 我找不到“镶嵌因子”属性
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 将Designer升级到版本15.0.0后，我在材质属性中找不到“镶嵌因子”参数（该参数以前处于此位置）。
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 使用新渲染器（栅格化程序和GPU 路径追踪）时，“镶嵌因子”位于这些渲染器的属性中。 在3D视图中，转到<b>渲染器>编辑设置</b>。 该属性将列在“属性”停放区中。
 
@@ -214,11 +214,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 ## 3D对象看起来是错误的：它们的着色不适合光照
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
-对象的着色依赖于它们的法向量、切向量和二正规向量。 其坐标使用`[-1, 1]`范围，而在大多数情况下，法线图使用`[0, 1]`范围。 要使值从一个值调整到另一个值，需要应用<b>偏差和比例</b>： `value * scale + bias`。
+对象的着色依赖于它们的法向量、切向量和二正规向量。 它们的坐标使用[-1， 1]范围，而正常地图在大多数情况下使用[0， 1]范围。 要使值从一个值到另一个值自适应调整，需要应用<b>偏差和比例</b>：value\*scale+偏差。
 
-例如，刻度2和偏差–1可将x值从`[0, 1]`调整为`[-1, 1]`，即`x * 2 - 1`。
+例如，比例2和偏差–1会将x值从[0， 1]调整为[-1， 1]：x\*2-1。
 
 Designer不应用正常比例和偏差，除非它们由3D网格指定。 如果缺少该信息，则在[覆盖其任何素材](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)时，控制台中会出现警告：
 
@@ -227,7 +227,7 @@ Designer不应用正常比例和偏差，除非它们由3D网格指定。 如果
 ```
 
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 对于不久前导出为美元格式的场景：使用最新版本的USD重新导出场景，这将包括必要的数据。 注意与正常比例和偏差相关的属性（如果有），这些属性将取决于用于导出场景的软件。
 
@@ -235,11 +235,11 @@ Designer不应用正常比例和偏差，除非它们由3D网格指定。 如果
 
 ## 启动3D视图时崩溃
 
-**![（错误）](3d-view-issues.resources/error.svg)问题**
+**![（错误）](../../assets/error.svg)问题**
 
 在启动3D视图、创建项目、加载项目或手动启动3D视图时，Designer崩溃。
 
-**![（刻度）](3d-view-issues.resources/check.svg)建议的步骤**
+**![（刻度）](../../assets/check.svg)建议的步骤**
 
 首先，确保您的系统满足Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)。
 

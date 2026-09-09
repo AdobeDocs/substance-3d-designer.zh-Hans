@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ### 新模型图表功能
 
-![](version-11-3.resources/version-11-3-01.jpg)
+![](../../assets/banner-model.jpg)
 
 为扩展建模功能，模型图中添加了许多改进：
 
@@ -41,7 +41,7 @@ ht-degree: 1%
   * 粒子删减
   * 来自实例的粒子
 
-  ![](version-11-3.resources/version-11-3-02.gif)
+  ![](../../assets/particle-pruning.gif)
 
 * <b>新的建模和变形节点</b>\
   已添加其他新节点来创建更复杂的形状，请单击每个节点以了解有关它们的更多信息：
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ### 改进了互操作性
 
-![](version-11-3.resources/version-11-3-03.jpg)
+![](../../assets/banner-sendto.jpg)
 
 发件人操作已扩展，并增加了两种可能性：
 
@@ -71,24 +71,24 @@ ht-degree: 1%
 
 ### 杂项
 
-![](version-11-3.resources/version-11-3-04.jpg)
+![](../../assets/banner-misc-3.jpg)
 
 对生活质量进行了各种改进：
 
 * **相对于输入的输入**\
   在相对于输入中设置的图形输入现在将继承连接的节点大小，而不是默认父图形大小。 这使通过不同大小的输入管理不同分辨率更加容易。
 
-  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
+  ![](../../assets/relative-to-inputs.jpg){width="400px"}
 
 * **新建图形窗口**\
   “新建图形”窗口已重新设计，现在可以更好地查看特定模板的详细信息，并直接在现有包中创建新图形。
 
-  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
+  ![](../../assets/new-graph.png){width="400px"}
 
 * **关闭所有包**\
   这是一个小操作，使在资源管理器中管理许多包变得不那么繁琐。 使用&#x200B;**文件** > **关闭全部**&#x200B;以关闭当前打开的所有包。
 
-  ![](version-11-3.resources/version-11-3-07.png)
+  ![](../../assets/close-all-packages.png)
 
 * **最大化当前视图**\
   使用新标题栏&#x200B;**图标**&#x200B;或快捷键&#x200B;**SHIFT+空格**&#x200B;将窗口扩展到全屏。 这也可以用于浮动窗口。
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 ### 内容
 
-![](version-11-3.resources/version-11-3-08.jpg)
+![](../../assets/render-content.jpg)
 
 此版本添加新的漫射节点并改进了PBR 渲染节点：
 
 * <b>漫射节点</b>\
   新的“漫射颜色”、“漫射灰度”和“漫射UV”节点允许基于输入蒙版生成柔和的出血模糊。
 
-  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
+  ![](../../assets/diffusion-normal.jpg){width="230px"}
 
-  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
+  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
 
 * **已改进的PBR 渲染节点**\
   此节点进行了以下更改：
@@ -177,23 +177,23 @@ ht-degree: 1%
 * [UI]禁用区域在材质选项中过大
 * [UI] “未保存包文件”对话框中的样式问题
 * [UI]必须按两次Tab键才能在值之间导航
-* [UI]使用鼠标拖动进行缩放时，3D 视图和其他视口之间的缩放比例会发生反转
+* [UI]使用鼠标拖动进行缩放会在3D视图和其他视口之间反转
 * [UI]使用“最近打开的文件”列表加载已打开的SBS时，错误地触发“未找到包”提示
 * [UI]&#x200B;[macOS]启动应用程序后的默认界面布局不正确
 * [UI]包无法保存到驱动器的根目录（仅限Windows）
 * [图形]在特定情况下，“在2D视图中自动显示”选项不一致
-* [图形] “打开引用”选项适用于SBSAR实例化
+* [图形] “打开引用”选项适用于SBSAR实例节点
 * [图形]仅在创建项目时显示图钉属性
 * [图形] Pin字符串规则的执行不一致
-* [图形]保存空图形时崩溃
-* [3D 视图]Anisotropy angle在ASM着色器中反转
-* [3D 视图] ASM着色器：SSS相关映射的线性化问题
+* [Graph]保存空图表时崩溃
+* [3D视图]各向异性角度在ASM着色器中反转
+* [3D视图] ASM着色器：SSS相关映射的线性化问题
 * [3D视图]在特定情况下关闭其他3D视图后，OpenGL渲染中断
 * [3D视图]对于某些.fbx文件，预定义相机在3D视图中的位置不正确
-* [MDL]上下文菜单中的“添加节点”无法用于MDL 图
+* [MDL]上下文菜单中的“添加节点”对MDL图表不起作用
 * [MDL]错误：使用float2.x组件及类似组件时，节点连接失败(SD 11.1.2)
 * [MDL]打开特定.sbs文件时崩溃
-* [MDL]渲染会话启动时未设置Iray中每米的场景单位
+* [MDL]渲染会话开始时未设置Iray中每米的场景单位
 * [MDL]在MDL图中微调lerp节点时冻结
 * [MDL]导出的MDL代码中的参数顺序
 * [资源管理器]取消资源创建后创建空的资源文件夹

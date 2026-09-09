@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图扫描
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-1.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -56,13 +56,13 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-scan.gif" />
+            <img src="histogram-scan.resources/histogram-scan.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-scan2.gif" />
+            <img src="histogram-scan.resources/histogram-scan2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-scan3.gif" />
+            <img src="histogram-scan.resources/histogram-scan3.gif" />
         </td>
     </tr>
 </table>

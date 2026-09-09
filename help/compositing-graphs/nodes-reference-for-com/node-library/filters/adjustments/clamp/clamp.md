@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: 使用钳制节点将纹理值固定到指定的最小和最大范围内以控制值限制。
+description: 使用“夹紧”节点将纹理值夹紧在指定的最小和最大范围内，以控制值限制。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 夹持
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 14%
@@ -24,9 +24,9 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-grayscale.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-1.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## 描述
 
-将输入值钳制为定义的限制。
+将输入值限制到定义的限制。
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ ht-degree: 14%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/clamp.gif" />
+            <img src="clamp.resources/clamp.gif" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
-description: 使用“中间值滤镜颜色”节点可减少杂色并保留彩色纹理的边缘。
+description: 使用“中间值滤镜颜色”节点可以减少噪声并保留颜色纹理中的边缘。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 中间值滤镜颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![中间值滤镜颜色：图标](../../../../../../assets/MedianFilter_Icon_Color.png "中间值滤镜颜色：图标")
+![中间值滤镜颜色：图标](median-filter-color.resources/MedianFilter_Icon_Color.png "中间值滤镜颜色：图标")
 
 <b>英寸：</b>滤镜>模糊
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 描述
 
-此滤镜平滑图像中的杂色同时保留边缘。
+此滤镜可对图像中的噪声进行平滑处理，同时保留边缘。
 
 对于每个像素，节点根据像素的相邻像素的中值来计算颜色值。
 
@@ -76,11 +76,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-color.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-color.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>之后</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="median-filter-color.resources/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="median-filter-color.resources/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>之后</i>
     </td>
   </tr>

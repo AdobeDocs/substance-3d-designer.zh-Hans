@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # 版本 13.1
 
-<b>Substance 3D Designer 13.1</b>为材料图形添加了许多生活质量改进（主要与帧有关），以增强节点创建体验。 此外还添加了AxF导出，为使用AxF格式的用户提供了互操作性工作流程。
+<b>Substance 3D Designer 13.1</b>向节点图添加了许多生活质量改进（主要针对帧），以增强素材创建体验。 此外还添加了AxF导出，为使用AxF格式的用户提供了互操作性工作流程。
 
 *发行日期：2023年12月12日*
 
-![Substance 3D Designer 13.1横幅](version-13-1.resources/version-13-1-01.png "Substance 3D Designer 13.1横幅")
+![Substance 3D Designer 13.1横幅](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1横幅")
 
 ## 框架改进
 
@@ -32,25 +32,25 @@ ht-degree: 1%
 
 ### 自动扩展
 
-随着图形的增长，可能需要重新排列帧的内容。 节点可能会移动以便为添加留出空间，也可能需要将内容隔开更多以提高可读性。 为了方便这些调整，现在可以在移动包含的对象时自动扩展帧：在移动对象时随时按住<b>Shift</b>，以便自动调整帧边框来将该对象保留在其边界内。
+随着图形的增长，可能需要重新排列帧的内容。 节点可能会移动以便为添加留出空间，也可能需要将内容隔开更多以提高可读性。 为了方便进行这些调整，现在可以在移动包含的对象时自动扩展帧：在移动对象时随时按住<b>Shift</b>，以便自动调整帧边框来将该对象保留在其边界内。
 
-![自动扩展](version-13-1.resources/version-13-1-02.gif)
+![自动扩展](../../assets/autoexpand.gif)
 
 ### 使尺寸适合内容
 
-在图形中进行调整时，帧可能无法再顺畅地适应其内容。 这个新命令允许您自动调整帧的位置和大小，以便通过填充一个中等网格单元格来调整内容范围。 如果框架具有描述，则会对其进行调整，以尽可能使用描述旁边的任何空白空间。
+在图表中进行调整时，框架可能不会再顺畅地适应其内容。 这个新命令允许您自动调整帧的位置和大小，以便通过填充一个中等网格单元来调整其内容的范围。 如果框架具有描述，则会对其进行调整，以尽可能使用描述旁边的任何空白空间。
 
-![fitsize](version-13-1.resources/version-13-1-03.gif)
+![fitsize](../../assets/fitsize.gif)
 
 ### 增强说明
 
 得益于HTML代码，现在可以在框架的描述中包含设置格式的文本。 这同样适用于注释。
 
-![richtext](version-13-1.resources/version-13-1-04.png)
+![richtext](../../assets/description-3.png)
 
 ### <b>...还有更多！</b>
 
-我们重新思考了很多事情，例如归属规则更宽容，交互区域更易于调整帧大小，捕捉规则不会错开网格上的节点，以及视觉方面带来一些新鲜感。 可随时访问帧的[文档](../../interface/the-graph-view/graph-items/frame/frame.md)以了解更多信息。
+许多事情都经过了重新考虑，例如归属规则更可容忍，交互区域可轻松调整框架大小，对齐规则不会使网格上的节点不对齐，以及视觉方面可带来一些新鲜感。 可随时访问框架的[文档](../../interface/the-graph-view/graph-items/frame/frame.md)以了解更多信息。
 
 ## 生活质量改善
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF文件图标](version-13-1.resources/version-13-1-05.png "AxF文件图标")
+![AxF文件图标](../../assets/axf-file-icon.png "AxF文件图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ AxF是来自[X-Rite](https://www.xrite.com/axf)的格式。 它提供了一种�
 </tr>
 </table>
 
-![导出AxF](version-13-1.resources/version-13-1-06.gif)
+![导出AxF](../../assets/exportaxf.gif)
 
 ## API
 
@@ -103,14 +103,14 @@ AxF是来自[X-Rite](https://www.xrite.com/axf)的格式。 它提供了一种�
 * [框架]禁用框架描述的文本缩放
 * [框架]调整大小以适合内容
 * [帧]新的默认、悬停和选定状态
-* [帧]捕捉为大网格
-* [帧]帧描述的支持HTML代码
+* [帧]对齐到大网格
+* [Frames]支持框架描述的HTML代码
 * [帧]更新交互区域
 * [帧]更新视觉长宽比
 * [图形]在可见链接的中间而不是链接的中间创建节点
 * [图形]如果项目是所选内容中唯一具有属性的项目，则显示项目的属性
 * [图表]删除图表中注释的“缩放”选项
-* [图形]执行复制/捕捉操作时，会在主网格上粘贴节点
+* [Graph]执行复制/粘贴操作时，对齐主网格上的节点
 * [UX]允许在“节点”菜单和“库”搜索中进行模糊搜索
 * [UX]使“节点”菜单列表循环N
 * [AxF]支持AxF导出
@@ -124,30 +124,30 @@ AxF是来自[X-Rite](https://www.xrite.com/axf)的格式。 它提供了一种�
 * [色彩管理]添加对OCIO ICC显示器的支持
 * [色阶]添加重置直方图的方法
 * [Python]无法导入QtForPython时向用户发出警告
-* [2D 视图]保存视图选项的状态
+* [2D视图]保存视图选项的状态
 * [3D视图]将位置技术添加到网格信息着色器
 * [导出]添加“保存设置”按钮以保存对导出选项的更改
 
 ### 修复
 
-* [3D 视图]无法将纹理分配给MDL 材质的纹理\_2d类型的输入
+* [3D视图]无法将纹理指定给MDL材质的texture\_2d类型的输入
 * [AxF]模板列表中的图形标识符可以为空白
-* [AxF]默认情况下，图形模板字段为空
+* [AxF]默认情况下，Substance图形模板字段为空
 * [Content]Atlas Scatter：特定情况下的错误行为
 * [Content]Flood Fill映射器：当所有形状都具有相同的Bbox大小时，输出为空
 * [内容] FloodFill to Position：在某些情况下，不精确伪像
-* [Content] “BaseColor/金属/粗糙度转换器”节点中的“Specular”输出不正确
+* [Content] “BaseColor/Metallic/Roughness converter”节点中的“Specular”输出不正确
 * [内容]在非方形垂直图像中无法进行“蒙版到路径”处理
 * [内容]缺少对输入值、输入灰度、输入颜色和输出节点的说明
 * [Content] Set和Sequence节点缺少说明
 * [内容]形状飞溅：“飞溅数据2”输出中出现不精确伪像
-* [引擎]值处理器中的布尔值始终评估为“False”（仅限Apple Silicon）
+* [引擎]值处理器中的布尔值始终计算为“False”（仅限Apple Silicon）
 * [资源管理器]操作系统之间的工具栏按钮顺序不一致
 * [帧]使用CTRL功能键移动帧时，不抓取节点
 * [渐变映射]“全部重置”选项还应重置渐变构件
 * [GraphRender]在预览模式下调整时，某些节点呈现黑色
-* [图形]调整默认布尔值时，“输入值”预览停滞在“False”上（仅限Apple Silicon）
-* [图形]帧不会移动靠近帧边缘的点节点
+* [图形]调整默认布尔值时，“输入值”预览停滞在“False”状态（仅限Apple Silicon）
+* [图表]框架不会移动靠近框架边缘的点节点
 * [互操作性]发送至Substance 3D Stager后，重新发送图标未更新
 * [MDL]无法更改此参数所在的节点中的粗糙度
 * [MDL] “AxF到金属粗糙度”模板中的连接无效

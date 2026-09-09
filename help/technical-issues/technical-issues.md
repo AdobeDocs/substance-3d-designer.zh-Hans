@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 技术问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Designer包括直接报告崩溃和错误的方法。
 </td>
 <td style="border: 0;" valign="top">
 
-![崩溃报告对话框](technical-issues.resources/technical-issues-01.png "崩溃报告对话框"){zoomable="yes"}
+![崩溃报告对话框](../assets/crash-reporter-2.png "崩溃报告对话框"){zoomable="yes"}
 
 *单击以放大*
 
@@ -91,7 +91,7 @@ Designer包括直接报告崩溃和错误的方法。
 </td>
 <td style="border: 0;" valign="top">
 
-![错误报告对话框](technical-issues.resources/technical-issues-02.png "错误报告对话框"){zoomable="yes"}
+![错误报告对话框](../assets/bug-reporter.png "错误报告对话框"){zoomable="yes"}
 
 *单击以放大*
 

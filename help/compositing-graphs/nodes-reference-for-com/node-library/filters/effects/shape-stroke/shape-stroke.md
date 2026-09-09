@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形状描边
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-stroke.png){width="128px"}
+![](shape-stroke.resources/shape-stroke.png){width="128px"}
 
-![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-grayscale.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shapestroke-ex.png" />
+            <img src="shape-stroke.resources/shapestroke-ex.png" />
         </td>
     </tr>
 </table>

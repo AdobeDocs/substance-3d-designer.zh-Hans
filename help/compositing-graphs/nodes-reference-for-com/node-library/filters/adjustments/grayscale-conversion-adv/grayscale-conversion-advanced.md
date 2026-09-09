@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高级灰度转换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grayscale-conversion-advanced-example.png" />
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-example.png" />
         </td>
     </tr>
 </table>

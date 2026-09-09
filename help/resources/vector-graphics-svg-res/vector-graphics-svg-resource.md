@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
-description: 在Substance 3D Designer中导入SVG矢量图形并将其用作创建程序性素材的资源。
+description: 在Substance 3D Designer中导入SVG矢量图形并将其用作资源，以创建程序化材料。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 矢量图形 (SVG) 资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # 矢量图形 (SVG) 资源
 
-Substance 3D Designer通过可缩放矢量图形格式支持有限形式的矢量图形。 SVG文件可按不同方式作为资源引入，以用作图表的资源。
+Substance 3D Designer通过可扩展矢量图形格式支持有限形式的矢量图形。 SVG文件可作为资源以不同方式导入，并用作您的图形的资源。
 
-SVG文件[可以通过原子SVG节点创建或编辑，](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)它们也可以由[UV到SVG烘焙器创建。](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG文件[可以通过SVG节点创建或编辑，](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)它们也可由[UVSVGBaker](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)创建。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 | 作者 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
 | 作者 URL | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
 | 标记 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 用户数据 | 可选的额外数据，不适用于矢量图形。 |
+| 用户数据 | 可选的额外数据，不用于矢量图形。 |
 | 在图库中显示 | 确定SVG资源是否应在[库视图](../../interface/the-library/the-library.md)中隐藏。 |
 | 矢量图形质量 | 影响渲染品质。 此范围不是线性的，在0.5时达到最佳质量。 |
 
@@ -60,7 +60,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 * 支持描边，但仅会导致1像素宽的描边，并且忽略描边样式；
 * 虚线样式一定会断开；
 * 文本需要转换为要渲染的路径/轮廓；
-* 不支持[复合路径](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)；
+* 不支持[复合路径](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)；
 * 不支持渐变等高级功能；
 * 不支持CSS属性的样式元素。
 
@@ -87,7 +87,7 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 > 画板可能会影响生成的SVG文件的结果。 某些Illustrator文件模板引入了多个画板。\
 > 尝试仅保留一个已正确裁剪的画板，并在另存为SVG时在“画板”窗口中选择它。
 
-![SVG导出选项](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "IllustratorSVG导出选项"){width="512px"}
+![SVG导出选项](../../assets/svg-export-options-ai.jpg "IllustratorSVG导出选项"){width="512px"}
 
 ### Inkscape
 

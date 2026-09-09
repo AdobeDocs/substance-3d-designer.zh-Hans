@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 颜色匹配
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-match-3.png){width="128px"}
+![](color-match.resources/color-match-3.png){width="128px"}
 
 <b>英寸：</b>滤镜>调整
 

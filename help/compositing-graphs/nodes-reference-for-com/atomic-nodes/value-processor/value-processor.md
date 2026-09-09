@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 值处理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：值处理器](../../../../assets/comp_valueprocessor_1.png "原子节点：值处理器"){width="200px"}
+![原子节点：值处理器](value-processor.resources/comp_valueprocessor_1.png "原子节点：值处理器"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

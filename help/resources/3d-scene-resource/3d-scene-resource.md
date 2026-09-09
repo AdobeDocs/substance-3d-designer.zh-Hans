@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 场景资源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 可以在各种工作流程中使用3D场景资源：
 
 * [烘焙网格图](../../bakers/bakers.md)
-* 在[3D 视图](../../interface/3d-view/3d-view.md)中预览[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的&#x200B;*纹理*
+* 在[3D视图](../../interface/3d-view/3d-view.md)中预览[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的&#x200B;*纹理*
 
 支持以下3D场景文件格式：
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 * 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中加载资源后，单击资源上的&#x200B;*人民币*，然后在上下文菜单中选择<b>烘焙模型信息</b>选项
 * 此时会显示[烘焙模型信息](../../bakers/bakers.md)对话框，供您设置和运行任何网格图烘焙
 
-![烘焙网格图](3d-scene-resource.resources/3d-scene-resource-01.gif "烘焙网格图"){width="512px"}
+![烘焙网格图](../../assets/bake-model-information.gif "烘焙网格图"){width="512px"}
 
 ## UDIM/UV-tile用法
 

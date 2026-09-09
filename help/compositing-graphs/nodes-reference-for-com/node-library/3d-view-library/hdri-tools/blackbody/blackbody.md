@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Blackbody
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blackbody.png){width="200px"}
+![](blackbody.resources/blackbody.png){width="200px"}
 
 <b>进入：</b>3D 视图>HDRI 工具
 

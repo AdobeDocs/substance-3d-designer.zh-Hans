@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 用户首选项 — 自动设置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ user\_preferences.xml文件包含所有用户特定设置，这些设置不在[�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML文件图标](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "XML文件图标")
+![XML文件图标](../../assets/xml-5.png "XML文件图标")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ user\_preferences.xml文件包含所有用户特定设置，这些设置不在[�
 
 如果没有自动设置或出于测试目的，可以手动转到<b>编辑>首选项……</b>，然后单击左侧的“<b>项目</b>”部分。
 
-![项目设置](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "项目设置")
+![项目设置](../../assets/preferences-ui.png "项目设置")
 
 红色标记的按钮允许用户选择其他[SBSCFG文件](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)。
 
@@ -210,4 +210,4 @@ def SetConfigurationFile(p_ConfigPath):
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![可执行文件属性中的配置文件输入](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "可执行文件属性中的配置文件输入")
+![可执行文件属性中的配置文件输入](../../assets/shortcutargument.jpg "可执行文件属性中的配置文件输入")

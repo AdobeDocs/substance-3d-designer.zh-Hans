@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 应用调色板
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](../../../../../../assets/ApplyColorPalette.png "量化颜色图标"){width="200px"}
+![量化颜色图标](apply-color-palette.resources/ApplyColorPalette.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -64,31 +64,31 @@ ht-degree: 1%
 
 ## 示例
 
-![应用调色板：示例1](../../../../../../assets/apply_color_palette_example_2.png "应用调色板：示例1"){zoomable="yes"}
+![应用调色板：示例1](apply-color-palette.resources/apply_color_palette_example_2.png "应用调色板：示例1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
 </table>
 
-![应用调色板：示例3](../../../../../../assets/apply_color_palette_example_4.png "应用调色板：示例3"){zoomable="yes"}
+![应用调色板：示例3](apply-color-palette.resources/apply_color_palette_example_4.png "应用调色板：示例3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>之后</i>
     </td>
   </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 用于遮盖灰度的ID
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![用于遮盖灰度图标的ID](../../../../../../assets/IDToMask.png "用于遮盖灰度图标的ID"){width="200px"}
+![用于遮盖灰度图标的ID](id-to-mask.resources/IDToMask.png "用于遮盖灰度图标的ID"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -72,11 +72,11 @@ ID图是整体像素（如形状）全部包含相同唯一标识值的图像。
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>之后</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ ID图是整体像素（如形状）全部包含相同唯一标识值的图像。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![要遮盖的ID：示例2](../../../../../../assets/id_to_mask_example_2.gif "要遮盖的ID：示例2"){zoomable="yes"}
+![要遮盖的ID：示例2](id-to-mask.resources/id_to_mask_example_2.gif "要遮盖的ID：示例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![要遮盖的ID：示例3](../../../../../../assets/id_to_mask_example_3.png "要遮盖的ID：示例3"){zoomable="yes"}
+![要遮盖的ID：示例3](id-to-mask.resources/id_to_mask_example_3.png "要遮盖的ID：示例3"){zoomable="yes"}
 
 </td>
 </tr>

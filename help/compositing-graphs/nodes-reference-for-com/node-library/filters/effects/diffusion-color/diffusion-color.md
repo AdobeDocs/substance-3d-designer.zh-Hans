@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漫射颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 |:---|:---|
 | <b>迭代</b> <i>0.0 - 64.0</i> | 要执行的迭代数（越高越好，但速度越慢）。 有用的值在[8， 48]范围内。<br>请注意，如果您不寻找数学正确性，则低值会很合适，甚至更好。 |
 | <b>距离</b> <i>0.0 - 1.0</i> | 调整漫射的最大距离。 |
-| <b>启用仿色</b> <i>True/False</i> | 控制每个通道的采样方法。 抖动允许以较少的次数收敛，但会引入杂色。<br>如果没有它，则每个刀路的速度会更快，但需要更多的刀路才能获得平滑的结果，而不会出现带状伪影。 |
+| <b>启用仿色</b> <i>True/False</i> | 控制每个通道的采样方法。 仿色允许以较少的遍数收敛，但引入了噪声。<br>如果没有它，则每个刀路的速度会更快，但需要更多的刀路才能获得平滑的结果，而不会出现带状伪影。 |
 | <b>法线图</b> <i>True/False</i> | 在每个步骤添加值的标准化。 |
 | <b>使用Alpha作为蒙版</b> <i>True/False</i> | 使用<i>源</i>输入的Alpha 通道作为漫射蒙版，而不是<i>蒙版</i>输入。 |
 
@@ -68,32 +68,32 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-02-before.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-02a-after.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-02b-after.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-01-before.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-after-1.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-after-1.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-normal.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-normal-render.jpg" />
+            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
         </td>
     </tr>
 </table>
