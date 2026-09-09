@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: 使用“法线组合”节点组合多个法线图，用于分层表面细节和细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 普通组合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 4%
@@ -24,16 +24,16 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
-<b>英寸：</b>滤镜>法线图
+<b>在</b>个筛选器中>法线图
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-“法线组合”以数学上正确的方式合并两个法线映射的细节。
+“正常合并”以数学上正确的方式合并两个法线图的细节。
 
 它类似于其他2D图像编辑软件中众所周知的“叠加”方法，但在内部的工作方式略有不同（三个选项）。
 
@@ -41,9 +41,9 @@ ht-degree: 4%
 </tr>
 </table>
 
-这是向已烘焙贴图添加2D生成的法线映射细节的最佳、最正确方法。
+这是向已烘焙贴图添加2D生成的法线图详细信息的最佳、最正确的方法。
 
-如果要混合两个正常映射而不合并其细节（例如，使用蒙版），则应使用[正常混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
+如果要混合两个法线图而不合并其细节（例如使用蒙版），则应使用[普通混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
 
 <a name="inputs"></a>
 

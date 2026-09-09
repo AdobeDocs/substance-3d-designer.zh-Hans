@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: 使用“法向混合”节点将法线图混合在一起，以便在表面细节之间创建平滑的过渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 正常混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
 <b>在</b>个筛选器中>法线图
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>（.gif格式在示例中引入了仿色，应用程序内结果平滑）</i>
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>（.gif格式在示例中引入了仿色，应用程序内结果平滑）</i>
         </td>
     </tr>
 </table>
