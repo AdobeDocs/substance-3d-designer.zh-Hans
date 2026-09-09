@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: 使用3D纹理位置节点从3D纹理中提取位置信息，以创建空间效果和映射。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D纹理位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
 
 <b>进入：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## 描述
 
-**3D纹理位置**&#x200B;节点生成单位多维数据集的&#x200B;*位置切片*。
+**3D纹理位置**&#x200B;节点生成单位立方体的&#x200B;*位置切片*。
 
-这可用于烘焙3D噪声或作为&#x200B;*3D纹理图集*&#x200B;的功能。
+这可用于烘焙3D噪声或作为&#x200B;*3D纹理贴图集*&#x200B;的功能。
 
 </td>
 </tr>
@@ -46,10 +46,10 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
         </td>
     </tr>
 </table>
