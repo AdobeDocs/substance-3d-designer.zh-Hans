@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: 使用3D纹理偏移节点可在3D空间中偏移纹理，以创建视差效果和表面变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D纹理偏移
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -28,12 +28,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 ## 描述
 
-**3D纹理偏移**&#x200B;轴对连接到&#x200B;**输入**&#x200B;的&#x200B;*3D纹理*&#x200B;所描述的对象应用&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;节点中的&#x200B;*偏移变换*。
+**3D纹理偏移**&#x200B;节点对连接到&#x200B;**输入**&#x200B;的&#x200B;*3D纹理*&#x200B;所描述的对象应用&#x200B;**X**、**Y**&#x200B;和&#x200B;**Z**&#x200B;轴中的&#x200B;*偏移变换*。
 
 </td>
 </tr>
@@ -66,17 +66,17 @@ ht-degree: 3%
 
 |  |  |
 |:---|:---|
-| <b>偏移</b> <i>Float3</i> | 在连接到<b>输入</b>的<i>3D纹理</i>所描述的对象上应用的<i>世界空间</i>偏移量。 |
+| <b>偏移</b> <i>浮点3</i> | 连接到<b>输入</b>的<i>3D纹理</i>所描述的对象上应用的<i>世界空间</i>偏移量。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureoffset-variant.jpg" />
+            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureoffset-node.png" />
+            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
         </td>
     </tr>
 </table>
