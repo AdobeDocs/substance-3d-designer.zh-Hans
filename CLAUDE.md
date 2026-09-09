@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9f19a0232c1f355ba2450995b4a6d23b7ed846d1
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * `help/` — 所有文档内容，按目录进行组织。
 * `help/guide/TOC.md` — 目录。 每个条目都是指向页面的Markdown文件的相对链接（根位于`/help/...`）。 `TOC.md`还包含页树元数据（`user-guide-title`、`breadcrumb-title`、`nudge`、节锚点，如`{#section-id}`）。
-* `help/assets/` — 共享、非页面特定的图像（例如，跨页面重复使用的应用程序图标）。
+* `help/assets/` — 旧版共享图像文件夹。 页面特定的媒体现在位于每页面的`<md-file-name>.resources/`同级文件夹中（请参阅下面的“文件夹/目录约定”）；只有少数未由任何页面引用的剩余图像仍然位于此处。 将新图像放入使用页面的`.resources`文件夹，而不是此处。
 * `help/glossary/glossary.md` — 单个大型术语表页面，按字母顺序排列，使用锚点范围(`<span id="term"></span>`)进行组织，用于通过`#term`片段进行交联。
 * `metadata.md` — 存储库级别的前台内容（云/解决方案/产品ID、`git-repo`等） 每`TOC.md`继承一次。 仅对存储库范围的元数据更改进行编辑；页面特定的元数据属于页面自己的头条。
 * `redirects.csv`、`linkcheckexclude.json`、`markdownlint_custom.json`、`pipeline.opts` — 发布pipeline配置（重定向、链接检查异常、lint规则覆盖、管道选项）。
@@ -31,6 +31,10 @@ ht-degree: 0%
 * 如果页面已定制了媒体（图像、GIF、视频），则它位于名为`<md-file-name>.resources`的同级子文件夹中。
 
 添加或移动页面时，请同时更新`TOC.md`和文件夹布局，它们必须保持同步。
+
+## 节点引用页
+
+节点库树（例如`help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`）是具有不同布局的不同页面类型：图标/说明HTML表，后跟定位的`## Inputs` / `## Outputs` / `## Parameters`表(`#inputs`/`#outputs`/`#parameters`)和`## Examples`库。 它们使用&#x200B;**最小**&#x200B;正文（仅`title` + `description`），而不是下面的一般内容页面块（以`.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`为模型）。 嵌入的媒体（图标，例如图像/GIF）位于页面旁边的同级`<node-name>.resources/`文件夹中，相对引用。 对于完整创作模板，请使用`generate-node-documentation`技能（如果存在）。
 
 ## 页面前页
 

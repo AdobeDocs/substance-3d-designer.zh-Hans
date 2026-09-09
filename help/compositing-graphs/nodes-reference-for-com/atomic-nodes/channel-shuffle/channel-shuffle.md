@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 通道随机混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：通道随机排布](../../../../assets/comp_shuffle.png "原子节点：通道随机排布"){width="200px"}
+![原子节点：通道随机排布](channel-shuffle.resources/comp_shuffle.png "原子节点：通道随机排布"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

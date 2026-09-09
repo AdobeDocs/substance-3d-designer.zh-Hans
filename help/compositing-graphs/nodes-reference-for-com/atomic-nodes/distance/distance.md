@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 距离
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：距离](../../../../assets/comp_distance_1.png "原子节点：距离"){width="200px"}
+![原子节点：距离](distance.resources/comp_distance_1.png "原子节点：距离"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -87,7 +87,7 @@ ht-degree: 8%
 | <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 同时更改“源输入”输入类型。 |
 | <b>最大距离</b> *浮动* | 调整最大距离以检测蒙版中最接近的边框，以像素为单位。 |
 | <b>合并源/距离</b> *布尔值* | 确定可选的“源输入”与最终单元格的组合方式。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>合并：</i>将“源输入”值与渐隐线性蒙版合并。 如果连接了“源输入”输入，则其值与计算的距离相结合。</li> <li data-preserve-html="true"><i>仅源：</i>仅从“源输入”生成纯色。</li> </ul> |
-| <b>距离模式</b> *整数* | 选择计算所提取蒙版中到最接近边框的距离的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>欧几里德：</i>平方X/Y差的总和。</li> <li data-preserve-html="true"><i>曼哈顿：</i> X/Y差值的绝对值总和。</li> <li data-preserve-html="true"><i>Chebyshev：</i> X/Y差异的绝对值的最大值。</li> </ul>  <div><img alt="距离模式示例" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="距离模式示例"/></div> |
+| <b>距离模式</b> *整数* | 选择计算所提取蒙版中到最接近边框的距离的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>欧几里德：</i>平方X/Y差的总和。</li> <li data-preserve-html="true"><i>曼哈顿：</i> X/Y差值的绝对值总和。</li> <li data-preserve-html="true"><i>Chebyshev：</i> X/Y差异的绝对值的最大值。</li> </ul>  <div><img alt="距离模式示例" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-comparison.jpg" title="距离模式示例"/></div> |
 
 ## 输入连接器
 
@@ -108,17 +108,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="250px"}
 
 </td>
 </tr>

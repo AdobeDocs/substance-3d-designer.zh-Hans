@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 1%
 在下面您可以找到一些常见用例的典型示例。
 
 +++简单形状
-![图形中的简单形状](../assets/simpleshape.png "Substance图形中的简单形状"){width="512px"}
+![图形中的简单形状](substance-compositing-graphs.resources/simpleshape.png "Substance图形中的简单形状"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 +++
 
 +++调整滤镜
-![Substance图中的调整滤镜](../assets/simplefilter.png "Substance图中的调整滤镜"){width="512px"}
+![Substance图中的调整滤镜](substance-compositing-graphs.resources/simplefilter.png "Substance图中的调整滤镜"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 +++
 
 +++全材质
-![Substance图中的完整素材](../assets/simplematerial.png "Substance图中的完整素材"){width="512px"}
+![Substance图中的完整素材](substance-compositing-graphs.resources/simplematerial.png "Substance图中的完整素材"){width="512px"}
 
 
 

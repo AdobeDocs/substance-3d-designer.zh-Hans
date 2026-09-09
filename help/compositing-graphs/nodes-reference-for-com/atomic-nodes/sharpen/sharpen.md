@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 锐化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![锐化节点图标](../../../../assets/sharpen-4.png "锐化节点图标")
+![锐化节点图标](sharpen.resources/sharpen-4.png "锐化节点图标")
 
 <b>在：</b>个原子节点中
 
@@ -56,4 +56,4 @@ ht-degree: 4%
 
 ## 示例
 
-![锐化节点 — 示例1](../../../../assets/sharpen-ex.png "锐化节点 — 示例1")
+![锐化节点 — 示例1](sharpen.resources/sharpen-ex.png "锐化节点 — 示例1")

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 创建 Substance 图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新建Substance图形对话框 — 从主屏幕创建](../../assets/newGraphDialog-create-homeScreen.png "新建Substance图形对话框 — 从主屏幕创建"){zoomable="yes"}
+  ![新建Substance图形对话框 — 从主屏幕创建](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "新建Substance图形对话框 — 从主屏幕创建"){zoomable="yes"}
 
   </td>
   </tr>
@@ -54,7 +54,7 @@ ht-degree: 1%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新建Substance图形对话框 — 从资源管理器中创建](../../assets/newGraphDialog-create-explorer.png "新建Substance图形对话框 — 从资源管理器中创建"){zoomable="yes"}
+  ![新建Substance图形对话框 — 从资源管理器中创建](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "新建Substance图形对话框 — 从资源管理器中创建"){zoomable="yes"}
 
   </td>
   </tr>
@@ -65,12 +65,12 @@ ht-degree: 1%
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  在主工具栏中，单击![](../../assets/image2021-6-22-20-36-44.png) <b>新建Substance图形</b>按钮。
+  在主工具栏中，单击![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>新建Substance图形</b>按钮。
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新建Substance图形对话框 — 从主工具栏创建](../../assets/newGraphDialog-create-mainToolbar.png "新建Substance图形对话框 — 从主工具栏创建"){zoomable="yes"}
+  ![新建Substance图形对话框 — 从主工具栏创建](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "新建Substance图形对话框 — 从主工具栏创建"){zoomable="yes"}
 
   </td>
   </tr>
@@ -86,7 +86,7 @@ ht-degree: 1%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](../../assets/newGraphDialog-create-mainMenu.png)
+  ![](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainMenu.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 无论使用哪种方法创建新Substance图形，您始终会看到<b>新Substance图形</b>对话框，您可以使用该对话框配置新图形。
 
-![新建Substance图形对话框 — 材质](../../assets/newGraphDialog-materials.png "新建Substance图形对话框 — 材质"){zoomable="yes"}
+![新建Substance图形对话框 — 材质](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "新建Substance图形对话框 — 材质"){zoomable="yes"}
 
 ### 模板
 
@@ -139,7 +139,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 缩略图卡](../../assets/newGraphDialog-thumbnailCard.png "新建Substance图形对话框 — 缩略图卡")
+![新建Substance图形对话框 — 缩略图卡](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "新建Substance图形对话框 — 缩略图卡")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 所有样本均基于[材质模型](../../interface/3d-view/material-properties/material-properties.md#openpbr)。
 
-![材质示例 — 主屏幕横幅](../../assets/materialSamples-banner.png "材质示例 — 主屏幕横幅"){zoomable="yes"}
+![材质示例 — 主屏幕横幅](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "材质示例 — 主屏幕横幅"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 模板工具提示](../../assets/newGraphDialog-tooltipTemplate.png "新建Substance图形对话框 — 模板工具提示"){zoomable="yes"}
+![新建Substance图形对话框 — 模板工具提示](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "新建Substance图形对话框 — 模板工具提示"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 查看模式](../../assets/newGraphDialog-viewModes.png "新建Substance图形对话框 — 查看模式"){zoomable="yes"}
+![新建Substance图形对话框 — 查看模式](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "新建Substance图形对话框 — 查看模式"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++查看模式
-![新建Substance图形对话框 — 缩略图视图](../../assets/newGraphDialog-viewMode-thumbnails.png "新建Substance图形对话框 — 缩略图视图"){zoomable="yes"}
+![新建Substance图形对话框 — 缩略图视图](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "新建Substance图形对话框 — 缩略图视图"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 包含缩略图的卡片，提供了模板类型的预览或图标。
 
-![新建图形对话框 — 列表视图](../../assets/newGraphDialog-viewMode-list.png "新建Substance图形对话框 — 列表视图"){zoomable="yes"}
+![新建图形对话框 — 列表视图](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-list.png "新建Substance图形对话框 — 列表视图"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 模板仅按其标签列出。
 
-![新建图形对话框 — 包视图](../../assets/newGraphDialog-viewMode-packages.png "新建Substance图形对话框 — 包视图"){zoomable="yes"}
+![新建图形对话框 — 包视图](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-packages.png "新建Substance图形对话框 — 包视图"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 将鼠标悬停在包文件项上以显示工具提示及其完整路径。
 
-![新建图形对话框 — 目录视图](../../assets/newGraphDialog-viewMode-directories.png "新建Substance图形对话框 — 目录视图"){zoomable="yes"}
+![新建图形对话框 — 目录视图](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-directories.png "新建Substance图形对话框 — 目录视图"){zoomable="yes"}
 
 
 
@@ -252,7 +252,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 将鼠标悬停在问号图标上以显示工具提示，其中包含直接链接到此页面的按钮，因此您可以根据需要返回此文档。
 
-![新建图形对话框 — 帮助工具提示](../../assets/newGraphDialog-tooltipHelp.png "新建Substance图形对话框 — 帮助工具提示"){zoomable="yes"}
+![新建图形对话框 — 帮助工具提示](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipHelp.png "新建Substance图形对话框 — 帮助工具提示"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 按类别筛选](../../assets/newGraphDialog-categories.png "新建Substance图形对话框 — 按类别筛选"){zoomable="yes"}
+![新建Substance图形对话框 — 按类别筛选](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "新建Substance图形对话框 — 按类别筛选"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 设置模板类别](../../assets/newGraphDialog-templateCategorySetup.png "新建Substance图形对话框 — 设置模板类别"){zoomable="yes"}
+![新建Substance图形对话框 — 设置模板类别](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "新建Substance图形对话框 — 设置模板类别"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 按项目文件筛选](../../assets/newGraphDialog-projectFiles.png "新建Substance图形对话框 — 按项目文件筛选"){zoomable="yes"}
+![新建Substance图形对话框 — 按项目文件筛选](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "新建Substance图形对话框 — 按项目文件筛选"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![原子节点：输入颜色](../../../../assets/comp_inputcolor_1.png "原子节点：输入颜色"){width="200px"}
+![原子节点：输入颜色](input.resources/comp_inputcolor_1.png "原子节点：输入颜色"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子节点：输入灰度](../../../../assets/comp_inputgrayscale_1.png "原子节点：输入灰度"){width="200px"}
+![原子节点：输入灰度](input.resources/comp_inputgrayscale_1.png "原子节点：输入灰度"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子节点：输入值](../../../../assets/comp_inputnumeric_1.png "原子节点：输入值"){width="200px"}
+![原子节点：输入值](input.resources/comp_inputnumeric_1.png "原子节点：输入值"){width="200px"}
 
 </td>
 </tr>
@@ -107,10 +107,10 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>标识符</b> *字符串* | 唯一的必填唯一属性。 不能包含空格。   如果未设置Label，则用于标记输入，并用于区分不同的输出。 不要将这些项留在“input\_1”！ |
-| <b>描述</b> *字符串* | Designer的工具架和Painter库中使用的可选说明。 |
+| <b>描述</b> *字符串* | Designer的库和Painter的货架中使用的可选说明。 |
 | <b>标签</b> *字符串* | UI标签，用于在Designer和Painter UI中方便地添加标签。 可以包含空格。   建议使用与标识符类似的名称设置，只使用空格键而不是下划线。 |
-| <b>用户数据</b> *字符串* | 可用于特定筛选操作的附加可选用户数据，基本上是通配符自定义数据字段。 |
-| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输入进行分组的组属性。   具有相同（区分大小写）组属性的输入将作为单个连接显示在紧凑材质模式中。 |
+| <b>用户数据</b> *字符串* | 可用于特定筛选操作的其他可选用户数据，基本上是通配符自定义数据字段。 |
+| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输入进行分组的组属性。   具有相同（区分大小写）组属性的输入将在紧凑素材模式下作为单个连接显示。 |
 
 ## 继承
 
@@ -124,32 +124,32 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![图形中的主要输入](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substance图形中的主要输入](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
 </table>
 
-可将输入定义为[主要输入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 然后，此输入驱动所有输入的属性，继承方法设置为&#x200B;*相对于父代*。 这是输入节点上默认设置的继承方法&#x200B;**。
+可将输入定义为[主要输入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 然后，此输入驱动继承方法设置为&#x200B;*相对于父级*&#x200B;的所有输入的属性。 这是输入节点上默认设置的继承方法&#x200B;**。
 
-您可以将输入节点设置为图形的主要输入，方法是单击该节点上的&#x200B;*RMB*，然后在上下文菜单中选择<b>设置为主要输入</b>选项。\
+您可以单击节点上的&#x200B;*RMB*，然后在上下文菜单中选择<b>设置为主要输入</b>选项，将输入节点设置为图形的主要输入。\
 节点的主输入在连接器&#x200B;*中用*&#x200B;小黑点标记（在本节旁边的示例中，用红色圈起）。
 
 或者，设置为&#x200B;*相对于输入*&#x200B;继承方法的任何输入都将从其所连接的节点继承属性，而不管主输入的&#x200B;**。
 
-最后，可以通过将给定属性的继承方法设置为&#x200B;*绝对*&#x200B;来覆盖该属性的任何值。
+最后，可以通过将给定属性的继承方法设置为&#x200B;*Absolute*&#x200B;来覆盖该属性的任何值。
 
 >[!TIP]
 >
-> 要了解有关继承的更多信息，请转到本文档的[Substance图形中的继承](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)页。
+> 要了解有关继承的更多信息，请转到本文档的[Substance图中的继承](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)页。
 
 >[!IMPORTANT]
 >
-> [Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父代*。
+> 在[Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中，输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父级*。
 
 ## 集成属性
 
-输入不会直接发送到3D 视图，但[Substance 3D Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)会使用它们的使用情况属性自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)一起使用）。
+输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)一起使用）。
 
 此外，[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)也使用使用情况属性，以匹配正确的输入和输出插槽。
 
@@ -157,6 +157,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>组件</b> *字符串* | 这决定了生成的输入中实际包含哪些通道。   这是旧版设置，集成和图形不再使用它。 |
+| <b>组件</b> *字符串* | 这决定了生成的输入中实际包含哪些通道。   这是旧版设置，集成和图表不再使用旧版设置。 |
 | <b>用法</b> *字符串* | 定义此输入的类型或用法。 它指示其他节点应如何连接到此输入。 |
 | <b>色彩空间</b> *字符串* | 设置应解释此输入的色彩空间。 |

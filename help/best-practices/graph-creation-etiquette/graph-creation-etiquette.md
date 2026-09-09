@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图表创建礼仪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 让图表更清晰、更易于阅读的首要因素是在图表的核心组周围放置帧。 如果没有帧，大图表几乎无法读取，即使在绘制帧后，小图表也变得更容易理解。 帧的一个巨大优势是其<b>名称始终按相同的比例</b>渲染，即使您缩小非常远。
 
-![Substance图中的帧](../../assets/frames.gif "Substance图中的帧")
+![Substance图中的帧](graph-creation-etiquette.resources/frames.gif "Substance图中的帧")
 
 使用框架可以更轻松地了解图表中发生了什么。 他们可以在几个月后以作者身份重返工作岗位，或者像同事这样的其他用户找到办法浏览他们不习惯的Graph。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 输入和输出应放在图形的最末端：所有输出在右侧，所有输入在左侧，每个输入垂直对齐。 这样可以更容易地找到和识别它们。
 
-![输入和输出放置](../../assets/inout.gif "输入和输出放置")
+![输入和输出放置](graph-creation-etiquette.resources/inout.gif "输入和输出放置")
 
 上述示例是一个极端情况：帧并非始终必需或可能，但应该清楚的是，输入和输出的垂直对齐方式更清楚地显示了随机随机随机随机放置。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 在大型、超长图形中，有时链接跨度非常大。 这会导致穿过该图形的链路布线混乱，且无需太多控制。 使用快捷键“Alt + Shift拖动”可以重新组织这些链接，通过细分链接并在中间添加一个额外的手柄来改变它们在另一条路径上的路径。 建议在可行的情况下使用它。
 
-![链接重路由](../../assets/linkjreroute.gif "链接重路由")
+![链接重路由](graph-creation-etiquette.resources/linkjreroute.gif "链接重路由")
 
 ### 标签、标识符和用法
 
@@ -73,15 +73,15 @@ ht-degree: 0%
 
 默认建议的标签永远不够，需要花时间和精力将自定义标签添加到公开参数以及您的输入和输出。
 
-![标识符和标签](../../assets/output-label.png "标识符和标签")
+![标识符和标签](graph-creation-etiquette.resources/output-label.png "标识符和标签")
 
 尽量不让标识符和标签差异太大：如果标识符在其他地方使用（在多个函数中），则很难找到与哪个变量相关的UI属性。
 
-![标识符清晰度](../../assets/labelvsidentifier.png "标识符清晰度")
+![标识符清晰度](graph-creation-etiquette.resources/labelvsidentifier.png "标识符清晰度")
 
 尝试将您的标签与您在帧（帧标签）和注释中使用的术语匹配。 这样可以更轻松地找出图表的哪个部分与显示的参数有关
 
-![匹配的帧和参数标签](../../assets/match-labels.png "匹配的帧和参数标签")
+![匹配的帧和参数标签](graph-creation-etiquette.resources/match-labels.png "匹配的帧和参数标签")
 
 ### 参数设置
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 * 理想情况下，数据应尽可能长时间地保持灰度，并仅在绝对需要时进行转换。 这降低了复杂性并节省了性能。
 * 应该针对正确的类型创建或设置输入和输出：例如，如果将“蒙版”输入转换为灰度以用作二进制蒙版，则将“蒙版”输入设置为彩色是没有意义的。
 
-![颜色和灰度转换](../../assets/colorgray01.png "颜色和灰度转换")
+![颜色和灰度转换](graph-creation-etiquette.resources/colorgray01.png "颜色和灰度转换")
 
 ### 分辨率控制
 
