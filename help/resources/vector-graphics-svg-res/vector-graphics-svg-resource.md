@@ -41,11 +41,11 @@ SVG存储空间取决于它们是链接的还是导入的。 导入的SVG文件�
 | 标识符 | 用于引用包中的SVG资源，必须是唯一的。 |
 | 文件路径 | 资源引用的SVG文件的磁盘路径。 |
 | 描述 | 此资源的[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)和[库](../../interface/the-library/the-library.md)工具提示中显示的说明。 |
-| 类别 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 标签 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 作者 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 作者 URL | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
-| 标记 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 类别 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 标签 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 作者 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 作者 URL | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 标记 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
 | 用户数据 | 可选的额外数据，不用于矢量图形。 |
 | 在图库中显示 | 确定SVG资源是否应在[库视图](../../interface/the-library/the-library.md)中隐藏。 |
 | 矢量图形质量 | 影响渲染品质。 此范围不是线性的，在0.5时达到最佳质量。 |

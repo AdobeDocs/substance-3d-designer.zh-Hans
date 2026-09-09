@@ -111,7 +111,7 @@ ht-degree: 1%
 * [3D视图]未保存线框显示属性
 * [内容]径向模糊颜色参数对Alpha通道没有影响
 * [本地化]其他滑块和按钮显示在“环境OpenGL属性”中。
-* [MDL][Substance模型]删除公开节点时崩溃
+* [MDL]&#x200B;[Substance模型]删除公开节点时崩溃
 * [Preferences]删除默认配置文件后，将不会重新创建该文件
 * [Substance模型]在实例级别未显示的崩溃重新排序参数
 * [API] SDProperty.getDefaultValue()几乎始终返回None
