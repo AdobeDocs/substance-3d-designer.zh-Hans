@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
 description: 使用“梯形变换”节点将梯形扭曲应用于纹理，以创建透视校正效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯形变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapeze-transform.png){width="128px"}
 
-![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapeze-transform-grayscale.png){width="128px"}
 
 <b>英寸：</b>筛选器>变换
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/trapeze-example.gif" />
+            <img src="trapezoid-transform.resources/trapeze-example.gif" />
         </td>
     </tr>
 </table>

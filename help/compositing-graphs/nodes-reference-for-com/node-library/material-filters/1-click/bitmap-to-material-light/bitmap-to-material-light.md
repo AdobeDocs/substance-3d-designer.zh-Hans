@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: 使用“位图转换为材质光照”节点可以将位图图像快速转换为具有优化光照的材质，从而实现快速工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 将位图转换为材质光照
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/b2m-light.png)
 
 <b>在</b>个材质过滤器中>一键式
 
@@ -79,7 +79,7 @@ ht-degree: 11%
 | <b>在</b>中的粗糙度级别 <i>0.0 - 1.0</i> | 设置用于粗糙度解释的输入级别。 |
 | <b>超出粗糙度级别</b> <i>0.0 - 1.0</i> | 修改粗糙度输出级别。 |
 | <b>金属粗糙度影响</b> <i>0.0 - 1.0</i> | 确定可选金属输入对光泽度映射的影响。 |
-| <b>Ambient occlusion</b> |  |
+| <b>环境遮蔽</b> |  |
 | <b>Diffuse中的Ambient occlusion</b> <i>0.0 - 1.0</i> | 将生成的AO中的混合转换为Diffuse输出。 |
 | <b>Ambient occlusion跨页</b> <i>0.0 - 1.0</i> | 设置AO跨页的生成距离。 |
 | <b>Ambient occlusion光距离</b> <i>0.0 - 1.0</i> | 设置AO“深度”解释。 当跨距较大时，影响较小。 |
