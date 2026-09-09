@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中查找常见警告和错误的解决方案，以快速解决问题。
 helpx_creative_field: ""
