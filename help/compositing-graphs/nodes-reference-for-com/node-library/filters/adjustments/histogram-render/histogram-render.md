@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: 使用直方图渲染节点可以将直方图数据以纹理的形式显示，以便进行分析和调试。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方图渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向异性科威特灰度图标](../../../../../../assets/histogram_render.png "各向异性科威特灰度图标"){width="200px"}
+![各向异性科威特灰度图标](histogram-render.resources/histogram_render.png "各向异性科威特灰度图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -69,6 +69,6 @@ ht-degree: 2%
 
 ## 示例
 
-![直方图渲染：示例1](../../../../../../assets/histogram_render_example_1.png "直方图渲染：示例1"){zoomable="yes"}
+![直方图渲染：示例1](histogram-render.resources/histogram_render_example_1.png "直方图渲染：示例1"){zoomable="yes"}
 
-![直方图渲染：示例2](../../../../../../assets/histogram_render_example_2.png "直方图渲染：示例2"){zoomable="yes"}
+![直方图渲染：示例2](histogram-render.resources/histogram_render_example_2.png "直方图渲染：示例2"){zoomable="yes"}
