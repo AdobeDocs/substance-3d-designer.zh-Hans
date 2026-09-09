@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
-description: 使用“修改调色板”节点可以调整和变换从纹理中提取的调色板。
+description: 使用“修改调色板”节点可调整和变换从纹理中提取的调色板。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Modify Color Palette
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 修改调色板
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化颜色图标](../../../../../../assets/ModifyColorPalette.png "量化颜色图标"){width="200px"}
+![量化颜色图标](modify-color-palette.resources/ModifyColorPalette.png "量化颜色图标"){width="200px"}
 
 <b>英寸：</b>滤镜>调整
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 ## 描述
 
-修改有序调色板中的颜色，并使用ID映射将其应用于图像。
+修改有序调色板中的颜色，并使用Id 图将其应用于图像。
 
-通过将ID映射中的索引与调色板中的颜色索引进行匹配，可以选择颜色。
+通过将Id 图中的索引与调色板中的颜色索引匹配，可以选取颜色。
 
-例如，调色板中的颜色#2将应用于ID映射中ID值为2的所有像素。
+例如，调色板中的#2色将应用于ID值为2的Id 图中的所有像素。
 
 此节点可以与以下节点结合使用： [量化颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)、[创建调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)、[应用调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)、[查看调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>ID</b> <i>灰度</i>主要 | 用于选择颜色的输入ID映射，以便在输出中修改和分布颜色。   ID图是整体像素（如形状）全部包含相同唯一标识值的图像。 在本例中，该值是一个整数。   可以使用[Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)节点生成ID映射。 |
+| <b>ID</b> <i>灰度</i>主要 | 用于在输出中修改和分布颜色的用于选择颜色的输入Id 图。   id 图是指作为整体（如形状）一部分的像素都包含相同唯一标识值的图像。 在这种情况下，该值是一个整数。   可以使用[Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)Id 图生成节点。 |
 | <b>调色板</b> <i>颜色</i> | 以像素行编码的RGB的有序列表。 调色板最多可包含256种颜色。 这是节点修改的调色板。   可以使用[量化颜色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)或[创建调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)节点来生成调色板。 |
 
 <a name="outputs"></a>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>颜色</i> | 将修改的调色板中的颜色映射到ID映射的索引的结果。 |
+| <b>输出</b> <i>颜色</i> | 将修改后的调色板中的颜色映射到Id 图索引的结果。 |
 | <b>调色板</b> <i>颜色</i> | 应用了指定颜色修改的更新调色板。   该调色板可应用于具有[应用调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)节点的其他图像，或用[查看调色板](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)节点可视化。 |
 
 <a name="parameters"></a>
@@ -82,18 +82,18 @@ ht-degree: 0%
 
 ## 示例
 
-![修改调色板：示例1](../../../../../../assets/modify_color_palette_example_1.png "修改调色板：示例1"){zoomable="yes"}
+![修改调色板：示例1](modify-color-palette.resources/modify_color_palette_example_1.png "修改调色板：示例1"){zoomable="yes"}
 
-![修改调色板：示例2](../../../../../../assets/modify_color_palette_example_3.png "修改调色板：示例2"){zoomable="yes"}
+![修改调色板：示例2](modify-color-palette.resources/modify_color_palette_example_3.png "修改调色板：示例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>之后</i>
     </td>
   </tr>
