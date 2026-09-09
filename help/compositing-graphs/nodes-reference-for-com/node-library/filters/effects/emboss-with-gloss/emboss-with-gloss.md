@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
-description: 使用“带光泽的浮雕”节点创建带光泽映射的浮雕效果，以便为纹理添加深度和光泽。
+description: 使用“光泽浮雕”节点创建带有光泽映射的浮雕效果，为纹理添加深度和光泽。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 光泽的浮雕
+title: 光泽浮雕
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# 光泽的浮雕
+# 光泽浮雕
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
+![](emboss-with-gloss.resources/emboss-with-gloss.png){width="128px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 描述
 
-在颜色和Height输入上执行添加光泽（Specular反射）的浮雕效果。 基本上是根据Height信息向图像添加虚假的烘焙光照。 对于需要烘焙到纹理中的光照的一些纹理样式很有用。
+在颜色和Height输入上执行添加光泽（Specular反射）的浮雕效果。 实质上根据Height信息为图像添加仿制的烘焙光照。 对于某些需要烘焙到纹理中的光照的纹理样式很有用。
 
 有关包含更多选项的版本，请参阅[Uber浮雕](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)。 还有更简单的原子版本的[浮雕](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)。
 
