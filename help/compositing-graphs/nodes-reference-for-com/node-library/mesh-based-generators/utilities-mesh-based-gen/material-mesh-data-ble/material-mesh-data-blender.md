@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: 使用网格数据混合器节点混合材料网格数据，以便在不同的材料区域之间创建平滑的过渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 网格数据混合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>实用工具
 
@@ -48,12 +48,12 @@ ht-degree: 8%
 |  |  |
 |:---|:---|
 | <b>完整材料输入（组“材料”）</b> | 一整套材料地图。<br><br>此节点将修改这些字段，然后再次将其作为输出返回。 |
-| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
-| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>Ambient occlusion</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>弯曲</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
 | <b>Height</b> <i>灰度输入</i> |  |
 | <b>正常</b> <i>颜色输入</i> |  |
 | <b>顶点颜色</b> <i>颜色输入</i> |  |
-| <b>世界空间正常</b> <i>颜色输入</i> |  |
+| <b>世界空间法线</b> <i>颜色输入</i> |  |
 
 <a name="parameters"></a>
 
@@ -91,7 +91,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
         </td>
     </tr>
 </table>
