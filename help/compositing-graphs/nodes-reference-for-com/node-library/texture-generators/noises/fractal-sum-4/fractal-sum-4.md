@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
 breadcrumb-title: ''
 description: 使用分形求和4节点生成具有四个八度音阶的分形噪声，用于创建详细的有机纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 分形求和4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![分形求和4 — 图标](../../../../../../assets/fractal_sum_4.png "分形求和4 — 图标"){width="200px"}
+![分形求和4 — 图标](fractal-sum-4.resources/fractal_sum_4.png "分形求和4 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![分形求和4 — 示例1](../../../../../../assets/fractal_sum_4_1.png "分形求和4 — 示例1"){zoomable="yes"}
+![分形求和4 — 示例1](fractal-sum-4.resources/fractal_sum_4_1.png "分形求和4 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![分形求和4 — 示例2](../../../../../../assets/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "分形求和4 — 示例2"){zoomable="yes"}
+![分形求和4 — 示例2](fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "分形求和4 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

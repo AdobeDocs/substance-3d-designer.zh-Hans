@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
 description: 使用分形求和基节点生成基分形噪声图案，用于创建复杂的有机纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 分形求和基础
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![分形求和库 — 图标](../../../../../../assets/fractal_sum_base.png "分形求和库 — 图标"){width="200px"}
+![分形求和库 — 图标](fractal-sum-base.resources/fractal_sum_base.png "分形求和库 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![分形求和基数 — 示例1](../../../../../../assets/fractal_sum_base_1.png "分形求和基数 — 示例1"){zoomable="yes"}
+![分形求和基数 — 示例1](fractal-sum-base.resources/fractal_sum_base_1.png "分形求和基数 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![分形求和基 — 示例2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "分形求和基 — 示例2"){zoomable="yes"}
+![分形求和基 — 示例2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "分形求和基 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

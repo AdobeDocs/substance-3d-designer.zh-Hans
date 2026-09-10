@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
 breadcrumb-title: ''
 description: 使用“高斯杂色”节点生成高斯分布杂色图案，用于创建有机纹理和变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高斯杂色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![高斯杂色 — 图标](../../../../../../assets/gaussian_noise-1.png "高斯杂色 — 图标"){width="200px"}
+![高斯杂色 — 图标](gaussian-noise.resources/gaussian_noise-1.png "高斯杂色 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯杂色 — 示例1](../../../../../../assets/gaussian_noise-1_1.png "高斯杂色 — 示例1"){zoomable="yes"}
+![高斯杂色 — 示例1](gaussian-noise.resources/gaussian_noise-1_1.png "高斯杂色 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯杂色 — 示例2](../../../../../../assets/noise_gaussian_noise_v2_speed0.6_aniso0.gif "高斯杂色 — 示例2"){zoomable="yes"}
+![高斯杂色 — 示例2](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso0.gif "高斯杂色 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯杂色 — 示例3](../../../../../../assets/noise_gaussian_noise_v2_speed0.6_aniso1.gif "高斯杂色 — 示例3"){zoomable="yes"}
+![高斯杂色 — 示例3](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso1.gif "高斯杂色 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯杂色 — 示例4](../../../../../../assets/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif "高斯杂色 — 示例4"){zoomable="yes"}
+![高斯杂色 — 示例4](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif "高斯杂色 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

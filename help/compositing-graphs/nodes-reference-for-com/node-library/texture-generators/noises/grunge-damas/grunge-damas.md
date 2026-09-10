@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: 使用“污渍Damas”节点生成类似Damask的污渍图案，用于创建华丽的风化表面细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 达马斯污渍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -53,15 +53,15 @@ ht-degree: 2%
 | <b>扭曲</b> <i>浮动</i> | 调整图案中的扭曲量。 |
 | <b>分区</b> <i>整数</i> | 调整图案中的分割或渐变重复量。 |
 | <b>波浪</b> <i>整数</i> | 调整图案中的波浪量。 |
-| <b>详细信息</b> <i>浮动</i> | 调整较小扭曲的强度。 |
-| <b>旋转随机</b> <i>浮动</i> | 调整每个波形旋转的随机性。 |
+| <b>详细信息</b> <i>Float</i> | 调整较小扭曲的强度。 |
+| <b>旋转随机</b> <i>Float</i> | 调整每个波形旋转的随机性。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>
