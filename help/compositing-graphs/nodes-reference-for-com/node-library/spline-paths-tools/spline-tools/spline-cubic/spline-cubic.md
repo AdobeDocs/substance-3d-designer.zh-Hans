@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: 使用“样条三次”节点为曲线路径创建具有四个控制点的平滑三次样条。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条（三次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/spline-cubic-icon.png "节点图标")
+![节点图标](spline-cubic.resources/spline-cubic-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在任意位置生成两点<b>p1 </b>和<b>p2</b>之间的单个样条。
 
-样条线的轨迹由<b>p1</b>的“出”切线和<b>p2</b>的“入”切线控制。
+样条线的轨迹由<b>p1</b>的“out”正切和<b>p2</b>的“in”正切控制。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>预览</b> <i>灰度</i> | 作为灰度图像的输入样条的预览。 |
+| <b>预览</b> <i>灰度</i> | 以灰度图像形式预览输入样条。 |
 | <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
 | <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
@@ -73,8 +73,8 @@ ht-degree: 0%
 | <b>追加输入样条</b> <i>布尔值</i> | 将生成的样条添加到连接到<b>样条</b>输入的样条列表的末尾。 |
 | <b>非方形校正</b> <i>布尔值</i> | 调整点的位置和Thickness以保持样条形状的非方形分辨率。 这也会影响均匀分布。 |
 | <b>Height</b> |  |
-| <b>启动Height</b> <i>浮动</i> | 调整p1点的Height，其中较低的值表示较低或较深的位置。 这会影响p1处的样条的Height。 |
-| <b>结束Height</b> <i>浮动</i> | 调整p2点的Height，其中较低的值表示较低或较深的位置。 这会影响p2处的样条的Thickness。 |
+| <b>启动Height</b> <i>Float</i> | 调整p1点的Height，其中较低的值表示较低或较深的位置。 这会影响p1处的样条的Height。 |
+| <b>结束Height</b> <i>Float</i> | 调整p2点的Height，其中较低的值表示较低或较深的位置。 这会影响p2处的样条的Thickness。 |
 | <b>自动切线Height</b> <i>布尔值</i> | 自动设置样条正切的Height，使其从“起始”Height线性插值到“终止”Height。 |
 | <b>p1正切Height</b> <i>Float</i>（当“自动正切Height”为True时可用） | 调整p1点“输出”正切的Height，其中较低的值表示较低或较深的位置。 当样条从p1逐渐变淡时，这会影响样条的Height。 |
 | <b>p2正切Height</b> <i>Float</i>（当“自动正切Height”为True时可用） | 调整p2点“in”正切的Height，其中较低的值表示较低或较深的位置。 当样条从p2逐渐变淡时，这会影响样条的Height。 |
@@ -101,12 +101,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](../../../../../../assets/SplineCubic-Variant1.jpg "节点示例1")
+![节点示例1](spline-cubic.resources/SplineCubic-Variant1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineCubic-Variant2.jpg "节点示例2")
+![节点示例2](spline-cubic.resources/SplineCubic-Variant2.jpg "节点示例2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例3](../../../../../../assets/SplineCubic-Demo.gif "节点示例3")
+![节点示例3](spline-cubic.resources/SplineCubic-Demo.gif "节点示例3")
 
 </td>
 <td style="border: 0;" valign="top">

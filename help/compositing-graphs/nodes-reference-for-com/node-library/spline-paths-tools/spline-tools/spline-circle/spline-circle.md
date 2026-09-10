@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: 使用“样条圆”节点创建用于生成圆形图案和形状的圆形样条。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条圆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/spline-circle-icon.png "节点图标")
+![节点图标](spline-circle.resources/spline-circle-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>预览</b> <i>灰度</i> | 作为灰度图像的输入样条的预览。 |
+| <b>预览</b> <i>灰度</i> | 以灰度图像形式预览输入样条。 |
 | <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
 | <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
@@ -96,12 +96,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](../../../../../../assets/SplineCircle-Variant1.jpg "节点示例1")
+![节点示例1](spline-circle.resources/SplineCircle-Variant1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineCircle-Demo.gif "节点示例2")
+![节点示例2](spline-circle.resources/SplineCircle-Demo.gif "节点示例2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![示例3](../../../../../../assets/SplineCircle-Variant2.jpg "示例3")
+![示例3](spline-circle.resources/SplineCircle-Variant2.jpg "示例3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![示例4](../../../../../../assets/SplineCircle-Variant3.jpg "示例4")
+![示例4](spline-circle.resources/SplineCircle-Variant3.jpg "示例4")
 
 </td>
 </tr>

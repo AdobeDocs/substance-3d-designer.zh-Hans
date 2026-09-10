@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: 使用“样条桥”节点来桥接两个样条之间的纹理，以创建无缝连接。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条桥（2条样条）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/spline-bridge-2splines-icon.png "节点图标")
+![节点图标](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -81,8 +81,8 @@ ht-degree: 0%
 |:---|:---|
 | <b>桥样条数量</b> <i>整数</i> | 沿“样条”#1“样条”#2生成的样条数。 |
 | <b>桥样条类型</b> <i>整数</i> | 生成的样条类型： <br><br> — 线性：从起点到终点的直样条；<br> — 三次Bezier：从起点到终点的曲线样条，曲线由起点和终点的长度和角度控制。 |
-| <b>启动样条#1</b> <i>浮动</i> | 沿样条#1从生成样条的位置偏移位置。 该值是样条#1的规范化长度。<br>值越大，相同数量的样条就会更加紧密地排列在一起。 |
-| <b>启动样条#2</b> <i>浮动</i> | 沿样条#2从生成样条的位置偏移位置。 该值是样条#2的规范化长度。<br>值越大，相同数量的样条就会更加紧密地排列在一起。 |
+| <b>启动样条#1</b> <i>Float</i> | 沿样条#1从生成样条的位置偏移位置。 该值是样条#1的规范化长度。<br>值越大，相同数量的样条就会更加紧密地排列在一起。 |
+| <b>启动样条#2</b> <i>Float</i> | 沿样条#2从生成样条的位置偏移位置。 该值是样条#2的规范化长度。<br>值越大，相同数量的样条就会更加紧密地排列在一起。 |
 | <b>结束样条#1</b> <i>浮动</i> | 沿样条#1向直至生成样条的位置偏移位置。 该值是样条#1的规范化长度。<br>值越低，相同数量的样条就会更加紧密地排列在一起。 |
 | <b>结束样条#1</b> <i>浮动</i> | 沿样条#2向直至生成样条的位置偏移位置。 该值是样条#2的规范化长度。<br>值越低，相同数量的样条就会更加紧密地排列在一起。 |
 | <b>偏移样条#1</b> <i>浮动</i> | 沿样条#1对所有样条的起始点应用偏移。 该值是样条#1的规范化长度。<br>符合样条起始或结束的样条留在该处。 |
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Spline_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Spline_Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "节点示例2")
+![节点示例2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "节点示例2")
 
 </td>
 </tr>
