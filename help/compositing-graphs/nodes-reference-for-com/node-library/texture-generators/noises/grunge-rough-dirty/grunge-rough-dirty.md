@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍粗糙
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
+![](grunge-rough-dirty.resources/grungeroughdirty.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -45,25 +45,25 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>高级</b> |  |
-| <b>主污渍强度</b> <i>浮动</i> | 调整用于分解曲面的主纹理的强度。 |
+| <b>主污渍强度</b> <i>Float</i> | 调整用于分解曲面的主纹理的强度。 |
 | <b>反转Scratches</b> <i>布尔值</i> | 反转表面划痕的明亮度。 |
-| <b>Scratches强度</b> <i>浮动</i> | 调整表面划痕的强度。 |
-| <b>颗粒强度</b> <i>浮动</i> | 调整全局颗粒效果的强度。 |
+| <b>Scratches强度</b> <i>Float</i> | 调整表面划痕的强度。 |
+| <b>颗粒强度</b> <i>Float</i> | 调整全局颗粒效果的强度。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeroughdirty-variant.jpg" />
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeroughdirty-variant2.jpg" />
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
         </td>
     </tr>
 </table>

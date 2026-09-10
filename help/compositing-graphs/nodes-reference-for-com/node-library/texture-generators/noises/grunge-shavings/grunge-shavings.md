@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍切碎
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -60,10 +60,10 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeshavings-variant2.jpg" />
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeshavings-variant.jpg" />
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
         </td>
     </tr>
 </table>

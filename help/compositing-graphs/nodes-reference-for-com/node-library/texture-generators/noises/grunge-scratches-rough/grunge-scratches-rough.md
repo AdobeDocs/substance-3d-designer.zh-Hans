@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches粗糙
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -45,12 +45,12 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>高级</b> |  |
-| <b>暂存数量</b> <i>浮动</i> | 调整表面的划痕量。 |
+| <b>暂存数量</b> <i>Float</i> | 调整表面的划痕量。 |
 | <b>暂存拼贴</b> <i>整数</i> | 调整应用于划痕的拼贴量。 |
 | <b>划痕模糊</b> <i>浮动</i> | 调整划痕的模糊效果。 |
 | <b>暂存宽度</b> <i>浮动</i> | 调整划痕的宽度。 |
@@ -62,17 +62,17 @@ ht-degree: 1%
 | <b>暂存点拼贴</b> <i>整数</i> | 调整损坏污点的拼贴。 |
 | <b>Dust强度</b> <i>浮动</i> | 调整Dust叠加的强度。 |
 | <b>拼贴</b> <i>整数</i> | 调整Dust叠加的拼贴。 |
-| <b>锐化强度</b> <i>浮动</i> | 调整全局锐化效果的强度。 |
+| <b>锐化强度</b> <i>Float</i> | 调整全局锐化效果的强度。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>

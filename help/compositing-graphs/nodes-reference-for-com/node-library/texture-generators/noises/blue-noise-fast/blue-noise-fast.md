@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 蓝色噪声快速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/blue-noise-ex.gif" />
+            <img src="blue-noise-fast.resources/blue-noise-ex.gif" />
         </td>
     </tr>
 </table>

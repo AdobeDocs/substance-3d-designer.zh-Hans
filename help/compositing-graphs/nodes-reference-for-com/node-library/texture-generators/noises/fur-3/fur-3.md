@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 皮毛3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-3.png){width="128px"}
+![](fur-3.resources/fur-3.png){width="128px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -55,7 +55,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fur-3-ex.gif" />
+            <img src="fur-3.resources/fur-3-ex.gif" />
         </td>
     </tr>
 </table>

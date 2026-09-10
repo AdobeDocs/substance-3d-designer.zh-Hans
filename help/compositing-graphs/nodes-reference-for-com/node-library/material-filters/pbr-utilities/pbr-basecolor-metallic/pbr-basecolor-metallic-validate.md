@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR BaseColor金属验证
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-basecolor-metallic-validate.png){width="128px"}
+![](pbr-basecolor-metallic-validate.resources/pbr-basecolor-metallic-validate.png){width="128px"}
 
 <b>进入：</b>材质过滤器> PBR实用工具
 

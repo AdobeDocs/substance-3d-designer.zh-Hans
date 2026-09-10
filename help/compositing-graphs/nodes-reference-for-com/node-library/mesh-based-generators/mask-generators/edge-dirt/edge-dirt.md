@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 边缘Dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 描述
 
-根据已烘焙贴图和用户设置生成黑白色蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
+根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
 此蒙版表示仅基于弯曲图在边缘周围累积的Dirt效果。
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>弯曲</b> <i>灰度输入</i> | 用于效果放置的已烘焙贴图。 必填！ |
+| <b>曲率</b> <i>灰度输入</i> | 用于效果放置的已烘焙贴图。 必填！ |
 | <b>变体蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽，仅在启用override参数时使用。 |
 | <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-dirt-ex.gif" />
+            <img src="edge-dirt.resources/edge-dirt-ex.gif" />
         </td>
     </tr>
 </table>

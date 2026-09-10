@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
-description: 利用3D Voronoi节点生成基于3D世界位置的Voronoi图案，用于生成体细胞纹理。
+description: 利用3D Voronoi节点生成基于3D世界位置的Voronoi模式，用于生成体细胞纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 此噪声仅适用于<i>GPU引擎</i>（即<b>Direct3D</b>或<b>OpenGL</b>）。 转到<b>工具>切换引擎……</b>或按<b>F9</b>键以选择所需的引擎。
+> 此噪声仅适用于<i>GPU引擎</i>（即<b>Direct3D</b>或<b>OpenGL</b>）。 转到<b>工具>切换引擎...</b>或按<b>F9</b>键以选择所需的引擎。
 
 <a name="parameters"></a>
 
@@ -52,10 +52,10 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>反转</b> <i>布尔值</i> | 反转输出图像。 |
-| <b>缩放</b> <i>浮动</i> | 控制3D Voronoi噪声的比例。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，比例调整为<i>分步</i>。 这是预期的。 |
-| <b>大小</b> <i>浮点3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Voronoi噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，大小调整为<i>步进</i>。 这是预期的。 |
-| <b>偏移</b> <i>浮点3</i> | 将偏移应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中3D Voronoi噪声的<i>位置</i>。 |
-| <b>无序</b> <i>浮点3</i> | 应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中每个噪声点的<i>随机偏移</i>的强度。 |
+| <b>缩放</b> <i>Float</i> | 控制3D Voronoi噪声的比例。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，比例调整为<i>分步</i>。 这是预期的。 |
+| <b>大小</b> <i>Float3</i> | 控制<b>X</b>、<b>Y</b>和<b>Z</b>轴中的3D Voronoi噪声的大小。 非均匀值导致<i>拉伸或挤压</i>效果。<br><br><i>注意</i>：在<i>任何轴</i>上启用<b>拼贴</b>时，大小调整为<i>步进</i>。 这是预期的。 |
+| <b>偏移</b> <i>Float3</i> | 在<b>X</b>、<b>Y</b>和<b>Z</b>轴中对3D Voronoi噪声的<i>位置</i>应用偏移。 |
+| <b>无序</b> <i>Float3</i> | 应用于<b>X</b>、<b>Y</b>和<b>Z</b>轴中每个噪声点的<i>随机偏移</i>的强度。 |
 | <b>扭曲强度</b> <i>浮动</i> | 控制应用于3D Voronoi噪声的<i>变形效果</i>的强度。 |
 | <b>扭曲比例乘数</b> <i>浮动</i> | 控制变形效果中使用的<i>变形图案</i>的比例，该比例由<b>扭曲强度</b>控制。 |
 | <b>圆角曲线</b> <i>浮动</i> | 围绕噪声的每个点对<i>斜率</i>进行圆整，使其成为<i>凸形</i>。<br><br><i>注意</i>：当<b>Style</b>参数设置为<i>Edge</i>时，此参数不可用。 |
@@ -71,24 +71,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>

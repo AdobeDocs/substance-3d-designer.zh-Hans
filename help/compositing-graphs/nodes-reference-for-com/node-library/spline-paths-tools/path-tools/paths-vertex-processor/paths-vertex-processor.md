@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路径顶点处理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/paths-vertex-processor-icon.png "节点图标")
+![节点图标](paths-vertex-processor.resources/paths-vertex-processor-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "节点示例2")
+![节点示例2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "节点示例2")
 
 </td>
 <td style="border: 0;" valign="top">

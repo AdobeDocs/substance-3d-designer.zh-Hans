@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt3 — 图标](../../../../../../assets/dirt_3.png "Dirt3 — 图标"){width="200px"}
+![Dirt3 — 图标](dirt-3.resources/dirt_3.png "Dirt3 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -58,10 +58,10 @@ ht-degree: 1%
 | <b>缩放</b> <i>整数</i> | 使用网格细分生成噪声拼贴。    值越高，所绘制的拼贴就越多，噪音也越浓。 |
 | <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
 | <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
-| <b>无序各向异性</b> <i>浮动</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序各向异性角</b>参数控制。 |
-| <b>无序anisotropy angle</b> <i>浮动</i> | 当<b>无序位移</b>参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
-| <b>拼贴偏移</b> <i>浮点2</i> | 控制用于渲染杂色的无限平面部分的位置。 |
-| <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
+| <b>无序各向异性</b> <i>浮动</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序anisotropy angle</b>参数控制。 |
+| <b>无序anisotropy angle</b> <i>Float</i> | 当<b>无序位移</b>参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
+| <b>拼贴偏移</b> <i>Float2</i> | 控制用于渲染噪声的无限平面部分的位置。 |
+| <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴为方形，并将噪声生成扩展到图像边界。 |
 
 ## 示例
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt3 — 示例1](../../../../../../assets/dirt_3_1.png "Dirt3 — 示例1"){zoomable="yes"}
+![Dirt3 — 示例1](dirt-3.resources/dirt_3_1.png "Dirt3 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt3 — 示例2](../../../../../../assets/noise_dirt_3_v2_speed0.6_aniso0.gif "Dirt3 — 示例2"){zoomable="yes"}
+![Dirt3 — 示例2](dirt-3.resources/noise_dirt_3_v2_speed0.6_aniso0.gif "Dirt3 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt3 — 示例3](../../../../../../assets/noise_dirt_3_v2_speed0.6_aniso1.gif "Dirt3 — 示例3"){zoomable="yes"}
+![Dirt3 — 示例3](dirt-3.resources/noise_dirt_3_v2_speed0.6_aniso1.gif "Dirt3 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt3 — 示例4](../../../../../../assets/noise_dirt_3_v2_speed0.3_aniso0.6.gif "Dirt3 — 示例4"){zoomable="yes"}
+![Dirt3 — 示例4](dirt-3.resources/noise_dirt_3_v2_speed0.3_aniso0.6.gif "Dirt3 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

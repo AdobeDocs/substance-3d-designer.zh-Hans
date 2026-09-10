@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR 渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render.png){width="250px"}
 
 <b>进入：</b>材质过滤器> PBR实用工具
 
@@ -102,12 +102,12 @@ ht-degree: 6%
 | <b>相机</b> |  |
 | <b>曝光</b> <i>-4.0 - 4.0</i> | 设置相机曝光。 |
 | <b>色调映射器</b> <i>线性， ACE， Filmic Hejl</i> | 设置用于最终图像的色调映射解决方案。 |
-| <b>相机模式</b> <i>透视，正交</i> | 在两种投影模式之间切换相机。 |
-| <b>视角</b> <i>0.01 - 100.0</i> | 设置相机视场角。 |
+| <b>相机模式</b> <i>透视，正交</i> | 在两个投影模式之间切换相机。 |
+| <b>视角</b> <i>0.01 - 100.0</i> | 设置相机视场角度。 |
 | <b>距离</b> <i>0.0 - 4.0</i> | 设置相机到对象中心的距离。 |
 | <b>晕影强度</b> <i>0.0 - 1.0</i> | 设置晕影效果的强度。 |
 | <b>晕影半径</b> <i>0.0 - 1.0</i> | 设置晕影效果的半径。 |
-| <b>屏幕位置</b> | 在对象周围移动相机，也可以使用2D 视图中的小工具进行更改。 |
+| <b>屏幕位置</b> | 围绕对象移动相机，也可以在2D视图中使用线框进行更改。 |
 | <b>字段深度</b> |  |
 | <b>光圈半径</b> <i>0.0 - 0.1</i> | 设置光圈的半径。 值越高，离焦区域越模糊（散景）。 |
 | <b>光圈刀片</b> <i>3 - 9</i> | 设置散景模糊的形状。 |
@@ -128,25 +128,25 @@ ht-degree: 6%
 | <b>镜头Dirt强度</b> <i>0.0 - 1.0</i> | 在镜头眩光上设置镜头Dirt映射的效果。 |
 | <b>渲染设置</b> |  |
 | <b>Diffuse质量</b> <i>16个样本，32个样本，64个样本，128个样本</i> | 在漫射图的品质级别之间切换。 |
-| <b>Diffuse的Emissive乘数</b> <i>0.0 - 1.0</i> | 控制emissive部分对辐照度的贡献程度。 |
+| <b>Diffuse的Emissive乘数</b> <i>0.0 - 1.0</i> | 控制发射部分对辐照度的贡献程度。 |
 | <b>Diffuse阴影强度</b> <i>0.0 - 1.0</i> | 控制漫射阴影的强度。 |
-| <b>仿色</b> <i>0.0 - 1.0</i> | 设置Specular的仿色量。 |
+| <b>仿色</b> <i>0.0 - 1.0</i> | 设置Specular的抖动量。 |
 | <b>Specular阴影乘数</b> <i>0.0 - 1.0</i> | 控制Specular反射中的阴影强度。 |
-| <b>不透明度模式</b> <i>抖动Alpha测试，简单Alpha混合</i> | 控制应用透明度的方法。 <i>简单混合</i>模式在统一背景上最明显。 |
-| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 设置ambient occlusion阴影的强度。 |
-| <b>材料调整</b> |  |
-| <b>重新计算法线</b> <i>False/True</i> | 将根据位移强度从高度图中重新计算法线。 |
+| <b>不透明度模式</b> <i>抖动Alpha测试，简单Alpha混合</i> | 控制应用透明度的方法。 <i>简单Alpha混合</i>模式在统一背景上最明显。 |
+| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 设置环境遮蔽阴影的强度。 |
+| <b>材质调整</b> |  |
+| <b>重新计算法线</b> <i>False/True</i> | 将根据位移强度从Height映射中重新计算法线。 |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同的法线贴图格式之间切换（反转绿色通道） |
-| <b>介电F0输入</b> <i>常量值，输入Specular level</i> | 设置什么驱动F0值。 Specular level输入表示它将由输入图驱动。 |
+| <b>介电F0输入</b> <i>常量值，输入Specular level</i> | 设置什么驱动F0值。 Specular level输入表示将由输入映射驱动。 |
 | <b>电介质F0</b> <i>0.0 - 0.08</i> | 如果为“电介质F0输入”选择了“常量值”，则此滑块允许您设置全局值。 |
 | <b>透明外套</b> |  |
-| <b>启用透明涂层</b> <i>False/True</i> | 在输入材料顶部启用另一个简单的透明涂层。 |
+| <b>启用透明涂层</b> <i>False/True</i> | 在输入材料上启用附加的简单透明涂层。 |
 | <b>透明外套重量</b> <i>0.0 - 1.0</i> | 设置透明涂层图层的强度或强度。 |
 | <b>清除Coat specular level</b> <i>0.0 - 1.0</i> | 设置透明涂层的粗糙度。 |
 | <b>从基底图层继承普通</b> <i>False/True</i> | 设置clearcoat是否忽略或使用来自基础材质的法线。 |
-| <b>Emissive</b> |  |
+| <b>具发射性</b> |  |
 | <b>启用Emissive光照</b> <i>True/False</i> | 切换emissive光照的扩散作用。 |
-| <b>Emissive强度</b> <i>0.0 - 10.0</i> | 设置emissive映射的全局乘数。 |
+| <b>发射强度</b> <i>0.0 - 10.0</i> | 设置发射映射的全局乘数。 |
 | <b>次表面散射</b> |  |
 | <b>启用次表面散射</b> <i>True/False</i> | 在最终渲染中切换次表面散射。<br><br><i>注意：</i>次表面散射要求<b>Translucency</b>输入值为<i>大于0.0</i> |
 | <b>散射距离</b> <i>0.0 - 1.0</i> | 调整散射效果的最大距离。<br><br><i>注意：</i>此值与<b>散射距离刻度</b>输入值<i>每个颜色通道</i>相乘。 |
@@ -155,35 +155,35 @@ ht-degree: 6%
 
 ## 示例
 
-所有图像都是使用[Substance 3D资源](https://substance3d.adobe.com/assets)库中的材质，直接在Designer内部的2D视口中生成的。
+所有图像都是使用[Substance 3D资源](https://substance3d.adobe.com/assets)库中的材料，直接在Designer内部以2D视口生成的。
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

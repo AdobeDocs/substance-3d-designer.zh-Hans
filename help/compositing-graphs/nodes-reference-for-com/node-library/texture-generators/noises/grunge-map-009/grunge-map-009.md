@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-009.html"
 breadcrumb-title: ''
-description: 使用“污渍映射009”节点生成程序污渍纹理，以便向材料添加表面细节和磨损效果。
+description: 使用“污渍映射009”节点生成程序化的污渍纹理，以便向材料添加表面细节和磨损效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 009
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍图009
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-009.png){width="128px"}
+![](grunge-map-009.resources/grungemap-009.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-这将生成一个复杂的组合噪声映射。 作为详细的程序，它可以非常有用，但请记住，这些程序非常消耗性能，因此生成速度较慢。
+这将生成一个复杂的组合噪声映射。 作为详细的程序化，它可以非常有用，但请记住，这些模板非常消耗性能，因此生成速度较慢。
 
 </td>
 </tr>
@@ -49,14 +49,14 @@ ht-degree: 7%
 | <b>对比度</b> <i>0.0 - 1.0</i> | 调整结果的对比度。 |
 | <b>反转</b> <i>False/True</i> | 反转结果。 |
 | <b>画笔图案</b> <i>0.0 - 1.0</i> | 用作画笔Alpha时，可在边缘周围添加蒙版。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-009-ex.gif" />
+            <img src="grunge-map-009.resources/grungemap-009-ex.gif" />
         </td>
     </tr>
 </table>

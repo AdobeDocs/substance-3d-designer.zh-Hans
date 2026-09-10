@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 水位
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/water-level.png){width="128px"}
+![](water-level.resources/water-level.png){width="128px"}
 
 <b>进入：</b>材质过滤器>效果
 

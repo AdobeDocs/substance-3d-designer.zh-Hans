@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 流体
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fluid.png){width="128px"}
+![](fluid.resources/fluid.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -58,7 +58,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fluid-ex.gif" />
+            <img src="fluid.resources/fluid-ex.gif" />
         </td>
     </tr>
 </table>

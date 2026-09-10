@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条上的散点样条
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![样条上的散点样条：图标](../../../../../../assets/scatter-splines-on-splines-icon.png "样条上的散点样条：图标")
+![样条上的散点样条：图标](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "样条上的散点样条：图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-[![视频样条节点](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![视频样条节点](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -162,12 +162,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例1](../../../../../../assets/scatter-splines-on-splines-example-1.png "样条上的散点样条：示例1"){zoomable="yes"}
+![样条上的散点样条：示例1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "样条上的散点样条：示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例1](../../../../../../assets/scatter-splines-on-splines-example-2.png "样条上的散点样条：示例1"){zoomable="yes"}
+![样条上的散点样条：示例1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "样条上的散点样条：示例1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例3](../../../../../../assets/scatter-splines-on-splines-example-4.png "样条上的散点样条：示例3"){zoomable="yes"}
+![样条上的散点样条：示例3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "样条上的散点样条：示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：示例4](../../../../../../assets/scatter-splines-on-splines-example-3.png "样条上的散点样条：示例4"){zoomable="yes"}
+![样条上的散点样条：示例4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "样条上的散点样条：示例4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：渲染1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "样条上的散点样条：渲染1"){zoomable="yes"}
+![样条上的散点样条：渲染1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "样条上的散点样条：渲染1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条上的散点样条：渲染2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "样条上的散点样条：渲染2"){zoomable="yes"}
+![样条上的散点样条：渲染2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "样条上的散点样条：渲染2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![样条上的散点样条：渲染3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "样条上的散点样条：渲染3"){zoomable="yes"}
+![样条上的散点样条：渲染3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "样条上的散点样条：渲染3"){zoomable="yes"}

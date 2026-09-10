@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 云彩3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![云彩3 — 图标](../../../../../../assets/clouds_3.png "云彩3 — 图标"){width="200px"}
+![云彩3 — 图标](clouds-3.resources/clouds_3.png "云彩3 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![云3 — 示例1](../../../../../../assets/clouds_3_1.png "云3 — 示例1"){zoomable="yes"}
+![云3 — 示例1](clouds-3.resources/clouds_3_1.png "云3 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![云3 — 示例2](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso0.gif "云3 — 示例2"){zoomable="yes"}
+![云3 — 示例2](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso0.gif "云3 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![云3 — 示例3](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso1.gif "云3 — 示例3"){zoomable="yes"}
+![云3 — 示例3](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso1.gif "云3 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![云3 — 示例4](../../../../../../assets/noise_clouds_3_v2_speed0.3_aniso0.6.gif "云3 — 示例4"){zoomable="yes"}
+![云3 — 示例4](clouds-3.resources/noise_clouds_3_v2_speed0.3_aniso0.6.gif "云3 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条（二次）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![样条（二次）：图标](../../../../../../assets/spline-quadratic-icon.png "样条（二次）：图标")
+![样条（二次）：图标](spline-quadratic.resources/spline-quadratic-icon.png "样条（二次）：图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -103,12 +103,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条（二次）：示例1](../../../../../../assets/spline-quadratic-example-1.png "样条（二次）：示例1"){zoomable="yes"}
+![样条（二次）：示例1](spline-quadratic.resources/spline-quadratic-example-1.png "样条（二次）：示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![样条（二次）：示例2](../../../../../../assets/spline-quadratic-example-2.png "样条（二次）：示例2"){zoomable="yes"}
+![样条（二次）：示例2](spline-quadratic.resources/spline-quadratic-example-2.png "样条（二次）：示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条（二次）：演示](../../../../../../assets/spline-quadratic-demo.gif "样条（二次）：演示"){zoomable="yes"}
+![样条（二次）：演示](spline-quadratic.resources/spline-quadratic-demo.gif "样条（二次）：演示"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

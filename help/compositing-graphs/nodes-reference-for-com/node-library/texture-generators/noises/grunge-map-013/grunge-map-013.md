@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 污渍图013
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-013.png){width="128px"}
+![](grunge-map-013.resources/grungemap-013.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-013-ex.gif" />
+            <img src="grunge-map-013.resources/grungemap-013-ex.gif" />
         </td>
     </tr>
 </table>

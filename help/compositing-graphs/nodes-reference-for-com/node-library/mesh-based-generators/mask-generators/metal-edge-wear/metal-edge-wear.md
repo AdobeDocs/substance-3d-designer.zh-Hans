@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 金属Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-edge-wear.png){width="128px"}
+![](metal-edge-wear.resources/metal-edge-wear.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -76,7 +76,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/metal-edge-wear-ex.gif" />
+            <img src="metal-edge-wear.resources/metal-edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

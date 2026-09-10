@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 铁锈风化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>风化
 
@@ -81,7 +81,7 @@ ht-degree: 14%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rust-ex.gif" />
+            <img src="rust-weathering.resources/rust-ex.gif" />
         </td>
     </tr>
 </table>

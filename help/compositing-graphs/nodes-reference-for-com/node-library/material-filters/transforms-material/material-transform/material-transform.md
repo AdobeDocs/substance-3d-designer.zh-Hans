@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材质变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-transforms.png){width="128px"}
+![](material-transform.resources/material-transforms.png){width="128px"}
 
 <b>进入：</b>材质过滤器>变换
 

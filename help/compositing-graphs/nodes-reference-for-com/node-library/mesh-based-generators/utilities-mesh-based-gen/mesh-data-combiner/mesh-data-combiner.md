@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 网格数据组合器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>实用工具
 
@@ -59,4 +59,4 @@ ht-degree: 1%
 | <b>位置(RGB)</b> <i>False/True</i> |  |
 | <b>颜色ID</b> <i>False/True</i> |  |
 | <b>世界空间方向</b> <i>False/True</i> |  |
-| <b>世界空间正常</b> <i>False/True</i> |  |
+| <b>世界空间法线</b> <i>False/True</i> |  |

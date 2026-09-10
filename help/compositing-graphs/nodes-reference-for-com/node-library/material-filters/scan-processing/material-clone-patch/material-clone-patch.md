@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材质仿制修补
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/clone-patch-material.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 

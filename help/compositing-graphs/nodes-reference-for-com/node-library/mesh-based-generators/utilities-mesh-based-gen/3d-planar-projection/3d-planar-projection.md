@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D投影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
 
 <b>在</b>中基于网格的生成器>实用工具
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 |  |  |
 |:---|:---|
 | <b>位置图</b> <i>颜色输入</i> | 烘焙位置图 |
-| <b>世界空间法线</b> <i>颜色输入</i> | 世界空间法线映射 |
+| <b>世界空间正常</b> <i>颜色输入</i> | 世界空间法线映射 |
 | <b>投影的纹理</b> <i>颜色输入</i> | 输入纹理以投影到目标上。 |
 
 <a name="parameters"></a>
@@ -74,7 +74,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-planar-projection-ex.gif" />
+            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
         </td>
     </tr>
 </table>
