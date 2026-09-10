@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
 description: 使用“多裁剪”节点同时裁剪多个纹理通道，以便高效地处理扫描材料。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多裁剪
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-multi.png){width="128px"}
+![](multi-crop.resources/crop-multi.png){width="128px"}
 
-![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
+![](multi-crop.resources/crop-multi-grayscale.png){width="128px"}
 
 <b>在</b>个材质过滤器中>扫描处理
 
