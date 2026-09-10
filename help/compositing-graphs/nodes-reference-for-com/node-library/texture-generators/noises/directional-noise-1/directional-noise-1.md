@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-1.html"
 breadcrumb-title: ''
 description: 使用“定向噪声1”节点生成定向噪声图案，用于创建各向异性纹理变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定向噪声1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![定向噪声1 — 图标](../../../../../../assets/directional_noise_1.png "定向噪声1 — 图标"){width="200px"}
+![定向噪声1 — 图标](directional-noise-1.resources/directional_noise_1.png "定向噪声1 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -71,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![定向噪声1 — 示例1](../../../../../../assets/directional_noise_1_1.png "定向噪声1 — 示例1"){zoomable="yes"}
+![定向噪声1 — 示例1](directional-noise-1.resources/directional_noise_1_1.png "定向噪声1 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![定向噪声1 — 示例2](../../../../../../assets/noise_directional_noise_1_v2_speed0.6_aniso0.gif "定向噪声1 — 示例2"){zoomable="yes"}
+![定向噪声1 — 示例2](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso0.gif "定向噪声1 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![定向噪声1 — 示例3](../../../../../../assets/noise_directional_noise_1_v2_speed0.6_aniso1.gif "定向噪声1 — 示例3"){zoomable="yes"}
+![定向噪声1 — 示例3](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.6_aniso1.gif "定向噪声1 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![定向噪声1 — 示例4](../../../../../../assets/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif "定向噪声1 — 示例4"){zoomable="yes"}
+![定向噪声1 — 示例4](directional-noise-1.resources/noise_directional_noise_1_v2_speed0.3_aniso0.6.gif "定向噪声1 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>
