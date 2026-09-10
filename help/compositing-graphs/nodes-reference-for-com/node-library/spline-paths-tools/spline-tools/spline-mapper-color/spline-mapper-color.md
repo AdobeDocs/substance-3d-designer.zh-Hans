@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: 使用“样条映射器颜色”节点，使用可自定义的参数沿样条路径映射颜色纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条映射器颜色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/spline-mapper-color-icon.png "节点图标")
+![节点图标](spline-mapper-color.resources/spline-mapper-color-icon.png "节点图标")
 
 <b>In：</b>样条和路径工具>样条曲线工具
 
@@ -112,11 +112,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/SplineMapperColor-Demo.gif "节点示例2")
+![节点示例2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "节点示例2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "节点示例3")
+![节点示例3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "节点示例3")
 
 </td>
 <td style="border: 0;" valign="top">
