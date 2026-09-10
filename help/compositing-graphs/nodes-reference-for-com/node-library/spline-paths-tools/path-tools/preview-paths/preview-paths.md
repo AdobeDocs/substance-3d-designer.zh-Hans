@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: 使用“预览路径”节点在2D视图中可视化路径数据以进行调试和验证。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 预览路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/preview-paths-icon.png "节点图标")
+![节点图标](preview-paths.resources/preview-paths-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -66,12 +66,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "节点示例1")
+![节点示例1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "节点示例2")
+![节点示例2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "节点示例2")
 
 </td>
 </tr>
