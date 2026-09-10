@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: 利用3D Perlin噪声分形结点，在3D空间中生成分形Perlin噪声图案，生成详细的体积纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Perlin噪声分形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dperlinnoisefractal.png){width="200px"}
+![](3d-perlin-noise-fractal.resources/3dperlinnoisefractal.png){width="200px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | <b>隙度</b> <i>浮动</i> | 控制应用的分形图案<i>填充空间</i>的方式。 <i>较高的</i>值会使图案中的间隙减少<i>，从而产生<i>更密</i>的杂色。</i> |
 | <b>全局不透明度</b> <i>浮动</i> | 控制分形3D Perlin噪声值<i>在<b>基线</b>值</i>附近的<i>范围</i>。 |
 | <b>基线</b> <i>浮动</i> | 将<i>偏移</i>应用于3D Perlin杂色值分布的基线<i>明亮度</i>值。 |
-| <b>对比度</b> <i>Float</i> | 调整3D Perlin噪声的对比度。 |
+| <b>对比度</b> <i>浮动</i> | 调整3D Perlin噪声的对比度。 |
 | <b>绝对</b> <i>布尔值</i> | 使用3D Perlin噪声中的绝对值。 这实际上<i>反转</i>低于0.5</i>的值<i>的值分布。 |
 | <b>启用拼贴</b> <i>布尔值</i> | 调整3D Perlin噪声，使其生成的图案<i>在X、Y和Z轴中重复</i>。 |
 
@@ -72,13 +72,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dfractal.gif" />
+            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlinnoisefractal-variant.jpg" />
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlinnoisefractal-variant2.jpg" />
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
         </td>
     </tr>
 </table>
