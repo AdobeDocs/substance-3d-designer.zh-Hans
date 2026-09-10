@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
-description: 使用“路径上的四次变换”节点可将二次变换应用于沿路径曲线的元素。
+description: 使用“路径上的四边变换”节点可将二次变换应用于沿路径曲线的元素。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 路径上的四次变换
+title: Path上的四变换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# 路径上的四次变换
+# Path上的四变换
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点图标](../../../../../../assets/quad-transform-on-paths-icon.png "节点图标")
+![节点图标](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "节点图标")
 
 <b>在：</b>样条和路径工具>路径工具
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>路径</b> <i>颜色</i> | 变换后的路径。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
+| <b>路径</b> <i>颜色</i> | 变换路径。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
 
 <a name="parameters"></a>
 
@@ -61,10 +61,10 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>p00</b> <i>浮点2</i> | 左上角手柄的位置。 |
-| <b>p01</b> <i>浮点2</i> | 右上角手柄的位置。 |
-| <b>p02</b> <i>浮点2</i> | 左下手柄的位置。 |
-| <b>p03</b> <i>浮点2</i> | 右下角手柄的位置。 |
+| <b>p00</b> <i>Float2</i> | 左上角手柄的位置。 |
+| <b>p01</b> <i>Float2</i> | 右上角手柄的位置。 |
+| <b>p02</b> <i>Float2</i> | 左下手柄的位置。 |
+| <b>p03</b> <i>Float2</i> | 右下角手柄的位置。 |
 
 ## 示例
 
@@ -75,11 +75,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>之后</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![节点示例1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "节点示例1")
+![节点示例1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "节点示例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![节点示例2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "节点示例2")
+![节点示例2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "节点示例2")
 
 </td>
 </tr>
