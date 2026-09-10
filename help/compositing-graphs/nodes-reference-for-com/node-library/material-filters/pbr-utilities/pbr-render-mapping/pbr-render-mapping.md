@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: 使用“PBR 渲染映射”节点将素材输出转换为不同的PBR 渲染映射格式。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR 渲染映射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-color.png)![](pbr-render-mapping.resources/pbr-render-mapping-grayscale.png)
 
 <b>进入：</b>材质过滤器> PBR实用工具
 
@@ -65,10 +65,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-mapping-ex.png" />
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-mapping-ex-2.png" />
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex-2.png" />
         </td>
     </tr>
 </table>

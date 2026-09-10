@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
 description: 使用PBR介质F0节点计算基于物理的材料工作流程的介质F0值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR电介质F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0.png){width="128px"}
 
 <b>进入：</b>材质过滤器> PBR实用工具
 
