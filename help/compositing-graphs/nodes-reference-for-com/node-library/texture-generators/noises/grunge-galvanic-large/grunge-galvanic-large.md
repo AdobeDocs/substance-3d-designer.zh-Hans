@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
 description: 使用污渍Galvanic Large节点生成大规模的电偶腐蚀图案，用于金属风化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 大型污渍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
+![](grunge-galvanic-large.resources/grungegalvaniclarge.jpg){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+<b>在：</b>纹理生成器>杂色
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>高级</b> |  |
-| <b>变形强度</b> <i>Float</i> | 调整主变形效果的强度。 |
-| <b>脊细节不透明度</b> <i>Float</i> | 调整较亮脊的不透明度。 |
+| <b>变形强度</b> <i>浮动</i> | 调整主变形效果的强度。 |
+| <b>脊细节不透明度</b> <i>浮动</i> | 调整较亮脊的不透明度。 |
 | <b>锐化强度</b> <i>浮动</i> | 调整全局锐化效果的强度。 |
 
 ## 示例
@@ -59,10 +59,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvaniclarge-variant.jpg" />
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvaniclarge-variant2.jpg" />
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" />
         </td>
     </tr>
 </table>
