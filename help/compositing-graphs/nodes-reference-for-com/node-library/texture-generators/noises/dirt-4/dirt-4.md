@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
 breadcrumb-title: ''
 description: 使用“Dirt4”节点生成中间Dirt图案，用于创建风化的表面细节和积累效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt4 — 图标](../../../../../../assets/dirt_4.png "Dirt4 — 图标"){width="200px"}
+![Dirt4 — 图标](dirt-4.resources/dirt_4.png "Dirt4 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt4 — 示例1](../../../../../../assets/dirt_4_1.png "Dirt4 — 示例1"){zoomable="yes"}
+![Dirt4 — 示例1](dirt-4.resources/dirt_4_1.png "Dirt4 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt4 — 示例2](../../../../../../assets/noise_dirt_4_v2_speed0.6_aniso0.gif "Dirt4 — 示例2"){zoomable="yes"}
+![Dirt4 — 示例2](dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso0.gif "Dirt4 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt4 — 示例3](../../../../../../assets/noise_dirt_4_v2_speed0.6_aniso1.gif "Dirt4 — 示例3"){zoomable="yes"}
+![Dirt4 — 示例3](dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso1.gif "Dirt4 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt4 — 示例4](../../../../../../assets/noise_dirt_4_v2_speed0.3_aniso0.6.gif "Dirt4 — 示例4"){zoomable="yes"}
+![Dirt4 — 示例4](dirt-4.resources/noise_dirt_4_v2_speed0.3_aniso0.6.gif "Dirt4 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>
