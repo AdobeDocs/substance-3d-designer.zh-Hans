@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: 使用“蒙版生成器”节点可合并多个蒙版输入，并为材料效果创建复杂的蒙版图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 蒙版生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -101,8 +101,8 @@ ht-degree: 10%
 | <b>范围</b> <i>0.0 - 1.0</i> | 设置渐变的位置。 |
 | <b>对比度</b> <i>0.0 - 1.0</i> | 调整渐变的对比度。 |
 | <b>反转</b> <i>False/True</i> | 反转渐变。 有效地交换底部和顶部。 |
-| <b>世界空间正常</b> <i>0.0 - 1.0</i> | 类似于“Top/Down Gradient”（上/下渐变），但是使用位置地图和六个方向，类似于假光照。 正值调亮，负值调暗。 |
-| <b>世界空间正常</b> |  |
+| <b>世界空间法线</b> <i>0.0 - 1.0</i> | 类似于“Top/Down Gradient”（上/下渐变），但是使用位置地图和六个方向，类似于假光照。 正值调亮，负值调暗。 |
+| <b>世界空间法线</b> |  |
 | <b>顶部强度</b> <i>-1.0 - 1.0</i> |  |
 | <b>底部强度</b> <i>-1.0 - 1.0</i> |  |
 | <b>前部强度</b> <i>-1.0 - 1.0</i> |  |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
 breadcrumb-title: ''
 description: 使用“边缘损坏”节点在网格边缘上生成损坏蒙版，从而创建逼真的边缘磨损和破损效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 边缘损坏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -66,7 +66,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-damages-ex.gif" />
+            <img src="edge-damages.resources/edge-damages-ex.gif" />
         </td>
     </tr>
 </table>

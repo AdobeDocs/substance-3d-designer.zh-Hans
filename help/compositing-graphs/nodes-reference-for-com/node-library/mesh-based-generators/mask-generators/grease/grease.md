@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: 使用“油脂”节点，根据网格几何形状和接触区域生成油脂栈积蒙版。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 油脂
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grease.png){width="128px"}
+![](grease.resources/grease.png){width="128px"}
 
 <b>在</b>中基于网格的生成器>蒙版生成器
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 描述
 
-根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
+根据已烘焙贴图和用户设置生成黑白色蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
 此蒙版专门用于字符脸部和其他特定区域。 在低Thickness区域生成皮肤油脂类型的蒙版。
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 |  |  |
 |:---|:---|
 | <b>Thickness</b> <i>灰度输入</i> | 整个效果所基于的厚度图。 必填！ |
-| <b>杂色</b> <i>灰度输入</i> | 用于覆盖油脂污渍的可选噪声映射。 |
+| <b>噪声</b> <i>灰度输入</i> | 用于覆盖油脂污渍的可选噪声映射。 |
 | <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
 
 <a name="parameters"></a>
@@ -67,7 +67,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grease-ex.gif" />
+            <img src="grease.resources/grease-ex.gif" />
         </td>
     </tr>
 </table>
