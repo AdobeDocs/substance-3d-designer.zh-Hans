@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: 使用“棋盘格1”节点生成具有可自定义的拼贴大小和颜色的棋盘格图案，以供测试和纹理之用。
 helpx_creative_field: ""

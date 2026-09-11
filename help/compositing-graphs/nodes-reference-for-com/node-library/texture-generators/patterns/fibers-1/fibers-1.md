@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: 使用“纤维1”节点创建基本纤维纹理，用于模拟织物、头发和纤维材料。
 helpx_creative_field: ""
