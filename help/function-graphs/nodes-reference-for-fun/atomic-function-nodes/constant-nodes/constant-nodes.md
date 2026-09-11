@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图形中的常量节点以定义常量值和参数。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 常数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,21 +34,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数类型图标](../../../../assets/fn-constant-integer.png "整数类型图标")
+![整数类型图标](constant-nodes.resources/fn-constant-integer.png "整数类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>整数</b>
 
-一个整数只有一个组件。 它可用作建立选区的索引，例如：
+整数具有单个组件。 它可用作建立选区的索引，例如：
 
 * 选择一个作为下拉菜单呈现给用户的选项（请参阅[此页面](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中的“下拉列表”）。
 * 选择[多交换机](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)节点的输入。<b></b>
 
 >[!IMPORTANT]
 >
-> 参数函数中的<b>负整数</b>是&#x200B;*不受支持的*。 请参阅[此页面](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)的“技术问题”部分以获得解决方法。
+> 参数函数中的<b>负整数</b>是&#x200B;*不受支持*。 请参阅[此页面](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)的“技术问题”部分以获得解决方法。
 
 </td>
 </tr>
@@ -58,14 +58,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数2类型图标](../../../../assets/fn-constant-integer2.png "整数2类型图标")
+![整数2类型图标](constant-nodes.resources/fn-constant-integer2.png "整数2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>整数2</b>
 
-整数2节点生成具有(X，Y)分量的静态2分量整数向量。
+Integer2节点生成带有(X， Y)分量的静态2分量整数向量。
 
 整数2不常见，但用于在[Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)中设置X和Y 2D拼贴。
 
@@ -77,14 +77,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数3类型图标](../../../../assets/fn-constant-integer3.png "整数3类型图标")
+![整数3类型图标](constant-nodes.resources/fn-constant-integer3.png "整数3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>整数3</b>
 
-整数3节点生成具有(X、Y、Z)分量的静态3分量整数向量。
+Integer3节点生成带有(X、Y、Z)分量的静态3分量整数向量。
 
 整数3不常见，不太可能会出现。<b>\
 </b>
@@ -97,7 +97,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整数4类型图标](../../../../assets/fn-constant-integer4.png "整数4类型图标")
+![整数4类型图标](constant-nodes.resources/fn-constant-integer4.png "整数4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮点类型图标](../../../../assets/fn-constant-float.png "浮点类型图标")
+![浮点类型图标](constant-nodes.resources/fn-constant-float.png "浮点类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ float具有单个组件，为了简洁起见，名称中省略了(1)。 float非
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2类型图标](../../../../assets/fn-constant-float2.png "Float2类型图标")
+![Float2类型图标](constant-nodes.resources/fn-constant-float2.png "Float2类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ float2节点生成静态2分量Float向量。 组件命名为X、Y。Float2非�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3类型图标](../../../../assets/fn-constant-float3.png "Float3类型图标")
+![Float3类型图标](constant-nodes.resources/fn-constant-float3.png "Float3类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ float3节点生成静态3分量Float向量。 组件名为X、Y、Z。Float3不�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4类型图标](../../../../assets/fn-constant-float4.png "Float4类型图标")
+![Float4类型图标](constant-nodes.resources/fn-constant-float4.png "Float4类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Substance函数图形内存在另外两种数据类型：布尔值和字符串�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布尔型图标](../../../../assets/fn-constant-boolean.png "布尔型图标")
+![布尔型图标](constant-nodes.resources/fn-constant-boolean.png "布尔型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance函数图形内存在另外两种数据类型：布尔值和字符串�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![字符串类型图标](../../../../assets/fn-constant-string.png "字符串类型图标")
+![字符串类型图标](constant-nodes.resources/fn-constant-string.png "字符串类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
