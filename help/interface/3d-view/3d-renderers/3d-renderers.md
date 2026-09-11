@@ -73,7 +73,7 @@ Adobe的3D渲染器是从地面开始构建，以支持现代技术，例如[Mat
 
 >[!TIP]
 >
-> 在项目设置](../../../interface/preferences-window/project-settings/project-settings.md)的[“3D视图”部分中启动新3D 视图时，您可以选择默认使用的渲染器。
+> 在项目设置[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)的“3D视图”部分中启动新3D 视图时，您可以选择默认使用的渲染器。
 
 <a name="rasterizer"></a>
 
@@ -290,7 +290,7 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 +++
 
-Designer还为您提供了使用GLSLFX文件](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)为OpenGL渲染器[配置自己的着色器的可能性。
+Designer还为您提供了使用GLSLFX文件[&#128279;](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)为OpenGL渲染器配置自己的着色器的可能性。
 
 >[!IMPORTANT]
 > 
