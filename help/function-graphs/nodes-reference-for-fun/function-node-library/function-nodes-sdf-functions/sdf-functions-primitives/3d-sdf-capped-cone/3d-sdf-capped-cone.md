@@ -1,6 +1,6 @@
 ---
 title: 封闭圆锥面
-description: Designer >Substance合成图表>用于Substance合成图表的SDF 函数参考>节点库>节点>基元>封闭的圆锥
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>封闭锥
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '143'
@@ -40,8 +40,8 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>Radius基</b> *浮动* | 封闭圆锥的基底的半径。<br><br><i>默认值： 0.5</i> |
-| <b>半径顶部</b> *浮动* | 封闭圆锥顶部的半径。<br><br><i>默认值： 0.2</i> |
-| <b>Height</b> *浮动* | 封顶圆锥的基础的Z-upHeight。<br><br><i>默认值： 1</i> |
-| <b>中心位置</b> *浮点3* | 封闭圆锥的圆心的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
-| <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |
+| <b>Radius基</b> *Float* | 封闭圆锥的基底的半径。<br><br><i>默认值： 0.5</i> |
+| <b>半径顶部</b> *Float* | 封闭圆锥顶部的半径。<br><br><i>默认值： 0.2</i> |
+| <b>Height</b> *Float* | 封顶圆锥的基础的Z-upHeight。<br><br><i>默认值： 1</i> |
+| <b>中心位置</b> *Float3* | 封闭圆锥的支点的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>P</b> *Float3* | 变换的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

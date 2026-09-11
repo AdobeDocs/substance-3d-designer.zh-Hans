@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
 breadcrumb-title: ''
 description: 使用“渐变圆形”节点为圆形颜色过渡和效果创建径向渐变。
 helpx_creative_field: ""
@@ -47,4 +47,4 @@ ht-degree: 1%
 |:---|:---|
 | <b>点1</b> | 第一个点围绕渐变旋转，无需居中 |
 | <b>点2</b> | 渐变的第二个开始和结束点。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用使用非方形比率补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用挤压补偿并使用非方形比例拉伸。 |

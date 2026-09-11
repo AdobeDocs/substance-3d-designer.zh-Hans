@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的主工具栏，以访问工作流程的常用工具和命令。
 helpx_creative_field: ""
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>新增功能……：</b>显示一个屏幕，其中突出显示了Designer最新版本中新增的功能
 
-<b>欢迎屏幕……\*：</b>显示一个屏幕，引导新用户了解Designer的用途及其在[Substance 3D生态系统](https://helpx.adobe.com/cn/substance-3d.html)中的位置
+<b>欢迎屏幕……\*：</b>显示一个屏幕，引导新用户了解Designer的用途及其在[Substance 3D生态系统](https://helpx.adobe.com/substance-3d.html)中的位置
 
 <b>合作伙伴：</b>允许您访问Designer中我们的合作伙伴针对第三方集成的免责声明和声明。
 

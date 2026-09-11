@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/main-mdl-graph-concepts.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer中用于创建素材的“素材定义语言图表”的主要概念。
+description: 了解Substance 3D Designer中用于材料创建的材料定义语言图形的主要概念。
 helpx_creative_field: ""
 helpx_description: Designer > MDL graphs > Main MDL graph concepts
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 主要MDL图形概念
+title: 主要MDL 图概念
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# 主要MDL图形概念
+# 主要MDL 图概念
 
-此页面介绍了&#x200B;*特定的*&#x200B;到[MDL图表](../../mdl-graphs/mdl-graphs.md)的主要概念，对于如何在Substance 3D Designer中充分利用此图表类型，应深入了解。
+此页面介绍了&#x200B;*特定的*&#x200B;到[MDL 图](../../mdl-graphs/mdl-graphs.md)的主要概念，应充分理解这些概念，以便在Substance 3D Designer中充分利用此图形类型。
 
 <table>
 <tr style="border: 0;">
@@ -28,37 +28,37 @@ ht-degree: 0%
 
 ## Iray
 
-MDL素材使用专为基于物理的渲染解决方案设计的描述，嵌入Designer中的[射线](../../interface/3d-view/iray/iray.md)渲染器支持该描述。 因此，显示MDL图形&#x200B;*的结果需要在活动的[3D视图](../../interface/3d-view/3d-view.md)面板中选择Iray渲染器*。
+MDL 材质使用专为基于物理的渲染解决方案设计的说明，嵌入Designer中的[Iray](../../interface/3d-view/iray/iray.md)渲染器支持该说明。 因此，要在活动[3D视图](../../interface/3d-view/3d-view.md)面板中选择Iray渲染器&#x200B;*，才能显示MDL 图*&#x200B;的结果。
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray徽标](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIAIray徽标](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
 </table>
 
-创建或加载MDL图表时，Designer找到的第一个[未固定](../../interface/customizing-your-wor/customizing-your-workspace.md)个3D视图面板将&#x200B;*自动切换*&#x200B;到[Iray](../../interface/3d-view/iray/iray.md)渲染器。 如果没有可用的3D视图，将创建&#x200B;*新的*&#x200B;个3D视图面板，并将其切换到Iray渲染器，以承载正在编辑的MDL材料的渲染。
+创建或加载MDL 图时，Designer找到的第一个[未固定](../../interface/customizing-your-wor/customizing-your-workspace.md)个3D视图面板将&#x200B;*自动切换*&#x200B;到[Iray](../../interface/3d-view/iray/iray.md)渲染器。 如果没有可用的3D视图，将创建&#x200B;*新的*&#x200B;个3D视图面板，并将其切换到Iray渲染器，以承载正在编辑的MDL 材质的渲染。
 
-在3D视图面板中选择Iray渲染器时，该面板的“材质”菜单可让您在可用的MDL材质（包括“资源管理器”面板中加载的材质和Designer的MDL库中的材质）之间切换。 请参阅本文档的[Iray](../../interface/3d-view/iray/iray.md)部分，了解有关在Iray中使用MDL材质的更多信息。
+在3D视图面板中选择Iray渲染器后，可通过该面板的“材料”菜单在可用MDL 材质（包括在“资源管理器”面板中加载的材料和Designer MDL材料库）之间切换。 请参阅本文档的[Iray](../../interface/3d-view/iray/iray.md)部分，了解有关在Iray中使用MDL 材质的更多信息。
 
 ## 根节点
 
-MDL图的结果由<b>根</b>节点定义。 图形的任何节点都可以设置为根，只要其输出类型为<b>材料</b>的数据，即&#x200B;*材料定义*。 MDL图形可能只有&#x200B;*一个*&#x200B;根节点。
+MDL 图的结果由<b>根</b>节点定义。 图形的任何节点都可以设置为根，只要其输出类型为<b>材料</b>的数据，即&#x200B;*材料定义*&#x200B;即可。 一个MDL 图只能有&#x200B;*一个*&#x200B;根节点。
 
-通常，可以设置为根的节点可以是&#x200B;*自给自足的*，因为它已经包含物质定义，可以通过将数据传递到其&#x200B;*输入*&#x200B;来自定义该物质定义。\
-例如，如果要处理类似玻璃的材质，您可能希望使用“玻璃”材质定义作为“根”节点作为起点，但这是&#x200B;*非强制性*。 使用MDL节点丰富的列表，可以模化许多材料节点，使其成为任意复杂材料。
+通常，可以设置为根节点的材料可以是&#x200B;*自给自足的*，因为它已经包含节点定义，可以通过将数据传递到其&#x200B;*输入*&#x200B;来自定义节点定义。\
+例如，如果要处理类似玻璃的材料，您可能希望使用“玻璃”材料定义作为“根”节点，但这是&#x200B;*非强制性*。 通过大量的MDL材料可以生成复杂的材料。
 
 根节点包括显示其当前输出预览的缩略图。
 
-![MDL图形的根节点](../../assets/mdl-root-hl.png "MDL图形的根节点")
+![MDL 图的根节点](../../assets/mdl-root-hl.png "MDL 图的根节点")
 
 *MDL 图中的根节点及其在[属性](../../interface/properties/properties.md)* *面板*&#x200B;中显示的属性
 
 ## 连接器和类型
 
-由于MDL图表中的数据类型比Designer中的其他图表多得多，因此您可以看到节点连接器的独特外观。 以下列出了需要了解的重要概念。
+由于MDL 图中的数据类型比Designer中的其他图形多得多，因此您可以看到节点连接器独特的外观。 以下列出了需要了解的重要概念。
 
 连接器形状
 

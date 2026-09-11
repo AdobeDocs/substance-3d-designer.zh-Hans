@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
-description: 使用“弯曲平滑”节点从高度图生成平滑弯曲图以进行表面细节提取。
+description: 使用“曲率平滑”节点从Height图生成平滑曲率图以提取曲面细节。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 弯曲平滑
+title: 曲率平滑
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# 弯曲平滑
+# 曲率平滑
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![弯曲平滑节点图标](curvature-smooth.resources/CurvatureSmooth.png "弯曲平滑节点图标"){width="200px"}
+![曲率平滑节点图标](curvature-smooth.resources/CurvatureSmooth.png "曲率平滑节点图标"){width="200px"}
 
 <b>英寸：</b>滤镜>效果
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## 描述
 
-计算由法线图描述的曲面的弯曲。
+计算由法线映射描述的曲面的曲率。
 
-弯曲图表示曲面的凹和凸区域。\
+曲率图表示曲面的凹和凸区域。\
 平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。
 
 </td>
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 查看[弯曲](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)以获得更清晰的版本，或者[弯曲Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（如果需要更多选项）。
+> 查看[曲率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)以获得更清晰的版本，或者[曲率Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（如果您需要更多选项）。
 
 <a name="inputs"></a>
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>正常</b> <i>颜色</i> <b>主要</b> | 描述应计算弯曲的曲面的法线图。 |
+| <b>正常</b> <i>颜色</i> <b>主要</b> | 描述应该计算曲率的曲面的法线图。 |
 
 <a name="outputs"></a>
 
@@ -62,8 +62,8 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>弯曲</b> <i>灰度</i> | 从输入法线图计算的弯曲图。   平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。 |
-| <b>凸性</b> <i>灰度</i> | 从输入法线图计算的凸度映射。   区域越凸起，地图中的区域就越亮。  平坦或凹进区域为黑色。 |
+| <b>曲率</b> <i>灰度</i> | 从输入法线映射计算的曲率映射。   平面区域为50%灰色。 凸出区域较亮，而凹入区域较暗。 |
+| <b>凸性</b> <i>灰度</i> | 从输入法线映射计算出的凸度映射。   区域越凸起，地图中的区域就越亮。  平坦或凹进区域为黑色。 |
 | <b>凹陷</b> <i>灰度</i> | 从输入法线映射计算出的凹面映射。   区域越凹陷，地图中的区域就越亮。  平坦或凸出区域为黑色。 |
 
 <a name="parameters"></a>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
 breadcrumb-title: ''
 description: 使用“明度”混合节点根据明度值混合纹理，以创建基于亮度的复合效果。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 描述
 
-执行亮度混合模式，在采用前景明度的同时，保留背景的色相和色度。
+执行亮度混合模式，以便在采用前景明亮度时保留背景的色相和色度。
 
 </td>
 </tr>
@@ -54,4 +54,4 @@ ht-degree: 4%
 |  |  |
 |:---|:---|
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度。 |
-| <b>Alpha 值混合处理</b> <i>False/True</i> | 切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。 |
+| <b>Alpha 值混合处理</b> <i>False/True</i> | 切换前景颜色和背景Alpha 通道的混合。 如果设置为False，则忽略前景的Alpha 通道。 |

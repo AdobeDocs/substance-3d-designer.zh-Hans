@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的库访问和管理节点预设、素材和自定义内容。
 helpx_creative_field: ""
@@ -98,7 +98,7 @@ ht-degree: 0%
 ### 使用库中的资源
 
 要使用库中的资源，请&#x200B;*将其拖放*&#x200B;到所需位置。\
-在单击项目时按住<b>Ctrl</b>键，可在<b>内容</b>部分中选择&#x200B;*多个*&#x200B;项目。 在这种情况下，拖放操作将在图形中放置&#x200B;*整个选区*&#x200B;的节点。
+在单击项目时按住<b>Ctrl</b>键，可在<b>内容</b>部分中选择&#x200B;*多个*&#x200B;项目。 在这种情况下，拖放操作会将节点放在&#x200B;*整个选区*&#x200B;的图形中。
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -117,7 +117,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 搜索栏将考虑您正在查找的资源的名称，但也会考虑资源可包含的&#x200B;*标记*&#x200B;或其所属的&#x200B;*类别*。\
-> 例如，键入“*正常*”将列出可用于生成或修改正常映射的所有资源。 这是发现新节点的好方法，从而发现新的可能性！
+> 例如，键入“*Normal*”将列出可用于生成或修改法线图的所有资源。 这是发现新节点的好方法，从而发现新的可能性！
 
 ![库中资源搜索](../../assets/library-search-2.png "库中资源搜索")
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) — 即非原子节点，此路径是一个&#x200B;*超链接*，它将在系统的文件浏览器中显示该文件。\
+> 对于[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) — 即非原子节点，此路径是&#x200B;*超链接*，它将在系统的文件浏览器中显示文件。\
 > 原子节点使用特殊的别名路径（例如，`graphatomic://`、`structure://`、...） 无法单击，因为它指向内部库。
 
 <table>
@@ -181,7 +181,7 @@ ht-degree: 0%
 ### 收藏
 
 您可以使用![](../../assets/library-icon-favoritepng.png) <b>添加到收藏夹</b>按钮，将<b>内容</b>分区中的任何项添加到您的<b>收藏夹</b>列表。 如果已经添加了该内容，该按钮还允许您将内容从此列表中&#x200B;*删除*。\
-将内容添加到此列表后，该内容在<b>库</b>的<b>收藏夹</b>类别中可用，并且在搜索图形中的节点时，该内容将显示在<b>节点</b>菜单列表的&#x200B;*顶部*&#x200B;处（如果搜索词与该节点匹配）。
+将内容添加到此列表后，该内容在<b>库</b>的<b>收藏夹</b>类别中可用，并且在搜索图形中的节点时，该内容将显示在<b>节点</b>菜单列表的&#x200B;*顶部*&#x200B;处（如果搜索项与该节点匹配）。
 
 </td>
 <td style="border: 0;" valign="top">

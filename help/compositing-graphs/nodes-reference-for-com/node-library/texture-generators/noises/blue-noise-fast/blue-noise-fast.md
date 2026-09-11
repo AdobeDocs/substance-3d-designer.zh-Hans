@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: 使用“蓝色噪声快速”节点可生成快速的蓝色噪声图案，以便创建高质量的纹理仿色和变化。
 helpx_creative_field: ""

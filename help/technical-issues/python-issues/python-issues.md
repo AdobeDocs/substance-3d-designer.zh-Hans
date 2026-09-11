@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/python-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/python-issues.html"
 breadcrumb-title: ''
 description: 解决Substance 3D Designer中的Python脚本问题，包括增效工具和API问题。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本页列出了与Substance 3D Designer的[Python API](../../scripting/scripting.md)以及Python中实现的功能相关的技术问题，并提供了相应的故障排除步骤。
 
-Python中实现的功能包括[节点](../../interface/the-explorer-window/the-explorer-window.md)工具栏中的[Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[发送到](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)资源管理器，以及用于移除图形中未使用的节点的工具。
+Python中实现的功能包括[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)工具栏中的[Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[发送到](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)操作，以及用于删除图表中未使用的节点的工具。
 
 ## “QtForPython”模块无法加载
 

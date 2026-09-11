@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
-description: 使用“样条采样Height”节点沿样条采样Height值，以获得程序化位移效果。
+description: 使用“样条采样Height”节点沿样条采样Height值，以实现程序化的位移效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Height
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## 描述
 
-通过将输入Height映射映射到输入样条上来修改输入样条的Height。
+通过将输入Height映射到输入样条上来修改输入样条的高度图。
 
-映射Height映射的效果可以通过更改其混合模式以及该效果的不透明度来调整。
+映射高度图的效果可以通过更改其混合模式以及该效果的不透明度来调整。
 
 </td>
 </tr>
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>预览</b> <i>灰度</i> | 作为灰度图像的输入样条的预览。 |
+| <b>预览</b> <i>灰度</i> | 以灰度图像形式预览输入样条。 |
 | <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
 | <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
-| <b>Height映射</b> <i>灰度</i> | 用于更改输入样条的Height的输入灰度图像。 |
+| <b>高度图</b> <i>灰度</i> | 用于更改输入样条的Height的输入灰度图像。 |
 
 <a name="outputs"></a>
 

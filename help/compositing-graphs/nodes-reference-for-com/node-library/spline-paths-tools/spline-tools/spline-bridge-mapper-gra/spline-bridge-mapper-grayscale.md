@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: 使用“样条桥映射器”“灰度”节点可通过灰度映射在两个样条之间桥接纹理。
 helpx_creative_field: ""
@@ -78,9 +78,9 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>段数量</b> <i>整数</i> | 在图像坐标遍历样条之前，将样条简化为段。 段数量越多，沿曲线映射就越平滑。 |
-| <b>减少UV伸缩</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
-| <b>UV 缩放</b> <i>浮点2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
-| <b>UV旋转</b> <i>浮动</i> | 围绕图像坐标中心旋转图像坐标。 |
+| <b>减少UV拉伸</b> <i>布尔值</i> | 调整用于将图像坐标从一个样条插值到下一个样条的方法，以便在样条之间的距离不均匀时使拉伸最小化。 |
+| <b>UV 缩放</b> <i>Float2</i> | 调整图像坐标的比例。 值越高，拼贴的图像就越致密。 |
+| <b>UV旋转</b> <i>Float</i> | 围绕图像坐标中心旋转图像坐标。 |
 
 ## 示例
 

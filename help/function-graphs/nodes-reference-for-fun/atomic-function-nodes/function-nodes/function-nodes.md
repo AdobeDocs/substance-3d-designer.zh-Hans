@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer函数图形中的函数节点以调用和执行自定义函数图形。
+description: 访问Substance 3D Designer函数图中的函数节点，以调用和执行自定义函数图。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 函数节点
 
-函数节点根据它们所代表的数学函数变换输入值。
+函数节点根据它们所代表的数学函数来变换输入值。
 
 虽然它们的输入连接器通常不键入，但它们不支持所有值类型。
 
@@ -96,16 +96,16 @@ ht-degree: 5%
 
 
 
-向上舍入其输入值。 它返回不小于X的最小整数： <b>ceil(X)</b>。
+向上舍入其输入值。 它返回不小于X的最小整数值： <b>ceil(X)</b>。
 
 +++
 
 +++向下取整
-![Floor节点图标](../../../../assets/Floor_Node.jpg "Floor节点图标")
+![楼层节点图标](../../../../assets/Floor_Node.jpg "楼层节点图标")
 
 
 
-向下舍入其输入值。 它返回不大于X的最大整数： <b>floor(X)</b>。
+向下舍入其输入值。 它返回不大于X的最大整数值： <b>floor(X)</b>。
 
 +++
 

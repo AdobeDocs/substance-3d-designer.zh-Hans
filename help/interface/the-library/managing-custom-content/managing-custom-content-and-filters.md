@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer Library中管理自定义内容和过滤器，以便有条不紊地访问资源。
 helpx_creative_field: ""
@@ -97,8 +97,8 @@ Filters是简单的布尔型(True/False)搜索参数，当选择<b>Filter</b>时
 
 * 默认库的一般规则是<b>Folder</b>列在<b>Category</b>属性中，而<b>Filter</b>名称由<b>Tag</b>属性决定
 * 不要创建与默认库混合的自定义节点，除非您&#x200B;*明确*&#x200B;希望它们这样做。 如果您的节点&#x200B;*将*&#x200B;显示在默认筛选器下（如果它们匹配），因此您必须确保使用&#x200B;*不同的标记/命名系统*&#x200B;以避免出现这种情况
-* 使用&#x200B;*唯一*、*每个项目*&#x200B;标识符。 只要在所有项目之间&#x200B;*一致*，即可将这些内容放在您想要的任何位置（如<b>描述</b>、<b>类别</b>或<b>用户数据</b>）。 这使按项目&#x200B;*搜索和筛选内容*&#x200B;更加容易
-* 使用<b>Author</b>属性可以跟踪最初负责内容的人员，而无需通过版本控制记录执行挖掘操作
+* 使用&#x200B;*唯一*，*每个项目*&#x200B;标识符。 只要在所有项目之间&#x200B;*一致*，即可将这些内容放在您想要的任何位置（如<b>描述</b>、<b>类别</b>或<b>用户数据</b>）。 这使按项目&#x200B;*搜索和筛选内容*&#x200B;更加容易
+* 使用<b>Author</b>属性跟踪最初负责内容的人员，而无需通过版本控制记录执行挖掘操作
 * 创建<b>图标</b>的一种有效方法是使用[图标](../../../compositing-graphs/graph-parameters/graph-parameters.md)图形属性的<b>生成</b>选项，或创建用于生成图标的图形[模板](../../../interface/preferences-window/project-settings/project-settings.md)。 这样您就可以确保一致性，并保存创建它们的工作。 所有默认库图标都是通过这种方式在Designer中创建的！
 
 ### 管理不同范围的内容

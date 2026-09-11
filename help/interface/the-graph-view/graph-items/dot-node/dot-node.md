@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
-description: 在Substance 3D Designer中使用点节点和门户节点创建连接点并组织图形流。
+description: 在Substance 3D Designer中使用点节点和门户节点创建连接点并整理图形流。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>点</b>节点是一个帮助程序，它允许您通过重新路由和分组连接来简化和清理图表。 对于许多长连接运行在其他连接或节点上的图形，此选项特别有用。
+<b>点</b>节点是一个助手，它允许您通过重新路由和分组连接来简化和清理图形。 对于许多长连接通过其它连接或图形运行的IP地址尤其有用。
 
 一对“点”节点可以作为<b>门户</b>来隐藏远距离连接，或用于路由连接可能具有挑战性的地方。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 创建点节点
 
-可以通过以下任何方式以任意图形类型添加点节点：
+可以通过以下任何方式添加任何图形类型的点节点：
 
 +++在链接上插入
 悬停连接时按住<b>Alt</b>键可显示“点”节点预览，然后单击LMB可在该位置的连接上添加“点”节点。
@@ -102,7 +102,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-点节点可以作为<b>门户</b>用于在图表中远距离发送数据，而不会具有妨碍可读性的繁琐的长链接。 这有效地隐藏了Dot节点之间的链接。
+点节点可以作为<b>门户</b>用来在图形中长距离发送数据，而不会产生影响可读性的繁琐的长链接。 这有效地隐藏了Dot节点之间的链接。
 
 </td>
 </tr>
@@ -112,9 +112,9 @@ ht-degree: 0%
 
 ### 创建门户
 
-当发射机点节点被命名时，在两个点节点（发射机和接收机）之间自动创建入口。 点节点命名是通过在其<b>名称</b>属性中设置唯一标识符完成的。
+当发射机点节点被命名时，在两个点节点（发射机和接收机）之间自动创建入口。 点节点命名是通过在其<b>Name</b>属性中设置唯一标识符来完成的。
 
-当图中存在一个或多个命名的Dot节点时，可通过以下方式将任何Dot节点作为接收器连接到该节点：
+当图形中存在一个或多个命名的Dot节点时，可通过以下方式将任何Dot节点作为接收器连接到该节点：
 
 * 在接收机的输入和发射机的输出之间建立链路；
 * 在接收方的<b>输入门户</b>属性中选择发射方的名称。
@@ -136,6 +136,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [FX-Map graphs](../../../../function-graphs/fxmaps/fxmaps.md)不支持将点节点用作门户。
+> [图形](../../../../function-graphs/fxmaps/fxmaps.md)不支持将点节点用作门户。
 
 查看此教程，了解将“点”节点作为门户：

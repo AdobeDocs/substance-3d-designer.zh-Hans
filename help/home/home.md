@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer通过基于节点的工作流程创建程序性材料、纹理和3D资源。
 helpx_creative_field: ""

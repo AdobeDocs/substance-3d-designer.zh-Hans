@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本14.0的发行说明，以了解新节点、图形导航和性能改进。
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * <b>Kuwahara滤镜</b>：如果您想进一步进行风格化处理，可以使用[各向异性Kuwahara颜色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)滤镜生成一些绘画效果。 在细节上，应用与图像细节相符的各向异性方向模糊。 结果是一个看起来像顺着形状内部方向流动的图像。
 
-这些节点（“量化颜色”和“各向异性”Kuwahara）将在[本教程](https://www.adobe.com/go/designer-tutorial-quantize_cn)中介绍。 它展示了如何使用它们来设置素材样式，以及更有效、更直观地处理颜色！
+这些节点（“量化颜色”和“各向异性”Kuwahara）将在[本教程](https://www.adobe.com/go/designer-tutorial-quantize)中介绍。 它展示了如何使用它们来设置素材样式，以及更有效、更直观地处理颜色！
 
 其他强大的节点也加入进来：
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 * [Content]已弃用Substance函数图表中的“Negate Float1”节点
 * [内容]将“Quantize Color”重命名为“Quantize Color (Simple)”
 * [2D视图]在“信息”面板中显示超出0-1范围的像素的值
-* [Engine]&#x200B;[Text]对某些字体进行了新的字距调整
+* [Engine][Text]对某些字体进行了新的字距调整
 * [图形]在使用上下文版本时缩短编辑深度子图时的失效时间
 * [链接器]在SBSASM中不要复制位图
 * [参数]为所有输入参数类型添加新的“函数”构件

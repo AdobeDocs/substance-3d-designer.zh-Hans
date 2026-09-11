@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
-description: 使用“材料颜色混合”节点可以混合材料之间的颜色通道，以创建复合材料效果。
+description: 使用“素材颜色混合”节点可在素材之间混合颜色通道，以创建复合素材效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 材料颜色混合
+title: 素材颜色混合
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# 材料颜色混合
+# 素材颜色混合
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## 描述
 
-此节点允许通过在顶部混合纯色来调整多通道完全材料。 这是[材料调整混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)的主要区别，它只允许对通道进行[色阶](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)类型的调整，而此节点使用纯色的[混合](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)类型的调整。
+此节点允许在顶部混合纯色，从而调整多通道全材质。 这是[材质调整混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)的主要区别，它只允许对通道进行[色阶](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)类型的调整，而此节点使用具有纯色的[混合](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)类型的调整。
 
-此节点在要将平面Base color提示引入Diffuse或颜色时最有用，或要通过使用设置的纯色值“平整”其它通道时最有用。
+此节点在您想要将平淡颜色提示引入漫射或基色时，或者当您想要通过使用设置的纯色值“平淡”其他通道时，最有用。
 
 </td>
 </tr>
@@ -56,25 +56,25 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 例如，在使用Specular/光泽度映射而非金属/粗糙度时，可打开和关闭此组中的材料通道。 |
-| <b>Diffuse</b> |  |
+| <b>频道</b> | 当使用“Specular/光泽度”映射而不是“金属/粗糙度”时，可打开和关闭此组中的素材通道。 |
+| <b>扩散</b> |  |
 | <b>颜色</b> <i>（颜色值）</i> | 要在Diffuse通道顶部混合的颜色值。 |
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度。 |
 | <b>混合模式</b> <i>正常，相加，去除，相乘，相加/次相加，最大，最小，开关</i> | 操作中使用的混合模式。 |
-| <b>Base color</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
+| <b>基色</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
 | <b>正常</b> |  |
 | <b>源</b> <i>Height，蒙版</i> |  |
 | <b>混合模式</b> <i>合并，混合</i> |  |
 | <b>Height强度</b> <i>0.0 - 1.0</i> |  |
 | <b>Height不透明度</b> <i>0.0 - 1.0</i> |  |
 | <b>格式</b> <i>DirectX， OpenGL</i> |  |
-| <b>Specular</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
-| <b>Emissive</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
-| <b>光泽度</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
-| <b>粗糙度</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
-| <b>金属</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
-| <b>Specular level</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
-| <b>Ambient occlusion</b> | 使用此通道上与Diffuse组中相同的选项混合纯色。 |
+| <b>Specular</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
+| <b>具发射性</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
+| <b>光泽度</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
+| <b>粗糙度</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
+| <b>金属质感</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
+| <b>Specular level</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
+| <b>环境遮蔽</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
 | <b>Height</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
 | <b>不透明度</b> | 在此通道上方混合纯色，并使用漫射组中的选项。 |
 | <b>色彩 ID 蒙版</b> <i>False/True</i> | 使用色彩 ID 蒙版而非灰度蒙版。 请记住，这只适用于一种颜色！<br><br>启用以下所有选项。 |

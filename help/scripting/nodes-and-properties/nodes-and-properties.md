@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer Python增效工具中创建和操纵节点和属性。
 helpx_creative_field: ""

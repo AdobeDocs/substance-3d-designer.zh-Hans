@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Designer中的图形视图创建和编辑基于节点的材质图形。
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 使用F键将<b>焦点</b>聚焦所选节点，如果未选择任何内容，则聚焦整个图形。
 
-也可以使用<b>导航图钉</b>和F2键进行导航，请参阅下面的[图形项](#graph-items) [。](../../interface/the-graph-view/graph-items/graph-items.md)
+也可以使用<b>导航图钉</b>和F2键进行导航，请参阅下面的[图形项](#graph-items)[。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## 移动对象
 
@@ -144,9 +144,9 @@ ht-degree: 0%
 
 无论图形类型如何，节点都可以以5种方式放置到图形中：
 
-* 从节点工具栏上的图标单击或拖动（请参阅下文）。 只能以这种方式放置[个原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
-* 右键单击图形的空白区域，然后选择<b>添加node</b>。 只能以这种方式放置[个原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
-* 将缩览图从“图库视图”拖动到图形视图中。 此方法适用于[所有类型的节点，包括节点实例](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)。
+* 从节点工具栏上的图标单击或拖动（请参阅下文）。 只能以这种方式放置[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
+* 右键单击图形的空白区域，然后选择<b>添加节点</b>。 只能以这种方式放置[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
+* 将缩览图从“库视图”拖动到图形视图中。 此方法适用于[所有类型的节点，包括节点实例](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)。
 * 按<b>空格键</b>访问<b>节点菜单</b>。 请参阅以下内容。
 * 使用映射到节点的键盘快捷键。 映射在[首选项窗口](../../interface/preferences-window/preferences-window.md)中执行。
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ### 节点菜单
 
-按图形视图中的<b>空格键</b>可显示“节点”菜单。
+按图表视图中的<b>空格键</b>可显示“节点”菜单。
 
 此菜单通过搜索界面提供对[库](../../interface/the-library/the-library.md)中所有节点的访问，并允许收藏的节点显示在列表顶部。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 搜索为&#x200B;*模糊*，这意味着它原谅搜索词中的细微差异。 例如，“颜色”与“颜色”、“标准化”与“标准化”等。
 
-如果在图形中选择了&#x200B;*单个*&#x200B;节点，或者通过拖动节点连接器生成了“节点”菜单，则搜索结果将根据输出类型自动&#x200B;*筛选*。\
+如果在图形中选择了&#x200B;*单个*&#x200B;节点，或通过拖动节点连接器生成“节点”菜单，则搜索结果将根据输出类型自动&#x200B;*筛选*。\
 例如，对于“灰度”类型的输出，仅列出具有“[主输入](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)”类型的“灰度”节点。
 
 </td>
@@ -223,9 +223,9 @@ ht-degree: 0%
 
 <b>创建\*：</b>为此节点的每个输入和/或输出创建输入和/或输出节点；
 
-<b>打开引用\*：</b>将此图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的Node 加载为单独的图形视图选项卡；
+<b>打开引用\*：</b>将此图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的Node [加载为单独的图形视图选项卡；
 
-<b>在上下文中打开引用\*\*：</b>在当前图形的上下文中将此图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的节点加载为现有图形视图选项卡中的痕迹导航；
+<b>在上下文中打开引用\*\*：</b>在当前图形的上下文中将此图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的节点[加载为现有图形视图选项卡中的痕迹导航；
 
 <b>从所选对象创建图形：</b>将所选节点复制到新图形中；
 
@@ -277,17 +277,17 @@ ht-degree: 0%
 
 <b>删除：</b>通过单击链接上的LMB并按&#x200B;*Delete*<b>、</b>删除链接，或者按住Alt键并单击任何包含链接的连接。 按住Alt键单击可删除该连接上的所有链接；
 
-<b>复制：</b>通过按住Ctrl键、单击连接器上的LMB并拖动光标来复制链接。 单击另一个连接器上的LMB以连接该链接；
+<b>复制：</b>通过按住Ctrl键、在连接器上单击LMB并拖动光标来复制链接。 单击另一个连接器上的LMB以连接该链接；
 
-<b>移动：</b>按住Shift键，单击连接器上的LMB并拖动光标，即可选取链接并将链接从连接器移动到另一个连接器。 单击另一个连接器上的LMB以连接链接。
+<b>移动：</b>按住Shift键，单击连接器上的LMB并拖动光标，可以选取链接并将链接从连接器移动到另一个文档。 单击其他连接器上的LMB以连接链接。
 
 ### 正在禁用节点
 
 >[!NOTE]
 >
-> 这仅适用于[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
+> 这仅适用于[图形](../../compositing-graphs/substance-compositing-graphs.md)。
 
-可以禁用节点，这样它们在图形中&#x200B;*没有效果*，但不需要断开连接或删除。
+可以禁用节点，以便它们在图形中&#x200B;*无效*，但不需要断开连接或删除。
 
 禁用的节点具有下列行为：
 
@@ -298,7 +298,7 @@ ht-degree: 0%
 * 其禁用状态为&#x200B;*已保存*，并且在会话间持续存在；
 * 在发布到SBSAR时，生成的文件将&#x200B;*考虑了*&#x200B;节点的禁用状态 — 即，您所看到的是您获得的内容。
 
-您可以使用<b>Shift+D</b>击键，或者右键单击图形并选择上下文菜单中的<b>禁用节点/禁用选择</b>项，来禁用一个节点或一组选定的节点。
+您可以使用<b>Shift+D</b>击键，或者在图形中右键单击并选择上下文菜单中的<b>禁用节点/禁用选择</b>项，来禁用一个节点或一组选定的节点。
 
 >[!IMPORTANT]
 >
@@ -311,7 +311,7 @@ ht-degree: 0%
 
 ![正在禁用节点](../../assets/graph-disable-node.gif "正在禁用节点"){width="512px"}
 
-## 与2D视图交互
+## 与2D 视图交互
 
 >[!NOTE]
 >
@@ -422,27 +422,27 @@ ht-degree: 0%
 
 ![节点映像缓存设置](../../assets/graph-toolbar-node-cache.png "节点映像缓存设置")
 
-在计算[Substance节点](../../compositing-graphs/substance-compositing-graphs.md)中的图形时，此切换缓存的使用。
+这样可在计算[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的节点时切换缓存的使用。
 
-计算节点时，其输出图像存储在内存（即缓存）中，因此如果此图形不受更改的影响，则在重新计算节点时可以&#x200B;*重新使用它们*。 这意味着只重新计算实际更改的图形部分。
+计算某个节点时，其输出图像存储在内存（即缓存）中，因此如果该节点不受更改的影响，则重新计算图表时可以&#x200B;*重新使用它们*。 这意味着只重新计算图表中实际发生更改的部分。
 
 此缓存的内存存储限制可在[首选项](../../interface/preferences-window/preferences-window.md)的<b>常规</b>部分的<b>内存</b>部分下更改。
 
-启用此选项会大幅提高计算的整体响应速度，但代价是显着增加Designer的内存使用量。
+启用此选项将导致图形计算的整体响应性大幅提升，但代价是显着增加Designer的内存使用量。
 
 ### 移除未使用的节点
 
 ![删除未使用的节点下拉菜单](../../assets/graph-cleaner-menu.jpg "删除未使用的节点下拉菜单")
 
-在迭代图形并尝试操作时，某些对最终结果没有影响的节点可能会落在后面。 由于在图形渲染的第一阶段评估所有计算，因此这会增加杂乱和浪费。
+在图形中进行迭代并尝试操作时，某些对最终结果没有影响的节点可能会落在后面。 这增加了杂乱和浪费计算，因为所有节点在图形绘制的第一阶段都被评估。
 
-![](../../assets/graph-cleaner.jpg)移除未使用的节点</b>工具将删除&#x200B;*在输出*&#x200B;节点中结束的流中&#x200B;*不是*&#x200B;的所有节点。 唯一的例外是&#x200B;*输入*&#x200B;节点，因为删除这些节点将更改引用此图形的[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的接口。
+![](../../assets/graph-cleaner.jpg)移除未使用的节点</b>工具将删除&#x200B;*在输出*&#x200B;节点中结束的流中&#x200B;*不是*&#x200B;的所有节点。 唯一的例外是&#x200B;*输入*&#x200B;节点，因为删除这些节点将更改引用此图形的[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的接口。
 
 ![移除未使用的节点](../../assets/graph-cleaner.gif "移除未使用的节点")
 
 第一个选项仅将清理应用于&#x200B;*当前*&#x200B;图形。
 
-如果当前图形是[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)，则会启用第二个选项，使您可以在清理过程中&#x200B;*包括所有node参数函数*。 这意味着，如果控制节点参数值的[函数图形](../../function-graphs/function-graphs.md)具有未使用的图形，则也将按照相同的规则清除该节点。
+如果当前图形是[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)，则会启用第二个选项，使您可以在清理过程中&#x200B;*包括所有节点参数函数*。 这意味着，如果控制节点参数值的[函数图形](../../function-graphs/function-graphs.md)具有未使用的节点，则还将按照相同的规则清除该图形。
 
 完成清理后，将显示报告对话框。 您将在<b>控制台</b>中找到更多详细信息，如标记为`GraphCleaner`的日志。 这些日志将包括每个图形和参数函数中已删除的节点数。
 

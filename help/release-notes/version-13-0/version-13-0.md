@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本13.0的发行说明，以了解新节点、Substance 引擎9.0和门户节点。
 helpx_creative_field: ""
@@ -273,32 +273,32 @@ Substance 引擎v9还可带来以下改进：
 * [内容]路径顶点处理器节点
 * [内容]路径顶点处理器简单节点
 * [Content] Quad Transform on Path节点
-* [内容]光线跟踪环境遮蔽v2
+* [内容]光线追踪Ambient occlusionv2
 * [内容]光线跟踪弯曲法线v2
 * [内容]光线追踪阴影v2
-* [引擎]更新到版本9
-* [Engine]函数图中的循环节点
+* [引擎]更新至版本9
+* [引擎]函数图形中的循环节点
 * [引擎]向渐变添加纯色模式
-* [Engine]函数图中的Atomic pow()节点
+* [引擎]函数图形中的Atomic pow()节点
 * [引擎]在Sampler节点中添加边框环绕选项（固定到边缘/重复）
-* [引擎]变形和方向变形节点中的最近采样
-* [引擎]向锐化滤镜中添加“穿透Alpha”模式以用于颜色输入
+* [引擎]变形和定向翘曲节点中的最近取样
+* [引擎]将“穿透Alpha”模式添加到锐化滤镜以进行颜色输入
 * [引擎] FxMap：半球形态图
-* [Engine]函数图表中的原子Get/Set操作
-* [Engine]功能：使用log/log2/exp的精确功能，2pow — 统一炊具和引擎之间的功能
-* [引擎]向方向变形滤镜添加“强度偏移”参数
-* [API]支持预设管理以合成图表
+* [引擎]函数图形中的原子Get/Set操作
+* [引擎]功能：使用log/log2/exp的精确功能，2pow — 统一炊具和引擎之间的功能
+* [引擎]向定向翘曲滤镜添加“强度偏移”参数
+* [API]支持对合成图形进行预设管理
 * [函数]更改函数原子节点的输入名称
 * [本地化]添加葡萄牙语（巴西）、意大利语（意大利）和西班牙语（西班牙）语言
 * [本地化]遵循语言列表中的规则“语言（国家/地区）”
-* [预设]使用上下文编辑时，禁用图形属性中的“预览”和“预设”面板
-* [Substance模型图]停止支持Substance模型图
+* [预设]使用上下文编辑时，在图形属性中禁用“预览”和“预设”面板
+* [Substance模型图形]停止支持Substance模型图形
 
 ### 修复
 
-* [3D视图]场景统计信息中长字符串的显示被截断（仅限macOS）
+* [3D 视图]场景统计信息中长字符串的显示被截断（仅限macOS）
 * [API] “structure：：Structure”模块仍包含在API参考中
-* [API] MDL图表中的点节点既没有定义，也没有属性
+* [API]MDL 图中的点节点既没有定义，也没有属性
 * [API]设置函数节点的参数时行为不正确
 * [内容] 3D Voronoi和3D Voronoi Fractal节点生成烹饪警告
 * [引擎] “强度映射偏移”参数对SSE2引擎中的灰度数据没有影响

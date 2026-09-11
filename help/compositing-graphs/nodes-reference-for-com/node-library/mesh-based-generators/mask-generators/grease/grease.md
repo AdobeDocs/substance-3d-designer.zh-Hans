@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: 使用“油脂”节点，根据网格几何形状和接触区域生成油脂栈积蒙版。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 描述
 
-根据已烘焙贴图和用户设置生成黑白色蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
+根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
 此蒙版专门用于字符脸部和其他特定区域。 在低Thickness区域生成皮肤油脂类型的蒙版。
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 |  |  |
 |:---|:---|
 | <b>Thickness</b> <i>灰度输入</i> | 整个效果所基于的厚度图。 必填！ |
-| <b>噪声</b> <i>灰度输入</i> | 用于覆盖油脂污渍的可选噪声映射。 |
+| <b>杂色</b> <i>灰度输入</i> | 用于覆盖油脂污渍的可选噪声映射。 |
 | <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
 
 <a name="parameters"></a>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
 breadcrumb-title: ''
 description: 使用“高斯2”节点生成具有可自定义分布属性的高级高斯噪声图案。
 helpx_creative_field: ""
@@ -46,7 +46,7 @@ ht-degree: 8%
 |  |  |
 |:---|:---|
 | <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
 
 ## 示例
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
 breadcrumb-title: ''
 description: 使用“Dirt4”节点生成中间Dirt图案，用于创建风化的表面细节和积累效果。
 helpx_creative_field: ""
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![Dirt4 — 图标](dirt-4.resources/dirt_4.png "Dirt4 — 图标"){width="200px"}
 
-<b>在：</b>纹理生成器>杂色
+<b>进入：</b>纹理生成器>噪声
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-粒状<b>Dirt</b>噪声的变化。
+粒状<b>Dirt</b>噪声的变体。
 
 另请参阅：[Dirt1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md)、[Dirt2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-2/dirt-2.md)、[Dirt3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md)、[Dirt5](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)、[Dirt渐变](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-gradient/dirt-gradient.md)
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
+| <b>输出</b> <i>灰度</i> | 生成的灰度位图噪声。 |
 
 <a name="parameters"></a>
 
@@ -55,13 +55,13 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>缩放</b> <i>整数</i> | 使用网格细分生成噪声拼贴。    值越高，所绘制的拼贴就越多，噪音也越浓。 |
-| <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
-| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
-| <b>无序各向异性</b> <i>浮动</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序各向异性角</b>参数控制。 |
-| <b>无序anisotropy angle</b> <i>浮动</i> | 当<b>无序位移</b>参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
-| <b>拼贴偏移</b> <i>浮点2</i> | 控制用于渲染杂色的无限平面部分的位置。 |
-| <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴方形，并将杂色生成扩展到图像边界。 |
+| <b>缩放</b> <i>整数</i> | 用于生成噪声拼贴的网格细分。    值越高，绘制的拼贴越多，噪声越密。 |
+| <b>无序</b> <i>Float</i> | 置换噪声的组成部分。    这可用于为噪声制作动画。 |
+| <b>无序速度</b> <i>Float</i> | 调整<b>无序</b>参数应用的位移的距离。    在为噪声制作动画时，这可用于控制位移的速度。 |
+| <b>无序各向异性</b> <i>Float</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序anisotropy angle</b>参数控制。 |
+| <b>无序anisotropy angle</b> <i>Float</i> | 当<b>无序位移</b>参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
+| <b>拼贴偏移</b> <i>Float2</i> | 控制用于渲染噪声的无限平面部分的位置。 |
+| <b>非方形扩展</b> <i>布尔值</i> | 在非方形图像中，保持生成的拼贴为方形，并将噪声生成扩展到图像边界。 |
 
 ## 示例
 

@@ -52,42 +52,42 @@ ht-degree: 0%
 
 ![MDL导出途径](../../assets/mdl-export-module.png "MDL导出途径")
 
-*资源管理器中的“导出MDL模块”路径以及生成的“导出报告”对话框*
+*资源管理器中的“导出MDL 模块”路径以及生成的导出报告对话框*
 
 ### MDL预设(\*.mdl)
 
-MDL模块预设与其所基于的模块大致相同，唯一区别在于它带有一组不同的默认值 — 在[此处](https://www.migenius.com/doc/realityserver/latest/resources/general/iray/api_reference/iray/html/classmi_1_1neuraylib_1_1IMdl__factory.html#details)了解更多信息。
+MDL 模块预设与其所基于的模块大致相同，唯一区别在于它带有一组不同的默认值 — 在[此处](https://www.migenius.com/doc/realityserver/latest/resources/general/iray/api_reference/iray/html/classmi_1_1neuraylib_1_1IMdl__factory.html#details)了解详情。
 
-可以从以下位置导出分配给场景材质`my_material`的MDL材质的预设：
+可以从以下位置导出分配给材料`my_material`的MDL 材质的预设：
 
-* 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中，单击MDL图形资源上的<b>人民币</b>，然后在上下文菜单中选择<b>导出预设……</b>选项
-* [3D视图](../../interface/3d-view/3d-view.md)面板，使用<b>材质> my\_material >导出预设……</b>菜单选项
+* 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中，单击MDL 图资源上的<b>人民币</b>，然后在上下文菜单中选择<b>导出预设……</b>选项
+* [3D 视图](../../interface/3d-view/3d-view.md)面板，使用<b>材料> my\_材料>导出预设……</b>菜单选项
 
-菜单选项将打开<b>导出MDL材质预设</b>对话框，该对话框提供以下选项：
+菜单选项将打开<b>导出MDL 材质预设</b>对话框，其中提供以下选项：
 
-* <b>目录</b>：导出MDL模块的目标位置
-* <b>MDL文件名</b>： MDL模块的名称
-* <b>嵌入导入的MDL模块</b>：如果MDL模块依赖于导入的模块，即具有任何模块依赖项，则选中此选项会将模块依赖项&#x200B;*嵌入*&#x200B;导出的MDL模块，从而使其有效&#x200B;*自给自足*，但代价是文件大小和动态继承
+* <b>目录</b>：将MDL 模块导出到的目标位置
+* <b>MDL文件名</b>：MDL 模块的名称
+* <b>嵌入导入的MDL 模块</b>：如果MDL 模块依赖于导入的模块，即具有任何模块依赖项，选中此选项会将模块依赖项&#x200B;*嵌入*&#x200B;到导出的MDL 模块中，从而使其有效&#x200B;*自给自足*，但代价是文件大小和动态继承
 
-导出的预设将在3D视图中使用素材的参数&#x200B;*当前值*&#x200B;作为&#x200B;*新默认值*&#x200B;值。 可以使用<b>材质> my\_material >编辑</b>选项修改这些值，该选项将在“属性”面板中显示材质的公开参数。
+导出的预设将使用3D 视图中材料的参数&#x200B;*当前值*&#x200B;作为&#x200B;*新默认值*&#x200B;值。 可以使用<b>材料> my\_材料>编辑</b>选项修改这些值，该选项将在“属性”面板中显示材料的公开参数。
 
 >[!WARNING]
 >
-> 从[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中导出MDL模块时，会导致某个MDL模块包含&#x200B;*所有*&#x200B;由包中的MDL图表定义的MDL材质，从[3D视图](../../interface/3d-view/3d-view.md)中导出MDL预设会导致某个MDL模块仅包含&#x200B;*7&rbrace;应用于*&#x200B;所选材质&#x200B;*的MDL材质定义，在本示例中为`my_material`。*
+> 从[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板导出MDL 模块时会导致包含包中MDL 图定义的&#x200B;*所有* MDL 材质的MDL 模块，从[3D 视图](../../interface/3d-view/3d-view.md)导出MDL预设时会导致包含&#x200B;*仅*&#x200B;应用于菜单&#x200B;*所选材料*&#x200B;的MDL 材质定义的MDL 模块 — 本例中为`my_material`。
 
 ![MDL预设导出路径](../../assets/mdl-export-preset.png "MDL预设导出路径")
 
-*3D视图中的“导出预设”路径以及生成的“导出MDL素材预设”对话框*
+*3D 视图中的“导出预设”路径以及生成的导出MDL 材质预设对话框*
 
-## MDL模块存档(\*.mdr)
+## MDL 模块存档(\*.mdr)
 
-MDL模块存档将MDL模块（见上文）与&#x200B;*纹理*&#x200B;和自述文件等资源合并为一个&#x200B;*单个可传输文件*。
+MDL 模块存档将MDL 模块（见上文）与&#x200B;*纹理*&#x200B;和自述文件等资源合并为一个&#x200B;*单个可传输文件*。
 
-导出MDL模块存档是在&#x200B;*包*&#x200B;级别执行的。 若要导出给定包的MDL模块存档，请单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的![](../../assets/mdl-export-module-icon.png) <b>导出MDL模块存档</b>按钮，或在&#x200B;*包的上下文菜单*&#x200B;中选择相同的选项。 为导出的MDL模块存档选择目标位置和名称，此时会显示<b>导出报告</b>对话框，其中包含导出过程中记录的消息列表。
+导出MDL 模块存档是在&#x200B;*包*&#x200B;级别执行的。 若要导出给定包的MDL 模块存档，请单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的![](../../assets/mdl-export-module-icon.png) <b>导出MDL 模块存档</b>按钮，或在&#x200B;*包的上下文菜单*&#x200B;中选择相同的选项。 为导出的MDL 模块存档选择目标位置和名称，将显示<b>导出报告</b>对话框，其中显示了在导出过程中记录的消息列表。
 
-导出的模块存档将包含MDL模块，其中包含包中[MDL图形](../../mdl-graphs/mdl-graphs.md)定义的&#x200B;*所有* MDL材料的定义。 如果[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)已[实例化到MDL图形](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)中并连接到指向[根](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)节点的流，则它输出的纹理&#x200B;*将保存到存档中*。
+导出的MDL 模块存档将包含包中由[MDL 图](../../mdl-graphs/mdl-graphs.md)定义的&#x200B;*所有* MDL 材质的定义。 如果[图形](../../compositing-graphs/substance-compositing-graphs.md)已[实例化到MDL 图](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)中并连接到到[根](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)节点的流，则它输出的纹理将&#x200B;*保存到存档中*。
 
-除了这些项之外，存档还包含一个<b>MANIFEST</b>文件，该文件描述了MDL模块存档的以下元数据：
+除这些项目之外，存档还包括一个<b>MANIFEST</b>文件，该文件描述了MDL 模块存档的以下元数据：
 
 * `mdl`：用于导出模块存档的MDL版本 — 例如“1.5”
 * `version`：模块存档的版本 — 例如“1.0.0”

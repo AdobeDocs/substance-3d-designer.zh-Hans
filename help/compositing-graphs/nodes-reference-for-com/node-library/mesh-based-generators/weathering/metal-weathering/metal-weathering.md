@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: 使用金属风化节点，可根据网格几何形状为金属材料添加逼真的铁锈和腐蚀效果。
 helpx_creative_field: ""
@@ -74,8 +74,8 @@ ht-degree: 14%
 | <b>原始金属光泽度值</b> <i>（灰度值）</i> |  |
 | <b>原始金属粗糙度值</b> <i>（灰度值）</i> |  |
 | <b>混合</b> |  |
-| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 扩散的混合强度。 |
-| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合基色的强度。 |
+| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
 | <b>正常强度</b> <i>0.0 - 64.0</i> | 混合“正常”的强度。 |
 | <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合Specular的强度。 |
 | <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合光泽度的强度。 |

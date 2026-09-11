@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
-description: 在Substance 3D Designer中访问效果滤镜节点，向纹理添加发光、阴影和变形等视觉效果。
+description: 访问Substance 3D Designer中的效果滤镜节点，为纹理添加发光、阴影和变形等视觉效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects
 helpx_experience_level: ""
@@ -24,10 +24,10 @@ ht-degree: 1%
 
 使用左侧的<b>导航列表</b>浏览“效果”下的所有节点。
 
-大量节点用于处理、生成和修改已烘焙贴图，例如正常映射或AO和曲率。 例如：
+大量的节点用于处理、生成和修改已烘焙贴图，例如正常映射或AO和弯曲。 例如：
 
 * [曲率平滑](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-* [环境遮蔽(HBAO)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
+* [ambient occlusion(HBAO)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
 
 另一组节点用于图层形状效果或“图层样式”，如其他流行的图像编辑软件中所示。 例如：
 

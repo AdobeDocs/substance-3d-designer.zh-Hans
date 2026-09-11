@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
 breadcrumb-title: ''
 description: 使用“漩涡”节点将漩涡扭曲效果应用于纹理，以创建漩涡和螺旋图案。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: 使用风化节点根据网格弯曲和应力点向材料添加裂纹图案。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 描述
 
-这是一种同时适用于多个通道的完全素材效果。 它添加了一个随机裂纹图案，并控制扩展和深度。
+这是一种同时适用于多个声道的全材料效果。 它添加了一个随机裂纹图案，并控制扩展和深度。
 
 在使用完整材料时，确保正确理解[链接创建模式](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 |  |  |
 |:---|:---|
-| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的烘焙或生成的映射。 |
+| <b>弯曲</b> <i>灰度输入</i> | 用于内部效果和蒙版的烘焙或生成的映射。 |
 | <b>Height</b> <i>灰度输入</i> | 用于内部效果和蒙版的烘焙或生成的映射。 |
 | <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“Mask”参数切换。 |
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
 | <b>高级</b> |  |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
 | <b>蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |

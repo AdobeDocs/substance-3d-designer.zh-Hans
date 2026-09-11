@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
-description: 使用“皮革风化”节点，根据网格曲率为皮革材料添加磨损图案和老化效果。
+description: 使用“皮革风化”节点，根据网格弯曲为皮革材料添加磨损图案和老化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 ## 描述
 
-这是一种同时适用于多个通道的完全素材效果。 它增加了皮革的随机磨损效果，同时控制了年龄和污浊度。 它类似于[织物风化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)，但专门针对皮革进行调整。<br>除非插入适当的烘焙AO和世界空间正常映射，否则此效果不会非常好，因为它需要这些组件来充分计算和生成所有内容。
+这是一种同时适用于多个声道的全材料效果。 它增加了皮革的随机磨损效果，同时控制了年龄和污浊度。 它类似于[织物风化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)，但专门针对皮革进行调整。<br>除非插入适当的烘焙AO和世界空间正常映射，否则此效果不会非常好，因为它需要这些组件来充分计算和生成所有内容。
 
-在使用完整素材时，请确保完全了解[链接创建模式](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)。
+在使用完整材料时，请确保完全了解[链接创建模式](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 9%
 
 |  |  |
 |:---|:---|
-| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>Ambient occlusion</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
 | <b>普通Wold空间</b> <i>颜色输入</i> |  |
 | <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“Mask”参数切换。 |
 
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
 | <b>高级</b> |  |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
 | <b>蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |

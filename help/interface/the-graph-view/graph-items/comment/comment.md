@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
-description: 向Substance 3D Designer图表添加注释，以记录您的工作流程并解释节点连接。
+description: 向图形添加注释，以记录您的工作流程并解释节点连接。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items > Comment
 helpx_experience_level: ""
@@ -29,9 +29,9 @@ ht-degree: 1%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-注释只是可放置在图表中任意位置的一段自由浮动文本。
+注释只是可置入图形中任何位置的一段自由浮动文本。
 
-用于注释和解释图表的各个部分。 其<b>Description</b>属性包含要显示的文本。
+用于注释和解释图形的各个部分。 其<b>Description</b>属性包含要显示的文本。
 
 </td>
 </tr>
@@ -39,33 +39,33 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 注释具有自动换行功能，旨在最大程度地减少它们在图表中的占用空间。
+> 注释具有自动换行功能，旨在最大程度地减少图形中的占地空间。
 
 ## 创建注释
 
-默认类型的注释独立于图形中的节点放置。
+注释的默认类型是独立于图形中节点放置的。
 
 可以通过以下方式创建它：
 
 +++节点菜单
-在图形视图中按<b>空格键</b>以打开<b>节点菜单</b>，然后在列表中选择“注释”项。
+按图形视图中的<b>空格键</b>打开<b>节点菜单</b>，然后在列表中选择“注释”项。
 
 在搜索字段中键入“comment”以显示项目并更快地找到它。
 
 +++
 
 +++快捷键
-如果将键盘快捷键映射到[首选项](../../../../interface/preferences-window/preferences-window.md)中的“注释”项，请在图形视图具有焦点时按该快捷键。
+如果将键盘快捷键映射到[首选项](../../../../interface/preferences-window/preferences-window.md)中的“注释”项，则在图形视图具有焦点时按该快捷键。
 
 +++
 
 +++上下文菜单
-在图表视图中，按任何对象或空白空间上的<b>RMB</b>并选择<b>添加注释</b>选项。
+在图形视图中，按任何对象或空白空间上的<b>人民币</b>并选择<b>添加注释</b>选项。
 
 +++
 
 +++图形工具栏
-在“图形视图”工具栏中，单击<b>节点调板</b>中的“注释”按钮。
+在图形视图工具栏中，单击<b>节点调板</b>中的“注释”按钮。
 
 +++
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-带父级的注释是一条&#x200B;*附加到图形中特定节点*&#x200B;的注释，这样在移动节点时，该注释会随之出现，并且在删除节点时，该注释也会随之删除。
+父注释是&#x200B;*附加到图形中特定节点*&#x200B;的注释，这样在移动节点时，该注释会随之出现，并且在删除节点时，该注释也会随之删除。
 
 当前选择&#x200B;*单个*&#x200B;节点时或通过单个节点的上下文菜单创建的注释是该节点的父级。
 

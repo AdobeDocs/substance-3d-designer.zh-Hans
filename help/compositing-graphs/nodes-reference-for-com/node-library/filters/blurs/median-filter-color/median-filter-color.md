@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
 description: 使用“中间值滤镜颜色”节点可以减少噪声并保留颜色纹理中的边缘。
 helpx_creative_field: ""
@@ -69,7 +69,7 @@ ht-degree: 1%
 |:---|:---|
 | <b>内核大小</b> *整数* | 内核是筛选器计算中使用的一组特定值。 在此上下文中，其值为相邻像素的值。<br><br>对于每个像素，此滤镜将在该像素周围的所有邻居以方形核取出，并计算所有邻居的中值。<br><br>此参数控制方形核的大小（以像素为单位）。 较大的内核会产生更强、更远的平滑效果，但会损失一些细节。<br><br>*- 3x3：*&#x200B;内核宽度为3像素，高度为3像素，总计为8个相邻像素。<br>*- 5x5：*&#x200B;内核宽度为5像素，高度为5像素，总计为24个相邻像素。 |
 | <b>筛选器类型</b> *整数* | 应用于内核中取样的邻居的计算。<br><br>*— 中间值：*&#x200B;直接使用所有邻居的中值。<br>*- MLMAD：*&#x200B;表示“最小中间值绝对偏差中间值”。 此偏差解释了数值与中间值的差异。 MLMAD方法没有直接使用中间值，而直接使用所有偏差的中间值，中间值可能由高偏差的异常像素偏斜。 此方法产生更加强大的平滑效果，可能会根据内核大小拼合区域。 |
-| <b>影响Alpha</b> *布尔值* | 控制是否应将滤镜应用于图像的Alpha 通道。 当&#x200B;*True*&#x200B;时，Alpha通道保持不变。 |
+| <b>影响Alpha</b> *布尔值* | 控制是否应将滤镜应用于图像的Alpha 通道。 当&#x200B;*True*&#x200B;时，Alpha 通道保持不变。 |
 
 ## 示例
 

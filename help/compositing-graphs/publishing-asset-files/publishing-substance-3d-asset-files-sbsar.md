@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 了解如何从Designer发布Substance 3D资源文件(SBSAR)，以便在其他应用程序和引擎中使用。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 此页面介绍了Substance 3D Designer如何将包发布为<b>Substance 3D资源</b>文件，这是一种扩展名为<b>SBSAR</b>的特殊文件格式，在Substance生态系统以及支持该格式的其他应用程序中使用。
 
-通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/cn/substance-3d-sampler.html)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
+通常最好使用Substance 3D资源而不是位图，因为它要灵活得多，重量也轻得多。 如果您在Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/substance-3d-sampler.html)或[Player](https://helpx.adobe.com/substance-3d-player/home.html)中使用它们，则使用[“发送到……”功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)更快。
 
 ![简化了发布SBSAR文件](../../assets/exportflow.png "简化了发布SBSAR文件")
 
@@ -153,4 +153,4 @@ Publish对话框有时会发出黄色警告。 下面列出了常见问题，并
 * 发布的Substance 3D资源包是单向文件格式。 无法将Substance 3D资源“反编译”回Substance 3D文件(SBS)。 “编辑”Substance 3D资源的唯一方法是编辑原始Substance 3D文件。 您仍可以将Substance 3D资源包内容用作新Substance图表内的节点（打开并拖放），因此这并非一个巨大的限制。
 * Substance 3D资源文件具有推断兼容性的版本。 核心Substance 引擎会不时通过新增功能进行更新。 使用这些功能的包需要由支持这些新功能的应用程序读取。 这不是所有Substance应用程序的问题，因为它们会同时更新，但增效工具和集成可能会产生更长的兼容性延迟。\
   使用[项目首选项](../../interface/preferences-window/project-settings/project-settings.md)中的Substance 引擎兼容性显示选项来跟踪任何潜在问题。
-* 将图形作为Substance 3D资源的一部分发布后，某些公开参数（如&#x200B;*静态*&#x200B;参数）将&#x200B;*隐藏*。 有关这些参数的列表，请参阅[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)页的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分，并了解有关静态参数的详细信息。
+* 将图形作为Substance 3D资源的一部分发布后，某些公开的参数（如&#x200B;*静态*&#x200B;参数）将&#x200B;*隐藏*。 有关这些参数的列表，请参阅[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)页的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分，并了解有关静态参数的详细信息。

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、创建和管理资源，包括位图、字体和3D场景。
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ ht-degree: 7%
 图形资源是在Designer中创建的主要资源。 每个文档都有其专用的区域。 存在三种主要类型：
 
 * [Substance 图形](../compositing-graphs/substance-compositing-graphs.md)
-* [函数图表](../function-graphs/function-graphs.md)
+* [函数图形](../function-graphs/function-graphs.md)
 
 </td>
 </tr>

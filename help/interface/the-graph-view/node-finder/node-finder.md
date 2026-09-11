@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: 使用Node Finder在图形中快速搜索和定位节点，以便有效地导航。
 helpx_creative_field: ""
@@ -65,10 +65,10 @@ ht-degree: 0%
 
 使用此组合框可以筛选搜索结果，以便仅保留特定类型的节点。
 
-请注意，所有实例节点都是&#x200B;*相同的节点类型*，实际上，是“实例”类型，而原子节点都是其自己的类型。
+请注意，所有实例化都是&#x200B;*相同的节点类型*，实际上是“instance”类型，而原子节点都是其自己的类型。
 
 +++节点类型列表
-该列表与当前图形类型相关联。
+该列表与当前图形类型相关。
 
 ![节点类型（合成）](../../../assets/node-finder-types-compositing.png "节点类型（合成）"){zoomable="yes"}
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 
 
-*函数图表的节点类型*
+*函数图形的节点类型*
 
 +++
 
@@ -89,22 +89,22 @@ ht-degree: 0%
 
 
 
-*在Substance图表中搜索“级别”节点类型*
+*在图形中搜索“级别”节点类型*
 
 +++
 
-+++搜索实例节点
++++搜索实例化
 ![节点查找器：按“实例”类型（合成）搜索](../../../assets/node-finder-compositing-instances.png "节点查找器：按“实例”类型（合成）搜索"){zoomable="yes"}
 
 
 
-*在Substance图形中搜索“实例”节点类型*
+*正在搜索图形中的“实例”节点类型*
 
 ![节点查找器：按“实例”类型（函数）搜索](../../../assets/node-finder-functions-instances.png "节点查找器：按“实例”类型（函数）搜索"){zoomable="yes"}
 
 
 
-*在Substance函数图中搜索“实例”节点类型*
+*正在搜索Substance函数图形中的“Instance”节点类型*
 
 +++
 
@@ -137,20 +137,20 @@ ht-degree: 0%
 > 
 > * 搜索不区分大小写。 例如，“my node label”和“My Node Label”返回相同的结果。
 > * 查询前后的空格将被忽略。
-> * 无法在同一个图形中同时执行多个查询。 例如，“色阶模糊”不会同时匹配“色阶”和“模糊”节点。 同样，也不支持逻辑运算符。
+> * 在同一图形中不能同时执行多个查询。 例如，“色阶模糊”不会同时匹配“色阶”和“模糊”节点。 同样，也不支持逻辑运算符。
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### 实例图形标识符
+### 实例标识符
 
-可以使用它们引用的图形的<b>标识符</b>找到[实例节点](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
+可以使用他们引用的实例化的<b>标识符</b>找到[图形](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![节点查找器：按图形标识符搜索](../../../assets/node-finder-functions-identifier.png "节点查找器：按图形标识符搜索"){zoomable="yes"}
+![节点查找器：按标识符搜索](../../../assets/node-finder-functions-identifier.png "节点查找器：按图形标识符搜索"){zoomable="yes"}
 
 *单击图像可放大*
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 </table>
 
 +++资源管理器中的标识符
-图形在资源管理器中按其标识符列出。
+图形按资源管理器中的标识符列出。
 
 ![资源管理器：包内容](../../../assets/explorer-package-simple.png "资源管理器：包内容"){zoomable="yes"}
 
@@ -167,10 +167,10 @@ ht-degree: 0%
 
 +++
 
-+++实例节点的工具提示中的标识符
-实例节点的工具提示包括它们参照图形的标识符。
++++实例化工具提示中的标识符
+实例化的工具提示包括其引用图形的标识符。
 
-![实例节点的工具提示中的图形标识符](../../../assets/node-finder-compositing-identifier.png "实例节点的工具提示中的图形标识符"){zoomable="yes"}
+![实例化工具提示中的图形标识符](../../../assets/node-finder-compositing-identifier.png "实例化工具提示中的图形标识符"){zoomable="yes"}
 
 
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### 公开的参数和变量
+### 公开参数和变量
 
 可以直接搜索[公开参数](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的标识符或任何其他变量。
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
 
 
-也可以在[Substance图形属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中直接复制或编辑公开参数的标识符。
+也可以在[标识符属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中直接复制或编辑Substance图形。
 
 ![节点查找器：公开参数](../../../assets/node-finder-compositing-exposed-parameter.png "节点查找器：公开参数"){zoomable="yes"}
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 +++
 
 +++从控制台警告/错误中搜索变量
-当某个图形具有由某个节点使用的<b>变量</b>引发的错误或警告时，请转到<b>Windows > Console</b>以显示完整的错误/警告消息，其中包含该变量。 然后，您可以将此变量复制并粘贴到Node Finder查询字段中，以快速找到导致问题的节点。
+当图形具有由node使用的<b>变量</b>引发的错误或警告时，请转到<b>Windows >控制台</b>以显示完整的错误/警告消息，其中包括该变量。 然后，您可以将此变量复制并粘贴到Node Finder查询字段中，以快速找到导致问题的节点。
 
 还可以使用任意文本编辑器直接从SBS文件中的XML数据复制变量。
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 +++
 
 +++获取/设置节点
-在图形中搜索变量（包括公开的参数）时，搜索将突出显示所有节点，其中[Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)或[Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)节点在任何节点的参数函数中使用该变量。
+在图形（包括公开参数）中搜索变量时，搜索将突出显示所有节点，其中[Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)或[Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)节点在任何节点的参数函数中使用该变量。
 
 ![节点查找器：搜索变量匹配使用它的Get节点](../../../assets/node-finder-exposed-parameter-01.gif "节点查找器：搜索变量匹配使用它的Get节点"){zoomable="yes"}
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
 ### 节点UID
 
-图形中的每个节点都有一个唯一的标识号(UID)，可用于搜索该节点。
+图形中的每个节点都有一个唯一的标识符号(UID)，可用于搜索该节点。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -267,7 +267,7 @@ uid=1234567890
 +++
 
 +++从控制台搜索节点UID时出现警告/错误
-如果图形存在节点引发的错误或警告，请转到Windows >控制台以显示完整的错误/警告消息，其中将包含节点的<b>UID</b>。 然后，您可以将此UID复制并粘贴到节点查找器查询字段中，以快速找到导致问题的节点。
+当图形出现由节点引发的错误或警告时，请转到Windows >控制台以显示完整的错误/警告消息，其中将包括节点的<b>UID</b>。 然后，您可以将此UID复制并粘贴到节点查找器查询字段中，以快速找到导致问题的节点。
 
 还可以使用任何文本编辑器直接从SBS文件中的XML数据复制节点UID。
 
@@ -310,14 +310,14 @@ uid=1234567890
 
 ![节点查找器：递归搜索](../../../assets/node-finder-recursion-01.png "节点查找器：递归搜索"){zoomable="yes"}
 
-*右侧的查询突出显示下面的实例节点，因为其左侧的引用图形与该查询匹配*
+*右侧的查询突出显示下面的实例化，因为其左侧的引用图形与该查询匹配*
 
 +++示例1
 ![节点查找器：递归搜索示例1](../../../assets/node-finder-recursion-01.gif "节点查找器：递归搜索示例1"){zoomable="yes"}
 
 
 
-实例节点引用多个节点与查询匹配的图形。
+实例化引用多个图形匹配查询的节点。
 
 +++
 
@@ -326,7 +326,7 @@ uid=1234567890
 
 
 
-启用“递归搜索”选项将突出显示引用图表的实例节点，其中“像素处理器”节点使用与查询匹配的变量。
+启用“Recursive search”（递归搜索）选项将突出显示图形使用与查询匹配的变量的实例化。
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer 3D视图中将着色器切换到OpenGL核心配置文件，以提高兼容性和性能。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 现在，`attribute`和`varying`变量已显式声明为`in`或`out`，具体取决于着色器阶段：
 
-在顶点着色器中，顶点的`attribute`被声明为`in`，而要传递给片段着色器的`varying`被声明为`out`。\
+在着色器中，顶点的`attribute`被声明为`in`，而要传递给片段着色器的`varying`被声明为`out`。\
 例如：
 
 ```
@@ -78,7 +78,7 @@ out vec2 fragmentUV;
 ```
 
 
-同样，在碎片着色器中，也会出现变化。 还应声明一个将替换gl\_FracColor（不再内置）的out变量：
+同样在碎片着色器中，变化也会出现。 还应声明一个将替换gl\_FracColor（不再内置）的out变量：
 
 ```
 ## version 120
@@ -128,7 +128,7 @@ outColor = vec4(myColor.rgb, 1.0);
 ```
 
 
-### 使用新的纹理查找功能
+### 使用新的纹理查找函数
 
 随着着色语言的新版本，纹理查找API得到了简化和增强。
 

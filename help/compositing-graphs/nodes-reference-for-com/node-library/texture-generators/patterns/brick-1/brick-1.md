@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
 breadcrumb-title: ''
 description: 使用“砖块1”节点生成用于创建砌砖和拼贴纹理效果的基本砖块模式。
 helpx_creative_field: ""
@@ -46,9 +46,9 @@ ht-degree: 10%
 |  |  |
 |:---|:---|
 | <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
-| <b>边缘Smoothness</b> <i>0.0 - 1.0</i> | 在粗糙和平滑边缘之间混合。 |
+| <b>边缘平滑度</b> <i>0.0 - 1.0</i> | 在粗糙和平滑边缘之间混合。 |
 | <b>间隙宽度</b> <i>0.0 - 1.0</i> | 设置间隙（间隙大小）。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 

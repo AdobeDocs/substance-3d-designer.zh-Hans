@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中为组织的资源库创建和管理包元数据。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 如果您正在开发Python插件，则可能需要手动编辑元数据以供测试和调试之用。 具体操作方法如下：
 
-1. 如果在资源管理器中双击某个包，它将打开此包上的“属性”面板。
+1. 如果双击资源管理器中的某个包，则会打开此包上的“属性”面板。
 
    ![包元数据](../assets/empty.png "包元数据")
 1. 这里有一个专用部分“元数据”。 在您的情况下，它可能为空，如上面的捕获所示。

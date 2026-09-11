@@ -60,7 +60,7 @@ ht-degree: 0%
 可以使用&#x200B;**项目**&#x200B;组合框旁边的&#x200B;*按钮*&#x200B;以不同模式显示模板列表：
 
 * **![](../../assets/mdl-template-recent-icon.png)显示最近使用的模板**：筛选列表以显示最近使用的模板，其顺序为&#x200B;*最近到最近最少*，顶部项是最近使用的项
-* **![](../../assets/mdl-template-graphs-icon.png)显示图形**：模板按其&#x200B;*仅标签*&#x200B;显示，按模板目录中的[Substance 3D](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)文件的顺序
+* **![](../../assets/mdl-template-graphs-icon.png)显示图形**：模板按其&#x200B;*仅标签*&#x200B;显示，按模板目录中的[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)文件的顺序
 * **![](../../assets/mdl-template-packages-icon.png)显示Substance 3D文件**：按照模板目录中文件的顺序，模板按其标签显示为&#x200B;*它们所属的Substance 3D文件的子级*
 * **![](../../assets/mdl-template-directory-icon.png)显示目录**：模板按其标签显示为其所属目录的&#x200B;*子级*，顺序为模板目录中的文件
 

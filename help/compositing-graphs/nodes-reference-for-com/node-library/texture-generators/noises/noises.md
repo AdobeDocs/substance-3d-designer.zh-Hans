@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的噪声生成器节点，为纹理生成和变化创建程序化噪声模式。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # 噪点
 
-噪声是有机的、混沌的程序化图形。 噪声产生的输出看起来与[图案类别](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)的人工外观形状非常不同。
+噪声是有机的、混沌的程序化图形。 噪声生成的输出看起来与[图案类别](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)的人造外观形状非常不同。
 
 您会使用[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中的噪声作为起点或细节图层处理砂砾、Dirt、随机增长等内容，以及任何类型的细微变化图层等……
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: 使用“路径变形”节点沿路径曲线变形纹理，以创建弯曲和有机图案。
 helpx_creative_field: ""
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>强度</b> <i>浮动</i> | <b>强度</b>参数设置变形的强度。 |
+| <b>强度</b> <i>Float</i> | <b>强度</b>参数设置变形的强度。 |
 | <b>步骤数</b> <i>整数</i> | 使用较高的值，以多个较小的增量来变形输入路径。<br>这可以防止路径自行交叉，特别是在使用较高的<b>强度</b>值时。 |
 
 ## 示例

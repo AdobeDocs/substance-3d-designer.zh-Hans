@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting.html"
 breadcrumb-title: ''
 description: 了解如何使用Python脚本和增效工具开发扩展Substance 3D Designer功能。
 helpx_creative_field: ""

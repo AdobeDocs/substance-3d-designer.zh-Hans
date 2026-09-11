@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本13.1的发行说明，了解节点图形改进和AxF导出支持。
 helpx_creative_field: ""

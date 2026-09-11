@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: 使用“平面光”节点可将平面的光源添加到HDRI环境中，以进行定向光照控制。
+description: 使用“平面光”节点将平面光源添加到HDRI环境中，以进行定向光照控制。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## 描述
 
-生成球面投影的平面形状。 可以使用输入参数在3D中放置和定向平面。
+生成球面投影的平面形状。 可使用输入参数在3D中放置和定向平面。
 
-与简单的[形状光](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md)的区别在于，在简单的投影之外，它具有更高级的放置选项，并且可以应用更多图案和蒙版，类似于[线光](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md)。
+与简单的[形状光](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md)的区别在于，在简单的距原点距离投影之外，它具有更高级的放置选项，并可应用更多图案和蒙版，类似于[线光](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md)。
 
 </td>
 </tr>
@@ -57,8 +57,8 @@ ht-degree: 4%
 
 |  |  |
 |:---|:---|
-| <b>位置模式</b> <i>地面/上限、距原点距离、世界位置</i> | 从三种不同的放置模式中进行选择。 地面/天花板和距原点距离支持在2D 视图中操作，世界位置只能通过属性更改，但支持更精确的放置。 |
-| <b>显示网格</b> <i>False/True</i> | 用于启用要绘制的调试网格的助手函数。 帮助估计线段在空间中的位置。 |
+| <b>位置模式</b> <i>地面/上限、距原点距离、世界位置</i> | 从三种不同的放置模式中进行选择。 地面/天花板和距原点距离支持在2D视图中操作，“世界”位置只能通过属性更改，但支持更精确的放置。 |
+| <b>显示网格</b> <i>False/True</i> | 用于允许绘制调试地网格的帮助器函数。 帮助估计线段在空间中的位置。 |
 | <b>位置坐标</b> |  |
 | <b>向上矢量</b> <i>Z向上，Y向上</i> | 仅在“世界位置”模式下确定坐标系的方向。 |
 | <b>平面UV位置</b> | 仅适用于地面/天花板和距原点距离。 在UV空间中设置平面位置。 |
@@ -78,8 +78,8 @@ ht-degree: 4%
 | <b>图案</b> <i>平滑方形，锐方形，锥形，半球，图像输入</i> | 选择要使用的图案形状。 |
 | <b>图案硬度</b> <i>0.0 - 1.0</i> | 设置图案的硬度/对比度。 |
 | <b>图案UV模式</b> <i>拉伸，仅中间拉伸</i> | 设置如何使用应用于形状图像顶部的辅助图案蒙版。 |
-| <b>启用地面剪切</b> <i>False/True</i> | 如果平面可以被地面平面剪切，或者低于该平面时仍然显示，请启用此选项。 使用“显示网格”可以更好地估计这一情况。 |
-| <b>Height</b> <i>-2.0 - 0.0</i> | 调整Height以进行剪切。 |
+| <b>启用地面剪切</b> <i>False/True</i> | 如果平面可以被地平面剪切，或者低于地平面时仍然显示，则启用此选项。 使用“显示地面网格”可更好地估算这一点。 |
+| <b>Height</b> <i>-2.0 - 0.0</i> | 调整地面Height以进行剪切。 |
 | <b>启用后台输入</b> <i>False/True</i> | 切换可选背景图像的使用。 复合图像在背景之上生成了光照。 |
 | <b>背景颜色</b> <i>（颜色值）</i> | 如果未使用背景输入，请在此处设置纯色背景值。 |
 | <b>背景灰度系数</b> <i>sRGB，线性</i> | 如果使用“背景输入”，请设置如何解释背景输入。 |

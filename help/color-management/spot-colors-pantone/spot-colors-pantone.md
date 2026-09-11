@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用Pantone专色，以便在打印和设计工作流程中实现准确的颜色匹配。
 helpx_creative_field: ""

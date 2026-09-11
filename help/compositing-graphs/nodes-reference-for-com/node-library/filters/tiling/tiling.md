@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的拼贴滤镜节点，以创建无缝的拼贴纹理图案。
 helpx_creative_field: ""

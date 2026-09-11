@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Designer中导入和使用3D场景资源以进行素材预览和测试。
+description: 了解如何在Substance 3D Designer中导入和使用3D 场景资源以进行材料预览和测试。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > 3D scene resource
 helpx_experience_level: ""
@@ -20,23 +20,23 @@ ht-degree: 1%
 
 # 3D 场景资源
 
-本页介绍了Substance 3D Designer中的&#x200B;**3D场景**&#x200B;资源类型，包括其支持的文件格式以及可能的使用方式。
+本页介绍了Substance 3D Designer中的&#x200B;**3D 场景**&#x200B;资源类型，包括其支持的文件格式以及可能的使用方式。
 
 ## 概述
 
-可以在各种工作流程中使用3D场景资源：
+可以在各种工作流程中使用3D 场景资源：
 
-* [烘焙网格图](../../bakers/bakers.md)
-* 在[3D视图](../../interface/3d-view/3d-view.md)中预览[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的&#x200B;*纹理*
+* [网格图](../../bakers/bakers.md)
+* 在[3D 视图](../../interface/3d-view/3d-view.md)中预览[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)中的&#x200B;*纹理*
 
-支持以下3D场景文件格式：
+支持以下3D 场景文件格式：
 
 * [USD](https://graphics.pixar.com/usd/release/index.html) (\*.usd)
 * [USDA](https://graphics.pixar.com/usd/release/index.html) (\*.usda)
 * [USDZ](https://graphics.pixar.com/usd/release/index.html) (\*.usdz)
 * [Autodesk FBX](https://www.autodesk.com/products/fbx/overview) (\*.fbx)
 * [Wavefront OBJ](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.obj)
-* [Autodesk 3D Studio Mesh](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html) (\*.3ds)
+* [Autodesk 3D Studio网格](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html) (\*.3ds)
 * [拼贴画](https://www.khronos.org/collada/) (\*.dae)
 * [Autodesk AutoCAD绘图](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-D4242737-58BB-47A5-9B0E-1E3DE7E7D647-htm.html) (\*.dxf)
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 3D场景&#x200B;*只能*&#x200B;被链接，这意味着它们停留在磁盘上的位置，仅在应用程序中引用。
 
-将包含3D场景资源的包发布为[Substance 3D](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)资源(SBSAR)时，网格将&#x200B;*未嵌入*，但会被丢弃。
+将包含3D场景资源的包发布为[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)资源(SBSAR)时，网格将&#x200B;*未嵌入*，但会被丢弃。
 
 ## 烘焙网格图
 

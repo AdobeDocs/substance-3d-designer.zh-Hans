@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer中的纹理生成器节点，从图案、噪点和形状创建程序性纹理。
+description: 访问Substance 3D Designer中的纹理生成器节点，以根据图案、噪声和形状创建程序化的纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture generators
 helpx_experience_level: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
 description: 使用“形状”节点可生成用于在Substance 3D Designer中创建图案和纹理的基本几何形状。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 生成各种程序化形状，其中包含修改基础形状的选项。 形状始终具有完美插值和高精度。
 
-尽管简单，但这是一个非常有用的节点：它是大多数程序化高度图生成的构建块！ 通过将基本形状与变换节点相结合，可以创建比任何位图都更精确的完全程序化的Heightmap形状。
+尽管简单明了，但这是一个非常有用的节点：它是大多数程序化的高度图生成的构建块！ 通过将基本形状与变换节点相结合，可以创建比任何位图都更精确的完全程序化的高位图形状。
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 6%
 | <b>大小</b> <i>0.0 - 1.0</i> | 允许在X或Y轴上进行非均匀缩放。 |
 | <b>角度</b> <i>0.0 - 1.0</i> | 旋转整个形状。 |
 | <b>旋转45°</b> <i>False/True</i> | 以预设45度旋转。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>非方形拼贴</b> <i>False/True</i> | 启用非正方形扩展功能后，这将拼贴形状而不压缩。 |
 
 ## 示例

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的“首选项”窗口，自定义应用程序设置和行为。
 helpx_creative_field: ""
@@ -55,21 +55,21 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>反转放大视图</b>  *默认：未选中* | 如果选中，缩放控件将在[2D视图](../../interface/2d-view/2d-view.md)、[3D视图](../../interface/3d-view/3d-view.md)和[图形](../../interface/the-graph-view/the-graph-view.md)中反转。 |
+| <b>反转放大视图</b>  *默认：未选中* | 如果选中，缩放控件将在[2D 视图](../../interface/2d-view/2d-view.md)、[3D 视图](../../interface/3d-view/3d-view.md)和[图形](../../interface/the-graph-view/the-graph-view.md)中反转。 |
 
 ### 路径
 
 |  |  |
 | --- | --- |
 | <b>保存/导出路径</b>  *默认：最后路径* | 确定建议的保存/导出路径是您上次选择的路径，还是[SBS包](../../getting-started/overview/overview.md)的路径。 最后选定的路径将在各个会话中保存。 |
-| <b>临时文件夹</b>  *默认：路径取决于系统OS* | 当图形的图像数据超过分配的内存池（请参阅下面的<b>内存>图像缓存</b>）时，溢出数据将写入磁盘。 通过此设置，可以定义溢出图像缓存数据被写入的位置。   此位置还用于存储当前打开的SBS包的副本，其中包含自上次手动保存以来的最新修改。 |
+| <b>临时文件夹</b>  *默认：路径取决于系统OS* | 当图形的图像数据超过分配的内存池（请参阅下面的<b>内存>图像缓存</b>）时，溢出数据将被写入磁盘。 通过此设置，可以定义溢出图像缓存数据被写入的位置。   此位置还用于存储当前打开的SBS包的副本，其中包含自上次手动保存以来进行的最新修改。 |
 
 ### 内存
 
 #### 图像缓存
 
 对于当前图形中的每个渲染节点，应用程序在缓存中保留一个&#x200B;*全分辨率、未压缩的图像*。\
-实例节点将为它们引用的图表的所有节点生成这些图像，并在计算其[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)后删除这些图像。 此时，只有输出会保留在内存中。
+实例化将为它们引用的图形的所有节点生成这些图像，并在计算其[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)后删除这些图像。 此时，只有输出会保留在内存中。
 
 您可以设置分配给系统内存中的缩览图和图像的最大缓存大小，并查看当前使用情况。 如果缓存数据溢出其分配的池，则超出的数据将写入<b>临时文件夹</b>（请参阅上面的<b>路径>临时文件夹</b>）。
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 | --- | --- |
 | <b>内存预算</b>  *默认：自动* | 此分配会自动计算到总系统内存池的大约75%。 若要手动设置此值，请选择“*自定义*”选项，然后在相邻的输入字段中设置一个值。 |
 
-请注意，写入磁盘比写入系统内存慢&#x200B;*个数量级*。 因此，图形渲染时间将&#x200B;*指数增长*，因为溢出数据需要写入临时文件夹。\
+请注意，写入磁盘比写入系统内存慢&#x200B;*个数量级*。 因此，由于溢出数据需要写入临时文件夹，图形渲染时间将&#x200B;*指数增长*。\
 为防止发生这种情况，我们建议在文档的[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)部分中查看关于减少图形内存占用量的建议。
 
 #### 作业调度程序
 
-在特定任务期间（例如缩略图或[2D视图](../../interface/2d-view/2d-view.md)的图像转换），将创建单独的作业并将其分布到系统处理核心以提高效率。 每个作业都会将数据写入系统内存以执行其操作。\
+在特定任务期间（例如缩略图或[2D 视图](../../interface/2d-view/2d-view.md)的图像转换），将创建单独的作业并将其分布到系统处理内核以提高效率。 每个作业都会将数据写入系统内存以执行其操作。\
 此设置允许您为&#x200B;*所有并发作业*&#x200B;定义分配的内存池。 完全使用此池时，新作业将排队，直到当前作业完成。
 
 |  |  |
@@ -151,7 +151,7 @@ ht-degree: 1%
 | <b>打开图表时以2D视图查看输出</b>  *默认值：已选中* | 如果选中此选项，当第一个图形输出打开时，该图形会自动显示在[2D视图](../../interface/2d-view/2d-view.md)中。 这还具有渲染所有节点的效果，这些节点是通向该[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点的流的一部分。 |
 | <b>自动显示新创建的合成节点</b>  *默认值：已选中* | 如果选中此选项，[2D视图](../../interface/2d-view/2d-view.md)将自动更新，以显示新创建节点的输出。 |
 | <b>自动插入彩色/灰度转换节点</b>  *默认：未选中* | 如果选中此选项，则通过&#x200B;*放置特定节点*&#x200B;执行相应的转换来自动解决彩色/灰度连接类型不匹配问题。   当&#x200B;*灰度*&#x200B;输出（灰色连接器）连接到&#x200B;*颜色*&#x200B;输入（黄色连接器）时，[渐变映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点自动放置在这两个连接器之间。   当&#x200B;*彩色*&#x200B;输出（黄色连接器）连接到&#x200B;*灰度*&#x200B;输入（灰色连接器）时，[灰度转换](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)节点会自动放置在这两个连接器之间。 |
-| <b>在上下文中启用图形编辑</b>  *默认：未选中* | 默认情况下，在打开[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的图形时右键单击该节点，然后选择<b>打开引用</b>，将单独加载和编辑该图形&#x200B;**。   如果选中，则可以使用当前图形在实例&#x200B;*中传递的信息来编辑实例*&#x200B;引用的图形。 为此，请右键单击实例节点并选择<b>在上下文中打开引用</b>，或使用Ctrl+E击键。   这意味着实例化图形可以在实例化图形的上下文中编辑。 这对于查看您正在处理的图表上的编辑效果非常有用。 请参阅以下示例。  &#x200B;** 注意：**&#x200B;使用上下文编辑时，[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中的<b>预览</b>和<b>预设</b>选项卡处于&#x200B;*禁用*&#x200B;状态。 |
+| <b>在上下文中启用图形编辑</b>  *默认：未选中* | 默认情况下，在打开[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的图形时右键单击该节点，然后选择<b>打开引用</b>，将单独加载和编辑该图形&#x200B;**。   如果选中，则可以使用当前图形在实例&#x200B;*中传递的信息来编辑实例*&#x200B;引用的图形。 为此，请右键单击实例节点并选择<b>在上下文中打开引用</b>，或使用Ctrl+E击键。   这意味着实例化图形可以在实例化图形的上下文中编辑。 这对于查看您正在处理的图表上的编辑效果非常有用。 请参阅以下示例。  **注意：**&#x200B;使用上下文编辑时，[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中的<b>预览</b>和<b>预设</b>选项卡处于&#x200B;*禁用*&#x200B;状态。 |
 
 <table>
 <tr style="border: 0;">
@@ -178,20 +178,20 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>默认情况下隐藏环境</b>  *默认值：已选中* | 确定[环境](../../interface/3d-view/3d-view.md)默认可见性设置。 隐藏后，3D视图的背景将替换为&#x200B;*纯色*。 |
-| <b>视区缩放</b>  *默认：自动* | 当系统使用显示缩放时，控制3D视图的渲染分辨率的缩放。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>自动</i>：渲染分辨率基于<i>缩放</i>显示分辨率</li> <li data-preserve-html="true"><i>无</i>：渲染分辨率基于<i>本机</i>显示分辨率</li> </ul> |
+| <b>默认情况下隐藏环境</b>  *默认值：已选中* | 确定[环境](../../interface/3d-view/3d-view.md)默认可见性设置。 隐藏后，3D 视图的背景将替换为&#x200B;*纯色*。 |
+| <b>视口缩放</b>  *默认：自动* | 控制3D 视图使用显示缩放时系统渲染分辨率的缩放。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>自动</i>：渲染分辨率基于<i>缩放</i>显示分辨率</li> <li data-preserve-html="true"><i>无</i>：渲染分辨率基于<i>本机</i>显示分辨率</li> </ul> |
 
 ### OpenGL
 
 |  |  |
 | --- | --- |
-| <b>样本计数</b>  *默认值： 64* | 影响3D视图着色器样本表的大小。 值越高图像质量越高，但性能越低。  **注意：**&#x200B;着色器的示例表也受到系统的GPU和操作系统的影响。 |
+| <b>样本计数</b>  *默认值： 64* | 影响3D 视图着色器样本表的大小。 值越高图像质量越高，但性能越低。  **注意：**&#x200B;着色器的示例表也受到系统的GPU和操作系统的影响。 |
 
 ## 烘焙
 
 |  |  |
 | --- | --- |
-| <b>GPU 射线追踪</b>  *默认值：已选中* | 如果选中，将在GPU上对[兼容的烘焙器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)执行光线追踪。   根据NVIDIA GPU体系结构，以下GPU 射线追踪后端将是默认的：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：图灵及更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal和Maxwell</li> </ul>  **注意：**&#x200B;有关GPU驱动的烘焙工具的更多信息可在[Substance Bakers](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)文档的[GPU 射线追踪](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)部分中找到。  **提示：**&#x200B;启动应用程序时，可以使用以下&#x200B;*命令行参数*&#x200B;以&#x200B;*强制*&#x200B;使用其他GPU 射线追踪后端： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> ：在Nvidia Turing或更新的GPU上强制使用Optix</li> <li data-preserve-html="true"><code>—force-dxr</code> ：在Nvidia Pascal GPU上强制使用DXR</li> </ul> |
+| <b>GPU 射线追踪</b>  *默认值：已选中* | 如果选中，将在GPU上对[兼容Baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)执行射线追踪。   根据NVIDIA GPU体系结构，以下GPU 射线追踪后端将是默认的：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：图灵及更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal和Maxwell</li> </ul>  **注意：**&#x200B;有关GPU支持的Baker的更多信息，请参阅[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)文档的[GPU 射线追踪](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)部分。  **提示：**&#x200B;启动应用程序时，可以使用以下&#x200B;*命令行参数*&#x200B;以&#x200B;*强制*&#x200B;使用其他GPU 射线追踪后端： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> ：在Nvidia Turing或更新的GPU上强制使用Optix</li> <li data-preserve-html="true"><code>—force-dxr</code> ：强制在Nvidia Pascal GPU上使用DXR</li> </ul> |
 
 ## 库
 
@@ -201,18 +201,18 @@ ht-degree: 1%
 
 ## 快捷键
 
-您可以指定自定义键盘快捷键以在图形中创建节点。
+可以为在图形中创建节点分配自定义键盘快捷键。
 
-可以为所有图形类型中的Substance分配快捷方式： [节点图表](../../compositing-graphs/substance-compositing-graphs.md)、[Substance函数图表](../../function-graphs/function-graphs.md)和[FX映射图表](../../function-graphs/fxmaps/fxmaps.md)。
+可以为所有图形类型中的节点分配快捷方式： [Substance图形](../../compositing-graphs/substance-compositing-graphs.md)、[Substance函数图形](../../function-graphs/function-graphs.md)和[FX-Map图形](../../function-graphs/fxmaps/fxmaps.md)。
 
-可以为任何节点分配快捷方式，甚至可以为自定义库节点分配。 可以在不同的图形类型中分配相同的快捷键。 默认情况下，不会分配任何快捷键，您可以根据自己的喜好自由自定义快捷键。
+可以为任何节点分配一个快捷键，甚至可以分配定制库节点。 可以在不同的快捷键类型中分配相同的图形。 默认情况下，不会分配任何快捷键，您可以根据自己的喜好自由自定义快捷键。
 
-如果与其他节点快捷键或内置程序快捷键发生冲突，则会突出显示条目，并显示警告。 在解决冲突之前，该快捷键将&#x200B;*无效*。
+如果与其他节点快捷键或内置程序快捷键发生冲突，则会突出显示条目，并显示警告。 在解决冲突之前，快捷键将&#x200B;*无效*。
 
 >[!IMPORTANT]
 >
 > Python增效工具覆盖的快捷键
 > 
-> 当Python插件定义分配给节点的键盘快捷键时，该插件将覆盖该快捷键。 这意味着该键将触发插件操作，而不是创建节点。
+> 当Python增效工具定义分配给某个节点的键盘快捷键时，该增效工具将覆盖该快捷键。 这意味着该键将触发插件操作，而不是创建节点。
 > 
 > [节点对齐工具](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)所使用的H、S和V键已经出现这种情况。

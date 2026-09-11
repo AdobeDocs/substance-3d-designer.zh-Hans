@@ -1,6 +1,6 @@
 ---
 title: 金字塔方形
-description: Designer >Substance合成图表>用于Substance合成图表的SDF 函数参考>节点库>节点>基元>金字塔方形
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>金字塔方形
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '138'
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![棱锥方形图标](./3d-sdf-pyramid-square.png "棱锥方形")
+![金字塔方形图标](./3d-sdf-pyramid-square.png "金字塔方形")
 
 <b>In：</b>SDF 函数>基元
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: 使用Paths顶点处理器简单节点处理带有简化转换选项的路径顶点。
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>路径</b> <i>颜色</i> | 变换后的路径。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
+| <b>路径</b> <i>颜色</i> | 变换路径。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
 
 <a name="parameters"></a>
 
@@ -78,8 +78,8 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>图像输入计数</b> <i>整数</i> | 用于连接应在<b>逐顶点函数</b>参数函数中采样的图像的可见<b>输入#</b>输入连接器的数量。<br>设置完所有所需的样本后，可通过将此参数的值减回0来隐藏未使用的大头针。<br>如果需要更多输入，请改用[Paths顶点处理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)。 |
-| <b>逐顶点函数</b> <i>浮点2</i> | 应用于每个顶点的函数。 必须返回新顶点位置。<br>有关指导信息，请参阅此页面中的<b>描述</b>部分。 |
+| <b>图像输入计数</b> <i>整数</i> | 用于连接应在<b>逐顶点函数</b>参数函数中采样的图像的可见<b>输入#</b>输入连接器数。<br>设置完所有所需的样本后，可通过将此参数的值减回0来隐藏未使用的大头针。<br>如果需要更多输入，请改用[Paths顶点处理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)。 |
+| <b>逐顶点函数</b> <i>Float2</i> | 应用于每个顶点的函数。 必须返回新的顶点位置。<br>有关指导信息，请参阅此页面中的<b>描述</b>部分。 |
 
 ## 示例
 

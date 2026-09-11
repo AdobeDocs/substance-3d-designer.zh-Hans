@@ -266,13 +266,13 @@ SDF 函数的基本构成要素，您可以通过这些要素创建球体、箱�
 
 在3D查看器SDF 函数的上下文中完成节点后，您可以复制整个函数并将其粘贴到[形状飞溅v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)节点中，以将其用作该节点的形状生成器。
 
-将&#x200B;**形状类型**&#x200B;参数设置为`SDF function`，然后转到&#x200B;**图案SDF 函数**&#x200B;参数并单击&#x200B;**编辑函数**&#x200B;按钮以打开该参数的函数图形。
+将&#x200B;**形状类型**&#x200B;参数设置为`SDF function`，然后转到&#x200B;**图案SDF 函数**&#x200B;参数并单击&#x200B;**编辑函数**按钮以打开该参数的函数图形。
 然后可以将从3D查看器图形复制的函数粘贴到该节点中。 （不要忘记再次设置函数图形的输出节点！）
 
 确保调整&#x200B;**SDF边界帧大小**&#x200B;参数以匹配您在3D查看器帧中使用的[边界节点](#the-bounding-frame)，并确保形状绘制正确。
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*形状类型&#x200B;**设置为`SDF function`的形状飞溅v2。**&#x200B;请注意，**SDF边界帧大小**&#x200B;已调整为适合形状。*
+*形状类型&#x200B;**设置为`SDF function`的形状飞溅v2。**请注意，**SDF边界帧大小**已调整为适合形状。*
 
 >[!TIP]
 > 
@@ -302,24 +302,24 @@ SDF 函数的基本构成要素，您可以通过这些要素创建球体、箱�
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="在形状飞片v2映射器颜色节点中用于颜色映射的SDF材料ID。"/><i>用于形状飞溅v2映射器颜色中的颜色映射的材质ID<br></i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="在形状飞片v2映射器颜色节点中用于颜色映射的SDF材料ID。"/><i>用于形状飞片v2映射器颜色中的材料映射的ID<br></i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="在形状飞溅v2映射器颜色节点中用于三平面映射的SDF材料ID。"/><i>用于三平面映射的材质ID<br>在形状飞溅v2映射器颜色中</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="在形状飞溅v2映射器材料节点中用于三平面映射的SDF颜色标识。"/><i>材料ID用于形状飞溅v2映射器颜色中的三平面映射<br></i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="在形状飞溅v2中用于蒙版的SDF素材ID到蒙版节点。"/><br><i>用于遮盖的素材ID<br>在形状飞溅v2中遮盖</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="在形状飞溅v2中用于遮盖的SDF材料ID到遮盖节点。"/><br><i>用于遮盖的材料ID<br>在形状飞溅v2中遮盖</i>
         </td>
     </tr>
 </table>
 
-### 颜色、粗糙度和金属度
+### 色彩、粗糙度和金属感
 
-使用[设置颜色](./sdf-functions-material/set-color/set-color.md)、[设置粗糙度](./sdf-functions-material/set-roughness/set-roughness.md)和[设置金属度](./sdf-functions-material/set-metalness/set-metalness.md)SDF 函数，可以为节点中的形状定义这些材质属性。
+使用[设置颜色](./sdf-functions-material/set-color/set-color.md)、[设置粗糙度](./sdf-functions-material/set-roughness/set-roughness.md)和[设置金属度](./sdf-functions-material/set-metalness/set-metalness.md)SDF 函数可以为形状定义这些材料属性。
 
-然后，在[形状飞溅v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)节点中将该SDF 函数用作形状类型时，这些材质属性将作为映射显示在节点的&#x200B;**SDF颜色**、**SDF粗糙度**&#x200B;和&#x200B;**SDF金属度**&#x200B;输出中。 这些映射可以作为使用其他节点进行更复杂材质工作的基础。
+然后，在[形状飞溅v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)节点中将该SDF 函数用作形状类型时，这些材料属性将作为映射显示在节点的&#x200B;**SDF粗糙度**、**SDF颜色**&#x200B;和&#x200B;**SDF金属性**&#x200B;输出中。 这些映射可以作为使用其他节点进行更复杂材料工作的基础。
 
-请注意，与素材ID不同，值在混合形状上作为渐变进行&#x200B;*插值*，如下例所示。
+请注意，与材料ID不同，值在混合形状上作为渐变进行&#x200B;*插值*，如下例所示。
 
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
@@ -335,15 +335,15 @@ SDF 函数的基本构成要素，您可以通过这些要素创建球体、箱�
     </tr>
 </table>
 
-### 材质样本
+### 材料样本
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p><b>生锈螺栓</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材质样本</a>可用于跳转到在“形状飞溅”v2节点的上下文中应用的SDF 函数。</p><p>该图形经过整理和注释以指导您了解其结构、节点设置和SDF 函数设置。</p><p>它也是<i>完全可编辑</i>，因此可用作沙盒，以更深入地了解形状飞溅v2和SDF 函数工具集。 您可以创建任意数量的示例图表，因此请尽情使用吧！</p>
+            <p><b>生锈螺栓</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材料样本</a>可用于跳转到在“形状飞溅”v2SDF 函数上下文中应用的节点。</p><p>图形的组织和注释可指导您了解其结构、节点设置和SDF 函数设置。</p><p>它也是<i>完全可编辑</i>，因此可用作沙盒，以更深入地了解形状飞溅v2和SDF 函数工具集。 您可以创建任意数量的示例图形，因此请尽情使用吧！</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="适用于SDF 函数的3D查看器节点的边界帧功能。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="适用于SDF 函数的3D查看器帧的边界节点功能。" />
         </td>
     </tr>
 </table>

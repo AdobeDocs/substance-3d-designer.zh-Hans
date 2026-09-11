@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
 description: 使用Scratches生成器节点创建程序化的划痕图案，以增加材料的磨损和损坏。
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Scratches生成器的一个特殊版本是Scratches生成器Normal，它根据�
 | <b>正常格式（仅限正常版本）</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
 | <b>渐隐模式</b> <i>无、开始、结束、开始+结束</i> | 设置样条渐隐的是否及方向。 |
 | <b>渐隐长度</b> <i>0.0 - 1.0</i> | 设置渐隐效果的长度（如上面已启用）。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 

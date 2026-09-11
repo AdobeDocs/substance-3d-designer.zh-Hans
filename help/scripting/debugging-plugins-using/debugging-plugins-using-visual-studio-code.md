@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
 breadcrumb-title: ''
 description: 了解如何使用Visual Studio代码调试Substance 3D Designer Python增效工具以实现高效开发。
 helpx_creative_field: ""

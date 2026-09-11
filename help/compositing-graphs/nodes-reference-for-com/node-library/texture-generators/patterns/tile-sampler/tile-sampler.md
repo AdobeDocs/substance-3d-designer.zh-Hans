@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: 使用“拼贴Sampler”节点可对输入纹理中的拼贴进行采样和排列，以便在Substance 3D Designer中创建拼贴图案。
 helpx_creative_field: ""
@@ -67,7 +67,7 @@ ht-degree: 6%
 |:---|:---|
 | <b>X数量</b> <i>0 - 64</i> | 图案的X重复次数。 |
 | <b>Y数量</b> <i>0 - 64</i> | 模式的Y重复次数。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>图案</b> |  |
 | <b>图案</b> <i>图案输入，方形，磁盘，抛物面，铃声，高斯，荆棘，金字塔，砖块，层次，波形，半铃声，脊状的圆，新月，胶囊体，锥形</i> | 选择要使用的图案形状。 |
 | <b>模式输入编号</b> <i>1 - 6</i> | 要随机选择的自定义图案的数量。 |

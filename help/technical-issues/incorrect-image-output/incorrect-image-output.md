@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: 对Substance 3D Designer中的图像输出错误问题进行故障诊断，并了解如何修复渲染问题。
 helpx_creative_field: ""
@@ -75,7 +75,7 @@ Output format参数通常设置为&#x200B;*相对于输入* [继承方法](../..
 
 <b>！[（错误）](../../assets/error.svg)问题</b>
 
-Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substance 3D文件的图形，如右侧的图像所示。\
+Substance 3D档案(SBSAR)输出的图像质量明显低于其发布源Substance 3D文件的图形，如右侧的图像所示。\
 输出显示低分辨率。
 
 </td>
@@ -101,7 +101,7 @@ Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substan
 
 **![（错误）](../../assets/error.svg)问题**
 
-使用某些节点后，形状略微模糊，如[变换2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)或[混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
+使用某些混合后，形状略微模糊，如[变换 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)或[节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -117,11 +117,11 @@ Substance 3D档案(SBSAR)输出的图像质量明显低于其发布来源Substan
 在重新排列图像中的像素时（例如，在调整形状大小或更改图像分辨率时），有两种方法可确定应如何&#x200B;*将源中的像素*&#x200B;映射到目标：
 
 * **最接近**：像素将被映射到匹配坐标处的目标&#x200B;*原样*。 如果目标的分辨率较低，则可以完全忽略像素。 如果目标具有更高分辨率，则将映射到覆盖其范围的所有像素。 输出更清晰&#x200B;**，看起来略有&#x200B;*锯齿*。
-* **双线性滤波**：对源图像应用滤波过程，以便其像素以&#x200B;*平滑*&#x200B;像素之间过渡的方式映射到目标分辨率。 输出为&#x200B;*更平滑*，看起来略有&#x200B;*模糊*。
+* **筛选**：对源图像应用筛选过程，以便将其像素映射到目标分辨率，其方式&#x200B;*平滑*&#x200B;像素之间的过渡。 输出为&#x200B;*更平滑*，看起来略有&#x200B;*模糊*。
 
-[变换2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点提供了&#x200B;**筛选方法**&#x200B;选项，以选择应使用的这两种映射方法中的哪一种。
+[变换 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点提供了一个&#x200B;**筛选方法**&#x200B;选项，用于选择应使用的这两种映射方法中的哪一种。
 
-在对不同分辨率的输入纹理进行采样时，大多数节点（例如，[混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)）默认为&#x200B;*双线性滤波*，这可能会引入不需要的模糊。\
-由于Transformation 2D节点为&#x200B;*原子*，因此非常轻量级，因此&#x200B;*即使不需要变换*，也可以在将纹理发送到另一个节点之前，使用其[输出大小](../../compositing-graphs/output-size/output-size.md)属性更改纹理分辨率，这样您就可以&#x200B;*控制此调整大小的影响*。
+在对不同分辨率的输入纹理进行采样时，大多数混合（例如[筛选](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)）默认为&#x200B;*双线性的节点*，这可能会导致不需要的模糊。\
+由于变换 2D节点为&#x200B;*原子*，因此非常轻量级，因此&#x200B;*即使不需要变换*&#x200B;也可以使用它在将纹理发送到另一个节点之前的[输出大小](../../compositing-graphs/output-size/output-size.md)属性来更改纹理分辨率，因此您可以&#x200B;*控制此大小调整的影响*。
 
-在[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)节点的[函数图形](../../function-graphs/function-graphs.md)中，**示例**&#x200B;节点包含&#x200B;*相同选项*，以控制应如何将采样纹理映射到节点分辨率。
+在[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)节点的[函数图形](../../function-graphs/function-graphs.md)中，**示例**&#x200B;节点包含&#x200B;*相同选项*，用于控制应如何将示例纹理映射到节点分辨率。

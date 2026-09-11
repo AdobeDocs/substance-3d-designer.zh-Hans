@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer Python脚本中实现用于用户操作的撤消和重做功能。
 helpx_creative_field: ""

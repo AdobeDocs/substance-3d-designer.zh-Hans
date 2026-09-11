@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 了解适用于熟悉旧版本的用户的Substance 3D Designer面包师的旧版界面。
 helpx_creative_field: ""
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 * **资源名称**&#x200B;字段允许您根据需要更改生成的位图的名称。
 * **使用“文件格式”**&#x200B;下拉列表可以更改默认的文件格式（Windows或OS/2位图格式“BMP”）。
-* **&#x200B;**&#x200B;**将**&#x200B;资源放入网格特定的文件夹复选框允许您选择生成的位图是存储在模型所在的级别，还是存储在名为“Resources”的新子文件夹中。
+* ******将**&#x200B;资源放入网格特定的文件夹复选框允许您选择生成的位图是存储在模型所在的级别，还是存储在名为“Resources”的新子文件夹中。
 * **方法**&#x200B;允许您定义新位图资源是应链接还是嵌入到Substance包中。
 * **文件夹**&#x200B;允许您定义保存映射的位置。
 

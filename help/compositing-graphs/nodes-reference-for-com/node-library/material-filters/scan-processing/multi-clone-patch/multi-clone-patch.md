@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
-description: 使用“多仿制修补”节点克隆并修补多个纹理通道，以修复扫描的材料伪像。
+description: 使用“多克隆修补”节点来克隆和修补多个纹理通道，以修复扫描的素材伪影。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 多仿制修补程序
+title: 多克隆修补程序
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# 多仿制修补程序
+# 多克隆修补程序
 
 <table>
 <tr style="border: 0;">
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 ## 描述
 
-此节点是[仿制修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)的多输入版本。 它最多可将八个输入链接在一起，并在所有输入上执行完全相同的仿制修补操作。 它主要用于多角度照片，然后与[多角度至反照率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)或[多角度至法线](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)组合。
+此节点是[克隆修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)的多输入版本。 它最多可将八个输入链接在一起，并在所有输入上执行完全相同的克隆修补程序操作。 它主要用于多角度照片，然后与[多角度至反照率](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)或[多角度至法线](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)组合。
 
 >[!NOTE]
 >
-> 请参阅[仿制修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)了解更多信息，请参阅[材料仿制修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)了解材料版本。
+> 请参阅[仿制修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)以了解更多信息，请参阅[材质仿制修补程序](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)以了解材质版本。
 
 </td>
 </tr>

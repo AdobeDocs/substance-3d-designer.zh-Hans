@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/substance-compositing-graphs-and-mdl-materials.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Designer中将Substance合成图形和MDL材质结合使用以创建材质。
+description: 了解Substance合成图形和MDL 材质如何在Substance 3D Designer中协同工作以创建材料。
 helpx_creative_field: ""
 helpx_description: Designer > MDL graphs > Substance graphs and MDL materials
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Substance图形和MDL材料
+title: 图形和MDL 材质
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,50 +18,50 @@ ht-degree: 1%
 ---
 
 
-# Substance图形和MDL材料
+# 图形和MDL 材质
 
-本页描述了[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)和MDL图形之间的协同作用，以及如何将Substance图形[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)中的纹理连接到MDL图形输入。
+本页介绍了[图形](../../compositing-graphs/substance-compositing-graphs.md)和MDL 图之间的协同作用，以及如何将Substance图形[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)中的纹理连接到MDL 图输入。
 
 ## 概述
 
-Substance图表的输出可以通过两种方式传递到MDL材料的公开参数&#x200B;*，本页对此进行了说明。*
+图形的输出可以通过两种方式&#x200B;*传递给MDL 材质的公开参数*，如本页所述。
 
-如果当前在3D视图中应用的MDL材质具有类型为&#x200B;*[变化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;的公开参数 — 可以使用[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的属性中的<b>类型修饰符</b>选项设置此类型，则可以将这些类型连接到&#x200B;*纹理*：
+如果当前在3D视图中应用的MDL 材质具有类型为&#x200B;*[变化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*&#x200B;的公开参数，则可以使用[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)属性中的<b>类型修饰符</b>选项设置此类型，这些属性可以连接到&#x200B;*纹理*：
 
 * <b>Color</b>参数可以连接到RGBA纹理
-* 灰度纹理的<b>浮点</b>参数
+* 灰度纹理的<b>Float</b>参数
 
-在这些情况下，原始均匀值被提供改变值的纹理采样器替换。 这些取样器在公开的参数中定义了<b>用法</b>属性，使用此用法，Designer可以通过&#x200B;*匹配的用法*&#x200B;将通过Substance图形输出的纹理连接到MDL素材中的相应参数。
+在这些情况下，原始均匀值被提供改变值的纹理采样器替换。 这些取样器在公开参数中定义了<b>用法</b>属性，使用此用法，Designer可以通过&#x200B;*匹配的用法*&#x200B;将Substance图形输出的纹理连接到MDL 材质中的适当参数。
 
-## 3D视图中的Substance图表
+## 3D 视图中的Substance图形
 
-使用Substance图形的<b>在3D视图中查看输出</b>选项或将Substance图形从<b>资源管理器</b>面板拖动到<b>3D视图</b>时，输出会连接到当前显示在3D视图中的MDL素材中公开的&#x200B;*匹配用法*&#x200B;的参数。
+使用图形的<b>在3D 视图中查看输出</b>选项，或将Substance图形从<b>资源管理器</b>面板拖动到<b>3D视图</b>时，输出将连接到3D视图中当前显示的MDL 材质中&#x200B;*匹配的使用情况*&#x200B;的公开参数。
 
-通过按压Substance图形节点上的RMB并拖入3D视图，可以将来自Substance图形的单个纹理连接到支持纹理采样的任何MDL材料参数，而不管标识符如何。 此时会显示可用采样器用法的列表，您可以为所选纹理选择目标用法。
+通过按下图形上的RMB并拖动到3D视图中，可以将来自Substance图形的个别纹理连接到支持纹理采样的任何MDL 材质参数，而不管该标识符如何。 此时会显示可用采样器用法的列表，您可以为所选纹理选择目标用法。
 
-![公开的MDL图形输入](../../assets/mdl-graph-inputs-samplers.png "公开的MDL图形输入")
+![公开的MDL 图输入](../../assets/mdl-graph-inputs-samplers.png "公开的MDL 图输入")
 
-*Substance图形输出的纹理连接到3D视图中MDL图形的公开参数*
+*图形输出的纹理已连接到3D 视图中的MDL 图公开参数*
 
-## MDL图表中的Substance图表
+## MDL 图中的Substance图形
 
-通过将Substance图形实例从<b>资源管理器</b>面板拖动到MDL图形中，可将它们直接放入MDL图形中。 在MDL图中使用来自<b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源文件</b> (SBSAR)的Substance图。
+通过将图形实例从<b>资源管理器</b>面板拖放到MDL 图中，可以直接将MDL 图置入。 MDL 图中可以使用<b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源文件</b> (SBSAR)中的Substance图形。
 
 +++从Substance 3D文件(SBS)Substance图形
-![在MDL图形中从SBS文件Substance图形](../../assets/mdl-sbs-instance-hl.png "在MDL图形中从SBS文件Substance图形")
+![从MDL 图中的SBS文件Substance图形](../../assets/mdl-sbs-instance-hl.png "从MDL 图中的SBS文件Substance图形")
 
 
 
-在MDL图形中[Substance 3D文件](../../getting-started/overview/overview.md) (SBS)的&#x200B;*[图形](../../compositing-graphs/substance-compositing-graphs.md)实例* Substance
+MDL 图&#x200B;*中[Substance 3D文件](../../getting-started/overview/overview.md) (SBS)的*[ Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
 
 +++
 
-+++从Substance 3D资源(SBSAR)Substance图表
-![在MDL图表中从SBSAR文件Substance图形](../../assets/mdl-sbsar-instance-hl.png "在MDL图表中从SBSAR文件Substance图形")
++++从Substance 3D资源(SBSAR)Substance图形
+![从MDL 图中的Sbsar 文件Substance图形](../../assets/mdl-sbsar-instance-hl.png "从MDL 图中的Sbsar 文件Substance图形")
 
 
 
-在MDL图形中&#x200B;*[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例(来自[Substance 3D资源](../../getting-started/overview/overview.md) (SBSAR)*
+MDL 图&#x200B;*中[Substance 3D资源](../../getting-started/overview/overview.md) (SBSAR)的*[ Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
 
 +++
 

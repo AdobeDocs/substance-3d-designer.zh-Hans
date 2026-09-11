@@ -1,6 +1,6 @@
 ---
 title: 减
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>SDF 函数>运算符>减法
+description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>运算符>减法
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '80'

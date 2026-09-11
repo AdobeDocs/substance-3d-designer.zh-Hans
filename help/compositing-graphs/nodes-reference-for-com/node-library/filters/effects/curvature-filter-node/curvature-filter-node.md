@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
-description: 使用滤镜节点从高度图中生成弯曲图以检测凸曲面和凹曲面。
+description: 使用“曲率”过滤器节点，从Height图生成曲率图以检测凸曲面和凹曲面。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 弯曲(滤镜节点)
+title: 曲率（筛选器节点）
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# 弯曲(滤镜节点)
+# 曲率（筛选器节点）
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## 描述
 
-对输入[标准映射](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)执行简单而苛刻的单程弯曲转换。 生成的贴图具有凸形区域的白色色调和凹形区域的黑色色调。 弯曲始终会产生像素细线和锐化过渡。
+对输入[正常映射](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)执行简单、苛刻的单程曲率转换。 生成的贴图具有凸形区域的白色色调和凹形区域的黑色色调。 曲率始终会产生像素细线和尖锐过渡。
 
-此节点对于某些边缘的快速突出显示或变暗非常有用。 与[弯曲平滑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)（生成更高品质的结果）和[弯曲Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（具有更多选项）相比，它的作用有限。
+此节点对于某些边缘的快速突出显示或变暗非常有用。 与[曲率光滑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)（可生成更高质量的结果）和[曲率光滑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（具有更多选项）相比，它的作用有限。
 
 </td>
 </tr>

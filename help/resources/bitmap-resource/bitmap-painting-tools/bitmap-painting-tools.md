@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的位图绘画工具直接绘画在位图资源上进行纹理编辑。
 helpx_creative_field: ""
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 [2D 视图](../../../interface/2d-view/2d-view.md)面板提供了基本的位图绘画工具，您可以直接在应用程序中&#x200B;*手动*&#x200B;创建或编辑图像。 例如，这些工具对于快速绘制&#x200B;*蒙版*&#x200B;特别有用。
 
-这些工具支持笔输入，包括&#x200B;*笔压力*。 要利用笔显示功能，您可以[取消停靠](../../../interface/customizing-your-wor/customizing-your-workspace.md) [2D 视图](../../../interface/2d-view/2d-view.md)面板，然后将其放置并调整到更适合绘画的任何配置中。
+这些工具支持笔输入，包括&#x200B;*笔压力*。 要利用笔显示功能，您可以[取消停靠](../../../interface/customizing-your-wor/customizing-your-workspace.md)[2D 视图](../../../interface/2d-view/2d-view.md)面板，然后将其放置并调整到更适合绘画的任何配置中。
 
 编辑操作可以&#x200B;*逐个撤消*，并且您仍然可以在编辑图像时&#x200B;*使用* 2D 视图面板的所有其他功能，例如[直方图](../../../interface/2d-view/2d-view.md)面板、[拼贴显示](../../../interface/2d-view/2d-view.md)和[背景图像](../../../interface/2d-view/2d-view.md)。
 
 >[!IMPORTANT]
 >
-> 您只能&#x200B;*在* 8位&#x200B;*[位图资源](../../../resources/bitmap-resource/bitmap-resource.md)上绘画* 1&rbrace;，这些位图资源是[新的或导入的](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)。
+> 您只能&#x200B;*在* 8位&#x200B;*[位图资源](../../../resources/bitmap-resource/bitmap-resource.md)上绘画* 1}，这些位图资源是[新的或导入的](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)。
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>画笔选区</b>允许您从可用画笔&#x200B;*预设*&#x200B;中选择&#x200B;*预配置*&#x200B;画笔，设置其<b>大小</b>和<b>硬度</b> *（*&#x200B;请参阅画笔编辑器的<b>形状</b>部分），并显示画笔描边的*预览*。
 
-可以在画笔编辑器中创建和编辑笔刷预设，并在&#x200B;*库*&#x200B;中排列。 将显示在此面板中的画笔预设是所有加载的画笔预设库中的&#x200B;*和*。 可通过访问![](../../../assets/2dview-paintingtools-brushpresets-library.png) <b>画笔库</b>菜单来管理这些库（请参阅画笔编辑器的<b>预设</b>部分）
+可以在画笔编辑器中创建和编辑笔刷预设，并在&#x200B;*库*&#x200B;中排列。 将显示在此面板中的笔刷预设是所有加载的笔刷预设库的&#x200B;*和*。 可通过访问![](../../../assets/2dview-paintingtools-brushpresets-library.png) <b>画笔库</b>菜单来管理这些库（请参阅画笔编辑器的<b>预设</b>部分）
 
 使用![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png) <b>选择背景颜色</b>按钮可更改&#x200B;*画笔描边预览*&#x200B;的背景颜色。
 
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 <b>预设</b>
 
-可自定义画笔，然后将其存储为<b>画笔预设</b>，之后将在![](../../../assets/2dview-paintingtools-editor-currentpreset.png) <b>画笔预设列表</b>和![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>画笔选区</b>面板中提供。
+可自定义画笔，然后将其保存为<b>笔刷预设</b>，随后将在![](../../../assets/2dview-paintingtools-editor-currentpreset.png) <b>笔刷预设列表</b>和![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>画笔选区</b>面板中提供该画笔。
 
-要创建预设，请根据您的喜好设置下面的属性，然后单击![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>添加画笔预设</b>按钮，并在<b>预设名称</b>窗口中设置画笔名称。 现在，新预设会自动在<b>画笔预设列表</b>中选择，您可以随时使用新的当前设置![](../../../assets/2dview-paintingtools-editor-updatepreset.png)<b>更新</b>它，或![](../../../assets/2dview-paintingtools-editor-deletepreset.png)<b>删除</b>它。
+要创建预设，请根据您的喜好设置下面的属性，然后单击![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>“添加笔刷预设”</b>按钮，并在<b>“预设名称”</b>窗口中设置画笔名称。 新预设现在会自动在<b>笔刷预设列表</b>中选择，并且您可以随时使用新的当前设置![](../../../assets/2dview-paintingtools-editor-updatepreset.png)更新它</b>或![](../../../assets/2dview-paintingtools-editor-deletepreset.png)删除它<b>删除它</b>。<b>
 
 预设已整理并保存在&#x200B;*库*&#x200B;中，可以在![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>画笔库</b>菜单中管理该库：
 
@@ -158,9 +158,9 @@ ht-degree: 0%
 
 * *多边形*：具有&#x200B;*可自定义*&#x200B;个边缘和角度的直形状
 
-<b>边缘计数</b>（仅限&#x200B;*多边形*&#x200B;形状）：允许您选择多边形的&#x200B;*个面*&#x200B;的数目
+<b>边缘计数</b>（仅限&#x200B;*多边形*&#x200B;形状）：允许您选择多边形的&#x200B;*脸部*&#x200B;数
 
-<b>内径</b>（*多边形*&#x200B;形状）：提供对面&#x200B;*中点*&#x200B;和形状中心之间距离的控制，从而有效地创建了&#x200B;*星形*&#x200B;图案
+<b>内径</b>（*多边形*&#x200B;形状）：提供对脸部&#x200B;*中点*&#x200B;和形状中心之间距离的控制，从而有效地创建了&#x200B;*星形*&#x200B;图案
 
 <b>硬度</b>：定义形状的&#x200B;*渐隐半径*
 
@@ -171,11 +171,11 @@ ht-degree: 0%
 
 <b>大小</b>：设置画笔形状的&#x200B;*直径*（以像素为单位）
 
-<b>大小抖动</b>：允许您&#x200B;*随机化*&#x200B;每个图章的画笔大小，表示为<b>大小</b>值的&#x200B;*百分比*，并控制从<b>0</b>到<b>大小</b>值的&#x200B;*范围*&#x200B;随机值
+<b>大小抖动</b>：允许您&#x200B;*随机化*&#x200B;每张图章的画笔大小，表示为<b>大小</b>值的&#x200B;*百分比*，并控制从<b>0</b>到<b>大小</b>值的&#x200B;*范围*&#x200B;随机值
 
 <b>大小控制</b>：如果使用支持&#x200B;*笔压力*&#x200B;的笔输入，则可以使用此参数使其控制画笔大小
 
-<b>间距</b>：控制画笔描边上每个单独的图章之间&#x200B;*的间距*。 这有助于更清晰地分隔和定义形状图案
+<b>间距</b>：控制画笔描边上每个单独的图章&#x200B;*之间的间距*。 这有助于更清晰地分隔和定义形状图案
 
 <b>圆度</b>：默认情况下，在<b>形状</b>部分中选择的<b>形状类型</b>的宽度/Height比为&#x200B;*1:1*。 此参数允许您通过&#x200B;*降低宽度*（作为Height的百分比）来更改此比率
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 +++
 
 +++颜色
-画笔应用的颜色由&#x200B;*所选主色*&#x200B;和<b>画笔纹理</b>（如果当前应用了纹理）定义。 此颜色可使用本节中的控件动态更改。
+画笔应用的颜色由&#x200B;*选定的原色*&#x200B;和<b>画笔纹理</b>（如果当前已应用此颜色）定义。 此颜色可使用本节中的控件动态更改。
 
 <b>流抖动</b>：允许您&#x200B;*随机化*&#x200B;每个图章的流，以最大流的&#x200B;*百分比*&#x200B;表示
 

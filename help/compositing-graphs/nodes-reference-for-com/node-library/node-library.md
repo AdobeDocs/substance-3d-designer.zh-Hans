@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer中的完整节点库，以创建过程式素材、纹理和效果。
+description: 访问Substance 3D Designer中的完整节点库，以创建程序化的材料、纹理和效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 节点库
 
-除了[原子节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)之外，Designer还附带了一个预制作的[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)库，这些实例分为许多类别。 有200多种不同的字体，有些非常常用，有些专用于非常具体的用例。本文档的这一部分介绍了所有Library节点，并提供了一些指针和提示，供您了解哪些节点可以开始使用。
+除了[原子节点](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)之外，Designer还附带一个预制作的[图形实例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)库，分为许多类别。 有200多种不同的字体，有些非常常用，有些专用于非常具体的用例。本文档的这一部分介绍了所有Library节点，并提供了一些指针和提示，供您了解哪些节点可以开始使用。
 
 Designer的库面板显示的类别比我们当前记录的类别多，最值得注意的是MDL节点缺失，以后可能会添加这些节点。
 
@@ -108,15 +108,15 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [杂乱纤维2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
 * [杂乱纤维3](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
 * [显微镜视图](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/microscope-view/microscope-view.md)
-* [湿度噪声](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+* [水分噪声](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 * [Perlin噪声](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
 * [等离子体](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/plasma/plasma.md)
 * [焦散](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/caustics/caustics.md)
 * [Voronoi](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/voronoi/voronoi.md)
 * [Voronoi分形](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/voronoi-fractal/voronoi-fractal.md)
 * [波形1](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/waveform-1/waveform-1.md)
-* [白杂色](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)
-* [快速白噪声](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)
+* [白色噪声](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)
+* [白噪声快速](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)
 
 ### 图案
 
@@ -182,10 +182,10 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [对比度/亮度](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md)
 * [转换为线性](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-linear/convert-to-linear.md)
 * [转换为sRGB](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-srgb/convert-to-srgb.md)
-* [高级灰度转换](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
+* [灰度转换高级](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
 * [Hald CLUT](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hald-clut/hald-clut.md)
 * [HDR范围查看器](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hdr-range-viewer/hdr-range-viewer.md)
-* [Height映射频率映射器](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/height-map-frequencies/height-map-frequencies-mapper.md)
+* [高度图频率映射器](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/height-map-frequencies/height-map-frequencies-mapper.md)
 * [高通](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)
 * [直方图范围](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-range/histogram-range.md)
 * [直方图扫描](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)
@@ -205,7 +205,7 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 
 ### 混合
 
-* [颜色（混合节点）](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-blend-node/color-blend-node.md)
+* [Color（混合节点）](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-blend-node/color-blend-node.md)
 * [颜色加深](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-burn/color-burn.md)
 * [颜色减淡](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-dodge/color-dodge.md)
 * [差值](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/difference/difference.md)
@@ -268,7 +268,7 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [快速反应扩散](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
 * [RT阴影](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-shadow/rt-shadow.md)
 * [RT辐照度](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-irradiance/rt-irradiance.md)
-* [阴影（滤镜节点）](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md)
+* [阴影(滤镜节点)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md)
 * [形状投影](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md)
 * [形状发光](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md)
 * [形状描边](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
@@ -283,14 +283,14 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [面向法线](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/facing-normal/facing-normal.md)
 * [Height标准混合器](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-blender/height-normal-blender.md)
 * [正常世界单位的Height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-world-units/height-to-normal-world-units.md)
-* [法线混合](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)
+* [正常混合](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)
 * [普通组合](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
 * [正常反转](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
 * [正常规范化](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
 * [普通Sobel](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
 * [正常到Height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
 * [正常到Height总部](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
-* [法线变换](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
+* [正常变换](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
 * [法线矢量旋转](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)
 * [弯曲法线](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/bent-normal/bent-normal.md)
 
@@ -303,10 +303,10 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 
 * [3D纹理偏移](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
 * [自动裁剪](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/auto-crop/auto-crop.md)
-* [笛卡尔坐标到极坐标](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)
-* [极坐标到笛卡尔坐标](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)
-* [克隆（筛选器节点）](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/clone-filter-node/clone-filter-node.md)
-* [镜像（筛选器节点）](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
+* [极地笛卡尔](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)
+* [极坐标转换为笛卡尔](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)
+* [仿制(滤镜节点)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/clone-filter-node/clone-filter-node.md)
+* [镜像(滤镜节点)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)
 * [噪声放大1](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md)
 * [噪声放大2](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)
 * [噪声放大3](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)
@@ -317,15 +317,15 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [对称](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
 * [对称切片](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
 * [梯形变换](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
-* [四元变换](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
+* [四变换](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
 
 ## 材质滤镜
 
 ### 1 次点击
 
-* [将位图转换为材质光照](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md)
+* [使用位图来材料光照](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md)
 
-### 效果（材质）
+### 效果(材料)
 
 * [Height混合](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md)
 * [材质Height混合](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)
@@ -333,11 +333,11 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [Snow封面](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)
 * [水位](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)
 
-### 变换（材质）
+### 变换(材料)
 
 * [材质变换](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
 
-### 混合（材质）
+### 混合(材料)
 
 * [素材调整混合](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
 * [材质混合](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)
@@ -373,7 +373,7 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [多裁剪](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md)
 * [智能自动平铺](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)
 
-## 基于网格的生成器
+## 基于网格生成器
 
 ### 遮罩生成器
 
@@ -397,30 +397,30 @@ Designer的库面板显示的类别比我们当前记录的类别多，最值得
 * [光线](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
 * [蒙版生成器](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
 * [金属Edge Wear](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
-* [油漆磨损](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
+* [绘画磨损](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
 * [可选Dirt](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
 * [太阳漂白](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
 * [表面画笔](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/surface-brush/surface-brush.md)
 
 ### 风化
 
-* [裂缝风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/cracks-weathering/cracks-weathering.md)
-* [织物风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)
+* [风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/cracks-weathering/cracks-weathering.md)
+* [结构风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)
 * [皮革风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/leather-weathering/leather-weathering.md)
 * [金属风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/metal-weathering/metal-weathering.md)
 * [苔藓风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/moss-weathering/moss-weathering.md)
 * [岩石风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/rock-weathering/rock-weathering.md)
-* [铁锈风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/rust-weathering/rust-weathering.md)
+* [风化](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/rust-weathering/rust-weathering.md)
 
-### 实用程序（基于网格的生成器）
+### 公用事业（基于网格的生成器）
 
-* [3D平面投影](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/3d-planar-projection/3d-planar-projection.md)
-* [材质网格数据混合器](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)
-* [材质选择器](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-selector/material-selector.md)
+* [3D投影](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/3d-planar-projection/3d-planar-projection.md)
+* [网格数据混合器](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)
+* [材料选择器](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-selector/material-selector.md)
 * [网格数据组合器](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/mesh-data-combiner/mesh-data-combiner.md)
 * [三平面](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
 
-## 3D视图（库）
+## 3D 视图（库）
 
 ### HDRI 工具
 

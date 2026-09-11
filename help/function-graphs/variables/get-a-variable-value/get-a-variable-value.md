@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: 了解如何使用“获取变量”节点在Substance 3D Designer函数图中检索变量值。
 helpx_creative_field: ""

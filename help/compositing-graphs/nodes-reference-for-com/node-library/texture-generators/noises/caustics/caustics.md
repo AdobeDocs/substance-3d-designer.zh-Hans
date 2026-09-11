@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
 breadcrumb-title: ''
 description: 使用焦散线节点生成焦散光图案，用于创建水下和折射光照效果。
 helpx_creative_field: ""
@@ -55,7 +55,7 @@ ht-degree: 5%
 | <b>抖动</b> <i>0.0 - 1.0</i> | 为强制转换光子粒子添加不规则抖动。 |
 | <b>光源位置</b> | 移动光源位置。 还通过2D 视图中的小工具完成。 |
 | <b>背景颜色</b> <i>（颜色值）（仅限颜色版本）</i> | 更改背景颜色。 灰度版本仅限黑色。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用使用非方形比率补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用挤压补偿并使用非方形比例拉伸。 |
 
 ## 示例
 

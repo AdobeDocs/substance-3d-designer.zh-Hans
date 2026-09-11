@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: 使用“Scratches”“粗糙”节点添加粗糙划痕图案，用于创建沉重的磨损和损坏效果。
 helpx_creative_field: ""
@@ -45,24 +45,24 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>高级</b> |  |
-| <b>暂存数量</b> <i>Float</i> | 调整表面的划痕量。 |
+| <b>暂存数量</b> <i>浮动</i> | 调整表面的划痕量。 |
 | <b>暂存拼贴</b> <i>整数</i> | 调整应用于划痕的拼贴量。 |
-| <b>划痕模糊</b> <i>浮动</i> | 调整划痕的模糊效果。 |
-| <b>暂存宽度</b> <i>浮动</i> | 调整划痕的宽度。 |
-| <b>暂存长度</b> <i>浮动</i> | 调整划痕的长度。 |
-| <b>暂存蒙版</b> <i>浮动</i> | 调整应用于部分划痕的蒙版强度。 |
-| <b>暂存污点</b> <i>浮动</i> | 调整划痕的方向，这会破坏其锐化程度和连续性。 |
-| <b>双划痕</b> <i>浮动</i> | 使用微小的变形效果调整与每个划痕一起应用的第二个划痕的不透明度。 |
-| <b>划痕点强度</b> <i>浮动</i> | 调整与划痕一起应用的损坏斑点的强度。 |
+| <b>划痕模糊</b> <i>Float</i> | 调整划痕的模糊效果。 |
+| <b>暂存宽度</b> <i>Float</i> | 调整划痕的宽度。 |
+| <b>暂存长度</b> <i>Float</i> | 调整划痕的长度。 |
+| <b>暂存蒙版</b> <i>Float</i> | 调整应用于部分划痕的蒙版强度。 |
+| <b>暂存污点</b> <i>Float</i> | 调整划痕的方向，这会破坏其锐化程度和连续性。 |
+| <b>双划痕</b> <i>Float</i> | 使用微小的变形效果调整与每个划痕一起应用的第二个划痕的不透明度。 |
+| <b>划痕点强度</b> <i>Float</i> | 调整与划痕一起应用的损坏斑点的强度。 |
 | <b>暂存点拼贴</b> <i>整数</i> | 调整损坏污点的拼贴。 |
-| <b>Dust强度</b> <i>浮动</i> | 调整Dust叠加的强度。 |
+| <b>Dust强度</b> <i>Float</i> | 调整Dust叠加的强度。 |
 | <b>拼贴</b> <i>整数</i> | 调整Dust叠加的拼贴。 |
-| <b>锐化强度</b> <i>Float</i> | 调整全局锐化效果的强度。 |
+| <b>锐化强度</b> <i>浮动</i> | 调整全局锐化效果的强度。 |
 
 ## 示例
 

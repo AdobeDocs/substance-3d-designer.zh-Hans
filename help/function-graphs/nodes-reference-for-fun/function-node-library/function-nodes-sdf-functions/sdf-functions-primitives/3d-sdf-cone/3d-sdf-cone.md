@@ -1,6 +1,6 @@
 ---
 title: 圆锥体
-description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>基元>圆锥
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>锥形
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '123'
@@ -15,7 +15,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![圆锥图标](./3d-sdf-cone.png "圆锥")
+![锥形图标](./3d-sdf-cone.png "锥形")
 
 <b>In：</b>SDF 函数>基元
 
@@ -42,5 +42,5 @@ ht-degree: 3%
 | :--- | :--- |
 | <b>半径</b> *浮动* | 圆锥底半径。<br><br><i>默认值： 0.5</i> |
 | <b>Height</b> *浮动* | 圆锥顶点从其基础开始的Z-upHeight。<br><br><i>默认值： 1</i> |
-| <b>中心位置</b> *浮点3* | 圆锥旋转点的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>中心位置</b> *浮点3* | 圆锥旋转轴的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
 | <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

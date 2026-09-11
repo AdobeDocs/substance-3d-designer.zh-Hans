@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图表中的sampler节点以对纹理进行采样并提取颜色值。
 helpx_creative_field: ""
@@ -78,8 +78,8 @@ ht-degree: 1%
 随着值的增加，在[0；1]范围内循环。\
 例如：3.4是0.4，-1.7是0.3。
 
-<b>固定到边缘</b>\
-将超出[0；1]范围的值限制到其最接近的极限。\
+<b>钳制到边缘</b>\
+将超出[0；1]范围的值钳制到其最接近的限制。\
 例如：.3.4为1，-1.7为0。
 
 +++

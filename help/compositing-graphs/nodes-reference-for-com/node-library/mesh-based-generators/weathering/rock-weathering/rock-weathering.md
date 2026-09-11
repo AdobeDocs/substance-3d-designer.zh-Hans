@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
-description: 使用岩石风化节点，根据网格几何形状在岩石表面生成风化图案，以实现逼真的侵蚀效果。
+description: 使用岩石风化节点，根据风化几何形状在岩石表面生成网格图案，以实现逼真的侵蚀效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rock Weathering
 helpx_experience_level: ""
@@ -43,9 +43,9 @@ ht-degree: 16%
 
 |  |  |
 |:---|:---|
-| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
-| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
-| <b>正常WS</b> <i>颜色输入</i> | 用于内部效果和蒙版的烘焙世界空间正常映射。 |
+| <b>Ambient occlusion</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>弯曲</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>正常WS</b> <i>颜色输入</i> | 用于内部效果和蒙版的世界空间标准映射。 |
 | <b>蒙版</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 可以使用“Mask”参数切换。 |
 
 <a name="parameters"></a>
@@ -54,7 +54,7 @@ ht-degree: 16%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
 | <b>高级</b> |  |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
 | <b>蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |
@@ -72,11 +72,11 @@ ht-degree: 16%
 | <b>已使用的岩石去饱和度</b> <i>0.0 - 1.0</i> |  |
 | <b>使用的岩石亮度</b> <i>0.0 - 1.0</i> |  |
 | <b>混合</b> |  |
-| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 扩散的混合强度。 |
-| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合基色的强度。 |
-| <b>正常强度</b> <i>0.0 - 64.0</i> | 混合“正常”的强度。 |
-| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合Specular的强度。 |
-| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合光泽度的强度。 |
+| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>正常强度</b> <i>0.0 - 64.0</i> | “正常”混合强度。 |
+| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
 | <b>粗糙度强度</b> <i>0.0 - 1.0</i> | 混合粗糙度的强度。 |
 | <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 混合环境遮蔽的强度。 |
 | <b>Height强度</b> <i>0.0 - 1.0</i> | 混合Height的强度。 |

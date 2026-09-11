@@ -110,30 +110,30 @@ Integer3节点生成带有(X、Y、Z)分量的静态3分量整数向量。
 
 <b>整数4</b>
 
-整数4节点生成具有(X、Y、Z、W)分量的静态4分量整数向量。
+Integer4节点生成带有(X、Y、Z、W)分量的静态4分量整数向量。
 
 </td>
 </tr>
 </table>
 
-## float
+## 浮动
 
-常数Float值生成小数，即它们支持小数符号后的值，并且可以在小于1的步骤中进行调整。 （默认：0.01）
+固定浮点值生成小数，即它们支持小数符号后的值，并且可以在小于1的步骤中进行调整。 （默认：0.01）
 
-[Float可以转换为整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但会向上或向下四舍五入到最接近的整数，这意味着数据和准确性将丢失。
+[浮点数可以转换为整数](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但会向上或向下舍入到最接近的整数，这意味着数据和准确性会丢失。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float类型图标](../../../../assets/fn-constant-float.png "Float类型图标")
+![浮点类型图标](../../../../assets/fn-constant-float.png "浮点类型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float</b>
+<b>浮动</b>
 
-float具有单个组件，通常用于任何需要精度的单个值。
+Float具有单个组件，通常用于任何需要精度的单个值。
 
 </td>
 </tr>
@@ -148,11 +148,11 @@ float具有单个组件，通常用于任何需要精度的单个值。
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float2</b>
+<b>浮点2</b>
 
-float2节点生成具有(X，Y)分量的双分量向量。
+Float2节点生成带有(X， Y)分量的2分量向量。
 
-float2通常用于[采样坐标](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)、[偏移变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)和常规2D矢量操作。
+Float2常用于[采样坐标](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md)、[偏移变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)和常规2D矢量操作。
 
 </td>
 </tr>
@@ -167,11 +167,11 @@ float2通常用于[采样坐标](../../../../function-graphs/nodes-reference-for
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float3</b>
+<b>浮点3</b>
 
-float3节点产生3分量(X、Y、Z)向量。
+Float3节点生成3分量(X、Y、Z)矢量。
 
-float3主要用于处理3D对象和[3D比例坐标](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)（例如[3D SDF节点](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)），并且作为一种存储RGB颜色的更简单方法（即无Alpha）。
+Float3主要用于处理3D对象和[3D缩放坐标](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)（例如[3D SDF节点](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)），并且作为一种存储RGB颜色的更简单方法（即无Alpha）。
 
 </td>
 </tr>
@@ -186,11 +186,11 @@ float3主要用于处理3D对象和[3D比例坐标](../../../../compositing-grap
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float4</b>
+<b>浮点4</b>
 
-float4生成4分量(X、Y、Z、W)向量。
+Float4生成4分量(X、Y、Z、W)矢量。
 
-float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方式，例如[统一颜色节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)中。
+Float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方法，例如[统一颜色节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)中。
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ float4是存储和设置XYZW值映射到RGBA的颜色信息的首选方式，例
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布尔值类型图标](../../../../assets/fn-constant-boolean.png "布尔值类型图标")
+![布尔型图标](../../../../assets/fn-constant-boolean.png "布尔型图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer图形视图中的链接创建模式，以便高效地连接节点。
+description: 了解图形视图中的链接创建模式，以便高效地连接节点。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > The graph view > Link creation modes
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 链接创建模式
 
-在[Substance图表](../../../compositing-graphs/substance-compositing-graphs.md)中，您可以使用以下3种<b>链接创建模式</b>之一连接节点：
+在[图形](../../../compositing-graphs/substance-compositing-graphs.md)中，您可以使用以下3种链接创建模式</b>之一连接节点：<b>
 
 <table>
 <tr style="border: 0;">
@@ -37,11 +37,11 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![链接创建模式：材质](../../../assets/link-creation-mode-material.gif "链接创建模式：材质"){zoomable="yes"}
+![链接创建模式：材料](../../../assets/link-creation-mode-material.gif "链接创建模式：材料"){zoomable="yes"}
 
 *单击以放大*
 
-![](../../../assets/image2020-10-6-17-11-20.png) <b>材质</b> (2)
+![](../../../assets/image2020-10-6-17-11-20.png) <b>材料</b> (2)
 
 根据用途匹配输入和输出。
 
@@ -50,13 +50,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![链接创建模式：紧凑素材](../../../assets/link-creation-mode-compact-material.gif "链接创建模式：紧凑素材"){zoomable="yes"}
+![链接创建模式：压缩材料](../../../assets/link-creation-mode-compact-material.gif "链接创建模式：压缩材料"){zoomable="yes"}
 
 *单击以放大*
 
-![](../../../assets/image2020-10-6-19-40-46.png) <b>紧凑素材</b> (3)
+![](../../../assets/image2020-10-6-19-40-46.png) <b>压缩材料</b> (3)
 
-与材质相同。
+与材料相同。
 
 属于同一&#x200B;*组*&#x200B;的输入和输出被折叠。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 您可以随时在图形工具栏中通过单击![](../../../assets/link-creation-mode.png) <b>链接创建模式</b>按钮或使用上面列出的键盘快捷键在模式之间切换。
 
-在<b>材质</b>和<b>紧凑材质</b>模式中，禁止使用&#x200B;*不匹配用法*&#x200B;的输入和输出之间的连接。
+在<b>材料</b>和<b>压缩材料</b>模式中，禁止使用&#x200B;*不匹配用法*&#x200B;的输入和输出之间的连接。
 
 ## 模式
 

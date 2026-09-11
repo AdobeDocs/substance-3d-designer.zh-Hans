@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中创建Substance合成图表，用于构建程序化的纹理工作流程。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 若要开始创建新的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的过程，可以使用以下方法之一：
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">

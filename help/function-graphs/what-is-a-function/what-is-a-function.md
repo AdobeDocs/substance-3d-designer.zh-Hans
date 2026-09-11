@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/what-is-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/what-is-a-function.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer中的功能以及如何使用它们创建可重用的节点网络。
 helpx_creative_field: ""

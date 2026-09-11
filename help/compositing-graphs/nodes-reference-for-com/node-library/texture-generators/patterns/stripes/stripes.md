@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
 breadcrumb-title: ''
 description: 使用“Stripe”节点生成具有可自定义宽度、间距和方向的条带图案，以创建纹理。
 helpx_creative_field: ""

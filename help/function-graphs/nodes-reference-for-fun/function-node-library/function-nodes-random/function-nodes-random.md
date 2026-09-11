@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
-description: 使用随机函数节点使用各种算法生成特定范围内的随机值。
+description: 使用随机函数节点可通过各种算法在特定范围内生成随机值。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random
 helpx_experience_level: ""
@@ -32,15 +32,15 @@ ht-degree: 2%
 
 随机离散[a， b]
 
-随机一致&lbrack;-1， 1&lbrack;
+随机一致[-1， 1[
 
-随机一致&lbrack;a， b&lbrack;
+随机一致[a， b[
 
-随机一致浮点2 &lbrack;a， b&lbrack;
+随机一致浮点2 [a， b[
 
-随机一致浮点3 &lbrack;a， b&lbrack;
+随机一致浮点3 [a， b[
 
-随机一致浮点4 &lbrack;a， b&lbrack;
+随机一致浮点4 [a， b[
 
 </td>
 <td style="border: 0;" valign="top">

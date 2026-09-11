@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: 使用网格数据混合器节点混合材料网格数据，以便在不同的材料区域之间创建平滑的过渡。
 helpx_creative_field: ""
@@ -48,12 +48,12 @@ ht-degree: 8%
 |  |  |
 |:---|:---|
 | <b>完整材料输入（组“材料”）</b> | 一整套材料地图。<br><br>此节点将修改这些字段，然后再次将其作为输出返回。 |
-| <b>Ambient occlusion</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
-| <b>弯曲</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>环境遮蔽</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
+| <b>曲率</b> <i>灰度输入</i> | 用于内部效果和蒙版的已烘焙贴图。 |
 | <b>Height</b> <i>灰度输入</i> |  |
 | <b>正常</b> <i>颜色输入</i> |  |
 | <b>顶点颜色</b> <i>颜色输入</i> |  |
-| <b>世界空间法线</b> <i>颜色输入</i> |  |
+| <b>世界空间正常</b> <i>颜色输入</i> |  |
 
 <a name="parameters"></a>
 
@@ -61,7 +61,7 @@ ht-degree: 8%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 影响以下参数的可用性。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 影响以下参数的可用性。 |
 | <b>已烘焙贴图</b> | 是否使用列出的已烘焙贴图进行计算。 影响以下参数的可用性。 |
 | <b>DiffuseAO</b> <i>0.0 - 1.0</i> | 要混合到Diffuse中的Ambient occlusion量。 |
 | <b>锐边Diffuse</b> <i>0.0 - 1.0</i> | 要混合到Diffuse中的弯曲图量。 |

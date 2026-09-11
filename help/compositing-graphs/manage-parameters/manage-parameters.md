@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
-description: 了解如何管理和整理Substance合成图形中的参数，以便更好地整理工作流。
+description: 了解如何管理和整理Substance合成图表中的参数，以便更好地整理工作流。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 3%
 * 将节点的值或所有参数保存到[预设文件](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)中，以便以后重复使用
 * [公开节点的参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)以使它们可访问并将它们链接在一起
 * [根据其他参数的值隐藏或显示参数](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
-* 使用[Substance的函数图形](../../function-graphs/function-graphs.md)计算参数的值
+* 使用[Substance函数图形](../../function-graphs/function-graphs.md)计算参数的值
 
 ## 参数操作
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 在“属性”停靠区中显示节点的属性时，可以使用以下节标题中的“<b>管理参数</b>”菜单全局管理节点参数：
 
 * 对于[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)：特定参数
-* 对于[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)：实例参数
+* 对于[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)：实例参数
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 此菜单中的操作将影响该部分中列出的&#x200B;*所有*&#x200B;参数：
 
-* <b>公开参数：</b>打开“批处理公开参数”对话框。 对于每个公开参数，该动作将创建一个新的图形输入并使用该图形输入自动设置一个函数。 详细了解公开[此专用页](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中的参数。
+* <b>公开参数：</b>打开“批量公开参数”对话框。 对于每个公开参数，该动作将创建一个新的图形输入并使用该图形输入自动设置一个函数。 了解有关在[此专用页面](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中公开参数的更多信息。
 * <b>复制参数：</b>请参阅下面的[复制和粘贴参数](#copy-paste-parameters)部分。
 * <b>粘贴参数：</b>请参阅下面的[复制和粘贴参数](../../compositing-graphs/manage-parameters/manage-parameters.md)部分。
 * <b>将参数另存为预设文件：</b>在[此专用页面](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)中了解有关参数预设的更多信息。
@@ -84,7 +84,7 @@ ht-degree: 3%
 
 可以通过三种方式将[Substance函数图形](../../function-graphs/the-function-graph/the-function-graph.md)应用于该参数：
 
-* <b>公开为新的图形输入：</b>这将创建一个新的图形输入并使用该图形输入自动设置函数。 详细了解公开[此专用页](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中的参数。
+* <b>公开为新图形输入：</b>这将创建一个新的图形输入并使用该图形输入自动设置函数。 了解有关在[此专用页面](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中公开参数的更多信息。
 * <b>空函数：</b>从头开始创作函数。
 * <b>常量值：</b>编辑从[常量值节点](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)开始并设置为参数当前值的函数。
 * <b>重置：</b>将参数重置为其默认值和范围。 如果对参数应用了函数，则会将其关闭。
@@ -120,9 +120,9 @@ ht-degree: 3%
 
 ## 复制和粘贴参数
 
-可以复制源节点的所有参数值，然后将其粘贴到目标节点上。 源节点和目标节点的参数是<b>基于其标识符和类型</b>匹配的。
+可以复制源节点的所有参数值，然后将其粘贴到目标节点上。 源节点和目标节点的参数是<b>基于它们的标识符和类型</b>匹配的。
 
-例如，如果“Scale”参数的标识符是“scale”并且类型是“Float”，则可以将其复制并粘贴到另一个参数“Shape Scale”上，只要其标识符也是“scale”并且类型也是“Float”即可。
+例如，当参数“Scale”的标识符为“scale”并且类型为“Float”时，可以将其复制并粘贴到另一个参数“Shape Scale”上，如果它的标识符也是“scale”并且类型也是“Float”。
 
 此功能的工作方式与使用[参数预设文件](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)的方式相同。 事实上，复制到剪贴板的数据与SBSPRS预设文件中存储的数据相同，并且可以粘贴到任何文本编辑器中以进行审阅和编辑。
 

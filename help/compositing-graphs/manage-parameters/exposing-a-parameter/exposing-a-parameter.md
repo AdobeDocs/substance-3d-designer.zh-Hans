@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Designer合成图中公开参数，以使素材可自定义并可重用。
+description: 了解如何Substance 3D Designer合成图形中的参数，以使材料可自定义并可重复使用。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter
 helpx_experience_level: ""
@@ -20,36 +20,36 @@ ht-degree: 4%
 
 # 公开参数
 
-公开参数是功能最强大的工具之一，对于向其他应用程序（如Substance 3D Painter、Substance 3D Sampler以及适用于Maya和3DS Max的Substance集成）打开图表至关重要。
+公开参数是最强大的工具之一，并且是向其他应用程序（如Substance 3D Painter、Substance 3D Sampler以及适用于Maya和3DS Max的Substance集成）开放图形的关键。
 
-此页面介绍了开始公开的所有必需概念。 建议[先了解图形实例是什么](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，然后再继续此页面。 另外，您还应该了解[Publish与导出的区别，以及所涉及的文件类型。](../../../getting-started/overview/overview.md)
+本页介绍了开始公开所需的所有概念。 建议[先了解图形实例是什么](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，然后再继续此页面。 另外，您还应该了解[Publish与导出的区别，以及所涉及的文件类型。](../../../getting-started/overview/overview.md)
 
-![简化了公开参数](exposing-a-parameter.resources/parameters-5.png "简化了公开参数")
+![简化公开参数](exposing-a-parameter.resources/parameters-5.png "简化公开参数")
 
 *\*上方的虚线、透明线条是连接的抽象表示形式\
-从公开的参数到图形参数。*
+从公开参数到图形参数。*
 
-## 了解参数和显示
+## 了解参数和公开
 
 +++什么是参数？
-*参数是具有UI元素的简单值，用于控制图表的行为。* 您可在所有Substance软件中持续使用它们：更改颜色、设置混合模式、选择不透明度值等……如果没有参数，Substance软件将不允许进行任何自定义。
+*参数是具有UI元素的简单值，可控制图形的行为。* 您可在所有Substance软件中持续使用它们：更改颜色、设置混合模式、选择不透明度值等……如果没有参数，Substance软件将不允许进行任何自定义。
 
-参数可以有多种不同的形式：滑块、拨号、输入框、下拉菜单等。它们表示的值可以有很多种类型：十进制值、整数（整数）值、布尔值(true/false)，甚至文本片段。
-
-+++
-
-+++什么是“曝光”？
-***公开是指使参数可在当前图形视图之外使用的过程。***  构建图表时，通常选择节点来更改其属性中的参数；如果公开，则您&#x200B;*启用从外部控制面板访问此参数*。 根据上下文，“外部控制面板”可能具有不同的含义：在Designer中用作图表实例时，它仅充当另一个节点。 在Substance 3D Painter、Substance 3D Sampler或集成中使用时，这些公开的参数将是&#x200B;*您对图表拥有的唯一控件*。
+参数可以有多种不同的形式：滑块、拨号、输入框、下拉菜单等。它们表示的值可以有很多种类型：小数值、完整(整数)值、布尔值(true/false)，甚至文本片段。
 
 +++
 
-+++为什么说曝光很有用？
-***公开参数是使Substance 3D Designer超越简单纹理编辑器的工具，允许您创建可自定义的动态纹理生成工具*** **。** 如果不进行曝光，Substance材质将不会与静态纹理有很大差异：您将无法修改其输出。
++++什么是“公开”？
+***公开是指在当前图形视图之外提供参数的过程。***  在构建图形时，通常选择节点来更改其属性中的参数；当出现公开时，您&#x200B;*启用从外部控制面板访问此参数*。 根据上下文，“外部控制面板”可能具有不同的含义：在Designer中用作图形实例时，它只是充当另一个节点。 在Substance 3D Painter、Substance 3D Sampler或集成中使用时，这些公开参数将是您对图形拥有的&#x200B;*唯一控件*。
 
 +++
 
-+++为什么不随时自动公开每个参数？
-<b> [Substance图](../../../compositing-graphs/substance-compositing-graphs.md)可能会变得很复杂，一次可包含数百个参数。 始终向用户显示所有参数是没有意义的，特别是当您要用简单的目标生成不需要很多参数的图表时。</b> 在公开参数时，您作为UI或UX设计者工作：您会考虑哪些控件是合理的，需要哪些值，以及如何使其易于为自己、在线其他用户或您的同事使用。
++++为什么公开很有用？
+***公开参数是使Substance 3D Designer超越简单纹理编辑器的功能，允许您创建可自定义的动态纹理生成工具*** **。** 如果没有公开，Substance材料就不会与静态纹理有太大区别：您将无法修改它们的输出。
+
++++
+
++++为什么不自动公开每个参数呢？
+<b> [图形](../../../compositing-graphs/substance-compositing-graphs.md)可能会变得很复杂，一次可包含数百个参数。 始终向用户显示所有参数是没有意义的，特别是在构建不需要很多参数的简单目标图形时。</b> 在公开参数时，您作为UI或UX设计者工作：您会想哪些控件是合理的，需要哪些值，以及如何使其易于为自己、在线其他用户或您的同事使用。
 
 +++
 

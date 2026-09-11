@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
 breadcrumb-title: ''
 description: 使用“渐变轴向反射”节点为对称颜色转变创建反射轴向渐变。
 helpx_creative_field: ""
@@ -47,4 +47,4 @@ ht-degree: 1%
 |:---|:---|
 | <b>点1</b> | 第一个渐变起始点（黑色） |
 | <b>点2</b> | 第二个点用于结束渐变（白色） |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用挤压补偿并使用非方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用使用非方形比率补偿挤压和拉伸。 |

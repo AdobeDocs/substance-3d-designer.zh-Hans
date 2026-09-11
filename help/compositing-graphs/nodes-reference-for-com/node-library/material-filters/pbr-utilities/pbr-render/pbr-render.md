@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: 使用PBR 渲染节点以真实的光照渲染基于物理的材质，从而预览材质外观。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 使用基于图像的光照(IBL)将PBR素材渲染到球体、平面或圆柱体上。这是节点内的渲染引擎，对于生成缩览图、预览或2D资源非常有用。 它不是如3D视图那样进行渲染，而是图形中生成的实际纹理。
 
-此节点要求至少插入一个完整的PBR材料。 理想情况下，可使用“链接创建模式”将材料连接到PBR 渲染。 此外，您还需要一个球面展开的HDRI环境，以便渲染从中计算光照。 可以在PBR Materials下找到用于测试的材质，也可以在库中的[&#x200B; 3D View下找到环境地图。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+此节点要求至少插入一个完整的PBR材料。 理想情况下，可使用“链接创建模式”将材料连接到PBR 渲染。 此外，您还需要一个球面展开的HDRI环境，以便渲染从中计算光照。 可以在PBR Materials下找到用于测试的材质，也可以在库中的[ 3D View下找到环境地图。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
@@ -128,25 +128,25 @@ ht-degree: 6%
 | <b>镜头Dirt强度</b> <i>0.0 - 1.0</i> | 在镜头眩光上设置镜头Dirt映射的效果。 |
 | <b>渲染设置</b> |  |
 | <b>Diffuse质量</b> <i>16个样本，32个样本，64个样本，128个样本</i> | 在漫射图的品质级别之间切换。 |
-| <b>Diffuse的Emissive乘数</b> <i>0.0 - 1.0</i> | 控制发射部分对辐照度的贡献程度。 |
+| <b>Diffuse的Emissive乘数</b> <i>0.0 - 1.0</i> | 控制emissive部分对辐照度的贡献程度。 |
 | <b>Diffuse阴影强度</b> <i>0.0 - 1.0</i> | 控制漫射阴影的强度。 |
-| <b>仿色</b> <i>0.0 - 1.0</i> | 设置Specular的抖动量。 |
+| <b>仿色</b> <i>0.0 - 1.0</i> | 设置Specular的仿色量。 |
 | <b>Specular阴影乘数</b> <i>0.0 - 1.0</i> | 控制Specular反射中的阴影强度。 |
-| <b>不透明度模式</b> <i>抖动Alpha测试，简单Alpha混合</i> | 控制应用透明度的方法。 <i>简单Alpha混合</i>模式在统一背景上最明显。 |
-| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 设置环境遮蔽阴影的强度。 |
-| <b>材质调整</b> |  |
-| <b>重新计算法线</b> <i>False/True</i> | 将根据位移强度从Height映射中重新计算法线。 |
+| <b>不透明度模式</b> <i>抖动Alpha测试，简单Alpha混合</i> | 控制应用透明度的方法。 <i>简单混合</i>模式在统一背景上最明显。 |
+| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 设置ambient occlusion阴影的强度。 |
+| <b>材料调整</b> |  |
+| <b>重新计算法线</b> <i>False/True</i> | 将根据位移强度从高度图中重新计算法线。 |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同的法线贴图格式之间切换（反转绿色通道） |
-| <b>介电F0输入</b> <i>常量值，输入Specular level</i> | 设置什么驱动F0值。 Specular level输入表示将由输入映射驱动。 |
+| <b>介电F0输入</b> <i>常量值，输入Specular level</i> | 设置什么驱动F0值。 Specular level输入表示它将由输入图驱动。 |
 | <b>电介质F0</b> <i>0.0 - 0.08</i> | 如果为“电介质F0输入”选择了“常量值”，则此滑块允许您设置全局值。 |
 | <b>透明外套</b> |  |
-| <b>启用透明涂层</b> <i>False/True</i> | 在输入材料上启用附加的简单透明涂层。 |
+| <b>启用透明涂层</b> <i>False/True</i> | 在输入材料顶部启用另一个简单的透明涂层。 |
 | <b>透明外套重量</b> <i>0.0 - 1.0</i> | 设置透明涂层图层的强度或强度。 |
 | <b>清除Coat specular level</b> <i>0.0 - 1.0</i> | 设置透明涂层的粗糙度。 |
 | <b>从基底图层继承普通</b> <i>False/True</i> | 设置clearcoat是否忽略或使用来自基础材质的法线。 |
-| <b>具发射性</b> |  |
+| <b>Emissive</b> |  |
 | <b>启用Emissive光照</b> <i>True/False</i> | 切换emissive光照的扩散作用。 |
-| <b>发射强度</b> <i>0.0 - 10.0</i> | 设置发射映射的全局乘数。 |
+| <b>Emissive强度</b> <i>0.0 - 10.0</i> | 设置emissive映射的全局乘数。 |
 | <b>次表面散射</b> |  |
 | <b>启用次表面散射</b> <i>True/False</i> | 在最终渲染中切换次表面散射。<br><br><i>注意：</i>次表面散射要求<b>Translucency</b>输入值为<i>大于0.0</i> |
 | <b>散射距离</b> <i>0.0 - 1.0</i> | 调整散射效果的最大距离。<br><br><i>注意：</i>此值与<b>散射距离刻度</b>输入值<i>每个颜色通道</i>相乘。 |

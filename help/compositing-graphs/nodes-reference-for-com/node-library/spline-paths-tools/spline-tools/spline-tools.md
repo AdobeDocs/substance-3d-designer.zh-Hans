@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
 breadcrumb-title: ''
 description: 访问所有样条工具节点，以创建、处理和渲染Substance图形中的样条。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 样条曲线工具是一个节点集合，用于生成和调整样条，以及使用它们来映射、散布或变形图像。
 
-样条曲线是平滑曲线，其轨迹由控制点及其切线确定。 每个点还控制样条的Height和Thickness属性，这些属性用于驱动图像的映射、变形和散布。
+样条曲线是平滑曲线，其轨迹由控制点和这些点的正切形成。 每个点还控制样条的Height和Thickness属性，这些属性用于驱动图像的映射、变形和散布。
 
 请查看此教程以开始使用：
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 [UV映射器颜色](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)
 
-[UV映射器灰度](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
+[灰度UV映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
 
 </td>
 </tr>

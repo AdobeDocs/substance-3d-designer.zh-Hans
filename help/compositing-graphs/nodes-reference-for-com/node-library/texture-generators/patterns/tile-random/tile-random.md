@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: 使用“拼贴随机”节点创建随机拼贴图案，这些图案具有有机纹理效果的程序变化。
 helpx_creative_field: ""
@@ -85,7 +85,7 @@ ht-degree: 7%
 | <b>旋转随机</b> <i>0.0 - 1.0</i> | 基于每个拼贴随机旋转。 |
 | <b>旋转约束</b> <i>False/True</i> | 限制缩放比例，以便旋转的拼贴从不重叠。 |
 | <b>位置</b> |  |
-| <b>偏移</b> <i>0.0 - 1.0</i> | 全局移动或平移拼贴，仅在X轴上滑动 |
+| <b>偏移</b> <i>0.0 - 1.0</i> | 全局移动或平移磁贴，仅在X轴上滑动 |
 | <b>随机偏移</b> <i>0.0 - 1.0</i> | 仅在X轴上随机选择每个磁贴的偏移量 |
 | <b>随机</b> <i>0.0 - 1.0</i> | 随机调整位置，拼贴在X和Y轴上移动。 |
 | <b>随机约束</b> <i>False/True</i> | 限制缩放，使拼贴触摸，但不重叠。 显着降低随机位置效果的色调。 |

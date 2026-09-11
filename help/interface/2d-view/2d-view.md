@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
-description: 使用Substance 3D Designer中的2D视图可预览和检查材质图表中的纹理输出。
+description: 使用Substance 3D Designer中的2D 视图预览和检查材料图形中的纹理输出。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 2D view
 helpx_experience_level: ""
@@ -20,41 +20,41 @@ ht-degree: 0%
 
 # 2D 视图
 
-本页介绍了Substance 3D Designer中&#x200B;**2D视图**&#x200B;面板的用户界面和功能。
+本页介绍Substance 3D Designer中&#x200B;**2D 视图**&#x200B;面板的用户界面和功能。
 
-![2D视图](../../assets/2d-view-main.png "2D视图")
+![2D 视图](../../assets/2d-view-main.png "2D 视图")
 
 ## 概述
 
-[2D视图](https://substance3d.adobe.com/)是Designer用户界面的主要面板之一。 其主要目的如下：
+[2D 视图](https://substance3d.adobe.com/)是Designer用户界面的主要面板之一。 其主要目的如下：
 
 * 显示指定的&#x200B;*节点*&#x200B;输出的&#x200B;*值*&#x200B;或&#x200B;*图像*&#x200B;或穿过指定的&#x200B;*节点连接器*
 * 显示[位图](../../resources/bitmap-resource/bitmap-resource.md)和[矢量图形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) [资源](../../resources/resources.md)
 * 显示&#x200B;*有关当前保留内容的其他信息*，例如颜色通道或确切颜色值
 * 控制参数“*小工具*”
 
-修改显示的图像或值后，2D视图&#x200B;*会自动更新*&#x200B;以与数据的当前状态保持同步。\
-*多个* 2D视图面板可以随时处于活动状态，并且每个面板可以显示不同的图像或值。 您可以使用用户界面面板的![](../../assets/2d-view-icon-pin.png) <b>针脚</b>功能来控制何时应使用新面板。
+修改显示的图像或值后，2D 视图&#x200B;*会自动更新*，以便与数据的当前状态保持同步。\
+可以随时激活&#x200B;*多个* 2D 视图面板，并且每个面板可以显示不同的图像或值。 您可以使用用户界面面板的![](../../assets/2d-view-icon-pin.png) <b>大头针</b>功能来控制何时应使用新面板。
 
-### 在2D视图中显示内容
+### 在2D 视图中显示内容
 
 >[!WARNING]
 >
-> 本节中提到的对&#x200B;*节点*&#x200B;执行的所有操作仅适用于[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)。
+> 本节中提到的对&#x200B;*节点*&#x200B;执行的所有操作仅适用于[图形](../../compositing-graphs/substance-compositing-graphs.md)。
 
-在2D视图中显示任何图像的最简单的方法是双击&#x200B;*LMB*...
+在2D 视图中显示任何图像的最简单方法是双击&#x200B;*LMB*...
 
 * ...位于[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中的[位图](../../resources/bitmap-resource/bitmap-resource.md)或[矢量图形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)资源上
-* ...位于[图形视图](../../interface/the-graph-view/the-graph-view.md)中的节点或节点连接器上
+* ...位于[图形视图](../../interface/the-graph-view/the-graph-view.md)中的节点或连接器上
 
-也可以通过按住[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的[资源](../../resources/resources.md)上的&#x200B;*LMB*&#x200B;或图形视图中的节点上的&#x200B;*RMB*，将图像&#x200B;*直接拖放到*&#x200B;的视口中。
+也可以在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板的[资源](../../resources/resources.md)上按住&#x200B;*LMB*，或在图形视图中的视口上按住&#x200B;*RMB*，将图像&#x200B;*直接拖放到中。*
 
-在图形视图中，您可以使用<b>在2D视图中查看输出</b>上下文菜单选项将图像发送到2D视图，该菜单选项可通过单击&#x200B;*人民币*&#x200B;来访问。
+在图形视图中，您可以使用<b>在2D 视图中查看输出</b>上下文菜单选项将图像发送到2D 视图，可通过单击&#x200B;*人民币*&#x200B;访问该选项……
 
 * ...在&#x200B;*节点*&#x200B;上显示&#x200B;*该节点的输出*。 如果节点有多个输出，请在子菜单中选择所需的输出
 * ...在图形视图中的&#x200B;*空格*&#x200B;上显示&#x200B;*该图形的输出*。 如果图形有多个输出，请在子菜单中选择所需的输出
 
-加载图形时，默认情况下，其&#x200B;*第一输出*&#x200B;自动显示在2D视图中。 您可以在[首选项](../../interface/preferences-window/preferences-window.md)中禁用此行为。 转到<b>编辑>首选项>图形>Substance合成图形</b>和&#x200B;*取消选中* <b>打开图形时以2D视图查看输出</b>选项。
+加载图形时，默认情况下，其&#x200B;*第一输出*&#x200B;自动显示在2D 视图中。 您可以在[首选项](../../interface/preferences-window/preferences-window.md)中禁用此行为。 转到<b>编辑>首选项>图形>Substance合成图形</b>和&#x200B;*取消选中* <b>打开图形时以2D视图查看输出</b>选项。
 
 ## 视口
 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 您可以使用<b>UV</b>按钮启用它。![](../../assets/2d-view-icon-uv.png)
 
-这样会将当前在3D视图[&#128279;](../../interface/3d-view/3d-view.md)中选定的网格的UV显示为彩色线框。
+这样会将当前在3D视图](../../interface/3d-view/3d-view.md)中选定的网格[的UV显示为彩色线框。
 
 如果素材颜色信息在网格文件中可用，则素材颜色将用作UV叠加的颜色。
 

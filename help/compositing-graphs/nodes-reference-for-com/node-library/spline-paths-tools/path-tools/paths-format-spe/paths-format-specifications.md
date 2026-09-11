@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: 了解路径和样条节点使用的路径格式规范和数据结构。
 helpx_creative_field: ""
@@ -90,7 +90,7 @@ top[uv\_pos]和bottom[uv\_pos]共同构成文档的语义单元U[uv\_pos]，由8
 
 本文档中定义的最后一个顶点的地址。 这有助于附加新数据。
 
-因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于&rbrack;0， 1[×]0，.5&lbrack;范围内
+因此，它实际上可以是比最后一个顶点的地址大（按扫描线顺序）的任何地址。 它必须位于]0， 1[×]0，.5[范围内
 
 <b>ZW</b>
 
@@ -203,15 +203,15 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 [路径顶点处理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)和[路径顶点处理器简单](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)节点提供了基础知识，它们基本上可以用与[像素处理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)相同的方法。
 
-如果您需要路径顶点处理器节点提供的功能之外的功能（更多输入纹理，或更多上一或下一顶点），复制此图表的实现可能是很好的起点(假设您使用自定义处理替换<b>Get(“%perVertex”)</b>节点)。
+如果您需要超出“路径顶点处理器”节点所能提供的功能（更多输入纹理，或者更多先前或下一个顶点），则复制此图形的实现可能是一个很好的起点(假设您将<b>Get(“%perVertex”)</b>节点替换为自定义处理)。
 
-但是，如果您想做一些比应用单顶点函数更陌生的事，这里提供了对您可以使用的工具的详细说明。 这些通常是可在与其他Paths节点(*paths\_tools.sbs)*&#x200B;相同的包中找到的小帮助器函数。 （这些函数未在[<b>库</b>](../../../../../../interface/the-library/the-library.md)和<b>节点菜单</b>中公开。）
+但是，如果您想做一些比应用每个顶点功能更陌生的事，这里提供了您可以使用的工具的详细说明。 这些通常是可以在与其他Paths助手(*paths\_tools.sbs)*&#x200B;相同的包中找到的小节点函数。 （这些函数未公开[<b>库</b>](../../../../../../interface/the-library/the-library.md)和<b>节点菜单</b>中。）
 
 ### “读取”函数
 
 在`Read`文件夹下，您可以找到以下几项有助于收集有关路径的信息：
 
-有些可以提供有关给定像素的信息。 它们都将\*top\*部分中的取样Float4值作为输入。 如果你看看它们的实现，它们非常简单。 他们的目的是传达更多含义，而不仅仅是原子节点：
+有些可以提供有关给定像素的信息。 它们都将\*top\*部分中的取样Float4值作为输入。 如果你看看它们的实现，它们非常简单。 他们的目的是传达更多意义，而不仅仅是原子节点：
 
 +++is_header
 检查当前采样值是路径页眉还是文档页眉。
@@ -223,23 +223,23 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 +++
 
-+++is_vertex
++++is_顶点
 检查当前采样值是否为顶点，即不是标题，也不是空像素。
 
 +++
 
-+++is_start_vertex
-检查\*顶部零件取样\*值是否为起始顶点（无需先检查`is\_vertex`）。
++++is_start_顶点
+检查\*顶部部分采样\*值是否为起始顶点（无需先检查`is\_vertex`）。
 
 +++
 
-+++is_mid_vertex
-检查\*顶部零件采样\*值是否为非起始或结束顶点的顶点（无需先检查`is\_vertex`）。
++++is_mid_顶点
+检查\*顶部部分取样\*值是否为顶点，它不是“开始”或“结束”顶点（无需先检查`is\_vertex`）。
 
 +++
 
-+++is_end_vertex
-检查\*顶部零件取样\*值是否为“结束”顶点（无需先检查`is\_vertex`）。
++++is_end_顶点
+检查\*顶部部分采样\*值是否为结束顶点（无需先检查`is\_vertex`）。
 
 +++
 
@@ -249,25 +249,25 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 +++
 
 +++is_corner
-检查顶点的边角标志（无需先检查`is\_vertex`：如果答案为true，则您肯定位于顶点上）。 请注意，官方节点尚不支持此标志。
+检查顶点的角标志（无需先检查`is\_vertex`：如果答案为true，则表明你确实处于顶点中）。 请注意，官方节点尚不支持此标志。
 
 +++
 
 +++has_trivial_links
-如果是顶点，将指示是否可以在不对底部进行采样的情况下轻松推导上一顶点和下一顶点的位置。 （注意：非顶点将始终返回false。）
+如果是顶点，则指示是否可以无需对底部进行采样即可轻松推导上一个顶点和下一个的位置。 （注意：非顶点将始终返回false。）
 
 您可能不想直接使用此项，而是使用`sample\_next\*`或`sample\_prev\*`函数之一，由它们为您处理。
 
 +++
 
 +++sample_next， sample_prev
-在给定顶部采样值`*sampled*`及其位置`*sampled\_position*`的情况下，返回下一个（分别为上一个）顶点顶部采样值，并将浮点数2变量`*next\_sampled\_pos*`设置为此邻居的位置(即&lt;returned value> = SampleColor(next\_sampled\_pos， image0))。 `*input0PixSize*`必须等于路径的像素大小(top[(0,0)].YZ)。
+在给定顶部采样值`*sampled*`及其位置`*sampled\_position*`的情况下，返回下一个（分别为上一个）顶点顶部采样值，并将Float2变量`*next\_sampled\_pos*`设置为此邻居的位置(即&lt;returned value> = SampleColor(next\_sampled\_pos， image0))。 `*input0PixSize*`必须等于路径的像素大小(top[(0,0)].YZ)。
 
-如果当前像素(`*sampled*`)是<b>开始</b>顶点，*sample\_prev*&#x200B;将返回此顶点的下一个同级成员；同样，如果它是<b>结束</b>顶点，*sample\_next*&#x200B;将返回此顶点的下一个同级成员（即，可能不是您想要的）。 请参阅下面的`*sample\_next\_advanced*`和`*sample\_prev\_advanced*`来解决此问题。
+如果当前像素(`*sampled*`)是<b>开始</b>顶点，*sample\_prev*&#x200B;将返回此顶点的下一个同级对象；同样，如果它是<b>结束</b>顶点，*sample\_next*&#x200B;将返回此顶点的下一个同级对象（即，可能不是您想要的内容）。 请参阅下面的`*sample\_next\_advanced*`和`*sample\_prev\_advanced*`来解决此问题。
 
 请注意，为简单起见，<b>路径信息假定存储在input0！</b>中 此外，与函数的doc状态不同，您不需要预声明`*next\_sampled\_pos*`。 `*[out]next\_sampled\_pos*`是一个虚拟参数，用于提醒您存在第二个“返回值”。
 
-可以在第三迭代节点的Iterations参数中检查`*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)，以说明如何使用它。
+您可以检查第3个Iterate节点的迭代参数中的`*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)以说明如何使用它。
 
 ![sample_next的最小用例](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next的最小用例")
 
@@ -280,23 +280,23 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 +++
 
 +++sample_next_advanced， sample_prev_advanced
-这是为了处理闭合路径。 对于开放路径，“起始”或“结束”顶点没有同级，在这种情况下，两个函数都返回相同且唯一的邻居。 对于具有多个同级的“开始”或“结束”顶点（将路径连接为网络），这将返回链接列表中下一个同级的相邻顶点。
+这是为了处理闭合路径。 对于开放路径，“起始”或“结束”顶点没有同级路径，在这种情况下，两个函数都返回相同且唯一的邻居。 对于具有多个同级的“开始”或“结束”顶点（将路径连接为网络），这将返回链接列表中下一个同级的顶点。
 
 +++
 
 ### “写入”函数
 
-在`Write`文件夹下，您会发现一些小帮助程序，这些帮助程序生成准备由[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>写入<b>的Float4。
+在`Write`文件夹下，您会发现一些小型助手，它们生成准备由[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>写入<b>的Float4。
 
-实际上，[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)在绘制之前会将RGB与Alpha相乘，因此会取消预乘实际值以对其进行补偿。 如果您想在[像素处理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)中使用这些函数，我们建议您自己再次应用预乘，或者编写自定义版本（更优化且更易于使用）。
+实际上，[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)在绘制之前会将RGB与Alpha相乘，因此会取消预乘实际值以对其进行补偿。 如果您想在[像素处理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)中使用这些函数，我们建议您自己再次应用预乘，或者编写自定义版本（更优化您的用例且更易于使用）。
 
 +++document_header
 生成文档标题的顶部，声明您提供的路径数。
 
 +++
 
-+++document_last_vertex_spec
-生成文档标题的\*bottom\*部分，该部分指定最后一个顶点地址（请参见A.1.）。
++++document_last_顶点_spec
+生成顶点页眉的\*bottom\*部分，指定文档的最后一个地址（请参见A.1.）。
 
 +++
 
@@ -305,23 +305,23 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 
 +++
 
-+++start_vertex、mid_vertex、end_vertex
-生成顶点的顶部，并相应地设置位置、类型和其他选项。
++++start_顶点、mid_顶点、end_顶点
+构建顶点的顶部，并相应地设置位置、类型和其他选项。
 
-约&#x200B;*mid\_vertex*&#x200B;和&#x200B;*hasTrivialLinks*&#x200B;参数：理想情况下，您应设置适当的值，但如果由于任何原因您最终无法判断链接是否微不足道，则可安全地将其设置为false（代价是较慢地处理所生成的路径）。
+大约&#x200B;*mid\_path*&#x200B;和&#x200B;*hasTrivialLinks*&#x200B;顶点：理想情况下，您应设置适当的值，但如果由于任何原因您最终无法判断链接是否微不足道，则可放心将其设置为false（这将降低所生成路径的处理速度）。
 
 +++
 
-没有用于路径标头或顶点的底部生成器：两者都编码到顶部的两个链接，因此此函数本质上将是来自两个Float2的Vector Float4构造函数。 如果使用[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)进行写操作，请不要忘记将XYZ除以W （W是地址的Y，它不应为Null）。
+没有用于顶点头或路径的底部生成器：两者都编码到顶部的两个链接，因此该函数本质上将是来自两个Float2的矢量浮点数4构造函数。 如果使用[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)进行写操作，请不要忘记将XYZ除以W （W是地址的Y，它不应为Null）。
 
 您将在托管[路径多边形](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)节点的&#x200B;<b>*paths\_polygon.sbs* </b>包中找到相关示例，说明如何使用这些函数。
 
 ### 处理路径的方法
 
-您可能会使用像素处理器或Fx-Map来实现您的自定义处理，每种处理都有其优势和弱点：
+您可能会使用像素处理器或Fx-Map来实现您的自定义处理，每种方法都有其强度和弱点：
 
 +++FX-Map
-当执行需要全局了解整个路径（或路径）或累积路径（例如，在抽取或镶嵌后重新打包顶点）的高层操作时，通常首选基于[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的解决方案。 这种方法也是最简单的方法，因此，如果您是第一次进行自定义处理，您可能需要使用Fx-Map，尽管它&#x200B;*可能*&#x200B;会比较慢。
+当执行需要全局顶点（或多条路径）或累积路径（例如，在抽取或曲面细分后重新打包路径）的全局知识的高层次操作时，基于[Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的解决方案通常更可取。 这种方法也是最简单的方法，因此，如果您是第一次进行自定义处理，您可能需要使用Fx-Map，尽管它&#x200B;*可能*&#x200B;会比较慢。
 
 您需要先熟悉Fx-Map。 如果不是，请查看[特定文档](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)。
 
@@ -330,7 +330,7 @@ E.g. 如果文档中有3条路径，则它们将存储在U[(0,1)\*pixel\_size]�
 +++
 
 +++像素处理器
-如果您只需要“本地”信息，[像素处理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)解决方案将适合。 这里我们指的是“局部”不是空间上的（元素之间的距离），而是拓扑上的（链接在一起的顶点）。 这就是顶点处理器的实现方式。 对于此类操作，像素处理器通常比Fx-Map快，因为每个像素的功能都是并行计算的，而访问的数据量有限。 但实现工作可能更为重要，因为您只能修改当前像素。
+如果您只需要“本地”信息，[像素处理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)解决方案将适合。 这里我们指的是“局部”不是空间上的（元素之间的距离），而是拓扑上的（链接在一起的顶点）。 这就是实现顶点处理器的方式。 对于此类操作，像素处理器通常比Fx-Map快，因为每个像素的功能都是并行计算的，而访问的数据量有限。 但实现工作可能更为重要，因为您只能修改当前像素。
 
 我们不会透露详细信息，因为根据您的具体用例，我们将透露很多信息，但第一件事是检查您的位置：
 

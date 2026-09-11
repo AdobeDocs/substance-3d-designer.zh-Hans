@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: 使用Scratches细节点可添加精细的划痕图案，以实现细微的磨损和表面细节效果。
 helpx_creative_field: ""
@@ -45,13 +45,13 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>高级</b> |  |
-| <b>Scratches数量</b> <i>浮动</i> | 调整表面的精细划痕量。 |
-| <b>锐化强度</b> <i>浮动</i> | 调整全局锐化效果的强度。 |
+| <b>Scratches数量</b> <i>Float</i> | 调整表面的精细划痕量。 |
+| <b>锐化强度</b> <i>Float</i> | 调整全局锐化效果的强度。 |
 | <b>暂存值偏差</b> <i>浮动</i> | 调整分配给各个划痕的明亮度值的平衡。 |
 
 ## 示例

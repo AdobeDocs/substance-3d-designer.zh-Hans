@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: 将后期处理效果应用于3D视图相机，以增强素材预览和可视化。
 helpx_creative_field: ""

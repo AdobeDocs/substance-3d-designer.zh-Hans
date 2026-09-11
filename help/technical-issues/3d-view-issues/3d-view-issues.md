@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: 解决Substance 3D Designer中的3D视图问题，包括渲染、显示和性能问题。
 helpx_creative_field: ""
@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 根据Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)，支持的GPU包括NVIDIA RTX 20系列（图例）或更高版本。
 
-通过使用“项目设置”[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的new选项，您可以继续默认使用OpenGL渲染器：
+通过使用“项目设置”](../../interface/preferences-window/project-settings/project-settings.md)中的[new选项，您可以继续默认使用OpenGL渲染器：
 
 1. 转到编辑>首选项>项目
 2. 选择列表中的最后一个项目文件
@@ -231,13 +231,13 @@ Designer不应用正常比例和偏差，除非它们由3D网格指定。 如果
 
 对于不久前导出为美元格式的场景：使用最新版本的USD重新导出场景，这将包括必要的数据。 注意与正常比例和偏差相关的属性（如果有），这些属性将取决于用于导出场景的软件。
 
-当[覆盖素材](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)时，Designer会处理网格并计算与其法线、切线和二项式相关的任何缺失数据。 如果Designer的默认缩放和偏差恰好与网格所需的缩放和偏差相匹配，则网格在覆盖时将看起来正确。
+当[覆盖素材](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)时，Designer会处理网格并计算与其法线、切线和二项式相关的任何缺失数据。 如果Designer的默认缩放和偏差碰巧与网格所需的缩放和偏差相匹配，则当覆盖时网格看起来将正确无误。
 
-## 启动3D视图时崩溃
+## 启动3D 视图时崩溃
 
 **![（错误）](../../assets/error.svg)问题**
 
-在启动3D视图、创建项目、加载项目或手动启动3D视图时，Designer崩溃。
+Designer在启动3D 视图、创建项目、加载项目或手动启动3D 视图时崩溃。
 
 **![（刻度）](../../assets/check.svg)建议的步骤**
 

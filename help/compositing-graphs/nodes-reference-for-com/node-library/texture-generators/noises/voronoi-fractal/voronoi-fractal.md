@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
 breadcrumb-title: ''
 description: 使用Voronoi分形节点生成分形Voronoi图案，用于创建有机细胞纹理。
 helpx_creative_field: ""
@@ -62,14 +62,14 @@ ht-degree: 0%
 | <b>最大级别</b> <i>整数</i> | 分形图案中使用的最大重复级别&#x200B;*为*。 更宽的最小值/最大值范围会生成&#x200B;*更丰富的图案*，并且随更多频率范围而变化。 |
 | <b>粗糙度</b> <i>浮动</i> | 控制分形图案中低和高&#x200B;*重复级别*&#x200B;之间的&#x200B;*平衡*。<br><br>*注意*：值&#x200B;**0**&#x200B;导致输出&#x200B;*与随后的其他低值不符*。 这是预期的。<br><br>*注意2*：仅当&#x200B;**混合模式**&#x200B;参数设置为&#x200B;*添加*&#x200B;时，此参数才可用。 |
 | <b>隙度</b> <i>浮动</i> | 控制应用的分形图案&#x200B;*填充空间*&#x200B;的方式。 *较高的*&#x200B;值会使图案中的间隙减少&#x200B;*，从而产生*&#x200B;更密&#x200B;*的杂色。* |
-| <b>全局不透明度</b> <i>浮动</i> | 从0控制分形Perlin杂色值的&#x200B;*范围*。 |
-| <b>圆角曲线</b> <i>浮动</i> | 围绕噪声的每个点对&#x200B;*斜率*&#x200B;进行圆整，使其成为&#x200B;*凸形*。<br><br>*注意*：当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数不可用。 |
-| <b>距离刻度</b> <i>浮动</i> | 调整渐变&#x200B;*在每个噪声点周围的*&#x200B;距离。 |
+| <b>全局不透明度</b> <i>Float</i> | 从0控制分形Perlin噪声值的&#x200B;*范围*。 |
+| <b>圆角曲线</b> <i>Float</i> | 围绕噪声的每个点对&#x200B;*斜率*&#x200B;进行圆整，使其成为&#x200B;*凸形*。<br><br>*注意*：当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数不可用。 |
+| <b>距离刻度</b> <i>Float</i> | 围绕噪声的每个点调整渐变&#x200B;*的*&#x200B;距离。 |
 | <b>距离模式</b> <i>整数</i> | 将方法设置为&#x200B;*计算噪声的每个点周围的距离渐变*：<br><br>- *欧几里德*<br>- *曼哈顿*<br>- *切比雪夫*<br>- *明科夫斯基* |
-| <b>闵可夫斯基数值</b> <i>浮动</i> | Minkowski距离的顺序&#x200B;*p*。 如果将距离渐变划分为几个象限，则此数值将对这些象限产生如下影响： <br><br>- p是&#x200B;*刚好* 1：笔直<br>- p是&#x200B;*低*&#x200B;比1：凹形<br>- p是&#x200B;*大*&#x200B;比1：凸形<br><br>有趣的值：<br><br>- *1.0*：曼哈顿距离<br>- *2.0*：欧几里德距离<br>- *无限远*：切比雪夫distance <br><br>*注意*：此参数仅在&#x200B;**Distance Mode**&#x200B;参数设置为&#x200B;*Minkowski*&#x200B;时可用。 |
+| <b>闵可夫斯基数值</b> <i>Float</i> | Minkowski距离的顺序&#x200B;*p*。 如果将距离渐变划分为几个象限，则此数值将对这些象限产生如下影响： <br><br>- p是&#x200B;*刚好* 1：笔直<br>- p是&#x200B;*低*&#x200B;比1：凹形<br>- p是&#x200B;*大*&#x200B;比1：凸形<br><br>有趣的值：<br><br>- *1.0*：曼哈顿距离<br>- *2.0*：欧几里德距离<br>- *无限远*：切比雪夫distance <br><br>*注意*：此参数仅在&#x200B;**Distance Mode**&#x200B;参数设置为&#x200B;*Minkowski*&#x200B;时可用。 |
 | <b>混合模式</b> <i>整数</i> | 设置空间中&#x200B;*重叠单元格*&#x200B;的值混合的方法：<br><br>- *相加*：相加值<br>- *最大值*：保留&#x200B;*最高*&#x200B;值<br>- *最小*：保留&#x200B;*最低*&#x200B;值 |
 | <b>样式</b> <i>整数</i> | 设置分形Voronoi噪声的数据渲染&#x200B;*方法，考虑到噪声基于空间中的一组点：<br><br>-* F1 *：到空间中*&#x200B;最近点&#x200B;*的距离<br>-* F2 *：到空间中*&#x200B;秒最近点&#x200B;*的距离<br>-* F2-F1 *<br>-* F1\*F2*<br>- *F1/F2*<br>- *边缘*：空间中噪声的每个单元格&#x200B;*之间的*&#x200B;边缘<br>- *随机颜色*：为空间中噪声的每个单元格分配&#x200B;*随机平面颜色** |
-| <b>边缘Thickness</b> <i>浮动</i> | 调整分形Voronoi噪声的细胞之间检测到的边缘的Thickness。 在X、Y和Z轴中检测到边缘，因此某些厚度可能比其他厚度增加得更快，具体取决于单元格的&#x200B;*深度*。<br><br>*注意*：仅当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数才可用。 |
+| <b>边缘Thickness</b> <i>Float</i> | 调整分形Voronoi噪声的细胞之间检测到的边缘的Thickness。 在X、Y和Z轴中检测到边缘，因此某些厚度可能比其他厚度增加得更快，具体取决于单元格的&#x200B;*深度*。<br><br>*注意*：仅当&#x200B;**Style**&#x200B;参数设置为&#x200B;*Edge*&#x200B;时，此参数才可用。 |
 | <b>随机颜色种子模式</b> <i>整数</i> | 设置&#x200B;*获取*&#x200B;每个单元格颜色选择的随机种子的方法：<br><br>- *全局随机种子*：使用节点&#x200B;*继承*- *手动种子*：使用&#x200B;*离散*&#x200B;种子&#x200B;<br><br>*注意*：仅当&#x200B;**Style**&#x200B;参数设置为&#x200B;*随机颜色*&#x200B;时，此参数才可用。<br> |
 | <b>随机颜色种子</b> <i>整数</i> | 应该用于每个单元格的颜色选择的离散随机植入。<br><br>*注意*：此参数仅在&#x200B;**Style**&#x200B;参数设置为&#x200B;*Random color*&#x200B;且&#x200B;**Random Color Seed Mode**&#x200B;参数设置为&#x200B;*Manual Seed*&#x200B;时可用。 |
 | <b>启用拼贴</b> <i>布尔值</i> | 调整分形Voronoi噪声，使其生成的图案&#x200B;*在X、Y和Z轴中重复*。 |

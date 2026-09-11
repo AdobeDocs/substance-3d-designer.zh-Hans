@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer Python增效工具中实施日志记录以进行调试和监控。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 我们建议使用标准Python的日志模块进行日志记录。
 
-<b>sd</b>模块包含用于将日志记录重定向到Designer控制台的帮助程序类。
+<b>sd</b>模块包含用于将日志记录重定向到Designer控制台的助手类。
 
 ## 登录到Designer的控制台面板
 

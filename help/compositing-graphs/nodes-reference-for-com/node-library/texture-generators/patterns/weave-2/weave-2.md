@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
 breadcrumb-title: ''
 description: 使用“织造2”节点可在Substance 3D Designer中创建具有可自定义的线材属性的高级织物图案。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-生成简单的编织图案。 具有随机性控件。 在最大无序度下，这甚至可以用作噪声。
+生成简单的编织图案。 具有随机性控件。 在最大无序度下，这甚至可以被用作噪声。
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ ht-degree: 7%
 | <b>拼贴</b> <i>1 - 16</i> | 设置结果应平铺的次数。 |
 | <b>无序</b> <i>0.0 - 100.0</i> | 在编织物的缝合处混乱以引入变化。 |
 | <b>旋转45度</b> <i>False/True</i> | 按预设角度旋转。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 

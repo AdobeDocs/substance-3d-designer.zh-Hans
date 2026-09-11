@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/packaging-plugins.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/packaging-plugins.html"
 breadcrumb-title: ''
 description: 了解如何打包适用于Substance 3D Designer的Python增效工具以进行分发和安装。
 helpx_creative_field: ""

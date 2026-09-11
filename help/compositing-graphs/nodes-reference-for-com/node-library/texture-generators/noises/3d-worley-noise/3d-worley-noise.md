@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
 breadcrumb-title: ''
 description: 使用3D“worley噪声”节点根据3D位置生成“Worley噪声”，以创建体积纹理效果。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D Worley噪声
+title: 3D Worley Noise
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
@@ -18,7 +18,7 @@ ht-degree: 7%
 ---
 
 
-# 3D Worley噪声
+# 3D Worley Noise
 
 <table>
 <tr style="border: 0;">

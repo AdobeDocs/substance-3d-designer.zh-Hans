@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
-description: 使用“白噪声”节点生成白噪声图案，用于创建纹理变化和随机效果。
+description: 使用“白色噪声”节点生成白色噪声模式，以创建纹理变化和随机效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White noise
 helpx_experience_level: ""
@@ -24,16 +24,16 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![白噪声 — 图标](../../../../../../assets/white_noise_v2.png "白噪声 — 图标"){width="200px"}
+![白色噪声 — 图标](../../../../../../assets/white_noise_v2.png "白色噪声 — 图标"){width="200px"}
 
-<b>在：</b>纹理生成器>杂色
+<b>进入：</b>纹理生成器>噪声
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-使用针对不同直方图形状的三种方法之一生成白噪声：均匀、高斯和三角形。
+使用针对不同直方图形状的三种方法之一生成白色噪声：均匀、高斯和三角形。
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
+| <b>输出</b> <i>灰度</i> | 生成的灰度位图噪声。 |
 
 <a name="parameters"></a>
 
@@ -54,8 +54,8 @@ ht-degree: 5%
 |  |  |
 |:---|:---|
 | <b>噪声分发</b> <i>整数</i> | 将食材分布到目标直方图形状的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>一致：</i>平面直方图。</li> <li data-preserve-html="true"><i>高斯：</i>表示正态分布的直方图，类似于钟形曲线。</li> <li data-preserve-html="true"><i>三角形：</i>三角形直方图。</li> </ul> |
-| <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
-| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
+| <b>无序</b> <i>Float</i> | 置换噪声的组成部分。    这可用于为噪声制作动画。 |
+| <b>无序速度</b> <i>Float</i> | 调整<b>无序</b>参数应用的位移的距离。    在为噪声制作动画时，这可用于控制位移的速度。 |
 
 ## 示例
 

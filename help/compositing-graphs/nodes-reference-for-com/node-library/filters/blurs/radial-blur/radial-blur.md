@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: 使用径向模糊节点从中心点应用径向模糊效果，以创建运动和缩放效果。
 helpx_creative_field: ""

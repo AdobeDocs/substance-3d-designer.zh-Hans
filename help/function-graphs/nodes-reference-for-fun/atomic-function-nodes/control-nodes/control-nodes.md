@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
-description: Substance 3D Designer功能图形中的访问控制节点，用于控制流和执行逻辑。
+description: Substance 3D Designer中的访问控制节点函数图形，用于控制流和执行逻辑。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Control
 helpx_experience_level: ""
@@ -100,14 +100,14 @@ ht-degree: 1%
 </tr>
 </table>
 
-循环具有隐含的最大迭代数，可通过将其设置为–1来禁用该值。
+循环具有隐含的最大迭代数，可通过将其设置为–1来禁用它。
 
 变量在迭代中保留其值，并且可在退出条件(“退出条件”(Exit Cond.))中访问。\
-这意味着可以在每次迭代时向索引值添加值，并在退出条件中检查其值，以控制所需的循环数。
+这意味着您可以为每个迭代添加索引值，并在退出条件中检查其值，以控制所需的循环数。
 
 >[!IMPORTANT]
 >
-> 连接到<b>退出条件</b>的节点 和<b>循环体</b>分支不能连接到图形的其他分支。
+> 连接到<b>退出条件</b>的节点 和<b>循环体</b>分支无法连接到图形的其他分支。
 
 +++输入连接器
 <b>初始化。</b> *变量类型*\
@@ -118,7 +118,7 @@ ht-degree: 1%
 *注意：*&#x200B;最大迭代次数仍限制为<b>最大迭代次数</b>参数。
 
 <b>循环正文</b> *变量类型*\
-从循环中获益的图形。 在每次迭代中重新计算它。
+从循环中受益的图形。 它会在每个迭代上重新计算。
 
 +++
 

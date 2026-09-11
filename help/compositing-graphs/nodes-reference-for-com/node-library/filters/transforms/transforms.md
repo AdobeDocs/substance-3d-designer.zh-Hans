@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的变换滤镜节点，将几何变换应用于纹理和图案。
 helpx_creative_field: ""

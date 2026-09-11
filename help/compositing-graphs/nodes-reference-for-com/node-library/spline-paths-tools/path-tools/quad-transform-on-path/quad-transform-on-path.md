@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
-description: 使用“路径上的四边变换”节点可将二次变换应用于沿路径曲线的元素。
+description: 使用“路径上的四次变换”节点可将二次变换应用于沿路径曲线的元素。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Path上的四变换
+title: 路径上的四次变换
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Path上的四变换
+# 路径上的四次变换
 
 <table>
 <tr style="border: 0;">
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>路径</b> <i>颜色</i> | 变换路径。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
+| <b>路径</b> <i>颜色</i> | 变换后的路径。 您可以使用[预览路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)了解结果所代表的内容，使用其他路径处理节点，或将其输入到[样条路径](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)以进一步将其处理为样条。 |
 
 <a name="parameters"></a>
 
@@ -61,10 +61,10 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>p00</b> <i>Float2</i> | 左上角手柄的位置。 |
-| <b>p01</b> <i>Float2</i> | 右上角手柄的位置。 |
-| <b>p02</b> <i>Float2</i> | 左下手柄的位置。 |
-| <b>p03</b> <i>Float2</i> | 右下角手柄的位置。 |
+| <b>p00</b> <i>浮点2</i> | 左上角手柄的位置。 |
+| <b>p01</b> <i>浮点2</i> | 右上角手柄的位置。 |
+| <b>p02</b> <i>浮点2</i> | 左下手柄的位置。 |
+| <b>p03</b> <i>浮点2</i> | 右下角手柄的位置。 |
 
 ## 示例
 

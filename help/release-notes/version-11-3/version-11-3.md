@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本11.3的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -130,18 +130,18 @@ ht-degree: 1%
 * [Substance模型]改进基数的显示方式
 * [Substance模型]将Substance模型图形导出为.fbx时保留对象的层次结构
 * [Substance模型]支持从Substance模型图表以FBX/OBJ方式导出多种材质
-* [Substance模型]&#x200B;[内容]粒子节点
-* [Substance模型]&#x200B;[内容]生成式转换节点
-* [Substance模型]&#x200B;[内容]有机图案节点
-* [Substance模型]&#x200B;[内容] Instances节点的粒子
+* [Substance模型][内容]粒子节点
+* [Substance模型][内容]生成式转换节点
+* [Substance模型][内容]有机图案节点
+* [Substance模型][内容] Instances节点的粒子
 * [Substance模型] [内容]粒子剪枝节点
-* [Substance模型]&#x200B;[内容]车床节点
-* [Substance模型]&#x200B;[内容] Shell节点
-* [Substance模型]&#x200B;[内容]投影节点
-* [Substance模型]&#x200B;[内容]曲线修剪节点
-* [Substance模型]&#x200B;[内容]更新曲线Sampler节点
-* [Substance模型]&#x200B;[内容]更新网格Sampler节点
-* [Substance模型]&#x200B;[内容]更新抖动节点
+* [Substance模型][内容]车床节点
+* [Substance模型][内容] Shell节点
+* [Substance模型][内容]投影节点
+* [Substance模型][内容]曲线修剪节点
+* [Substance模型][内容]更新曲线Sampler节点
+* [Substance模型][内容]更新网格Sampler节点
+* [Substance模型][内容]更新抖动节点
 * [UX]用于最大化当前视图的按钮
 * [UX]更新“新建图形”窗口
 * [UX]在“工具”菜单中添加“下载播放器”选项，然后与“定位播放器”聚合
@@ -150,36 +150,36 @@ ht-degree: 1%
 * [UX]自动显示重复的图形项目的属性
 * [UX]在图形工具栏中添加按钮，以禁用帧标题/注释/图钉的恒定屏幕大小
 * [UX]用于将版本信息复制到“关于”对话框中的剪贴板的按钮
-* [材料]与材料有关的输入
-* [内容]在3D Perlin噪音上添加“拼贴”选项
-* [内容]新的扩散过程节点
+* [材料]与输入值相关的输入值
+* [Content]在3D Perlin噪声上添加“拼贴”选项
+* [Content]新的漫射进程节点
 * [Content]新PBR 渲染节点版本
 * [互操作性]从Sampler接收SBS和SBSAR
 * [互操作性]将SBSM发送到Stager
-* [3D视图]添加一个选项以禁用背面剔除
-* [3D视图]添加用于显示顶点相切空间的选项
-* [资源管理器]双击图表视图的背景时，在资源管理器中突出显示图表
+* [3D 视图]添加选项以禁用背面消隐
+* [3D 视图]添加一个选项以显示顶点正切空间
+* [资源管理器]双击图形背景时突出显示资源管理器中的图形视图
 * [资源管理器]删除上下文菜单中的“浏览”选项
-* [面包师]隐藏已弃用的面包师
+* [Baker]隐藏已弃用的Baker
 * [色彩管理]添加对OCIO v2配置文件规则的支持
-* [库]根据图形类型重命名类别
-* [首选项]如果检测到支持的CUDA GPU，请在Iray硬件首选项中自动禁用CPU
+* [资源库]根据图形类型重命名类别
+* [首选项]如果检测到支持的CUDA GPU，则会在Iray 硬件首选项中自动禁用CPU
 
 **已修复：**
 
-* [Substance模型]在.fbx上使用“as sudb”选项时Mac上崩溃
-* [Substance模型]在特定情况下导出到SBSM时崩溃
-* [Substance模型]导出公开的参数时导出失败，这些构件从未生成
-* [Substance模型]打开引用多个.fbx文件的图表时随机崩溃
-* [Substance模型]范围未动态应用于公开参数的构件
-* [Substance模型]重新加载网格选项对Substance模型图表中使用的资源不起作用
-* [Substance模型]在特定情况下，场景不会显示在可用的3D视图中
-* [UI]禁用区域在材质选项中过大
+* [Substance模型]在.fbx中使用“as sudb”选项时，在Mac上崩溃
+* [Substance模型]在特定情况下导出为SBSM时崩溃
+* [Substance模型]导出从未构建小组件的公开参数时导出失败
+* [Substance模型]打开引用多个.fbx文件的图形时的随机崩溃
+* [Substance模型]范围未动态应用于公开参数的小部件
+* [Substance模型]重新加载网格选项不适用于Substance模型图形中使用的资源
+* [Substance模型]在特定情况下，场景不会显示在可用的3D 视图中
+* [UI]材料选项中的禁用区域过大
 * [UI] “未保存包文件”对话框中的样式问题
 * [UI]必须按两次Tab键才能在值之间导航
 * [UI]使用鼠标拖动进行缩放会在3D视图和其他视口之间反转
 * [UI]使用“最近打开的文件”列表加载已打开的SBS时，错误地触发“未找到包”提示
-* [UI]&#x200B;[macOS]启动应用程序后的默认界面布局不正确
+* [UI][macOS]启动应用程序后的默认界面布局不正确
 * [UI]包无法保存到驱动器的根目录（仅限Windows）
 * [图形]在特定情况下，“在2D视图中自动显示”选项不一致
 * [图形] “打开引用”选项适用于SBSAR实例节点

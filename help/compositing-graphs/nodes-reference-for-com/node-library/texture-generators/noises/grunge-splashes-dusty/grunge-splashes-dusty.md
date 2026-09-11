@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
-description: 使用污渍飞溅灰尘节点创建飞溅图案，用于添加经风化的纹理细节。
+description: 使用污渍飞溅灰尘节点创建飞溅图案，用于添加历经沧桑的纹理细节。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_experience_level: ""
@@ -45,15 +45,15 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>高级</b> |  |
-| <b>喷溅数量</b> <i>浮动</i> | 调整表面的飞溅量。 |
-| <b>喷溅扭曲</b> <i>浮动</i> | 调整应用于飞溅的变形效果的强度。 |
-| <b>开机/Dirt比</b> <i>浮动</i> | 调整表面Dirt和飞溅的&#x200B;*比例*。 |
-| <b>Dirt跨页</b> <i>浮动</i> | 调整Dirt的传播。 |
+| <b>喷溅数量</b> <i>Float</i> | 调整表面的飞溅量。 |
+| <b>喷溅扭曲</b> <i>Float</i> | 调整应用于飞溅的变形效果的强度。 |
+| <b>开机/Dirt比</b> <i>Float</i> | 调整表面Dirt和飞溅的&#x200B;*比例*。 |
+| <b>Dirt跨页</b> <i>Float</i> | 调整Dirt的传播。 |
 
 ## 示例
 

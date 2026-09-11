@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中自动设置用户首选项，以简化工作流程配置。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ user\_preferences.xml文件包含所有用户特定设置，这些设置不在[�
 
 唯一要更改的相关设置是包含项目列表的[配置文件](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)。 这可以通过下面列出的几种方式实现。
 
-或者，您可以完全绕过修改用户首选项的过程，并在Designer快捷键中使用命令行参数对SBSCFG文件执行基于会话的覆盖，请参阅下文。
+或者，您可以完全绕过修改用户首选项的过程，并在快捷键上使用命令行参数对SBSCFG文件执行基于会话的覆盖，请参阅下文。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

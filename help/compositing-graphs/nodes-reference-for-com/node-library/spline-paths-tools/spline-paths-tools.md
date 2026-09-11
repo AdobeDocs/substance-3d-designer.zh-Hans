@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ''
-description: 访问样条和路径工具节点，用于在Substance图中创建程序图案、曲线和有机形状。
+description: 访问样条和路径工具节点，以在图形中创建程序化的图案、曲线和有机形状。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 样条和路径工具
 
-样条和路径工具是一个节点集合，用于在Substance图中使用路径和样条：
+样条和路径工具是一个节点集合，用于在图形中使用路径和样条：
 
 <b>路径</b>是一系列连接到直线上的点。
 

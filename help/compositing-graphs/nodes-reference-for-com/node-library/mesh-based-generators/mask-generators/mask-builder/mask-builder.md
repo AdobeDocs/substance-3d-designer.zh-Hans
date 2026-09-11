@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: 使用“蒙版生成器”节点可合并多个蒙版输入，并为材料效果创建复杂的蒙版图案。
 helpx_creative_field: ""
@@ -82,9 +82,9 @@ ht-degree: 10%
 | <b>杂色</b> <i>0.0 - 1.0</i> | 设置要混合到AO效果中的噪声/污渍量。 |
 | <b>噪声比例</b> <i>0 - 10</i> | 设置AO噪声/污渍的比例。 |
 | <b>噪声类型</b> <i>斑点、云、潮湿、白噪声</i> | 在4种不同类型的AO噪声之间切换。 |
-| <b>反转</b> <i>False/True</i> | 反转AO图的解释：噪点将出现在AO亮区，而不是暗区。 |
-| <b>曲率</b> <i>0.0 - 1.0</i> | 设置应该在弯曲边上显示的效果量；可以是凸的，也可以是凹的。 用下面的组稍作调整。 |
-| <b>曲率</b> |  |
+| <b>反转</b> <i>False/True</i> | 反转对AO地图的解释：噪声将出现在明亮的AO区域，而不是暗区。 |
+| <b>弯曲</b> <i>0.0 - 1.0</i> | 设置应该在弯曲边上显示的效果量；可以是凸的，也可以是凹的。 用下面的组稍作调整。 |
+| <b>弯曲</b> |  |
 | <b>凸范围</b> <i>-1.0 - 1.0</i> | 设置凸形（明亮）弯曲边缘要呈现的效果。 |
 | <b>凸对比度</b> <i>0.0 - 1.0</i> | 设置凸形效果的对比度。 |
 | <b>凸反转</b> <i>False/True</i> | 反转凸边的解释。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer的性能优化准则，以提高图形性能并减少处理时间。
 helpx_creative_field: ""
@@ -65,12 +65,12 @@ ht-degree: 0%
 +++
 
 +++当不需要16位时使用8位
-Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8位灰度。 GPU引擎支持所有4种8/16位和灰度/颜色的组合。 *目前，在Unity和Unreal Engine增效工具中仅使用CPU引擎*。
+Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8位灰度。 GPU引擎支持所有4种8/16位和灰度/彩色组合。 *目前，在Unity和虚构引擎增效工具中仅使用CPU引擎*。
 
 +++
 
 +++尽可能最小化节点输出大小
-有时，缩减某些节点的规模不会影响最终结果，但会影响性能。 例如，使用设置为与文档相同的输出大小的“统一颜色”节点是没有意义的：“统一颜色”应设置为“绝对[16px x 16px]”，后续节点设置为“相对于父级”。 通常，这种技巧适用于低频图像，如Perlin噪声。
+有时，缩减某些节点的规模不会影响最终结果，但会影响性能。 例如，使用设置为与文档相同的输出大小的统一颜色节点是没有意义的：统一颜色应设置为“绝对[16px x 16px]”，后续节点设置为“相对于父代”。 通常，这种技巧适用于低频图像，如Perlin噪声。
 
 +++
 
@@ -79,7 +79,7 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 
 +++
 
-+++使用“混合”节点时，如果不需要则禁用Alpha混合
++++使用混合节点时，在不需要时禁用Alpha 值混合处理
 
 
 +++
@@ -89,18 +89,18 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 
 +++
 
-+++绘制的图案数量会影响某些噪声生成器
++++某些噪声生成器受绘制的图案数量影响
 例如，[Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)节点处理添加到它的更多模式的速度将变慢。
 
 +++
 
-+++一些噪声受比例因子的影响
-事实上，这个因素会形成更多模式。 受影响的节点包括噪声、细胞模式等。如果需要白噪声图案，请不要使用具有非常高缩放值的噪声，而应使用[白噪声](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)或[白噪声快速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)节点。
++++某些噪声受比例因子的影响
+事实上，这个因素会形成更多模式。 受影响的节点包括噪声、细胞模式等。如果需要白色噪声图案，请不要使用具有非常高缩放值的噪声，而应使用[白色噪声](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)或[白色噪声快速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)节点。
 
 +++
 
-+++反之亦然，有一些非常快速的噪音产生器
-这些噪声包括[白噪声快速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)、[分形求和基](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)和[各向异性噪声](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)。
++++相反，有一些非常快速的噪声生成器
+其中包括[白噪声快速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)、[分形求和基](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)和[各向异性噪声](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)。
 
 +++
 
@@ -122,7 +122,7 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 +++
 
 +++尽量使用灰度
-在图表末尾切换到颜色模式。
+在图形末尾切换到彩色模式。
 
 +++
 
@@ -134,14 +134,14 @@ Substance 引擎(SSE2) *的CPU版本*&#x200B;实际上不支持16位颜色或8�
 ### 针对嵌入位图的大小优化
 
 默认情况下，[位图](../../resources/bitmap-resource/bitmap-resource.md)的[输出大小](../../compositing-graphs/output-size/output-size.md)设置为[“绝对”](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 这意味着，如果位图通过节点链连接到输出，它将强制最终输出为嵌入位图的大小。\
-在位图之后插入的节点的输出大小将设置为[“相对于输入”](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 这意味着节点本身也会具有位图的大小，并将此大小沿节点链向下传递到输出。 若要更正此问题，您需要将位图之后的节点设置为输出大小设置为[“相对于主页”](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
+在位图之后插入的节点的输出大小将设置为[“相对于输入”](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 这意味着节点本身也会具有位图的大小，并将此大小沿节点链向下传递到输出。 若要更正此问题，您需要将位图后面的节点设置为将其“输出大小”设置为[“相对于父代”](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
 
-如果图形设置为具有动态分辨率，您可以将嵌入位图上的“输出大小”更改为“相对于父级”。\
-这样，位图大小将根据父图形进行更改，您不会遇到以下情况：图形在位图中处理的分辨率高于所需的分辨率。
+如果将图形设置为具有动态分辨率，则可以将嵌入位图上的“输出大小”更改为相对于父代。\
+这样，位图大小将根据父图形进行更改，您不会遇到图形处理比所需分辨率更高的位图分辨率的情况。
 
 >[!WARNING]
 >
-> 将[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点设置为“相对于主页”并将图形[发布](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)到Substance 3D资源(SBSAR)将以&#x200B;**256x256**&#x200B;的分辨率保存位图，而不是其原始大小。 建议将Bitmap节点的[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) [输出大小](../../compositing-graphs/output-size/output-size.md)保留为“绝对”，并在Bitmap节点之后使用[Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点设置为“相对于父节点”。
+> 将[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点设置为“相对于父代”并将[发布](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)图形到Substance 3D资源(SBSAR)将以&#x200B;**256x256**&#x200B;的分辨率保存位图，而不是其原始大小。 建议将Bitmap nodes的[继承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)“[输出大小](../../compositing-graphs/output-size/output-size.md)”保留为“绝对”，并在Bitmap node之后使用设置为“相对于父代”的[变换 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点。
 
 ![嵌入的位图优化1](performance-optimization-guidelines.resources/input-1.jpg "嵌入的位图优化1")
 

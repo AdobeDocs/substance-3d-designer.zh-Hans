@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用可见表达式根据条件控制参数可见性。
 helpx_creative_field: ""
@@ -69,7 +69,7 @@ input["identifier"]
 
 “显示条件”字段接受以下参数：
 
-* 布尔值、浮点和整数输入。
+* 布尔值、Float及整数输入。
 * `true`和`false`值（区分大小写，无大写！）
 * `.x` ：访问子参数
 * `&&`<b> </b>：和
@@ -82,7 +82,7 @@ input["identifier"]
 
 Visible If表达式用作“IF”语句的条件，这意味着它必须始终生成`true`或`false`。
 
-* 布尔值可直接作为条件求值。 带有布尔值的简单按钮仅需要此项。 请参阅以下示例，第一个案例；
+* 布尔值值可直接作为条件求值。 带有布尔值的简单按钮仅需要此项。 请参阅以下示例，第一个案例；
 * 非布尔型参数通常需要&#x200B;*比较*&#x200B;操作。 比较运算符请参阅上文，示例请参阅下文；
 * 一些非布尔值可以是&#x200B;*truthy*&#x200B;或&#x200B;*falsy*，这意味着它们可以评估为`true`个，共`false`个 — 例如， 整数值`0`的计算结果为false。
 

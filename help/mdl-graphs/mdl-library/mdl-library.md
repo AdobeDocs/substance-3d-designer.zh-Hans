@@ -69,8 +69,8 @@ Designer包含一些MDL模块，这些模块包含用于创作MDL图表的基本
 * 内置内容
 * 自定义内容
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
-* 已加载[个MDL图形](../../mdl-graphs/mdl-graphs.md)
+* 已加载[MDL 图](../../mdl-graphs/mdl-graphs.md)
 
-![3D视图中的MDL材质](../../assets/mdl-apply-in-3dview-material-list.png "3D视图中的MDL材质")
+![3D 视图中的MDL 材质](../../assets/mdl-apply-in-3dview-material-list.png "3D 视图中的MDL 材质")
 
-*3D视图中的MDL材质*
+*3D 视图中的MDL 材质*

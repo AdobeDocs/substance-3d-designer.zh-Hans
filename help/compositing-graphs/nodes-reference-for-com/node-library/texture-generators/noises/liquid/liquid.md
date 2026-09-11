@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: 使用“液体”节点生成液体和液体图案，用于产生水、油和其他液体表面效果。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 描述
 
-这是[高斯噪声](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的简单变体，它[本身变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)以创建类似液体的效果。
+这是[高斯杂色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的简单变体，它[本身变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)以创建类似液体的效果。
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ ht-degree: 9%
 | <b>缩放</b> <i>1 - 128</i> | 设置效果的全局比例。 |
 | <b>无序</b> <i>0.0 - 1.0</i> | 对噪声进行相移以引入较小的变化 |
 | <b>变形强度</b> <i>0.0 - 1.0</i> | 设置变形效果的强度。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
 
 ## 示例
 

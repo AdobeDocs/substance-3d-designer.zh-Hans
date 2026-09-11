@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: 使用“样条变形”节点沿样条路径变形纹理，以创建曲线和有机图案。
 helpx_creative_field: ""
@@ -86,7 +86,7 @@ ht-degree: 0%
 | <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
 | <b>Thickness（像素）</b> <i>浮动</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
-| <b>背景预览强度</b> <i>Float</i> | 该值乘以背景预览输入图像。 |
+| <b>背景预览强度</b> <i>浮动</i> | 值与背景预览输入图像相乘。 |
 
 ## 示例
 

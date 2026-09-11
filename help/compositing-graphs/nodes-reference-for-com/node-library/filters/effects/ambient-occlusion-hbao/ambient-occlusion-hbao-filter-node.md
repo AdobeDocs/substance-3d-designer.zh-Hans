@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
 description: 使用Ambient occlusionHBAO滤镜节点可以使用基于水平线的算法生成ambient occlusion图，以实现逼真的着色。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ambient occlusion(HBAO)(滤镜节点)
+title: 环境遮蔽(HBAO)（滤镜节点）
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# ambient occlusion(HBAO)(滤镜节点)
+# 环境遮蔽(HBAO)（滤镜节点）
 
 <table>
 <tr style="border: 0;">

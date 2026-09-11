@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: 使用“夹紧”节点将纹理值夹紧在指定的最小和最大范围内，以控制值限制。
+description: 使用钳制节点将纹理值固定到指定的最小和最大范围内以控制值限制。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## 描述
 
-将输入值限制到定义的限制。
+将输入值钳制为定义的限制。
 
 </td>
 </tr>

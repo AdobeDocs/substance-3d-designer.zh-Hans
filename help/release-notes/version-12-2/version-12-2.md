@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-12-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-2.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本12.2的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""

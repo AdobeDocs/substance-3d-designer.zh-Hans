@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer函数图中可用于构建自定义函数的函数节点。
+description: 了解Substance 3D Designer函数图形中可用于构建自定义函数的函数节点。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function Nodes Overview
 helpx_experience_level: ""
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # 函数节点概述
 
-本页提供所有函数节点的完整概述，并解释用于函数数据类型的颜色编码。您可以单击到更详细的页面来了解进一步说明。
+本页提供所有函数节点的完整概述，并解释用于函数数据类型的颜色编码。单击可进入更详细的页，进一步了解相关说明。
 
-可通过以下方式访问这些函数节点：在图表函数编辑器中单击右键，然后选择“元素”；在函数中按空格键或Tab ，或者通过库的“函数”部分。
+可通过以下方式访问这些函数节点：在图形功能编辑器中单击鼠标右键，然后选择“元素”，在函数中按空格键或Tab ，或者通过“库”的“功能”部分。
 
 ## 颜色编码
 
-功能节点及其链接线按照以下方案进行颜色编码：
+函数节点及其链接线按以下方案进行颜色编码：
 
 <table>
 <tr style="border: 0;">

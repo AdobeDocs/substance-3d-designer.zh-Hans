@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: 使用2D视图中的Sampler颜色工具可从纹理中取样颜色，以实现精确的颜色匹配。
 helpx_creative_field: ""
@@ -82,11 +82,11 @@ ht-degree: 0%
 </tr>
 </table>
 
-此值取决于图像使用的位深度。 在Substance图中，位深度由<b>输出格式</b>控制 [基本参数](../../../compositing-graphs/graph-parameters/graph-parameters.md)。
+此值取决于图像使用的位深度。 在图形中，位深度由<b>输出格式</b>控制 [基本参数](../../../compositing-graphs/graph-parameters/graph-parameters.md)。
 
 可用的位深度包括：
 
-* <b>8位整数：</b>介于0到255之间的256整数值。
+* <b>8位整数：</b> 256个0到255之间的整数值。
 * <b>16位整数：</b>介于0到65,535之间的65,536整数值。
 * <b>HDR低精度（16位）</b>：使用16位编码的浮点值。
 * <b>HDR高精度（32位）</b>：使用32位编码的浮点值。 这是Designer中可用的最高精度。

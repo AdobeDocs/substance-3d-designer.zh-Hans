@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: 使用污渍粗糙脏节点生成粗糙和脏污渍纹理，以添加经过风化的表面细节。
 helpx_creative_field: ""
@@ -45,15 +45,15 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>高级</b> |  |
-| <b>主污渍强度</b> <i>Float</i> | 调整用于分解曲面的主纹理的强度。 |
+| <b>主污渍强度</b> <i>浮动</i> | 调整用于分解曲面的主纹理的强度。 |
 | <b>反转Scratches</b> <i>布尔值</i> | 反转表面划痕的明亮度。 |
-| <b>Scratches强度</b> <i>Float</i> | 调整表面划痕的强度。 |
-| <b>颗粒强度</b> <i>Float</i> | 调整全局颗粒效果的强度。 |
+| <b>Scratches强度</b> <i>浮动</i> | 调整表面划痕的强度。 |
+| <b>颗粒强度</b> <i>浮动</i> | 调整全局颗粒效果的强度。 |
 
 ## 示例
 

@@ -1,6 +1,6 @@
 ---
 title: 设置材质
-description: 设置SDF场景素材的基色、粗糙度和金属度。
+description: 设置SDF材料的base color、粗糙度和金属量。
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '111'
@@ -15,7 +15,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![设置材质图标](set-material.png "设置材质")
+![设置材料图标](set-material.png "设置材料")
 
 <b>In：</b> 3D Function > Material
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 ## 描述
 
-设置SDF场景素材的基色、粗糙度和金属度。
+设置SDF材料的base color、粗糙度和金属量。
 
 然后，可以在[形状飞溅v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)的输出中检索所有飞溅SDF形状的这些值。
 

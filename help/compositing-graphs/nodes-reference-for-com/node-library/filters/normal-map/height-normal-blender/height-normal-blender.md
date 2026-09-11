@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
 description: 使用“Height法线混合器”节点混合Height和法线图，以组合表面详细信息。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 描述
 
-将灰度高图混合到正常映射上的快捷节点。 Height输入在内部转换为正常映射，然后与正常输入正确混合。
+将灰度海图图混合到正常映射上的快捷键节点。 Height输入在内部转换为正常映射，然后与正常输入正确混合。
 
 与手动对单独节点执行此操作相比，这是混合细节的一种更快的方式，但您可能会发现它缺乏对某些需求的控制和优化。
 

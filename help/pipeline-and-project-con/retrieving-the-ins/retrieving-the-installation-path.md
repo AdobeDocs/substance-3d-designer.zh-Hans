@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: 了解如何检索Substance 3D Designer安装路径以用于脚本编写和自动化目的。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 > 此注册表项仅从版本11.2开始可用。\
-> 对于旧版本，可从HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts中的文件关联检索安装路径
+> 对于旧版本，可从资源管理器\FileExts中的文件关联检索安装路径
 
 ### Substance版（独立）
 

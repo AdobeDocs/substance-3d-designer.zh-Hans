@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
 breadcrumb-title: ''
 description: 了解Substance模型图功能的生命周期结束状态并查找替代解决方案。
 helpx_creative_field: ""
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## 生命周期结束
 
-Substance模型图是我们首次尝试参数化建模，后来在Substance 3D Designer版本<b>13.0.0</b>中<b>停用</b>。
+Substance模型图形是我们首次尝试进行参数化建模，后来在Substance 3D Designer版本<b>13.0.0</b>中<b>停用</b>。
 
 版本<b>12.4.1</b>是支持Substance模型图表的Designer的&#x200B;*最后*&#x200B;版本。 因此，使用该功能的用户不应更新到更高版本。

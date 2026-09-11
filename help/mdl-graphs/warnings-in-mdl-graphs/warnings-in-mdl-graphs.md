@@ -7,7 +7,7 @@ helpx_description: Designer > MDL graphs > Warnings in MDL graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: MDL图表中的警告
+title: MDL 图中的警告
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# MDL图表中的警告
+# MDL 图中的警告
 
 此页面列出了[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中的MDL 图可能触发的警告和错误消息，并提供了针对每个警告和错误消息的常见故障排除步骤。
 
-警告显示在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中图形资源的警告图标的工具提示中，如果加载了图形，则也会显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。
+警告显示在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中图形资源的警告图标的工具提示中，如果加载了图形，则显示在[图形视图](../../interface/the-graph-view/the-graph-view.md)的左下角。
 
 >[!NOTE]
 >
@@ -55,19 +55,19 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
-如果未向某些节点的输入连接器提供数据，则这些节点参数无法回退到默认值。 场景输入通常就是这种情况。
+如果未向某些节点的输入连接器提供数据，则这些节点参数无法回退到默认值。 这通常是场景投入的情况。
 
-将节点输入连接到另一个节点的匹配类型的输出连接器。
+将节点输入连接到另一节点匹配类型的输出连接器。
 
 ![“无输入值”解决方案](../../assets/warnings-model-no-input-value.gif "“无输入值”解决方案")
 
 ### ![（错误）](../../assets/error.svg)节点未计算
 
-提供给节点的信息不完整或无效，因此节点无法执行计算。
+提供给节点的信息不完整或无效，因此节点无法执行其计算。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
-在图形中转到上游，并检查由问题触发的警告，这些问题导致节点无法提供有效输出。
+在图形中转到上游，并检查因问题而触发的警告，该问题会导致节点无法提供有效输出。
 
 ![“Node not computed”解决方案](../../assets/warnings-model-no-input-value.gif "“Node not computed”解决方案")
 
@@ -76,13 +76,13 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 节点引用的资源具有一个或多个警告。 以下是引用资源的一些节点：
 
 * 图形实例节点引用图形
-* 场景资源节点引用位图3D场景资源
+* 场景资源节点引用位图3D 场景资源
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
-在资源管理器面板中，查找引用的资源，并解决该资源引发的所有警告：
+在“资源管理器”面板中，查找引用的资源，并解决该资源引发的所有警告：
 
-* 有关图表，请参阅本页中的其他项目
+* 有关图形，请参阅本页中的其他项目
 * 有关任何其他类型的资源，请参阅“来自依赖项的警告”页
 
 ![&#39;引用的数据有一些警告&#39;解决方案](../../assets/warnings-model-referenced-data.gif "&#39;引用的数据有一些警告&#39;解决方案")
@@ -92,14 +92,14 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 在Substance 3D文件(SBS)中保存的路径中找不到节点引用的资源。 以下是引用资源的一些节点：
 
 * 图形实例节点引用图形
-* 场景资源节点引用位图3D场景资源
+* 场景资源节点引用位图3D 场景资源
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
 对于图形实例节点
 
 检查源图形是否存在于包中，该包位于保存在其<b>包</b>属性中的路径中。\
-否则，请删除该实例节点，并将其替换为引用有效包的实例节点。 或者，您可以重新创建实例化引用的包和图形，然后通过在[资源管理器](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)面板中单击其&#x200B;*人民币*&#x200B;并在上下文菜单中选择<b>重新加载</b>选项来重新加载宿主包。
+否则，请删除该实例化并将其替换为引用有效包的实例化。 或者，您可以重新创建实例化引用的包和图形，然后通过在[资源管理器](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)面板中单击其&#x200B;*人民币*&#x200B;并在上下文菜单中选择<b>重新加载</b>选项来重新加载宿主包。
 
 对于场景资源节点
 
@@ -110,7 +110,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
 ### ![（错误）](../../assets/error.svg)软范围不包含值
 
-公开参数的默认值不包括在为该参数定义的可变范围中。
+公开参数的缺省值不包括在为该参数定义的可变范围中。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
@@ -138,7 +138,7 @@ Substance模型图表的输出节点被着色&#x200B;*橙色*。
 
 ### ![（错误）](../../assets/error.svg)值超出硬范围
 
-公开参数的默认值不包括在为该参数定义的硬范围中。
+公开参数的缺省值不包括在为该参数定义的硬范围中。
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 breadcrumb-title: ''
 description: 使用“样条”节点上的“散点样条”沿父样条路径分布子样条。
 helpx_creative_field: ""
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>预览</b> *灰度* | 作为灰度图像的输入样条的预览。 |
-| <b>样条坐标</b> *颜色* | 在彩色图像的RGBA通道中编码的父样条点的坐标： <b>R</b> - X位置<b>G</b> - Y位置<b>B</b> -Height<b>A</b> — 压缩数据： — 符号：样条是闭合（负）或开放（正） — 绝对值：Thickness+ 1 |
-| <b>样条数据</b> *颜色* | 在彩色图像的RGBA通道中编码的父样条的其他数据： <b>R</b> - Tangents X <b>G</b> - Tangents Y <b>B</b> - Tangents Z <b>A</b> — 未使用 |
+| <b>预览</b> *灰度* | 以灰度图像形式预览输入样条。 |
+| <b>样条坐标</b> *颜色* | 在彩色图像的RGBA通道中编码的父样条点的坐标： <b>R</b> - X位置<b>G</b> - Y位置<b>B</b> -Height<b>A</b> — 压缩数据： — 符号：样条是闭合（负）或开放（正） -绝对值：Thickness+ 1 |
+| <b>样条数据</b> *颜色* | 以彩色图像RGBA通道编码的父样条的其他数据： <b>R</b> -正切X <b>G</b> -正切Y <b>B</b> -正切Z <b>A</b> — 未使用 |
 | <b>样条量</b> *整数* | 父样条的数量。 |
 | <b>自定义样条坐标</b> *颜色* | 在彩色图像的RGBA通道中编码的自定义样条点的坐标： <b>R</b> - X位置<b>G</b> - Y位置<b>B</b> - Height<b>A</b> — 压缩数据： — 符号：样条是闭合（负）或开放（正） — 绝对值：Thickness+ 1 |
 | <b>自定义样条数据</b> *颜色* | 在彩色图像的RGBA通道中编码的自定义样条的其他数据： <b>R</b> - Tangents X <b>G</b> - Tangents Y <b>B</b> - Tangents Z <b>A</b> — 未使用 |
@@ -144,15 +144,15 @@ ht-degree: 0%
 | <b>启动Thickness模式</b> *整数* | 计算散布样条起始Thickness的方法。<br><br>-<b>手动</b>为所有散布样条设置相同的绝对值。<br>-<b>从父样条</b>使用父样条的Thickness。<br>-<b>从自定义样条</b>使用自定义样条的Thickness。<br><br><i>注意：</i>将<b>样条类型</b>设置为自定义样条，并将<b>自定义样条</b>输入连接以使用自定义样条的Thickness。 |
 | <b>启动Thickness乘数</b> *浮动* | 缩放散布样条的起始Thickness，其中1是完整Thickness。 |
 | <b>开始Thickness偏移</b> *浮动* | 将绝对偏移应用于散乱样条的起始Thickness。 |
-| <b>启动Thickness</b> *浮动* | 设置散布样条的起始Thickness的绝对值。 |
+| <b>启动Thickness</b> *Float* | 设置散乱样条起始Thickness的绝对值。 |
 | <b>结束Thickness模式</b> *整数* | 计算散布样条结束Thickness的方法。<br><br>-<b>手动</b>为所有散布样条设置相同的绝对值。<br>-<b>从父样条</b>使用父样条的Thickness。<br>-<b>从自定义样条</b>使用自定义样条的Thickness。<br><br><i>注意：</i>将<b>样条类型</b>设置为自定义样条，并将<b>自定义样条</b>输入连接以使用自定义样条的Thickness。 |
-| <b>结束Thickness乘数</b> *浮动* | 缩放散布样条的起始Thickness，其中1是完整Thickness。 |
-| <b>结束Thickness偏移</b> *浮动* | 将绝对偏移应用于散乱样条的结束Thickness。 |
-| <b>结束Thickness</b> *浮动* | 设置散布样条结束Thickness的绝对值。 |
+| <b>结束Thickness乘数</b> *Float* | 缩放散布样条的起始Thickness，其中1是完整Thickness。 |
+| <b>结束Thickness偏移</b> *Float* | 将绝对偏移应用于散乱样条的结束Thickness。 |
+| <b>结束Thickness</b> *Float* | 设置散乱样条结束Thickness的绝对值。 |
 | <b>预览</b> |  |
-| <b>显示方向帮助程序</b> *布尔值* | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向助手</b> *布尔值* | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> *布尔值* | 在样条Thickness的边显示附加线。 |
-| <b>Thickness（像素）</b> *浮动* | 调整<b>预览</b>输出中样条可视化的Thickness（以像素数为单位）。 |
+| <b>Thickness（像素）</b> *Float* | 调整<b>预览</b>输出中样条可视化的Thickness（以像素数为单位）。 |
 | <b>段数量</b> *整数* | 调整用于在<b>预览</b>输出中绘制样条可视化效果的段数。 值越高，线条越平滑。 |
 | <b>背景强度</b> *浮动* | <b>预览</b>输出可视化中的<b>预览</b>输入的强度。 |
 

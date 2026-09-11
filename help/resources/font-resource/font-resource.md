@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
-description: 在Substance 3D Designer中导入并使用字体资源向素材添加文本和排版规则。
+description: 在Substance 3D Designer中导入并使用字体资源向材料添加文本和排版规则。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Font resource
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 > **SBSAR中的字体**
 > 
-> 无论字体来自链接的资源还是通过使用系统安装的字体，字体始终嵌入在SBSAR中。 此方法的优势在于无需安装，并且在导出具有依赖项的SBS文件时，可以确保字体文件随附在一起。
+> 无论字体来自链接的资源还是通过使用系统安装的字体，字体始终嵌入在SBSAR中。 此方法的优势在于无需安装，并且在导出具有依赖项的SBS文件时，可以确保字体文件随之提供。
 
 ## 使用自定义字体资源
 

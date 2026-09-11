@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: 查找Substance 3D Designer中技术问题的故障排除指南，以快速解决问题。
 helpx_creative_field: ""
@@ -29,11 +29,11 @@ ht-degree: 9%
 * [渲染图形时崩溃](../technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
 * [参数未按预期方式工作](../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 * [图像输出不正确](../technical-issues/incorrect-image-output/incorrect-image-output.md)
-* [3D查看问题](../technical-issues/3d-view-issues/3d-view-issues.md)
+* [3D 视图问题](../technical-issues/3d-view-issues/3d-view-issues.md)
 * [烘焙问题](../technical-issues/baking-issues/baking-issues.md)
 * [用户界面问题](../technical-issues/user-interface-issues/user-interface-issues.md)
 * [Python问题](../technical-issues/python-issues/python-issues.md)
-* [缺少Substance模型图特征](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
+* [缺少Substance模型图形功能](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
 
 ## 报告问题
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 使用“点列表”节点创建和管理用于样条和路径生成的点列表。
 helpx_creative_field: ""
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> <b>点列表</b>和<b>点数</b>连接器&#x200B;*不兼容*&#x200B;与<b>样条坐标</b>、<b>样条数据</b>和<b>样条量</b>连接器不兼容，因为它们依赖于不同的数据。
+> <b>点列表</b>和<b>点数</b>连接器&#x200B;*不兼容*，它们与<b>样条坐标</b>、<b>样条数据</b>和<b>样条量</b>连接器不兼容，因为它们依赖于不同的数据。
 
 <a name="inputs"></a>
 

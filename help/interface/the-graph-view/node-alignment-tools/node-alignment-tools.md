@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: 使用节点对齐工具组织和对齐图形视图中的节点，可获得更清晰、可读性更高的图形。
 helpx_creative_field: ""
@@ -108,23 +108,23 @@ ht-degree: 1%
 
 ### 堆叠
 
-使用对齐时，<b>栈叠</b>选项![](../../../assets/node-alignment-stack.png)允许您<b>避免任何重叠</b>。 默认情况下，此选项处于启用状态。
+<b>堆叠</b>选项![](../../../assets/node-alignment-stack.png)允许您<b>在使用对齐时避免任何重叠</b>。 默认情况下，此选项处于启用状态。
 
-启用后，节点将尽可能移动到参考位置，直到它们与所选节点中的另一个节点发生冲突为止。 这有效地将它们栈叠在所选轴上，每个节点之间有一个中间网格单元的边界。
+启用后，节点将尽可能移动到参考位置，直到它们与所选节点中的另一个节点发生冲突为止。 这有效地将它们堆叠在所选轴中，每个节点之间具有一个中间网格单元的边界。
 
 ![节点对齐工具：栈叠](../../../assets/node-alignment-stacking.gif "节点对齐工具：栈叠"){zoomable="yes"}
 
 ## 分配
 
-节点可以在所期望轴上当前选择的每个极端上均匀地分布到节点之间。
+在期望的轴上，节点可以在当前选择的每个极值处均匀分布。
 
 <b>![](../../../assets/node-alignment-distribute-h.png)水平：</b>节点均匀分布在选区中最左边和最右边的节点之间。
 
 <b>![](../../../assets/node-alignment-distribute-v.png)垂直：</b>节点均匀分布在选择项中最顶层和最底层的节点之间。
 
-分布的目标是节点之间的<b>均匀间距</b>，而不管节点的大小如何。
+分布的目标是节点之间<b>均匀间距</b>，而不管节点大小如何。
 
-当多个节点的中心完全对齐到选定轴上时，它们会保留下来，并且在分布中<b>被视为1</b>。 对齐节点中的&#x200B;*最大*&#x200B;用于计算偶数间距。
+当多个轴的中心在所选节点上完全对齐时，它们会保留下来，并在分布中<b>被视为一个</b>。 已对齐节点中的&#x200B;*最大*&#x200B;用于计算偶数间距。
 
 请注意，当选定节点的总大小大于选定轴上的可用空间时，可能会发生重叠。
 
@@ -151,14 +151,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="58.33%" style="border: 0;" valign="top">
 
-## 网格对齐
+## 捕捉
 
-<b>对齐(S) ![](../../../assets/node-alignment-snap.png)</b>操作可移动每个选定节点，以便其左上角位于媒体网格上最近的点。
+<b>捕捉(S) ![](../../../assets/node-alignment-snap.png)</b>操作可移动每个选定节点，以便其左上角位于媒体网格上最近的点。
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![节点对齐工具：网格对齐](../../../assets/node-alignment-snapping.gif "节点对齐工具：网格对齐"){zoomable="yes"}
+![节点对齐工具：捕捉](../../../assets/node-alignment-snapping.gif "节点对齐工具：网格捕捉"){zoomable="yes"}
 
 </td>
 </tr>

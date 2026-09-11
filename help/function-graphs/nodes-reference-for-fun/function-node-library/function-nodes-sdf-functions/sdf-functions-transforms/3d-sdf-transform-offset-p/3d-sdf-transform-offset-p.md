@@ -1,6 +1,6 @@
 ---
 title: 位移P
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>SDF 函数>变换>偏移P
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>变换>偏移P
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '142'
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 描述
 
-沿矢量偏移世界空间。<br>输出变换世界位置可以连接到大多数SDF 函数的<b>P</b>输入，以在此变换世界空间中定义它们。<br><br><i>提示：</i>P变换可以链接，但请记住结果取决于运算顺序。
+沿矢量偏移世界空间。<br>输出变换世界位置可以连接到大多数SDF 函数的<b>P</b>输入，以在此变换世界空间中定义它们。<br><br><i>提示：</i>P变换可以链接，但请记住结果取决于操作顺序。
 
 </td>
 </tr>
@@ -40,5 +40,5 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>偏移</b> *浮点3* | 世界空间在X、Y和Z方向将发生偏移的距离。 |
-| <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |
+| <b>偏移</b> *Float3* | 世界空间在X、Y和Z方向上将偏移的距离。 |
+| <b>P</b> *Float3* | 变换的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

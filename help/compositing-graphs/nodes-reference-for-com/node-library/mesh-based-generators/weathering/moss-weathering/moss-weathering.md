@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: 使用Moss风化节点根据网格弯曲和位置向材料添加苔藓增长模式。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-这是一种同时适用于多个通道的完全素材效果。 它通过单个传播控件生成过度生长的苔藓效果。
+这是一种同时适用于多个声道的全材料效果。 它通过单个传播控件生成过度生长的苔藓效果。
 
 此效果最适合用于烘焙的世界空间位置图和其他高度图。 虽然这不是一个确切的要求，但它使效果更加可靠。
 
@@ -59,21 +59,21 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
 | <b>高级</b> |  |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同正常映射格式之间切换（反转绿色通道）。 |
 | <b>蒙版</b> <i>False/True</i> | 启用或禁用蒙版图。 |
 | <b>效果</b> |  |
 | <b>苔藓传播</b> <i>0.0 - 1.0</i> | 设置苔藓的展开。 从轻微的覆盖到厚重的、粗的深色苔藓，是逐步增长的。 |
 | <b>混合</b> |  |
-| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 扩散的混合强度。 |
-| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合基色的强度。 |
-| <b>正常强度</b> <i>0.0 - 1.0</i> | 混合“正常”的强度。 |
-| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合Specular的强度。 |
-| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合光泽度的强度。 |
-| <b>粗糙度强度</b> <i>0.0 - 1.0</i> | 混合粗糙度的强度。 |
-| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 混合环境遮蔽的强度。 |
-| <b>Height强度</b> <i>0.0 - 1.0</i> | 混合Height的强度。 |
+| <b>Diffuse强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Base color强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>正常强度</b> <i>0.0 - 1.0</i> | “正常”混合强度。 |
+| <b>Specular强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>光泽度强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>粗糙度强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Ambient occlusion强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
+| <b>Height强度</b> <i>0.0 - 1.0</i> | 混合强度。 |
 
 ## 示例
 

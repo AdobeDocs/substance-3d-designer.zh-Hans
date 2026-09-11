@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: 了解如何在Designer中创建和使用Substance函数图表来构建自定义函数和可重复使用的节点网络。
 helpx_creative_field: ""

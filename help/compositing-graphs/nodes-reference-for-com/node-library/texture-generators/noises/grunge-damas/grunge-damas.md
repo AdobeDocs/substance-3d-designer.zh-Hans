@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: 使用“污渍Damas”节点生成类似Damask的污渍图案，用于创建华丽的风化表面细节。
 helpx_creative_field: ""
@@ -53,8 +53,8 @@ ht-degree: 2%
 | <b>扭曲</b> <i>浮动</i> | 调整图案中的扭曲量。 |
 | <b>分区</b> <i>整数</i> | 调整图案中的分割或渐变重复量。 |
 | <b>波浪</b> <i>整数</i> | 调整图案中的波浪量。 |
-| <b>详细信息</b> <i>Float</i> | 调整较小扭曲的强度。 |
-| <b>旋转随机</b> <i>Float</i> | 调整每个波形旋转的随机性。 |
+| <b>详细信息</b> <i>浮动</i> | 调整较小扭曲的强度。 |
+| <b>旋转随机</b> <i>浮动</i> | 调整每个波形旋转的随机性。 |
 
 ## 示例
 

@@ -113,7 +113,7 @@ ht-degree: 1%
 由于Iray依赖于NVIDIA开发的[MDL着色模型](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/)，因此可用于场景素材的素材将替换为Designer加载的MDL库。 此库使用以下源生成：
 
 * Designer安装中包含的MDL文件
-* 在加载的[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中由用户[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)列出的目录中找到了MDL文件
+* 在加载的[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中由用户](../../../interface/preferences-window/project-settings/project-settings.md)列出的[目录中找到了MDL文件
 * [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials)库（如果已安装）
 
 >[!NOTE]

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用SBSPRJ项目配置文件来管理项目设置。
 helpx_creative_field: ""
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 在多台用户的PC上，文件引用系统中其他文件的主要问题之一是绝对文件路径不起作用。 用户可以在完全不同的位置(例如， C：/John/Gamedev/SubstanceLibrary或D：/Dev/SubstanceLibrary)。 别名和相对路径共同解决这个问题。 否则，您可能会打开其他人的文件，而该文件将尝试查找用户本地拥有该文件的特定位置所使用的自定义节点，您可能没有以完全相同的方式定义该节点。
 
-<b>别名</b>是替换（部分）路径的关键字。 它类似于Windows环境变量（如%TEMP%），其中单个单词替换了经常使用的路径，然后该路径被集中定义。 其优点是简化了所有位置的路径，并且当您决定重新定位此路径时，可以一次性修改所有引用。
+<b>别名</b>是替换（部分）路径的关键字。 它类似于Windows环境变量（如%TEMP%），其中单个单词替换了经常使用的路径，然后该路径被集中定义。 优点是简化了所有位置的路径，并且当您决定重定位此路径时，可以一次性修改所有引用。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ ht-degree: 0%
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>自定义</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> 默认库默认位于&#x200B;*C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*，所有使用默认内容的图形都引用此目录。 定义了“<b>SBS</b>”（不带引号）的别名，而不是引用完整路径。 对于默认库，在安装时，将SBS路径的确切值设置为用户为Designer选择的任何目录。
+> 默认库默认位于&#x200B;*C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*，所有使用默认内容的图形都引用此目录。 定义了“<b>SBS</b>”（不带引号）的别名，而不是引用完整路径。 对于默认库，将SBS路径的确切值在安装时设置为用户为Designer选择的任何目录。
 > 
 > 当引用包含带别名的路径时，在内部按以下方式修改引用：
 > 

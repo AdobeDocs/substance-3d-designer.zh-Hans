@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
 description: 使用“文本”节点生成带有可自定义字体和样式的文本纹理，以创建基于文本的图案。
 helpx_creative_field: ""
@@ -85,10 +85,10 @@ ht-degree: 1%
 | <b>字体</b> *字符串* | 用于呈现文本的字体资源。 |
 | <b>字体大小</b> *浮动* | 文本的字体大小（以点为单位）。 |
 | <b>对齐</b> *整数* | 将文本对齐方式设置为左对齐、居中（默认）或右对齐。 |
-| <b>转换</b> *浮点4* | 应用于渲染文本的2x2变换矩阵。 |
-| <b>位置</b> *浮点2* | 文本在输出图像中的位置。 |
-| <b>背景</b> *浮动/浮动4* | 输出图像的背景色。 |
-| <b>字体颜色</b> *浮动/浮动4* | 文本的颜色。 |
+| <b>转换</b> *Float4* | 应用于渲染文本的2x2变换矩阵。 |
+| <b>位置</b> *Float2* | 文本在输出图像中的位置。 |
+| <b>背景</b> *Float/Float4* | 输出图像的背景色。 |
+| <b>字体颜色</b> *Float/Float4* | 文本的颜色。 |
 
 ## 输入连接器
 

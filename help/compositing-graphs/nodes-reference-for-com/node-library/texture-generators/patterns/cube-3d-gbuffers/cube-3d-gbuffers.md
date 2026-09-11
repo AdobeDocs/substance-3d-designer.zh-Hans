@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
 description: 使用“立方3D GBuffers”节点从3D立方投影生成几何缓冲器以获得高级渲染效果。
 helpx_creative_field: ""

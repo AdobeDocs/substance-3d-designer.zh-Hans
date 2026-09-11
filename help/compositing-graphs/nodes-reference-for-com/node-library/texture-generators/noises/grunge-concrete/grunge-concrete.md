@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
-description: 使用污渍Concrete节点生成类似Concrete的污渍图案，用于创建风化的砖石纹理。
+description: 使用“污渍混凝土”节点生成类似于混凝土的污渍图案，用于创建风化的砖石纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Concrete
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+<b>在：</b>纹理生成器>杂色
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-**具体污渍**&#x200B;节点生成类似于混凝土表面高度图的污渍映射。
+**具体污渍**&#x200B;节点生成与具体曲面的污渍映射类似的Height映射。
 
 </td>
 </tr>
@@ -45,13 +45,13 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>高级</b> |  |
-| <b>基噪</b> <i>Float</i> | 调整基本纹理的噪点。 |
-| <b>Dirt斑点不透明度</b> <i>Float</i> | 调整Dirt斑点的不透明度。 |
+| <b>基噪</b> <i>浮动</i> | 调整基本纹理的噪点。 |
+| <b>Dirt斑点不透明度</b> <i>浮动</i> | 调整Dirt斑点的不透明度。 |
 | <b>反转Dirt</b> <i>布尔值</i> | 反转Dirt斑点的影响。 |
 | <b>Scratches不透明度</b> <i>浮动</i> | 调整划痕的不透明度。 |
 | <b>锐化</b> <i>浮动</i> | 调整应用于图像的锐化效果的强度。 |

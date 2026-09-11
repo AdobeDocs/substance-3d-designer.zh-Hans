@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: 使用“Blur HQ”（模糊HQ）纹理将高品质模糊效果应用到照片中，打造专业水准的模糊效果。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## 描述
 
-对结果执行“高品质高斯模糊”。 质量比[标准原子盒模糊](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [好得多。](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+对结果执行“高品质高斯模糊”。 质量比[标准原子盒模糊](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[好得多。](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 重要提示：请确保使用适用于您的输入的版本！ 对颜色输入使用“模糊总部”，对灰度输入使用“模糊总部”。
 

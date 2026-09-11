@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
-description: 使用样条流映射器节点沿样条路径创建流动的纹理图案以获得有机效果。
+description: 使用“样条流映射器”节点沿样条路径创建流动纹理图案，以获得有机效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 绘制流图，其中流矢量数据是沿着输入样条绘制的。
 
-这样，您就可以使用样条控制流动的方向、轨迹、强度和Thickness，以及使用渐变斜坡将绘制的数据淡入中性背景。
+这样，您就可以使用样条控制流动的方向、轨迹、强度和Thickness，以及使用渐变将绘制的数据渐隐到中性背景中。
 
 </td>
 </tr>
