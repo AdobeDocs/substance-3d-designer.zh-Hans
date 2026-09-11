@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
 breadcrumb-title: ''
 description: 使用织造生成器节点在Substance 3D Designer中创建程序化的织造织物图案和纺织品纹理。
 helpx_creative_field: ""
