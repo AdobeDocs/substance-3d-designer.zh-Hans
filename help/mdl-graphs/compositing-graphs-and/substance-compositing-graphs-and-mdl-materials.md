@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 图形和MDL 材质
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 通过按下图形上的RMB并拖动到3D视图中，可以将来自Substance图形的个别纹理连接到支持纹理采样的任何MDL 材质参数，而不管该标识符如何。 此时会显示可用采样器用法的列表，您可以为所选纹理选择目标用法。
 
-![公开的MDL 图输入](../../assets/mdl-graph-inputs-samplers.png "公开的MDL 图输入")
+![公开的MDL 图输入](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "公开的MDL 图输入")
 
 *图形输出的纹理已连接到3D 视图中的MDL 图公开参数*
 
@@ -48,20 +48,20 @@ ht-degree: 1%
 通过将图形实例从<b>资源管理器</b>面板拖放到MDL 图中，可以直接将MDL 图置入。 MDL 图中可以使用<b>Substance 3D文件</b> (SBS)和<b>Substance 3D资源文件</b> (SBSAR)中的Substance图形。
 
 +++从Substance 3D文件(SBS)Substance图形
-![从MDL 图中的SBS文件Substance图形](../../assets/mdl-sbs-instance-hl.png "从MDL 图中的SBS文件Substance图形")
+![从MDL 图中的SBS文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "从MDL 图中的SBS文件Substance图形")
 
 
 
-MDL 图&#x200B;*中[Substance 3D文件](../../getting-started/overview/overview.md) (SBS)的*[&#x200B; Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
+MDL 图&#x200B;*中[Substance 3D文件](../../getting-started/overview/overview.md) (SBS)的*[ Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
 
 +++
 
 +++从Substance 3D资源(SBSAR)Substance图形
-![从MDL 图中的Sbsar 文件Substance图形](../../assets/mdl-sbsar-instance-hl.png "从MDL 图中的Sbsar 文件Substance图形")
+![从MDL 图中的Sbsar 文件Substance图形](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "从MDL 图中的Sbsar 文件Substance图形")
 
 
 
-MDL 图&#x200B;*中[Substance 3D资源](../../getting-started/overview/overview.md) (SBSAR)的*[&#x200B; Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
+MDL 图&#x200B;*中[Substance 3D资源](../../getting-started/overview/overview.md) (SBSAR)的*[ Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
 
 +++
 
