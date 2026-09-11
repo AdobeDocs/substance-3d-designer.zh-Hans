@@ -1,6 +1,6 @@
 ---
 title: 螺旋（约）
-description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>基元>螺旋（约）
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>螺线（约）
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -43,6 +43,6 @@ ht-degree: 0%
 | <b>大半径</b> *浮动* | 缠绕曲线与轴的距离。<br><br><i>默认值： 0.4</i> |
 | <b>小半径</b> *浮动* | 沿曲线扫描以形成螺旋曲面的圆半径。<br><br><i>默认值： 0.1</i> |
 | <b>Height</b> *浮动* | 螺旋的Z-upHeight。<br><br><i>默认值： 0.5</i> |
-| <b>绕组</b> *浮动* | 曲线围绕轴线完全环绕的次数（阶数）为0.5。<br>，即螺旋线在0.5的Height内旋转的次数。<br><br><i>默认值： 4</i> |
-| <b>中心位置</b> *浮点3* | 螺旋线的旋转点的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>绕组</b> *浮动* | 曲线以0.5的步长完全绕绕轴的次数。<br>即，在0.5的Height内螺旋线的旋转次数。<br><br><i>默认值： 4</i> |
+| <b>中心位置</b> *浮点3* | 螺旋轴的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
 | <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

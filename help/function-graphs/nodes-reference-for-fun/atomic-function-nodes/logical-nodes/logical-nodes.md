@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 逻辑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 逻辑节点用于向图形添加多个条件：
 
-![](../../../../assets/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/image2015-12-23-11-23-21.png)
 
 ## *和*&#x200B;节点
 
-![](../../../../assets/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/image2015-12-23-11-30-9.png)
 
 And节点以两个布尔值作为输入：
 
@@ -35,7 +35,7 @@ And节点以两个布尔值作为输入：
 
 ## *或*&#x200B;节点
 
-![](../../../../assets/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/image2015-12-23-11-30-44.png)
 
 “或”节点以两个布尔值作为输入：
 
@@ -44,7 +44,7 @@ And节点以两个布尔值作为输入：
 
 ## *Not*&#x200B;节点
 
-![](../../../../assets/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/image2015-12-23-11-31-46.png)
 
 Not节点将布尔值作为输入：它将查看输入值并返回其相反值：
 

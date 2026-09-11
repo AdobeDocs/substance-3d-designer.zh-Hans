@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 项目配置文件 — SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ文件图标](../../assets/sbsprj.png "SBSPRJ文件图标")
+![SBSPRJ文件图标](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ文件图标")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 在编辑器中打开SBSPRJ文件后，您应该会看到一个相当简单的结构化版面，其中的各部分与UI中的选项卡相对应。 并非所有设置都会记录在这里，因为它相当容易解释。
 
-![XML编辑](../../assets/project-xml.png "XML编辑")
+![XML编辑](project-configuration-files-sbsprj.resources/project-xml.png "XML编辑")
 
 ## 相对路径和别名
 

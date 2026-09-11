@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started.html"
 breadcrumb-title: ''
-description: 学习Substance 3D Designer的基础知识，并开始使用分步指南创建过程材料。
+description: 学习Substance 3D Designer的基础知识，并使用分步指南开始创建程序化材料。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started
 helpx_experience_level: ""

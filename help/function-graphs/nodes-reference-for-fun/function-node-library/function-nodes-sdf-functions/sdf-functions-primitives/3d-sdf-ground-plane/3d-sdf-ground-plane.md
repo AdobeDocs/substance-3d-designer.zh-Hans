@@ -1,6 +1,6 @@
 ---
-title: 无限地平面
-description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>基元>无限地平面
+title: 无限地面平面
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>无限地面平面
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '102'
@@ -9,13 +9,13 @@ ht-degree: 1%
 ---
 
 
-# 无限地平面
+# 无限地面平面
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![无限的地面图标](./3d-sdf-ground-plane.png "无限的地面")
+![无限地面平面图标](./3d-sdf-ground-plane.png "无限地面平面")
 
 <b>In：</b>SDF 函数>基元
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 描述
 
-具有可调整Height的无限地平面的SDF 函数。
+具有可调整Height的无限地面平面的SDF 函数。
 
 </td>
 </tr>

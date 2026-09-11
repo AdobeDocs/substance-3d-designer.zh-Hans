@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 砖块2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-2.png){width="128px"}
+![](brick-2.resources/brick-2.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -55,7 +55,7 @@ ht-degree: 10%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-2-ex.gif" />
+            <img src="brick-2.resources/brick-2-ex.gif" />
         </td>
     </tr>
 </table>

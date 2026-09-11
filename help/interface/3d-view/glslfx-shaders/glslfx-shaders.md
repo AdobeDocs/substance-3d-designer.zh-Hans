@@ -106,10 +106,10 @@ XML元素定义：
 
 | “类型”值 | 描述 |
 | --- | --- |
-| 顶点 | 顶点着色器 |
+| 顶点 | 着色器 |
 | 几何 | 几何着色器 |
-| tess\_control | 镶嵌控制着色器 |
-| tess\_eval | 镶嵌评估着色器 |
+| tess\_control | 曲面细分控制着色器 |
+| tess\_eval | 曲面细分评估着色器 |
 | 碎片 | 碎片着色器 |
 
 
@@ -234,7 +234,7 @@ GL\_深度\_附件=> &#39;深度&#39;
 
 >[!NOTE]
 >
-> “屏幕”渲染通道中禁止使用彩色渲染目标，但可以与任何渲染通道共享深度渲染目标（但当场景中混合多个素材时，可能会中断渲染）。
+> “屏幕”渲染通道中禁止使用深度渲染目标，但颜色渲染目标可以与任何渲染通道共享（但在场景中混合多个材料时，可能会中断渲染）。
 
 <b>关于格式</b>
 
@@ -393,7 +393,7 @@ GL\_深度\_附件=> &#39;深度&#39;
 
 纹理滤镜
 
-<table data-preserve-html="true"><tbody><tr><th>名称</th><th>值</th></tr><tr><td rowspan="6">texture_min_filter， texture_mag_filter<br/><br/><br/></td><td>最接近的</td></tr><tr><td>线性</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>名称</th><th>值</th></tr><tr><td rowspan="6">texture_min_filter， texture_mag_filter<br/><br/><br/></td><td>最接近的</td></tr><tr><td>线性</td></tr><tr><td colspan="1">nearest_镜像转换_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_镜像转换_线性</td></tr><tr><td colspan="1">linear_镜像转换_线性</td></tr></tbody></table>
 
 示例：
 
@@ -430,7 +430,7 @@ GL\_深度\_附件=> &#39;深度&#39;
 
 ## 制服
 
-这允许您添加有关每种着色器制服的其他信息。
+这允许您添加关于每种着色器制服的其他信息。
 
 <b>XML元素定义：</b>
 
@@ -438,7 +438,7 @@ GL\_深度\_附件=> &#39;深度&#39;
 
 属性：
 
-&#39;name&#39;：着色器文件中制服的名称。
+&#39;name&#39;：着色器文件中统一的名称。
 
 | “语义”值 | 描述 |
 | --- | --- |
@@ -449,19 +449,19 @@ GL\_深度\_附件=> &#39;深度&#39;
 | worldview | “世界视图”矩阵(float16) |
 | modelview | 模型视图矩阵(float16) |
 | 投影 | 投影矩阵(float16) |
-| 氛围 | 场景环境颜色(float3) |
-| lightposition[0..N] | 场景第N灯的位置(float3) |
-| lightcolor[0..N] | 场景第N灯的颜色(float3) |
-| 光照强度[0..N] | 场景第N光强度（浮动） |
+| 氛围 | 场景环境色(float3) |
+| lightposition[0..N] | 场景第N个光的位置(float3) |
+| lightcolor[0..N] | 场景第N个光线的颜色(float3) |
+| 光照强度[0..N] | 场景第N个光线的强度（浮点） |
 | globaltime | 当前时间（秒）（浮点） |
-| 分辨率 | 视区分辨率(int2) |
+| 分辨率 | 视口分辨率(int2) |
 | 鼠 | 鼠标位置(int2) |
 | 示例可发布大小 | 用于计算环境光照(int)的样本数 |
 | 辐照食谱 | 球面谐波矢量的阵列(float3[10]) |
 | 全景mamipmapheight | 全景图中的多级渐远纹理级别数（浮点） |
 | 全景旋转 | 全景图的角度旋转角度（浮点） |
 | 全景维护 | 全景图的强度（浮点） |
-| computebinormalinfragmentshader | 每个片段是否计算二正规？ （如果不是，则按顶点）(bool) |
+| computebinormalinfragmentshader | 是否对每个片段计算次法线？ （如果不是，则按每个顶点）(bool) |
 | isdirectxnormal | 是DirectX吗？ (bool) |
 | uvwscale | u、v、w的缩放值(float3) |
 | renderuvtile | 仅渲染1个UV磁贴？ (bool) |
@@ -599,7 +599,7 @@ void main()\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position；\
 iFS\_Normal = iVS\_Normal.xyz；\
 iFS\_UV = iVS\_UV；\
-iFS\_Tangent = iVS\_Tangent.xyz；\
+iFS\_正切= iVS\_正切.xyz；\
 iFS\_Binormal = iVS\_Binormal.xyz；\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position)。xyz；\
 &rbrace;
@@ -629,7 +629,7 @@ void main()\
 &lbrace;\
 gl\_Position = iVS\_Position；\
 oVS\_Normal = iVS\_Normal；\
-oVS\_UV = iVS\_UV；\
+oVS\_UV= iVS\_UV；\
 oVS\_Tangent = iVS\_Tangent；\
 oVS\_Binormal = iVS\_Binormal；\
 &rbrace;
@@ -650,7 +650,7 @@ layout(vertices = 3) out；
 in vec4 oVS\_Normal[]；\
 in vec2 oVS\_UV[]；\
 in vec4 oVS\_Tangent[]；\
-in vec4 oVS\_Binormal[]；
+in vec4 oVS\_次法线[]；
 
 out vec4 oTCS\_Normal[]；\
 out vec2 oTCS\_UV[]；\
@@ -669,11 +669,11 @@ gl\_out[gl\_InvocationID].gl\_Position = gl\_in[gl\_InvocationID].gl\_Position�
 
 oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID]；\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID]；\
-oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID]；\
-oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID]；\
+oTCS\_正切[gl\_InvocationID] = oVS\_正切[gl\_InvocationID]；\
+oTCS\_次法线[gl\_InvocationID] = oVS\_次法线[gl\_InvocationID]；\
 &rbrace;
 
-### 镶嵌评估着色器文件
+### 曲面细分评估着色器文件
 
 位于。\tessellation\_parallax\tessellation\tcs.glsl
 
@@ -683,25 +683,25 @@ oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID]；\
 
 &#x200B;#version 400核心
 
-layout（三角形， equal\_spacing， ccw） in；
+布局（三角形，等\_间距，逆时针）；
 
 in vec4 oTCS\_Normal[]；\
-在vec2 oTCS\_UV[]中；\
+in vec2 oTCS\_UV[]；\
 in vec4 oTCS\_Tangent[]；\
-in vec4 oTCS\_Binormal[]；
+in vec4 oTCS\_次法线[]；
 
 uniform mat4 worldMatrix；\
 uniform mat4 worldViewProjMatrix；
 
 uniform sampler2D heightMap；
 
-均匀浮点拼贴= 1.0f；\
+统一浮点拼贴= 1.0f；\
 统一浮点高度heightMapScale = 1.0f；
 
 out vec3 iFS\_Normal；\
 out vec2 iFS\_UV；\
-out vec3 iFS\_Tangent；\
-out vec3 iFS\_Binormal；\
+out vec3 iFS\_正切；\
+out vec3 iFS\_次法线；\
 out vec3 iFS\_PointWS；
 
 vec3插值3D(vec3 v0、vec3 v1、vec3 v2、vec3 uvw)\
@@ -720,24 +720,24 @@ vec3 uvw = gl\_TessCoord.xyz；
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz， gl\_in[1].gl\_Position.xyz， gl\_in[2].gl\_Position.xyz， uvw)；\
 vec3 newNormal = normalize(interpolate3D(oTCS\_Normal[0].xyz， oTCS\_Normal[1].xyz， oTCS\_Normal[2].xyz， uvw)；\
-vec3 newTangent = normalize(interpolate3D(oTCS\_Tangent[0].xyz， oTCS\_Tangent[1].xyz， oTCS\_Tangent[2].xyz， uvw))；\
-vec3 newBinormal = normalize(interpolate3D(oTCS\_Binormal[0].xyz， oTCS\_Binormal[1].xyz， oTCS\_Binormal[2].xyz， uvw)；\
+vec3 newTangent = normalize(interpolate3D(oTCS\_正切[0].xyz， oTCS\_正切[1].xyz， oTCS\_正切[2].xyz， uvw))；\
+vec3 newBinormal = normalize(interpolate3D(oTCS\_次法线[0].xyz， oTCS\_次法线[1].xyz， oTCS\_次法线[2].xyz， uvw)；\
 vec2 newUV = interpolate2D(oTCS\_UV[0]， oTCS\_UV[1]， oTCS\_UV[2]， uvw)；
 
-float heightTexSample = texture（heightMap， newUV \&#42;拼贴）。x \&#42; 2.0 - 1.0；\
+float heightTexSample = 纹理(heightMap， newUV \&#42;拼贴)。x \&#42; 2.0 - 1.0；\
 newPos += newNormal \&#42; heightTexSample \&#42; heightMapScale；
 
 vec4 obj\_pos = vec4(newPos， 1)；\
 gl\_Position = worldViewProjMatrix \&#42; obj\_pos；
 
-iFS\_UV = newUV \&#42;拼贴；\
-iFS\_Tangent = newTangent；\
-iFS\_Binormal = newBinormal；\
+iFS\_UV= newUV \&#42;拼贴；\
+iFS\_正切= newTangent；\
+iFS\_次法线= newBinormal；\
 iFS\_Normal = newNormal；\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos)。xyz；\
 &rbrace;
 
-### 碎片着色器文件
+### 片段着色器文件
 
 位于。\tessellation\_parallax\fs.glsl
 
@@ -784,7 +784,7 @@ uniform int parallax\_mode = 0；\
 uniform int KF\_on = 1；\
 统一浮点数KF = 1.0f；\
 uniform vec3 AmbiColor = vec3(0.07f，0.07f，0.07f)；\
-均匀浮点拼贴= 1.0f；\
+统一浮点拼贴= 1.0f；\
 uniform int enableTilingInFS = 0；
 
 uniform sampler2D heightMap；\
@@ -886,7 +886,7 @@ cumulatedNormalOS = normalize(cumulatedNormalOS)；
 
 // ------------------------------------------\
 //添加细节正常映射\
-vec3 normalDetailTS = texture2D(detailNormalMap，uv\&#42;TilingDetail)。xyz；\
+vec3 normalDetailTS = detail2D(detailNormalMap，uv\&#42;TilingDetail)。xyz；\
 normalDetailTS = fixNormalSample(normalDetailTS)；\
 vec3 variableNormalDetailTS = lerpFct(vec3(0.0,0.0,0.5)，normalDetailTS，深度\_detail)；\
 vec3 normalDetailOS = variableNormalDetailTS.x\&#42;tangentOS + variableNormalDetailTS.y\&#42;binormalOS；\
@@ -899,7 +899,7 @@ if (length(normalTS)&lt;0.0001)\
 vec3 cumulatedNormalWS = normalVecOSToWS(cumulatedNormalOS)；
 
 // ------------------------------------------\
-//计算扩散和Specular
+//计算Diffuse和Specular
 
 // Light 0贡献\
 vec3 diffContrib = vec3(0， 0， 0)；\
@@ -914,9 +914,9 @@ phong\_着色(Lamp1Color， cumulatedNormalWS， pointToLight1DirWS， pointToCa
 diffContrib += diffContrib2；\
 specContrib += specContrib2；
 
-vec4漫射色= texture2D(diffuseMap，uv)；
+vec4 diaminstColor = diaminst2D(diaminstMap，uv)；纹理2D(diaminstMap，uv)；
 
-vec3 specularColor = texture2D(specularMap，uv)。rgb；\
+vec3 specularColor = specular2D(specularMap，uv)。rgb纹理；\
 vec3 R = reflect(pointToCameraDirWS，cumulatedNormalWS)；\
 vec3 reflColor = Kr \&#42; textureCube(environmentMap，R.xyz)。bgr；
 
@@ -952,7 +952,7 @@ gl\_FragColor = finalColor4；\
 glslfx文件定义了两种渲染几何图形的技术：
 
 * 一种是采用硬件镶嵌技术
-* 另一种是基于视差效果，如果用户硬件不支持镶嵌，该效果将被用作回退。
+* 另一种是基于视差效果，如果用户硬件不支持曲面细分，该效果将被用作回退。
 
 位于。\tessellation\_parallax\fs.glsl
 

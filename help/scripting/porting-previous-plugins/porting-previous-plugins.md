@@ -42,4 +42,4 @@ ht-degree: 0%
 已将“*SDLocationContext*”类&#x200B;*从Python API中删除*。\
 增效工具可以使用<b>[UI管理器](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)对象</b>访问当前活动的图形和选区。
 
-可在[访问图表和选区](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)部分中找到一些示例。
+您可以在[访问图形和选区](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)部分中找到一些示例。

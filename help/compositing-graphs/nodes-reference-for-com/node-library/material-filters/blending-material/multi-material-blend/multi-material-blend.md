@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 多材质混合
+title: 多混合
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 7%
 ---
 
 
-# 多材质混合
+# 多混合
 
 <table>
 <tr style="border: 0;">
@@ -58,8 +58,8 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>材质</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | 设置要混合的不同材料的最大数量。 |
-| <b>频道</b> | 在此组中打开和关闭素材通道，例如，在使用“Specular/光泽度”映射而非“金属/粗糙度”时。 |
+| <b>材料</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | 设置要混合的不同材料的最大数量。 |
+| <b>频道</b> | 在此组中打开和关闭材料声道，例如，在使用Specular/光泽度映射而非金属/粗糙度时。 |
 | <b>材料2-16</b> | 启用的每个材料均会显示一个组。 |
 | <b>颜色</b> <i>（颜色值）</i> | 从与此材料插槽匹配的Id 图中拾取的颜色。 |
 | <b>模糊</b> <i>0.01 - 1.0</i> | 出血到邻近颜色。 |

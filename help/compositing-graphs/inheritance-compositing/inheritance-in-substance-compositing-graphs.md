@@ -207,23 +207,23 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 </tr>
 </table>
 
-将图形作为实例化实例化到另一个图形中时，所有设置为&#x200B;*相对于输入*&#x200B;的实例化的Base参数都将继承连接到&#x200B;*该输入*&#x200B;的数据。 实例化的主要输入可以通过其连接器中的小黑点标识。
+当图形作为实例节点实例化到另一个图形中时，所有设置为&#x200B;*相对于输入*&#x200B;的实例节点的Base参数将继承连接到&#x200B;*该输入*&#x200B;的数据。 实例节点的“主要”输入可以通过其连接器中的小黑点来标识。
 
-设置为&#x200B;*相对于父代*&#x200B;的其他输入将继承相同的Base参数值，因为它们继承自&#x200B;*图形*，该变量继承自&#x200B;*实例化\**，该变量继承自Primary输入。
+设置为&#x200B;*相对于父项*&#x200B;的其他输入将继承相同的基本参数的值，因为它们继承自&#x200B;*图形*，该图形继承自&#x200B;*实例节点\**，该节点继承自“主要”输入。
 
-\*：如果图形使用*&#x200B;相对于父代*继承方法，则为真。
+\*：如果图形使用*&#x200B;相对于父级*继承方法，则此项为true。
 
 ## 示例
 
-以下是一些涵盖不同继承案例的示例，以及以下行为者中设置的继承方法的相互作用（从上到下）：
+下面是一些示例，这些示例涵盖了不同的继承情况以及下列操作器中设置的继承方法的相互作用（从上到下）：
 
 1. Application
 1. 主机图形
-1. 主机图形中的实例化
-1. 子图形 — 即实例化引用的图形
-1. 子图形中的节点
+1. 主机图形中的实例节点
+1. 子图 — 即实例节点引用的图
+1. 子图中的节点
 
-为演员设置的&#x200B;*继承方法*&#x200B;正上方以橙色显示。 *继承*&#x200B;到其源的流显示有橙色线。
+为操作员设置的&#x200B;*继承方法*&#x200B;正上方以橙色显示。 *继承流*&#x200B;的源，以橙色线条显示。
 
 字母表示基本参数的&#x200B;*个单独集*，应有助于跟踪哪个操作者继承了哪些数据。
 
@@ -233,14 +233,14 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 **示例A**
 
-![继承关系图A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "继承关系图A"){zoomable="yes"}
+![继承图A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "继承图A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **示例B**
 
-![继承关系图B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "继承关系图B"){zoomable="yes"}
+![继承图B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "继承图B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 **示例C**
 
-![继承关系图C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "继承关系图C"){zoomable="yes"}
+![继承图C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "继承图C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **示例D**
 
-![继承关系图D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "继承关系图D"){zoomable="yes"}
+![继承图D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "继承图D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -267,9 +267,9 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 
 ## 解决继承问题
 
-在构建图形并增加其复杂性时，可能会遇到由继承导致的意外结果。 如果节点输出具有错误的分辨率或精度（即位深度），您应向&#x200B;*继承链*&#x200B;上移，以查明这些值的来源。
+在构建图表并增加其复杂性时，您可能会遇到因继承而导致的意外结果。 如果节点输出具有错误的分辨率或精度（即，位深度），则您应&#x200B;*沿继承链*&#x200B;向上移动，以查明这些值的来源。
 
-一个很好的起点是检查显示在节点正下方的数据：这些是节点&#x200B;*第一输出*&#x200B;的图像输出的分辨率、颜色格式和精度。 虽然理解解决方案很简单，但第二部分数据值得详细阐述：
+检查节点下方显示的数据是一个很好的起点：这些是节点&#x200B;*第一输出*&#x200B;所输出的图像的分辨率、颜色格式和精度。 虽然理解解决方案很简单，但第二部分数据值得详细阐述：
 
 * *字母前缀*&#x200B;引用图像的颜色格式：
   * <b>L</b>：明亮度（即灰度）

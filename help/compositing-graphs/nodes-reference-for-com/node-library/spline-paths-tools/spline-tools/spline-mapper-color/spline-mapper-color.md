@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
-description: 使用“样条映射器颜色”节点，使用可自定义的参数沿样条路径映射颜色纹理。
+description: 使用“样条映射器颜色”节点沿带有可自定义参数的样条路径映射颜色纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 描述
 
-将输入颜色图像映射到沿输入样条拉伸的原始形状上。
+将输入彩色图像映射到沿输入样条拉伸的基本形状上。
 
 原始形状可以是平面、半圆柱或圆柱体。 圆柱体可以沿着样条线扭转，从而相应地使映射的图像变形。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据。<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> — 未使用<br><b>A</b> — 未使用 |
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
 | <b>彩图</b> <i>颜色</i> | 应沿输入样条映射的输入颜色图像。 |
-| <b>Height映射</b> <i>灰度</i> | 应沿输入样条映射的输入灰度高度图。 |
+| <b>高度图</b> <i>灰度</i> | 应沿输入样条映射的输入灰度高度图。 |
 | <b>Twist Curve</b> <i>灰度</i> | 使用曲线第一行像素的值描述曲线的图像。<br>当<b>形状</b>参数设置为<i>半圆柱体</i>或<i>圆柱体</i>时，此输入用于控制形状周围的UV扭曲。 用<b>扭转UVs曲线乘数</b>参数控制其影响。<br>曲线为沿样条线的旋转量提供一个轮廓，行中的第一个像素是样条线开始处的旋转，最后一个像素是样条线结束处的旋转。 灰度值表示若干转弯。<br>您可以使用[曲线](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)节点来创作曲线。 |
 
 <a name="outputs"></a>

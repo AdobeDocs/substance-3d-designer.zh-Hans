@@ -65,7 +65,7 @@ ht-degree: 0%
 
 <b>！[(tick)](../../assets/check.svg)解决方案</b>
 
-如果链接了[位图资源](../../resources/bitmap-resource/bitmap-resource.md)，并且Designer在其文件名中检测到&#x200B;*UDIM命名分类*，例如`my_texture_0x1.png`中的`0x1`，则它提议将其链接为&#x200B;*UDIM模板*，以便[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点在Designer中使用UDIM工作流程时，能够&#x200B;*使用该分类自动将*&#x200B;切换到UDIM集中的其他位图。 在这种情况下，Designer以&#x200B;*不同方式*&#x200B;链接位图资源，这考虑了UDIM编号模板。
+如果链接了[位图资源](../../resources/bitmap-resource/bitmap-resource.md)，并且Designer在其文件名中检测到&#x200B;*UDIM命名分类*（例如`my_texture_0x1.png`中的`0x1`），则它提议将其链接为&#x200B;*UDIM模板*，以便[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点在Designer中使用UDIM工作流时，能够&#x200B;*自动将*&#x200B;切换到使用该分类的UDIM集中的其他位图。 在这种情况下，Designer以&#x200B;*不同方式*&#x200B;链接位图资源，这考虑了UDIM编号模板。
 
 有两个主要方法可纠正此问题：
 
@@ -74,9 +74,9 @@ ht-degree: 0%
    转到资源的<b>文件路径</b>属性指定的位置，并检查模板之后的文件是否存在。 如果没有，请恢复或重新创建它们。
 
    ![“没有与资源解决方案1](../../assets/warnings-dep-udim-2.gif "匹配的文件”没有与资源解决方案1")匹配的文件
-1. <b>重新定位文件</b>
+1. <b>重定位文件</b>
 
-   如果移动或重命名了文件，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB来重新定位文件，然后选择<b>重新定位</b>选项将该资源链接到一组同类型UDIM图像&#x200B;*第一个文件*。
+   如果移动或重命名了文件，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB来重定位它们，然后选择<b>重定位</b>选项将该资源链接到一组同类型的UDIM图像中的&#x200B;*第一个文件*。
 
    ![“没有与资源解决方案2](../../assets/warnings-dep-udim.gif "匹配的文件”没有与资源解决方案2")匹配的文件
 
@@ -93,9 +93,9 @@ ht-degree: 0%
    转到资源的<b>文件路径</b>属性指定的位置，并检查该文件是否存在。 如果没有，请恢复或重新创建它。
 
    ![“未找到链接的文件”解决方案1](../../assets/warnings-dep-file-not-found.gif "“未找到链接的文件”解决方案1")
-1. <b>重新定位文件</b>
+1. <b>重定位文件</b>
 
-   如果该文件已被移动或重命名，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB将其重新定位，然后选择<b>重新定位</b>选项以将该资源链接到另一个相同类型的文件。
+   如果该文件已被移动或重定位，请通过单击[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)面板中的资源项上的RMB将其重命名，然后选择<b>重定位</b>选项将该资源链接到另一个相同类型的文件。
 
    ![“未找到链接的文件”解决方案2](../../assets/warnings-dep-file-not-found-2.gif "“未找到链接的文件”解决方案2")
 

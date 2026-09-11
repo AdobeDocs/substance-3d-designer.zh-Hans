@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance函数图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 乍一看，Substance功能图与Substance功能图非常相似，工作流程也几乎相同。
 
-![函数图形](../../assets/image2015-12-18-11-29-28.png "Substance函数图形")Substance
+![函数图形](the-function-graph.resources/image2015-12-18-11-29-28.png "Substance函数图形")Substance
 
 ## 导航类似
 
@@ -53,7 +53,7 @@ Substance函数图中的可用节点与在Substance图中将遇到的节点完�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance函数图形节点列表](../../assets/image2015-12-18-13-46-55.png "Substance函数图形节点列表")
+![Substance函数图形节点列表](the-function-graph.resources/image2015-12-18-13-46-55.png "Substance函数图形节点列表")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Substance函数图中的可用节点与在Substance图中将遇到的节点完�
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance函数图的输出节点](../../assets/image2015-12-18-13-49-43.png "Substance函数图的输出节点")
+![Substance函数图的输出节点](the-function-graph.resources/image2015-12-18-13-49-43.png "Substance函数图的输出节点")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Substance函数图中的可用节点与在Substance图中将遇到的节点完�
 
 要定义输出，只需右键单击生成预期输出的节点，然后单击&#x200B;*设置为输出节点：*
 
-![定义输出节点](../../assets/setoutputnode.gif "定义输出节点")
+![定义输出节点](the-function-graph.resources/setoutputnode.gif "定义输出节点")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Substance函数图中的可用节点与在Substance图中将遇到的节点完�
 </td>
 <td style="border: 0;" valign="top">
 
-![打开引用的Substance函数图形](../../assets/image2017-6-27-10-44-55.png "打开引用的Substance函数图形")
+![打开引用的Substance函数图形](the-function-graph.resources/image2017-6-27-10-44-55.png "打开引用的Substance函数图形")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Substance函数图中的可用节点与在Substance图中将遇到的节点完�
 
 如果您有一个包含多个函数的SBS，您可以将其直接拖放到Substance函数图形中，并在显示的列表中选择要导入的函数：
 
-![从包中删除Substance函数图形](../../assets/sbsdrag.gif "从包中删除Substance函数图形")
+![从包中删除Substance函数图形](the-function-graph.resources/sbsdrag.gif "从包中删除Substance函数图形")

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/home.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Designer通过基于节点的工作流程创建程序性材料、纹理和3D资源。
+description: 了解如何使用Substance 3D Designer通过基于节点的工作流程创建程序化的材料、纹理和3D资源。
 helpx_creative_field: ""
 helpx_description: Designer > User guide
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer用户指南
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,9 +20,9 @@ ht-degree: 89%
 
 # Substance 3D Designer用户指南
 
-![Substance 3D Designer主窗口](../assets/sdsummerinterface.jpg "Substance 3D Designer主窗口")
+![Substance 3D Designer主窗口](home.resources/sdsummerinterface.jpg "Substance 3D Designer主窗口")
 
-[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html) 是一款材质创作软件。 它允许您使用节点图形从程序性图案和噪声生成纹理，以及处理位图。
+[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html) 是一款材质创作软件。 这样，您就可以使用节点图形从程序化的图案和噪声生成纹理，以及处理位图。
 
 如果您在 Designer 中遇到了不熟悉的词汇或概念， 请转到我们的[词汇表](../glossary/glossary.md)以了解相关信息。
 
@@ -53,7 +53,7 @@ ht-degree: 89%
 * [资源管理器](../interface/the-explorer-window/the-explorer-window.md) — 此页面描述了 Adobe Substance 3D Designer 中的资源管理器停靠窗格。 通过此停靠窗格，您可以管理包及其资源。
 * [图形视图](../interface/the-graph-view/the-graph-view.md) — 此页面显示 Substance 3D Designer 的图形视图。
 * [库](../interface/the-library/the-library.md) — 此页面显示 Substance 3D Designer 的“库”面板、其布局以及它为搜索和筛选内容提供的工具。
-* [属性](../interface/properties/properties.md) — 此页面显示了 Substance 3D Designer 的“属性”面板、包括其布局以及您可以在其中找到的不同展开项目、类别和参数。 它专注于 Substance 图形的属性。 Substance函数图和FX-Map图的布局更简单。
+* [属性](../interface/properties/properties.md) — 此页面显示了 Substance 3D Designer 的“属性”面板、包括其布局以及您可以在其中找到的不同展开项目、类别和参数。 它专注于 Substance 图形的属性。 Substance功能图形和FX-Map图形的布局更简单。
 * [2D 视图](../interface/2d-view/2d-view.md) — 本页面介绍了 Substance 3D Designer 中 2D 视图面板的用户界面和功能。
 * [3D 视图](../interface/3d-view/3d-view.md) — 3D 视图可帮助您通过自定义网格和渲染的 PBR 材质查看和了解材质。
 * [依赖项管理器](../interface/dependency-manager/dependency-manager.md)

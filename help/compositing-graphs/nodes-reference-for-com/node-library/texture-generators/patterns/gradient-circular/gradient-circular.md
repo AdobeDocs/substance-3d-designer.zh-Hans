@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变圆形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-circular.png){width="128px"}
+![](gradient-circular.resources/gradient-circular.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 |:---|:---|
 | <b>点1</b> | 第一个点围绕渐变旋转，无需居中 |
 | <b>点2</b> | 渐变的第二个开始和结束点。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用使用非方形比率补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用挤压补偿并使用非方形比例拉伸。 |

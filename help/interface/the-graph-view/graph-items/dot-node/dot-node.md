@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 点节点（也称为门户）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![点节点图标](../../../../assets/graphatomic-dot_1.png "点节点图标")
+![点节点图标](dot-node.resources/graphatomic-dot_1.png "点节点图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 0%
 +++在链接上插入
 悬停连接时按住<b>Alt</b>键可显示“点”节点预览，然后单击LMB可在该位置的连接上添加“点”节点。
 
-![插入点节点](../../../../assets/dot-node-insert-optim.gif "插入点节点"){width="512px"}
+![插入点节点](dot-node.resources/dot-node-insert-optim.gif "插入点节点"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 您可以继续拖动新连接，并重复该操作以您喜欢的方式路由该连接。
 
-![点：从连接器创建](../../../../assets/graph-dot_create-from-connector.gif "点：从连接器创建")
+![点：从连接器创建](dot-node.resources/graph-dot_create-from-connector.gif "点：从连接器创建")
 
 
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++节点菜单
 按<b>空格键</b>显示<b>节点菜单</b>，然后选择“点”项或在搜索字段中键入“点”以呈现该项并更快地找到它。
 
-![节点菜单中的点节点](../../../../assets/dot-node-insert-menu.png "节点菜单中的点节点")
+![节点菜单中的点节点](dot-node.resources/dot-node-insert-menu.png "节点菜单中的点节点")
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![合并链接](../../../../assets/dot-node-congrenate-links-optim.gif "合并链接"){width="512px"}
+![合并链接](dot-node.resources/dot-node-congrenate-links-optim.gif "合并链接"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![点节点作为入口 — 图标](../../../../assets/DotNode_Portal-1.png "点节点作为入口 — 图标")
+![点节点作为入口 — 图标](dot-node.resources/DotNode_Portal-1.png "点节点作为入口 — 图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-![点节点作为门户](../../../../assets/DotNode_Portal.gif "点节点作为门户")
+![点节点作为门户](dot-node.resources/DotNode_Portal.gif "点节点作为门户")
 
 ### 创建门户
 

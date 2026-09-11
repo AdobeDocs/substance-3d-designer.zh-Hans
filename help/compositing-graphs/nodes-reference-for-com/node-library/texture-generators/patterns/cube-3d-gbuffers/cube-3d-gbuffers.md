@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 立方体3D GBuffer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -48,4 +48,4 @@ ht-degree: 5%
 | <b>方向偏移</b> | 允许立方体进行类似3D的X和Y旋转。 也可以通过在2D预览中操作小点来完成。 |
 | <b>大小</b> <i>0.0 - 1.0</i> | 允许立方体的非均匀重新缩放。 |
 | <b>缩放</b> <i>0.0 - 1.0</i> | 统一重新缩放整个立方体。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |

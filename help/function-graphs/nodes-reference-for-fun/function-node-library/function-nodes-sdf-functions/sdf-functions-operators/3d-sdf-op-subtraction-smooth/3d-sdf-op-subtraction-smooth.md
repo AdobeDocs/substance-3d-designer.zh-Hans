@@ -1,6 +1,6 @@
 ---
 title: '平滑减法 '
-description: 'Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>SDF 函数>运算符>减法平滑 '
+description: 'Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符>减法平滑 '
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '116'
@@ -40,6 +40,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *浮动* | 从中减去的SDF形状。 |
-| <b>SDF 2</b> *浮动* | 正在从SDF 1形状中减去SDF形状。 |
-| <b>Smoothness</b> *浮动* | 平滑应用于两个形状的交叉点。<br><br><i>注意：</i>硬边缘可能会出现在平滑半径相交的地方。 |
+| <b>SDF 1</b> *Float* | 从中减去的SDF形状。 |
+| <b>SDF 2</b> *Float* | 正在从SDF 1形状中减去SDF形状。 |
+| <b>Smoothness</b> *Float* | 平滑应用于两个形状的交叉点。<br><br><i>注意：</i>硬边缘可能会出现在平滑半径相交的地方。 |

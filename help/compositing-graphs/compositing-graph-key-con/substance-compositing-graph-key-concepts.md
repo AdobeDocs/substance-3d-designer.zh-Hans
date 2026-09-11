@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
-description: 了解Substance合成图的关键概念，包括节点、连接和工作流程基础知识。
+description: 了解Substance合成图形的关键概念，包括节点、连接和工作流程基础知识。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
 helpx_experience_level: ""
@@ -29,12 +29,12 @@ ht-degree: 1%
 输入、输出和公开参数对于这一概念极为重要，因为它们是图表在用作子图表或用作已发布的Substance 3D资源后仍与其交互的唯一方式。 原因如下：
 
 * 没有输出将意味着您的图形<b>不生成任何内容，</b>没有任何数据。
-* 没有公开的参数意味着无法以任何方式自定义图形<b></b>。 您将无法设置效果的强度、要混合的图像的不透明度、特定区域的颜色等事项。
+* 没有公开参数表示无法以任何方式自定义图形<b></b>。 您将无法设置效果的强度、要混合的图像的不透明度、特定区域的颜色等事项。
 * 无输入意味着在某些情况下，您将无法用<b>自己的图像数据</b>自定义图表结果，如用于生成效果的烘焙网格图、用于执行模糊的输入图像或用于隔离图像特定区域的自定义蒙版。
 
 ## 输入和输出
 
-[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)是生成单个2D结果的节点。 它是端点，是图表的终结点，是最终的结果。 只有连接到输出的数据才能导出到Designer外部，甚至可以在其他图形中使用。
+[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)是生成单个2D结果的节点。 它是端点，是图表的终结点，是最终的结果。 只能将连接到输出的数据导出到Designer外部，甚至可以在其他图形中使用。
 
 关于输出，您应该了解以下几点：
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 * *相对于主页*
 * *相对于输入*
-* *绝对* — 即，无继承
+* *绝对* — 即无继承
 
 继承可能很抽象并且难以管理，因此我们强烈建议您查看[专用页面](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)来详细讨论它。
 

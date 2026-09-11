@@ -1,6 +1,6 @@
 ---
 title: 六角棱镜
-description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>基元>六角棱镜
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>六角棱镜
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '157'
@@ -40,8 +40,8 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>Height</b> *浮动* | 六角棱镜的Z向上Height。<br><br><i>默认值： 1</i> |
-| <b>半径</b> *浮动* | 六角棱镜的半径。<br><br><i>默认值： 0.5</i> |
-| <b>舍入</b> *浮动* | 应用于六角棱镜边缘的圆角弧的半径。<br><br><i>注意：</i>硬边缘可能出现在圆角半径相交的地方。<br><br><i>默认值： 0</i> |
-| <b>中心位置</b> *浮点3* | 六角棱镜的轴心的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
-| <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |
+| <b>Height</b> *Float* | 六角棱镜的Z向上Height。<br><br><i>默认值： 1</i> |
+| <b>半径</b> *Float* | 六角棱镜的半径。<br><br><i>默认值： 0.5</i> |
+| <b>舍入</b> *Float* | 应用于六角棱镜边缘的圆角弧的半径。<br><br><i>注意：</i>硬边缘可能出现在圆角半径相交的地方。<br><br><i>默认值： 0</i> |
+| <b>中心位置</b> *Float3* | 六角棱镜的支点的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>P</b> *Float3* | 变换的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

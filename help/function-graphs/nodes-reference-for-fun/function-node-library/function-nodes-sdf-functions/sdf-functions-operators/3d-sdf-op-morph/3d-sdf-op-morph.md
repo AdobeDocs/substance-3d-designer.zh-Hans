@@ -1,6 +1,6 @@
 ---
 title: Morph
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>SDF 函数>运算符> Morph
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符> Morph
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '102'
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 描述
 
-根据可调整的混合因子，返回基本SDF形状和目标SDF形状之间的线性插值。
+根据可调整的混合因子返回基本SDF形状和目标SDF形状之间的线性插值。
 
 </td>
 </tr>

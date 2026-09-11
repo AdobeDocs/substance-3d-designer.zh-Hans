@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
-description: 使用“样条桥”节点来桥接两个样条之间的纹理，以创建无缝连接。
+description: 使用“样条桥”节点可在两个样条之间桥接纹理，以创建无缝连接。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (2 Splines)
 helpx_experience_level: ""
@@ -89,15 +89,15 @@ ht-degree: 0%
 | <b>偏移样条#2</b> <i>浮动</i> | 沿样条#2对所有样条的起始点应用偏移。 该值是样条#2的规范化长度。<br>符合样条起始或结束的样条留在该处。 |
 | <b>偏移随机起始</b> <i>浮动</i> | 将随机偏移应用于沿样条#1的每个样条的起始点。 该值是样条#1上样条之间的归一化距离。<br>当保持为0时，样条在“起始样条”#1点和“结束样条”#1点之间均匀分布。 |
 | <b>偏移随机结束</b> <i>浮动</i> | 将随机偏移应用于沿样条#2的每个样条的终点。 该值是样条#2上样条之间的归一化距离。<br>当保持为0时，样条在“起始样条”#2点和“结束样条”#2点之间均匀分布。 |
-| <b>切线长度起始</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条“样条”#1上起始点的“输出”正切长度。 |
-| <b>切线长度结束</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条的样条上的终点#2的“in”正切的长度。 |
-| <b>切线旋转开始</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条#1“样条”上的起始点的“输出”正切的旋转。<br>该值为循环次数。 |
-| <b>切线旋转结束</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条的样条上的终点#2的“in”正切的旋转。<br>该值为循环次数。 |
+| <b>正切长度起始</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条“样条”#1上起始点的“输出”正切长度。 |
+| <b>正切长度结束</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条的样条上的终点#2的“in”正切的长度。 |
+| <b>正切旋转开始</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条#1“样条”上的起始点的“输出”正切的旋转。<br>该值为循环次数。 |
+| <b>正切旋转结束</b> <i>Float</i>（在“桥样条类型”设置为“立方贝塞尔曲线”时可用） | 所有生成样条的样条上的终点#2的“in”正切的旋转。<br>该值为循环次数。 |
 | <b>预览</b> |  |
 | <b>段数量</b> <i>整数</i> | 调整用于在“预览”输出中绘制样条可视化效果的段数。 值越高，线条越平滑。 |
-| <b>显示方向帮助程序</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示方向助手</b> <i>布尔值</i> | 在“预览”输出中，在样条的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
-| <b>Thickness（像素）</b> <i>浮动</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
+| <b>Thickness（像素）</b> <i>Float</i> | 调整预览输出中样条可视化的Thickness（以像素为单位）。 |
 
 ## 示例
 

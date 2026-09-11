@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 > **TDR（仅限Windows）**
 > 
-> 为了在GPU上执行大量计算时获得最佳总体稳定性 — 例如，渲染复杂图形、3D视图渲染、从3D视图中导出场景等 — 强烈建议确保<b>超时检测和恢复(TDR)</b>值匹配我们文档的[此页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议。
+> 在GPU上执行繁重的计算时（例如，渲染复杂图形、3D视图渲染、从3D视图中导出场景等），为获得最佳整体稳定性，强烈建议确保<b>超时检测和恢复(TDR)</b>值与我们文档的[本页](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议相匹配。
 
 ## 不支持的配置
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 * x86-64 (Intel、AMD) CPU不支持集成GPU。
 * 不支持将Designer与拦截Designer对图形驱动程序的调用的第三方软件结合使用。 此类软件包括：
-  * 后期处理喷射器，例如应用颜色分级的整形器、相机效果等……
+  * 后期处理喷射器，例如应用颜色分级、相机效果的整形器……
   * 屏幕叠加，例如自定义十字线、GPU性能度量、视频流的外观……
 
 ## 最低GPU驱动程序版本

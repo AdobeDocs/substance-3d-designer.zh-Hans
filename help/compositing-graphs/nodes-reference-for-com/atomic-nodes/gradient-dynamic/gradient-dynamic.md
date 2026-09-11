@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
-description: 使用“渐变（动态）”节点创建可由输入参数和值控制的动态渐变。
+description: 使用“渐变（动态）”节点创建可以由输入参数和值控制的动态渐变。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
 helpx_experience_level: ""
@@ -37,11 +37,11 @@ ht-degree: 9%
 </tr>
 </table>
 
-这主要可以避免由于颜色参数移动到节点外部而导致参数无法公开的问题。 这就是它的“动态性”所在。
+这主要可以避免由于将颜色参数移出节点而导致参数无法公开的问题。 这就是它的“动态性”所在。
 
 虽然渐变（动态）本身并不是很难使用的节点，但其用例更加先进：大多数标准用例可以由常规渐变节点覆盖。
 
-当您受到渐变编辑器的关键系统的过度限制，并且希望颜色和渐变位置由图表的其他输入、参数和部分驱动时，此节点即会发挥作用。
+当您受到渐变编辑器的键系统的太大的限制，并且希望颜色和渐变位置由其他输入、参数和图形的一部分驱动时，可以使用此节点。
 
 或者，可以使用渐变输入位置滑块在单个渐变输入中存储的多个渐变之间切换。
 
@@ -96,7 +96,7 @@ ht-degree: 9%
 | --- | --- |
 | <b>渐变寻址</b> *布尔值* | 设置渐变是重复（拼贴）还是固定。   此参数确定如何处理灰度输入的[0， 1]范围之外的HDR像素：最多可夹持或折叠[0， 1]。 |
 | <b>渐变方向</b> *整数* | 设置应沿其对“渐变输入”进行采样的轴：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平：</i>在X轴上取样一行像素。</li> <li data-preserve-html="true"><i>垂直：</i>对Y轴上的像素列进行取样。</li> </ul> |
-| <b>渐变输入位置</b> *浮动* | 要在“渐变输入”中取样的像素的行或列的规范化位置。 |
+| <b>渐变输入位置</b> *Float* | 要在“渐变输入”中取样的像素的行或列的规范化位置。 |
 
 ## 输入连接器
 

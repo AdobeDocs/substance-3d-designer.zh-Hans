@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: 使用“色阶”节点可调整纹理的亮度、对比度和色调范围，以进行颜色校正和增强。
 helpx_creative_field: ""
@@ -86,10 +86,10 @@ ht-degree: 4%
 
 |  |  |
 | --- | --- |
-| <b>输入低光色阶</b> *浮动/浮动4* | 定义输入图像的低光级别。 重新映射输入的Low值，使其变为全黑色。 |
-| <b>输入高光色阶</b> *浮动/浮动4* | 定义输入图像的高光级别。  将输入的High值重新映射为全白色。 |
-| <b>输入中间色阶</b> *浮动/浮动4* | 定义输入图像的中间色调级别。  将输入Mid值重新映射为中间灰色。 |
-| <b>水平输出低</b> *浮动/浮动4* | 定义输出图像的低光级别。  钳制输出Black值以设置限制。 |
+| <b>输入低光色阶</b> *Float/Float4* | 定义输入图像的低光级别。 重新映射输入的Low值，使其变为全黑色。 |
+| <b>输入高光色阶</b> *Float/Float4* | 定义输入图像的高光级别。  将输入的High值重新映射为全白色。 |
+| <b>输入中间色阶</b> *Float/Float4* | 定义输入图像的中间色调级别。  将输入Mid值重新映射为中间灰色。 |
+| <b>水平输出低</b> *Float/Float4* | 定义输出图像的低光级别。  钳制输出Black值以设置限制。 |
 | <b>输出高光色阶</b> *浮动/浮动4* | 定义输出图像的高光级别。  钳制输出白色值以设置限制。 |
 | <b>中间夹具</b> *布尔值* | 在计算输出电平之前，确定转换的输入值是否被固定到[0， 1]。 |
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的HDRI 工具节点，以处理和增强3D视图光照的HDRI环境。
 helpx_creative_field: ""

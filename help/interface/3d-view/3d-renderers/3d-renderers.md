@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D渲染器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -20,10 +20,10 @@ ht-degree: 7%
 
 # 3D渲染器
 
-3D视图提供四个渲染器：
+该3D 视图提供四个渲染器：
 
-* 两个版本的Adobe内部3D渲染器：支持阴影的实时可视化的栅格化器，以及用于精确渲染阴影、反射、复杂材料属性等的GPU 路径追踪。
-* 两个已弃用的第三方渲染器：OpenGL和NVIDIA的Iray。
+* 两个版本的Adobe内部3D渲染器：支持阴影的实时可视化的栅格化程序，以及用于精确渲染阴影、反射、复杂材料属性等的GPU 路径追踪。
+* 两个已弃用的第三方渲染器：OpenGL和NVIDIAIray。
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 路径追踪</i>
     </td>
   </tr>
@@ -50,20 +50,20 @@ ht-degree: 7%
 
 +++
 
-Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX](https://materialx.org/)着色语言和[USD](https://openusd.org/release/index.html)场景描述，并准备在整个Substance 3D生态系统中提供完全的视觉一致性。
+Adobe的3D渲染器是从地面开始构建，以支持现代技术，例如[MaterialX](https://materialx.org/)着色语言和[USD](https://openusd.org/release/index.html)场景描述，并准备在整个Substance 3D生态系统中提供完全的视觉一致性。
 
-由于依赖美元，它可以利用Adobe的[USDFileFormat增效工具](https://github.com/adobe/USD-Fileformat-plugins)导入许多3D场景格式，例如FBX和GLTF，并完全渲染这些场景，包括材质、纹理、相机和灯光。
+由于其对USD的依赖，它可以利用Adobe的[USDFileFormat增效工具](https://github.com/adobe/USD-Fileformat-plugins)导入许多3D 场景格式，如FBX和GLTF，并完全渲染这些场景，包括材料、纹理、相机和光源。
 
-+++ 场景导入：栅格器与OpenGL
++++ 场景导入：光栅器与OpenGL
 
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光栅器</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 >[!TIP]
 >
-> 在项目设置[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)的“3D视图”部分中启动新3D视图时，您可以选择默认使用的渲染器。
+> 在项目设置[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)的“3D视图”部分中启动新3D 视图时，您可以选择默认使用的渲染器。
 
 <a name="rasterizer"></a>
 
@@ -83,20 +83,20 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **示例**&#x200B;浮点 | 指定在将图像视为收敛之前要计算的像素样本数。 |
-| **环境遮蔽不透明度**&#x200B;浮动 | 指定环境光遮蔽不透明度的值。 |
+| **示例** Float | 指定在将图像视为收敛之前要计算的像素样本数。 |
+| **Ambient occlusion不透明度** Float | 指定环境光遮蔽不透明度的值。 |
 | **启用位移**&#x200B;布尔值 | 指定是否应启用位移。 |
-| **位移阈值**&#x200B;浮动 | 设置阈值以启用/禁用 GPU 曲面细分。 |
-| **启用背面剔除**&#x200B;布尔值 | 如果为真值，将能够剔除法线背向摄像机的三角形网格。 如果值为false，则禁用背面剔除。 |
+| **位移阈值** Float | 设置阈值以启用/禁用 GPU 曲面细分。 |
+| **启用背面消隐**&#x200B;布尔值 | 如果值为true，则允许对法线远离相机的三角形网格进行剔除脸部。 False值将禁用背面消隐。 |
 | **诊断模式**&#x200B;整数 | 指定渲染所用的诊断模式。 |
-| **光栅器阴影模式**&#x200B;整数 | 指定用于渲染阴影的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>无阴影：</i>不渲染任何阴影。</li> <li data-preserve-html="true"><i>体素游行：</i>3月，阴影光线进入体素化场景。</li> </ul> |
+| **光栅器阴影模式**&#x200B;整数 | 指定用于渲染阴影的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>无阴影：</i>不渲染任何阴影。</li> <li data-preserve-html="true"><i>体素行进：</i>3月阴影射入体素化场景。</li> </ul> |
 | **光栅器阴影样本计数**&#x200B;整数 | 指定每个像素跟踪的阴影光线数。 |
-| **光栅器阴影不透明度**&#x200B;浮点 | 指定阴影的不透明度，范围从0.0（无阴影）到1.0（完全阴影）。 |
-| **已启用与栅格化程序顺序无关的透明度**&#x200B;布尔值 | 不考虑透明曲面在渲染时的顺序。 这牺牲了一些精确度，以便更快地渲染透明表面。 |
+| **光栅器阴影不透明度** Float | 指定阴影的不透明度，范围从0.0（无阴影）到1.0（完全阴影）。 |
+| **已启用与光栅器顺序无关的透明度**&#x200B;布尔值 | 不考虑透明曲面在渲染时的顺序。 这牺牲了一些精确度，以便更快地渲染透明表面。 |
 | **启用光栅器SSS**&#x200B;布尔值 | 切换次表面散射效果。 |
-| **光栅器SSS样本计数**&#x200B;整数 | 指定每个像素为渲染次表面散射而采集的样本数。 |
-| **启用栅格化工具累积消除锯齿**&#x200B;布尔值 | 切换累积消除锯齿，其通过抖动渲染和累积计算每个像素的局部平均Smoothness来改进渲染图像中的一个或多个边缘。 即，它累积值以计算平均值。 |
-| **光栅器体素网格分辨率**&#x200B;整数 | 指定在体素行进光栅器中使用的体素网格的分辨率。   较高的值会产生更精确的阴影，但会降低性能。 |
+| **光栅器SSS样本计数**&#x200B;整数 | 指定每个像素为渲染次表面散射采集的样本数。 |
+| **启用光栅器累积消除锯齿**&#x200B;布尔值 | 切换累积消除锯齿，其通过抖动渲染和累积计算每个像素的局部平均Smoothness来改进渲染图像中的一个或多个边缘。 即，它累积值以计算平均值。 |
+| **光栅化器体素网格分辨率**&#x200B;整数 | 指定在体素行进光栅器中使用的体素网格的分辨率。   较高的值会产生更精确的阴影，但会降低性能。 |
 | **光栅器IBL运行时样本计数**&#x200B;整数 | 指定在方法设置为`runtimeSampled`时，使用多少样本计算IBL中的Specular反射。 |
 
 +++
@@ -105,13 +105,13 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 |                               |                                                                                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **已启用**&#x200B;布尔值 | 在渲染场景中切换地平面。 |
-| **Height**&#x200B;浮动 | 控制地平面的Height偏移。   如果编写了此值，则根据场景的比例，预计会内置适当的偏差。 |
-| **阴影强度**&#x200B;浮动 | 启用阴影后，控制投影在地平面上的不透明度，范围从0.0（无阴影）到1.0（全阴影）。 |
+| **已启用**&#x200B;布尔值 | 在渲染的场景中切换地面平面。 |
+| **Height** Float | 控制地面平面的Height偏移。   如果编写了此值，则根据场景的比例，预计会在中烘焙适当的偏差。 |
+| **阴影强度** Float | 启用阴影后，可控制阴影在地面平面上强制转换的不透明度，范围从0.0（无阴影）到1.0（全阴影）。 |
 
 +++
 
-![光栅器 — 示例1](../../../assets/3dRendererRasterizer.jpg "光栅器 — 示例1"){zoomable="yes"}
+![光栅器 — 示例1](3d-renderers.resources/3dRendererRasterizer.jpg "光栅器 — 示例1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -121,10 +121,10 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 |                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **示例**&#x200B;浮点 | 指定在将图像视为收敛之前要计算的像素样本数。 |
+| **示例** Float | 指定在将图像视为收敛之前要计算的像素样本数。 |
 | **启用位移**&#x200B;布尔值 | 指定是否应启用位移。 |
-| **位移阈值**&#x200B;浮动 | 设置阈值以启用/禁用 GPU 曲面细分。 |
-| **启用背面剔除**&#x200B;布尔值 | 如果为真值，将能够剔除法线背向摄像机的三角形网格。 如果值为false，则禁用背面剔除。 |
+| **位移阈值** Float | 设置阈值以启用/禁用 GPU 曲面细分。 |
+| **启用背面消隐**&#x200B;布尔值 | 如果值为true，则允许对法线远离相机的三角形网格进行剔除脸部。 False值将禁用背面消隐。 |
 | **像素循环类型**&#x200B;整数 | 指定用于降低交互式渲染的计算分辨率的技术：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>无循环：</i>禁用像素循环并计算每个完整的像素样本。</li> <li data-preserve-html="true"><i>设备优化：</i>根据用于渲染的设备选择理想的像素循环分辨率。</li> <li data-preserve-html="true"><i>4x4：</i>每个循环通道对1/16个像素进行采样。</li> <li data-preserve-html="true"><i>8x8：</i>每个循环通道对1/64个像素进行采样。</li><li data-preserve-html="true"><i>蓝色噪声：</i>自适应地对多个像素进行采样，并将它们分割以获得目标帧速率。</li> </ul> |
 | **诊断模式**&#x200B;整数 | 指定渲染所用的诊断模式。 |
 | **通过传输查看背景**&#x200B;布尔值 | 如果值为true，背景图像便可以通过transmissive或折射对象看到。   如果此项为false，则transmissive对象将显示场景环境的折射图像。 |
@@ -145,7 +145,7 @@ Adobe的3D渲染器是全新构建的，以支持现代技术，例如[MaterialX
 
 +++
 
-![GPU路径跟踪器 — 示例1](../../../assets/3dRendererPathtracer.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
+![GPU路径跟踪器 — 示例1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU路径跟踪器 — 示例1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -159,9 +159,9 @@ OpenGL渲染器可提供快速的实时渲染，并且根据您的用例，默�
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 在[此处](../material-properties/material-properties.md#openpbr)了解有关Designer中OpenPBR的更多信息。
 
@@ -174,9 +174,9 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 该Adobe Standard Material已在我们文档的[此部分](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中详细记录。
 
@@ -188,9 +188,9 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 此着色器当前是&#x200B;*正在创作的作品*，提供了材料特性的概览，但不应将其用于精细调整，并且某些功能仍不受支持。
 
@@ -202,9 +202,9 @@ Adobe的标准化着色器。 确保所有Adobe的Substance 3D应用程序之间
 
 有两种技术可用于可视化Height：
 
-<b>视差遮蔽</b> — 通过局部UV变形和遮蔽来伪造Height位移而不修改几何形状。
+<b>视差遮蔽</b> — 不通过局部Height变形和遮蔽修改几何形状而伪造UV位移。
 
-<b>镶嵌+位移</b> — 细分几何并沿其法线位移顶点。
+<b>镶嵌+位移</b> — 细分几何形状并沿其法线位移顶点。
 
 +++
 
@@ -296,4 +296,4 @@ Designer还为您提供了使用GLSLFX文件[&#128279;](../../../interface/3d-vi
 > 
 > 此渲染器&#x200B;**已弃用**：它将不接收新功能，并且将在未来版本的Designer中弃用。
 
-![OpenGL — 示例1](../../../assets/3dRendererOpenGL.jpg "OpenGL — 示例1"){zoomable="yes"}
+![OpenGL — 示例1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL — 示例1"){zoomable="yes"}

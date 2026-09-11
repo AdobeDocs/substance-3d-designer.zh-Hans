@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: 使用3D纹理体积渲染节点从3D数据渲染体积纹理，以创建云雾效果。
 helpx_creative_field: ""
@@ -62,14 +62,14 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>输出分辨率</b> <i>整数2</i> | <b>X</b>和<b>Y</b>中输出图像的分辨率，表示为<i>的二次方</i>。 |
-| <b>相机位置</b> <i>Float2</i> | 形状周围的相机位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>轨道</i>相机。 |
-| <b>光源位置</b> <i>浮点2</i> | <i>定向光</i>在形状周围的位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>绕轨</i>光源。 |
-| <b>相机距离</b> <i>浮动</i> | 从相机到形状的距离。 |
-| <b>相机FOV</b> <i>浮动</i> | 相机的视角<i>度</i>。 |
-| <b>吸收</b> <i>浮动</i> | 调整光线通过<i>到</i>音量时吸收的光量。 |
-| <b>羽化</b> <i>浮动</i> | 将<b>密度</b>输入提供的值与<i>内部</i>距离字段值相乘。<br>这能有效地将<i>渐隐渐变</i>的宽度从卷的外部限制向内调整。 |
+| <b>相机位置</b> <i>浮点2</i> | 形状周围相机的位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>轨道</i>相机。 |
+| <b>光源位置</b> <i>Float2</i> | <i>定向光</i>在形状周围的位置。<br>选择节点后，可以使用<b>2D 视图</b>中的位置Gizmo来<i>绕轨</i>光源。 |
+| <b>相机距离</b> <i>Float</i> | 相机到形状的距离。 |
+| <b>相机FOV</b> <i>Float</i> | 相机<i>度</i>的视角。 |
+| <b>吸收</b> <i>Float</i> | 调整光线通过<i>到</i>音量时吸收的光量。 |
+| <b>羽化</b> <i>Float</i> | 将<b>密度</b>输入提供的值与<i>内部</i>距离字段值相乘。<br>这能有效地将<i>渐隐渐变</i>的宽度从卷的外部限制向内调整。 |
 | <b>浅色模式</b> <i>整数</i> | 设置获取定向光颜色的方法： <br>- <i>色温（开氏度）</i>：颜色由光温决定，其中<i>较低</i>的值将产生<i>更暖</i>的RGB<br>- <i>颜色颜色</i>：使用RGB值定义颜色 |
-| <b>光温（开氏温度）</b> <i>浮动</i> | 影响其<i>颜色</i>的定向光的温度。 <i>较低</i>的值会产生<i>暖色</i>色。<br>有用值：<br>1800 K — 蜡烛光<br>2800 K — 白炽灯泡<br>5500 K — 日光<br>6200 K — 自然白色<br>7000 K — 阴天天空<br><i>注意</i>：仅当<b>浅色模式</b>参数设置为<i>温度（开氏度）</i>时，此参数才可用。 |
+| <b>光温（开氏温度）</b> <i>Float</i> | 影响其<i>颜色</i>的定向光的温度。 <i>较低</i>的值会产生<i>暖色</i>色。<br>有用值：<br>1800 K — 蜡烛光<br>2800 K — 白炽灯泡<br>5500 K — 日光<br>6200 K — 自然白色<br>7000 K — 阴天天空<br><i>注意</i>：仅当<b>浅色模式</b>参数设置为<i>温度（开氏度）</i>时，此参数才可用。 |
 | <b>浅色</b> <i>浮点3</i> | 定向光的颜色。<br><i>注意</i>：仅当<b>浅色模式</b>参数设置为<i>RGB颜色</i>时，此参数才可用。 |
 | <b>光照强度</b> <i>浮动</i> | 定向光的强度。 |
 | <b>环境色</b> <i>浮点3</i> | 环境天光的颜色。 |
@@ -80,7 +80,7 @@ ht-degree: 0%
 | <b>仿色</b> <i>浮动</i> | 调整用于平滑着色的<i>蓝色噪声仿色</i>的强度。 |
 | <b>启用地面平面</b> <i>布尔值</i> | 当<i>True</i>时，渲染<i>无限</i>地面平面。 包围形状的<i>单位立方体</i>位于此平面上。 |
 | <b>无限平面</b> <i>布尔值</i> | 将地面平面设置为<i>无限扩展</i>到水平线。<br><i>注意</i>：仅当<b>启用地面平面</b>参数设置为<i>True</i>时，此参数才可用。 |
-| <b>地面的平面大小</b> <i>浮点2</i> | 调整地面平面的大小。<br><i>注意</i>：仅当<b>启用地面平面</b>参数设置为<i>True</i>且<b>无限平面</b>参数设置为<i>False</i>时，此参数才可用。 |
+| <b>地面的平面大小</b> <i>Float2</i> | 调整地面平面的大小。<br><i>注意</i>：仅当<b>启用地面平面</b>参数设置为<i>True</i>且<b>无限平面</b>参数设置为<i>False</i>时，此参数才可用。 |
 
 ## 示例
 

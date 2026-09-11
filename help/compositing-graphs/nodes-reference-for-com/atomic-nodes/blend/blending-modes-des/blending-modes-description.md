@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
-description: 了解Substance 3D Designer中可用的混合模式，用于将纹理与其他合成效果相结合。
+description: 了解Substance 3D Designer中可用的混合模式，用于将纹理与不同的合成效果相结合。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes
 helpx_experience_level: ""
@@ -28,17 +28,17 @@ ht-degree: 2%
 
 ![混合模式：复制](blending-modes-description.resources/image2015-8-20-9-38-0.png "混合模式：复制"){zoomable="yes"}
 
-对于彩色图像，不透明度默认考虑Alpha 通道。
+对于彩色图像，不透明度中默认考虑Alpha通道。
 
-可使用“Alpha 值混合处理”参数更改此设置。
+可使用“Alpha混合”参数更改此设置。
 
 ![混合模式：复制(2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "混合模式：复制(2)"){zoomable="yes"}
 
-## 添加(Linear dodge)
+## 添加（线性减淡）
 
 *添加*&#x200B;混合模式会将前景输入值添加到背景中的每个相应像素。
 
-![混合模式：添加(Linear dodge)](blending-modes-description.resources/image2015-8-20-9-38-19.png "混合模式：添加(Linear dodge)"){zoomable="yes"}
+![混合模式：添加（线性减淡）](blending-modes-description.resources/image2015-8-20-9-38-19.png "混合模式：添加（线性减淡）"){zoomable="yes"}
 
 ## 减去
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 *Max*&#x200B;混合模式将在背景和前景之间选取较高的值。
 
-![混合模式：最大(变亮（最大）)](blending-modes-description.resources/image2015-8-20-9-40-12.png "混合模式：最大(变亮（最大）)"){zoomable="yes"}
+![混合模式：最大（变亮）](blending-modes-description.resources/image2015-8-20-9-40-12.png "混合模式：最大（变亮）"){zoomable="yes"}
 
 ## 最小值（变暗）
 

@@ -116,15 +116,15 @@ RT辐照度是新节点中最先进的。 它根据带有高度图的材料以�
 
 ![](../../assets/bent-normal-ex.jpg){width="300px"}
 
-最后是“Bent Normal”（弯曲正常）节点。 与常规正常转换相比，此节点使用AO修改正常映射以使用该AO信息。 在需要网格烘焙器创建效果之前，此节点以纹理空间为您创建效果。
+最后是“Bent Normal”（弯曲正常）节点。 与常规正常转换相比，此节点使用AO修改正常映射以使用该AO信息。 在您需要Baker创建效果之前，此节点以文本空间为您创建效果。
 
-### Adobe标准素材着色器
+### 着色器
 
-为了统一应用程序中的素材和渲染，Adobe标准素材着色器是3D视图中新的默认着色器。 乍一看，它和旧的PBR金属粗糙度着色器没有区别（无论如何，它都是基于它），但它支持更多奇特的通道，让您无需外部渲染器即可预览这些通道。
+为了在各应用程序间统一材料和渲染，3D视图中的新默认着色器是Adobe Standard Material着色器。 乍一看，它与旧的PBR着色器没有区别（无论如何，它都是基于它的），但它支持更多奇特的通道，让您无需外部渲染器即可预览这些通道。
 
 ### UI更改
 
-对UI进行了一些小的修改，但最明显的修改是改进的“文件”>“新建包”菜单（允许您选择图表类型），以及主工具栏上改进和更新的按钮（提供新图表类型的快捷方式并发送给其他应用程序）。
+对UI进行了一些小的修改，但最明显的修改是改进的“文件”>“新建包”菜单（允许您选择图形类型），以及主工具栏上改进和更新的按钮（提供新图形类型的快捷键并发送到其他应用程序）。
 
 ## 教程
 
@@ -139,10 +139,10 @@ RT辐照度是新节点中最先进的。 它根据带有高度图的材料以�
 **已添加：**
 
 * [品牌推广]Substance Designer成为Adobe Substance 3D Designer
-* [Substance模型]用于创建过程3D模型的新Substance模型图形
-* [内容]添加新的HDR环境地图
+* [Substance模型]用于创建程序化3D模型的新Substance模型图表
+* [内容]添加新的环境图
 * [内容]新的弯曲正常节点
-* [内容]新的RT环境遮蔽节点
+* [Content]新的RTAmbient occlusion节点
 * [Content]新的RT Chastics节点
 * [Content]新的RT Chastics节点
 * [内容]新的RT辐照度节点
@@ -150,7 +150,7 @@ RT辐照度是新节点中最先进的。 它根据带有高度图的材料以�
 * [互操作性]将资源发送到Painter将启动Painter并在库中添加或更新您的资源（需要Adobe的Substance 3D计划）
 * [互操作性]将资源发送到Sampler将启动Sampler并在库中添加或更新您的资源（需要Adobe的Substance 3D计划）
 * [互操作性]在Adobe Bridge中浏览您的资源，将在资源所在位置启动Bridge（需要Adobe的Substance 3D计划）
-* [ASM]在Substance 图形和MDL图形中支持新的Adobe标准素材(ASM)
+* [ASM]Substance 图形和MDL 图支持新Adobe Standard Material(ASM)
 * [ASM]添加ASM模板
 * [ASM]添加适用于ASM的OpenGL着色器
 * [ASM]将ASM着色器设置为默认着色器
@@ -159,9 +159,9 @@ RT辐照度是新节点中最先进的。 它根据带有高度图的材料以�
 * [常规]更新文件菜单
 * [常规]更新帮助菜单
 * [Publish]新的“发布”窗口
-* [Publish]在首选项中添加选项，以便在发布SBSAR文件时不保存SBS文件
+* [Publish]为了在发布Sbsar 文件时不保存SBS文件，请在首选项中添加选项
 * [属性]将图形类型字段添加到图形属性
-* [属性]以更相关的方式重新排列图表的属性
+* [属性]以更相关的方式对图形的属性重新排序
 * [品牌推广]新的“关于”窗口
 * [品牌]更新应用程序样式
 * [GLSLFX]向技术添加标签
@@ -172,13 +172,13 @@ RT辐照度是新节点中最先进的。 它根据带有高度图的材料以�
 * [UX]在拖动鼠标的情况下反向缩放3D视图
 * [AXF]更新至版本1.8.0
 * [日志]将已安装的插件添加到日志
-* [VFX]添加ACES 1.2 OpenColorIO配置
+* [VFX]添加ACE 1.2 OpenColorIO配置
 * [Python API]添加一种方法来查询在设置中指定的临时目录
 * [Python API]将isModified方法添加到SDPackage以检查是否保存了pkg
 * [Python API]向SDColorManagementEngine添加一些颜色转换方法
-* [Python API]删除图表对象（注释、图钉、框架……）
-* [Python API]公开图形实例节点的物理尺寸属性
-* [Python API]显示将副本另存为
+* [Python API]删除图形对象（注释、大头针、帧...）
+* [Python API]图形实例物理尺寸的属性
+* [Python API]公开将副本另存为
 * [Python API]修复SDPackageMgr.savePackage方法
 * [Python API]获取选定图形对象的列表
 * [Python API]引入新的方法名称以使用图形选区

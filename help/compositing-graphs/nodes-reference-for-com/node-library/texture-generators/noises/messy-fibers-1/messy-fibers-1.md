@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 杂乱纤维1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![杂乱纤维1 — 图标](../../../../../../assets/messy_fibers_1.png "杂乱纤维1 — 图标"){width="200px"}
+![杂乱纤维1 — 图标](messy-fibers-1.resources/messy_fibers_1.png "杂乱纤维1 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 图标](../../../../../../assets/messy_fibers_1_1.png "杂乱纤维1 — 图标"){zoomable="yes"}
+![杂乱纤维1 — 图标](messy-fibers-1.resources/messy_fibers_1_1.png "杂乱纤维1 — 图标"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 示例2](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "杂乱纤维1 — 示例2"){zoomable="yes"}
+![杂乱纤维1 — 示例2](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "杂乱纤维1 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 示例3](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "杂乱纤维1 — 示例3"){zoomable="yes"}
+![杂乱纤维1 — 示例3](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "杂乱纤维1 — 示例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![杂乱纤维1 — 示例4](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "杂乱纤维1 — 示例4"){zoomable="yes"}
+![杂乱纤维1 — 示例4](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "杂乱纤维1 — 示例4"){zoomable="yes"}
 
 </td>
 </tr>

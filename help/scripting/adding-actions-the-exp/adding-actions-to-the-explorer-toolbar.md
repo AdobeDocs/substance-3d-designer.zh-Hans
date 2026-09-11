@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
-description: 了解如何使用Python脚本将自定义操作添加到Substance 3D Designer中的Explorer工具栏。
+description: 了解如何使用Python脚本将自定义操作添加到Substance 3D Designer中的资源管理器工具栏。
 helpx_creative_field: ""
 helpx_description: Designer > Scripting > Adding actions to the Explorer toolbar
 helpx_experience_level: ""

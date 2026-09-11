@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 轴向渐变
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial.png){width="128px"}
+![](gradient-axial.resources/gradient-axial.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 

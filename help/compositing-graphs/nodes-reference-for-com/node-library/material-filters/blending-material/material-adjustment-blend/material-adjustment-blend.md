@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 材料调整混合
+title: 素材调整混合
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# 材料调整混合
+# 素材调整混合
 
 <table>
 <tr style="border: 0;">
@@ -57,12 +57,12 @@ ht-degree: 2%
 |  |  |
 |:---|:---|
 | <b>频道</b> | 在此组中打开和关闭材料通道，例如，使用Specular/光泽度映射而非金属/粗糙度时。<br><br>这也会启用和禁用通道相关组的外观。 |
-| <b>Diffuse</b> | 在蒙版定义的区域中，对Diffuse通道执行调整操作。 |
-| <b>Base color</b> | 在蒙版定义的区域中，对Base color通道执行调整操作。 |
+| <b>扩散</b> | 在蒙版定义的区域中，对Diffuse通道执行调整操作。 |
+| <b>基色</b> | 在蒙版定义的区域中，对Base color通道执行调整操作。 |
 | <b>正常</b> |  |
 | <b>强度</b> <i>0.0 - 1.0</i> | 调暗正常强度 |
 | <b>Specular</b> | 在蒙版定义的区域中，对Specular通道执行调整操作。 |
-| <b>Emissive</b> | 在蒙版定义的区域中，对发射通道执行调整操作。 |
+| <b>具发射性</b> | 在蒙版定义的区域中，对发射通道执行调整操作。 |
 | <b>光泽度</b> | 在蒙版定义的区域中，对光泽度通道执行调整操作。 |
 | <b>粗糙度</b> | 在蒙版定义的区域中，对粗糙度通道执行调整操作。 |
 | <b>金属</b> | 在蒙版定义的区域中，对金属通道执行调整操作。 |

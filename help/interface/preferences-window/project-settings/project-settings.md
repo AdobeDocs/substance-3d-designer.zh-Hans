@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Project settings
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Substance 3D Designer允许您为每个项目&#x200B;*创建首选项*，并在�
 >
 > 有关在&#x200B;**生产管道**&#x200B;中设置和集成Substance 3D Designer的详细信息，我们&#x200B;*强烈推荐*，请参阅文档的[管道和项目配置](../../../pipeline-and-project-con/pipeline-and-project-configuration.md)部分。
 
-![项目设置](../../../assets/2019-3-0-prefs-proj-01.png "项目设置"){zoomable="yes"}
+![项目设置](project-settings.resources/2019-3-0-prefs-proj-01.png "项目设置"){zoomable="yes"}
 
 ## 配置
 
@@ -174,18 +174,18 @@ Substance 3D Designer将自动加载您添加到<b>Url</b>列表的文件夹中�
 
 >[!WARNING]
 >
-> [Perforce](https://www.perforce.com/)是版本控制当前支持的&#x200B;*仅*&#x200B;工具。
+> [性能](https://www.perforce.com/)是版本控制当前支持的&#x200B;*仅*&#x200B;工具。
 
-请参阅[版本控制](../../../interface/preferences-window/version-control/version-control.md)页。
+请参阅[版本控制](../../../interface/preferences-window/version-control/version-control.md)页面。
 
 **应该如何使用它？**
 
 您应在Designer的项目文件(\*.sbsprj)中设置所有特定于项目的首选项**。 这些首选项包括：
 
-* 切线空间插件
+* 切空间插件
 * 库
 * 别名
-* 3D 视图设置
+* 3D视图设置
 * 烘焙设置
 * [版本控制设置](../../../interface/preferences-window/version-control/version-control.md)
 

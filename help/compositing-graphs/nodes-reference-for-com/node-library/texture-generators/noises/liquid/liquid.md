@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 液体
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/liquid.png){width="128px"}
+![](liquid.resources/liquid.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 描述
 
-这是[高斯噪声](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的简单变体，它[本身变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)以创建类似液体的效果。
+这是[高斯杂色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的简单变体，它[本身变形](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)以创建类似液体的效果。
 
 </td>
 </tr>
@@ -48,14 +48,14 @@ ht-degree: 9%
 | <b>缩放</b> <i>1 - 128</i> | 设置效果的全局比例。 |
 | <b>无序</b> <i>0.0 - 1.0</i> | 对噪声进行相移以引入较小的变化 |
 | <b>变形强度</b> <i>0.0 - 1.0</i> | 设置变形效果的强度。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/liquid-ex.gif" />
+            <img src="liquid.resources/liquid-ex.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 链接创建模式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,22 +26,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![链接创建模式：标准](../../../assets/link-creation-mode-standard.gif "链接创建模式：标准"){zoomable="yes"}
+![链接创建模式：标准](link-creation-modes.resources/link-creation-mode-standard.gif "链接创建模式：标准"){zoomable="yes"}
 
 *单击以放大*
 
-<b>![](../../../assets/image2020-10-6-19-40-25.png)标准</b> (1)
+<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png)标准</b> (1)
 
 不执行任何条件。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![链接创建模式：材质](../../../assets/link-creation-mode-material.gif "链接创建模式：材质"){zoomable="yes"}
+![链接创建模式：材质](link-creation-modes.resources/link-creation-mode-material.gif "链接创建模式：材质"){zoomable="yes"}
 
 *单击以放大*
 
-![](../../../assets/image2020-10-6-17-11-20.png) <b>材质</b> (2)
+![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>材质</b> (2)
 
 根据用途匹配输入和输出。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![链接创建模式：紧凑素材](../../../assets/link-creation-mode-compact-material.gif "链接创建模式：紧凑素材"){zoomable="yes"}
+![链接创建模式：紧凑素材](link-creation-modes.resources/link-creation-mode-compact-material.gif "链接创建模式：紧凑素材"){zoomable="yes"}
 
 *单击以放大*
 
-![](../../../assets/image2020-10-6-19-40-46.png) <b>紧凑素材</b> (3)
+![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>紧凑素材</b> (3)
 
 与材质相同。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-您可以随时在图形工具栏中通过单击![](../../../assets/link-creation-mode.png) <b>链接创建模式</b>按钮或使用上面列出的键盘快捷键在模式之间切换。
+您可以随时在图形工具栏中通过单击![](link-creation-modes.resources/link-creation-mode.png) <b>链接创建模式</b>按钮或使用上面列出的键盘快捷键在模式之间切换。
 
 在<b>材质</b>和<b>紧凑材质</b>模式中，禁止使用&#x200B;*不匹配用法*&#x200B;的输入和输出之间的连接。
 
 ## 模式
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 标准 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> 紧凑 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> 紧凑材质 |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> 标准 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> 紧凑 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> 紧凑材质 |
 | --- | --- | --- | --- |
 | <b>输入</b> | 所有输入均可见 | 所有输入均可见 | 每组仅1个输入 |
 | <b>输出</b> | 所有输出均可见 | 所有输出均可见 | 每组仅1个输出 |
@@ -92,7 +92,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![节点上的组胶囊](../../../assets/link-creation-mode-group-node.png "节点上的组胶囊"){zoomable="yes"}
+![节点上的组胶囊](link-creation-modes.resources/link-creation-mode-group-node.png "节点上的组胶囊"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![组属性](../../../assets/link-creation-mode-group.png "组属性"){zoomable="yes"}
+![组属性](link-creation-modes.resources/link-creation-mode-group.png "组属性"){zoomable="yes"}
 
 *单击以放大*
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![用法属性](../../../assets/link-creation-mode-usage.png "用法属性"){zoomable="yes"}
+![用法属性](link-creation-modes.resources/link-creation-mode-usage.png "用法属性"){zoomable="yes"}
 
 *单击以放大*
 

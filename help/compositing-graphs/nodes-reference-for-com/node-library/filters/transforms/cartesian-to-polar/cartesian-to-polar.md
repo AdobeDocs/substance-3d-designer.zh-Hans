@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
-description: 使用“笛卡尔到极点”将纹理从笛卡尔转换为极坐标系，以创建径向效果。
+description: 使用“笛卡尔坐标系到极坐标系”将纹理从笛卡尔坐标系转换为极坐标系，以创建径向效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Cartesian To Polar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 极地笛卡尔
+title: 笛卡尔坐标到极坐标
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 极地笛卡尔
+# 笛卡尔坐标到极坐标
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 描述
 
-将带有笛卡尔坐标(X&amp;Y)的输入转换为极坐标（角度和半径）。 使用[极坐标到笛卡尔](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)时可以进行反转。
+将带笛卡尔坐标(X&amp;Y)的输入转换为极坐标（角度和半径）。 相反情况在[极坐标到笛卡尔坐标](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)中是可能的。
 
 </td>
 </tr>

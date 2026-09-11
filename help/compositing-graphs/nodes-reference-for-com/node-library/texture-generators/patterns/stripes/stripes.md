@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 条纹
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -58,7 +58,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/stripes-ex.gif" />
+            <img src="stripes.resources/stripes-ex.gif" />
         </td>
     </tr>
 </table>

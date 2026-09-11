@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
-description: 使用细胞3节点产生用于产生有机和生物纹理效果的中间细胞图案。
+description: 使用细胞3节点生成用于创建有机和生物纹理效果的中间细胞图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 3
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![细胞3 — 图标](cells-3.resources/cells_3.png "细胞3 — 图标"){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+<b>在：</b>纹理生成器>杂色
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-<b>细胞</b>壁噪声的变体。
+<b>细胞</b>壁噪声的变化。
 
 盘交叉产生具有不均匀柔软度的薄壁的单元。
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>灰度</i> | 生成的灰度位图噪声。 |
+| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
 
 <a name="parameters"></a>
 
@@ -57,10 +57,10 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>缩放</b> <i>整数</i> | 用于生成噪声拼贴的网格细分。    值越高，绘制的拼贴越多，噪声越密。 |
-| <b>硬度</b> <i>Float</i> | 单元格壁的定义，其中较高的值导致更清晰、清晰的壁。 |
+| <b>缩放</b> <i>整数</i> | 使用网格细分生成噪声拼贴。    值越高，所绘制的拼贴就越多，噪音也越浓。 |
+| <b>硬度</b> <i>浮动</i> | 单元格壁的定义，其中较高的值导致更清晰、清晰的壁。 |
 | <b>反转</b> <i>布尔值</i> | 反转图像输出的灰度值。 |
-| <b>无序</b> <i>Float</i> | 置换噪声的组成部分。    这可用于为噪声制作动画。 |
+| <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
 | <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
 | <b>无序各向异性</b> <i>浮动</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序各向异性角</b>参数控制。 |
 | <b>无序anisotropy angle</b> <i>浮动</i> | 当“无序位移”参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |

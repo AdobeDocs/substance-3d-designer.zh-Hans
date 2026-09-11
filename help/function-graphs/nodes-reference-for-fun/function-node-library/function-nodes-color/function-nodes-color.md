@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
-description: 使用“颜色”函数节点在函数图表中执行颜色转换和色调映射操作。
+description: 使用“颜色函数节点”在功能图形中执行颜色转换和色调映射操作。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Color
 helpx_experience_level: ""
@@ -42,7 +42,7 @@ HSV到RGB
 
 线性sRGB到ACEScg
 
-线性到sRGB（明亮度）
+线性到sRGB(明亮度)
 
 线性到sRGB
 
@@ -61,15 +61,15 @@ RGB色相2极色
 
 RGB色相六边形
 
-RGB亮度平均值
+明亮度平均值
 
-RGB亮度双六锥
+明亮度双六锥
 
-RGB亮度六角形
+明亮度六锥体
 
-RGB亮度亮度建议 601
+明亮度亮度Rec. 601
 
-RGB亮度亮度建议 709
+明亮度亮度Rec. 709
 
 RGB饱和度HSI
 
@@ -84,17 +84,17 @@ RGB到HCL
 
 RGB到HSI
 
-HSLRGB
+RGB到HSL
 
 HSVRGB
 
-sRGB转换为线性（明亮度）
+sRGB到线性(明亮度)
 
 sRGB转换为线性
 
 色温为sRGB
 
-ACES tonemapper
+ACE tonemapper
 
 AgX调色板
 

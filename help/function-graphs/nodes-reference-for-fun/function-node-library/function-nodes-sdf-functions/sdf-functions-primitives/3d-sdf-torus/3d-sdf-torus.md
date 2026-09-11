@@ -1,6 +1,6 @@
 ---
 title: 圆环体
-description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>基元>圆环
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>圆环
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '158'
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 |  |  |
 | :--- | :--- |
-| <b>大半径</b> *浮动* | 小圆盘沿其扫掠以形成环面的圆半径。<br><br><i>默认值： 0.5</i> |
-| <b>次径</b> *浮动* | 沿主圆扫掠的圆的半径形成环面。<br><br><i>默认值： 0.2</i> |
-| <b>中心位置</b> *浮点3* | 环面旋转点的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
-| <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |
+| <b>大半径</b> *Float* | 小圆盘沿其扫掠以形成环面的圆半径。<br><br><i>默认值： 0.5</i> |
+| <b>次径</b> *Float* | 沿主圆扫掠的圆的半径形成环面。<br><br><i>默认值： 0.2</i> |
+| <b>中心位置</b> *Float3* | 环面的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>P</b> *Float3* | 变换的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

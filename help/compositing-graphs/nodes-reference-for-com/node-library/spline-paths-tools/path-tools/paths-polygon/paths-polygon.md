@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
-description: 使用“路径多边形”节点，从顶点数据创建多边形路径以生成几何图案。
+description: 使用“路径多边形”节点从顶点数据创建多边形路径以生成几何图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 以“路径”格式生成基元（多边形）。
 
-使用[Path 2D变换](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)节点可精确定位基元。
+使用[路径2D变换](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)节点可精确定位基元。
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
-description: 使用“创建调色板”节点从纹理中提取16色调色板以获得风格化效果。
+description: 使用“创建调色板”节点从纹理中提取16色调色板以实现风格化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)
 helpx_experience_level: ""
@@ -68,7 +68,7 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>颜色量</b> *整数* | 应添加到调色板的颜色量。 |
-| <b>颜色#</b> *浮点3* *可用参数数量与“颜色量”值相同* | 应添加到调色板中的颜色。   颜色会按照此编号列表的顺序附加到调色板。 |
+| <b>颜色#</b> *Float3* *可用参数数量与“颜色数量”值相同* | 应添加到调色板中的颜色。   颜色会按照此编号列表的顺序附加到调色板。 |
 
 ## 示例
 

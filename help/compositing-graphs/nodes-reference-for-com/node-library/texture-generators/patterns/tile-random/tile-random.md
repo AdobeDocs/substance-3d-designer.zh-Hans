@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
-description: 使用“拼贴随机”节点创建随机拼贴图案，这些图案具有有机纹理效果的程序变化。
+description: 使用“拼贴随机”节点创建具有程序化变化的随机拼贴图案，用于有机纹理效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 拼贴随机
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random.png){width="128px"}
 
 <b>英寸：</b>生成器>图案
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-“拼贴随机”生成程序拼贴图案，该图案在拼贴形状中的混乱程度略高于其对应图案[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)。 它通过随机地将某些拼贴拆分为较小的拼贴来实现此目的。 我们建议您先找到Tile Generator方法，然后再处理“平铺随机”，因为许多概念是相似的。
+拼贴随机生成程序化的拼贴图案，该图案在拼贴形状中的混乱程度略高于其对应图案[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)。 它通过随机地将某些拼贴拆分为较小的拼贴来实现此目的。 我们建议您先找到Tile Generator方法，然后再处理“平铺随机”，因为许多概念是相似的。
 
 如果目标是外观较旧、组织性较差的模式，则使用“平铺随机”而不是[Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)。 但是，它具有它的限制，因此考虑使用[平铺Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)来满足任何其他高级需求。
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 |:---|:---|
 | <b>X数量</b> <i>1 - 64</i> | 图案的X重复次数。 |
 | <b>Y数量</b> <i>1 - 64</i> | 模式的Y重复次数。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>图案</b> |  |
 | <b>图案</b> <i>图案输入，方形，磁盘，抛物面，铃声，高斯，荆棘，金字塔，砖块，层次，波形，半圆，脊状的圆，新月，胶囊体，锥形</i> | 选择要使用的图案形状。 |
 | <b>图像输入筛选(引擎> v4)</b> <i>双线性+ Mipmaps，双线性，最接近</i> |  |
@@ -106,7 +106,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-1.png" />
         </td>
     </tr>
 </table>

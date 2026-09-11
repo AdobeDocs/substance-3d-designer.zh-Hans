@@ -1,6 +1,6 @@
 ---
 title: 细长
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>SDF 函数>变换>拉长
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>变换>拉长
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '132'
@@ -42,5 +42,5 @@ ht-degree: 1%
 | :--- | :--- |
 | <b>SDF</b> *浮动* | 输入SDF形状。 |
 | <b>延长</b> *浮点3* | X、Y、Z轴上的延伸长度。 |
-| <b>中心位置</b> *浮点3* | 形状将从其伸长的世界空间位置。<br>，即切片伸长的位置。 |
+| <b>中心位置</b> *浮点3* | 形状将从中被伸长的世界空间位置。<br>即，被伸长的切片的位置。 |
 | <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

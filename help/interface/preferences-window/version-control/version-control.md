@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Designer提供了[Perforce](https://www.perforce.com/) (P4)版本控制系统的
 
 在[P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v)中，记下工作区名称和路径，如下所示：
 
-![P4V工作区信息](../../../assets/p4v-workspace-strings.jpg "P4V工作区信息"){zoomable="yes"}
+![P4V工作区信息](version-control.resources/p4v-workspace-strings.jpg "P4V工作区信息"){zoomable="yes"}
 
 在任何文本编辑器或IDE中，打开位于Designer安装中的以下脚本：“*tools/version\_control/perforce.py*”。
 
@@ -54,7 +54,7 @@ cVerbose = False
 
 版本控制在[项目设置](../../../interface/preferences-window/project-settings/project-settings.md)中配置，可在Designer的[首选项](../../../interface/preferences-window/preferences-window.md)中找到。
 
-项目设置中的![“版本控制”选项卡](../../../assets/p4v-project-settings.jpg "项目设置中的“版本控制”选项卡"){zoomable="yes"}
+项目设置中的![“版本控制”选项卡](version-control.resources/p4v-project-settings.jpg "项目设置中的“版本控制”选项卡"){zoomable="yes"}
 
 1. 转到“编辑>首选项”
 1. 转到“项目”，选择目标[项目文件](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)，然后转到“版本控制”选项卡
@@ -64,7 +64,7 @@ cVerbose = False
    * <b>名称：</b>输入您之前从P4V检索到的“工作区名称”
    * <b>路径：</b>输入您之前从P4V检索到的“工作区路径”
 
-![Designer中的P4设置：工作区](../../../assets/p4v-project-settings-workspace.jpg "Designer中的P4设置：工作区"){zoomable="yes"}
+![Designer中的P4设置：工作区](version-control.resources/p4v-project-settings-workspace.jpg "Designer中的P4设置：工作区"){zoomable="yes"}
 
 ### 设置动作
 
@@ -88,7 +88,7 @@ Designer的安装中提供了所有操作的入门脚本：“*tools/version\_co
 1. 在Designer安装中选择以下脚本：“*tools/version\_control/perforce.py*”
 1. 应为所有其他操作自动设置脚本。
 
-![Designer中的P4设置：操作](../../../assets/p4v-project-settings-actions.jpg "Designer中的P4设置：操作"){zoomable="yes"}
+![Designer中的P4设置：操作](version-control.resources/p4v-project-settings-actions.jpg "Designer中的P4设置：操作"){zoomable="yes"}
 
 ### 设置自定义操作
 
@@ -103,7 +103,7 @@ Designer的安装中提供了所有操作的入门脚本：“*tools/version\_co
 1. 设置脚本文件的扩展名或后缀，以及解释器可执行文件的路径
 1. 编辑perforce.py脚本以更新“p4”二进制文件的位置
 
-![Designer中的P4设置：解释器](../../../assets/p4v-project-settings-interpreters.jpg "Designer中的P4设置：解释器"){zoomable="yes"}
+![Designer中的P4设置：解释器](version-control.resources/p4v-project-settings-interpreters.jpg "Designer中的P4设置：解释器"){zoomable="yes"}
 
 ## 如何使用版本控制
 
@@ -123,12 +123,12 @@ Designer的安装中提供了所有操作的入门脚本：“*tools/version\_co
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![“提交”对话框](../../../assets/p4v-submit.jpg "“提交”对话框"){zoomable="yes"}
+   ![“提交”对话框](version-control.resources/p4v-submit.jpg "“提交”对话框"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![“恢复”对话框](../../../assets/p4v-revert.jpg "“恢复”对话框"){zoomable="yes"}
+   ![“恢复”对话框](version-control.resources/p4v-revert.jpg "“恢复”对话框"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ Designer的安装中提供了所有操作的入门脚本：“*tools/version\_co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![包图标：最新](../../../assets/p4-up-to-date.png "包图标：最新")
+![包图标：最新](version-control.resources/p4-up-to-date.png "包图标：最新")
 
 最新
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包图标：已签出](../../../assets/p4-checked-out.png "包图标：已签出")
+![包图标：已签出](version-control.resources/p4-checked-out.png "包图标：已签出")
 
 已签出
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包图标：已添加](../../../assets/p4-added.png "包图标：已添加")
+![包图标：已添加](version-control.resources/p4-added.png "包图标：已添加")
 
 标记为添加
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包图标：不在仓库中](../../../assets/p4-not-in-depot.png "包图标：不在仓库中")
+![包图标：不在仓库中](version-control.resources/p4-not-in-depot.png "包图标：不在仓库中")
 
 不在仓库中
 

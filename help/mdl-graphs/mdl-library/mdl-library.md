@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL库
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Designer包含一些MDL模块，这些模块包含用于创作MDL图表的基本
 </td>
 <td style="border: 0;" valign="top">
 
-![库中的MDL资源](../../assets/mdl-library.png "库中的MDL资源")
+![库中的MDL资源](mdl-library.resources/mdl-library.png "库中的MDL资源")
 
 将设置库、vMaterials库和自定义内容中的&#x200B;*“mdl”部分的框架*
 
@@ -71,6 +71,6 @@ Designer包含一些MDL模块，这些模块包含用于创作MDL图表的基本
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * 已加载[个MDL图形](../../mdl-graphs/mdl-graphs.md)
 
-![3D视图中的MDL材质](../../assets/mdl-apply-in-3dview-material-list.png "3D视图中的MDL材质")
+![3D视图中的MDL材质](mdl-library.resources/mdl-apply-in-3dview-material-list.png "3D视图中的MDL材质")
 
 *3D视图中的MDL材质*

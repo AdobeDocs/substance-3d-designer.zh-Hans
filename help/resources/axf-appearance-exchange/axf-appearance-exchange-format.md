@@ -254,36 +254,36 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 ### 将输出映射到AxF资源
 
-导出到现有AxF 文件时，会使用图形输出更新其资源。 Designer将该资源标识符与[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点匹配，这些节点的标识符与<b>Usage</b>相同。
+导出到现有AxF 文件时，会使用图形输出更新其资源。 Designer将资源标识符与[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点匹配，这些节点的标识符与<b>用法</b>相同。
 
 此外，输出的<b>组</b>属性&#x200B;*必须*&#x200B;设置为“AxF”，才能将其列在AxF导出对话框中（请参阅上文）。
 
-![AxF：Substance图表的输出用法](../../assets/axf_output_usage.png "AxF：Substance图表的输出用法")
+![AxF：图形的输出用法](../../assets/axf_output_usage.png "AxF：Substance图形的输出用法")
 
-资源可以是具有特定通道数量的纹理（即位图）或制服（即值）。 图形输出必须与该数目的声道完全匹配。 否则，将在导出期间针对该资源引发错误，并且该资源将保持不变。
+资源可以是具有特定数量通道的纹理（即位图）或制式（即值）。 图形输出必须与该数目的声道完全匹配。 否则，将在导出期间针对该资源引发错误，并且该资源将保持不变。
 
 根据提供给Output节点的数据类型，通道数会以不同的方式指定：
 
-* <b>位图（纹理）：</b> [组件](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)属性用于指定通道数，其中R是一个通道，RG是两个通道，依此类推。 该属性用于让Designer知道应将彩色位图的RGBA通道的哪个通道编码到资源中。
-* <b>值（一致）：</b>矢量值的组件数用于指定通道数，其中[Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是一个通道，[Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是两个通道，依此类推。
+* <b>位图(纹理)：</b> [组件](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)属性用于指定通道数，其中R是一个通道，RG是两个通道，依此类推。 该属性用于让Designer知道应将彩色位图的RGBA通道的哪个通道编码到资源中。
+* <b>值（一致）：</b>矢量值的组件数量用于指定声道数量，其中[Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是一个声道，[Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是两个声道，依此类推。
 
 >[!IMPORTANT]
 >
-> 在<b>AxF到AxF</b>Substance图形模板中，<b>Specular瓣</b>贡献的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点默认配置为&#x200B;*单通道*（即，其Components属性设置为“R”）。\
-> 如果导入的AxF文件在其SpecularLobe资源中使用了多个通道，请相应地设置输出的<b>组件</b>属性。
+> 在<b>AxF到AxF</b>图形模板中，<b>Specular波瓣</b>贡献的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点默认配置为&#x200B;*单通道*（即其Components属性设置为“R”）。\
+> 如果导入的AxF 文件在其SpecularLobe资源中使用了多个通道，请相应地设置输出的<b>组件</b>属性。
 > 
-> 例如，对于使用两个声道的SpecularLobe资源（“红色”表示Specular粗糙度，“绿色”表示Specular各向异性），将“组件”属性设置为“RG”。
+> 例如，对于使用两个声道（红色表示粗糙度，绿色表示Specular各向异性）的SpecularLobe资源，将“组件”属性设置为“RG”。
 
-## 在3D视图中查看AxF文件
+## 查看3D 视图中的AxF 文件
 
-在[3D视图](../../interface/3d-view/3d-view.md)中渲染AxF SVBRDF材质的方法取决于[导入设置](#import)。
+在[3D 视图](../../interface/3d-view/3d-view.md)中渲染AxF SVBRDF材料的方法取决于[导入设置](#import)。
 
 +++转换为PBR
 
-如果要将AxF文件中的SVBRDF材质转换为标准PBR材质，则导入设置可能需要[Substance图形转换模板](#graph-templates)。
+如果要将AxF 文件中的SVBRDF材料转换为标准PBR材料，则导入设置可能涉及[Substance图形转换模板](#graph-templates)。
 
-在这种情况下，应在3D视图中使用&#x200B;**OpenGL渲染器**，然后选择<code>AxF SVBRF</code> 着色器。\
-然后，可以拖放在“导入”对话框中设置的Substance图形，以便将其输出连接到着色器。
+在这种情况下，应在3D 视图中使用&#x200B;**OpenGL渲染器**，然后选择<code>AxF SVBRF</code> 着色器。\
+然后，可以拖放在“导入”对话框中设置的图形，以便将其输出连接到着色器。
 
 ![AxF：查看以进行转换](../../assets/axf-view-for-convert.gif "AxF：查看以进行转换")
 
@@ -291,11 +291,11 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 +++在当前位置编辑
 
-如果您的目标是对现有AxF文件执行&#x200B;*编辑*，请按照以下说明根据选定的渲染器显示其SVBRDF素材：
+如果您的目标是对现有AxF 文件执行&#x200B;*编辑*，请按照以下说明根据选定的渲染器显示其SVBRDF材料：
 
-专用的GLSLFX着色器可用于使用AxF文件中的SVBRDF表示法可视化材质： <b>AxF SVBRDF</b>。
+有专用的着色器可用于使用AxF 文件<b>AxF SVBRDF</b>中的SVBRDF表示法将材料可视化。
 
-着色器在<b>材质</b>菜单中可用：打开场景材质的子菜单（默认情况下为“默认”），然后选择<b>AxF SVBRDF</b>条目下的任何技术。
+此着色器在<b>材料</b>菜单中可用：打开场景材料的子菜单（默认情况下为“默认”），然后选择<b>AxF SVBRDF</b>项下的任何方法。
 
 使用同一子菜单中的“<b>编辑</b>”选项在[属性](../../interface/properties/properties.md)停靠区中显示着色器的属性。\
 特别是，<b>拼贴</b>属性允许您调整模型上纹理的拼贴，以便能够以适当的比例显示材料。

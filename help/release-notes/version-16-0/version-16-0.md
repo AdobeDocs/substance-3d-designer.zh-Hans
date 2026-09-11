@@ -189,13 +189,13 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
 
 ## OpenPBR 支持
 
-[OpenPBR曲面](https://academysoftwarefoundation.github.io/OpenPBR/)是曲面着色模型的规范，旨在作为计算机图形的标准，能够准确建模绝大多数材料。
+[OpenPBR曲面](https://academysoftwarefoundation.github.io/OpenPBR/)是曲面着色模型的规范，旨在作为计算机图形的标准，能够精确建模绝大多数材料。
 
 现在，整个应用程序都支持此材质模型，新渲染器（栅格化器、GPU 路径追踪）和OpenGL渲染器中都有[专用着色器](../../interface/3d-view/material-properties/material-properties.md#openpbr)。
 
 <img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Substance 3D Designer中的OpenPBR支持以及与其他DCC的比较" />
 
-使用新的图形模板开始了解这一广泛采用的行业标准，或者了解现在基于OpenPBR的内置材料示例。
+使用新的图形模板开始了解这一广泛采用的行业标准，或者浏览现在基于OpenPBR的内置材料示例。
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
@@ -203,47 +203,47 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
             <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR模板" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="材料示例" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR材料样本" />
         </td>
     </tr>
 </table>
 
-现在，着色器是3D 视图的默认设置，并且可以将旧版PBR使用与OpenPBR的PBR使用进行匹配，从而原生支持以前版本的图形。
+现在，OpenPBR着色器是3D视图的默认值，并且通过将旧版PBR用法与OpenPBR的用法匹配，原生支持以前版本中的图形。
 
 与现有的着色器相比，OpenPBR着色器支持更多的效果，如薄膜和薄壁。 所有效果均可在栅格化（栅格化器、OpenGL）中使用，包括最后折射！
 
 <table style="border: none;">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            使用新的<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">“材质模型”属性</a>（用于Substance图形），还可更轻松地使涉及特定着色器的工作流保持同步，从而确保在3D 视图中查看的图形对图形的材质模型使用适当的着色器。
+            使用新的<a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">“材质模型”属性</a>（用于Substance图表）还可以更轻松地使涉及特定着色器的工作流保持同步，该属性可确保在3D视图中查看的图表对图表的材质模型使用合适的着色器。
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="材料示例" />
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR材料样本" />
         </td>
     </tr>
 </table>
 
 >[!NOTE]
 > 
->该属性也包含在已发布的SBSAR文件中，以集成到您的材料工作流程中。
+>该属性也包含在已发布的SBSAR文件中，以集成到您的材质工作流程中。
 
 <a name="displacement-popup"></a>
 
-## 3D 视图中的位移控件
+## 3D视图中的位移控件
 
-现在可以更快速、更轻松地在3D 视图中调整位移和曲面细分，可以直接在3D 视图工具栏中的[新位移弹出窗口](../../interface/3d-view/displacement/displacement.md)中进行访问。
+现在，通过3D视图工具栏中的[新位移弹出窗口](../../interface/3d-view/displacement/displacement.md)可直接访问，可以更快、更轻松地在3D视图中调整位移和镶嵌。
 
-在材料属性和渲染器设置中调整&#x200B;**Height比例**、**Height级别**&#x200B;和&#x200B;**曲面细分**&#x200B;值，且不会来回重复。
+调整&#x200B;**Height比例**、**Height级别**&#x200B;和&#x200B;**镶嵌**&#x200B;值，在素材属性和渲染器设置中前后不重复。
 
 这些控件同时适用于我们的新渲染器（栅格化程序、GPU 路径追踪）和OpenGL渲染器。
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D 视图中的位移弹出窗口" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D视图中的位移弹出窗口" />
 
-如果场景包含多个材料，请按住<code>Shift以预先选择要调整的场景对象</code> 然后点击它（仅栅格化和GPU 路径追踪）或在场景浏览器中选择它。
+如果场景包含多种材质，请按住<code>Shift以预先选择要调整的场景对象</code> 然后在场景浏览器中单击它（仅栅格化和GPU 路径追踪）或选择它。
 
 >[!NOTE]
 > 
->在光栅化器和GPU 路径追踪中，曲面细分为&#x200B;*每个对象*，在OpenGL中，为&#x200B;*每个材料*。
+>网格化是光栅化器和GPU 路径追踪中&#x200B;*每个对象*，以及OpenGL中&#x200B;*每个材质*。
 
 <a name="other-changes"></a>
 

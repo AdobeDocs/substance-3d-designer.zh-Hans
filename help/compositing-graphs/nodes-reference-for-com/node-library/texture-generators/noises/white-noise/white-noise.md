@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 白杂色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![白噪声 — 图标](../../../../../../assets/white_noise_v2.png "白噪声 — 图标"){width="200px"}
+![白噪声 — 图标](white-noise.resources/white_noise_v2.png "白噪声 — 图标"){width="200px"}
 
 <b>在：</b>纹理生成器>杂色
 
@@ -63,12 +63,12 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![白噪声 — 示例1](../../../../../../assets/white_noise_v2_1.png "白噪声 — 示例1"){zoomable="yes"}
+![白噪声 — 示例1](white-noise.resources/white_noise_v2_1.png "白噪声 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![白噪声 — 示例2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "白噪声 — 示例2"){zoomable="yes"}
+![白噪声 — 示例2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "白噪声 — 示例2"){zoomable="yes"}
 
 </td>
 </tr>

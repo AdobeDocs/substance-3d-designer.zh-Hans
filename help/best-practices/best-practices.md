@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer的最佳实践指南，以优化您的工作流程并创建高效的材质。
+description: 访问Substance 3D Designer的最佳实践指南，以优化您的工作流程并创建高效的材料。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices
 helpx_experience_level: ""
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ## 性能优化准则
 
-Substance图表越复杂，渲染它们所需的处理能力就越强。 您应该尝试在复杂性和渲染速度之间找到平衡。
+图形越复杂，渲染它们所需的处理能力就越强。 您应该尝试在复杂性和渲染速度之间找到平衡。

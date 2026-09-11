@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer中的调整滤镜节点，以修改颜色、亮度、对比度和其他纹理属性。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # 调整
 
-这是主要的“过滤器”类别之一，其中的节点旨在以各种方式调整输入的值和范围。 大多数节点都是使用[色阶](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)和[混合](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)节点的高级扩展方式，旨在作为某些操作的更智能快捷方式。
+这是主要的“过滤器”类别之一，其中的节点旨在以各种方式调整输入的值和范围。 大多数节点都是使用[级别](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)和[混合](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)节点的高级扩展方式，旨在作为某些操作的更智能捷径。
 
 使用左侧的<b>导航列表</b>浏览“调整”下的所有节点。
 

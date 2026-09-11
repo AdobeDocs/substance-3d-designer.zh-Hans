@@ -10,7 +10,7 @@ helpx_tags: ""
 title: '什么是函数 '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance 3D Designer中的函数允许用户使用以编程语言找到的逻�
 
 但是，Designer中的函数不会使用代码行，而是使用相同的节点方法。 乍一看，函数图形看起来非常类似于常规图形。
 
-![](../../assets/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/image2015-12-17-18-19-37.png)
 
 在以下两种主要情况下，您可能会遇到函数：
 
@@ -35,16 +35,16 @@ Substance 3D Designer中的函数允许用户使用以编程语言找到的逻�
 
 在Substance 3D Designer中，任何参数都可以由函数控制。
 
-![](../../assets/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/image2015-12-17-21-3-46.png)
 
 因此，您可以想象图形各部分之间的规则和依赖关系，以获得独特的结果。
 
 例如，您可以决定混合节点的不透明度为变形节点强度的一半：
 
-![](../../assets/warpblend.gif)
+![](what-is-a-function.resources/warpblend.gif)
 
 事实上，您可能已经创建了一些不知名的功能：
 
 如果公开了参数，则自动创建了一个函数和一个变量：该函数包含捕获新创建变量值的get float节点：
 
-![](../../assets/expose.gif)
+![](what-is-a-function.resources/expose.gif)

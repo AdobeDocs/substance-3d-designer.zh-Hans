@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 函数
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 ## 节点列表
 
 +++Pow
-![电源节点图标](../../../../assets/Pow_Node.jpg "电源节点图标")
+![电源节点图标](function-nodes.resources/Pow_Node.jpg "电源节点图标")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2电源节点图标](../../../../assets/2Pow_Node.jpg "2电源节点图标")
+![2电源节点图标](function-nodes.resources/2Pow_Node.jpg "2电源节点图标")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++平方根
-![方形根节点图标](../../../../assets/SquareRoot_Node.jpg "方形根节点图标")
+![方形根节点图标](function-nodes.resources/SquareRoot_Node.jpg "方形根节点图标")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++指数
-![指数节点图标](../../../../assets/Exponential_Node.jpg "指数节点图标")
+![指数节点图标](function-nodes.resources/Exponential_Node.jpg "指数节点图标")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++对数
-![对数节点图标](../../../../assets/Logarithm_Node.jpg "对数节点图标")
+![对数节点图标](function-nodes.resources/Logarithm_Node.jpg "对数节点图标")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++以 2 为底的对数
-![对数基2节点图标](../../../../assets/LogarithmBase2_Node.jpg "对数基2节点图标")
+![对数基2节点图标](function-nodes.resources/LogarithmBase2_Node.jpg "对数基2节点图标")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++绝对值
-![绝对节点图标](../../../../assets/Absolute_Node.jpg "绝对节点图标")
+![绝对节点图标](function-nodes.resources/Absolute_Node.jpg "绝对节点图标")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 +++
 
 +++上限
-![Ceil节点图标](../../../../assets/Ceil_Node.jpg "Ceil节点图标")
+![Ceil节点图标](function-nodes.resources/Ceil_Node.jpg "Ceil节点图标")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 +++
 
 +++向下取整
-![Floor节点图标](../../../../assets/Floor_Node.jpg "Floor节点图标")
+![Floor节点图标](function-nodes.resources/Floor_Node.jpg "Floor节点图标")
 
 
 
@@ -110,16 +110,16 @@ ht-degree: 5%
 +++
 
 +++线性插值
-![线性插值节点图标](../../../../assets/LinearInterpolation_Node.jpg "线性插值节点图标")
+![线性插值节点图标](function-nodes.resources/LinearInterpolation_Node.jpg "线性插值节点图标")
 
 
 
-返回浮动值的函数中两个值之间的线性插值： <b>(1 - X)\*A + X\*B</b>。
+返回浮点值函数中两个值之间的线性插值： <b>(1 - X)\*A + X\*B</b>。
 
 +++
 
 +++最小
-![最小节点图标](../../../../assets/Minimum_Node.jpg "最小节点图标")
+![最小节点图标](function-nodes.resources/Minimum_Node.jpg "最小节点图标")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++最大
-![最大节点图标](../../../../assets/Maximum_Node.jpg "最大节点图标")
+![最大节点图标](function-nodes.resources/Maximum_Node.jpg "最大节点图标")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++余弦
-![余弦节点图标](../../../../assets/Cosine_Node.jpg "余弦节点图标")
+![余弦节点图标](function-nodes.resources/Cosine_Node.jpg "余弦节点图标")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++正弦
-![正弦节点图标](../../../../assets/Sine_Node.jpg "正弦节点图标")
+![正弦节点图标](function-nodes.resources/Sine_Node.jpg "正弦节点图标")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++正切
-![切线节点图标](../../../../assets/Tangent_Node.jpg "切线节点图标")
+![正切节点图标](function-nodes.resources/Tangent_Node.jpg "正切节点图标")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++反正切 2
-![反正切2节点图标](../../../../assets/ArcTangent2_Node.jpg "反正切2节点图标")
+![反正切2节点图标](function-nodes.resources/ArcTangent2_Node.jpg "反正切2节点图标")
 
 
 
@@ -177,20 +177,20 @@ ht-degree: 5%
 +++
 
 +++直角坐标
-![绝对节点图标](../../../../assets/Absolute_Node.jpg "绝对节点图标")
+![绝对节点图标](function-nodes.resources/Absolute_Node.jpg "绝对节点图标")
 
 
 
 将极坐标转换为笛卡尔坐标。
 
-它是<b>反正切2 </b>函数的倒数： <b>长度\*浮点2(cos（角度），sin（角度）。</b>
+它是<b>弧正切2 </b>函数的倒数： <b>长度\*Float2(cos（角度），sin（角度）。</b>
 
 极坐标是指距原点的距离，以及距水平线的角度（以弧度为单位）。
 
 +++
 
 +++随机
-![随机节点图标](../../../../assets/Random_Node.jpg "随机节点图标")
+![随机节点图标](function-nodes.resources/Random_Node.jpg "随机节点图标")
 
 
 

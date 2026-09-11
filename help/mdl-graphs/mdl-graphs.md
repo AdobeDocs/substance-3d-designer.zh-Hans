@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL图表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此页面在Substance 3D Designer中显示MDL图表，通过这些图表，您可以创作MDL材质并实时预览其行为。
 
-![孔雀石MDL材料](../assets/mdl-malachite-example.jpg "孔雀石MDL材料")
+![孔雀石MDL材料](mdl-graphs.resources/mdl-malachite-example.jpg "孔雀石MDL材料")
 
 *带有Chrysocolla的Malachite，由[Mark Foreman](https://www.artstation.com/oggyart)**提供的MDL材料，可在我们的[旧版Substance share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台*&#x200B;上使用
 
@@ -62,7 +62,7 @@ MDL图形与[Substance图形](../compositing-graphs/substance-compositing-graphs
 >
 > 您可以在[NVIDIA MDL文档](https://raytracing-docs.nvidia.com/mdl/index.html)中详细了解材质定义语言的技术实现，该文档包括指向MDL规范和[MDL手册](http://mdlhandbook.com/)的链接，均由NVIDIA编写和维护。
 
-![MDL图形属性](../assets/mdl-main.png "MDL图形属性")
+![MDL图形属性](mdl-graphs.resources/mdl-main.png "MDL图形属性")
 
 *“属性”面板中的MDL图形属性*
 

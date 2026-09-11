@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 取景框
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![框架图标](../../../../assets/graphatomic-frame_1.png "框架图标")
+![框架图标](frame.resources/graphatomic-frame_1.png "框架图标")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 在<b>标题</b>属性中设置的标题在框架的左上角呈灰色。
 
-![帧（默认状态）](../../../../assets/graph-frames-default.png "帧（默认状态）")
+![帧（默认状态）](frame.resources/graph-frames-default.png "帧（默认状态）")
 
 
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 可以通过拖动标题栏或其标题来移动框架。
 
-![帧（悬停状态）](../../../../assets/graph-frames-hover.png "帧（悬停状态）")
+![帧（悬停状态）](frame.resources/graph-frames-hover.png "帧（悬停状态）")
 
 
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 +++选定项
 选中后，框架的标题和轮廓以白色突出显示。 轮廓变得更粗。
 
-![帧（选定状态）](../../../../assets/graph-frames-selected.png "帧（选定状态）")
+![帧（选定状态）](frame.resources/graph-frames-selected.png "帧（选定状态）")
 
 
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 +++
 
 +++图形工具栏
-在“图形视图”工具栏中，单击<b>节点调板</b>中的“框架”按钮。
+在图形视图工具栏中，单击<b>节点调板</b>中的“帧”按钮。
 
 +++
 
@@ -107,15 +107,15 @@ ht-degree: 1%
 
 ### 取景选择
 
-如果在创建帧时图中的选区处于活动状态，则该帧将被自动调整以完全包括所选对象。
+如果在创建帧时图形中的选区处于活动状态，则该帧将自动调整为完全包括所选对象。
 
-考虑到这一点，使用键盘快捷键创建框架可以更快地设置图表中内容的框架。
+因此，使用键盘快捷键创建帧可以更快地将帧放在图形中。
 
-![帧：创建方法](../../../../assets/graph-frames_creation.gif "帧：创建方法"){width="480px"}
+![帧：创建方法](frame.resources/graph-frames_creation.gif "帧：创建方法"){width="480px"}
 
 >[!TIP]
 >
-> 创建框架后，框架的“标题”属性会自动获得焦点，因此您可以立即编辑框架的标题。
+> 创建帧后，其“标题”属性会自动获得焦点，以便您可以立即编辑帧的标题。
 
 ## 处理帧
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧：交互区域](../../../../assets/graph-frames_interaction-zones.png "帧：交互区域")
+![帧：交互区域](frame.resources/graph-frames_interaction-zones.png "帧：交互区域")
 
 </td>
 </tr>
@@ -140,16 +140,16 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### 网格对齐
+### 捕捉
 
-默认情况下，框架在移动或调整大小时会对齐到中等网格。
+默认情况下，移动或调整大小时，帧会捕捉为中等网格。
 
-按住<b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS)键可将此对齐方式移动到小网格以进行更精细的调整。
+按住<b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS)键可将此捕捉转换为小网格以进行更精细的调整。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![帧：网格对齐](../../../../assets/graph-frames_grid-snapping.gif "帧：网格对齐")
+![帧：网格捕捉](frame.resources/graph-frames_grid-snapping.gif "帧：网格捕捉")
 
 </td>
 </tr>
@@ -157,14 +157,14 @@ ht-degree: 1%
 
 ## 属性
 
-选择框架后，[属性](../../../../interface/properties/properties.md)停靠区中提供以下属性：
+选择帧后，[属性](../../../../interface/properties/properties.md)停靠区中提供以下属性：
 
 +++标题
 <b>标题</b>位于帧的左上方。 可使用<b>标题可见性</b>属性打开或关闭标题的可见性。
 
-可以将字幕的大小锁定为最小屏幕大小，以便在缩小图表时保持可读性。 您可以通过选中[图形视图](../../../../interface/the-graph-view/the-graph-view.md)工具栏的<b>信息</b>下拉列表中的“框架标题”选项来执行此操作。
+可以将字幕的大小锁定为最小屏幕大小，以便在缩小图形时保持可读性。 您可以通过选中[帧](../../../../interface/the-graph-view/the-graph-view.md)工具栏的<b>信息</b>下拉列表中的“图形视图标题”选项来执行此操作。
 
-![帧：标题](../../../../assets/graph_frames_title.gif "帧：标题"){width="640px"}
+![帧：标题](frame.resources/graph_frames_title.gif "帧：标题"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ ht-degree: 1%
 +++描述
 <b>描述</b>是可选的附加文本，可用于对帧的内容进行批注。
 
-可以使用HTML标记设置文本的格式。 通过单击![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮来切换此格式。
+可以使用HTML标记设置文本的格式。 通过单击![](frame.resources/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮来切换此格式。
 
 请在下面的“描述”部分中了解更多信息。
 
-![帧：描述](../../../../assets/graph-frames_description.gif "帧：描述"){width="640px"}
+![帧：描述](frame.resources/graph-frames_description.gif "帧：描述"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 
 颜色的Alpha通道控制帧的&#x200B;*不透明度*，其中值0表示帧完全透明。
 
-![帧：颜色](../../../../assets/graph-frames_colour.gif "帧：颜色"){width="640px"}
+![帧：颜色](frame.resources/graph-frames_colour.gif "帧：颜色"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧（默认描述）](../../../../assets/graph-frames-descr.png "帧（默认描述）"){zoomable="yes"}
+![帧（默认描述）](frame.resources/graph-frames-descr.png "帧（默认描述）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ ht-degree: 1%
 
 ### HTML格式设置
 
-可使用框架的<b>描述</b>属性中的HTML标记来设置文本的格式。 必须在该属性中使用![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮启用格式设置。
+可使用框架的<b>描述</b>属性中的HTML标记来设置文本的格式。 必须在该属性中使用![](frame.resources/graph-frames_html-markup-button.png) <b>HTML标记</b>按钮启用格式设置。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![帧（HTML格式说明）](../../../../assets/graph-frames-descr-html.png "帧（HTML格式说明）"){zoomable="yes"}
+![帧（HTML格式说明）](frame.resources/graph-frames-descr-html.png "帧（HTML格式说明）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ ht-degree: 1%
 
 因此，在&#x200B;*有意移动*&#x200B;之前，不应更改节点中心点的位置。
 
-![帧包含：高节点](../../../../assets/frame_inclusion_node_tall.png "帧包含：高节点")
+![帧包含：高节点](frame.resources/frame_inclusion_node_tall.png "帧包含：高节点")
 
 
 
@@ -297,11 +297,11 @@ ht-degree: 1%
 
 节点下方显示的徽章、连接器和信息均被忽略。
 
-![帧包含：停靠节点](../../../../assets/frame_inclusion_node_docked.png "帧包含：停靠节点")
+![帧包含：停靠节点](frame.resources/frame_inclusion_node_docked.png "帧包含：停靠节点")
 
 
 
-![帧包含： nodes](../../../../assets/frame_inclusion_node.png "帧包含： nodes")
+![帧包含： nodes](frame.resources/frame_inclusion_node.png "帧包含： nodes")
 
 
 
@@ -312,7 +312,7 @@ ht-degree: 1%
 
 连接器、门户图标和名称都将被忽略。
 
-![帧包含：点节点](../../../../assets/frame_inclusion_dot.png "帧包含：点节点")
+![帧包含：点节点](frame.resources/frame_inclusion_dot.png "帧包含：点节点")
 
 
 
@@ -329,11 +329,11 @@ ht-degree: 1%
 
 
 
-![帧包含：父注释](../../../../assets/frame_inclusion_comment_parented.png "帧包含：父注释")
+![帧包含：父注释](frame.resources/frame_inclusion_comment_parented.png "帧包含：父注释")
 
 
 
-![包含帧：注释](../../../../assets/frame_inclusion_comment.png "包含帧：注释")
+![包含帧：注释](frame.resources/frame_inclusion_comment.png "包含帧：注释")
 
 
 
@@ -342,7 +342,7 @@ ht-degree: 1%
 +++图钉
 使用图钉图标的<b>提示</b>。
 
-![帧包含：导航标记](../../../../assets/frame_inclusion_pin.png "帧包含：导航标记")
+![帧包含：导航标记](frame.resources/frame_inclusion_pin.png "帧包含：导航标记")
 
 
 
@@ -355,7 +355,7 @@ ht-degree: 1%
 
 标题将被忽略。
 
-![包含帧：嵌套帧](../../../../assets/frame_inclusion_frame.png "包含帧：嵌套帧")
+![包含帧：嵌套帧](frame.resources/frame_inclusion_frame.png "包含帧：嵌套帧")
 
 
 
@@ -363,7 +363,7 @@ ht-degree: 1%
 
 ## 使尺寸适合内容
 
-![帧：大小适合内容](../../../../assets/graph-frames_fit-size-to-content.png "帧：大小适合内容")
+![帧：大小适合内容](frame.resources/graph-frames_fit-size-to-content.png "帧：大小适合内容")
 
 在图表中进行调整时，框架可能不会再顺畅地适应其内容。 在这种情况下，可以自动调整帧的位置和大小，以便通过填充一个中等网格单元来调整其内容的跨度。
 
@@ -386,14 +386,14 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![帧：大小适合内容（带说明）](../../../../assets/graph-frames_fit-description.png "帧：大小适合内容（带说明）")
+![帧：大小适合内容（带说明）](frame.resources/graph-frames_fit-description.png "帧：大小适合内容（带说明）")
 
 </td>
 </tr>
 </table>
 
 +++示例
-![帧：大小适合内容(GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "帧：大小适合内容(GIF)"){width="640px"}
+![帧：大小适合内容(GIF)](frame.resources/graph-frames_fit-size-to-content.gif "帧：大小适合内容(GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ ht-degree: 1%
 
 ## 自动扩展
 
-![帧：自动扩展](../../../../assets/graph-frames_auto-expand.png "帧：自动扩展")
+![帧：自动扩展](frame.resources/graph-frames_auto-expand.png "帧：自动扩展")
 
 随着图形的增长，可能需要重新排列帧的内容。 节点可能会移动以便为添加留出空间，也可能需要将内容隔开更多以提高可读性。
 
@@ -416,7 +416,7 @@ ht-degree: 1%
 > 虽然在移动期间可随时按下<b>Shift</b>键或释放该键以触发或取消自动调整帧，但在完成移动时必须按住&#x200B;*Shift*&#x200B;键以有效地应用调整。
 
 +++示例
-![帧：自动扩展(GIF)](../../../../assets/graph-frames_auto-expand.gif "帧：自动扩展(GIF)"){width="640px"}
+![帧：自动扩展(GIF)](frame.resources/graph-frames_auto-expand.gif "帧：自动扩展(GIF)"){width="640px"}
 
 
 

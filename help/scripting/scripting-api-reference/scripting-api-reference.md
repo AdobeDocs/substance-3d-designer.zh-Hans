@@ -87,9 +87,9 @@ ht-degree: 0%
 
 UI管理器允许<b>在Substance Designer的主窗口（如<b>菜单</b>、<b>停靠站</b>）中创建用户界面元素</b>，并允许在发生用户界面相关事件时调用<b>回调</b>。
 
-此外，UI管理器有权访问<b>当前活动图形</b>和活动图形的<b>选区</b>。
+此外，UI管理器有权访问<b>当前活动图形</b>和活动图形<b>选区</b>。
 
-## 图表(SDGraph)
+## 图形(SDGraph)
 
 图形(*SDGraph*)是包含以下内容的对象：
 
@@ -97,15 +97,15 @@ UI管理器允许<b>在Substance Designer的主窗口（如<b>菜单</b>、<b>�
 * <b>图形对象</b> (*SDGraphObjects*)；
 * <b>属性</b>(*SDProperty*)。
 
-有4种不同的图表类型：
+图形类型有4种：
 
-* Substance图形(*SDSBSCompGraph*)
+* 图形(*SDSBSCompGraph*)
 * 函数图形(*SDSBSFunctionGraph*)Substance
 * FXMap图形(*SDSBSFxMapGraph*)Substance
 
-图形可以有一个或多个<b>输出</b>节点。 输出节点表示图形的<b>结果</b>。
+一个图形可以有一个或多个<b>输出</b>节点。 输出节点表示图形的<b>结果</b>。
 
-可使用方法“*getNodeDefinitions()*”检索<b>图形的所有可用节点</b>。
+图形的所有可用节点都可以使用“*getNodeDefinitions()*”方法<b>检索</b>。
 
 可以使用方法“*newNode()*”创建<b>新节点</b>。
 
@@ -130,11 +130,11 @@ UI管理器允许<b>在Substance Designer的主窗口（如<b>菜单</b>、<b>�
 
 ## 图形对象(SDGraphObjects)
 
-图形对象(*SDGraphObject*)是<b>向图形添加附加信息</b>的对象，但在图形评估过程中&#x200B;<b>*未*&#x200B;考虑该对象</b>。
+图形对象(*SDGraphObject*)是<b>向图形添加附加信息</b>的对象，但在图形评估过程中&#x200B;<b>*未*&#x200B;将其考虑在内</b>。
 
-有<b>3种图表对象类型</b>：
+图形对象有<b>3种类型</b>：
 
-* <b>Pin</b> (*SDGraphObjectPin*)
+* <b>大头针</b> (*SDGraphObjectPin*)
 * <b>注释</b> (*SDGraphObjectComment*)
 * <b>帧</b> (*SDGraphObjectFrame*)
 
@@ -142,15 +142,15 @@ UI管理器允许<b>在Substance Designer的主窗口（如<b>菜单</b>、<b>�
 
 ## 属性(SDProproperty)
 
-属性(*SDProperty*)是<b>描述</b> <b>另一个对象</b>（图形、节点、资源等）的属性。
+属性(*SDProperty*)是<b>描述</b>了<b>另一个对象</b>（图形、节点、资源等）的属性。
 
 它属于特定的<b>类别</b> (*SDPropertyCategory*)：
 
 * <b>输入</b>：分类对象的输入属性，通常<b>会影响当前对象执行的操作</b>；
-  * 例如：Substance图中Uniform Color节点的属性“*color*”是输入属性；
+  * 例如：图形中统一颜色节点的属性“*color*”是输入属性；
 * <b>输出</b>：分类对象的输出属性。 它用于标识对象的<b>结果</b>；
 * <b>批注</b>：将&#x200B;<b>*不*&#x200B;影响由对象执行的操作</b>的属性分类；
-  * 例如：图形的“*标签*”是批注属性，因为它不会影响图形计算。
+  * 例如：图形的“*标签*”是批注属性，因为它不影响图形计算。
 
 它包含以下<b>成员</b>：
 
@@ -170,11 +170,11 @@ UI管理器允许<b>在Substance Designer的主窗口（如<b>菜单</b>、<b>�
 
 * “*sbs：:compositing:：input*”节点的属性：
 
-<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs：:compositing:：input</th></tr><tr><td style="text-align: left;"><strong>输入</strong></td><td style="text-align: left;"><strong>注释</strong></td><td style="text-align: left;"><strong>输出</strong></td></tr><tr><td>$outputsize</td><td>标签</td><td><p>unique_filter_output （可连接）</p></td></tr><tr><td>$format</td><td>描述</td><td><br/></td></tr><tr><td>$pixelsize</td><td>标识符</td><td><br/></td></tr><tr><td>$pixelration</td><td>userdata</td><td><br/></td></tr><tr><td>$tiling</td><td>群组</td><td><br/></td></tr><tr><td>$randomseed</td><td>visibleif</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>使用情况</td><td><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs：:compositing:：input</th></tr><tr><td style="text-align: left;"><strong>输入</strong></td><td style="text-align: left;"><strong>注释</strong></td><td style="text-align: left;"><strong>输出</strong></td></tr><tr><td>$outputsize</td><td>标签</td><td><p>unique_filter_output （可连接）</p></td></tr><tr><td>$format</td><td>描述</td><td><br/></td></tr><tr><td>$pixelsize</td><td>标识符</td><td><br/></td></tr><tr><td>$pixelration</td><td>userdata</td><td><br/></td></tr><tr><td>$拼贴</td><td>群组</td><td><br/></td></tr><tr><td>$randomseed</td><td>visibleif</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>使用情况</td><td><br/></td></tr></tbody></table>
 
 * “*sbs：:compositing:：blend*”节点的属性：
 
-<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs：:compositing:：blend</th></tr><tr><td style="text-align: left;"><strong>输入</strong></td><td style="text-align: left;"><strong>注释</strong></td><td style="text-align: left;"><strong>输出</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output （可连接）</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelration</td><td><br/></td><td><br/></td></tr><tr><td>$tiling</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.connector （可连接）</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.connector （可连接）</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.connector（可连接）</td><td><br/></td><td><br/></td></tr><tr><td>不透明度多项</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">混合模式</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">colorblending</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">蒙版矩形</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs：:compositing:：blend</th></tr><tr><td style="text-align: left;"><strong>输入</strong></td><td style="text-align: left;"><strong>注释</strong></td><td style="text-align: left;"><strong>输出</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output （可连接）</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelration</td><td><br/></td><td><br/></td></tr><tr><td>$tiling</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.连接器（可连接）</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.连接器（可连接）</p></td><td><br/></td><td><br/></td></tr><tr><td>不透明度。连接器（可连接）</td><td><br/></td><td><br/></td></tr><tr><td>不透明度多项</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">混合模式</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">colorblending</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">蒙版矩形</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
 
 ## 类型(SDType)
 

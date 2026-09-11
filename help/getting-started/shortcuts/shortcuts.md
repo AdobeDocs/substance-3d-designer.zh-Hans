@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 快捷键
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ ht-degree: 17%
 
 **Windows**
 
-![Windows上的键盘快捷键](../../assets/keyboard_shortcuts_win.png "Windows上的键盘快捷键"){zoomable="yes"}
+![Windows上的键盘快捷键](shortcuts.resources/keyboard_shortcuts_win.png "Windows上的键盘快捷键"){zoomable="yes"}
 
 **macOS**
 
-![macOS上的键盘快捷键](../../assets/keyboard_shortcuts_mac.png "macOS上的键盘快捷键"){zoomable="yes"}
+![macOS上的键盘快捷键](shortcuts.resources/keyboard_shortcuts_mac.png "macOS上的键盘快捷键"){zoomable="yes"}
 
 ## 快捷键列表
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 
 | 操作 | Windows | macOS |
 | --- | --- | --- |
-| [新图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| [新建Substance图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | 加载包 | Ctrl + O | ⌘ + O |
 | 关闭所选包 | Ctrl + F4 | ⌘ + W |
 | 保存包 | Ctrl + S | ⌘ + S |
@@ -107,9 +107,9 @@ ht-degree: 17%
 
 | 操作 | Windows | macOS |
 | --- | --- | --- |
-| 移动摄像头（前/后平移） | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
+| 推拉相机（向前/向后平移） | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
 | 轨道相机 | 按住LMB并拖动 | 按住LMB并拖动 |
-| 卡车和基座摄像头（横向和垂直平移） | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
+| 卡车和基座相机（横向和垂直平移） | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
 | 旋转环境 | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | 临时切换到“点光1”控件 | ⇧（定格） | ⇧（定格） |
 | 轨道点光1 | 按住LMB并拖动 | 按住LMB并拖动 |

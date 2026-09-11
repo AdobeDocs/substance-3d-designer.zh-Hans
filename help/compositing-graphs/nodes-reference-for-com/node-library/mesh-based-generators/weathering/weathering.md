@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 风化
 
-风化节点使[蒙版生成器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)更进一步：它们根据参数和已烘焙贴图实现全素材风化效果。 概念与[智能素材](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/features/smart-materials-and-masks)的Substance Painter非常相似。
+风化节点使[蒙版生成器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)更进一步：它们根据参数和已烘焙贴图执行全材料风化效果。 概念与[智能素材](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/features/smart-materials-and-masks)的Substance Painter非常相似。
 
 您需要有一个或多个已烘焙贴图才能从这些节点获得完整结果。
 

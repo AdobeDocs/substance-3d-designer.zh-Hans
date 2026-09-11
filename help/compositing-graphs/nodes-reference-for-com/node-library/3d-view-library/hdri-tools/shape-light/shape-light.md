@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: 使用“形状光”节点将自定形状的光源添加到HDRI环境，以实现创意光照效果。
 helpx_creative_field: ""
@@ -56,7 +56,7 @@ ht-degree: 5%
 |:---|:---|
 | <b>形状矩阵</b> |  |
 | <b>矩阵</b> <i>（转换矩阵）</i> | 结果的变换控件。 可以通过直接与画布交互来修改结果。 |
-| <b>偏移</b> <i>-2.0 - 2.0</i> | 移动或转换结果。 可以通过直接与画布交互来修改结果。 |
+| <b>偏移</b> <i>-2.0 - 2.0</i> | 移动或平移结果。 可以通过直接与画布交互来修改结果。 |
 | <b>形状</b> <i>矩形，磁盘</i> | 选择要置入的形状。 |
 | <b>形状颜色模式</b> <i>RGB、温度（开氏温度）、图像输入</i> | 选择用来设置形状颜色的方法。 “Image Input（图像输入）”允许使用第二个输入插槽。 |
 | <b>颜色</b> <i>（颜色值）</i> | 仅当“形状颜色模式”设置为“RGB”时。 为形状选取颜色。 |

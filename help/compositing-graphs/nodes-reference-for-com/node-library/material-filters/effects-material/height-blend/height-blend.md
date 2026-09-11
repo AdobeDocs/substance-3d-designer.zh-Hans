@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
 breadcrumb-title: ''
-description: 使用“混合”节点可以基于高度图混合纹理，以创建逼真的材料过渡。
+description: 使用“Height混合”节点根据Height贴图混合纹理，以创建逼真的材质过渡。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 混合
+title: Height混合
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# 混合
+# Height混合
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## 描述
 
-根据Height信息组合两个高度图。 生成混合高度图，但也会生成可在其他地方使用的黑色和白色蒙版。
+根据Height信息组合两个高度图。 生成混合高度图，但也会生成可以在其他地方使用的黑白蒙版。
 
-当您要合并两个高品质的Heightmap时，此功能非常有用，但并非必须合并完整材料，如[材料Height混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)所需。
+当您要合并两个高品质的高度图时，此功能非常有用，但并非必须合并全部素材，这是[素材Height混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)所必需的。
 
 </td>
 </tr>

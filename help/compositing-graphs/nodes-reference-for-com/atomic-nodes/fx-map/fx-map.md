@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: 使用FX-Map节点将函数图形应用于纹理，以创建过程模式和效果。
 helpx_creative_field: ""
@@ -80,8 +80,8 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 | <b>渲染区域</b> *浮点4* | 用于设置FX映射每侧的起始像素范围，从而产生拉伸效果。 |
 | <b>拼贴区域</b> *浮点4* | 允许您偏移FX-Map的拼贴距离。 |
 | <b>在外部剔除</b> *布尔值* | 通过[剔除](../../../../glossary/glossary.md)超出正常范围的图案来执行优化。 |
-| <b>粗糙度</b> *浮动* | 用作深度和不透明度乘数。 它对FX-map混合过程应用偏置。 |
-| <b>全局不透明度</b> *浮动* | 设置FX映射输出的全局不透明度。 |
+| <b>粗糙度</b> *Float* | 用作深度和不透明度乘数。 它对FX-map混合过程应用偏置。 |
+| <b>全局不透明度</b> *Float* | 设置FX映射输出的全局不透明度。 |
 
 ## FX-Map指南
 

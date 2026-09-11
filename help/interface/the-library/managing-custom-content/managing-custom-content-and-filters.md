@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理自定义内容和过滤器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [将自定义内容添加到库](../../../interface/preferences-window/project-settings/project-settings.md)后，您需要使其&#x200B;*可发现*。
 
-库使用许多&#x200B;*数据点*&#x200B;来标识内容，以便筛选内容并在搜索中显示。 这些数据点包括：
+库使用许多&#x200B;*数据点*&#x200B;来标识内容，以便在筛选和搜索中显示。 这些数据点包括：
 
 * 名称
 * 扩展名
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 这意味着，对于一个或多个项目文件，您可以设置应添加到<b>库</b>中的内容的文件夹，以及将对内容进行排序和组织的类别和过滤器。
 
-![库中的自定义内容](../../../assets/library-filters.png "库中的自定义内容")
+![库中的自定义内容](managing-custom-content-and-filters.resources/library-filters.png "库中的自定义内容")
 
 ## 图形属性
 
-可以使用图表属性的[属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)部分中的数据集，在库中&#x200B;*筛选和搜索*&#x200B;包含[SBS](../../../getting-started/overview/overview.md)和[SBSAR](../../../getting-started/overview/overview.md)文件中的图表。 也可以在某些其他[资源类型](../../../resources/resources.md)上设置其中一些属性。
+可以使用图形属性[属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)部分中的数据集，在图形库中[SBS](../../../getting-started/overview/overview.md)和[SBSAR](../../../getting-started/overview/overview.md)文件中包含的数据集&#x200B;*进行过滤和搜索*。 也可以在某些其他[资源类型](../../../resources/resources.md)上设置其中一些属性。
 
 ## 自定义筛选器和文件夹
 
@@ -57,11 +57,11 @@ Filters是简单的布尔型(True/False)搜索参数，当选择<b>Filter</b>时
 
 使用下列按钮创建和编辑类别（即文件夹）和过滤器：
 
-<b>![](../../../assets/library-icon-new-folder.png)添加文件夹： </b>在库视图中创建一个可展开的文件夹。 您&#x200B;*无法*&#x200B;创建子文件夹。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png)添加文件夹： </b>在库视图中创建一个可展开的文件夹。 您&#x200B;*无法*&#x200B;创建子文件夹。
 
-<b>![](../../../assets/library-icon-new-filter.png)添加筛选器：</b>在所选文件夹中添加新的筛选器。 您&#x200B;*无法*&#x200B;将筛选器添加到现有的默认文件夹。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png)添加筛选器：</b>在所选文件夹中添加新的筛选器。 您&#x200B;*无法*&#x200B;将筛选器添加到现有的默认文件夹。
 
-<b>![](../../../assets/library-icon-edit.png)编辑项：</b>编辑当前选定的文件夹或筛选器。 您&#x200B;*无法*&#x200B;编辑默认文件夹和筛选器的任何属性。
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png)编辑项：</b>编辑当前选定的文件夹或筛选器。 您&#x200B;*无法*&#x200B;编辑默认文件夹和筛选器的任何属性。
 
 要&#x200B;*删除*&#x200B;文件夹或筛选器，请&#x200B;*右键单击该文件夹或筛选器*，然后从上下文菜单中选择<b>删除</b>选项。
 
@@ -76,11 +76,11 @@ Filters是简单的布尔型(True/False)搜索参数，当选择<b>Filter</b>时
 >
 > *非常*&#x200B;重要的是正确设置这些项，以确保您正在编辑&#x200B;*正确的项目*！
 
-![自定义筛选器版本](../../../assets/library-filters-edit.png "自定义筛选器版本")
+![自定义筛选器版本](managing-custom-content-and-filters.resources/library-filters-edit.png "自定义筛选器版本")
 
-**筛选器**&#x200B;通常需要设置&#x200B;*条件*&#x200B;才能实现其筛选目的。 可使用以下条件配置这些条件：
+**筛选器**&#x200B;通常需要设置&#x200B;*条件*&#x200B;才能达到其筛选目的。 可使用以下条件配置这些条件：
 
-* **资源类型**：设置特定的[资源类型](../../../resources/resources.md)，例如[图形](../../../compositing-graphs/substance-compositing-graphs.md)
+* **资源类型**：设置特定的[资源类型](../../../resources/resources.md)，如[图表](../../../compositing-graphs/substance-compositing-graphs.md)
 * **属性**&#x200B;将条件应用于 — 请参阅上面的列表
 * **条件逻辑**：允许筛选器包含正匹配、负匹配、部分匹配和完全匹配的结果
 * **条件关键字：**&#x200B;用来测试&#x200B;**属性**&#x200B;和&#x200B;**条件逻辑**&#x200B;条件的字符串。 如果留空，则包含与这两个条件匹配的任何资源
@@ -97,8 +97,8 @@ Filters是简单的布尔型(True/False)搜索参数，当选择<b>Filter</b>时
 
 * 默认库的一般规则是<b>Folder</b>列在<b>Category</b>属性中，而<b>Filter</b>名称由<b>Tag</b>属性决定
 * 不要创建与默认库混合的自定义节点，除非您&#x200B;*明确*&#x200B;希望它们这样做。 如果您的节点&#x200B;*将*&#x200B;显示在默认筛选器下（如果它们匹配），因此您必须确保使用&#x200B;*不同的标记/命名系统*&#x200B;以避免出现这种情况
-* 使用&#x200B;*唯一*、*每个项目*&#x200B;标识符。 只要在所有项目之间&#x200B;*一致*，即可将这些内容放在您想要的任何位置（如<b>描述</b>、<b>类别</b>或<b>用户数据</b>）。 这使按项目&#x200B;*搜索和筛选内容*&#x200B;更加容易
-* 使用<b>Author</b>属性可以跟踪最初负责内容的人员，而无需通过版本控制记录执行挖掘操作
+* 使用&#x200B;*唯一*，*每个项目*&#x200B;标识符。 只要在所有项目之间&#x200B;*一致*，即可将这些内容放在您想要的任何位置（如<b>描述</b>、<b>类别</b>或<b>用户数据</b>）。 这使按项目&#x200B;*搜索和筛选内容*&#x200B;更加容易
+* 使用<b>Author</b>属性跟踪最初负责内容的人员，而无需通过版本控制记录执行挖掘操作
 * 创建<b>图标</b>的一种有效方法是使用[图标](../../../compositing-graphs/graph-parameters/graph-parameters.md)图形属性的<b>生成</b>选项，或创建用于生成图标的图形[模板](../../../interface/preferences-window/project-settings/project-settings.md)。 这样您就可以确保一致性，并保存创建它们的工作。 所有默认库图标都是通过这种方式在Designer中创建的！
 
 ### 管理不同范围的内容

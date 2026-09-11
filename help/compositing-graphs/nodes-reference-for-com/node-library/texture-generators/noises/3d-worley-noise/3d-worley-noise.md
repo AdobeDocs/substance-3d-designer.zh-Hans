@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D Worley噪声
+title: 3D Worley Noise
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
@@ -18,7 +18,7 @@ ht-degree: 7%
 ---
 
 
-# 3D Worley噪声
+# 3D Worley Noise
 
 <table>
 <tr style="border: 0;">

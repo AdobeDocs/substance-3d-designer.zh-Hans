@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
 breadcrumb-title: ''
 description: 使用“颜色加深”混合节点通过增加对比度来调暗纹理，以创建阴影和加深效果。
 helpx_creative_field: ""
@@ -56,4 +56,4 @@ ht-degree: 9%
 |  |  |
 |:---|:---|
 | <b>不透明度</b> <i>0.0 - 1.0</i> | 在前景和背景之间混合不透明度。 |
-| <b>Alpha 值混合处理</b> <i>False/True</i> | 切换前景颜色和背景Alpha 通道的混合。 如果设置为False，则忽略前景的Alpha 通道。 |
+| <b>Alpha 值混合处理</b> <i>False/True</i> | 切换前景和背景Alpha通道的混合。 如果设置为False，则会忽略前景的Alpha通道。 |

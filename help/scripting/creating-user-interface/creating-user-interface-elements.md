@@ -289,7 +289,7 @@ uiMgr.registerGraphViewCreatedCallback(
 ```
 
 
-### 在“图形视图”工具栏中创建操作
+### 在图形视图工具栏中创建动作
 
 ```
 from functools import partial 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 属性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 属性
 
-此页面显示Substance 3D Designer的<b>“属性”</b>面板、其布局以及您可以在其中找到的不同转出次数和类别及参数。 它关注[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的属性。 [函数图](../../function-graphs/function-graphs.md)和[FX-Map图](../../function-graphs/fxmaps/fxmaps.md)的布局更简单。
+此页面显示Substance 3D Designer的<b>“属性”</b>面板、其布局以及您可以在其中找到的不同转出次数和类别及参数。 它聚焦于[图形](../../compositing-graphs/substance-compositing-graphs.md)的属性。 [函数图形](../../function-graphs/function-graphs.md)和[FX-Map图形](../../function-graphs/fxmaps/fxmaps.md)的布局更简单。
 
 <table>
 <tr style="border: 0;">
@@ -33,13 +33,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![属性程序坞](../../assets/image2020-11-9-13-49-48.png "属性程序坞")
+![属性程序坞](properties.resources/image2020-11-9-13-49-48.png "属性程序坞")
 
 </td>
 </tr>
 </table>
 
-它允许您更改所选节点和资源的属性以及[图形视图](../../interface/the-graph-view/the-graph-view.md)，这大概是您在Designer中第二常用的UI面板。
+通过它，您可以更改选定节点和资源的属性以及[图形视图](../../interface/the-graph-view/the-graph-view.md)，这可能是您在Designer中第二常用的UI面板。
 
 “Properties”（属性）面板根据您的选择拆分为几个不同的发布，例如：
 
@@ -53,17 +53,17 @@ Substance生态系统的一个关键功能[公开参数](../../compositing-graph
 > 大多数数字字段支持&#x200B;*基本数学公式*&#x200B;作为输入 — 例如，`17+3.5`、`7/3`、`(4+2)*3`。 按&#x200B;*Enter*&#x200B;验证公式，结果将输入到字段中。 如果公式无效，则字段将恢复为以前的值。\
 > 应用程序其他部分中的某些数字字段（如[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)对话框）也支持此功能。
 
-## 节点和Substance图
+## 节点和图形
 
-节点和[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)具有稍微重叠的一组属性类别，并且它们的功能相似。
+节点和[图形](../../compositing-graphs/substance-compositing-graphs.md)具有稍微重叠的一组属性类别，并且它们的功能类似。
 
 节点和图形之间的<b>基本参数</b>和<b>属性</b>相同。
 
 节点提供<b>特定参数</b>或<b>实例参数</b>（取决于它们是[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)还是[实例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)）以及<b>输入值</b>，用于处理[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
-[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)原子节点是例外，因为它们具有<b>集成属性</b>和<b>条件</b>以提高可见性。 这两组属性也可以在“图形”属性中的“输入”和“输出”下集中访问。
+[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)原子节点是例外，因为它们具有<b>集成属性</b>和<b>条件</b>以提高可见性。 这两组属性也可以在“输入”和“输出”下的图形属性中集中访问。
 
-图表有几个额外的类别。 <b>输入参数</b>列出了[公开的参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)、<b>输入</b>和<b>输出</b>列出输入和输出节点的所有属性。 [您可以在专用页面上找到所有详细说明的图形属性。](../../compositing-graphs/graph-parameters/graph-parameters.md)
+图形有一些额外的类别。 <b>输入参数</b>列出了[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)、<b>输入</b>和<b>输出</b>列出输入和输出节点的所有属性。 [您可以在专用页上找到所有详细解释的图形属性。](../../compositing-graphs/graph-parameters/graph-parameters.md)
 
 ## 资源和包
 

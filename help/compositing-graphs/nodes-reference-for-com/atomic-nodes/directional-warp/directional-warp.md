@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: 使用“方向变形”节点将方向扭曲应用于纹理，以创建流畅和运动效果。
 helpx_creative_field: ""
@@ -88,7 +88,7 @@ ht-degree: 9%
 |  |  |
 | --- | --- |
 | <b>输入</b> *灰度/颜色*&#x200B;主要 | 应对其应用变形效果的灰度或彩色输入图像。 |
-| <b>强度输入</b> *灰度* | 灰度图像，定义应应用于<b>输入</b>图像的变形量。 |
+| <b>强度输入</b> *灰度* | 定义应应用于<b>输入</b>图像的变形量的灰度图像。 |
 
 ## 输出连接器
 
@@ -102,17 +102,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例1](directional-warp.resources/dir-warp.gif "方向变形 — 示例1"){zoomable="yes"}
+![定向翘曲 — 示例1](directional-warp.resources/dir-warp.gif "定向翘曲 — 示例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例2](directional-warp.resources/dir-warp02.gif "方向变形 — 示例2"){zoomable="yes"}
+![定向翘曲 — 示例2](directional-warp.resources/dir-warp02.gif "定向翘曲 — 示例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向变形 — 示例3](directional-warp.resources/dir-warp03.gif "方向变形 — 示例3"){zoomable="yes"}
+![定向翘曲 — 示例3](directional-warp.resources/dir-warp03.gif "定向翘曲 — 示例3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic-validate.html"
 breadcrumb-title: ''
-description: 使用“PBR BaseColor金属验证”节点验证并更正PBR素材的基色和金属色值。
+description: 使用“PBR BaseColor金属验证”节点验证并更正PBR材料的基色和金属值。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR BaseColor  Metallic Validate
 helpx_experience_level: ""
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# PBR基色/金属验证
+# PBR BaseColor/金属验证
 
 <table>
 <tr style="border: 0;">

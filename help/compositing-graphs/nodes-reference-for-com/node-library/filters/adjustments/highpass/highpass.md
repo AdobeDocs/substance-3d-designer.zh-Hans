@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: 使用“高通”节点从纹理中提取高频细节，用于创建锐化和细节增强效果。
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ ht-degree: 4%
 ## 描述
 
 执行高反差滤镜，既可用于彩色版本，也可用于灰度版本。 与具有相同名称的Photoshop操作类似。\
-可用于移除图像中的大明亮度差异，例如在清理纹理以拼贴时。
+用于移除图像中的大明亮度差异，例如在清理纹理以进行拼贴时。
 
 重要提示：请确保使用适用于您的输入的版本！ 对颜色输入使用“高反差保留”，对灰度输入使用“高反差保留灰度”。
 

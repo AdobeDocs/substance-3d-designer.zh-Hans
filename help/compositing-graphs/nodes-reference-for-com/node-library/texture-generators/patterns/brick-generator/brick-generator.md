@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 砖块生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -54,18 +54,18 @@ ht-degree: 8%
 | <b>中等大小</b> <i>0.0 - 1.0</i> | 砖块模式偏移量，更改每列或每行的大小。 |
 | <b>Height</b> <i>-1.0 - 1.0</i> | 修改Height配置文件。 允许引入明亮度变化和各种随机化。 |
 | <b>斜率</b> <i>-1.0 - 1.0</i> | 引入每个砖块的斜率，就好像某些砖块是倾斜的。 |
-| <b>偏移</b> <i>0.0 - 1.0</i> | 基于行偏移砖块，影响每行的间距。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>偏移</b> <i>0.0 - 1.0</i> | 逐行偏移砖块，影响每行间距。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
         </td>
     </tr>
 </table>

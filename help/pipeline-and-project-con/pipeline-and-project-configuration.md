@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管道和项目配置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Designer有3个级别或配置文件，每个级别都有不同的用途。 对�
 </td>
 <td style="border: 0;" valign="top">
 
-![配置文件层次结构](../assets/filestructureoverview.png "配置文件层次结构")
+![配置文件层次结构](pipeline-and-project-configuration.resources/filestructureoverview.png "配置文件层次结构")
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 ---
 title: 平滑合并
-description: Designer >Substance合成图形>用于Substance合成图形的节点引用>节点库>SDF 函数>运算符>联合平滑
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符>联合平滑
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '101'

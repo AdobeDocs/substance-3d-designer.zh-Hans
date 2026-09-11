@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 强制转换
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 强制转换节点用于将节点从一种类型转换为另一种类型：
 
-![](../../../../assets/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/image2015-12-23-10-5-19.png)
 
 ## 如何使用强制转换节点？
 

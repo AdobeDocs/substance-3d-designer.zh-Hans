@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
-description: 以实例Substance的形式访问预制的实例功能图，以加快工作流程并增强功能。
+description: 使用预制Substance功能图形作为实例化，以加快工作流程并增强功能。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 函数节点库
 
-除了[原子节点](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md)之外，Designer还提供预制Substance函数图形作为实例节点。 它们提供了许多工具来加快工作流程，并提供更多功能来处理矢量或颜色、重新映射值、执行更高级的代数……
+除了[原子节点](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md)之外，Designer还提供预制作的Substance功能图形作为实例化。 它们提供了许多工具来加快工作流程，并提供更多功能来处理矢量或颜色、重新映射值、执行更高级的代数……
 
 这些工具分为以下几类：
 
@@ -341,7 +341,7 @@ HSV到RGB
 
 线性sRGB到ACEScg
 
-线性到sRGB（明亮度）
+线性到sRGB(明亮度)
 
 线性到sRGB
 
@@ -360,15 +360,15 @@ RGB色相2极色
 
 RGB色相六边形
 
-RGB亮度平均值
+明亮度平均值
 
-RGB亮度双六锥
+明亮度双六锥
 
-RGB亮度六角形
+明亮度六锥体
 
-RGB亮度亮度Rec.601
+明亮度亮度Rec.601
 
-RGB亮度亮度Rec.709
+明亮度亮度Rec.709
 
 RGB饱和度HSI
 
@@ -383,17 +383,17 @@ RGB到HCL
 
 RGB到HSI
 
-HSLRGB
+RGB到HSL
 
 HSVRGB
 
-sRGB转换为线性（明亮度）
+sRGB到线性(明亮度)
 
 sRGB转换为线性
 
 RGB温度
 
-ACES tonemapper
+ACE tonemapper
 
 Agx tonemapper（约）
 
@@ -411,7 +411,7 @@ Hejl tonemapper
 
 ## 变换
 
-笛卡尔坐标到极坐标
+极地笛卡尔
 
 方向偏移
 
@@ -583,23 +583,23 @@ Hejl tonemapper
 
 切换整数8输入
 
-交换机整数2输入
+切换整数2 2输入
 
-交换机整数2 4个输入
+切换整数2 4个输入
 
-交换机整数2 8个输入
+切换整数2 8个输入
 
-交换机整数3 2个输入
+切换整数3 2个输入
 
-交换机整数3 4个输入
+切换整数3 4个输入
 
-交换机整数3 8个输入
+切换整数3 8个输入
 
-交换机整数4 2输入
+切换整数4 2个输入
 
-交换机整数4 4输入
+切换整数4 4个输入
 
-交换机整数4 8个输入
+切换整数4 8个输入
 
 </td>
 </tr>

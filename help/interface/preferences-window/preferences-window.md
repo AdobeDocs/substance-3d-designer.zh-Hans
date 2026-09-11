@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 首选项
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # “首选项”窗口
 
-![首选项窗口](../../assets/image2021-6-22-20-56-1.png "首选项窗口")
+![首选项窗口](preferences-window.resources/image2021-6-22-20-56-1.png "首选项窗口")
 
 此页面显示<b>首选项</b>窗口及其所有设置。
 
@@ -55,21 +55,21 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>反转放大视图</b>  *默认：未选中* | 如果选中，缩放控件将在[2D视图](../../interface/2d-view/2d-view.md)、[3D视图](../../interface/3d-view/3d-view.md)和[图形](../../interface/the-graph-view/the-graph-view.md)中反转。 |
+| <b>反转放大视图</b>  *默认：未选中* | 如果选中，缩放控件将在[2D 视图](../../interface/2d-view/2d-view.md)、[3D 视图](../../interface/3d-view/3d-view.md)和[图形](../../interface/the-graph-view/the-graph-view.md)中反转。 |
 
 ### 路径
 
 |  |  |
 | --- | --- |
 | <b>保存/导出路径</b>  *默认：最后路径* | 确定建议的保存/导出路径是您上次选择的路径，还是[SBS包](../../getting-started/overview/overview.md)的路径。 最后选定的路径将在各个会话中保存。 |
-| <b>临时文件夹</b>  *默认：路径取决于系统OS* | 当图形的图像数据超过分配的内存池（请参阅下面的<b>内存>图像缓存</b>）时，溢出数据将写入磁盘。 通过此设置，可以定义溢出图像缓存数据被写入的位置。   此位置还用于存储当前打开的SBS包的副本，其中包含自上次手动保存以来的最新修改。 |
+| <b>临时文件夹</b>  *默认：路径取决于系统OS* | 当图形的图像数据超过分配的内存池（请参阅下面的<b>内存>图像缓存</b>）时，溢出数据将被写入磁盘。 通过此设置，可以定义溢出图像缓存数据被写入的位置。   此位置还用于存储当前打开的SBS包的副本，其中包含自上次手动保存以来进行的最新修改。 |
 
 ### 内存
 
 #### 图像缓存
 
 对于当前图形中的每个渲染节点，应用程序在缓存中保留一个&#x200B;*全分辨率、未压缩的图像*。\
-实例节点将为它们引用的图表的所有节点生成这些图像，并在计算其[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)后删除这些图像。 此时，只有输出会保留在内存中。
+实例化将为它们引用的图形的所有节点生成这些图像，并在计算其[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)后删除这些图像。 此时，只有输出会保留在内存中。
 
 您可以设置分配给系统内存中的缩览图和图像的最大缓存大小，并查看当前使用情况。 如果缓存数据溢出其分配的池，则超出的数据将写入<b>临时文件夹</b>（请参阅上面的<b>路径>临时文件夹</b>）。
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 | --- | --- |
 | <b>内存预算</b>  *默认：自动* | 此分配会自动计算到总系统内存池的大约75%。 若要手动设置此值，请选择“*自定义*”选项，然后在相邻的输入字段中设置一个值。 |
 
-请注意，写入磁盘比写入系统内存慢&#x200B;*个数量级*。 因此，图形渲染时间将&#x200B;*指数增长*，因为溢出数据需要写入临时文件夹。\
+请注意，写入磁盘比写入系统内存慢&#x200B;*个数量级*。 因此，由于溢出数据需要写入临时文件夹，图形渲染时间将&#x200B;*指数增长*。\
 为防止发生这种情况，我们建议在文档的[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)部分中查看关于减少图形内存占用量的建议。
 
 #### 作业调度程序
 
-在特定任务期间（例如缩略图或[2D视图](../../interface/2d-view/2d-view.md)的图像转换），将创建单独的作业并将其分布到系统处理核心以提高效率。 每个作业都会将数据写入系统内存以执行其操作。\
+在特定任务期间（例如缩略图或[2D 视图](../../interface/2d-view/2d-view.md)的图像转换），将创建单独的作业并将其分布到系统处理内核以提高效率。 每个作业都会将数据写入系统内存以执行其操作。\
 此设置允许您为&#x200B;*所有并发作业*&#x200B;定义分配的内存池。 完全使用此池时，新作业将排队，直到当前作业完成。
 
 |  |  |
@@ -157,14 +157,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![已禁用上下文编辑](../../assets/substance3ddesigner_incontext_no.gif "已禁用上下文编辑")
+![已禁用上下文编辑](preferences-window.resources/substance3ddesigner_incontext_no.gif "已禁用上下文编辑")
 
 *打开引用*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![已启用上下文编辑](../../assets/substance3ddesigner_incontext_yes.gif "已启用上下文编辑")
+![已启用上下文编辑](preferences-window.resources/substance3ddesigner_incontext_yes.gif "已启用上下文编辑")
 
 *在上下文中打开引用*
 

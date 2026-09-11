@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 正常变换
+title: 法线变换
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 正常变换
+# 法线变换
 
 <table>
 <tr style="border: 0;">
@@ -46,5 +46,5 @@ ht-degree: 3%
 |  |  |
 |:---|:---|
 | <b>矩阵2x2</b> <i>（转换矩阵）：</i> | 旋转或缩放输入。 |
-| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或平移结果。 当存在变换控件时，可以通过直接与画布交互来修改结果。 |
+| <b>偏移</b> <i>-0.5 - 0.5</i> | 移动或转换结果。 当存在变换控件时，可以通过直接与画布交互来修改结果。 |
 | <b>正常格式</b> <i>DirectX， OpenGL</i> | 在不同的法线贴图格式之间切换（反转绿色通道） |

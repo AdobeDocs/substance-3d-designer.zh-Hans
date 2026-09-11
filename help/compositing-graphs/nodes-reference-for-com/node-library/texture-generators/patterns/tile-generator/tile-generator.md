@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -68,7 +68,7 @@ Tile Generator是库中最高级的节点之一。 如果学会了如何掌握�
 |:---|:---|
 | <b>X数量</b> <i>1 - 64</i> | 图案的X重复次数。 |
 | <b>Y数量</b> <i>1 - 64</i> | 模式的Y重复次数。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 | <b>图案</b> |  |
 | <b>图案</b> <i>图像输入，正方形，磁盘，抛物面，铃声，高斯，荆棘，金字塔，砖块，层次，波形，半圆，脊状的圆，新月，胶囊体，锥形</i> | 选择要使用的图案形状。 |
 | <b>模式输入编号</b> <i>1 - 6</i> | 要使用的不同图像输入数。 仅在上面选择了“<i>图像输入</i>”时可用。 |
@@ -118,16 +118,16 @@ Tile Generator是库中最高级的节点之一。 如果学会了如何掌握�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex.png" />
+            <img src="tile-generator.resources/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

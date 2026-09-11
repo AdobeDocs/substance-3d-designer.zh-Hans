@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变线性3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient3.png)
+![](gradient-linear-3.resources/gradient3.png)
 
 <b>进入：</b>纹理生成器>图案
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient3-ex.gif" />
+            <img src="gradient-linear-3.resources/gradient3-ex.gif" />
         </td>
     </tr>
 </table>

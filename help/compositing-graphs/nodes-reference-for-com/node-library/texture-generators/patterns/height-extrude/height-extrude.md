@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高度挤出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-extrude.png){width="200px"}
+![](height-extrude.resources/height-extrude.png){width="200px"}
 
 <b>进入：</b>纹理生成器>图案
 

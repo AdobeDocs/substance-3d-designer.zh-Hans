@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 资源管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![资源管理器停放](../../assets/explorer-3.jpg "资源管理器停放")
+![资源管理器停放](the-explorer-window.resources/explorer-3.jpg "资源管理器停放")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ ht-degree: 2%
 
 此工具栏可让您快速执行与整体工作流程相关的功能。 所有按钮均为&#x200B;*上下文识别*，这意味着它们会根据您在资源管理器中的当前选择激活并更改其行为。
 
-![](../../assets/save.png) <b>保存</b>选定的包。
+![](the-explorer-window.resources/save.png) <b>保存</b>选定的包。
 
-![](../../assets/sendto-icon.jpg) <b>Publish或[发送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>个所选元素：
+![](the-explorer-window.resources/sendto-icon.jpg) <b>Publish或[发送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>个所选元素：
 
 * [将任何选定包Publish到Substance 3D资源(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)；
 * 将所选包发送到[Substance 3D Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Substance 3D Stager](https://www.adobe.com/cn/products/substance3d-stager.html)。
 
-![](../../assets/republish.png) <b>Publish或像以前一样发送：</b> Publish或发送所选元素的设置与以前相同。 此选项仅适用于已在&#x200B;*当前*&#x200B;会话中&#x200B;*至少*&#x200B;发布过一次的包。
+![](the-explorer-window.resources/republish.png) <b>Publish或像以前一样发送：</b> Publish或发送所选元素的设置与以前相同。 此选项仅适用于已在&#x200B;*当前*&#x200B;会话中&#x200B;*至少*&#x200B;发布过一次的包。
 
-![](../../assets/graph-cleaner.jpg) <b>删除选定图形中未使用的节点</b>。 该工具遵循以下规则：
+![](the-explorer-window.resources/graph-cleaner.jpg) <b>删除选定图形中未使用的节点</b>。 该工具遵循以下规则：
 
 * 仅当所选项目为&#x200B;*相同类型*&#x200B;时，该工具才可用：仅图形、文件夹或包；
 * 当选择包含文件夹或包时，该工具以&#x200B;*递归*&#x200B;方式清理其中的所有图表；
@@ -77,14 +77,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/发送下拉菜单](../../assets/explorer-sendto-displayed.jpg "Publish/发送下拉菜单")
+![Publish/发送下拉菜单](the-explorer-window.resources/explorer-sendto-displayed.jpg "Publish/发送下拉菜单")
 
 *Publish/发送*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![删除未使用的节点下拉菜单](../../assets/explorer-graph-cleaner.jpg "删除未使用的节点下拉菜单")
+![删除未使用的节点下拉菜单](the-explorer-window.resources/explorer-graph-cleaner.jpg "删除未使用的节点下拉菜单")
 
 *删除未使用的节点*
 
@@ -200,9 +200,9 @@ ht-degree: 2%
 
 资源管理器停靠区底部的工具栏提供有关程序包或程序包资源的信息：
 
-<b>![](../../assets/explorer-dependencies.jpg)依赖关系：</b>选择某个包后，其包依赖关系将列在专用面板中。
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg)依赖关系：</b>选择某个包后，其包依赖关系将列在专用面板中。
 
-<b>![](../../assets/explorer-information.jpg)信息：</b>提供与当前选定的包或资源相关的元数据：
+<b>![](the-explorer-window.resources/explorer-information.jpg)信息：</b>提供与当前选定的包或资源相关的元数据：
 
 * 包：包的完整文件路径
 * [位图资源](../../resources/bitmap-resource/bitmap-resource.md)：资源的完整文件路径、其[ICC配置文件](../../color-management/color-management.md)、图像大小和[导入方法](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)（即&#x200B;*链接的*&#x200B;或&#x200B;*导入的*）
@@ -211,14 +211,14 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![依赖关系面板](../../assets/explorer-dependencies-displayed.jpg "依赖关系面板")
+![依赖关系面板](the-explorer-window.resources/explorer-dependencies-displayed.jpg "依赖关系面板")
 
 *依赖项*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![信息面板](../../assets/explorer-information-displayed.jpg "信息面板")
+![信息面板](the-explorer-window.resources/explorer-information-displayed.jpg "信息面板")
 
 *信息*
 

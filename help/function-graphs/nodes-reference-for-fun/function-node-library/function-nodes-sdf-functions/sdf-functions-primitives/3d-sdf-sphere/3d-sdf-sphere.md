@@ -1,6 +1,6 @@
 ---
 title: 球体
-description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>基元>球体
+description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>基元>球体
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '103'
@@ -41,5 +41,5 @@ ht-degree: 3%
 |  |  |
 | :--- | :--- |
 | <b>半径</b> *浮动* | 球面半径。<br><br><i>默认值： 0.5</i> |
-| <b>中心位置</b> *浮点3* | 球面圆心的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>中心位置</b> *浮点3* | 球面透视的世界空间位置。<br><br><i>默认值： (0， 0， 0)</i> |
 | <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

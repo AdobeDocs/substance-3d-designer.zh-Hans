@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主工具栏
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![主工具栏](../../assets/mainmenu.png "主工具栏")
+![主工具栏](the-main-toolbar.resources/mainmenu.png "主工具栏")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ ht-degree: 2%
 
 ## 快速访问按钮
 
-![](../../assets/newsubstance.png) <b>新Substance图形……：</b> (Ctrl+N)为您显示[新图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)窗口，然后使用[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)创建新包。
+![](the-main-toolbar.resources/newsubstance.png) <b>新Substance图形……：</b> (Ctrl+N)为您显示[新图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)窗口，然后使用[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)创建新包。
 
-![](../../assets/open.png) <b>打开……：</b> (Ctrl+O)打开现有的[Substance包(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)。
+![](the-main-toolbar.resources/open.png) <b>打开……：</b> (Ctrl+O)打开现有的[Substance包(.SBS、.SBSAR、.SBSASM)](../../getting-started/overview/overview.md)。
 
-![](../../assets/saveall.png) <b>保存全部：</b> (Ctrl+⇧+S)保存[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有包。
+![](the-main-toolbar.resources/saveall.png) <b>保存全部：</b> (Ctrl+⇧+S)保存[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有包。
 
-![](../../assets/undo.png) <b>撤消：</b> (Ctrl+Z)撤消上一个操作。
+![](the-main-toolbar.resources/undo.png) <b>撤消：</b> (Ctrl+Z)撤消上一个操作。
 
-![](../../assets/redo.png) <b>重做：</b> (Ctrl+Y)重做上一个撤消的操作。
+![](the-main-toolbar.resources/redo.png) <b>重做：</b> (Ctrl+Y)重做上一个撤消的操作。
 
 ## 文件
 

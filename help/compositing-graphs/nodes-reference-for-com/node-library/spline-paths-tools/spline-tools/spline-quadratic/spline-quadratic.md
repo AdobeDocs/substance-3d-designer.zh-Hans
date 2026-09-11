@@ -49,7 +49,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>预览</b> <i>灰度</i> | 作为灰度图像的输入样条的预览。 |
+| <b>预览</b> <i>灰度</i> | 以灰度图像形式预览输入样条。 |
 | <b>样条坐标</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条点的坐标：<br><b>R</b> - X位置<br><b>G</b> - Y位置<br><b>B</b> -Height<br><b>A</b> — 压缩数据：<br> — 符号：样条是闭合（负）或开放（正）；<br> -绝对值：Thickness+ 1。 |
 | <b>样条数据</b> <i>颜色</i> | 以彩色图像的RGBA通道编码的输入样条的其他数据：<br><b>R</b> -正切X<br><b>G</b> -正切Y<br><b>B</b> -正切Z<br><b>A</b> — 未使用 |
 | <b>样条量</b> <i>整数</i> | 输入样条的数量。 |
@@ -84,15 +84,15 @@ ht-degree: 0%
 | <b>Thickness</b> |  |
 | <b>启动Thickness</b> <i>浮动</i> | 调整<b>p1</b>点的Thickness。 这会影响<b>p1</b>处的样条的Thickness。<br><i>注意：</i>Thickness由特定样条节点使用。 |
 | <b>结束Thickness</b> <i>浮动</i> | 调整<b>p3</b>点的Thickness。 这会影响样条在<b>p3</b>处的Thickness。<br><i>注意：</i>Thickness由特定样条节点使用。 |
-| <b>自动切线Thickness</b> <i>布尔值</i> | 自动设置样条正切的Thickness，以从<b>起始Thickness</b>线性插值到<b>结束Thickness</b>。<br><i>注意：</i>Thickness由特定样条节点使用。 |
-| <b>正切Thickness</b> <i>浮动</i> | 调整由<b>p2</b>点控制的切线驱动的Thickness。<br>当样条从<b>p1</b>向外Thickness并进入<b>p3</b>时，这会影响样条沿线的节点。<br><i>注意：</i>Thickness由特定样条节点使用。<br><i>注意2：</i>此参数仅在<b>自动切线Thickness</b>设置为“False”时可用。 |
+| <b>自动Thickness</b> <i>布尔值</i> | 自动设置样条正切的Thickness，以从<b>起始Thickness</b>线性插值到<b>结束Thickness</b>。<br><i>注意：</i>Thickness由特定样条节点使用。 |
+| <b>Thickness</b> <i>Float</i> | 调整由<b>p2</b>点控制的正切驱动的Thickness。<br>当样条从<b>p1</b>向外Thickness并进入<b>p3</b>时，这会影响样条沿线的节点。<br><i>注意：</i>Thickness由特定样条节点使用。<br><i>注意2：</i>此参数仅在<b>自动Thickness</b>设置为“False”时可用。 |
 | <b>点坐标</b> |  |
-| <b>p1</b> <i>浮点2</i> | 设置纹理空间中<b>p1</b>点的位置。 |
-| <b>p2</b> <i>浮点2</i> | 设置纹理空间中<b>p2</b>点的位置。<br><b>p2</b>点控制<b>p1</b>和<b>p3</b>点的<i>正切</i>。 |
-| <b>p3</b> <i>浮点2</i> | 设置纹理空间中<b>p3</b>点的位置。 |
+| <b>p1</b> <i>Float2</i> | 设置纹理空间中<b>p1</b>点的位置。 |
+| <b>p2</b> <i>Float2</i> | 设置纹理空间中<b>p2</b>点的位置。<br><b>p2</b>点控制<b>p1</b>和<b>p3</b>点的<i>正切</i>。 |
+| <b>p3</b> <i>Float2</i> | 设置纹理空间中<b>p3</b>点的位置。 |
 | <b>预览</b> |  |
-| <b>显示切线</b> <i>布尔值</i> | 在<b>预览</b>输出中显示<b>p1</b>点“out”正切和<b>p3</b>点“in”正切。 反转样条方向。 |
-| <b>显示方向帮助程序</b> <i>布尔值</i> | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
+| <b>显示正切</b> <i>布尔值</i> | 在<b>预览</b>输出中显示<b>p1</b>点“out”正切和<b>p3</b>点“in”正切。 反转样条方向。 |
+| <b>显示方向助手</b> <i>布尔值</i> | 在<b>预览</b>输出中，在样条线的起始处显示一个点，在其结尾处显示一个箭头。 |
 | <b>显示Thickness信封</b> <i>布尔值</i> | 在样条Thickness的边显示附加线。 |
 | <b>段数量</b> <i>整数</i> | 调整用于在<b>预览</b>输出中绘制样条可视化效果的段数。<br>值越高，线条越平滑。 |
 | <b>Thickness（像素）</b> <i>浮动</i> | 在<b>预览</b>输出中调整样条可视化的Thickness（以像素为单位）。 |

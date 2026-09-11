@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
-description: 使用“滴落铁锈”节点，根据网格几何形状和重力方向生成铁锈滴落图案。
+description: 使用“滴落铁锈”节点，根据铁锈几何和重力方向生成网格滴落图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 描述
 
-根据已烘焙贴图和用户设置生成黑白蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
+根据已烘焙贴图和用户设置生成黑白色蒙版。 类似于[Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter)中的[智能蒙版](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
 此蒙版呈现铁锈薄片和斑点，漏洞会不断消失。
 
@@ -47,9 +47,9 @@ ht-degree: 7%
 
 |  |  |
 |:---|:---|
-| <b>曲率</b> <i>灰度输入</i> | 生成或烘焙的地图以帮助铁锈放置。 |
-| <b>环境遮蔽</b> <i>灰度输入</i> | 生成或烘焙的地图以帮助铁锈放置。 |
-| <b>位置</b> <i>灰度输入</i> | 已生成或已生成的滴落方向图。 |
+| <b>弯曲</b> <i>灰度输入</i> | 烘焙或生成的映射有助于放置铁锈。 |
+| <b>Ambient occlusion</b> <i>灰度输入</i> | 烘焙或生成的映射有助于放置铁锈。 |
+| <b>位置</b> <i>灰度输入</i> | 已烘焙或生成的滴落方向地图。 |
 | <b>蒙版（可选）</b> <i>灰度输入</i> | 用于遮盖节点效果的遮罩槽。 |
 
 <a name="parameters"></a>

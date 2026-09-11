@@ -1,6 +1,6 @@
 ---
 title: 设置颜色
-description: 设置SDF场景素材的基色。
+description: 设置SDF材料的base color。
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '89'
@@ -17,14 +17,14 @@ ht-degree: 2%
 
 ![设置颜色图标](set-color.png "设置颜色")
 
-<b>在：</b> 3D函数中>材质
+<b>In：</b> 3D函数>材料
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-设置SDF场景素材的基色。
+设置SDF材料的base color。
 
 然后，可以在[形状飞溅v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)的&#x200B;*SDF颜色*&#x200B;输出中检索所有飞溅的SDF形状的此颜色。
 
