@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
 breadcrumb-title: ''
 description: 使用“渐变”径向节点创建从中心点辐射的径向渐变，以实现圆形颜色过渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 径向渐变
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-radial.png){width="128px"}
+![](gradient-radial.resources/gradient-radial.png){width="128px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -48,4 +48,4 @@ ht-degree: 1%
 | <b>形状</b> <i>锥形，半球</i> | 确定过渡配置文件。 锥形是一种锐化的线性过渡，半球是柔和的，其中心是圆的。 |
 | <b>点1</b> | 渐变的中心点。 白手起家。 |
 | <b>点2</b> | 用于确定渐变范围的半径点。 结尾为黑色。 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用挤压补偿并使用非方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用使用非方形比率补偿挤压和拉伸。 |
