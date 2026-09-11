@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
 description: 使用“显微镜视图”节点生成微观纹理图案，用于创建详细的表面结构。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 显微镜视图
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/microscope-view.png){width="128px"}
+![](microscope-view.resources/microscope-view.png){width="128px"}
 
 <b>进入：</b>纹理生成器>噪声
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/microscope-view-ex.gif" />
+            <img src="microscope-view.resources/microscope-view-ex.gif" />
         </td>
     </tr>
 </table>
