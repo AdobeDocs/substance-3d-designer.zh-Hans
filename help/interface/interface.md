@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer工作区界面，包括视图、面板和自定义选项。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作区
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Designer的默认停放布局如下：
 
-![Substance 3D Designer主窗口](../assets/interface-overview.jpg "Substance 3D Designer主窗口")
+![Substance 3D Designer主窗口](interface.resources/interface-overview.jpg "Substance 3D Designer主窗口")
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ Designer的默认停放布局如下：
 </td>
 <td style="border: 0;" valign="top">
 
-![主菜单和工具栏](../assets/mainmenu-1.png "主菜单和工具栏")
+![主菜单和工具栏](interface.resources/mainmenu-1.png "主菜单和工具栏")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ Designer的默认停放布局如下：
 
 [资源管理器窗口](the-explorer-window/the-explorer-window.md)是与任何类型的文件和资源交互的主要方式。 它提供了比主工具栏中的“文件”菜单更多的选项。这是开始和结束每个工作会话的位置。
 
-![资源管理器](../assets/explorer-4.png "资源管理器")
+![资源管理器](interface.resources/explorer-4.png "资源管理器")
 
 ## 图形视图
 
 [图形视图停放](../interface/the-graph-view/the-graph-view.md)是Substance 3D Designer中最重要的窗口。 它显示Designer中可用的任何类型图形的节点网络（[Substance图形](../compositing-graphs/substance-compositing-graphs.md)、[Substance函数图形](../function-graphs/function-graphs.md)、[FX-Map图形](../function-graphs/fxmaps/fxmaps.md)），并允许您构建和编辑这些图形。
 
-![图形视图](../assets/graph-6.png "图形视图")
+![图形视图](interface.resources/graph-6.png "图形视图")
 
 ## 属性
 
 [属性停放区](properties/properties.md)是最具技术性的窗口。 它始终与上下文相关，并且将显示可更改选定资源或节点行为的滑块、下拉菜单和其他元素。
 
-![属性](../assets/properties-15.jpg "属性")
+![属性](interface.resources/properties-15.jpg "属性")
 
 ## 2D 视图
 
 [2D视图](../interface/2d-view/2d-view.md)是最简单的预览工具。 它与图形紧密配合使用：双击图形视图中的任何节点将在2D视图中显示可视化结果。
 
-![2D视图](../assets/2d-view-1.jpg "2D视图")
+![2D视图](interface.resources/2d-view-1.jpg "2D视图")
 
 ## 3D 视图
 
 [3D视图](../interface/3d-view/3d-view.md)是最交互式、最高级的预览窗口。 与2D视图不同，它使用许多不同的输出映射来渲染完整的材质。 这意味着您将看到所有显示的通道，如“基色”、“正常”和“粗糙度”。
 
-![3D视图](../assets/3dview-3.jpg "3D视图")
+![3D视图](interface.resources/3dview-3.jpg "3D视图")
 
 ## 库
 
 默认情况下，[通过库程序坞](../interface/the-library/the-library.md)，可访问Designer库中包含的所有内容，以及[自定义内容](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 为了更好地了解库中原子节点和实例节点之间的差异，请确保阅读[节点概述](https://helpx.adobe.com/substance-designer/using/nodes-overview.html)。
 
-![库](../assets/library-3.jpg "库")
+![库](interface.resources/library-3.jpg "库")

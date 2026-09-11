@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: 了解如何激活Substance 3D Designer并管理用于访问所有特性和功能的许可证。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 激活和许可证
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 | 版本 | 激活过程 |
 | --- | --- |
-| Creative Cloud 桌面版 | 请参阅[HelpX文档](https://helpx.adobe.com/cn/support/substance-3d-designer.html)中的专用页面。 如果有任何问题，[Creative Cloud文档](https://helpx.adobe.com/cn/creative-cloud/user-guide.html)可能会提供其他答案。 |
+| Creative Cloud 桌面版 | 请参阅[HelpX文档](https://helpx.adobe.com/support/substance-3d-designer.html)中的专用页面。 如果有任何问题，[Creative Cloud文档](https://helpx.adobe.com/creative-cloud/user-guide.html)可能会提供其他答案。 |
 | 蒸汽 | 直接从Steam库中启动产品。 |
 | Substance（独立） | 请参阅下述激活流程。 |
 
@@ -40,9 +40,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 要使用“激活向导”安装许可证文件，请确保以管理员身份运行Designer并暂时禁用防病毒软件。
+> 要向激活向导安装许可证文件，请确保以管理员身份运行Designer并暂时禁用防病毒软件。
 
-![激活向导](../../assets/activation-wizard.png "激活向导")
+![激活向导](activation-and-licenses.resources/activation-wizard.png "激活向导")
 
 ### 手动激活
 

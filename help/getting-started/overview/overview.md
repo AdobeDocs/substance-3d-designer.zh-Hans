@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
-description: 概要了解Substance 3D Designer并了解其用于创建程序化材料和纹理的功能。
+description: 概要了解Substance 3D Designer，并了解其用于创建过程性材质和纹理的功能。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -20,25 +20,25 @@ ht-degree: 2%
 
 # 概述
 
-[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)是一款用于在基于节点的界面中创建2D纹理、材料和滤镜的应用程序，主要侧重于程序化生成、参数化和非破坏性工作流程。 它是Substance 3D生态系统中运行时间最长的应用程序，用它创建的资源也是最具通用性和动态性的资源。
+[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)是一款用于在基于节点的界面中创建2D纹理、素材和滤镜的应用程序，主要侧重于程序生成、参数化和非破坏性工作流程。 它是Substance 3D生态系统中运行时间最长的应用程序，用它创建的资源也是最具通用性和动态性的资源。
 
 下面是它与其他应用程序的比较：
 
-|  | <div><img alt="Substance 3D Sampler图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Sampler图标" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer图标" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Sampler图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Sampler图标" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer图标" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>学习曲线</b> | 低 | 中 | 高 |
-| <b>作者材料</b> | 是 | 是 | 是 |
+| <b>作者素材</b> | 是 | 是 | 是 |
 | <b>创作3D模型</b> | 否 | 有限\* | 有限\* |
 | <b>作者滤镜、图案和效果</b> | 否 | Limited | 是 |
 | <b>导出参数内容</b> | 否 | 否 | 是 |
 
-\*：仅限位移，请参阅[场景](../../interface/3d-view/3d-view.md)部分中的<b>3D 视图导出</b>功能。
+\*：仅限位移，请参阅[3D视图](../../interface/3d-view/3d-view.md)部分中的<b>场景导出</b>功能。
 
 简言之，Substance 3D Designer应被视为可用的最具技术性、最先进的纹理应用程序。
 
-它允许您为几乎任何用例或情景创作内容。 这意味着，您不仅限于一种类型的输出（如用于UV映射网格的唯一材料/纹理集），还可以创建内容以用于更广泛的用途集。
+它允许您为几乎任何用例或情景创作内容。 这意味着您不仅限于单一类型的输出（如UV映射网格的独特素材/纹理集），还可以为更广泛的用途集创建内容。
 
-例如，Painter和Sampler中的大多数程序化、智能内容都是从Designer创作和导出的。 画笔Alpha、生成器、滤镜和基础材质等内容都可以在Designer中创作。
+例如，Painter和Sampler中的大多数程序化智能内容都是从Designer创作和导出的。 画笔Alpha、生成器、滤镜和基础材质等内容都可以在Designer中创作。
 
 ## 工作流
 
@@ -60,7 +60,7 @@ Substance 3D Designer是基于节点的编辑器，可让您以多种不同的�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### Substance 3D文件
 
@@ -71,18 +71,18 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Substance 3D 资源
 
 *(\*.SBSAR)*
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### 静态文件
 
@@ -104,7 +104,7 @@ Substance 3D文件可能包含多种用于不同用途的资源。 某些资源�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

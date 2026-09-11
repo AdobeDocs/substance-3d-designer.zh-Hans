@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: 了解在Substance 3D Designer中创建程序性素材的基本工作流程（从头到尾）。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 
 [图表类型](#graph-types)
 
-![已简化数据流](../../assets/graph-direction.png "已简化数据流")
+![已简化数据流](workflow-overview.resources/graph-direction.png "已简化数据流")
 
 ## 基于节点的工作流
 
@@ -40,7 +40,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 
 主要优点是您的工作流变为<b>非线性</b>。 与手动执行的进入历史记录栈栈的操作不同，您始终可以在任何时间点替换或修改节点。 如果您认为您的第一次对比度调整彻底影响了图像结果，那么您仍然可以返回并进行调整，甚至可以将其完全抠掉，而不会丢失您之后执行的所有工作。
 
-![简化的图形实例](../../assets/sub-graph.png "简化的图形实例")
+![简化的图形实例](workflow-overview.resources/sub-graph.png "简化的图形实例")
 
 ## 图形实例工作流
 
@@ -48,13 +48,13 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 
 有关[图形](../../compositing-graphs/substance-compositing-graphs.md)中的图形实例的详细信息，文档中有一个关于这些文档的[专用部分](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
-![简化的图形参数](../../assets/parameters-5.png "简化的图形参数")
+![简化的图形参数](workflow-overview.resources/parameters-5.png "简化的图形参数")
 
 ## 自定义参数
 
 操作链中的任何节点都有某种形式的控制：按钮、滑块、可调整设置，从而影响最终结果。 如果创建子图形，或要将Substance文件导出到其他应用程序，则可以为文件构建自己的“控制面板”，允许任何使用该图形的人员使用完全唯一的控制面板对其进行调整和修改，公开无限的可能性。 [在此处了解自定义参数的一般概念](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)，或在深度和[开始公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)方面了解更多信息。
 
-## 图形类型
+## 图表类型
 
 您可以在下面找到可以在Substance 3D Designer中编辑的三种类型的图形的摘要，以及指向文档相关部分的链接。
 
@@ -62,7 +62,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 在下面您可以找到一些常见用例的典型示例。
 
 +++简单形状
-![图形中的简单形状](../../assets/simpleshape.png "Substance图形中的简单形状"){width="512px"}
+![图形中的简单形状](workflow-overview.resources/simpleshape.png "Substance图形中的简单形状"){width="512px"}
 
 
 
@@ -95,18 +95,18 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 +++
 
 +++调整滤镜
-![图形中的调整滤镜](../../assets/simplefilter.png "Substance图形中的调整滤镜"){width="512px"}
+![Substance图中的调整滤镜](workflow-overview.resources/simplefilter.png "Substance图中的调整滤镜"){width="512px"}
 
 
 
-滤镜图形将法线图作为[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)（具有自定义预览），[将其转换为弯曲](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边蒙版作为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
+滤镜图表将法线图作为[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)（使用自定义预览），[将其转换为曲率](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边缘蒙版作为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
 可以公开在直方图中设置的对比度值，使其与动态输入槽相结合，成为简单但有用的滤镜。
 
 +++
 
 +++全材质
-![Substance图中的完整素材](../../assets/simplematerial.png "Substance图中的完整素材"){width="512px"}
+![Substance图中的完整素材](workflow-overview.resources/simplematerial.png "Substance图中的完整素材"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 以下是Substance函数图的常见用例的一些示例。
 
 +++Simple函数
-![简单函数图形](../../assets/lerpfunction.png "简单函数图形"){width="256px"}
+![简单函数图形](workflow-overview.resources/lerpfunction.png "简单函数图形"){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 +++
 
 +++高级功能
-![高级函数](../../assets/pixel-function.png "高级函数"){width="512px"}
+![高级函数](workflow-overview.resources/pixel-function.png "高级函数"){width="512px"}
 
 
 
