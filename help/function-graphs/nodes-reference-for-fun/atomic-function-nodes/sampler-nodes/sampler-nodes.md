@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Designer函数图表中的sampler节点以对纹理进行采样并提取颜色值。
+description: 访问Substance 3D Designer函数图形中的sampler节点以对纹理进行采样并提取颜色值。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Samplers
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 采样器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Sampler节点
 
-![Sampler节点](../../../../assets/image2016-1-12-14-45-43.png "Sampler节点")
+![Sampler节点](sampler-nodes.resources/image2016-1-12-14-45-43.png "Sampler节点")
 
-这些节点在提供的2D坐标下对输入图像中的值进行采样：
+这些节点在提供的2D坐标处对输入图像中的值进行采样：
 
-<b>灰度示例</b>对灰度图像中输入<b>位置</b>处的明亮度值采样，并将其输出为<b>浮点</b>值。
+<b>样本灰色</b>对灰度图像中输入<b>位置</b>处的明亮度值进行采样，并将其输出为<b>Float</b>值。
 
 <b>示例颜色</b>对彩色图像中输入<b>位置</b>处的RGBA值进行采样，并将其输出为<b>Float4</b>值，其中R、G、B和A组件分别映射到X、Y、Z和W组件。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![像素坐标](../../../../assets/samplercoords.png "像素坐标")
+![像素坐标](sampler-nodes.resources/samplercoords.png "像素坐标")
 
 </td>
 </tr>
@@ -66,8 +66,8 @@ ht-degree: 1%
 <b>最接近</b>\
 像素将在匹配坐标处映射到目标&#x200B;*“原样”*。 如果目标的分辨率较低，则可以完全忽略像素。 如果目标具有更高分辨率，则将映射到覆盖其范围的所有像素。 输出更清晰&#x200B;**，看起来略有&#x200B;*锯齿*。
 
-<b>双线性过滤</b>\
-对源图像应用滤镜过程，以便&#x200B;*平滑*&#x200B;像素之间的过渡的方式将其像素映射到目标分辨率。 输出为&#x200B;*更平滑*，看起来略有&#x200B;*模糊*。
+<b>筛选</b>\
+对源图像应用筛选处理，以便将其像素映射到目标分辨率，从而使&#x200B;*像素之间的过渡变平滑*。 输出为&#x200B;*更平滑*，看起来略有&#x200B;*模糊*。
 
 +++
 

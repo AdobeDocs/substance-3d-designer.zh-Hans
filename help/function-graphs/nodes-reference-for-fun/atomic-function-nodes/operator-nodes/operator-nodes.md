@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Designer函数图中的运算符节点，以执行数学和逻辑运算。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 操作员
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 运算符节点允许您对输入节点进行经典的数学运算：
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/image2015-12-23-10-55-31.png)
 
 >[!NOTE]
 >
