@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中配置管道和项目设置以优化您的工作流程和输出。
 helpx_creative_field: ""
