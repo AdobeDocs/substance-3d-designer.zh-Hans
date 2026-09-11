@@ -120,7 +120,7 @@ ht-degree: 2%
 
 <b>带依赖项的导出</b>与保存和发布不同。 它将获取您的SBS文件，收集所有引用的资源和依赖项，并创建一个自包含包。 通过对话框，可以选择要收集哪些库，以及文件是否应为压缩存档(7-zip)。 与其他人共享SBS文件时最好选择此选项，而不用担心缺少依赖项。
 
-<b>发送至……</b>可打开子菜单，允许您直接[发送包至](send-to-interoperability/send-to-interoperability.md)[Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)或[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
+<b>发送至……</b>可打开子菜单，允许您直接[发送包至](send-to-interoperability/send-to-interoperability.md) [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、[Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)或[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
 
 <b>复制</b>复制所选包。
 

@@ -52,7 +52,7 @@ ht-degree: 1%
 
 
 
-MDL 图&#x200B;*中[Substance 3D文件](../../getting-started/overview/overview.md) (SBS)的*[ Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
+MDL 图&#x200B;*中[Substance 3D文件](../../getting-started/overview/overview.md) (SBS)的*[&#x200B; Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
 
 +++
 
@@ -61,7 +61,7 @@ MDL 图&#x200B;*中[Substance 3D文件](../../getting-started/overview/overview.
 
 
 
-MDL 图&#x200B;*中[Substance 3D资源](../../getting-started/overview/overview.md) (SBSAR)的*[ Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
+MDL 图&#x200B;*中[Substance 3D资源](../../getting-started/overview/overview.md) (SBSAR)的*[&#x200B; Substance图形](../../compositing-graphs/substance-compositing-graphs.md)实例
 
 +++
 

@@ -58,7 +58,7 @@ ht-degree: 11%
 
 [![原子节点：方向模糊](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[方向模糊](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[方向模糊](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ ht-degree: 11%
 
 [![原子节点：输入灰度](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[输入灰度](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入灰度](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>

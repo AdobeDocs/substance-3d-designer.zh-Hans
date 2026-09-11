@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## TDR（仅限Windows）
 
-<b>[！[(error)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)问题</b>
+<b>[![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)问题</b>
 
 系统的<b>超时检测和恢复(TDR)</b>计时器&#x200B;*太短*，无法在图形驱动程序&#x200B;*重新启动*&#x200B;之前让Substance 3D Designer完成其当前计算。
 
