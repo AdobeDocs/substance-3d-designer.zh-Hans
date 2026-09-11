@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 探索Designer中的Substance合成图形示例，了解高级技术和最佳实践。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 示例 Substance 图形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 6%
@@ -32,12 +32,12 @@ ht-degree: 6%
 
 此项目的特点在于使用简单的图形设置在其他图形中用作过滤器。 [筛选器](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)是修改和/或混合一个或多个输入图像的节点。
 
-[![筛选器示例文件图标](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[![筛选器示例文件图标](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![“Filters”示例](../../assets/demo-filter.png "“Filters”示例"){zoomable="yes"}
+![“Filters”示例](sample-substance-compositing-graphs.resources/demo-filter.png "“Filters”示例"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ ht-degree: 6%
 
 您可以在我们的文档的[此页面](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中了解继承。
 
-[![示例文件图标](../../assets/sbs-1.png){width="64px"}继承](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[![示例文件图标](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}继承](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![“继承”样本](../../assets/demo-inheritance.png "“继承”样本"){zoomable="yes"}
+![“继承”样本](sample-substance-compositing-graphs.resources/demo-inheritance.png "“继承”样本"){zoomable="yes"}
 
 </td>
 </tr>
@@ -74,12 +74,12 @@ ht-degree: 6%
 
 此项目演示了该像素处理器的两个简单用例：作为生成器和过滤器。 它也是使用[函数图形](../../function-graphs/function-graphs.md)执行更多操作的跳板。
 
-[![示例文件图标](../../assets/sbs-1.png){width="64px"}像素处理器](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[![示例文件图标](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}像素处理器](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![“像素处理器”样本](../../assets/demo-pixel-processor.png "“像素处理器”样本"){zoomable="yes"}
+![“像素处理器”样本](sample-substance-compositing-graphs.resources/demo-pixel-processor.png "“像素处理器”样本"){zoomable="yes"}
 
 </td>
 </tr>
