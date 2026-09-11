@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: 使用“拼贴随机2”节点，在Substance 3D Designer中使用高级变化控件创建随机拼贴图案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 平铺随机2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
 
 <b>进入：</b>纹理生成器>图案
 
@@ -104,34 +104,34 @@ ht-degree: 0%
 | <b>按单元格区域进行蒙版反转</b> <i>布尔值</i> | 按形状单元格的区域反转形状蒙版。 |
 | <b>按单元格区域开始蒙版</b> <i>浮动</i> | 调整蒙版形状的<i>最小值</i>单元格的区域阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>按单元格区域结束蒙版</b>的值大<i></i>。 |
 | <b>按单元格区域结束设置蒙版</b> <i>浮动</i> | 调整蒙版形状的<i>最大</i>单元格的区域阈值。<br><br><i>注意</i>：这确定了蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>按单元格区域蒙版起始</b>值<i>低</i>。 |
-| <b>蒙版映射输入反转</b> <i>布尔值</i> | 通过<b>蒙版映射</b>输入映射反转形状的蒙版。 |
-| <b>蒙版映射输入开始</b> <i>浮动</i> | 调整蒙版形状在<b>蒙版映射</b>输入图中的<i>最小灰度值</i>阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>掩码映射输入端</b>值<i>大</i>。 |
-| <b>蒙版映射输入端</b> <i>浮动</i> | 调整蒙版形状在<b>蒙版映射</b>输入图中的<i>最大灰度值</i>阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>蒙版映射输入开始</b>值<i>低</i>。 |
+| <b>蒙版映射输入反转</b> <i>布尔值</i> | 通过<b>蒙版映射</b>输入图反转形状的蒙版。 |
+| <b>蒙版映射输入开始</b> <i>Float</i> | 调整蒙版形状在<b>蒙版映射</b>输入图中的<i>最小灰度值</i>阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>掩码映射输入端</b>值<i>大</i>。 |
+| <b>蒙版映射输入端</b> <i>Float</i> | 调整蒙版形状在<b>蒙版映射</b>输入图中的<i>最大灰度值</i>阈值。<br><br><i>注意</i>：这将确定蒙版的<i>值范围</i>的一个限制。 因此，该值可能比<b>蒙版映射输入开始</b>值<i>低</i>。 |
 
 ## 示例
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tilerandom2-node.png" />
         </td>
     </tr>
 </table>
