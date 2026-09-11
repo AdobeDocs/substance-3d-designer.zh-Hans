@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的依赖关系管理器可查看和管理项目中的资源依赖关系。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 依赖项管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ ht-degree: 5%
 
 可以通过在资源管理器中右键单击某个包并在上下文菜单中选择“依赖项管理器”选项来访问该包。
 
-![依赖关系管理器](../../assets/dependency-manager.png "依赖关系管理器")
+![依赖关系管理器](dependency-manager.resources/dependency-manager.png "依赖关系管理器")

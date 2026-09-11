@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: 使用场景浏览器导航和管理视区中的3D场景元素、素材和对象。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 场景浏览器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 由于Designer使用[USD](https://openusd.org/release/index.html)来描述和管理其场景，因此可以在场景树中找到它的术语和概念。
 
-通过单击[3D视图场景工具栏](../../../interface/3d-view/3d-view.md)中的专用切换按钮![](../../../assets/sceneBrowser-toggleButton.png)，可显示它。
+通过单击[3D视图场景工具栏](../../../interface/3d-view/3d-view.md)中的专用切换按钮![](scene-browser.resources/sceneBrowser-toggleButton.png)，可显示它。
 
-![场景浏览器 — 加载的3D场景](../../../assets/loaded3DScene.png "场景浏览器 — 加载的3D场景"){zoomable="yes"}
+![场景浏览器 — 加载的3D场景](scene-browser.resources/loaded3DScene.png "场景浏览器 — 加载的3D场景"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![场景浏览器 — 场景树](../../../assets/sceneBrowser-sceneTree.png "场景浏览器 — 场景树"){zoomable="yes"}
+![场景浏览器 — 场景树](scene-browser.resources/sceneBrowser-sceneTree.png "场景浏览器 — 场景树"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Designer可将一些对象添加到任何加载的场景。 由Designer添加的
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![场景浏览器 — Designer添加的对象以粗体列出](../../../assets/sceneBrowser-addedByDesigner.png "场景浏览器 — Designer添加的对象以粗体列出"){zoomable="yes"}
+![场景浏览器 — Designer添加的对象以粗体列出](scene-browser.resources/sceneBrowser-addedByDesigner.png "场景浏览器 — Designer添加的对象以粗体列出"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Designer可将一些对象添加到任何加载的场景。 由Designer添加的
 
 父对象的状态会传递到其子对象，因此禁用父对象也会禁用其子对象。
 
-通过单击对象的眼睛按钮![](../../../assets/sceneBrowser-eyeButton.png)或单击对象的上下文菜单，可以切换对象的可见性。 该菜单提供了更多用于管理场景对象可见性的操作：
+通过单击对象的眼睛按钮![](scene-browser.resources/sceneBrowser-eyeButton.png)或单击对象的上下文菜单，可以切换对象的可见性。 该菜单提供了更多用于管理场景对象可见性的操作：
 
 * <b>隐藏：</b>禁用所选对象。
 * <b>显示：</b>启用所选对象。
@@ -128,42 +128,42 @@ Designer可将一些对象添加到任何加载的场景。 由Designer添加的
 * <b>展开所有子项：</b>递归展开所选对象下的所有子项列表。
 * <b>折叠所有子项：</b>递归折叠所选对象下的所有子项列表。
 
-![场景浏览器 — 切换对象可见性](../../../assets/sceneBrowser-toggleVisibility.gif "场景浏览器 — 切换对象可见性"){zoomable="yes"}
+![场景浏览器 — 切换对象可见性](scene-browser.resources/sceneBrowser-toggleVisibility.gif "场景浏览器 — 切换对象可见性"){zoomable="yes"}
 
 ### 环境
 
-任何环境光(DomeLight)的可见性都可以像其他对象一样被启用和禁用。
+任何环境光(DomeLight)的可见性可以用与其他对象相同的方式启用和禁用。
 
-禁用环境光时，也会禁用环境光对场景的光照贡献。
+禁用环境光后，其对场景的光照作用也将被禁用。
 
 如果启用了多个环境光，则它们的光照贡献是&#x200B;*累加*。
 
-![场景浏览器 — 切换环境可见性](../../../assets/sceneBrowser-toggleEnvLights.gif "场景浏览器 — 切换环境可见性"){zoomable="yes"}
+![场景浏览器 — 切换环境可见性](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "场景浏览器 — 切换环境可见性"){zoomable="yes"}
 
 ### 光源
 
-场景中的任何光线都是一样的：可以单独切换每个光线。
+场景中的任何光源也是如此：您可以单独切换每个光源。
 
-![场景浏览器 — 切换光照可见性](../../../assets/sceneBrowser-toggleLights.gif "场景浏览器 — 切换光照可见性"){zoomable="yes"}
+![场景浏览器 — 切换光照可见性](scene-browser.resources/sceneBrowser-toggleLights.gif "场景浏览器 — 切换光照可见性"){zoomable="yes"}
 
-## 连接的材质
+## 连接的材料
 
-场景浏览器还允许您将任何被覆盖材质连接到Designer在3D视图的[材质菜单](../../../interface/3d-view/3d-view.md)中列出的其他材质。
+场景浏览器还允许您将任何被覆盖的材料连接到3D材料的[材料菜单](../../../interface/3d-view/3d-view.md)中由Designer列出的另一个视图。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Designer列出的素材是场景树中的素材对象，至少在一个网格上使用。
+Designer列出的材料是至少在一个网格上使用的场景树中的材料对象。
 
-当[覆盖](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)这些素材中的任意素材时，Designer会创建一个带有数字后缀的副本。
+当[覆盖](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)这些材料中的任意一个时，将由Designer创建一个带有数字后缀的副本。
 
-被覆盖素材在其上下文菜单中提供了一个附加项：“[已连接素材](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)”子菜单列出可用于覆盖此素材的所有其他可用素材。
+被覆盖的材料在其上下文菜单中提供了一个附加项：“[已连接材料](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)”子菜单列出可用于覆盖此材料的所有其他可用材料。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![场景浏览器 — 连接的素材](../../../assets/sceneBrowser-connectedMaterial.png "场景浏览器 — 连接的素材"){zoomable="yes"}
+![场景浏览器 — 已连接的材料](scene-browser.resources/sceneBrowser-connectedMaterial.png "场景浏览器 — 已连接的材料"){zoomable="yes"}
 
 </td>
 </tr>
