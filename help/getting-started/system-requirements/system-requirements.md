@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer的系统要求，确保您的计算机满足必要的规格。
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 > **TDR（仅限Windows）**
 > 
-> 在GPU上执行繁重的计算时（例如，渲染复杂图形、3D视图渲染、从3D视图中导出场景等），为获得最佳整体稳定性，强烈建议确保<b>超时检测和恢复(TDR)</b>值与我们文档的[本页](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议相匹配。
+> 在GPU上执行繁重的计算时（例如，渲染复杂图形、3D视图渲染、从3D视图中导出场景等），为获得最佳整体稳定性，强烈建议确保<b>超时检测和恢复(TDR)</b>值与我们文档的[本页](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议相匹配。
 
 ## 不支持的配置
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 下表列出了运行无问题的应用程序所需的最低GPU驱动程序版本。 此列表可能会随新版本发布而发生更改。
 
-要下载新驱动程序，请参阅： [GPU具有过时的驱动程序](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)。
+要下载新驱动程序，请参阅： [GPU具有过时的驱动程序](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)。
 
 | 操作系统 | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 <b>DXR</b>需要以下最低配置：
 
-* <b>Windows 10</b>版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
+* <b>Windows 10</b>版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)
 * <b>具有Pascal体系结构的GPU</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 使用平板电脑
 
-<b>Windows</b>上的Tablet用户应应用以下页面中描述的设置以获得最可靠的体验： [配置笔和平板电脑](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+<b>Windows</b>上的Tablet用户应应用以下页面中描述的设置以获得最可靠的体验： [配置笔和平板电脑](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 语言
 

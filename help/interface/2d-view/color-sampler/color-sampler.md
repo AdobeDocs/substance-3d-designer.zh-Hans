@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: 使用2D视图中的Sampler颜色工具可从纹理中取样颜色，以实现精确的颜色匹配。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中为组织的资源库创建和管理包元数据。
 helpx_creative_field: ""

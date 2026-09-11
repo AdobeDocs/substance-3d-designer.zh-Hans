@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Designer中的库访问和管理节点预设、素材和自定义内容。
 helpx_creative_field: ""

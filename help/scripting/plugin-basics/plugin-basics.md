@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-basics.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/plugin-basics.html"
 breadcrumb-title: ''
 description: 了解为Substance 3D Designer创建Python插件以扩展应用程序功能的基础知识。
 helpx_creative_field: ""

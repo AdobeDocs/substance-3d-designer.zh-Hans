@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer Python脚本中使用线程进行并行处理和性能。
 helpx_creative_field: ""

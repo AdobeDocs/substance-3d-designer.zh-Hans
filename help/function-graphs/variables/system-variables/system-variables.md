@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 了解可用于高级工作流程的Substance 3D Designer函数图形的内置系统变量。
 helpx_creative_field: ""
@@ -62,5 +62,5 @@ ht-degree: 3%
 
 | 名称 | 类型 | 目的 |
 | --- | --- | --- |
-| $time | 浮点 | 此变量返回自Substance 引擎启动以来的时间（秒）。 它可用于结果会根据经过时间而变化的图形中。  **注意：**&#x200B;虽然目前无法在Designer中更改此值，但集成该Substance 引擎的应用程序可以利用该值，例如[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)用于动画，或[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)用于[动态笔触](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)。 |
+| $time | 浮点 | 此变量返回自Substance 引擎启动以来的时间（秒）。 它可用于结果会根据经过时间而变化的图形中。  **注意：**&#x200B;虽然目前无法在Designer中更改此值，但集成该Substance 引擎的应用程序可以利用该值，例如[Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)用于动画，或[Substance 3D Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)用于[动态笔触](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)。 |
 | $normalformat | 整数 | 当前环境中使用的普通格式（即，DirectX或OpenGL）。  **注意：**&#x200B;此变量在Designer中无效，可能被集成该Substance 引擎的其他应用程序使用。 |

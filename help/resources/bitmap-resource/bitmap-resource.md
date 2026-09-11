@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入、创建和使用位图资源以创建基于纹理的材料。
 helpx_creative_field: ""

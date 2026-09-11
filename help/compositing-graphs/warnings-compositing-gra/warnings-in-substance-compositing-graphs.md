@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解Substance合成图形中的警告，并了解如何解决常见问题和错误。
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ E.g. 统一颜色[Output Color]，像素处理器[Per Pixel Function]
 
 ### ![（错误）](../../assets/error.svg)未找到引用资源
 
-在[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)文件(SBS)中保存的路径中找不到节点引用的资源。 以下是引用资源的一些节点：
+在[Substance 3D](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)文件(SBS)中保存的路径中找不到节点引用的资源。 以下是引用资源的一些节点：
 
 * [图形实例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)节点引用图形
 * [位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点引用[位图资源](../../resources/bitmap-resource/bitmap-resource.md)
