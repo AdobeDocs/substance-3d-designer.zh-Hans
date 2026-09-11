@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中使用SSBSCFG配置列表来管理项目设置和预设。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 配置列表 — SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 配置文件比[项目配置文件](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)简单得多，因为它仅包含项目列表以及引擎兼容模式。 与单个项目文件相比，它们可用作更高级别的项目/环境配置列表。
 
-您可以针对不同的环境使用多种配置，这些文件可以与SBSPRJ文件一起受版本控制。
+您可以针对不同的环境使用多种配置，这些文件可以与SBSPRJ文件一起保持版本控制。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG文件图标](../../assets/sbscfg.png "SBSCFG文件图标")
+![SBSCFG文件图标](configuration-list-sbscfg.resources/sbscfg.png "SBSCFG文件图标")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 突出显示的部分是与配置文件相关的部分，您只需将更多项目添加到列表，这些项目存储在上面定义的SSBSCFG文件中。
 
-![项目设置](../../assets/config-ui.png "项目设置")
+![项目设置](configuration-list-sbscfg.resources/config-ui.png "项目设置")
 
 ### 以XML形式进行外部编辑
 

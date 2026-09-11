@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主要MDL 图概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ MDL 材质使用专为基于物理的渲染解决方案设计的说明，嵌入D
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIAIray徽标](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIAIray徽标](main-mdl-graph-concepts.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ MDL 图的结果由<b>根</b>节点定义。 图形的任何节点都可以设�
 
 根节点包括显示其当前输出预览的缩略图。
 
-![MDL 图的根节点](../../assets/mdl-root-hl.png "MDL 图的根节点")
+![MDL 图的根节点](main-mdl-graph-concepts.resources/mdl-root-hl.png "MDL 图的根节点")
 
 *MDL 图中的根节点及其在[属性](../../interface/properties/properties.md)* *面板*&#x200B;中显示的属性
 
@@ -81,7 +81,7 @@ MDL 图的结果由<b>根</b>节点定义。 图形的任何节点都可以设�
 >
 > 只有&#x200B;*匹配数据类型*&#x200B;的连接器可以链接在一起。 颜色编码的唯一目的是提高关于图表中传递的数据类型的可读性，以及哪些连接器可以链接在一起。
 
-![MDL节点连接器类型](../../assets/mdl-connector-types.png "MDL节点连接器类型"){width="512px"}
+![MDL节点连接器类型](main-mdl-graph-concepts.resources/mdl-connector-types.png "MDL节点连接器类型"){width="512px"}
 
 *连接器的长宽比因I/O值类型而异，I/O标识符后面用括号括起来*
 
@@ -101,7 +101,7 @@ MDL 图的结果由<b>根</b>节点定义。 图形的任何节点都可以设�
 * 如果通过&#x200B;*将链接*&#x200B;拖出&#x200B;*输出*&#x200B;连接器来显示“节点”菜单，则该列表包括其&#x200B;*第一输入*&#x200B;的数据类型与所选&#x200B;*输出*&#x200B;的数据类型匹配的节点
 * 如果通过&#x200B;*将链接*&#x200B;拖出&#x200B;*输入*&#x200B;连接器来显示“节点”菜单，则该列表包括其&#x200B;*输出*&#x200B;的数据类型与&#x200B;*选定的输入*&#x200B;数据类型匹配的节点
 
-![已筛选的节点创建](../../assets/mdl-filtered-node-creation.gif "已筛选的节点创建")
+![已筛选的节点创建](main-mdl-graph-concepts.resources/mdl-filtered-node-creation.gif "已筛选的节点创建")
 
 *在MDL图形中创建筛选的节点，请注意列表根据连接器的值类型更改*
 
@@ -111,6 +111,6 @@ MDL材质可从外部源接收数据，例如以值和纹理的形式接收。 �
 
 根据公开节点的&#x200B;*类型*，可以将数据传递给该节点。 例如，可以将浮点值传递到公开的<b>浮点</b>节点，而将纹理传递到公开的<b>颜色</b>节点（在这种情况下，将采样像素的RGBA值作为颜色值传递）。
 
-![公开图形输入](../../assets/mdl-graph-inputs-samplers.png "公开图形输入")
+![公开图形输入](main-mdl-graph-concepts.resources/mdl-graph-inputs-samplers.png "公开图形输入")
 
 *公开节点创建图形输入，这些输入是纹理的原始值输入和取样器*

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中自动设置用户首选项，以简化工作流程配置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 用户首选项 — 自动设置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -28,12 +28,12 @@ user\_preferences.xml文件包含所有用户特定设置，这些设置不在[�
 
 唯一要更改的相关设置是包含项目列表的[配置文件](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)。 这可以通过下面列出的几种方式实现。
 
-或者，您可以完全绕过修改用户首选项的过程，并在快捷键上使用命令行参数对SBSCFG文件执行基于会话的覆盖，请参阅下文。
+或者，您可以完全绕过修改用户首选项的过程，并在Designer快捷键中使用命令行参数对SBSCFG文件执行基于会话的覆盖，请参阅下文。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML文件图标](../../assets/xml-5.png "XML文件图标")
+![XML文件图标](user-preferences-automating-setup.resources/xml-5.png "XML文件图标")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ user\_preferences.xml文件包含所有用户特定设置，这些设置不在[�
 
 如果没有自动设置或出于测试目的，可以手动转到<b>编辑>首选项……</b>，然后单击左侧的“<b>项目</b>”部分。
 
-![项目设置](../../assets/preferences-ui.png "项目设置")
+![项目设置](user-preferences-automating-setup.resources/preferences-ui.png "项目设置")
 
 红色标记的按钮允许用户选择其他[SBSCFG文件](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)。
 
@@ -210,4 +210,4 @@ def SetConfigurationFile(p_ConfigPath):
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![可执行文件属性中的配置文件输入](../../assets/shortcutargument.jpg "可执行文件属性中的配置文件输入")
+![可执行文件属性中的配置文件输入](user-preferences-automating-setup.resources/shortcutargument.jpg "可执行文件属性中的配置文件输入")
