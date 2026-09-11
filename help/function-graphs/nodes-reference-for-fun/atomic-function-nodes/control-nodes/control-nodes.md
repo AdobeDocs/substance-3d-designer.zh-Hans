@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer中的访问控制节点函数图形，用于控制流和执行逻辑。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65827855542d37bf8c090d4d3072684848b73515
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Else节点](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Else节点")
+![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![序列节点](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "序列节点")
+![序列节点](../../../../assets/Sequence_Node.jpg "序列节点")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Whle循环节点](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Whle循环节点")
+![Whle循环节点](../../../../assets/WhileLoop-Node.jpg "Whle循环节点")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -100,14 +100,14 @@ ht-degree: 1%
 </tr>
 </table>
 
-循环具有隐含的最大迭代数，可通过将其设置为–1来禁用它。
+循环具有隐含的最大迭代数，可通过将其设置为–1来禁用该值。
 
 变量在迭代中保留其值，并且可在退出条件(“退出条件”(Exit Cond.))中访问。\
-这意味着您可以为每个迭代添加索引值，并在退出条件中检查其值，以控制所需的循环数。
+这意味着可以在每次迭代时向索引值添加值，并在退出条件中检查其值，以控制所需的循环数。
 
 >[!IMPORTANT]
 >
-> 连接到<b>退出条件</b>的节点 和<b>循环体</b>分支无法连接到图形的其他分支。
+> 连接到<b>退出条件</b>的节点 和<b>循环体</b>分支不能连接到图形的其他分支。
 
 +++输入连接器
 <b>初始化。</b> *变量类型*\
@@ -118,7 +118,7 @@ ht-degree: 1%
 *注意：*&#x200B;最大迭代次数仍限制为<b>最大迭代次数</b>参数。
 
 <b>循环正文</b> *变量类型*\
-从循环中受益的图形。 它会在每个迭代上重新计算。
+从循环中获益的图形。 在每次迭代中重新计算它。
 
 +++
 

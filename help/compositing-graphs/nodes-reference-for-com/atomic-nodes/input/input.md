@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
-description: 使用输入节点为可由用户公开和调整的Substance图形创建输入参数。
+description: 使用“输入”节点创建可由用户公开和调整的Substance图表的输入参数。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 输入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -40,62 +40,17 @@ ht-degree: 0%
 </tr>
 </table>
 
-输入节点是一种特殊类型的节点，可在您的图形中创建动态槽，从而允许在将图形用于其他上下文后连接任何输入。
+输入节点是一种特殊类型的节点，可在图形中创建动态槽，允许一旦在另外的上下文中使用“图形”就连接任何输入。
 
 与[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，您必须显式放置彩色、灰度或值输入。 您不可能创建自己的“不可知”输入，这些输入会根据与它们关联的内容更改类型。
 
-输入节点不像[输出图形](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常工作的高级节点，而无需输入节点。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
 
 ## 参数
 
-</td>
-<td style="border: 0;" valign="top">
+默认情况下，如果未插入任何对象，“输入颜色”或“灰度”会返回黑色。 您可以设置其他默认值，或将现有[位图资源](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖动到图形中的输入节点上，以便在槽中预览此数据。 这仅适用于颜色和灰度输入。 默认值在其它上下文中使用时是永久性的，预览位图将在任何其他位置被丢弃。
 
-### 属性
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 继承
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 集成属性
-
-</td>
-</tr>
-</table>
-
-## 参数
-
-默认情况下，如果未插入任何对象，“输入颜色”或“灰度”会返回黑色。 您可以设置其他默认值，或者将现有[位图资源](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖到图形中的输入节点上，以便在槽中预览此数据。 这仅适用于颜色和灰度输入。 默认值在其它上下文中使用时是永久性的，预览位图将在任何其他位置被丢弃。
-
-如果要使用另一个图形的输出来查看它，则必须将该图形导出为上述方法的位图，或使用“In-Context”编辑。
+如果要用另一个图形的输出来查看它，则必须将该图形导出为上述方法的位图，或使用“In-Context”编辑。
 
 |  |  |
 | --- | --- |
@@ -116,21 +71,21 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 当存在多个输入时，您需要注意图形将如何从这些输入[继承其基本参数](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。\
 基本参数包括<b>输出大小</b>、<b>输出格式</b>和<b>拼贴模式</b>等。
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+可将输入定义为[主要输入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 然后，此输入驱动所有输入的属性，继承方法设置为&#x200B;*相对于父代*。 这是输入节点上默认设置的继承方法&#x200B;**。
 
-[![图形中的主要输入](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![图形中的主要输入](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-可将输入定义为[主要输入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 然后，此输入驱动所有输入的属性，继承方法设置为&#x200B;*相对于父代*。 这是输入节点上默认设置的继承方法&#x200B;**。
 
 您可以将输入节点设置为图形的主要输入，方法是单击该节点上的&#x200B;*RMB*，然后在上下文菜单中选择<b>设置为主要输入</b>选项。\
 节点的主输入在连接器&#x200B;*中用*&#x200B;小黑点标记（在本节旁边的示例中，用红色圈起）。
@@ -145,7 +100,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [Substance 3D资源(SBSAR)](https://helpx.adobe.com/cn/substance-3d-assets.html)中输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父代*。
+> [Substance 3D资源(SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中输入节点的&#x200B;*相对于输入*&#x200B;继承方法&#x200B;*不受支持*。 在发布包之前，将所有输入节点的继承方法设置为&#x200B;*相对于父代*。
 
 ## 集成属性
 

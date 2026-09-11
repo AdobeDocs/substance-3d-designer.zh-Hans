@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: 解决在Substance 3D Designer中创建或加载项目时出现的问题并查找解决方案。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 无法创建加载项目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ## 应用程序太旧，无法打开URL
 
-**![（错误）](../../assets/error.svg)问题**
+**![（错误）](cannot-create-load-a-project.resources/error.svg)问题**
 
 **Substance 3D文件(SBS)**&#x200B;正由&#x200B;*不支持其格式*&#x200B;的Substance 3D Designer版本加载。 Substance 3D文件可能&#x200B;*保存为较新的软件版本*，该软件对这些文件使用了更新的格式。
 
-**![（刻度）](../../assets/check.svg)建议的步骤**
+**![（刻度）](cannot-create-load-a-project.resources/check.svg)建议的步骤**
 
-随着Substance 3D Designer的发展，Substance 3D文件格式(SBS)也将不断发展。 新版本的软件通常需要&#x200B;*更新您的文件*，以便它们可以支持最新功能。
+随着Substance 3D Designer的发展，Substance 3D文件格式(SBS)也会发展。 新版本的软件通常需要&#x200B;*更新您的文件*，以便它们可以支持最新功能。
 
 在新版本中首次&#x200B;*加载文件*&#x200B;时，将&#x200B;*提示*&#x200B;您执行此更新。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 首先，检查您使用的是否是当前许可证允许的最新版本的Substance 3D Designer。 以下是每个版本的更新访问点：
 
 * <b>Substance 3D订阅：</b>转到[Adobe Creative Cloud桌面](https://creativecloud.adobe.com/en/apps/download/creative-cloud)应用程序中“应用程序”选项卡的“更新”部分
-* <b>[Substance3d.com](http://Substance3d.com)订阅：在Substance 3D Designer中提示时更新</b>，或在[订阅3d.com](http://substance3d.com)网站的[我的Substance](https://store.substance3d.com/user)部分中下载最新安装程序
+* <b>[Substance3d.com](http://Substance3d.com)订阅：</b>在Substance 3D Designer中提示时更新，或在[订阅3d.com](http://substance3d.com)网站的[我的许可证](https://store.substance3d.com/user)部分中下载最新的安装程序Substance
 * <b>Steam：</b>应用程序将默认自动更新。 您可以通过启动Substance 3D Designer或转到“下载”屏幕手动触发更新
 
 >[!WARNING]
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 创建或加载项目时崩溃
 
-<b>！[（错误）](../../assets/error.svg)问题</b>
+<b>![（错误）](cannot-create-load-a-project.resources/error.svg)问题</b>
 
 创建或加载项目时崩溃通常是由于[3D 视图](../../interface/3d-view/3d-view.md)初始化期间出错（在设置工作区时发生）引起的。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 如果在会话之间更改&#x200B;*显示配置或缩放*，以便3D 视图渲染帧是在无效坐标下创建的，则也可能发生崩溃。
 
-<b>！[(tick)](../../assets/check.svg)建议的步骤</b>
+<b>![（刻度）](cannot-create-load-a-project.resources/check.svg)建议的步骤</b>
 
 考虑到此崩溃可能由多种原因导致，我们建议按顺序执行以下故障诊断步骤：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 重置保存在注册表中的用户界面
 
-如果该崩溃是由显示配置或缩放中的更改引起的，您可以尝试删除Designer的现有注册表项，以完全重置用户界面以及其他设置。
+如果崩溃是由显示配置或缩放中的更改引起的，您可以尝试删除Designer的现有注册表项，以完全重置用户界面以及其他设置。
 
 按操作系统执行此重置的过程说明如下：
 
@@ -180,16 +180,16 @@ ht-degree: 0%
 
 启动Designer，但&#x200B;*不*&#x200B;创建或打开任何项目
 
-* 在顶部栏中，打开<b>窗口</b>菜单并选择<b>新建3D 视图</b>选项
+* 在顶部栏中，打开<b>窗口</b>菜单并选择<b>新建3D视图</b>选项
 
-在顶部栏中，打开<b>窗口</b>菜单并选择<b>新建3D 视图</b>选项
+在顶部栏中，打开<b>窗口</b>菜单并选择<b>新建3D视图</b>选项
 
-* 检查<b>3D 视图</b>是否正确初始化，然后在面板顶栏的<b>场景</b>菜单中尝试其他预览网格
+* 检查<b>3D视图</b>是否正确初始化，然后在面板顶栏的<b>场景</b>菜单中尝试不同的预览网格
 
-检查<b>3D 视图</b>是否正确初始化，然后在面板顶栏的<b>场景</b>菜单中尝试其他预览网格
+检查<b>3D视图</b>是否正确初始化，然后在面板顶栏的<b>场景</b>菜单中尝试不同的预览网格
 
-* 创建或打开材料
+* 创建或打开材质
 
-创建或打开材料
+创建或打开材质
 
 +++

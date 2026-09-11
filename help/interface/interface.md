@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer工作区界面，包括视图、面板和自定义选项。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 工作区
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -117,6 +117,6 @@ Designer的默认停放布局如下：
 
 ## 库
 
-默认情况下，[通过库程序坞](../interface/the-library/the-library.md)，可访问Designer库中包含的所有内容，以及[自定义内容](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 为了更好地了解库中原子节点和实例节点之间的差异，请确保阅读[节点概述](https://helpx.adobe.com/substance-designer/using/nodes-overview.html)。
+默认情况下，[通过库程序坞](../interface/the-library/the-library.md)，可访问Designer库中包含的所有内容，以及[自定义内容](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。
 
 ![库](interface.resources/library-3.jpg "库")

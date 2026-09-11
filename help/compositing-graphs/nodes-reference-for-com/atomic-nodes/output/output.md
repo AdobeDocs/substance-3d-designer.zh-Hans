@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
 ![原子节点：输出](output.resources/comp_output_1.png "原子节点：输出"){width="200px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 输出节点指定Substance图形的<b>结果</b>，如果其中存在多个输出节点，则指定其结果之一。
 
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 ## 属性
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   标识符被使用，因为节点的标签是“Label”属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是Substance图形。 |
 | <b>标签</b> *字符串* | 这用作输出节点及其在[实例节点](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中代表此图形的对应连接器的标签。 标签可以包含空格和特殊字符。 |
@@ -61,19 +61,21 @@ ht-degree: 0%
 
 因此，它们不会影响[位图导出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的格式。 此外，Designer中仅使用<b>Usage</b>属性，有关详细信息，请参阅下文。
 
-<b>用法</b>
++++ 使用情况
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>组件</b> *字符串* | 用于将某些纹理通道映射到AxF工作流程中的适当SVBRDF着色器输入。 |
-| <b>用法</b> *字符串* | 定义输出节点的类型和用法。 此属性在驱动时非常重要：<ul data-preserve-html="true"> <li data-preserve-html="true">使用某些[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)时连接图形中的节点 </li> <li data-preserve-html="true">纹理与3D 视图中着色器的连接（请参阅下文：“[关于3D 视图中使用者的作用](#usages-role-3dview)”）</li> <li data-preserve-html="true">纹理与集成/增效工具中材料的连接</li> </ul> |
+| <b>用法</b> *字符串* | 定义输出节点的类型和用法。 此属性在驱动时非常重要：<ul data-preserve-html="true"> <li data-preserve-html="true">使用某些[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)时连接图形中的节点 </li> <li data-preserve-html="true">纹理与3D 视图中着色器的连接（请参阅下文：“[关于3D 视图中使用者的作用](#about-the-role-of-usages-in-the-3d-view)”）</li> <li data-preserve-html="true">纹理与集成/增效工具中材料的连接</li> </ul> |
 | <b>色彩空间</b> *字符串* | 设置解释此输出的色彩空间。 由其他应用程序中的某些集成使用，在Designer中没有影响。 |
+
++++
 
 ### 关于使用在3D 视图中的作用
 
 由于图形输出通常旨在作为特定纹理声道的最终结果，因此输出可以自动发送到3D 视图中使用的着色器的相应采样器。
 
-实际上，<b>用法</b>属性&#x200B;*与3D 视图中的取样器用法*&#x200B;匹配的输出将连接到该取样器。 例如，使用情况为`basecolor`的输出将连接到着色器的`basecolor`取样器。 在[3D 视图](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion)页面的[查看3D 视图](../../../../interface/3d-view/3d-view.md)部分中的数据，了解详细信息。
+实际上，<b>用法</b>属性&#x200B;*与3D 视图中的取样器用法*&#x200B;匹配的输出将连接到该取样器。 例如，使用情况为`basecolor`的输出将连接到着色器的`basecolor`取样器。 （了解详情： [以3D视图查看数据](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)）
 
 单击[图形视图](../../../../interface/the-graph-view/the-graph-view.md)的空白区域上的人民币，然后在上下文菜单中选择<b>在3D视图中查看输出</b>选项，以将所有输出连接到具有&#x200B;*匹配用法*&#x200B;的3D 视图取样器。
 
