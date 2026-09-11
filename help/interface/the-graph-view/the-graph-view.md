@@ -53,7 +53,7 @@ ht-degree: 0%
 
 使用F键<b>聚焦</b>所选节点或整个图形（如果未选择任何内容）。
 
-也可以使用<b>导航大头针</b>和F2键进行导航，请参阅下面的[图形项](#graph-items)[。](../../interface/the-graph-view/graph-items/graph-items.md)
+也可以使用<b>导航大头针</b>和F2键进行导航，请参阅下面的[图形项](#graph-items) [。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## 移动对象
 
@@ -223,9 +223,9 @@ ht-degree: 0%
 
 <b>创建\*：</b>为此节点的每个输入和/或输出创建输入和/或输出节点；
 
-<b>打开引用\*：</b>将此图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的Node [加载为单独的图形视图选项卡；
+<b>打开引用\*：</b>将此图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的Node 加载为单独的图形视图选项卡；
 
-<b>在上下文中打开引用\*\*：</b>在当前图形的上下文中将此图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的节点[加载为现有图形视图选项卡中的痕迹导航；
+<b>在上下文中打开引用\*\*：</b>在当前图形的上下文中将此图形[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的节点加载为现有图形视图选项卡中的痕迹导航；
 
 <b>从所选对象创建图形：</b>将所选节点复制到新图形中；
 
