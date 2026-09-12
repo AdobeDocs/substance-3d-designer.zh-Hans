@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本15.1的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 *发行日期：2025年12月11日*
 
-![Designer 15.1横幅](../../assets/bannerweb.png)
+![Designer 15.1横幅](version-15-1.resources/bannerweb.png)
 
 ## 改进图表创建
 
@@ -36,13 +36,13 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 [了解详情](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![重新设计新图形窗口](../../assets/newgraph.png){zoomable="yes"}
+![重新设计新图形窗口](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## 嵌入样本
 
 随着我们重新设计的图表创建窗口的启动，我们直接在软件中添加了各种[<b>示例素材</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)。 此增强功能用于响应您有关更好地访问学习资源的请求。
 
-![新的示例图形创建窗口](../../assets/GraphSample.png){zoomable="yes"}
+![新的示例图形创建窗口](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 为了满足这一需求，我们使用了织物（包括皮革和缎面）、木材、金属、塑料、陶瓷等材料样本。 这些示例旨在帮助您轻松启动项目并熟悉Substance 3D Designer中可用的主要系列节点
 
@@ -54,7 +54,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 [了解详情](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![Substance Designer中的木质样本](../../assets/samplegraph.png){zoomable="yes"}
+![Substance Designer中的木质样本](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## 新增噪声
 
@@ -70,7 +70,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 示例： [细胞1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [云彩2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向划痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [水汽噪声1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![方向无序噪声](../../assets/directionaldisorder.gif){zoomable="yes"}
+![方向无序噪声](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## 节点菜单中的层次结构
 
@@ -82,12 +82,12 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![使用类别1](../../assets/search1-2.png){zoomable="yes"}进行节点搜索
+![使用类别1](version-15-1.resources/search1-2.png){zoomable="yes"}进行节点搜索
 
 </td>
 <td style="border: 0;" valign="top">
 
-![使用类别2](../../assets/search2.png){zoomable="yes"}进行节点搜索
+![使用类别2](version-15-1.resources/search2.png){zoomable="yes"}进行节点搜索
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="在默认输出中，缩览图始终是相关的。">
+      <img src="version-15-1.resources/defaultouput1.png" alt="在默认输出中，缩览图始终是相关的。">
       <br><i>之后</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 
 [了解详情](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![已定义节点](../../assets/isdefined.png){zoomable="yes"}
+![已定义节点](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## 发行说明
 
@@ -199,8 +199,8 @@ Substance Designer15.1提供了一个完全改版的图表创建窗口，其中�
 * [3D视图]Specular level未正确应用
 * [3D视图]使用Eclair光栅器时Specular edge color不起作用
 * [3D视图]用户添加的材质未应用于默认场景
-* [3D视图]&#x200B;[烘焙]材质颜色在覆盖后或使用“颜色”烘焙器时过暗
-* [3D视图]&#x200B;[烘焙]FBX文件无材质颜色
+* [3D视图][烘焙]材质颜色在覆盖后或使用“颜色”烘焙器时过暗
+* [3D视图][烘焙]FBX文件无材质颜色
 * [Bakers]无法正确检测到FBX文件中的素材颜色
 * [Bakers]在JSON预设导出中，“recompute\_tangents”选项始终为“false”
 * [Bakers] CLI：通过JSON文件连续运行同一烘焙器时崩溃

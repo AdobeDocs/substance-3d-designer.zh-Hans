@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中导入和使用AxF外观交换格式资源以导入材料。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF（外观交换格式）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxF 文件图标](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
+[![AxF 文件图标](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 单击[主屏幕](../../interface/home-screen/home-screen.md)左侧部分中的<b>导入AxF...</b>按钮。
 
-![AxF：从主屏幕开始导入](../../assets/axf_home-screen.png "AxF：从主屏幕开始导入"){width="600px"}
+![AxF：从主屏幕开始导入](axf-appearance-exchange-format.resources/axf_home-screen.png "AxF：从主屏幕开始导入"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 在[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)中单击包上的RMB，然后转到包上下文菜单中的<b>导入> AxF</b>。
 
-![AxF：从资源管理器开始导入](../../assets/axf_explorer.png "AxF：从资源管理器开始导入"){width="600px"}
+![AxF：从资源管理器开始导入](axf-appearance-exchange-format.resources/axf_explorer.png "AxF：从资源管理器开始导入"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 <b>元数据</b>和<b>属性</b>列出从AxF文件中的素材提取的数据。 这些对于配置某些Substance图形模板属性的方式有影响（请参阅下面的[图形模板](#graph-templates)部分）。
 
-![AxF：导入对话框](../../assets/axf_import.png "AxF：导入对话框")
+![AxF：导入对话框](axf-appearance-exchange-format.resources/axf_import.png "AxF：导入对话框")
 
 ### 结果
 
@@ -110,7 +110,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：导入过程的包结果](../../assets/axf_package.png "AxF：导入过程的包结果")
+![AxF：导入过程的包结果](axf-appearance-exchange-format.resources/axf_package.png "AxF：导入过程的包结果")
 
 </td>
 </tr>
@@ -129,29 +129,29 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：在导入对话框中添加模板](../../assets/axf_add-template.png "AxF：在导入对话框中添加模板")
+![AxF：在导入对话框中添加模板](axf-appearance-exchange-format.resources/axf_add-template.png "AxF：在导入对话框中添加模板")
 
 </td>
 </tr>
 </table>
 
-### Substance图形模板
+### 图形模板
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-有两种类型的Substance图模板可用：
+有两种类型的图形模板可用：
 
-<b>AxF到金属粗糙度</b>和<b>AxF到Specular光泽度</b>是&#x200B;*转换*&#x200B;模板，可用于将AxF材质映射到标准PBR模型。\
-然后，可以将它们与默认3D视图着色器一起使用，并与在Designer、[Sampler](https://www.adobe.com/cn/products/substance3d-sampler.html)中制作或从我们的[3D资源](https://substance3d.adobe.com/assets/)库中获取的其他PBR素材组合使用。
+<b>AxF到金属粗糙度</b>和<b>AxF到Specular光泽度</b>是&#x200B;*转换*&#x200B;模板，用于将AxF材料映射到标准PBR模型。\
+然后，可以将它们与默认3D 视图着色器一起使用，并与在Designer、[Sampler](https://www.adobe.com/products/substance3d-sampler.html)中生产的或从我们的[3D资源](https://substance3d.adobe.com/assets/)库中获取的其他PBR材料相结合。
 
-<b>AxF到AxF</b>是一个&#x200B;*直通*&#x200B;模板，可让您就地编辑AxF材料，并将这些更改导出为现有AxF文件中的新图层。 要了解更多信息，请参见下面的导出AxF文件。
+<b>AxF到AxF</b>是一个&#x200B;*直通*&#x200B;模板，可让您就地编辑AxF材料，并将这些更改导出为现有AxF 文件中的新图层。 要了解更多信息，请参阅下面的导出AxF 文件。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：Substance图形模板](../../assets/axf-templates.png "AxF：Substance图形模板")
+![AxF：图形模板](axf-appearance-exchange-format.resources/axf-templates.png "AxF：Substance图形模板")
 
 </td>
 </tr>
@@ -161,45 +161,45 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-对于<b>模板</b>列表中添加的所有Substance图形模板，将执行以下附加操作：
+对于<b>模板</b>列表中添加的所有图形模板，将执行以下附加操作：
 
-对于任何[<b>输入</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)节点，如果&#x200B;*用法*&#x200B;与从AxF文件中提取的纹理的&#x200B;*标识符*&#x200B;匹配，则输入节点将被替换为引用该纹理的[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点；
+对于任何[<b>输入</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)节点，如果&#x200B;*用法*&#x200B;与从该AxF 文件提取的纹理的&#x200B;*标识符*&#x200B;匹配，则该输入节点将被替换为引用该纹理的[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点；
 
-图形的<b>分辨率</b>属性（即，输出大小）将自动设置为两个的幂，等于或高于&#x200B;*最大*&#x200B;提取纹理的分辨率；
+图形的<b>分辨率</b>属性（即，输出大小）将自动设置为两个的幂，该幂等于或高于&#x200B;*最大*&#x200B;提取纹理的分辨率；
 
-[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点的<b>分辨率</b>属性（即，输出大小）在应用上一个操作后自动设置为与图形匹配；
+[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点的<b>分辨率</b>属性（即，输出大小）在应用了上一个操作后自动设置为匹配图形的；
 
-图形的<b>物理尺寸</b>属性设置为&#x200B;*第一个*&#x200B;提取纹理的物理尺寸；
+图形的<b>物理尺寸</b>属性设置为&#x200B;*第一个*&#x200B;提取的纹理的物理尺寸；
 
-图形参数的&#x200B;*默认值*&#x200B;设置为与AxF文件中的数据匹配。
+图形参数的&#x200B;*默认值*&#x200B;设置为与AxF 文件中的数据匹配。
 
-从AxF文件中的素材提取的&#x200B;*元数据*&#x200B;将复制到图形的<b>描述</b>属性中。
+从AxF 文件中的材料提取的&#x200B;*元数据*&#x200B;将复制到图形的<b>描述</b>属性中。
 
 >[!IMPORTANT]
 >
-> 图形参数的默认值不应在此初始配置之后进行修改。
+> 在此初始配置之后，不应修改图形参数的默认值。
 > 
-> 它们指定了正确解释着色中的值所必需的“纹理”属性。
+> 它们指定了正确解释着色中的值所必需的纹理属性。
 > 
-> 因此，在[3D视图](../../interface/3d-view/3d-view.md)中可视化素材时，更改这些设置将导致渲染不正确。
+> 因此，在[3D 视图](../../interface/3d-view/3d-view.md)中显示材料时，更改这些设置将导致渲染不正确。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：图形参数Substance](../../assets/axf_graph-props.png "AxF：图形参数Substance")
+![AxF：Substance的图形参数](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF：Substance的图形参数")
 
 </td>
 </tr>
 </table>
 
-## 导出AxF文件
+## 导出AxF 文件
 
-可从Designer就地编辑现有AxF文件，其资源可使用[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)进行更新。
+可从Designer就地编辑现有AxF 文件，其资源可使用[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)进行更新。
 
-由于能够将图形输出导出到AxF文件，Designer中的典型AxF工作流程可能如下所示：
+具有将图形输出导出到AxF 文件的功能，Designer中的典型AxF工作流程可能如下所示：
 
-1. 导入AxF文件
-1. 使用“AxF到AxF”Substance图形模板
+1. 导入AxF 文件
+1. 使用“AxF to AxF”图形模板
 1. 使用图形中可用的功能和节点编辑提取的纹理
 1. 将图形输出导出到同一AxF 文件
 
@@ -209,7 +209,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 >
 > 对文件中资源的更改将添加为&#x200B;*新图层*。 这意味着每次从Designer导出到同一AxF 文件时，都会增加该文件的大小。
 
-![导出AxF](../../assets/exportaxf.gif)
+![导出AxF](axf-appearance-exchange-format.resources/exportaxf.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 <b>AxF</b>导出对话框在<b>导出输出</b>对话框中可用作专用选项卡。
 
-在[图形视图](../../interface/the-graph-view/the-graph-view.md)工具栏中，打开![](../../assets/tools.jpg) <b>工具</b>菜单，选择<b>导出输出……</b>选项以显示对话框，然后选择<b>AxF</b>选项卡。
+在[图形视图](../../interface/the-graph-view/the-graph-view.md)工具栏中，打开![](axf-appearance-exchange-format.resources/tools.jpg) <b>工具</b>菜单，选择<b>导出输出……</b>选项以显示对话框，然后选择<b>AxF</b>选项卡。
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF：图形视图工具栏中的导出选项](../../assets/axf_graph-export.png "AxF：图形视图工具栏中的导出选项")
+![AxF：图形视图工具栏中的导出选项](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF：图形视图工具栏中的导出选项")
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 >
 > 图形输出的<b>组</b>属性需要设置为“AxF”，才能在此对话框中列出。
 
-![AxF：导出对话框](../../assets/axf_export.png "AxF：导出对话框")
+![AxF：导出对话框](axf-appearance-exchange-format.resources/axf_export.png "AxF：导出对话框")
 
 单击<b>开始导出</b>以使用包含映射输出中的更改的新图层编辑目标AxF 文件。
 
@@ -254,55 +254,55 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 ### 将输出映射到AxF资源
 
-导出到现有AxF 文件时，会使用图形输出更新其资源。 Designer将资源标识符与[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点匹配，这些节点的标识符与<b>用法</b>相同。
+导出到现有AxF 文件时，会使用图形输出更新其资源。 Designer将该资源标识符与[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点匹配，这些节点的标识符与<b>Usage</b>相同。
 
 此外，输出的<b>组</b>属性&#x200B;*必须*&#x200B;设置为“AxF”，才能将其列在AxF导出对话框中（请参阅上文）。
 
-![AxF：图形的输出用法](../../assets/axf_output_usage.png "AxF：Substance图形的输出用法")
+![AxF：Substance图表的输出用法](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF：Substance图表的输出用法")
 
-资源可以是具有特定数量通道的纹理（即位图）或制式（即值）。 图形输出必须与该数目的声道完全匹配。 否则，将在导出期间针对该资源引发错误，并且该资源将保持不变。
+资源可以是具有特定通道数量的纹理（即位图）或制服（即值）。 图形输出必须与该数目的声道完全匹配。 否则，将在导出期间针对该资源引发错误，并且该资源将保持不变。
 
 根据提供给Output节点的数据类型，通道数会以不同的方式指定：
 
-* <b>位图(纹理)：</b> [组件](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)属性用于指定通道数，其中R是一个通道，RG是两个通道，依此类推。 该属性用于让Designer知道应将彩色位图的RGBA通道的哪个通道编码到资源中。
-* <b>值（一致）：</b>矢量值的组件数量用于指定声道数量，其中[Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是一个声道，[Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是两个声道，依此类推。
+* <b>位图（纹理）：</b> [组件](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)属性用于指定通道数，其中R是一个通道，RG是两个通道，依此类推。 该属性用于让Designer知道应将彩色位图的RGBA通道的哪个通道编码到资源中。
+* <b>值（一致）：</b>矢量值的组件数用于指定通道数，其中[Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是一个通道，[Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)是两个通道，依此类推。
 
 >[!IMPORTANT]
 >
-> 在<b>AxF到AxF</b>图形模板中，<b>Specular波瓣</b>贡献的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点默认配置为&#x200B;*单通道*（即其Components属性设置为“R”）。\
-> 如果导入的AxF 文件在其SpecularLobe资源中使用了多个通道，请相应地设置输出的<b>组件</b>属性。
+> 在<b>AxF到AxF</b>Substance图形模板中，<b>Specular瓣</b>贡献的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点默认配置为&#x200B;*单通道*（即，其Components属性设置为“R”）。\
+> 如果导入的AxF文件在其SpecularLobe资源中使用了多个通道，请相应地设置输出的<b>组件</b>属性。
 > 
-> 例如，对于使用两个声道（红色表示粗糙度，绿色表示Specular各向异性）的SpecularLobe资源，将“组件”属性设置为“RG”。
+> 例如，对于使用两个声道的SpecularLobe资源（“红色”表示Specular粗糙度，“绿色”表示Specular各向异性），将“组件”属性设置为“RG”。
 
-## 查看3D 视图中的AxF 文件
+## 在3D视图中查看AxF文件
 
-在[3D 视图](../../interface/3d-view/3d-view.md)中渲染AxF SVBRDF材料的方法取决于[导入设置](#import)。
+在[3D视图](../../interface/3d-view/3d-view.md)中渲染AxF SVBRDF材质的方法取决于[导入设置](#import)。
 
 +++转换为PBR
 
-如果要将AxF 文件中的SVBRDF材料转换为标准PBR材料，则导入设置可能涉及[Substance图形转换模板](#graph-templates)。
+如果要将AxF文件中的SVBRDF材质转换为标准PBR材质，则导入设置可能需要[Substance图形转换模板](#graph-templates)。
 
-在这种情况下，应在3D 视图中使用&#x200B;**OpenGL渲染器**，然后选择<code>AxF SVBRF</code> 着色器。\
-然后，可以拖放在“导入”对话框中设置的图形，以便将其输出连接到着色器。
+在这种情况下，应在3D视图中使用&#x200B;**OpenGL渲染器**，然后选择<code>AxF SVBRF</code> 着色器。\
+然后，可以拖放在“导入”对话框中设置的Substance图形，以便将其输出连接到着色器。
 
-![AxF：查看以进行转换](../../assets/axf-view-for-convert.gif "AxF：查看以进行转换")
+![AxF：查看以进行转换](axf-appearance-exchange-format.resources/axf-view-for-convert.gif "AxF：查看以进行转换")
 
 +++
 
 +++在当前位置编辑
 
-如果您的目标是对现有AxF 文件执行&#x200B;*编辑*，请按照以下说明根据选定的渲染器显示其SVBRDF材料：
+如果您的目标是对现有AxF文件执行&#x200B;*编辑*，请按照以下说明根据选定的渲染器显示其SVBRDF素材：
 
-有专用的着色器可用于使用AxF 文件<b>AxF SVBRDF</b>中的SVBRDF表示法将材料可视化。
+专用的GLSLFX着色器可用于使用AxF文件中的SVBRDF表示法可视化材质： <b>AxF SVBRDF</b>。
 
-此着色器在<b>材料</b>菜单中可用：打开场景材料的子菜单（默认情况下为“默认”），然后选择<b>AxF SVBRDF</b>项下的任何方法。
+着色器在<b>材质</b>菜单中可用：打开场景材质的子菜单（默认情况下为“默认”），然后选择<b>AxF SVBRDF</b>条目下的任何技术。
 
 使用同一子菜单中的“<b>编辑</b>”选项在[属性](../../interface/properties/properties.md)停靠区中显示着色器的属性。\
 特别是，<b>拼贴</b>属性允许您调整模型上纹理的拼贴，以便能够以适当的比例显示材料。
 
 选择着色器后，在图形的空白处单击RMB，然后选择<b>在3D 视图中查看输出</b>选项以在[3D 视图](../../interface/3d-view/3d-view.md)中可视化其输出。
 
-![AxF：SVBRDF GLSLFX着色器](../../assets/axf_glslfx-svbrdf.png "AxF：SVBRDF GLSLFX着色器"){width="600px"}
+![AxF：SVBRDF GLSLFX着色器](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF：SVBRDF GLSLFX着色器"){width="600px"}
 
 此着色器当前是&#x200B;*在创作品*，某些功能仍不受支持。 因此，虽然它可以提供材料特性的概况，但不能用于精细调整。
 
@@ -311,7 +311,7 @@ AxF 文件导入工作流程可以从以下两种方法之一启动：
 
 选择着色器后，在图形的空白处单击RMB，然后选择<b>在3D 视图中查看输出</b>选项以在[3D 视图](../../interface/3d-view/3d-view.md)中可视化其输出。
 
-![AxF：查看版本](../../assets/axf-view-for-edit.gif "AxF：查看版本")
+![AxF：查看版本](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF：查看版本")
 <i>注意：</i>忽略视频部分从切换到Iray渲染器直到结束，因为16.0.0版中的Iray渲染器和MDL支持已<i>从Designer中删除</i>。
 
 +++
