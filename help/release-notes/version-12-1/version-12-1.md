@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -20,57 +20,57 @@ ht-degree: 0%
 
 # 版本 12.1
 
-**Substance 3D Designer 12.1**&#x200B;为Substance材料图形、USD文件格式支持带来了许多新节点，并添加了与Stager的更多互操作性。
+**Substance 3D Designer 12.1**&#x200B;为Substance素材图表带来了许多新节点、支持USD文件格式并添加了与Stager的更多互操作性。
 
 发行日期：*2022年4月26日*
 
 ## 主要功能
 
-### 适用于材料图形的新内容
+### 用于Substance材料图表的新内容
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
-此版本中添加了许多节点，您可以找到一些新模式、新噪声、新过滤器……
+此版本中添加了许多节点，您可以找到一些新图案、新杂色、新滤镜……
 
 请查看下面链接的节点页面，了解这些功能强大的新节点可实现的广泛输出的示例！
 
 * **新图案**
 
-  * 我们添加了一个新的<b>拼贴随机2</b>节点，用于生成具有随机大小和比例的相邻拼贴，对于快速创建具有倾斜、圆角和斜角的完全不规则网格非常有用。
+  * 我们添加了一个新的<b>拼贴随机2</b>节点，以生成具有随机大小和比例的相邻拼贴，这对于快速创建具有倾斜、圆角和斜角的完全不规则网格非常有用。
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
-  * 新建<b>Triangle Grid</b>图案以生成由三角形组成的网格。 我们在下面的材料中使用它来轻松而完美地模拟皮革颗粒。 此生成器表示3D空间中的顶点表面，可用于创建各种多边形样式。
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
+  * 新建<b>Triangle Grid</b>图案以生成由三角形组成的网格。 我们将其用于下面的素材中，以轻松而完美地模拟皮革颗粒。 此生成器表示3D空间中的顶点表面，可用于创建各种多边形样式。
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **新噪声**
 
   * 为了给您更多样化，我们提供了一组<b>15个新污渍地图</b>（混凝土、泄漏、溅污……） 已添加到库。
 
-    ![](../../assets/grungemaps.png){width="640px"}
-  * 您还会看到很多<b>新的2D和3D噪声</b>，例如Voronoi（2D和3D）、Voronoi分形（2D和3D）、3D脊状分形以及对当前3D Perlin噪声的更新（添加拼贴和绝对选项）。\
-    这些噪声都映射在3D空间中，并提供多种样式，从而增加了多样性和控制性，这将为您提供足够的选择来为材料创建完美的地图，例如海和下面的科幻面板材料。
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
+  * 您还会发现很多<b>新的2D和3D噪声</b>，例如Voronoi（2D和3D）、Voronoi分形（2D和3D）、3D脊状分形以及对当前3D Perlin噪声的更新（添加拼贴和绝对选项）。\
+    这些噪声全部映射到3D空间并提供多种样式，从而允许增加多样性和控制力，这将为您提供足够的选择来为您的材料创建完美的地图，例如海和下面的科幻面板材料。
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
-  * <b>3D纹理节点</b>（位置、SDF、偏移）和<b>3D渲染节点</b>（表面或体积）的集合，用于创建和渲染3D纹理，这是3D模型的切片图集。
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
+  * <b>“3D纹理”节点</b>（位置、SDF、偏移）和<b>“3D渲染”节点</b>（表面或体积）的集合，用于创建和渲染3D纹理，这是3D模型切片的贴图集。
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **新筛选器**
 
   * 使用<b>自动裁剪</b>节点，您可以在图像的&#x200B;*中心*&#x200B;放置一个形状，而无需调整大小，或者调整其大小以适应空间。 例如，可以随意调整形状，同时在散布时保持一致的位置和大小。
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
-  * 使用<b>Extend Shape</b>节点，您将能够在自定义方向和距离上拉伸形状的一部分。
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
+  * 使用<b>Extend Shape</b>节点，您将能够在自定义方向和距离上拉伸形状的某一部分。
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * 使用<b>非均匀旋转</b>节点，可以根据给定的映射旋转输入。
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **以及……**
 
-  * 缓动函数（函数图形），对于以非线性方式驱动值非常有用。
+  * 缓动函数（函数图表），这些函数对于以非线性方式驱动值非常有用。
   * 最后，此版本还带来了一个新的、更准确的<b>Quantize</b>节点版本，以及一个全新的<b>求和区域表</b>实用程序筛选器。
 
 ### 提高互操作性
@@ -89,19 +89,19 @@ ht-degree: 0%
 * <b>发送到Stager\
   </b>您现在只需单击一下即可将材料发送到Stager，使用Sampler和Painter即可做到这一点。 得益于此功能，不再需要以SBSAR格式发布并加载单个文件（需要使用新的材料管理器安装Stager版本1.2.0）
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### 杂项
 
 * 如果您正在处理织物，现在可以在3D视图中显示专用网格，以便更好地查看材料如何在褶皱形状上呈现。 打开3D视图面板中的<b>场景</b>菜单，然后选择<b>布料</b>选项以显示此模型。
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
 * 我们还为Substance模型图添加了一些新的场景管理节点。 这些节点允许您重命名、重新设置父级、合并或扩展场景元素，以便整理场景层次结构。 还有一个新节点用于设置场景的一个或多个元素的透视。
 
 * 在Designer中处理项目时，您可能会遇到警告和错误消息，这些消息会通知您项目中存在问题。 在此版本中，我们<b>改进错误管理系统</b>，以显示资源管理器中的所有错误和警告：所有内容都列在一个位置，因此可以更轻松地检查您的项目是否包含任何问题。
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## 发行说明
 
@@ -111,12 +111,12 @@ ht-degree: 0%
 
 <b>已添加：</b>
 
-* [Main]适用于图形的新内容
+* [主要]材料图表的新内容
 * [主要]将材料发送到Stager
 * [主要]支持USD文件
 * [主要]改进UI中的错误报告
 * [Main]模型图的场景管理节点
-* [内容]向3D Perlin噪声添加更多选项（拼贴、绝对……）
+* [内容]为3D柏林噪音添加更多选项（拼贴、绝对……）
 * [内容]新的3D脊状噪声分形节点
 * [内容]新的3D纹理偏移节点
 * [内容]新的3D纹理位置节点

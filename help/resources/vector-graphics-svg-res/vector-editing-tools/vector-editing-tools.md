@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 矢量编辑工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 > 您只能&#x200B;*在* 8位&#x200B;*[矢量图形资源](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)上绘画* 1&rbrace;，这些资源是[新的或导入的](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)。
 
-![新建SVG资源对话框](../../../assets/2dview-new-vector-image.png "新建SVG资源对话框"){width="512px"}
+![新建SVG资源对话框](vector-editing-tools.resources/2dview-new-vector-image.png "新建SVG资源对话框"){width="512px"}
 
 ## 启用矢量编辑工具
 
@@ -87,7 +87,7 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 **Adobe Illustrator**&#x200B;用户可参考附加的图像以了解推荐的SVG *导出设置。*
 
 +++Adobe Illustrator导出选项
-![SVG的Illustrator导出选项](../../../assets/demo-svg.png "SVG的Illustrator导出选项")
+![SVG的Illustrator导出选项](vector-editing-tools.resources/demo-svg.png "SVG的Illustrator导出选项")
 
 
 
@@ -103,13 +103,13 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 
 启用矢量编辑工具后，将显示两个工具栏：
 
-* **工具选择** **工具栏**：允许您&#x200B;*选择工具*&#x200B;以及&#x200B;*填充/轮廓颜色*，并且默认情况下位于2D 视图面板的&#x200B;*左侧*&#x200B;上
-* **工具选项工具栏**：允许您设置&#x200B;*当前所选工具*&#x200B;的&#x200B;*选项*，并且默认情况下位于“2D 视图”面板的&#x200B;*顶部*&#x200B;侧
+* **工具选择** **工具栏**：允许您&#x200B;*选择工具*&#x200B;以及&#x200B;*填充/轮廓颜色*，并且默认情况下位于2D视图面板的&#x200B;*左侧*&#x200B;上
+* **工具选项工具栏**：允许您设置&#x200B;*当前所选工具*&#x200B;的&#x200B;*选项*，默认情况下将置于2D视图面板的&#x200B;*顶部*&#x200B;侧
 
 键盘快捷键可让您快速访问工具，并且标记在工具/函数名称后的括号之间：
 
-+++颜色选择
-使用![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **颜色选择** *缩略图*，可以为矢量形状定义&#x200B;*填充*&#x200B;和&#x200B;*轮廓*&#x200B;颜色。 您可以通过以下方式为其中每种颜色打开&#x200B;**颜色编辑器**：
++++颜色选区
+使用![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) **颜色选择** *缩览图*，您可以为矢量形状定义&#x200B;*填充*&#x200B;和&#x200B;*轮廓*&#x200B;颜色。 您可以通过以下方式为其中每种颜色打开&#x200B;**颜色编辑器**：
 
 * **填充颜色：**&#x200B;单击&#x200B;*填充*&#x200B;颜色缩览图（顶部），或双击画布上的LMB
 
@@ -117,16 +117,16 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 
 然后，这些设置的颜色将应用于&#x200B;*当前选定的形状*。
 
-如果当前&#x200B;*轮廓*&#x200B;的颜色为&#x200B;*黑色*，即明亮度为0或RGB(0， 0， 0)，则&#x200B;*不*&#x200B;将应用于选定的形状，直到您&#x200B;*单击轮廓颜色缩览图*。
+如果当前&#x200B;*轮廓*&#x200B;颜色为&#x200B;*黑色* — 即明亮度0或RGB(0， 0， 0) — 则&#x200B;*不*&#x200B;将应用于选定的形状，直到您&#x200B;*单击轮廓颜色缩览图*。
 
 +++
 
 +++变换
-![转换工具](../../../assets/2dview-vectorediting-transformation.png "转换工具"){width="512px"}
+![转换工具](vector-editing-tools.resources/2dview-vectorediting-transformation.png "转换工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icon-transformation.png) <b>变换</b>工具(<b>V</b>)可以选择形状，然后将这些形状包括在变换小工具中。 此小工具允许您执行以下操作：
+![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png) <b>变换</b>工具(<b>V</b>)可以选择形状，然后将这些形状包括在变换小工具中。 此小工具允许您执行以下操作：
 
 <b>移动</b>：单击并按住LMB *内部*&#x200B;小工具
 
@@ -137,13 +137,13 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 +++
 
 +++节点
-![节点工具](../../../assets/2dview-vectorediting-node.png "节点工具"){width="512px"}
+![节点工具](vector-editing-tools.resources/2dview-vectorediting-node.png "节点工具"){width="512px"}
 
 
 
-使用![](../../../assets/2dview-vectorediting-icon-node.png) <b>节点</b>工具(<b>A</b>)，您可以选择所选形状的单个顶点（即节点），编辑其位置和手柄，以及添加和移除顶点。 选择形状后，可以执行以下操作：
+使用![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>节点</b>工具(<b>A</b>)，您可以选择所选形状的单个顶点（即节点），编辑其位置和手柄，以及添加和删除顶点。 选择形状后，可以执行以下操作：
 
-<b>添加顶点：</b>在形状轮廓上按Ctrl+LMB
+<b>在形状轮廓上添加顶点：</b> Ctrl+LMB
 
 <b>删除顶点</b>：在顶点上按Ctrl+LMB
 
@@ -151,20 +151,20 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 
 <b>移动顶点手柄</b>：在手柄上按住LMB
 
-<b>单独移动顶点手柄</b>：按住Alt+LMB手柄键。 请注意，超过此点后，手柄将&#x200B;*未链接*，直到它们&#x200B;*重置*
+<b>独立移动顶点手柄</b>：按住Alt+LMB的同时移动手柄。 请注意，超过此点后，手柄将&#x200B;*未链接*，直到它们&#x200B;*重置*
 
-<b>重置手柄</b>：单击顶点上的Alt+LMB。 手柄将重置为&#x200B;*顶点位置*
+<b>重置手柄</b>：在顶点上单击Alt+LMB。 手柄将重置为&#x200B;*顶点位置*
 
 <b>移动重置顶点手柄</b>：在顶点上按住Alt+LMB。 将显示&#x200B;*链接的*&#x200B;手柄
 
 +++
 
 +++形状
-![形状工具](../../../assets/2dview-vectorediting-main.png "形状工具"){width="512px"}
+![形状工具](vector-editing-tools.resources/2dview-vectorediting-main.png "形状工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icons-shape.png) <b>形状</b>工具(<b>M</b>)使用当前的&#x200B;*填充*&#x200B;颜色提供了一组原始形状，可以从生成和编辑这些形状：
+![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png) <b>形状</b>工具(<b>M</b>)使用当前的&#x200B;*填充*&#x200B;颜色提供了一组原始形状，可以从生成和编辑这些形状：
 
 * <b>矩形；</b>
 
@@ -179,46 +179,46 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 +++
 
 +++画笔
-![笔工具](../../../assets/2dview-vectorediting-pen.png "笔工具"){width="512px"}
+![钢笔工具](vector-editing-tools.resources/2dview-vectorediting-pen.png "钢笔工具"){width="512px"}
 
 
 
-使用![](../../../assets/2dview-vectorediting-icon-pen.png) <b>笔</b>工具(<b>P</b>)，您可以使用当前的&#x200B;*填充*&#x200B;颜色绘制新的自定形状。 有两种模式可用：
+![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b>钢笔</b>工具(<b>P</b>)允许您使用当前的&#x200B;*填充*&#x200B;颜色绘制新的自定形状。 有两种模式可用：
 
-在<b>路径</b>模式下，形状绘制为&#x200B;*，一次绘制一个顶点*。 可以使用以下控件：
+在<b>路径</b>模式下，形状绘制为&#x200B;*一次一个顶点*。 可以使用以下控件：
 
 添加<b>直接入点/直接出点</b>顶点：单击LMB
 
-添加<b>曲线in/曲线out</b>顶点（*对齐*&#x200B;正切）：按住LMB并拖动
+添加<b>曲线向内/向外延伸</b>顶点（*对齐*&#x200B;切线）：按住LMB键并拖动
 
-添加<b>弯入/弯出</b>顶点（*未对齐*&#x200B;正切）\*：按住LMB并拖动，然后按住Alt+LMB
+添加<b>曲线输入/输出</b>顶点（*未对齐*&#x200B;切线）\*：按住LMB并拖动，然后按住Alt+LMB
 
-添加<b>曲线输入/直出</b>顶点\*：与曲线输入/曲线输出顶点（未对齐的正切）相同，但输出线需要置于*&#x200B;新顶点顶部*
+添加<b>曲线入/直出</b>顶点\*：与曲线入/曲线出顶点（未对齐的切线）相同，但出线需要置于*&#x200B;新顶点的上方*
 
-添加<b>直线输入/曲线输出</b>顶点\*：按住Alt+LMB并拖动
+添加<b>直进/直出</b>顶点\*：按住Alt+LMB并拖动
 
-*下一个*&#x200B;顶点上的<b>闭合形状</b>：按住Ctrl
+*下一个*&#x200B;顶点上的<b>关闭形状</b>：按住Ctrl
 
-在&#x200B;*当前*&#x200B;顶点上<b>闭合形状</b>：按Enter键，或单击当前形状的&#x200B;*第一个顶点*&#x200B;上的LMB键
+在&#x200B;*当前*&#x200B;顶点上<b>关闭形状</b>：按Enter键或单击当前形状的&#x200B;*第一个顶点*&#x200B;上的LMB
 
-<b>手绘</b>模式允许您通过按住LMB的同时在画布上拖动钢笔来直接绘制形状。
+<b>徒手</b>模式允许您通过按住LMB的同时在画布上拖动笔来直接绘制形状。
 
-顶点是&#x200B;*自动沿描边放置*&#x200B;的，以便生成的路径尽可能与描边匹配。 当描边结束时，形状为&#x200B;*自动封闭*，将描边中的第一个顶点连接到最后一个顶点。
+顶点&#x200B;*自动沿描边放置*，以便生成的路径尽可能与描边匹配。 当描边结束时，形状是&#x200B;*自动闭合的*，将描边中的第一个顶点连接到最后一个路径。
 
 +++
 
 +++凸出
-![凸出工具](../../../assets/2dview-vectorediting-extrude.png "凸出工具"){width="512px"}
+![凸出工具](vector-editing-tools.resources/2dview-vectorediting-extrude.png "凸出工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icon-extrude.png) **凸出**&#x200B;工具(E) *将使用*&#x200B;绘制模式&#x200B;*沿路径绘制的*&#x200B;设置直径&#x200B;*的形状*&#x200B;相加，并按照选项工具栏中设置的&#x200B;*合并模式*&#x200B;在画布中应用结果。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **凸出**&#x200B;工具(E) *将使用*&#x200B;绘制模式&#x200B;*沿路径绘制的*&#x200B;设置直径&#x200B;*的形状*&#x200B;相加，并按照选项工具栏中设置的&#x200B;*合并模式*&#x200B;在画布中应用结果。
 
 以下&#x200B;*绘图模式*&#x200B;可用：
 
-![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **自由形状**：通过按住LMB的同时在画布上拖动&#x200B;*钢笔，直接绘制形状*。 当描边结束时，形状会添加在一起。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png) **自由形状**：通过按住LMB的同时在画布上拖动&#x200B;*笔来直接绘制形状*。 当描边结束时，形状会添加在一起。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **多边形**：通过单击LMB以添加角度，一次绘制一个表面&#x200B;*的形状*。 按Enter键时，形状会添加在一起。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png) **多边形**：通过单击LMB添加角度，一次绘制一个脸部&#x200B;*的形状*。 按Enter键时，形状会添加在一起。
 
 可使用以下参数控制绘制的形状：
 
@@ -228,19 +228,19 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 
 绘制完成后，形状会添加在一起，并使用以下可用的&#x200B;*合并模式*&#x200B;与当前选定的形状合并：
 
-![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png) **不合并**：此形状在所选形状的&#x200B;*顶部*&#x200B;绘制为&#x200B;*单独对象*。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png) **不合并**：此形状在所选形状的&#x200B;*顶部*&#x200B;绘制为&#x200B;*单独对象*。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-union.png) **联合**：该形状已&#x200B;*添加*&#x200B;到所选形状。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png) **联合**：该形状已&#x200B;*添加*&#x200B;到所选形状。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png) **相减**：该形状为所选形状的&#x200B;*截断*。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png) **相减**：该形状为所选形状的&#x200B;*截断*。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png) **交集**：仅新形状和所选形状的&#x200B;*重叠*&#x200B;部分保留。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png) **交集**：仅新形状和所选形状的&#x200B;*重叠*&#x200B;部分保留。
 
 +++
 
 ## 形状操作
 
-![形状操作](../../../assets/2dview-vectorediting-shape-operations.png "形状操作"){width="512px"}
+![形状操作](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "形状操作"){width="512px"}
 
 除了上面列出的工具之外，还可以使用单击“人民币”时可用的上下文菜单对&#x200B;*选定的形状*&#x200B;执行一些操作。 这些操作几乎都有键盘快捷键（位于下方的括号中），按以下类别排列：
 
@@ -258,15 +258,15 @@ Designer *仅*&#x200B;支持使用&#x200B;**SVG**&#x200B;文件格式的矢量�
 +++
 
 +++排列形状
-形状以&#x200B;*堆叠*&#x200B;排列，它设置画布中形状的&#x200B;*顺序*，即位于画布之上。 默认情况下，新形状在画布的&#x200B;*顶部*&#x200B;创建，您可以通过以下控件更改这种排列方式：
+形状在&#x200B;*栈叠*&#x200B;中排列，这设置画布中形状的&#x200B;*顺序*，即位于画布之上。 默认情况下，新形状在画布的&#x200B;*顶部*&#x200B;创建，您可以通过以下控件更改这种排列方式：
 
-<b>置于顶层</b>（主页）： *将*&#x200B;所选形状提升到形状堆叠的&#x200B;*顶部*
+<b>置于顶层</b>（主页）： *将*&#x200B;所选形状提升到形状栈栈的&#x200B;*顶部*
 
-<b>上移一层</b> (PgUp)： *上移一层*&#x200B;将所选形状在形状堆叠中上移一层&#x200B;**
+<b>上移一层</b> (PgUp)： *上移一层*&#x200B;将所选形状在形状栈栈中上移一层&#x200B;**
 
-<b>后退</b> (PgDown)： *降低*&#x200B;形状堆叠中选定的形状&#x200B;*一级*
+<b>向后发送</b> (PgDown)： *降低*&#x200B;将所选形状在形状栈栈中下移&#x200B;*一级*
 
-<b>置于底层</b>（结束）： *将*&#x200B;所选形状降低&#x200B;*底部*&#x200B;形状堆叠
+<b>置于最后</b>（结束）： *将*&#x200B;所选形状降低&#x200B;*底部*&#x200B;形状栈叠
 
 +++
 

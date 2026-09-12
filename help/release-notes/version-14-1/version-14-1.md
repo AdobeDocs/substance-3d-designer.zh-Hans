@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *发行日期：2025年1月14日*
 
-![在样条上散点样条](../../assets/fond.png)
+![在样条上散点样条](version-14-1.resources/fond.png)
 
 ## 样条和路径更新
 
@@ -34,12 +34,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![样条动画上的散点样条1](../../assets/spline1.gif){zoomable="yes"}
+![样条动画上的散点样条1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![在样条2](../../assets/spline2.gif){zoomable="yes"}上散点样条
+![在样条2](version-14-1.resources/spline2.gif){zoomable="yes"}上散点样条
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 如果您希望保持干净易读的图表，则[节点对齐工具](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)是为您制作的，并且已经完全改版！ 现在可以均匀地分布节点（水平或垂直），对齐节点通过整齐地栈叠节点可避免任何重叠。 最上面的樱桃：这两种功能都考虑到了节点的实际大小！
 
-![对齐节点](../../assets/alignment.gif){zoomable="yes"}
+![对齐节点](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## 复制/粘贴参数
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 2D视图中新的[彩色Sampler工具](../../interface/2d-view/color-sampler/color-sampler.md)可让您通过放置一个图钉来跟踪选定像素的值。 这对于确保您始终跨图形中的多个节点查看同一像素的信息非常有用。 打开“信息”面板以访问该工具，然后试用一下！
 
-![颜色取样器：使用工具](../../assets/color-sampler-demo.gif "颜色取样器：使用工具"){width="640px" zoomable="yes"}
+![颜色取样器：使用工具](version-14-1.resources/color-sampler-demo.gif "颜色取样器：使用工具"){width="640px" zoomable="yes"}
 
 ## 搜索改进
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * 启用节点查找器工具时，自动在搜索字段上设置焦点；
 * 重新考虑了工具栏的布局，以节省空间。
 
-![搜索工具栏](../../assets/search-53.png){width="640px"}
+![搜索工具栏](version-14-1.resources/search-53.png){width="640px"}
 
 ## 视频
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![样条上的视频散点样条](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![样条上的视频散点样条](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![视频用户体验功能](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![视频用户体验功能](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -97,15 +97,15 @@ ht-degree: 1%
 
 ### 已添加
 
-* [2D视图]在“信息”面板中添加固定像素显示
-* [API]在“图形视图”场景中显示节点框大小
-* [Content] “素材Height混合”：添加“Height蒙版”输出
-* [Content] “Path Vertex Processor”：对“逐顶点函数”参数使用“编辑函数”按钮
+* [2D 视图]在“信息”面板中添加固定像素显示
+* [API]公开节点场景中的图形视图框大小
+* [Content] “混合材料”：添加“Height蒙版”输出
+* [Content] &#39;Path顶点处理器&#39;：对&#39;逐顶点函数&#39;参数使用&#39;Edit function&#39;按钮
 * [内容]自动色阶：清理未使用的参数，调整标签和工具提示
 * [内容]路径蒙版v2
 * [内容]新的最小方差节点均值(MLV)
-* [内容]新建中间值筛选器节点
-* [内容]量化颜色：添加“最接近”筛选选项
+* [内容]新的中间值滤镜节点
+* [Content] Quantize Color：添加“最接近”筛选选项
 * [内容]样条桥列表：添加随机样条偏移参数
 * [内容]样条曲线工具：新样条（二次）节点
 * [内容]Triangle Grid：更改三角化方法和使用循环

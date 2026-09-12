@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ### 新模型图表功能
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 为扩展建模功能，模型图中添加了许多改进：
 
@@ -41,7 +41,7 @@ ht-degree: 1%
   * 粒子删减
   * 来自实例的粒子
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>新的建模和变形节点</b>\
   已添加其他新节点来创建更复杂的形状，请单击每个节点以了解有关它们的更多信息：
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ### 改进了互操作性
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 发件人操作已扩展，并增加了两种可能性：
 
@@ -71,24 +71,24 @@ ht-degree: 1%
 
 ### 杂项
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 对生活质量进行了各种改进：
 
 * **相对于输入的输入**\
   在相对于输入中设置的图形输入现在将继承连接的节点大小，而不是默认父图形大小。 这使通过不同大小的输入管理不同分辨率更加容易。
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **新建图形窗口**\
   “新建图形”窗口已重新设计，现在可以更好地查看特定模板的详细信息，并直接在现有包中创建新图形。
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **关闭所有包**\
   这是一个小操作，使在资源管理器中管理许多包变得不那么繁琐。 使用&#x200B;**文件** > **关闭全部**&#x200B;以关闭当前打开的所有包。
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **最大化当前视图**\
   使用新标题栏&#x200B;**图标**&#x200B;或快捷键&#x200B;**SHIFT+空格**&#x200B;将窗口扩展到全屏。 这也可以用于浮动窗口。
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 ### 内容
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 此版本添加新的漫射节点并改进了PBR 渲染节点：
 
 * <b>漫射节点</b>\
   新的“漫射颜色”、“漫射灰度”和“漫射UV”节点允许基于输入蒙版生成柔和的出血模糊。
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **已改进的PBR 渲染节点**\
   此节点进行了以下更改：

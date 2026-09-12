@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Substance 3D Designer的Adobe版本具有新的“发送到”功能，可让您快速将资源发送到其他Substance 3D应用程序。 无需再以SBSAR格式发布并加载单个文件，只需单击一下“发送至”即可解决此问题。
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Substance 3D Designer的Adobe版本具有新的“发送到”功能，可让您
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Substance 3D Designer的Adobe版本具有新的“发送到”功能，可让您
 
 与之前的HBAO节点相比，RTAO在清晰的、正确的AO方面做得更好。
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 焦散线基于高度图（如简单的Perlin噪声）生成物理上正确的光线跟踪焦散线。 适合为实时焦散创建逼真的动画Flipbook纹理。
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 RT Shadow可通过一些简单的控件生成精确的光线跟踪阴影。
 
@@ -92,17 +92,17 @@ RT Shadow可通过一些简单的控件生成精确的光线跟踪阴影。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow可通过一些简单的控件生成精确的光线跟踪阴影。
 
 RT辐照度是新节点中最先进的。 它根据带有高度图的材料以及环境图和/或Emissive映射来光线追踪照度。
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
 这意味着您可以使用预烘焙的光照进行纹理，就像对项目进行风格化处理一样，或者可以烘焙从高光地图上反弹出来的光线跟踪发光。
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 最后是“Bent Normal”（弯曲正常）节点。 与常规正常转换相比，此节点使用AO修改正常映射以使用该AO信息。 在您需要Baker创建效果之前，此节点以文本空间为您创建效果。
 

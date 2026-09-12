@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 技术问题
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -29,11 +29,11 @@ ht-degree: 9%
 * [渲染图形时崩溃](../technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
 * [参数未按预期方式工作](../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 * [图像输出不正确](../technical-issues/incorrect-image-output/incorrect-image-output.md)
-* [3D 视图问题](../technical-issues/3d-view-issues/3d-view-issues.md)
+* [3D查看问题](../technical-issues/3d-view-issues/3d-view-issues.md)
 * [烘焙问题](../technical-issues/baking-issues/baking-issues.md)
 * [用户界面问题](../technical-issues/user-interface-issues/user-interface-issues.md)
 * [Python问题](../technical-issues/python-issues/python-issues.md)
-* [缺少Substance模型图形功能](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
+* [缺少Substance模型图特征](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
 
 ## 报告问题
 
@@ -64,7 +64,7 @@ Designer包括直接报告崩溃和错误的方法。
 </td>
 <td style="border: 0;" valign="top">
 
-![崩溃报告对话框](../assets/crash-reporter-2.png "崩溃报告对话框"){zoomable="yes"}
+![崩溃报告对话框](technical-issues.resources/crash-reporter-2.png "崩溃报告对话框"){zoomable="yes"}
 
 *单击以放大*
 
@@ -91,7 +91,7 @@ Designer包括直接报告崩溃和错误的方法。
 </td>
 <td style="border: 0;" valign="top">
 
-![错误报告对话框](../assets/bug-reporter.png "错误报告对话框"){zoomable="yes"}
+![错误报告对话框](technical-issues.resources/bug-reporter.png "错误报告对话框"){zoomable="yes"}
 
 *单击以放大*
 

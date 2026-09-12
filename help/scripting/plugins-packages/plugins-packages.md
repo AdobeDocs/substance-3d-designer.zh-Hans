@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 增效工具包
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 安装插件包
 
-![插件管理器](../../assets/screenshot-from-2019-07-18-11-48-56.png "插件管理器")
+![插件管理器](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "插件管理器")
 
 插件包是使用<b>插件管理器</b>在<b>工具</b>菜单中进行安装的：
 

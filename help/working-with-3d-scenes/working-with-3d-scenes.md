@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用3D场景
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 使用3D场景
 
-![处理3D场景](../assets/workingWith3DScenes.png "处理3D场景"){zoomable="yes"}
+![处理3D场景](working-with-3d-scenes.resources/workingWith3DScenes.png "处理3D场景"){zoomable="yes"}
 
 通过Designer，可加载[3D场景](../glossary/glossary.md)以处理上下文中的材质。 您可以在此处找到支持3D场景的文件格式列表，包括每种格式支持的功能列表。 <b>&lt;需要链接></b>
 
@@ -64,37 +64,37 @@ ht-degree: 0%
 * <b>光源：</b>场景中的所有光源都可以在[场景浏览器](../interface/3d-view/scene-browser/scene-browser.md)中禁用。
 * <b>摄像机：</b>场景中检测到的所有摄像机都会作为预设添加到Designer添加的摄像机中。
 
-![3D场景的内容](../assets/loaded3DScene.png "3D场景的内容"){zoomable="yes"}
+![3D场景的内容](working-with-3d-scenes.resources/loaded3DScene.png "3D场景的内容"){zoomable="yes"}
 
-Designer对其3D 场景使用USD描述。 其布局可以在场景浏览器中导航，其中每个[USD素材](https://openusd.org/release/glossary.html#usdglossary-prim)类型都有自己的图标（几何、材料、着色器、相机、变换...）。
+Designer对其3D场景使用美元描述。 其版面可以在场景浏览器中导航，其中每个[USD原型](https://openusd.org/release/glossary.html#usdglossary-prim)类型都有自己的图标（几何、材质、着色器、相机、变换……）。
 
-[场景浏览器](../interface/3d-view/scene-browser/scene-browser.md)可用于选择、启用和禁用场景的内容。 因此，我们建议您在使用自定义3D场景时保持该屏幕显示。
+[场景浏览器](../interface/3d-view/scene-browser/scene-browser.md)可用于选择、启用和禁用场景的内容。 因此，我们建议您在处理自定义3D场景时保持其显示状态。
 
 ## 加载场景
 
-在3D 视图中加载3D 场景有几种途径：
+在3D视图中加载3D场景的路径有多种：
 
-1. 双击或将[3D 场景资源](../resources/3d-scene-resource/3d-scene-resource.md)从[包](../glossary/glossary.md)拖动到3D 视图中
-1. 将3D 场景项从[库](../interface/the-library/the-library.md)拖到3D 视图中（前提是您已[将自己的内容添加到库](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)）
-1. 将3D 场景文件从系统的文件浏览器拖动到3D 视图中
-1. 载入3D 场景状态文件(SBSSCN)及其引用的网格
+1. 双击或将[3D场景资源](../resources/3d-scene-resource/3d-scene-resource.md)从[包](../glossary/glossary.md)拖动到3D视图中
+1. 将3D场景项从[库](../interface/the-library/the-library.md)拖动到3D视图中（前提是您已[将自己的内容添加到库](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)）
+1. 将3D场景文件从系统的文件浏览器拖动到3D视图中
+1. 载入3D场景状态文件(SBSSCN)及其参照网格
 
-请注意，只有方法1和4可以让您完全按照上次处理场景时的状态再次加载模板，因为场景的状态会写入3D 场景资源和场景状态文件中并保存在包中。 方法2和3将场景加载为任意其他格式。
+请注意，只有方法1和4能够让您再次完全按照上次处理场景时的状态加载场景，因为场景的状态会写入3D场景资源和场景状态文件中并保存在包中。 方法2和3将场景加载为任意其他场景。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![加载3D 场景 — 从3D 场景资源](../assets/load3DScene-3DSceneResource.gif "加载3D 场景 — 从3D 场景资源"){zoomable="yes"}
+![加载3D场景 — 从3D场景资源](working-with-3d-scenes.resources/load3DScene-3DSceneResource.gif "加载3D场景 — 从3D场景资源"){zoomable="yes"}
 
-加载3D 场景资源
+加载3D场景资源
 
 </td>
 <td style="border: 0;" valign="top">
 
-![加载3D 场景 — 从库](../assets/load3DScene-Library.gif "加载3D 场景 — 从库"){zoomable="yes"}
+![加载3D场景 — 从库](working-with-3d-scenes.resources/load3DScene-Library.gif "加载3D场景 — 从库"){zoomable="yes"}
 
-从库中加载3D 场景
+从库加载3D场景
 
 </td>
 </tr>
@@ -104,16 +104,16 @@ Designer对其3D 场景使用USD描述。 其布局可以在场景浏览器中�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![加载3D 场景 — 从3D 场景文件](../assets/load3DScene-3DSceneFile.gif "加载3D 场景 — 从3D 场景文件"){zoomable="yes"}
+![从3D场景文件中加载3D场景](working-with-3d-scenes.resources/load3DScene-3DSceneFile.gif "从3D场景文件中加载3D场景"){zoomable="yes"}
 
-加载3D 场景文件
+载入3D场景文件
 
 </td>
 <td style="border: 0;" valign="top">
 
-![加载3D 场景 — 从场景状态文件](../assets/load3DScene-sceneStateFile.gif "加载3D 场景 — 从场景状态文件"){zoomable="yes"}
+![加载3D场景 — 从场景状态文件](working-with-3d-scenes.resources/load3DScene-sceneStateFile.gif "加载3D场景 — 从场景状态文件"){zoomable="yes"}
 
-正在加载场景状态文件
+加载场景状态文件
 
 </td>
 </tr>
@@ -121,24 +121,24 @@ Designer对其3D 场景使用USD描述。 其布局可以在场景浏览器中�
 
 >[!NOTE]
 >
-> [3D 视图文档](../interface/3d-view/3d-view.md)涵盖了在3D 视图中导航和可视化场景。
+> [3D视图文档](../interface/3d-view/3d-view.md)涵盖了在3D视图中导航和可视化场景的相关内容。
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-除了场景中可能存在的环境之外，Designer始终创建自己的环境（在USD中为DomeLight）和相机。
+除了场景中可能存在的环境外，Designer始终会创建自己的环境（DomeLight，美元）和相机。
 
-Designer创建的任何项目均在场景浏览器中用<b>粗体标签</b>列出。
+Designer创建的任何项目在场景浏览器中均以<b>粗体标签</b>列出。
 
 >[!NOTE]
 >
-> 当加载的场景至少有一个环境(DomeLight)时，默认情况下，Designer创建的环境&#x200B;*处于禁用状态*，因此它不会干扰场景的环境光照。
+> 当加载的场景至少有一个环境(DomeLight)时，默认情况下，Designer创建的环境&#x200B;*处于禁用状态*，因此该环境不会干扰场景的环境光照。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![场景浏览器 — 由Designer创建的元素](../assets/sceneBrowser-createdByDesigner.png "场景浏览器 — 由Designer创建的元素"){zoomable="yes"}
+![场景浏览器 — 由Designer创建的元素](working-with-3d-scenes.resources/sceneBrowser-createdByDesigner.png "场景浏览器 — 由Designer创建的元素"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Designer创建的任何项目均在场景浏览器中用<b>粗体标签</b>列�
 
 在3D 视图中设置材料、相机、灯光等后，可将该状态保存到场景状态文件(.sbsscn)中，稍后可加载该文件以恢复该状态。 例如，您可能需要设置一些场景来预览不同类型的环境或特定照明材料。
 
-![加载场景状态文件](../assets/loadSceneStateFile.gif "加载场景状态文件"){zoomable="yes"}
+![加载场景状态文件](working-with-3d-scenes.resources/loadSceneStateFile.gif "加载场景状态文件"){zoomable="yes"}
 
 保存的场景状态还可以用作3D 视图的默认状态，这样，每当创建新3D 视图时，都将使用该状态。 如果想在拼贴值为2且特定环境图的“球体2拼贴”网格上默认预览材料的材料，此功能非常有用。
 
