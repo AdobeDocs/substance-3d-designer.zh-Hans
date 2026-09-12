@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-12-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-2.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本12.2的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 发行日期：*2022年7月19日*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/final3.png)
 
 ## 主要功能
 
@@ -32,20 +32,20 @@ ht-degree: 0%
 
 Designer 12.2版是第一个完全原生支持基于M1芯片的新Apple计算机的版本。 尽管Designer以前可以在技术上在Apple Silicon设备上运行，但本机支持将为您带来更快、更高效的体验。 如下图所示，在这些计算机上安装此新版本后，计算速度提高了&#x200B;*2倍*。
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
 
 ### 对Substance模型图表的改进
 
 * <b>节点上的工具提示\
-  </b>并非总是能够仅用图标和标题来解释节点的作用，这就是为什么现在我们有一个工具提示，当您在“库”或“图形视图”中时，其中包含&#x200B;*节点*&#x200B;的完整说明。 它将帮助您找到要查找的节点，或者帮助您更好地了解其功能。![](../../assets/tootlipnode.png)
+  </b>并非总是能够仅用图标和标题来解释节点的作用，这就是为什么现在我们有一个工具提示，当您在“库”或“图形视图”中时，其中包含&#x200B;*节点*&#x200B;的完整说明。 它将帮助您找到要查找的节点，或者帮助您更好地了解其功能。![](version-12-2.resources/tootlipnode.png)
 
 * <b>用于创建节点的快捷方式\
-  </b>为加快创建最常用节点，您现在可以在首选项中定义自己的快捷键，就像其他类型的图形一样。![](../../assets/shorcuts.png)
+  </b>为加快创建最常用节点，您现在可以在首选项中定义自己的快捷键，就像其他类型的图形一样。![](version-12-2.resources/shorcuts.png)
 
 * <b>从节点上下文菜单中预览节点\
   </b>在最新版本中，我们添加了在节点中预览3D 视图的可能性，这要归功于键盘快捷键（*按住SHIFT键并单击节点*）。 此功能现在也可从&#x200B;*节点上下文菜单*&#x200B;中找到，以使它更容易被发现。
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/previewnode.gif){width="600px"}
 * <b>基于节点兼容性搜索\
   </b>从图形视图菜单（可通过在图形中按&#x200B;*空格键*&#x200B;访问）中查找节点时，节点现在会被正确过滤，以便仅显示与Node中当前选定的节点&#x200B;*兼容*&#x200B;的节点。 它可以帮助您快速找到要查找的节点。
 
@@ -59,7 +59,7 @@ Designer 12.2版是第一个完全原生支持基于M1芯片的新Apple计算机
 * <b>CLO模板</b>\
   为了提高与CLO软件的互操作性，我们添加了一个&#x200B;*新的专用模板*。 它将自动向您的图形添加在CLO中正确导入材料所需的所有&#x200B;*元数据*。
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/clo.png){width="600px"}
 
 * <b>VFX参考平台要求</b>\
   每年，VFX参考平台都会发布一份工具及库版本的列表，供VFX行业在每个软件中使用，以最大限度地减少软件之间的不兼容问题。 像往常一样，我们&#x200B;*更新所有依赖项*&#x200B;以遵守所有这些建议。

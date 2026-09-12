@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: 在Substance 3D Designer中配置增效工具搜索路径，以指定Python增效工具所在的位置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 增效工具搜索路径
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Designer将在特定目录（即，搜索路径）中查找插件。 本页介�
 1. 在<b>Python</b>选项卡中，单击*<b>+</b>*按钮以添加包含插件的目录
 1. 单击“<b>确定</b>”进行验证
 
-![设置Python插件搜索路径项目设置](../../assets/image-70.png "设置Python插件搜索路径项目设置")
+![设置Python插件搜索路径项目设置](plugin-search-paths.resources/image-70.png "设置Python插件搜索路径项目设置")
 
 ## 使用环境变量
 

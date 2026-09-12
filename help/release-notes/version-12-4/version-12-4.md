@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Designer版本12.4的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 版本 12.4
 
-**Substance 3D Designer 12.4**&#x200B;提供了一些生活质量改进（用于清理图表的工具、使用基本公式设置参数、用于生成随机种子的按钮、大小锁定等） 支持Python API中的Substance模型图。 有关所有这些更改的更多详细信息，请参阅下文。
+**Substance 3D Designer 12.4**&#x200B;提供了一些生活质量改进（一种清理图形的工具、使用基本公式设置参数、用于生成随机种子的按钮、大小锁定等） 以及在Python API中支持Substance模型图表。 有关所有这些更改的更多详细信息，请参阅下文。
 
 发行日期：*2023年1月31日*
 
@@ -28,51 +28,51 @@ ht-degree: 1%
 
 ### 清除图形工具
 
-在编辑图表时，有时需要尝试多种可能性，并插入/拔下各种节点，直到获得所需结果为止。 最后，图形中的一些节点未连接到输出，因此对最终结果没有影响。 此新工具将允许您自动检测并删除这些节点，以便在最终确定它们之前清理您的图表。 该清洁工具也可选择在参数函数中查找，并且可以通过图形视图工具栏中的专用按钮在当前图形上启动，或者从浏览器视图中的图形选择启动。
+在编辑图形时，有时需要尝试多种可能性，并插入/拔下各种节点，直到获得所需结果为止。 最后，图形中的一些节点未连接到输出，因此对最终结果没有影响。 此新工具将允许您自动检测并删除这些节点，以便在最终确定这些节点之前清除图形。 也可以选择在参数功能中查找清洁工具，并且清洁工具可以通过图形视图工具栏中的专用按钮在当前图形上启动，或者从资源管理器视图中选择图形来启动。
 
-![](../../assets/final-clean.gif){width="640px"}
+![](version-12-4.resources/final-clean.gif){width="640px"}
 
 ### 在参数字段中键入公式
 
 当您要输入特定参数值时，无需使用计算器或再在头中进行计算。 现在，在“属性”和应用程序的其他位置中为参数设置数值时，您可以直接输入基本公式，如加法、分法、乘法或减法。
 
-![](../../assets/final-formula.gif){width="640px"}
+![](version-12-4.resources/final-formula.gif){width="640px"}
 
-### 3D视图中的快速访问按钮
+### 3D 视图中的快速访问按钮
 
 我们已在[3D视图](../../interface/3d-view/3d-view.md)中添加了一个与[显示](../../interface/3d-view/3d-view.md)菜单中所有可用选项对应的其他工具栏，以便快速访问所有这些选项（例如，线框、网格、定界框等） 按钮切换时。 我们还添加了一个用于显示/隐藏环境图的切换开关。
 
-![](../../assets/final-3dview.gif){width="640px"}
+![](version-12-4.resources/final-3dview.gif){width="640px"}
 
 ### 用于生成随机植入的按钮
 
-现在，通过使用新按钮为图表生成随机种子，而不是移动滑块，您可以快速创建不同的变体。
+现在，通过使用新按钮为图形生成随机种子，而不是移动滑块，可以快速创建不同的变体。
 
-![](../../assets/final-seed.gif){width="640px"}
+![](version-12-4.resources/final-seed.gif){width="640px"}
 
 ### 锁定输出大小构件
 
 您现在可以锁定输出大小的宽度和Height，以确保保持方形大小，并避免在每次要更新这两个值时对其进行处理。
 
-![](../../assets/final-lock.gif){width="640px"}
+![](version-12-4.resources/final-lock.gif){width="640px"}
 
-### 将图像输入转换为彩色/灰度
+### 将图像输入变换为彩色/灰度
 
 通过节点上下文菜单在[输入颜色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输入灰度](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)之间快速切换。
 
-![](../../assets/final-switch.gif){width="640px"}
+![](version-12-4.resources/final-switch.gif){width="640px"}
 
-### 显示渐变编辑器时，选择单击图钉
+### 显示渐变编辑器时选择单击的大头针
 
-在“属性”面板中，如果单击图钉以编辑渐变，您现在将在显示的[渐变编辑器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)中自动选择相应的图钉。
+在“属性”面板中，如果单击某个大头针以编辑渐变，则现在将在显示的[渐变编辑器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)中自动选择相应的大头针。
 
-![](../../assets/final-gradient.gif){width="640px"}
+![](version-12-4.resources/final-gradient.gif){width="640px"}
 
 ### 选择下游节点
 
 [节点上下文菜单](../../interface/the-graph-view/the-graph-view.md)中的新条目，用于直接或间接选择连接到所选节点输出的所有节点。 因此，您可以选择受节点影响的所有节点。 用于删除部分图表或重做图表布局。
 
-![](../../assets/final-downstream.gif){width="640px"}
+![](version-12-4.resources/final-downstream.gif){width="640px"}
 
 ## Python API更新
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 * [3D视图]未保存线框显示属性
 * [内容]径向模糊颜色参数对Alpha通道没有影响
 * [本地化]其他滑块和按钮显示在“环境OpenGL属性”中。
-* [MDL]&#x200B;[Substance模型]删除公开节点时崩溃
+* [MDL][Substance模型]删除公开节点时崩溃
 * [Preferences]删除默认配置文件后，将不会重新创建该文件
 * [Substance模型]在实例级别未显示的崩溃重新排序参数
 * [API] SDProperty.getDefaultValue()几乎始终返回None
