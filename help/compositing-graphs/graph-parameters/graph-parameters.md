@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Designer中创建和管理图形参数以控制素材属性和行为。
 helpx_creative_field: ""
