@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: 使用“锐化”节点来增强纹理细节和边缘，以创建清晰、定义的表面细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 锐化
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -37,7 +37,7 @@ ht-degree: 4%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="锐化工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="锐化工具提示" /></div>
 
 从数学上讲，它与Photoshop的“USM锐化”非常相似，尽管名称不同。 对于基色图之类的效果很好，但在法线图和金属图等地图上应避免使用它。
 
