@@ -33,7 +33,7 @@ ht-degree: 0%
 
 与[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，您必须显式放置彩色、灰度或值输入。 您不可能创建自己的“不可知”输入，这些输入会根据与它们关联的内容更改类型。
 
-输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
+输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
 
 另请参阅： [输入颜色](../input-color/input-color.md)、[输入灰度](../input-grayscale/input-grayscale.md)
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ## 集成属性
 
-输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)一起使用）。
+输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)一起使用）。
 
 此外，[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)也使用使用情况属性，以匹配正确的输入和输出插槽。
 
