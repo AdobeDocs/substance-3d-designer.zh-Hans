@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+breadcrumb-title: ""
 description: 使用“渐变（动态）”节点创建可以由输入参数和值控制的动态渐变。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 渐变（动态）
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '310'
+ht-degree: 8%
 ---
-
 
 # 渐变（动态）
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：渐变动态](gradient-dynamic.resources/comp_dyngradient_1.png "原子节点：渐变动态"){width="200px"}
+![原子节点：渐变动态](gradient-dynamic.resources/comp_dyngradient_1.png "原子节点：渐变动态"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ ht-degree: 9%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic工具提示" /></div>
+
 这主要可以避免由于将颜色参数移出节点而导致参数无法公开的问题。 这就是它的“动态性”所在。
 
 虽然渐变（动态）本身并不是很难使用的节点，但其用例更加先进：大多数标准用例可以由常规渐变节点覆盖。
@@ -45,50 +45,7 @@ ht-degree: 9%
 
 或者，可以使用渐变输入位置滑块在单个渐变输入中存储的多个渐变之间切换。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输入连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -105,11 +62,6 @@ ht-degree: 9%
 | <b>灰度输入</b> *灰度*&#x200B;主要 | 要重新映射的灰度图像。 |
 | <b>渐变输入</b> *彩色/灰度* | 渐变将从此图像中取样 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *彩色/灰度* |  |
 
 ## 示例
 

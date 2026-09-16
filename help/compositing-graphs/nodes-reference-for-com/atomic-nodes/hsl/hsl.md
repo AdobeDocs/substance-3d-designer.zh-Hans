@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+breadcrumb-title: ""
 description: 使用HSL节点调整纹理的色相、饱和度和亮度，以进行颜色操作和校正。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: HSL
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '149'
 ht-degree: 9%
-
 ---
-
 
 # HSL
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点： HSL](hsl.resources/comp_hsl_1.png "原子节点： HSL"){width="200px"}
+![原子节点： HSL](hsl.resources/comp_hsl_1.png "原子节点： HSL"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,40 +37,9 @@ ht-degree: 9%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl工具提示" /></div>
 
 
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -88,11 +55,6 @@ ht-degree: 9%
 | --- | --- |
 | <b>输入</b> *颜色*&#x200B;主要 | 要处理的图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *颜色* |  |
 
 ## 示例
 

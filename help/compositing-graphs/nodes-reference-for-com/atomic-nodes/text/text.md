@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+breadcrumb-title: ""
 description: 使用“文本”节点生成带有可自定义字体和样式的文本纹理，以创建基于文本的图案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 文本
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '265'
 ht-degree: 1%
-
 ---
-
 
 # 文本
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：文本](text.resources/comp_text_1.png "原子节点：文本"){width="200px"}
+![原子节点：文本](text.resources/comp_text_1.png "原子节点：文本"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,44 +35,13 @@ ht-degree: 1%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="文本工具提示" /></div>
+
 仅支持Truetype (.ttf)和某些Opentype字体。 如果列表中缺少任何字体，可能是因为这个原因。 <b>字体无法作为参数公开。</b>
 
 将使用文本的图表发布到sbsar时，字体将嵌入到包中，就像位图和其他资源一样，以确保在所有系统和应用程序中发挥作用。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -85,10 +52,10 @@ ht-degree: 1%
 | <b>字体</b> *字符串* | 用于呈现文本的字体资源。 |
 | <b>字体大小</b> *浮动* | 文本的字体大小（以点为单位）。 |
 | <b>对齐</b> *整数* | 将文本对齐方式设置为左对齐、居中（默认）或右对齐。 |
-| <b>转换</b> *Float4* | 应用于渲染文本的2x2变换矩阵。 |
-| <b>位置</b> *Float2* | 文本在输出图像中的位置。 |
-| <b>背景</b> *Float/Float4* | 输出图像的背景色。 |
-| <b>字体颜色</b> *Float/Float4* | 文本的颜色。 |
+| <b>转换</b> *浮点4* | 应用于渲染文本的2x2变换矩阵。 |
+| <b>位置</b> *浮点2* | 文本在输出图像中的位置。 |
+| <b>背景</b> *浮动/浮动4* | 输出图像的背景色。 |
+| <b>字体颜色</b> *浮动/浮动4* | 文本的颜色。 |
 
 ## 输入连接器
 
@@ -96,11 +63,6 @@ ht-degree: 1%
 | --- | --- |
 | <b>背景</b> *灰度/颜色*&#x200B;主要 | 输出图像的背景色。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 

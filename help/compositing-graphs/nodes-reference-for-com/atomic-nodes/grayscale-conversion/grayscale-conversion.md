@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+breadcrumb-title: ""
 description: 使用“灰度转换”节点，通过各种转换方法将彩色纹理转换为灰度。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 灰度转换
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '275'
 ht-degree: 7%
-
 ---
-
 
 # 灰度转换
 
@@ -24,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：灰度转换](grayscale-conversion.resources/comp_grayscaleconversion_1.png "原子节点：灰度转换"){width="200px"}
+![原子节点：灰度转换](grayscale-conversion.resources/comp_grayscaleconversion_1.png "原子节点：灰度转换"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,56 +35,15 @@ ht-degree: 7%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="灰度转换工具提示" /></div>
+
 大多数节点都可以设置为以灰度或彩色输出，其中前者更受青睐，这是出于简单和性能原因。
 
 实际上，建议从一开始就使用灰度图像，并在以后的工作流程中使用[渐变映射](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点为图像着色。
 
 这意味着，灰度转换节点通常仅保留用于专门要将彩色图像转换为灰度图像的情况。 在这些情况下，还要看一下[高级灰度转换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)和[颜色到蒙版](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md)。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输入连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -102,11 +59,6 @@ ht-degree: 7%
 | --- | --- |
 | <b>输入</b> *颜色*&#x200B;主要 | 要处理的彩色图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度* |  |
 
 ## 示例
 

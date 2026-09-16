@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+breadcrumb-title: ""
 description: 使用“距离”节点根据形状计算距离图，以创建蒙版和程序效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 距离
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '392'
 ht-degree: 8%
-
 ---
-
 
 # 距离
 
@@ -24,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：距离](distance.resources/comp_distance_1.png "原子节点：距离"){width="200px"}
+![原子节点：距离](distance.resources/comp_distance_1.png "原子节点：距离"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ ht-degree: 8%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="距离工具提示" /></div>
+
 不断扩大的向外淡化将在遇到另一个单元时终止：它们永远不会重叠。 在内部，这会实际计算和显示到最接近像素> 0.5的距离，并将距离节点设置为固定/最大值。
 
 可选的源映射允许将单元格与辅助输入映射中的纹理相结合。
@@ -45,40 +45,7 @@ ht-degree: 8%
 
 有关详细信息，请参阅以下[示例](#examples)。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -96,11 +63,6 @@ ht-degree: 8%
 | <b>蒙版输入</b> *灰度*&#x200B;主要 | 灰度蒙版，应计算其距离值的边界。   使用阈值0.5从图像中提取二进制蒙版，其中高于该阈值的所有值都是白色，而低于该阈值的所有值都是黑色。 |
 | <b>源输入</b> *彩色/灰度* | 可选的灰度图像，应从中复制“蒙版输入”最近边框的像素值。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *彩色/灰度* |  |
 
 ## 示例
 
@@ -108,17 +70,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="20%"}
 
 </td>
 </tr>

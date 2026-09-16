@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+breadcrumb-title: ""
 description: 使用变换2D节点可将2D变换应用于纹理，包括平移、旋转和缩放。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 2D 变形
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '372'
 ht-degree: 5%
-
 ---
-
 
 # 2D 变形
 
@@ -24,7 +22,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：转换2D](transformation-2d.resources/comp_transformation_1.png "原子节点：转换2D"){width="200px"}
+![原子节点：转换2D](transformation-2d.resources/comp_transformation_1.png "原子节点：转换2D"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,29 +35,12 @@ ht-degree: 5%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d工具提示" /></div>
+
 这是一个非常有用且应用广泛的节点，可用于增加拼贴、移除拼贴、将图像放置在特定位置、拉伸或挤压输入等。
 
 但是，它不能完美匹配某些应用程序，因此以下节点可能值得关注： [安全变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)、[非方形变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)、[四元变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)和[梯形变换](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -67,26 +48,12 @@ ht-degree: 5%
 > 
 > 将“拼贴模式”[基本参数](../../../../glossary/glossary.md)的[继承方法](../../../../glossary/glossary.md)设置为“Absolute”，随后即可将参数值设置为“无拼贴”：
 > 
-> ![](transformation-2d.resources/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png){width="20%"}
 
 >[!NOTE]
 >
 > 节点属性中的缩放和旋转值相对于当前变换&#x200B;*为*，在您单击“应用”按钮之前，不会应用于2D视图。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -105,11 +72,6 @@ ht-degree: 5%
 | --- | --- |
 | <b>输入</b> *灰度/颜色*&#x200B;主要 | 要变换的图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 

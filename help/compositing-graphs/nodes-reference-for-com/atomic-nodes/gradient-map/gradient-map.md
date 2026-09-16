@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
 description: 使用“渐变映射”节点，通过渐变渐变渐变将灰度值映射到颜色以实现着色和效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 渐变映射
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1157'
 ht-degree: 2%
-
 ---
-
 
 # 渐变映射
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="200px"}
+![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,11 @@ ht-degree: 2%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map工具提示" /></div>
+
 该节点提供了一个高级且功能丰富的渐变编辑器，可精确映射多个颜色：请转到本页的[渐变编辑器](#gradient-editor)部分以了解更多信息。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 示例
-
-## 参数
 
 |  |  |
 | --- | --- |
@@ -78,34 +56,34 @@ ht-degree: 2%
 * 单击<b>渐变编辑器</b>按钮上的LMB；
 * 双击渐变栏中某个图钉上的LMB 。 然后，将在“渐变编辑器”中自动选择单击的图钉，以便您可以直接编辑其值。
 
-![渐变编辑器](gradient-map.resources/image2017-2-17-16-13-5.png "渐变编辑器")
+![渐变编辑器](gradient-map.resources/image2017-2-17-16-13-5.png "渐变编辑器"){width="20%"}
 
 ### 编辑渐变图钉
 
 颜色及其沿渐变的位置由渐变条上放置的图钉控制。
 
-每个图钉都将在其渐变上的位置设置颜色。
+每个大头针都会在其渐变上的位置设置一种颜色。
 
-将第一个和最后一个图钉前后的渐变部分分别设置为这些图钉的颜色。
+第一个颜色和最后一个颜色之前和之后的渐变部分分别设置为这些大头针的大头针。
 
 ![渐变编辑器 — 渐变视图](gradient-map.resources/image2017-2-17-17-27-46.png "渐变编辑器 — 渐变视图")
 
-下列控件可用于编辑图钉：
+以下控件可用于编辑大头针：
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>添加PIN</b>
+<b>添加大头针</b>
 
-单击渐变上或渐变下方的LMB，以在渐变栏中单击的位置添加图钉。
+单击渐变上或渐变下方的LMB，以在渐变条中单击的位置添加大头针。
 
-新图钉将在该位置设置为渐变的颜色。
+新大头针将被设置为该位置的渐变颜色。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 添加pin](gradient-map.resources/move-pin.gif "渐变编辑器 — 添加pin")
+![渐变编辑器 — 添加大头针](gradient-map.resources/move-pin.gif "渐变编辑器 — 添加大头针")
 
 </td>
 </tr>
@@ -115,40 +93,40 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>移动图钉</b>
+<b>移动大头针</b>
 
-按住LMB并沿渐变条拖动选定的图钉以移动它们。
+按住LMB并沿渐变条拖动选定大头针以移动它们。
 
-也可以通过选择一个图钉位置并使用<b>位置</b>参数来设置图钉位置及其数值。 位置是[0；1]范围内的值，其中0是渐变的开始，1是渐变的结束。
+也可以通过选择大头针的位置并使用<b>位置</b>参数来设置具有数值的路径的位置。 位置是[0；1]范围内的值，其中0是渐变的开始，1是渐变的结束。
 
-![渐变编辑器 — 固定位置参数](gradient-map.resources/image2015-8-27-13-56-2.png "渐变编辑器 — 固定位置参数")
+![渐变编辑器 — 大头针位置参数](gradient-map.resources/image2015-8-27-13-56-2.png "渐变编辑器 — 大头针位置参数")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 移动图钉](gradient-map.resources/movepin2.gif "渐变编辑器 — 移动图钉")
+![渐变编辑器 — 移动大头针](gradient-map.resources/movepin2.gif "渐变编辑器 — 移动大头针")
 
 </td>
 </tr>
 </table>
 
-选择多个图钉后，可以&#x200B;*同时*&#x200B;移动所有图钉。 当一个或多个图钉在移动时到达渐变的末端时，根据用于移动的鼠标按钮，可使用两种行为：
+选择多个大头针后，它们可以&#x200B;*同时*&#x200B;移动。 当一个或多个大头针在移动时到达渐变的末端时，根据用于移动的鼠标按钮，有两种行为可用：
 
-* <b>LMB：</b>图钉保留在末端，这意味着当它们到达该位置并且其相对位置改变时，它们将被栈叠在该位置；
-* <b>MMB：</b>针脚循环回渐变的另一端，这意味着它们的相对位置保持不变。
+* <b>LMB：</b>大头针保留在末端，这意味着当它们到达该位置并且其相对位置改变时，它们将被栈叠在该位置；
+* <b>MMB：</b>大头针环回渐变的另一端，这意味着它们的相对位置保持不变。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>删除pin</b>
+<b>删除大头针</b>
 
-选择图钉并按Delete键，或者将图钉拖离渐变条以删除它们。
+选择大头针并按Delete键，或者将大头针拖离渐变条以删除它们。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 删除图钉](gradient-map.resources/removepin.gif "渐变编辑器 — 删除图钉")
+![渐变编辑器 — 删除大头针](gradient-map.resources/removepin.gif "渐变编辑器 — 删除大头针")
 
 </td>
 </tr>
@@ -160,7 +138,7 @@ ht-degree: 2%
 
 <b>反转位置</b>
 
-镜像渐变上所选图钉的位置。
+镜像渐变上选定大头针的位置。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -303,7 +281,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-当选择多个大头针时，RGB、HSV和Alpha滑块将变成Δ(Δ)滑块，这意味着它们用于以相同的量偏移每个大头针的值。
+当选择多个图钉时，RGB、HSV和Alpha滑块将变成Δ(Δ)滑块，这意味着它们用于以相同的量偏移每个图钉的值。
 
 <table>
 <tr style="border: 0;">
@@ -321,7 +299,7 @@ ht-degree: 2%
 
 <b>sRGB</b>：使用sRGB色彩空间显示颜色。 禁用时，使用线性色彩空间；
 
-<b>Float：</b>在浮点中显示RGB、HSV和Alpha滑块值。
+<b>浮点：</b>在浮点中显示RGB、HSV和Alpha滑块值。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -346,11 +324,6 @@ ht-degree: 2%
 | --- | --- |
 | <b>输入</b> *灰度*&#x200B;主要 | 要处理的灰度图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度* |  |
 
 ## 示例
 

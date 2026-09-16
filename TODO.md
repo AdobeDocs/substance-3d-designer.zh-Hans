@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # 待办事项
 
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## 修复
 
 * 修复节点页中第一个示例图像的链接(例如， 新噪声)
-* [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)中缺少“负整数”项和断开的链接
 
 ## 调查
 

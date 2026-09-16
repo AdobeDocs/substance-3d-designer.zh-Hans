@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+breadcrumb-title: ""
 description: 使用“混合”节点，使用各种混合模式将两个纹理混合在一起，以创建复合效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 混合
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '326'
+ht-degree: 8%
 ---
-
 
 # 混合
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：混合](blend.resources/comp_blend_1.png "原子节点：混合"){width="200px"}
+![原子节点：混合](blend.resources/comp_blend_1.png "原子节点：混合"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,46 +35,15 @@ ht-degree: 9%
 </tr>
 </table>
 
-它的功能类似于在[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)中使两个图层相互叠加，并通过在顶部图层上设置的混合模式混合在一起。
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="混合工具提示" /></div>
+
+它的功能类似于在[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)或[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)中使两个图层相互叠加，并通过在顶部图层上设置的混合模式混合在一起。
 
 >[!TIP]
 >
 > 了解[此专用页面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)的“混合”节点中可用的混合模式。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -103,11 +70,6 @@ ht-degree: 9%
 > 
 > 这是新用户遇到颜色连接与灰度连接问题的首要原因：请确保两个连接属于同一类型！
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 

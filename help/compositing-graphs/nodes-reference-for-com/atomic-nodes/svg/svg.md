@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+breadcrumb-title: ""
 description: 使用SVG节点可将SVG矢量图形作为纹理导入和渲染，以创建可缩放图形元素。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 0%
 ---
-
 
 # SVG
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：SVG](svg.resources/comp_svg_1.png "原子节点：SVG"){width="200px"}
+![原子节点：SVG](svg.resources/comp_svg_1.png "原子节点：SVG"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ ht-degree: 1%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="svg工具提示" /></div>
+
 您可以从头开始创建节点，也可以将SVG文件放到图形视图中。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -79,20 +60,6 @@ ht-degree: 1%
 > 
 > 在[此处](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)了解有关这些限制的更多信息。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 示例
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -112,11 +79,6 @@ ht-degree: 1%
 | --- | --- |
 | <b>背景</b> *灰度/颜色*&#x200B;主要 | 设置要在矢量形状未覆盖的区域中使用的输出图像的背景色。   *连接时覆盖“[背景颜色](#parameters)”参数。* |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 
