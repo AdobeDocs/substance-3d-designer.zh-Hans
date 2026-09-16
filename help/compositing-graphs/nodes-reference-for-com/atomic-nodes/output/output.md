@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
 ![原子节点：输出](output.resources/comp_output_1.png "原子节点：输出"){width="100%"}
+
+<b>在：</b>个原子节点中
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +37,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="output.resources/output-tooltip.gif" alt="输出工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="输出工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 同样，当[发布的Sbsar 文件](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)包含此图形时，该文件可以在使用该文件的任何集成或增效工具中输出该图像。
 
@@ -52,7 +60,7 @@ ht-degree: 0%
 | <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   标识符被使用，因为节点的标签是“Label”属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是Substance图形。 |
 | <b>标签</b> *字符串* | 这用作输出节点及其在[实例节点](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中代表此图形的对应连接器的标签。 标签可以包含空格和特殊字符。 |
-| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
+| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
 | <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输出分组的特性。   在“紧凑素材”链接创建模式下，具有相同“组”属性的输出显示为单个连接。 |
 
 ## 集成属性
@@ -73,32 +81,32 @@ ht-degree: 0%
 
 ### 关于使用在3D视图中的作用
 
-由于图形输出通常旨在作为特定纹理声道的最终结果，因此输出可以自动发送到3D 视图中使用的着色器的相应采样器。
+由于图形输出通常旨在作为特定纹理通道的最终结果，因此输出可以自动发送到3D视图中使用的着色器的相应采样器。
 
-实际上，<b>用法</b>属性&#x200B;*与3D 视图中的取样器用法*&#x200B;匹配的输出将连接到该取样器。 例如，使用情况为`basecolor`的输出将连接到着色器的`basecolor`取样器。 （了解详情： [以3D视图查看数据](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)）
+实际上，<b>用法</b>属性&#x200B;*与3D视图中的采样器用法*&#x200B;匹配的输出将连接到该采样器。 例如，使用情况为`basecolor`的输出将连接到3D视图着色器的`basecolor`取样器。 （了解详情： [以3D视图查看数据](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)）
 
-单击[图形视图](../../../../interface/the-graph-view/the-graph-view.md)的空白区域上的人民币，然后在上下文菜单中选择<b>在3D视图中查看输出</b>选项，以将所有输出连接到具有&#x200B;*匹配用法*&#x200B;的3D 视图取样器。
+在[图形视图](../../../../interface/the-graph-view/the-graph-view.md)的空白区域上单击RMB，然后在上下文菜单中选择<b>在3D视图中查看输出</b>选项，以将所有输出连接到具有&#x200B;*匹配用法*&#x200B;的3D视图取样器。
 
 >[!IMPORTANT]
 >
-> 例如，如果按顺序设置了多个使用实例，以将使用实例分配给打包纹理中的频道，则只有&#x200B;*第一个使用实例*&#x200B;将连接到3D 视图。 这是一个已知限制。
+> 例如，如果按顺序设置了多个使用实例，以将使用实例分配给打包纹理中的通道，则只有列表中的&#x200B;*第一个使用实例*&#x200B;将连接到3D视图。 这是一个已知限制。
 
 ## 默认输出
 
 当图形有多个输出时，可以将其中一个输出设置为该图形的默认输出。 这指定应将哪些输出用于：
 
-* 表示该图形的任何实例化的缩略图
-* 在2D 视图中查看这些实例化
-* 该图形在库中的缩览图（了解如何在[此处](../../../../interface/preferences-window/project-settings/project-settings.md)添加自己的资源）
+* 表示该图形的任何实例节点的缩览图
+* 在2D视图中查看这些实例节点
+* 图库中该图表的缩略图（了解如何在[此处](../../../../interface/preferences-window/project-settings/project-settings.md)添加自己的资源）
 
-利用此功能，您可以按任意顺序排列图形输出，而不管如何将图形可视化为节点。
+利用此功能，可以按任意顺序排列图形输出，而不管图形如何显示为节点。
 
 要将“输出”节点设置为图形的默认输出，请执行以下操作：
 
 * 右键单击输出节点，然后在上下文菜单中选择“设置为默认输出”操作。
 * 在输出节点的属性中，使用“属性”部分标题中的“设置为默认值”按钮。
 
-以下是设置默认输出之前和之后的实例化示例：
+以下是设置默认输出之前和之后的实例节点示例：
 
 <table>
   <tr style="border: 0">

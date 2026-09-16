@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: 使用“色阶”节点可调整纹理的亮度、对比度和色调范围，以进行颜色校正和增强。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 色阶
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 3%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子节点：级别](levels.resources/comp_levels_1.png "原子节点：级别"){width="100%"}
+
+<b>在：</b>个原子节点中
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 3%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="色阶工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="色阶工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 它是Substance 3D Designer中最核心且最有用的节点之一，通常用于重新映射和调整图形中的值，因为它为更改值提供了最精确和准确的界面。
 
@@ -68,8 +76,8 @@ ht-degree: 3%
 | <b>输入高光色阶</b> *浮动/浮动4* | 定义输入图像的高光级别。  将输入的High值重新映射为全白色。 |
 | <b>输入中间色阶</b> *浮动/浮动4* | 定义输入图像的中间色调级别。  将输入Mid值重新映射为中间灰色。 |
 | <b>水平输出低</b> *浮动/浮动4* | 定义输出图像的低光级别。  钳制输出Black值以设置限制。 |
-| <b>输出高光色阶</b> *浮动/浮动4* | 定义输出图像的高光级别。  钳制输出白色值以设置限制。 |
-| <b>中间夹具</b> *布尔值* | 在计算输出电平之前，确定转换的输入值是否被固定到[0， 1]。 |
+| <b>输出高光色阶</b> *Float/Float4* | 定义输出图像的高光级别。  钳制输出白色值以设置限制。 |
+| <b>中间夹具</b> *布尔值* | 确定在计算输出电平之前，是否将变换的输入值固定到[0， 1]。 |
 
 ## 使用指南
 
@@ -81,15 +89,15 @@ ht-degree: 3%
 
 ![级别节点快速操作](levels.resources/levels-2.png "级别节点快速操作")
 
-<b>1 — 反转：</b>交换“Level out low”和“Level out high”参数的值。
+<b>1 — 反转：</b>交换“Level out low”和“输出高光色阶”参数的值。
 
-<b>2 — 自动色阶：</b>将“低中的色阶”和“高中的色阶”参数的值分别自动调整为图像中存在的最低和最高值。
+<b>2 — 自动级别：</b>将“输入低光色阶”和“输入高光色阶”参数的值分别自动调整为图像中存在的最低和最高值。
 
 <b>3 — 切换界面：</b>在直方图编辑器和滑块编辑器之间切换。
 
 ### 直方图
 
-直方图编辑器旨在进行可视、快速调整，其中并不真正需要精确值，并且曝光参数无关紧要。 通常，这是使用色阶的最为快捷简便的方式。
+直方图编辑器旨在进行可视、快速调整，其中并不真正需要精确值，并且公开参数也不重要。 通常，这是使用色阶的最为快捷简便的方式。
 
 ![](levels.resources/levels-histo.gif)
 
@@ -97,7 +105,7 @@ ht-degree: 3%
 
 ### 滑块
 
-滑块编辑器不使用任何可视编辑器，仅提供数字滑块，主要在要固定或重新映射到非常精确的值时有用，或者如果打算[公开这些参数中的任何一个](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，因为仅在滑块编辑器中才可能提供。
+滑块编辑器不使用任何可视编辑器，仅提供数字滑块，主要在要固定或重新映射到非常精确的值时有用，或者如果打算[公开这些参数中的任何一个](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，因为仅在滑块编辑器中才可以这样做。
 
 滑块的变化取决于颜色或灰度输入：颜色输入为每个RGBA通道单独创建4个滑块，灰度只有一个滑块，使得操作更轻松。 有关每个滑块的说明，请参阅上面的“参数”列表。
 

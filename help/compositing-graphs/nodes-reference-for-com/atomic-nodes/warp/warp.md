@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: 使用“变形”节点将扭曲效果应用于纹理，以创建变形和位移效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 变形
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子节点：变形](warp.resources/comp_warp_1.png "原子节点：变形"){width="100%"}
+
+<b>在：</b>个原子节点中
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="变形工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="变形工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 在处理节点时可能会有些棘手，因为效果在很大程度上取决于渐变输入：对渐变进行较小的微调可以使用相同的强度值产生巨大的视觉差异。 确保尝试使用“Gradient Input”（渐变输入）的“Contrast”（对比度）、“Luminance”（明亮度）和“Scale”（缩放），以及这个节点上的“Intensity”（强度）滑块。
 

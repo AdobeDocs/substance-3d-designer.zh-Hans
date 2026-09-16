@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: 使用“浮雕”节点在纹理上创建浮雕效果，为表面细节添加深度和浮雕。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 浮雕效果
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子节点：浮雕](emboss.resources/comp_emboss_1.png "原子节点：浮雕"){width="100%"}
+
+<b>在：</b>个原子节点中
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="浮雕工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="emboss.resources/emboss-tooltip.gif" alt="浮雕工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 此节点不常用于类似PBR的项目，但在纹理中需要简单烘焙的光照时，它可以发挥作用。 或者，[光泽浮雕](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)和[Uber浮雕](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)提供类似但更广泛的功能。
 
