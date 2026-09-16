@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: 使用“曲线”节点可通过可自定义的曲线调整纹理值，以实现精确的颜色和亮度控制。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲线
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：曲线](curve.resources/comp_curve_1.png "原子节点：曲线"){width="20%"}
+![原子节点：曲线](curve.resources/comp_curve_1.png "原子节点：曲线")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 使用自定义曲线重新映射图像中的值。
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="曲线工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="曲线工具提示" /></div>
 
 与大多数其他节点不同，“曲线”节点不具有带有滑块和参数的典型标准界面，而是提供成熟的曲线编辑器。 有关如何使用它的信息，请参阅下面可展开的部分。
 
@@ -57,13 +57,13 @@ ht-degree: 2%
 
 要创建点，只需双击“曲线”视图上的任意位置：
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### 控制点影响
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 为了得到精确的结果，曲线节点为每个点提供了不同的模式：
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 当输入颜色节点时，您可以调整每个通道的曲线：
 
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 如果右键单击曲线视图，将会显示更多选项。
 
@@ -173,7 +173,7 @@ ht-degree: 2%
 
 <b>按住Shift并拖动</b>
 
-限制X或Y轴上的移动。
+限制在X轴或Y轴上移动。
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: 使用“位图”节点可导入位图图像，并将其用作Substance合成图表中的纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 位图
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：位图](bitmap.resources/comp_bitmap.png "原子节点：位图"){width="20%"}
+![原子节点：位图](bitmap.resources/comp_bitmap.png "原子节点：位图")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 将[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)加载到图形中。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="位图工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="位图工具提示" /></div>
 
 您可以从头开始创建节点，也可以将受支持格式的[位图](../../../../glossary/glossary.md)拖放到“图形”视图中。
 

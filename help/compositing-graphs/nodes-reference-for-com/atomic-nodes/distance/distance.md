@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: 使用“距离”节点根据形状计算距离图，以创建蒙版和程序效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 距离
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![原子节点：距离](distance.resources/comp_distance_1.png "原子节点：距离"){width="20%"}
+![原子节点：距离](distance.resources/comp_distance_1.png "原子节点：距离")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 查找蒙版中最近白色像素的位置，并从该位置输出渐变，或者输出源图像中该位置的颜色。
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="距离工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="距离工具提示" /></div>
 
 不断扩大的向外淡化将在遇到另一个单元时终止：它们永远不会重叠。 在内部，这会实际计算和显示到最接近像素> 0.5的距离，并将距离节点设置为固定/最大值。
 
@@ -70,17 +70,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="20%"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="20%"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="20%"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

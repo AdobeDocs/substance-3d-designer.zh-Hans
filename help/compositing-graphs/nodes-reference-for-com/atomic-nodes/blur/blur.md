@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
 description: 使用模糊节点将模糊效果应用于纹理，以平滑细节并创建柔和的聚焦效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 模糊
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 6%
@@ -22,9 +22,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![模糊节点图标](blur.resources/blur-9.png){width="20%"}
+![模糊节点图标](blur.resources/blur-9.png)
 
-**在：**&#x200B;个原子节点中
+**进入：**&#x200B;个原子节点
 
 **简单**
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="模糊工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="blur.resources/blur-tooltip.gif" alt="模糊工具提示" /></div>
 
 ## 参数
 

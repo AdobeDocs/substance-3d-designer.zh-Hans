@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
 description: 使用HSL节点调整纹理的色相、饱和度和亮度，以进行颜色操作和校正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点： HSL](hsl.resources/comp_hsl_1.png "原子节点： HSL"){width="20%"}
+![原子节点： HSL](hsl.resources/comp_hsl_1.png "原子节点： HSL")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 调整彩色图像的色相、饱和度和明亮度。
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl工具提示" /></div>
 
 
 

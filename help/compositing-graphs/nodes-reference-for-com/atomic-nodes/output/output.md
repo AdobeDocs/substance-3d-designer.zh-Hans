@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![原子节点：输出](output.resources/comp_output_1.png "原子节点：输出"){width="20%"}
+![原子节点：输出](output.resources/comp_output_1.png "原子节点：输出")
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ Output节点指定图形的<b>结果</b>，如果其中存在多个Output节点�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="输出工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="output.resources/output-tooltip.gif" alt="输出工具提示" /></div>
 
 同样，当[发布的Sbsar 文件](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)包含此图形时，该文件可以在使用该文件的任何集成或增效工具中输出该图像。
 
@@ -52,7 +52,7 @@ Output节点指定图形的<b>结果</b>，如果其中存在多个Output节点�
 | <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   由于标识符的标签为“Label”属性，因此该属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是图形。 |
 | <b>标签</b> *字符串* | 这用作输出节点的标签，及其在[实例化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中表示此图形的相应连接器。 标签可以包含空格和特殊字符。 |
-| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
+| <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
 | <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输出分组的特性。   在“紧凑素材”链接创建模式下，具有相同“组”属性的输出显示为单个连接。 |
 
 ## 集成属性

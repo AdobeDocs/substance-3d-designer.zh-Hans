@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: 使用“混合”节点，使用各种混合模式将两个纹理混合在一起，以创建复合效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 8%
@@ -22,10 +22,10 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：混合](blend.resources/comp_blend_1.png "原子节点：混合"){width="20%"}
+![原子节点：混合](blend.resources/comp_blend_1.png "原子节点：混合")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 使用指定的混合模式和可选蒙版组合两张图像。
 
@@ -35,9 +35,9 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="混合工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="blend.resources/blend-tooltip.gif" alt="混合工具提示" /></div>
 
-它的功能类似于在[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)中使两个图层相互叠加，并通过在顶部图层上设置的混合模式混合在一起。
+它的功能类似于在[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)或[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)中使两个图层相互叠加，并通过在顶部图层上设置的混合模式混合在一起。
 
 >[!TIP]
 >

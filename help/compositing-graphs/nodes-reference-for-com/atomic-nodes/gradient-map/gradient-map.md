@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: 使用“渐变映射”节点，通过渐变渐变渐变将灰度值映射到颜色以实现着色和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变映射
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="20%"}
+![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 使用自定义渐变重新映射图像中的灰度值。
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map工具提示" /></div>
 
 该节点提供了一个高级且功能丰富的渐变编辑器，可精确映射多个颜色：请转到本页的[渐变编辑器](#gradient-editor)部分以了解更多信息。
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 * 单击<b>渐变编辑器</b>按钮上的LMB；
 * 双击渐变栏中某个图钉上的LMB 。 然后，将在“渐变编辑器”中自动选择单击的图钉，以便您可以直接编辑其值。
 
-![渐变编辑器](gradient-map.resources/image2017-2-17-16-13-5.png "渐变编辑器"){width="20%"}
+![渐变编辑器](gradient-map.resources/image2017-2-17-16-13-5.png "渐变编辑器")
 
 ### 编辑渐变图钉
 
@@ -233,7 +233,7 @@ ht-degree: 2%
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   使用RGB、HSV和Alpha滑块，可以通过微调滑块或直接设置其数值来精确地设置颜色。
 
@@ -267,7 +267,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 选定颜色会在颜色缩览图的上半部分预览。\
 下半部分显示以前使用的颜色。 双击它上的LMB，将调整后的颜色恢复为它。
@@ -281,11 +281,11 @@ ht-degree: 2%
 </tr>
 </table>
 
-当选择多个图钉时，RGB、HSV和Alpha滑块将变成Δ(Δ)滑块，这意味着它们用于以相同的量偏移每个图钉的值。
+当选择多个大头针时，RGB、HSV和Alpha滑块将变成Δ(Δ)滑块，这意味着它们用于以相同的量偏移每个大头针的值。
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 此外，颜色缩略图下方还提供以下功能作为按钮：
 
@@ -299,7 +299,7 @@ ht-degree: 2%
 
 <b>sRGB</b>：使用sRGB色彩空间显示颜色。 禁用时，使用线性色彩空间；
 
-<b>浮点：</b>在浮点中显示RGB、HSV和Alpha滑块值。
+<b>Float：</b>在浮点中显示RGB、HSV和Alpha滑块值。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

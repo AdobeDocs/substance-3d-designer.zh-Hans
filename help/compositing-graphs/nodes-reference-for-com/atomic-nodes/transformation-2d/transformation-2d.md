@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 使用变换2D节点可将2D变换应用于纹理，包括平移、旋转和缩放。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 变形
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -22,10 +22,10 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：转换2D](transformation-2d.resources/comp_transformation_1.png "原子节点：转换2D"){width="20%"}
+![原子节点：转换2D](transformation-2d.resources/comp_transformation_1.png "原子节点：转换2D")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 将 2D 变换矩阵应用于图像：平移、旋转、缩放、对称和剪切。
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d工具提示" /></div>
 
 这是一个非常有用且应用广泛的节点，可用于增加拼贴、移除拼贴、将图像放置在特定位置、拉伸或挤压输入等。
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 > 
 > 将“拼贴模式”[基本参数](../../../../glossary/glossary.md)的[继承方法](../../../../glossary/glossary.md)设置为“Absolute”，随后即可将参数值设置为“无拼贴”：
 > 
-> ![](transformation-2d.resources/tilingmode.png){width="20%"}
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

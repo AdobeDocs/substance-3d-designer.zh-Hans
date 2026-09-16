@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
 description: 使用“值处理器”节点，使用数学运算处理并处理自定义调整的纹理值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 值处理器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -20,12 +20,12 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![原子节点：值处理器](value-processor.resources/comp_valueprocessor_1.png "原子节点：值处理器"){width="20%"}
+![原子节点：值处理器](value-processor.resources/comp_valueprocessor_1.png "原子节点：值处理器")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 计算[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)并输出其结果。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="价值处理器工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="价值处理器工具提示" /></div>
 
 
 >[!TIP]

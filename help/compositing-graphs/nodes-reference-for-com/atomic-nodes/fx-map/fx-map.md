@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: 使用FX-Map节点将函数图形应用于纹理，以创建过程模式和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点： FX-Map](fx-map.resources/fxmap.png "原子节点： FX-Map"){width="20%"}
+![原子节点： FX-Map](fx-map.resources/fxmap.png "原子节点： FX-Map")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻辑功能控制每个图案的分布。
 
@@ -35,7 +35,7 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map工具提示" /></div>
 
 与[像素处理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)类似，由您来定义和创建确定此节点的行为和输出的函数。
 
@@ -49,7 +49,7 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 > 建议在尝试使用FX-Map节点之前非常熟悉软件的所有方面，并且不会遇到为参数创建[数学函数](../../../../function-graphs/function-graphs.md)的问题。
 
 
-请记住，与其他节点不同，FX映射的大多数行为并非由参数决定，而是通过编辑其中的FX映射函数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)而决定。
+请记住，与其他节点不同，FX映射的大多数行为并非由参数决定，而是通过编辑其中的FX映射函数](../../../../function-graphs/fxmaps/fxmaps.md)而决定[。
 
 |  |  |
 | --- | --- |
@@ -75,4 +75,4 @@ FX-Map可以反复复制和细分图像或图案输入，并借助参数和逻�
 
 ## 示例
 
-![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}
+![](fx-map.resources/image2015-9-10-17-28-32.png)

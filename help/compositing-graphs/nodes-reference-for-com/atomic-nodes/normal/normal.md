@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: 使用“法线”节点可处理和操纵法线映射纹理，以控制表面细节和光照。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法线
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子节点：正常](normal.resources/comp_normal_1.png "原子节点：正常"){width="20%"}
+![原子节点：正常](normal.resources/comp_normal_1.png "原子节点：正常")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 根据被解释为高度图的灰度图像计算法线图。
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="normal.resources/normal-tooltip.gif" alt="正常工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="normal.resources/normal-tooltip.gif" alt="正常工具提示" /></div>
 
 它是一种非常有用的节点，通常用于将Height映射输入转换为实时素材的正常映射。 在[Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)和Height到正常世界单位中存在替代项。
 
