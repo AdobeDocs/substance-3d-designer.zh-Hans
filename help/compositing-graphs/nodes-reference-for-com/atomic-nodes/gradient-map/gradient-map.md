@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: 使用渐变图节点可通过渐变渐变将灰度值映射到颜色以实现着色和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 渐变映射
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="100%"}
 
 <b>进入：</b>个原子节点
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 使用自定义渐变重新映射图像中的灰度值。
 
@@ -39,9 +39,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map工具提示" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -68,30 +68,30 @@ ht-degree: 2%
 
 ### 编辑渐变大头针
 
-渐变中的颜色及其位置由渐变条沿线放置的大头针控制。
+颜色及其沿渐变的位置由渐变条上放置的图钉控制。
 
-每个大头针都会在其渐变上的位置设置一种颜色。
+每个图钉都将在其渐变上的位置设置颜色。
 
-第一个颜色和最后一个颜色之前和之后的渐变部分分别设置为这些大头针的大头针。
+将第一个和最后一个图钉前后的渐变部分分别设置为这些图钉的颜色。
 
 ![渐变编辑器 — 渐变视图](gradient-map.resources/image2017-2-17-17-27-46.png "渐变编辑器 — 渐变视图")
 
-以下控件可用于编辑大头针：
+下列控件可用于编辑图钉：
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>添加大头针</b>
+<b>添加PIN</b>
 
-单击渐变上或渐变下方的LMB，以在渐变条中单击的位置添加大头针。
+单击渐变上或渐变下方的LMB，以在渐变栏中单击的位置添加图钉。
 
-新大头针将被设置为该位置的渐变颜色。
+新图钉将在该位置设置为渐变的颜色。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 添加大头针](gradient-map.resources/move-pin.gif "渐变编辑器 — 添加大头针")
+![渐变编辑器 — 添加pin](gradient-map.resources/move-pin.gif "渐变编辑器 — 添加pin")
 
 </td>
 </tr>
@@ -101,40 +101,40 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>移动大头针</b>
+<b>移动图钉</b>
 
-按住LMB并沿渐变条拖动选定大头针以移动它们。
+按住LMB并沿渐变条拖动选定的图钉以移动它们。
 
-也可以通过选择大头针的位置并使用<b>位置</b>参数来设置具有数值的路径的位置。 位置是[0；1]范围内的值，其中0是渐变的开始，1是渐变的结束。
+也可以通过选择一个图钉位置并使用<b>位置</b>参数来设置图钉位置及其数值。 位置是[0；1]范围内的值，其中0是渐变的开始，1是渐变的结束。
 
-![渐变编辑器 — 大头针位置参数](gradient-map.resources/image2015-8-27-13-56-2.png "渐变编辑器 — 大头针位置参数")
+![渐变编辑器 — 固定位置参数](gradient-map.resources/image2015-8-27-13-56-2.png "渐变编辑器 — 固定位置参数")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 移动大头针](gradient-map.resources/movepin2.gif "渐变编辑器 — 移动大头针")
+![渐变编辑器 — 移动图钉](gradient-map.resources/movepin2.gif "渐变编辑器 — 移动图钉")
 
 </td>
 </tr>
 </table>
 
-选择多个大头针后，它们可以&#x200B;*同时*&#x200B;移动。 当一个或多个大头针在移动时到达渐变的末端时，根据用于移动的鼠标按钮，有两种行为可用：
+选择多个图钉后，可以&#x200B;*同时*&#x200B;移动所有图钉。 当一个或多个图钉在移动时到达渐变的末端时，根据用于移动的鼠标按钮，可使用两种行为：
 
-* <b>LMB：</b>大头针保留在末端，这意味着当它们到达该位置并且其相对位置改变时，它们将被栈叠在该位置；
-* <b>MMB：</b>大头针环回渐变的另一端，这意味着它们的相对位置保持不变。
+* <b>LMB：</b>图钉保留在末端，这意味着当它们到达该位置并且其相对位置改变时，它们将被栈叠在该位置；
+* <b>MMB：</b>针脚循环回渐变的另一端，这意味着它们的相对位置保持不变。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>删除大头针</b>
+<b>删除pin</b>
 
-选择大头针并按Delete键，或者将大头针拖离渐变条以删除它们。
+选择图钉并按Delete键，或者将图钉拖离渐变条以删除它们。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![渐变编辑器 — 删除大头针](gradient-map.resources/removepin.gif "渐变编辑器 — 删除大头针")
+![渐变编辑器 — 删除图钉](gradient-map.resources/removepin.gif "渐变编辑器 — 删除图钉")
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ ht-degree: 2%
 
 <b>反转位置</b>
 
-镜像渐变上选定大头针的位置。
+镜像渐变上所选图钉的位置。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -163,7 +163,7 @@ ht-degree: 2%
 
 <b>全部清除</b>
 
-从渐变条中删除所有图钉。
+从渐变条中删除所有大头针。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -176,27 +176,27 @@ ht-degree: 2%
 
 <b>反转颜色</b>
 
-此按钮可将选定针脚的颜色切换为负色。
+此按钮可将选定大头针的颜色切换为负色。
 
 <b>降低饱和度</b>
 
-此按钮降低所选图钉上设置的颜色的饱和度。
+该按钮降低所选大头针上设置的颜色的饱和度。
 
 ### 插值模式
 
-设置图钉后，可使用可用的插值模式控制颜色从一个图钉过渡到下一个图钉的方式：
+设置大头针后，您可以使用可用的插值模式控制颜色从一种大头针过渡到另一种颜色的方式：
 
 +++线性
-默认插值模式：在每个图钉之间应用简单的线性插值，以便渐变均匀进行。
+默认插值模式：在每个大头针之间应用简单的线性插值，以便渐变均匀进行。
 
 +++
 
 +++平面切线
-将渐变之间的过渡视为贝塞尔曲线时（曲线上的点为图钉），此模式会将这些点设置为具有水平切线。
+将渐变之间的过渡视为贝塞尔曲线（其中大头针是曲线的点）时，此模式会将这些点设置为具有水平正切。
 
 这将产生一个过渡，它唤起了对平滑步长插值的回忆。
 
-选择此模式时，将启用<b>中点</b>参数，并允许您偏移曲线垂直中点在点之间的水平位置。 这有效地调整了“out”和“in”切线之间的比例。
+选择此模式时，将启用<b>中点</b>参数，并允许您偏移曲线垂直中点在点之间的水平位置。 这有效地缩小了“out”和“in”正切之间的范围。
 
 +++
 
@@ -208,9 +208,9 @@ ht-degree: 2%
 +++
 
 +++无插值
-颜色仅在图钉位置发生变化，并在渐变条上的下一个图钉之前保持不变。
+颜色仅在大头针的位置发生变化，并在渐变条上的下一个大头针之前保持不变。
 
-这会导致颜色之间出现硬步骤，并且仅渐变上存在由图钉设置的颜色。
+这会导致颜色之间出现硬步骤，并且仅由大头针设置的颜色显示在渐变上。
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: 使用“法线”节点可处理和操纵法线映射纹理，以控制表面细节和光照。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法线
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 7%
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子节点：正常](normal.resources/comp_normal_1.png "原子节点：正常"){width="100%"}
 
 <b>在：</b>个原子节点中
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 根据被解释为高度图的灰度图像计算法线图。
 
@@ -39,9 +39,9 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="normal.resources/normal-tooltip.gif" alt="正常工具提示" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="normal.resources/normal-tooltip.gif" alt="正常工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: 使用“锐化”节点来增强纹理细节和边缘，以创建清晰、定义的表面细节。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 锐化
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -20,14 +20,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![锐化节点图标](sharpen.resources/sharpen-4.png "锐化节点图标")
 
-<b>进入：</b>个原子节点
+<b>在：</b>个原子节点中
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## 描述
 
@@ -39,13 +39,13 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="锐化工具提示" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="锐化工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-从数学上讲，它与Photoshop的“USM锐化”非常相似，尽管名称不同。 它适用于基色地图之类的东西，但应该避免在法线图和金属地图等地图上使用。
+从数学上讲，它与Photoshop的“USM锐化”非常相似，尽管名称不同。 对于基色图之类的效果很好，但在法线图和金属图等地图上应避免使用它。
 
 ## 输入
 
@@ -54,11 +54,11 @@ ht-degree: 4%
 
 ## 参数
 
-<b>强度</b> *Float*\
+<b>强度</b> *浮动*\
 设置锐化效果的强度。
 
 <b>穿透Alpha</b> *布尔值*（当彩色图像连接到<b>输入</b>时可用）\
-确定图像的Alpha 通道是应该锐化还是应该保持原样不变。
+确定应锐化图像的Alpha通道还是应保持其不变。
 
 ## 示例
 

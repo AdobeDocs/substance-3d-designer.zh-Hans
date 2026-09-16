@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
-description: 使用像素处理器节点通过自定义表达式处理单个像素以实现高级纹理操作。
+description: 使用自定义像素处理器来处理高级纹理操作，可以使用“表达式”节点处理各个像素。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 像素处理器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -20,20 +20,20 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子节点：像素处理器](pixel-processor.resources/comp_pixelprocessor_1.png "原子节点：像素处理器"){width="100%"}
 
-<b>在：</b>个原子节点中
+<b>进入：</b>个原子节点
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 生成图像，其中每个像素的值是指定的[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)的结果。
 
-像素处理器允许您在可选输入上，为每个作为输出返回的像素执行自定义函数。
+该像素处理器允许您在可选输入上为作为输出返回的每个像素执行自定义函数。
 
-它是迄今为止最通用的节点，因为它允许运行任何数学运算并在图表中返回结果。
+它是迄今为止最通用的节点，因为它允许运行任何数学运算并返回图形内的结果。
 
 </td>
 </tr>
@@ -41,26 +41,26 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="像素处理器工具提示" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="像素处理器工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-与[FX-Map](../../../../function-graphs/fxmaps/fxmaps.md)类似，它需要设置内部功能以执行任何操作。 像素处理器与FX-Map的不同之处在于，它不专注于使用多种功能控制图案形状和放置，而是放置图案。 相反，每个像素并行运行单个函数，其中每个像素不知道其相邻像素的计算结果。
+与[FX-Map](../../../../function-graphs/fxmaps/fxmaps.md)类似，它需要设置内部功能以执行任何操作。 该像素处理器与FX-Map的区别在于，它没有专注于使用多种功能控制图案形状和放置，而是置入图案。 相反，每个像素并行运行单个函数，其中每个像素不知道其相邻像素的计算结果。
 
-像素处理器类似于[值处理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)，它仅运行于单值，与像素处理器相比，可以提供很好的优化。
+该像素处理器类似于[值处理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)，它仅运行于单值，与像素处理器相比可提供很好的优化。
 
-对于习惯于在基于节点的编辑器中创建[着色器](../../../../glossary/glossary.md)功能的任何人，像素处理器应提供熟悉的环境。
+对于习惯于在基于节点的编辑器中创建[着色器](../../../../glossary/glossary.md)函数的任何人，该像素处理器应提供熟悉的环境。
 
 
 >[!TIP]
 >
-> 本文档的[示例Substance图形](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)部分提供了演示简单使用像素处理器节点的带批注的项目文件。
+> 在本文档的[示例图形](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)部分中，提供了一个用于演示简单使用像素处理器节点的带注释的项目文件。
 > 
-> [值处理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)节点是了解[Substance函数图表](../../../../function-graphs/the-function-graph/the-function-graph.md)的良好起点。
+> [值处理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)节点是了解[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)的良好起点。
 > 
-> 还要考虑到使用这种类型的图表和执行数学运算对于从这个节点中取出任何东西都是强制性的。
+> 此外，还要考虑到使用这种图形并执行数学运算对于从这个节点中取出任何东西都是必需的。
 > 
 > 我们还建议熟悉[UV](../../../../glossary/glossary.md)、[纹理采样](../../../../glossary/glossary.md)和矢量的概念。
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 |
-| <b>每像素函数</b> *浮动/浮动4* | 输出图像中每个像素计算的[Substance函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)。   使用设置为<b>$pos</b>变量的[Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)节点访问当前像素的[规范化](../../../../glossary/glossary.md)位置。 |
+| <b>每像素函数</b> *Float/Float4* | 输出图像中每个像素计算的[函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)Substance。   使用设置为<b>$pos</b>Float的[Get节点2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)可访问当前像素的[规范化](../../../../glossary/glossary.md)位置。 |
 
 ## 输入连接器
 

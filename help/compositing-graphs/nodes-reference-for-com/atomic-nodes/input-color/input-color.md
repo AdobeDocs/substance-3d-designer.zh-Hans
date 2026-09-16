@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输入彩色图像
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![原子节点：输入颜色](input-color.resources/comp_inputcolor_1.png "原子节点：输入颜色"){width="100%"}
 
 <b>在：</b>个原子节点中
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## 描述
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 与[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，您必须显式放置彩色、灰度或值输入。 您不可能创建自己的“不可知”输入，这些输入会根据与它们关联的内容更改类型。
 
-输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
+输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
 
 另请参阅： [输入灰度](../input-grayscale/input-grayscale.md)，[输入值](../input-value/input-value.md)
 
@@ -45,9 +45,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-color.resources/input-color-tooltip.gif" alt="输入颜色工具提示" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="输入颜色工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
 ## 集成属性
 
-输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)一起使用）。
+输入不会直接发送到3D视图，但[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)会使用它们的使用属性，以自动为某些映射填充槽（主要与[筛选器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)一起使用）。
 
 此外，[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)也使用使用情况属性，以匹配正确的输入和输出插槽。
 
