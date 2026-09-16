@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 22%
 ---
 
@@ -130,7 +130,9 @@ ht-degree: 22%
       + [值处理器](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [变形](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [输出](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [输入](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [输入彩色图像](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [输入灰度图像](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [输入值](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + 节点库{#node-library}
       + [节点库](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + 纹理生成器{#texture-generators}
@@ -753,12 +755,12 @@ ht-degree: 22%
   + [渲染图形时崩溃](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [参数未按预期方式工作](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [图像输出不正确](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [3D 视图问题](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [3D查看问题](/help/technical-issues/3d-view-issues/3d-view-issues.md)
   + [烘焙问题](/help/technical-issues/baking-issues/baking-issues.md)
   + [用户界面问题](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Python问题](/help/technical-issues/python-issues/python-issues.md)
   + [缺少MDL 图和Iray渲染器功能](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
-  + [缺少Substance模型图形功能](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
+  + [缺少Substance模型图特征](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
 + 发行说明{#release-notes}
   + [发行说明](/help/release-notes/release-notes.md)
   + [所有更改](/help/release-notes/all-changes/all-changes.md)
@@ -784,13 +786,13 @@ ht-degree: 22%
     + [版本2019.2 - 9.2](/help/release-notes/old-versions/version-2019-2-9-2/version-2019-2-9-2.md)
     + [版本2019.1 - 9.1](/help/release-notes/old-versions/version-2019-1-9-1/version-2019-1-9-1.md)
 + 弃用的功能{#retired-features}
-  + MDL 图{#mdl-graphs}
-    + [MDL 图](/help/mdl-graphs/mdl-graphs.md)
-    + [主要MDL 图概念](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
-    + [创建MDL 图](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
+  + MDL图表{#mdl-graphs}
+    + [MDL图表](/help/mdl-graphs/mdl-graphs.md)
+    + [主要MDL图形概念](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
+    + [创建MDL图形](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
     + [MDL库](/help/mdl-graphs/mdl-library/mdl-library.md)
-    + [在MDL 图中公开参数](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
-    + [图形和MDL 材质](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
+    + [在MDL图表中公开参数](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
+    + [Substance图形和MDL材料](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
     + [导出MDL内容](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
     + [MDL图表中的警告](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
     + [MDL学习资源](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)

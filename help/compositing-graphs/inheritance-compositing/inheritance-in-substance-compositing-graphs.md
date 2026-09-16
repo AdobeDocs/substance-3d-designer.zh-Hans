@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: 了解继承在Substance合成图形中的工作原理，以创建可重用的图形层次结构和变化。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 图形中的继承
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Substance 图形中的继承
 
@@ -196,7 +194,7 @@ Substance图中的所有节点都可以&#x200B;*继承*&#x200B;源中某些参�
 </tr>
 </table>
 
-通过在该[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)图形上单击&#x200B;**人民币**，然后在上下文菜单中选择&#x200B;**设置为主要输入**&#x200B;选项，可以将其中一个输入设置为&#x200B;**主要输入**。
+通过在该[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)图形上单击&#x200B;**人民币**，然后在上下文菜单中选择&#x200B;**设置为主要输入**&#x200B;选项，可以将其中一个输入设置为&#x200B;**主要输入**。
 
 </td>
 <td style="border: 0;" valign="top">

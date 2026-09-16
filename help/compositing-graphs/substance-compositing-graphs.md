@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: 了解Substance 3D Designer中的Substance合成图形，用于创建程序化纹理和材料工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 图形
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Substance 图形
 
@@ -59,7 +57,7 @@ ht-degree: 1%
 
 
 
-滤镜图表将法线图作为[输入](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)（使用自定义预览），[将其转换为曲率](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边缘蒙版作为最终[输出](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
+滤镜图形将法线图作为[输入](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)（使用自定义预览），[将其转换为弯曲](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边蒙版作为最终[输出](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
 可以公开在直方图中设置的对比度值，使其与动态输入槽相结合，成为简单但有用的滤镜。
 

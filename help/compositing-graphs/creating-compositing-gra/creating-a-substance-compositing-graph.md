@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Designer中创建Substance合成图表，用于构建程序化的纹理工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 创建 Substance 图形
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
-
 ---
-
 
 # 创建 Substance 图形
 
@@ -28,7 +26,7 @@ ht-degree: 1%
 
 若要开始创建新的[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)的过程，可以使用以下方法之一：
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +42,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +58,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +74,7 @@ ht-degree: 1%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -106,7 +104,7 @@ ht-degree: 1%
 
 ### 模板
 
-Designer包含带有预配置节点的图表模板，可帮助您更快开始使用。 它们可能包括[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点、用于将值传递到这些输出的简单节点 — 例如，[统一颜色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)以及[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)节点。
+Designer包含带有预配置节点的图表模板，可帮助您更快开始使用。 它们可能包括[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点、用于将值传递到这些输出的简单节点 — 例如，[统一颜色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)以及[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)节点。
 
 双击列表中的模板，或选择模板并单击<b>创建</b>按钮，以使用该模板创建新的Substance图形。 默认情况下，新图形将被放置到新的未保存包中。
 
@@ -139,7 +137,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 缩略图卡](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "新建Substance图形对话框 — 缩略图卡")
+![新建图形对话框 — 缩略图卡](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "新建Substance图形对话框 — 缩略图卡")
 
 </td>
 </tr>
@@ -149,13 +147,13 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 ### 素材示例
 
-<b>材质示例</b>类别包括[精选图表](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)，供您学习并尝试。
+<b>材料示例</b>类别包括[精选的图形](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)，可供您学习和尝试。
 
 您还可以使用<b>转到示例</b>按钮，直接从主屏幕访问示例。
 
 所有样本均基于[材质模型](../../interface/3d-view/material-properties/material-properties.md#openpbr)。
 
-![材质示例 — 主屏幕横幅](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "材质示例 — 主屏幕横幅"){zoomable="yes"}
+![材料示例 — 主屏幕横幅](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "材料示例 — 主屏幕横幅"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -165,7 +163,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 将鼠标悬停在每个模板项目的“信息”图标上会显示工具提示，其中包含有关模板的其他信息：
 
-<b>类型：</b>模板要生成的资源类型。 可在[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中编辑此项。
+<b>类型：</b>模板要生成的资源类型。 可在[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中编辑此属性。
 
 <b>描述：</b>有关模板的详细信息，例如模板集成到的工作流、其预期用例和使用建议。
 
@@ -174,7 +172,7 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 </td>
 <td style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 模板工具提示](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "新建Substance图形对话框 — 模板工具提示"){zoomable="yes"}
+![新建图形对话框 — 模板工具提示](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "新建Substance图形对话框 — 模板工具提示"){zoomable="yes"}
 
 </td>
 </tr>
@@ -188,19 +186,19 @@ Designer包含带有预配置节点的图表模板，可帮助您更快开始使
 
 使用<b>查看模式</b>按钮可按不同模式显示模板列表。
 
-按所选类别和项目文件执行的筛选将应用于所有视图。
+由所选类别和项目文件执行的筛选将应用于所有视图。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新建Substance图形对话框 — 查看模式](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "新建Substance图形对话框 — 查看模式"){zoomable="yes"}
+![新建图形对话框 — 视图模式](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "新建Substance图形对话框 — 视图模式"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++查看模式
-![新建Substance图形对话框 — 缩略图视图](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "新建Substance图形对话框 — 缩略图视图"){zoomable="yes"}
+![新建图形对话框 — 缩略图视图](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "新建Substance图形对话框 — 缩略图视图"){zoomable="yes"}
 
 
 

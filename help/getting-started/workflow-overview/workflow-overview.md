@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: 了解在Substance 3D Designer中创建程序性素材的基本工作流程（从头到尾）。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: f475b696f2d3ff6c453c5dc27e5672d55d72116e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着，几乎�
 
 ![图形中的调整滤镜](workflow-overview.resources/simplefilter.png "Substance图形中的调整滤镜"){width="512px" zoomable="yes"}
 
-滤镜图形将法线图作为[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)（使用自定义预览），[将其转换为弯曲](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边蒙版作为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
+滤镜图形将法线图作为[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)（使用自定义预览），[将其转换为弯曲](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边蒙版作为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
 可以公开“直方图”中设置的对比度值，使其与动态输入槽相结合，成为简单但有用的滤镜。
 
