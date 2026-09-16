@@ -1,60 +1,58 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
-description: 使用图形实例和子图创建可重复使用的图形组件和模块化材料工作流程。
+breadcrumb-title: ""
+description: 使用图形实例和子图创建可重用的图形组件和模块化材质工作流。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 图形实例和子图
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+title: 绘制实例和子图图形
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
 
-
-# 图形实例和子图
+# 绘制实例和子图图形
 
 ![](graph-instances-sub-graphs.resources/sub-graph.png)
 
-图形实例是<b>引用其他图形</b>的节点。 主机图形中的实例化引用的图形可以称为主机图形的<b>子图</b>。
+图形实例是<b>引用其他图形</b>的节点。 宿主图中的实例子图引用的图形可以称为宿主图的<b>节点</b>。
 
-使用实例可使图形在一个或多个图形中多次重复使用，甚至跨不同的包重复使用。
+使用实例可使图形在一个或多个图形中多次重用，甚至跨不同的包重用。
 
 ## 为什么应使用图形实例？
 
-<b>将图形拆分为多个子图</b>可让您更有效&#x200B;*工作*<b>。</b>
+<b>将图表拆分为多个子图</b>使您可更高效地工作&#x200B;*多*<b>。</b>
 
 任何时候在Designer中复制节点链时，您都可能会将该链拆分为一个子图，以便更轻松地重复使用和更新。
 
 >[!NOTE]
 >
-> 在本文档的[示例图形](../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)部分提供了演示&#x200B;*自定义*&#x200B;筛选器的子Substance的简单设置的项目文件。
+> 本文档的[示例Substance图表](../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)部分提供了演示&#x200B;*自定义*&#x200B;筛选器的子图简单设置的项目文件。
 
 ### 如何创建图形实例？
 
-将图形A从资源管理器拖动到另一个图形B中，以创建引用图形A的<b>实例化</b>。
+将图形A从资源管理器拖到另一个图形B中，以创建引用图形A的<b>实例节点</b>。
 
-通过选择节点并使用上下文菜单中的“从所选对象创建图形”可将图形快速拆分为新节点。 然后，系统会提示您设置新图形的标识符（应该是唯一的）。
+通过选择节点并使用上下文菜单中的“从所选对象创建图形”，可将节点快速拆分为新图形。 然后，系统会提示您设置新图形的标识符，该标识符应该是唯一的。
 
-请注意，如果所选节点已连接到图形中的其他节点，则您还应在新图形中创建[输入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[输出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点，以便将这些连接传递到子图。
+请注意，如果所选节点已连接到图形中的其他节点，则您还应在新图形中创建[输入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)和[输出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点，以便将这些连接传递到子图。
 
-此外，用引用新图形的实例化替换原始节点之后应手动执行。
+此外，用引用新图形的实例节点替换原始节点之后应手动完成。
 
-最后，您应决定在将项目发布到可共享的Sbsar 文件时是否将子图公开给用户。 请参阅[图形属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中的“公开于SBSAR”参数。
+最后，您应该确定在将项目发布到可共享的SBSAR文件时，是否应向用户公开子图。 请参阅[图表的属性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中的“在SBSAR中公开”参数。
 
-### 关于继承的一句话
+### 关于继承的一个词
 
-使用子图的另一个好处是，子图的每个实例都可以<b>适应要用到的上下文</b>。 换句话说，同一图形的两个实例可以具有不同的输出分辨率、位深和拼贴模式。
+使用子图的另一个好处是，子图的每个实例都可以<b>适应要用到的上下文</b>。 换句话说，同一图形的两个实例可以具有不同的输出分辨率、位深度和拼贴模式。
 
-这是在图形中工作的<b>基本概念</b>，当您准备好进一步处理Substance时，我们强烈建议您详细了解[在实例图形中继承](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
+这是使用图形的<b>基本概念</b>，我们强烈建议您在准备进一步使用实例时详细了解[Substance图形的继承](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
 
-请注意，虽然图形实例和子图概念也适用于Substance功能图形，但该页中所讨论的继承仅适用于Substance图形。
+请注意，虽然图形实例和子图概念也适用于Substance函数图形，但该页中讨论的继承仅适用于Substance图形。
 
 ### 能否将自己的图形实例添加到节点库？
 

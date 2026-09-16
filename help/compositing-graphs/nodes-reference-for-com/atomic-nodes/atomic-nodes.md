@@ -1,28 +1,26 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
-breadcrumb-title: ''
-description: 访问Substance 3D Designer中的原子节点以执行基本操作，包括输入、输出、混合和颜色调整。
+breadcrumb-title: ""
+description: 访问Substance 3D Designer中的原子节点进行基本操作，包括输入、输出、混合和颜色调整。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 原子节点
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 11%
-
+ht-degree: 12%
 ---
-
 
 # 原子节点
 
-原子节点是Substance图的基本构建块。
+原子节点是Substance图形的基本构成要素。
 
-如果将[库](../../../interface/the-library/the-library.md)中的所有其他Substance图形节点分解到最低级别，则这些节点都是用原子节点构建的。
+[库](../../../interface/the-library/the-library.md)中的所有其他图形节点都是根据原子节点构建的，前提是您将其分解到最低级别。
 
 <table>
 <tr style="border: 0;">
@@ -108,7 +106,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![原子节点： FX-Map](atomic-nodes.resources/comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+[![原子节点：FX-Map](atomic-nodes.resources/comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
@@ -122,23 +120,23 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![原子节点： HSL](atomic-nodes.resources/comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
+[![原子节点：HSL](atomic-nodes.resources/comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
 [HSL](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![原子节点：输入颜色](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子节点：输入颜色](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[输入彩色图像](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入彩色图像](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![原子节点：输入灰度](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子节点：输入灰度](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[输入灰度](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入灰度图像](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
 </td>
 </tr>
@@ -148,9 +146,9 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![原子节点：输入值](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子节点：输入值](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
-[输入值](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入值](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Designer中的键盘快捷键，以加快您的工作流程并提高工作效率。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 快捷键
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 17%
-
 ---
-
 
 # 快捷键
 
 在此页面上，您可以找到Substance 3D Designer所有快捷键的概述。
-
-## 目录
-
-[键图](#keymaps)
-
-[快捷键列表](#shortcuts-lists)
 
 ## 键图
 
@@ -107,9 +99,9 @@ ht-degree: 17%
 
 | 操作 | Windows | macOS |
 | --- | --- | --- |
-| 推拉相机（向前/向后平移） | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
+| 移动摄像头（前/后平移） | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
 | 轨道相机 | 按住LMB并拖动 | 按住LMB并拖动 |
-| 卡车和基座相机（横向和垂直平移） | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
+| 卡车和基座摄像头（横向和垂直平移） | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
 | 旋转环境 | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | 临时切换到“点光1”控件 | ⇧（定格） | ⇧（定格） |
 | 轨道点光1 | 按住LMB并拖动 | 按住LMB并拖动 |

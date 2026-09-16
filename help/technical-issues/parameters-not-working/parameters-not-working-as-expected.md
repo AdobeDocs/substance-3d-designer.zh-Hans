@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 解决Substance图形参数无法按预期工作的问题，并查找解决方案。
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > Parameters not working as expected
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 参数未按预期方式工作
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 6%
-
 ---
-
 
 # 参数未按预期方式工作
 
@@ -24,11 +22,11 @@ ht-degree: 6%
 
 ## 参数在预览模式下不起作用且已发布Substance 3D资源(SBSAR)
 
-<b>![（错误）](parameters-not-working-as-expected.resources/error.svg)问题</b>
+![（错误）](parameters-not-working-as-expected.resources/error.svg) <b>问题</b>
 
 在Designer中使用[预览模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)时，或者在图表中的Substance 3D资源(SBSAR) [已发布](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的参数列表中，图形的某些公开参数&#x200B;*未列出*。
 
-<b>![（刻度）](parameters-not-working-as-expected.resources/check.svg)建议的步骤</b>
+![（刻度）](parameters-not-working-as-expected.resources/check.svg) <b>建议的步骤</b>
 
 缺少的参数可能是[静态参数](../../glossary/glossary.md)，在图形&#x200B;*被烹调*&#x200B;后&#x200B;*无法动态编辑*，即经过处理以便快速高效地运行其算法。 每次图形&#x200B;*已编辑*&#x200B;或&#x200B;*已发布*&#x200B;时，Designer中都会发生烹饪。 受此类限制影响的参数列在此文档的[公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)页的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分中。
 
@@ -37,8 +35,8 @@ ht-degree: 6%
 以下是静态参数的列表：
 
 | 节点 | 参数 |
-| --- | --- |
-| 所有节点 | 拼贴模式像素比率 |
+|:---------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+| 所有节点 | 拼贴模式，像素比率 |
 | [统一颜色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | 颜色模式 |
 | [像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | 颜色模式 |
 | [混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 混合模式Alpha混合裁切区域 |
@@ -47,10 +45,10 @@ ht-degree: 6%
 
 ## 应用于参数的Substance函数图的结果不正确
 
-<b>![（错误）](parameters-not-working-as-expected.resources/error.svg)问题</b>
+![（错误）](parameters-not-working-as-expected.resources/error.svg) <b>问题</b>
 
-当使用负整数时，应用于Substance参数的节点函数图形不会输出预期值。
+当使用&#x200B;*负整数*&#x200B;时，应用于Substance参数的Node函数图形不会输出预期值。
 
-<b>![（刻度）](parameters-not-working-as-expected.resources/check.svg)建议的步骤</b>
+![（刻度）](parameters-not-working-as-expected.resources/check.svg) <b>建议的步骤</b>
 
 当前不支持负整数。 作为解决方法，请使用[整数2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)值中的负整数，然后使用[节点](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)Swizzle 整数提取该值。

@@ -1,39 +1,47 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 输出
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 
 # 输出
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子节点：输出](output.resources/comp_output_1.png "原子节点：输出"){width="200px"}
+![原子节点：输出](output.resources/comp_output_1.png "原子节点：输出"){width="100%"}
+
+<b>进入：</b>个原子节点
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
-输出节点指定Substance图形的<b>结果</b>，如果其中存在多个输出节点，则指定其结果之一。
+Output节点指定图形的<b>结果</b>，如果其中存在多个Output节点，则指定其结果之一。
 
 连接到图形的输出节点的图像或值由表示此图形的任何[实例化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)输出，并且可以[导出为图形输出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="输出工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -49,9 +57,9 @@ ht-degree: 0%
 
 |                             |                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   标识符被使用，因为节点的标签是“Label”属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
-| <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是Substance图形。 |
-| <b>标签</b> *字符串* | 这用作输出节点及其在[实例节点](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中代表此图形的对应连接器的标签。 标签可以包含空格和特殊字符。 |
+| <b>标识符</b> *字符串* | 输出的唯一标识符。 此属性不能留空，也不能包含特殊字符或空格。   由于标识符的标签为“Label”属性，因此该属性留空。 它还可用于命名[导出的纹理](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
+| <b>描述</b> *字符串* | 用作输出的工具提示的可选说明是图形。 |
+| <b>标签</b> *字符串* | 这用作输出节点的标签，及其在[实例化](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中表示此图形的相应连接器。 标签可以包含空格和特殊字符。 |
 | <b>用户数据</b> *字符串* | 可用于特定筛选操作的可选元数据。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)使用此数据来[驱动某些功能](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)。 |
 | <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输出分组的特性。   在“紧凑材料”链接创建模式下，具有相同“组”属性的输出显示为单个连接。 |
 

@@ -1,44 +1,35 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-breadcrumb-title: ''
-description: 使用“输入”节点创建可由用户公开和调整的Substance图表的输入参数。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input-grayscale.html"
+breadcrumb-title: ""
+description: 使用“输入灰度”节点为用户公开和调整的Substance图形创建灰度输入参数。
 helpx_creative_field: ""
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input grayscale
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 输入
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+title: 输入灰度图像
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 0%
-
+source-wordcount: '804'
+ht-degree: 1%
 ---
 
-
-# 输入
+# 输入灰度图像
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子节点：输入颜色](input.resources/comp_inputcolor_1.png "原子节点：输入颜色"){width="200px"}
+![原子节点：输入灰度](input-grayscale.resources/comp_inputgrayscale_1.png "原子节点：输入灰度"){width="100%"}
 
-</td>
-<td style="border: 0;" valign="top">
-
-![原子节点：输入灰度](input.resources/comp_inputgrayscale_1.png "原子节点：输入灰度"){width="200px"}
+<b>在：</b>个原子节点中
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
-![原子节点：输入值](input.resources/comp_inputnumeric_1.png "原子节点：输入值"){width="200px"}
-
-</td>
-</tr>
-</table>
+## 描述
 
 输入节点是一种特殊类型的节点，可在图形中创建动态槽，允许一旦在另外的上下文中使用“图形”就连接任何输入。
 
@@ -46,9 +37,23 @@ ht-degree: 0%
 
 输入节点不像[输出节点](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)那样重要：您可以拥有完全正常运行的高级图形，这些图形不需要输入。 仅当希望将图形或节点实例的结果基于外部输入时（例如，为Substance 3D Painter创建[实例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或[筛选器](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/effects/filter)时），才会使用输入。
 
+另请参阅： [输入颜色](../input-color/input-color.md)，[输入值](../input-value/input-value.md)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="输入灰度工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 ## 参数
 
-默认情况下，如果未插入任何对象，“输入颜色”或“灰度”会返回黑色。 您可以设置其他默认值，或将现有[位图资源](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖动到图形中的输入节点上，以便在槽中预览此数据。 这仅适用于颜色和灰度输入。 默认值在其它上下文中使用时是永久性的，预览位图将在任何其他位置被丢弃。
+默认情况下，如果未插入任何对象，“输入颜色”或“灰度”会返回黑色。 您可以设置其他默认值，或者将现有[位图资源](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖到图形中的输入节点上，以便在槽中预览此数据。 这仅适用于颜色和灰度输入。 默认值在其它上下文中使用时是永久性的，预览位图将在任何其他位置被丢弃。
 
 如果要用另一个图形的输出来查看它，则必须将该图形导出为上述方法的位图，或使用“In-Context”编辑。
 
@@ -61,11 +66,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>标识符</b> *字符串* | 唯一的必填唯一属性。 不能包含空格。   如果未设置Label，则用于标记输入，并用于区分不同的输出。 不要将这些项留在“input\_1”！ |
-| <b>描述</b> *字符串* | Designer的工具架和Painter库中使用的可选说明。 |
-| <b>标签</b> *字符串* | UI标签，用于在Designer和Painter UI中方便地添加标签。 可以包含空格。   建议使用与标识符类似的名称设置，只使用空格键而不是下划线。 |
-| <b>用户数据</b> *字符串* | 可用于特定筛选操作的附加可选用户数据，基本上是通配符自定义数据字段。 |
-| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输入进行分组的组属性。   具有相同（区分大小写）组属性的输入将作为单个连接显示在紧凑材质模式中。 |
+| <b>标识符</b> *字符串* | 唯一的必填唯一属性。 不能包含空格。 如果未设置Label，则用于标记输入，并用于区分不同的输出。 不要将这些项留在“input\_1”！ |
+| <b>描述</b> *字符串* | Designer的库和Painter的货架中使用的可选说明。 |
+| <b>标签</b> *字符串* | UI标签，用于在Designer和Painter UI中方便地添加标签。 可以包含空格。 建议使用与标识符类似的名称设置，只使用空格键而不是下划线。 |
+| <b>用户数据</b> *字符串* | 可用于特定筛选操作的其他可选用户数据，基本上是通配符自定义数据字段。 |
+| <b>组</b> *字符串* | 用于为Designer的[链接创建模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)将输入进行分组的组属性。 具有相同（区分大小写）组属性的输入将在紧凑素材模式下作为单个连接显示。 |
 
 ## 继承
 
@@ -76,12 +81,12 @@ ht-degree: 0%
 当存在多个输入时，您需要注意图形将如何从这些输入[继承其基本参数](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。\
 基本参数包括<b>输出大小</b>、<b>输出格式</b>和<b>拼贴模式</b>等。
 
-可将输入定义为[主要输入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 然后，此输入驱动所有输入的属性，继承方法设置为&#x200B;*相对于父代*。 这是输入节点上默认设置的继承方法&#x200B;**。
+可将输入定义为[主要输入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 然后，此输入驱动继承方法设置为&#x200B;*相对于父级*&#x200B;的所有输入的属性。 这是输入节点上默认设置的继承方法&#x200B;**。
 
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![图形中的主要输入](input.resources/node-primary-input.png)
+![图形中的主要输入](input-grayscale.resources/node-primary-input.png)
 
 </td>
 </tr>
@@ -112,6 +117,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>组件</b> *字符串* | 这决定了生成的输入中实际包含哪些通道。   这是旧版设置，集成和图形不再使用它。 |
+| <b>组件</b> *字符串* | 这决定了生成的输入中实际包含哪些通道。 这是旧版设置，集成和图形不再使用它。 |
 | <b>用法</b> *字符串* | 定义此输入的类型或用法。 它指示其他节点应如何连接到此输入。 |
 | <b>色彩空间</b> *字符串* | 设置应解释此输入的色彩空间。 |

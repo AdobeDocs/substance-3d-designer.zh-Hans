@@ -1,33 +1,33 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
-description: 使用“渐变映射”节点，通过渐变渐变渐变将灰度值映射到颜色以实现着色和效果。
+breadcrumb-title: ""
+description: 使用渐变图节点可通过渐变渐变将灰度值映射到颜色以实现着色和效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 渐变映射
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # 渐变映射
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="200px"}
+![原子节点：渐变映射](gradient-map.resources/comp_gradient_1.png "原子节点：渐变映射"){width="100%"}
+
+<b>进入：</b>个原子节点
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 使用自定义渐变重新映射图像中的灰度值。
 
@@ -37,31 +37,17 @@ ht-degree: 2%
 </tr>
 </table>
 
-该节点提供了一个高级且功能丰富的渐变编辑器，可精确映射多个颜色：请转到本页的[渐变编辑器](#gradient-editor)部分以了解更多信息。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## 示例
+该节点提供了一个高级且功能丰富的渐变编辑器，可精确映射多个颜色：请转到本页的[渐变编辑器](#gradient-editor)部分以了解更多信息。
 
-## 参数
+
 
 |  |  |
 | --- | --- |
@@ -71,16 +57,16 @@ ht-degree: 2%
 
 ## 渐变编辑器
 
-此窗口提供控件，可用于编辑渐变映射节点用于将灰度值映射到颜色的参考渐变。
+此窗口提供控件，可用于编辑渐变图节点用于将灰度值映射到颜色的参考渐变。
 
-可以通过以下方式从渐变映射节点的<b>属性</b>中打开它：
+可以通过以下方式从渐变图节点的<b>属性</b>中打开它：
 
 * 单击<b>渐变编辑器</b>按钮上的LMB；
-* 双击渐变栏中某个图钉上的LMB 。 然后，将在“渐变编辑器”中自动选择单击的图钉，以便您可以直接编辑其值。
+* 双击渐变栏中大头针上的LMB。 然后，将在“渐变编辑器”中自动选择所单击的大头针，以便您可以直接编辑其值。
 
 ![渐变编辑器](gradient-map.resources/image2017-2-17-16-13-5.png "渐变编辑器")
 
-### 编辑渐变图钉
+### 编辑渐变大头针
 
 颜色及其沿渐变的位置由渐变条上放置的图钉控制。
 
@@ -177,7 +163,7 @@ ht-degree: 2%
 
 <b>全部清除</b>
 
-从渐变条中删除所有图钉。
+从渐变条中删除所有大头针。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -190,27 +176,27 @@ ht-degree: 2%
 
 <b>反转颜色</b>
 
-此按钮可将选定针脚的颜色切换为负色。
+此按钮可将选定大头针的颜色切换为负色。
 
 <b>降低饱和度</b>
 
-此按钮降低所选图钉上设置的颜色的饱和度。
+该按钮降低所选大头针上设置的颜色的饱和度。
 
 ### 插值模式
 
-设置图钉后，可使用可用的插值模式控制颜色从一个图钉过渡到下一个图钉的方式：
+设置大头针后，您可以使用可用的插值模式控制颜色从一种大头针过渡到另一种颜色的方式：
 
 +++线性
-默认插值模式：在每个图钉之间应用简单的线性插值，以便渐变均匀进行。
+默认插值模式：在每个大头针之间应用简单的线性插值，以便渐变均匀进行。
 
 +++
 
 +++平面切线
-将渐变之间的过渡视为贝塞尔曲线时（曲线上的点为图钉），此模式会将这些点设置为具有水平切线。
+将渐变之间的过渡视为贝塞尔曲线（其中大头针是曲线的点）时，此模式会将这些点设置为具有水平正切。
 
 这将产生一个过渡，它唤起了对平滑步长插值的回忆。
 
-选择此模式时，将启用<b>中点</b>参数，并允许您偏移曲线垂直中点在点之间的水平位置。 这有效地调整了“out”和“in”切线之间的比例。
+选择此模式时，将启用<b>中点</b>参数，并允许您偏移曲线垂直中点在点之间的水平位置。 这有效地缩小了“out”和“in”正切之间的范围。
 
 +++
 
@@ -222,9 +208,9 @@ ht-degree: 2%
 +++
 
 +++无插值
-颜色仅在图钉位置发生变化，并在渐变条上的下一个图钉之前保持不变。
+颜色仅在大头针的位置发生变化，并在渐变条上的下一个大头针之前保持不变。
 
-这会导致颜色之间出现硬步骤，并且仅渐变上存在由图钉设置的颜色。
+这会导致颜色之间出现硬步骤，并且仅由大头针设置的颜色显示在渐变上。
 
 +++
 
@@ -255,14 +241,14 @@ ht-degree: 2%
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   使用RGB、HSV和Alpha滑块，可以通过微调滑块或直接设置其数值来精确地设置颜色。
 
   或者，在滑块下方的专用输入字段中使用十六进制代码。
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![拾色器 — RGB、HSV和Alpha滑块](gradient-map.resources/image2017-2-17-18-31-41.png "拾色器 — RGB、HSV和Alpha滑块")
 
@@ -289,7 +275,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 选定颜色会在颜色缩览图的上半部分预览。\
 下半部分显示以前使用的颜色。 双击它上的LMB，将调整后的颜色恢复为它。
@@ -303,11 +289,11 @@ ht-degree: 2%
 </tr>
 </table>
 
-当选择多个大头针时，RGB、HSV和Alpha滑块将变成Δ(Δ)滑块，这意味着它们用于以相同的量偏移每个大头针的值。
+当选择多个图钉时，RGB、HSV和Alpha滑块将变成Δ(Δ)滑块，这意味着它们用于以相同的量偏移每个图钉的值。
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 此外，颜色缩略图下方还提供以下功能作为按钮：
 
@@ -321,7 +307,7 @@ ht-degree: 2%
 
 <b>sRGB</b>：使用sRGB色彩空间显示颜色。 禁用时，使用线性色彩空间；
 
-<b>Float：</b>在浮点中显示RGB、HSV和Alpha滑块值。
+<b>浮点：</b>在浮点中显示RGB、HSV和Alpha滑块值。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -346,11 +332,6 @@ ht-degree: 2%
 | --- | --- |
 | <b>输入</b> *灰度*&#x200B;主要 | 要处理的灰度图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度* |  |
 
 ## 示例
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance合成图形的关键概念，包括节点、连接和工作流程基础知识。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,42 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 图形关键概念
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Substance 图形关键概念
 
-本页列出了在Substance 3D Designer中使用Substance图时需要了解的重要概念。
+本页列出了在Substance 3D Designer中使用Substance图形时需要了解的重要概念。
 
-## 子图表/发布
+## 子图形/发布
 
-[发布图形](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)或创建子图形是两个非常相似的抽象概念。 这意味着任何节点图形或网络都可以“打包”在一起，并转变为可重复使用、独立的资源。 创建[子图](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)主要在应用程序内完成，以便以高效、智能的工作流程重复使用某些内容，因为这可避免反复复制节点集。 发布涉及一个额外的步骤来导出为Substance 3D资源(SBSAR)格式，使您的节点网络图形可在应用程序外部使用，例如，当您为Unreal Engine创建素材时。
+[发布图形](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)或创建子图形是两个非常相似的抽象概念。 这意味着，任何图形或节点网络都可以“打包”在一起，变成一个可重复使用、独立的资源。 创建[子图形](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)主要在应用程序内完成，以便以高效、智能的工作流程重复使用某些内容，因为这可避免反复复制一组节点。 发布涉及一个额外的步骤来导出为Substance 3D资源(SBSAR)格式，使您的Node网络图形可在应用程序外部使用，例如在为Unreal引擎创建材料时。
 
-输入、输出和公开参数对于这一概念极为重要，因为它们是图表在用作子图表或用作已发布的Substance 3D资源后仍与其交互的唯一方式。 原因如下：
+输入、输出和公开参数对于这一概念极为重要，因为它们是将图形用作子图形或用作已发布的Substance 3D资源后仍与其交互的唯一方式。 原因如下：
 
-* 没有输出将意味着您的图形<b>不生成任何内容，</b>没有任何数据。
+* 没有输出将意味着您的图形<b>不生成任何数据，</b>没有任何数据。
 * 没有公开参数表示无法以任何方式自定义图形<b></b>。 您将无法设置效果的强度、要混合的图像的不透明度、特定区域的颜色等事项。
-* 无输入意味着在某些情况下，您将无法用<b>自己的图像数据</b>自定义图表结果，如用于生成效果的烘焙网格图、用于执行模糊的输入图像或用于隔离图像特定区域的自定义蒙版。
+* 无输入意味着在某些情况下，您将无法使用<b>自己的图像数据</b>自定义图形的结果，例如从中生成效果的烘焙网格图、执行模糊的输入图像或用于隔离图像特定区域的自定义蒙版。
 
 ## 输入和输出
 
-[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)是生成单个2D结果的节点。 它是端点，是图表的终结点，是最终的结果。 只能将连接到输出的数据导出到Designer外部，甚至可以在其他图形中使用。
+[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)是生成单个2D结果的节点。 它是终结点，是您图形的终结点，是最终结果。 只能将连接到输出的数据导出到Designer外部，甚至可以在其他图形中使用。
 
 关于输出，您应该了解以下几点：
 
 * 您可以拥有任意多个输出，但必须拥有<b>至少一个输出</b>。
 * 输出可以是<b>任何分辨率</b>，宽度或高度最大为8192px，颜色或灰度可以是<b></b>，并且可以导出为任何支持的文件类型。
 * 输出可以且应该是<b>唯一命名</b>以标识它们，在导出时很有帮助。
-* 任何节点右侧的每个连接器实际上都是一个输出（有关更多信息，请参见“子图表”）
+* 任何连接器右侧的每个节点实际上都是一个输出（有关更多信息，请参见“子图形”）
 
-[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)类似于输出，它是一个空的开放插槽，可供您或其他用户将您自己的数据连接到。 它允许创建图形，该图形在外部、用户定义的图像数据中，例如修改输入图像的滤镜（例如，模糊或对比度调整）。
+[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)类似于输出，它是一个空的开放插槽，可供您或其他用户将您自己的数据连接到。 它允许创建外部用户定义的图像数据中的图形，如修改输入图像的滤镜（如模糊或对比度调整）。
 
 关于输入，您应了解以下几点：
 

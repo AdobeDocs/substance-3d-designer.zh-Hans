@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
-description: 了解如何管理和整理Substance合成图表中的参数，以便更好地整理工作流。
+breadcrumb-title: ""
+description: 了解如何管理和整理Substance合成图形中的参数，以便更好地整理工作流。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 管理参数
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # 管理参数
 
@@ -26,7 +24,7 @@ ht-degree: 3%
 * 将节点的值或所有参数保存到[预设文件](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)中，以便以后重复使用
 * [公开节点的参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)以使它们可访问并将它们链接在一起
 * [根据其他参数的值隐藏或显示参数](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
-* 使用[Substance函数图形](../../function-graphs/function-graphs.md)计算参数的值
+* 使用[Substance的函数图形](../../function-graphs/function-graphs.md)计算参数的值
 
 ## 参数操作
 
@@ -41,7 +39,7 @@ ht-degree: 3%
 在“属性”停靠区中显示节点的属性时，可以使用以下节标题中的“<b>管理参数</b>”菜单全局管理节点参数：
 
 * 对于[原子节点](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)：特定参数
-* 对于[实例节点](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)：实例参数
+* 对于[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)：实例参数
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -54,7 +52,7 @@ ht-degree: 3%
 
 此菜单中的操作将影响该部分中列出的&#x200B;*所有*&#x200B;参数：
 
-* <b>公开参数：</b>打开“批量公开参数”对话框。 对于每个公开参数，该动作将创建一个新的图形输入并使用该图形输入自动设置一个函数。 了解有关在[此专用页面](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中公开参数的更多信息。
+* <b>公开参数：</b>打开“批处理公开参数”对话框。 对于每个公开参数，该动作将创建一个新的图形输入并使用该图形输入自动设置一个函数。 详细了解公开[此专用页](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中的参数。
 * <b>复制参数：</b>请参阅下面的[复制和粘贴参数](#copy-paste-parameters)部分。
 * <b>粘贴参数：</b>请参阅下面的[复制和粘贴参数](../../compositing-graphs/manage-parameters/manage-parameters.md)部分。
 * <b>将参数另存为预设文件：</b>在[此专用页面](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)中了解有关参数预设的更多信息。
@@ -165,11 +163,11 @@ ht-degree: 3%
 
 [渐变映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[输入彩色图像](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入彩色图像](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[输入灰度图像](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入灰度图像](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[输入值](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[输入值](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

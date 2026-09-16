@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用“曲线”节点可通过可自定义的曲线调整纹理值，以实现精确的颜色和亮度控制。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 曲线
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 
 # 曲线
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子节点：曲线](curve.resources/comp_curve_1.png "原子节点：曲线"){width="200px"}
+![原子节点：曲线](curve.resources/comp_curve_1.png "原子节点：曲线"){width="100%"}
+
+<b>进入：</b>个原子节点
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 使用自定义曲线重新映射图像中的值。
 
@@ -37,53 +37,19 @@ ht-degree: 2%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="曲线工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 与大多数其他节点不同，“曲线”节点不具有带有滑块和参数的典型标准界面，而是提供成熟的曲线编辑器。 有关如何使用它的信息，请参阅下面可展开的部分。
 
-[但是，这确实意味着Curve子图中的所有参数都不能向Node公开](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 此处的唯一选项是使用[多开关](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)在不同的曲线配置文件之间切换。
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+[但是，这确实意味着Curve节点中的所有参数都不能公开到子图](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 此处的唯一选项是使用[多开关](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)在不同的曲线配置文件之间切换。
 
 
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 参数
-
-### 曲线编辑器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输入连接器
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -105,12 +71,12 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 为了得到精确的结果，曲线节点为每个点提供了不同的模式：
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -142,14 +108,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 当输入颜色节点时，您可以调整每个通道的曲线：
 
 只需在右上方的下拉菜单中选择要调整的曲线：
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -165,7 +131,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 如果右键单击曲线视图，将会显示更多选项。
 
@@ -259,11 +225,6 @@ ht-degree: 2%
 | --- | --- |
 | <b>输入</b> *灰度/颜色*&#x200B;主要 | 要处理的图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 

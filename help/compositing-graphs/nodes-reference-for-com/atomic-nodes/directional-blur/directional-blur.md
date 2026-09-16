@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用方向模糊节点沿特定方向应用模糊效果，以创建运动模糊和条纹效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 定向模糊
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 9%
-
+source-wordcount: '200'
+ht-degree: 8%
 ---
-
 
 # 定向模糊
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子节点：方向模糊](directional-blur.resources/comp_dirmotionblur_1.png "原子节点：方向模糊"){width="200px"}
+![原子节点：方向模糊](directional-blur.resources/comp_dirmotionblur_1.png "原子节点：方向模糊"){width="100%"}
+
+<b>在：</b>个原子节点中
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 根据强度图在指定方向上应用模糊。
 
@@ -37,27 +37,16 @@ ht-degree: 9%
 </tr>
 </table>
 
-与“模糊”类似，它也是一种更快且低质量的操作。 [各向异性模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)中提供了扩展的、更高质量的替代项，具有性能折中
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向模糊工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+与“模糊”类似，它也是一种更快且低质量的操作。 [各向异性模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)中提供了扩展的、更高质量的替代项，具有性能折中
+
 
 ## 方向模糊和各向异性模糊
 
@@ -82,30 +71,6 @@ ht-degree: 9%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输入连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -120,11 +85,6 @@ ht-degree: 9%
 | --- | --- |
 | <b>输入</b> *灰度/颜色* [主要](../../../../glossary/glossary.md) | 要处理的图像。 |
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 

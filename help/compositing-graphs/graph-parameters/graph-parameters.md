@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Designer中创建和管理图形参数以控制素材属性和行为。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 图形参数
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
-
 ---
-
 
 # 图形参数
 
@@ -143,7 +141,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在此部分中，将列出图形的所有[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)节点。
+在此部分中，将列出图形的所有[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)节点。
 
 可通过在每个项目最左侧的手柄上使用拖放操作来重新排列顺序。
 

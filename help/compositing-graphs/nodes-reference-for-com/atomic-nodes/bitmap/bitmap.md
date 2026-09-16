@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用“位图”节点可以导入位图图像，并将其用作Substance合成图形中的纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 位图
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '456'
+ht-degree: 0%
 ---
-
 
 # 位图
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子节点：位图](bitmap.resources/comp_bitmap.png "原子节点：位图"){width="200px"}
+![原子节点：位图](bitmap.resources/comp_bitmap.png "原子节点：位图"){width="100%"}
+
+<b>进入：</b>个原子节点
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 将[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)加载到图形中。
 
@@ -39,27 +39,16 @@ ht-degree: 1%
 </tr>
 </table>
 
-您可以从头开始创建节点，也可以将受支持图形视图的[位图](../../../../glossary/glossary.md)拖放到节点中。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="位图工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+您可以从头开始创建节点，也可以将受支持图形视图的[位图](../../../../glossary/glossary.md)拖放到节点中。
+
 
 >[!TIP]
 >
@@ -74,30 +63,6 @@ ht-degree: 1%
 > * 另一方面，删除资源管理器中的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)时要小心：由于它保留在缓存中，因此它仍然可以在该会话的图形中使用，但下次加载[包](../../../../glossary/glossary.md)时，该资源将被标记为缺失。
 > * 当图形[已准备就绪](../../../../glossary/glossary.md)时，位图分辨率将在图形内固定为它的分辨率，而不是基于它的原始大小。 建议确保Bitmap节点的“Output size”[基参数](../../../../glossary/glossary.md)使用“Absolute”[继承方法](../../../../glossary/glossary.md)，并且在该节点后跟一个设置为“相对于父代”的[变换2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点（即宿主图形的分辨率）。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 参数
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 位图绘画工具
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 输出连接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 示例
-
-</td>
-</tr>
-</table>
 
 ## 参数
 
@@ -111,11 +76,6 @@ ht-degree: 1%
 
 位图可以在Designer中进行编辑。 了解有关[此部分](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)中编辑工具的更多信息。
 
-## 输出连接器
-
-|  |  |
-| --- | --- |
-| <b>输出</b> *灰度/颜色* |  |
 
 ## 示例
 
