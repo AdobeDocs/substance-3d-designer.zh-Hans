@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
-breadcrumb-title: ''
-description: 使用分形求和基节点生成基本分形噪声图案，用于创建复杂的有机纹理。
+breadcrumb-title: ""
+description: 使用分形求和基节点生成基分形噪声图案，用于创建复杂的有机纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum base
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 分形求和基础
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
-
 ---
-
 
 # 分形求和基础
 
@@ -26,16 +24,16 @@ ht-degree: 1%
 
 ![分形求和库 — 图标](fractal-sum-base.resources/fractal_sum_base.png "分形求和库 — 图标"){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+<b>在：</b>纹理生成器>杂色
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-一种可自定义的分形噪声，具有可调范围和八度音阶平衡。
+一种可自定义的分形噪声，具有可调的范围和八度音阶平衡。
 
-<b>分形求和</b>系列的噪声均基于此节点。
+<b>分形求和</b>系列噪声均基于此节点。
 
 另请参阅：[分形求和1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md)、[分形求和2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md)、[分形求和3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md)、[分形求和4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
@@ -49,7 +47,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>灰度</i> | 生成的灰度位图噪声。 |
+| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
 
 <a name="parameters"></a>
 
@@ -57,9 +55,9 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>粗糙度</b> <i>Float</i> | 噪声的平衡是八度音调。    值越大，显示的频率越高，八度音越明显。 |
+| <b>粗糙度</b> <i>浮动</i> | 噪声八度音量达到平衡。    值越大，显示的频率越高，八度音越明显。 |
 | <b>分钟。 级别</b> <i>整数</i> | 噪声中使用的最小八度音阶。    值越大，噪声频率越高。 |
-| <b>最大 级别</b> <i>整数</i> | 噪声中使用的最大八度音调。    值越大，噪声频率越高。 |
+| <b>最大 级别</b> <i>整数</i> | 噪声中使用的最大八度音阶。    值越大，噪声频率越高。 |
 | <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
 | <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
 | <b>对比度</b> <i>浮动</i> | 最终结果的对比度。 |
@@ -68,17 +66,14 @@ ht-degree: 1%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![分形求和基数 — 示例1](fractal-sum-base.resources/fractal_sum_base_1.png "分形求和基数 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![分形求和基 — 示例2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "分形求和基 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fractal-sum-base.resources/fractal_sum_base_1.png" class="modal-image" alt="分形求和基础 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif" class="modal-image" alt="分形求和基础 — 示例2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

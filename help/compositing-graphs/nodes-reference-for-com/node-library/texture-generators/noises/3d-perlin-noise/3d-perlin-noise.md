@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用3D Perlin噪声节点在3D空间中生成平滑的Perlin噪声图案，用于创建自然外观的体积纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Perlin噪声
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '289'
 ht-degree: 1%
-
 ---
-
 
 # 3D Perlin噪声
 
@@ -64,16 +62,16 @@ ht-degree: 1%
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlin.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise.resources/3dperlin.gif" class="modal-image" alt="3D Perlin噪声 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" class="modal-image" alt="3D Perlin噪声 — 示例2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" class="modal-image" alt="3D Perlin噪声 — 示例3" />
         </td>
     </tr>
 </table>

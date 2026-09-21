@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用“杂乱纤维2”节点生成中间纤维图案，用于创建编织和纺织纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 杂乱纤维2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '311'
 ht-degree: 1%
-
 ---
-
 
 # 杂乱纤维2
 
@@ -68,32 +66,23 @@ ht-degree: 1%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![杂乱纤维2 — 示例1](messy-fibers-2.resources/messy_fibers_2_1.png "杂乱纤维2 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![杂乱纤维2 — 示例2](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "杂乱纤维2 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![杂乱纤维2 — 示例3](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "杂乱纤维2 — 示例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![杂乱纤维2 — 示例4](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "杂乱纤维2 — 示例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/messy_fibers_2_1.png" class="modal-image" alt="杂乱纤维2 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif" class="modal-image" alt="杂乱纤维2 — 示例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif" class="modal-image" alt="杂乱纤维2 — 示例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif" class="modal-image" alt="杂乱纤维2 — 示例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

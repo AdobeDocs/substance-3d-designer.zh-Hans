@@ -1,78 +1,56 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
-description: 从3D场景提取素材属性，以用于素材创建工作流程的Substance图表。
+breadcrumb-title: ""
+description: 从3D场景中提取材料属性，以便在Substance图形中使用，执行材料创建工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 提取素材值和纹理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+title: 提取材料值和纹理
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
 
+# 提取材料值和纹理
 
-# 提取素材值和纹理
+可以提取材料的属性以用于Substance图形。
 
-可以提取材料的属性以用于Substance图。
+## 从纹理新建图形
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 从纹理新建图表
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 提取纹理
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 提取值
-
-</td>
-</tr>
-</table>
-
-## 从纹理新建图表
-
-“从纹理输入创建图形”操作可创建新的Substance图形，其中包含材质使用的所有纹理
+“从纹理输入创建图形”操作可创建一个新的Substance图形，其中包含材料使用的所有纹理
 
 使用此操作时发生一些问题：
 
-* 将在所选位置创建以材料命名的Substance图形。
-* 为素材使用的每个纹理创建[位图资源](../../resources/bitmap-resource/bitmap-resource.md)，并将其放置在“Resources”文件夹下以素材命名的文件夹中。
-* 在图形中，为每个位图资源创建[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点，并使用纹理自动连接到在材质属性之后配置的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点。
-* 如果使用同一纹理的每个通道来驱动不同的素材属性（该技术称为[通道打包](../../glossary/glossary.md)），则会自动添加[灰度转换](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)节点以选择适当的通道。
-* 图形会自动连接到材料，并且直到您在图形中进行编辑之后，其外观才应改变。
+* 将在所选位置创建一个以材料命名的Substance图形。
+* 为材料使用的每个纹理创建[位图资源](../../resources/bitmap-resource/bitmap-resource.md)，该位图资源放置在“资源”文件夹下以材料命名的文件夹中。
+* 在该图形中，为每个位图资源创建[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点，并使用纹理自动连接到在材料属性之后配置的[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点。
+* 如果使用同一纹理的每个通道来驱动不同的材料属性（该技术称为[通道打包](../../glossary/glossary.md)），则会自动添加[灰度转换](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)节点以选择适当的通道。
+* 图形会自动连接到该材料，并且只有在图形中进行编辑后，其外观才能更改。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![从纹理输入创建图形 — “3D视图”视口中的操作](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "从纹理输入创建图形 — “3D视图”视口中的操作"){zoomable="yes"}
+![从纹理输入创建图形 — “3D 视图”视口中的操作](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "从纹理输入创建图形 — “3D 视图”视口中的操作"){zoomable="yes"}
 
-*3D视图视口中的操作*
-
-</td>
-<td style="border: 0;" valign="top">
-
-![从纹理输入创建图形 — “材质”菜单中的操作](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionMaterials.png "从纹理输入创建图形 — “材质”菜单中的操作"){zoomable="yes"}
-
-*“材质”菜单中的操作*
+*视口中的操作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![从纹理输入创建图形 — “属性”停放中的操作](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionProps.png "从纹理输入创建图形 — “属性”停放中的操作"){zoomable="yes"}
+![从纹理输入创建图形 — “材料”菜单中的操作](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionMaterials.png "从纹理输入创建图形 — “材料”菜单中的操作"){zoomable="yes"}
+
+*材料菜单中的操作*
+
+</td>
+<td style="border: 0;" valign="top">
+
+![从纹理输入创建图形 — “属性”停靠区中的操作](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionProps.png "从纹理输入创建图形 — “属性”停靠区中的操作"){zoomable="yes"}
 
 *属性停放中的操作*
 
@@ -80,9 +58,9 @@ ht-degree: 0%
 </tr>
 </table>
 
-![从素材纹理创建图形的结果](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "从素材纹理创建图形的结果"){zoomable="yes"}
+![从纹理创建图形的结果](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "从材料纹理创建图形的结果"){zoomable="yes"}
 
-*从素材纹理创建图形的结果*
+*从纹理创建图形的结果*
 
 +++演示
 ![从纹理输入创建图形 — 演示](extracting-materials-values-and-textures.resources/createGraphFromTextures.gif "从纹理输入创建图形 — 演示"){zoomable="yes"}
@@ -93,11 +71,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 您可以将光标放在对象上并按<b>Shift+LMB</b>以选择对象，从而在3D视图视口中快速而直接地访问该动作。 然后点击“RMB”（人民币）访问该动作的上下文菜单。
+> 您可以将光标放在对象上并按<b>Shift+LMB</b>以选择对象，从而在视口中快速而直接地访问该动作。 然后点击“RMB”（人民币）访问该动作的上下文菜单。
 
 >[!NOTE]
 >
-> 对于使用&#x200B;*嵌入的纹理*（例如：USDZ）的格式，需要在磁盘上提取和复制纹理。 这会导致额外的步骤，即选择提取纹理的位置。
+> 对于使用&#x200B;*嵌入纹理*&#x200B;的格式（例如：USDZ），需要在磁盘上提取和复制纹理。 这会导致执行额外的步骤，以选择提取纹理的位置。
 
 ## 提取纹理
 

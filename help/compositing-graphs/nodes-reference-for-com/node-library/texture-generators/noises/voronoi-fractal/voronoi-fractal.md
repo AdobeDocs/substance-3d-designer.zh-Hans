@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Voronoi分形节点生成分形Voronoi图案，用于创建有机细胞纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Voronoi分形
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 
 # Voronoi分形
 
@@ -76,31 +74,36 @@ ht-degree: 0%
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" class="modal-image" alt="Voronoi分形 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" class="modal-image" alt="Voronoi分形 — 示例2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" class="modal-image" alt="Voronoi分形 — 示例3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" class="modal-image" alt="Voronoi分形 — 示例4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" class="modal-image" alt="Voronoi分形 — 示例5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" class="modal-image" alt="Voronoi分形 — 示例6" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" class="modal-image" alt="Voronoi分形 — 示例7" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" class="modal-image" alt="Voronoi分形 — 示例8" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

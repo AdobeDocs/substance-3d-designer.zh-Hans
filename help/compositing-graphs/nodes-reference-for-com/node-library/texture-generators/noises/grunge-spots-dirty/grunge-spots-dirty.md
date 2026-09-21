@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
-breadcrumb-title: ''
-description: 使用“污渍污点脏污”节点添加污点图案，用于创建老化的材料效果。
+breadcrumb-title: ""
+description: 使用污渍污点脏节点添加污点图案，用于创建老化的材料效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots Dirty
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 污渍斑点脏污
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '124'
 ht-degree: 2%
-
 ---
-
 
 # 污渍斑点脏污
 
@@ -45,23 +43,24 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>高级</b> |  |
-| <b>覆盖率</b> <i>Float</i> | 调整Dirt的覆盖范围。 |
+| <b>覆盖率</b> <i>浮动</i> | 调整Dirt的覆盖范围。 |
 | <b>缩放</b> <i>整数</i> | 调整Dirt斑点的比例。 *较高的*&#x200B;值会产生&#x200B;*更细的*&#x200B;污点。 |
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" class="modal-image" alt="污渍污点脏 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" class="modal-image" alt="污渍污点脏 — 示例2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

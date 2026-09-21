@@ -1,8 +1,8 @@
 ---
-source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 11%
 ---
 # 待办事项
 
@@ -29,6 +29,9 @@ ht-degree: 13%
   * FX-Map
   * 像素处理器
   * 预设
+* 更新AGENTS.md和技能以管理：
+  * 图像：居中，缩放
+  * 表格：自动/固定版面，文本对齐方式
 
 ## 修复
 

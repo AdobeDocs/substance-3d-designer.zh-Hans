@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用“污渍泄漏”节点生成泄漏模式，以在表面产生水渍和风化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaks
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 污渍泄漏
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '139'
 ht-degree: 2%
-
 ---
-
 
 # 污渍泄漏
 
@@ -52,18 +50,19 @@ ht-degree: 2%
 | <b>高级</b> |  |
 | <b>水滴长度</b> <i>浮动</i> | 调整水滴线条的长度。 |
 | <b>形状对比度</b> <i>浮动</i> | 在明亮形状和暗形状之间切换，形成滴落的对比。 |
-| <b>水滴的清晰度</b> <i>浮动</i> | 调整水滴的锐利度和冷缩度。 |
-| <b>锐化强度</b> <i>浮动</i> | 调整图像的整体粗糙感。 |
+| <b>水滴的清晰度</b> <i>Float</i> | 调整水滴的锐利度和冷缩度。 |
+| <b>锐化强度</b> <i>Float</i> | 调整图像的整体粗糙感。 |
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" class="modal-image" alt="污渍泄漏 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" class="modal-image" alt="污渍泄漏 — 示例2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

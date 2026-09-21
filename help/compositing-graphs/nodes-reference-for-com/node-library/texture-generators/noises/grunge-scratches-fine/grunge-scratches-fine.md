@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Scratches细节点可添加精细的划痕图案，以实现细微的磨损和表面细节效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Fine
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Scratches正常
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '138'
 ht-degree: 2%
-
 ---
-
 
 # Scratches正常
 
@@ -52,17 +50,18 @@ ht-degree: 2%
 | <b>高级</b> |  |
 | <b>Scratches数量</b> <i>Float</i> | 调整表面的精细划痕量。 |
 | <b>锐化强度</b> <i>Float</i> | 调整全局锐化效果的强度。 |
-| <b>暂存值偏差</b> <i>浮动</i> | 调整分配给各个划痕的明亮度值的平衡。 |
+| <b>暂存值偏差</b> <i>Float</i> | 调整分配给各个划痕的明亮度值的平衡。 |
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" class="modal-image" alt="Scratches正常 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" class="modal-image" alt="Scratches正常 — 示例2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

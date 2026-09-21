@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用“Dirt3”节点生成中间Dirt图案，用于创建风化的表面细节和积累效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 3
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: DIRT3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '247'
 ht-degree: 1%
-
 ---
-
 
 # DIRT3
 
@@ -65,32 +63,23 @@ ht-degree: 1%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt3 — 示例1](dirt-3.resources/dirt_3_1.png "Dirt3 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt3 — 示例2](dirt-3.resources/noise_dirt_3_v2_speed0.6_aniso0.gif "Dirt3 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt3 — 示例3](dirt-3.resources/noise_dirt_3_v2_speed0.6_aniso1.gif "Dirt3 — 示例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt3 — 示例4](dirt-3.resources/noise_dirt_3_v2_speed0.3_aniso0.6.gif "Dirt3 — 示例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-3.resources/dirt_3_1.png" class="modal-image" alt="Dirt3 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-3.resources/noise_dirt_3_v2_speed0.6_aniso0.gif" class="modal-image" alt="Dirt3 — 示例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-3.resources/noise_dirt_3_v2_speed0.6_aniso1.gif" class="modal-image" alt="Dirt3 — 示例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-3.resources/noise_dirt_3_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Dirt3 — 示例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

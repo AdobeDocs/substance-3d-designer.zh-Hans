@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用“波形1”节点生成波形图案，用于创建有机纹理和过程变化。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 波形1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 1%
-
 ---
-
 
 # 波形1
 
@@ -63,23 +61,18 @@ ht-degree: 1%
 | <b>杂色</b> <i>浮动</i> | 将杂色应用于随机从其垂直范围中减去的波形。 |
 | <b>位置</b> <i>整数</i> | 波形在图像中的位置：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>居中：</i>原点位于图像的垂直中心</li> <li data-preserve-html="true"><i>底部：</i>原点为图像的底部</li> </ul> |
 | <b>图案</b> <i>整数</i> | 放置在波形的每个采样处的图案。 |
-| <b>图案变体</b> <i>浮动</i> | 适用于某些图案的额外调整。 |
-| <b>无序</b> <i>浮动</i> | 置换波形的值。    这可用于为其制作动画。 |
-| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作波形动画时控制位移速度。 |
+| <b>图案变体</b> <i>Float</i> | 适用于某些图案的额外调整。 |
+| <b>无序</b> <i>Float</i> | 置换波形的值。    这可用于为其制作动画。 |
+| <b>无序速度</b> <i>Float</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作波形动画时控制位移速度。 |
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![波形1 — 示例1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "波形1 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif" class="modal-image" alt="波形1 — 示例1" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

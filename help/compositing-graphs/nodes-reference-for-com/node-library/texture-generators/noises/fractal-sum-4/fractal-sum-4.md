@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用分形求和4节点生成具有四个八度音阶的分形噪声，用于创建详细的有机纹理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 分形求和4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 2%
-
 ---
-
 
 # 分形求和4
 
@@ -61,17 +59,14 @@ ht-degree: 2%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![分形求和4 — 示例1](fractal-sum-4.resources/fractal_sum_4_1.png "分形求和4 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![分形求和4 — 示例2](fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "分形求和4 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fractal-sum-4.resources/fractal_sum_4_1.png" class="modal-image" alt="分形求和4 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif" class="modal-image" alt="分形求和4 — 示例2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

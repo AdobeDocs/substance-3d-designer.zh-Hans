@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
-breadcrumb-title: ''
-description: 使用污渍飞溅灰尘节点创建飞溅图案，用于添加历经沧桑的纹理细节。
+breadcrumb-title: ""
+description: 使用污渍飞溅灰尘节点创建飞溅图案，用于添加经风化的纹理细节。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 污渍飞溅尘土
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '149'
 ht-degree: 2%
-
 ---
-
 
 # 污渍飞溅尘土
 
@@ -45,25 +43,26 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>余额</b> <i>Float</i> | 调整暗值和亮值之间的平衡。 |
-| <b>对比度</b> <i>Float</i> | 调整图像的对比度。 |
+| <b>余额</b> <i>浮动</i> | 调整暗值和亮值之间的平衡。 |
+| <b>对比度</b> <i>浮动</i> | 调整图像的对比度。 |
 | <b>反转</b> <i>布尔值</i> | 使用`1-x`操作反转图像的输出。 |
-| <b>非正方形扩展</b> <i>布尔值</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
+| <b>非正方形扩展</b> <i>布尔值</i> | 启用以非方形比例补偿挤压和拉伸。 |
 | <b>高级</b> |  |
-| <b>喷溅数量</b> <i>Float</i> | 调整表面的飞溅量。 |
-| <b>喷溅扭曲</b> <i>Float</i> | 调整应用于飞溅的变形效果的强度。 |
-| <b>开机/Dirt比</b> <i>Float</i> | 调整表面Dirt和飞溅的&#x200B;*比例*。 |
-| <b>Dirt跨页</b> <i>Float</i> | 调整Dirt的传播。 |
+| <b>喷溅数量</b> <i>浮动</i> | 调整表面的飞溅量。 |
+| <b>喷溅扭曲</b> <i>浮动</i> | 调整应用于飞溅的变形效果的强度。 |
+| <b>开机/Dirt比</b> <i>浮动</i> | 调整表面Dirt和飞溅的&#x200B;*比例*。 |
+| <b>Dirt跨页</b> <i>浮动</i> | 调整Dirt的传播。 |
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" class="modal-image" alt="污渍飞溅尘土 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" class="modal-image" alt="污渍飞溅尘土 — 示例2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
