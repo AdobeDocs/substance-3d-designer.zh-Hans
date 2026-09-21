@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Designer中导入、编辑和使用3D场景以预览和测试您的素材。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 使用3D场景
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # 使用3D场景
 
@@ -32,26 +30,6 @@ ht-degree: 0%
 导出为USD格式时，此工作流程可以完全<b>非破坏性</b>，这意味着仅导出编辑和添加。
 
 首先，您需要加载3D场景才能处理，并且能够在会话间在Designer中保留其状态。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 3D场景的内容
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 加载场景
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 场景状态文件
-
-</td>
-</tr>
-</table>
 
 ## 3D场景的内容
 

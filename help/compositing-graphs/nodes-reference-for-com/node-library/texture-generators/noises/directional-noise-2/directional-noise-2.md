@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
+breadcrumb-title: ""
 description: 使用定向噪声2节点生成具有两个八度音阶的定向噪声图案，用于创建各向异性效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 定向噪声2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '293'
 ht-degree: 1%
-
 ---
-
 
 # 定向噪声2
 
@@ -26,14 +24,14 @@ ht-degree: 1%
 
 ![定向噪声2 — 图标](directional-noise-2.resources/directional_noise_2.png "定向噪声2 — 图标"){width="200px"}
 
-<b>进入：</b>纹理生成器>噪声
+<b>在：</b>纹理生成器>杂色
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-<b>定向噪声</b>噪声的变体。
+<b>定向噪声</b>噪声的变化。
 
 另请参阅：[定向噪声1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-1/directional-noise-1.md)，[定向噪声3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-3/directional-noise-3.md)，[定向噪声4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-4/directional-noise-4.md)
 
@@ -47,7 +45,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>输出</b> <i>灰度</i> | 生成的灰度位图噪声。 |
+| <b>输出</b> <i>灰度</i> | 生成的杂色作为灰度位图。 |
 
 <a name="parameters"></a>
 
@@ -55,10 +53,10 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>缩放</b> <i>整数</i> | 用于生成噪声拼贴的网格细分。    值越高，绘制的拼贴越多，噪声越密。 |
-| <b>无序</b> <i>Float</i> | 置换噪声的组成部分。    这可用于为噪声制作动画。 |
-| <b>无序速度</b> <i>Float</i> | 调整<b>无序</b>参数应用的位移的距离。    在为噪声制作动画时，这可用于控制位移的速度。 |
-| <b>无序各向异性</b> <i>Float</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序各向异性角</b>参数控制。 |
+| <b>缩放</b> <i>整数</i> | 使用网格细分生成噪声拼贴。    值越高，所绘制的拼贴就越多，噪音也越浓。 |
+| <b>无序</b> <i>浮动</i> | 替换噪点的成分。    这可用于为噪声设置动画。 |
+| <b>无序速度</b> <i>浮动</i> | 调整<b>无序</b>参数应用的位移的距离。    这可用于在制作噪声动画时控制位移的速度。 |
+| <b>无序各向异性</b> <i>浮动</i> | 控制<b>无序</b>参数应用的位移的方向跨度，值越高，方向越窄，定义越明确。    方向由<b>无序各向异性角</b>参数控制。 |
 | <b>无序anisotropy angle</b> <i>浮动</i> | 当“无序位移”参数不为零时，控制<b>无序</b>参数应用的各向异性的方向。 |
 | <b>角度</b> <i>浮动</i> | 用来设置杂色方向的角度，以匝数为单位，并且从水平右边开始。 |
 | <b>角度随机</b> <i>浮动</i> | 应用于<b>角度</b>值的随机变化的最大值（轮次数）。 |
@@ -67,32 +65,23 @@ ht-degree: 1%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![定向噪声2 — 示例1](directional-noise-2.resources/directional_noise_2_1.png "定向噪声2 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![定向噪声2 — 示例2](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif "定向噪声2 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![定向噪声2 — 示例3](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif "定向噪声2 — 示例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![定向噪声2 — 示例4](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "定向噪声2 — 示例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/directional_noise_2_1.png" class="modal-image" alt="定向噪声2 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="定向噪声2 — 示例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="定向噪声2 — 示例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="定向噪声2 — 示例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

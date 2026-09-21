@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+breadcrumb-title: ""
 description: 使用3D“worley噪声”节点根据3D位置生成“Worley噪声”，以创建体积纹理效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Worley Noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Worley Noise
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 7%
-
+source-wordcount: '205'
+ht-degree: 6%
 ---
-
 
 # 3D Worley Noise
 
@@ -56,19 +54,23 @@ ht-degree: 7%
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex04.png" class="modal-image" alt="3D Worley噪声 — 示例1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex03.png" class="modal-image" alt="3D Worley噪声 — 示例2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex02.png" class="modal-image" alt="3D Worley噪声 — 示例3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex01.png" class="modal-image" alt="3D Worley噪声 — 示例4" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

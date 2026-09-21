@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+breadcrumb-title: ""
 description: 使用“Anoistic Noise”（各向异性噪声）节点生成定向噪声图案，用于创建各向异性纹理效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 各向异性噪声
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 1%
-
 ---
-
 
 # 各向异性噪声
 
@@ -67,17 +65,14 @@ ht-degree: 1%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![各向异性噪声 — 示例1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "各向异性噪声 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![各向异性噪声 — 示例2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向异性噪声 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/anisotropic_noise_v2_1.png" class="modal-image" alt="各向异性噪声 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="各向异性噪声 — 示例2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

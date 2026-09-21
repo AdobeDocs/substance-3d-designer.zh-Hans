@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+breadcrumb-title: ""
 description: 使用“BnW污点3”节点生成高级黑白斑点图案，用于创建纹理变体和蒙版。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 3
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: BnW点3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '257'
 ht-degree: 1%
-
 ---
-
 
 # BnW点3
 
@@ -65,32 +63,23 @@ ht-degree: 1%
 
 ## 示例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![BnW斑点3 — 示例1](bnw-spots-3.resources/bnw_spots_3_1.png "BnW斑点3 — 示例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![BnW斑点3 — 示例2](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "BnW斑点3 — 示例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![BnW斑点3 — 示例3](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "BnW斑点3 — 示例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![BnW斑点3 — 示例4](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "BnW斑点3 — 示例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-3.resources/bnw_spots_3_1.png" class="modal-image" alt="BnW点3 — 示例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif" class="modal-image" alt="BnW点3 — 示例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif" class="modal-image" alt="BnW点3 — 示例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="BnW点3 — 示例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

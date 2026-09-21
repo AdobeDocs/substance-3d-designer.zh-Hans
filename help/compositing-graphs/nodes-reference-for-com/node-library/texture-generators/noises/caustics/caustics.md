@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+breadcrumb-title: ""
 description: 使用焦散线节点生成焦散光图案，用于创建水下和折射光照效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 焦散
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '232'
 ht-degree: 5%
-
 ---
-
 
 # 焦散
 
@@ -51,7 +49,7 @@ ht-degree: 5%
 | <b>表面Height位置</b> <i>0.0 - 1.0</i> | 设置折射曲面到投影的距离。 |
 | <b>表面IOR</b> <i>1.0 - 2.0</i> | 设置折射率，在色散版本中，这将添加更多颜色颜色。 |
 | <b>光子大小</b> <i>1.0 - 50.0</i> | 光子大小影响效果的锐度。 |
-| <b>色散</b> <i>0.0 - 0.01（仅限颜色版本）</i> | 仅影响颜色色散。 IOR值较低时不可见。 |
+| <b>离散</b> <i>0.0 - 0.01（仅限颜色版本）</i> | 仅影响颜色色散。 IOR值较低时不可见。 |
 | <b>抖动</b> <i>0.0 - 1.0</i> | 为强制转换光子粒子添加不规则抖动。 |
 | <b>光源位置</b> | 移动光源位置。 还通过2D 视图中的小工具完成。 |
 | <b>背景颜色</b> <i>（颜色值）（仅限颜色版本）</i> | 更改背景颜色。 灰度版本仅限黑色。 |
@@ -59,10 +57,12 @@ ht-degree: 5%
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" class="modal-image" alt="焦散 — 示例1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
