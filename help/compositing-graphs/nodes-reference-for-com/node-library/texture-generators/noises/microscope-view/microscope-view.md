@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
-breadcrumb-title: ''
-description: 使用“显微镜视图”节点生成微观纹理图案，用于创建详细的表面结构。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
+breadcrumb-title: ""
+description: 使用“显微视图”节点生成微观纹理图案，用于创建详细的表面结构。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 显微镜视图
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '105'
 ht-degree: 8%
-
 ---
-
 
 # 显微镜视图
 
@@ -33,7 +31,7 @@ ht-degree: 8%
 
 ## 描述
 
-这会产生扭曲的噪声，看起来像显微镜下的细菌或生物体。
+这产生了一个变形的噪声，在显微镜下看起来像细菌或生物体。
 
 </td>
 </tr>
@@ -48,14 +46,16 @@ ht-degree: 8%
 | <b>缩放</b> <i>0 - 10</i> | 设置效果的全局比例。 |
 | <b>变形强度</b> <i>0.0 - 1.0</i> | 设置变形效果的强度。 请记住，通过双击并输入–1，也可以输入负值。 |
 | <b>无序</b> <i>0.0 - 1.0</i> | 对噪声进行相移以引入较小的变化 |
-| <b>非正方形扩展</b> <i>False/True</i> | 启用以非方形比例补偿挤压和拉伸。 |
+| <b>非正方形扩展</b> <i>False/True</i> | 启用压缩补偿并使用非正方形比例拉伸。 |
 
 ## 示例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="microscope-view.resources/microscope-view-ex.gif" class="modal-image" alt="显微镜视图 — 示例1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
