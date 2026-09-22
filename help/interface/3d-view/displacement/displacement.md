@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用位移弹出窗口可快速调整应用于3D场景网格的位移和镶嵌。
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D视图 — 位移弹出窗口
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # 位移弹出窗口
 
@@ -60,7 +58,7 @@ Height映射中用作位移Height *中点*的灰度值。
 ## 曲面细分
 
 镶嵌涉及通过在各个网格面的段上添加顶点然后连接来细分各个网格面
-所有顶点到其中心的新顶点，使1个面变为&#x200B;**6**。
+所有顶点到其中心的新顶点，使1个面变为**6**。
 
 参数定义应递归细分面的次数。
 
@@ -74,6 +72,13 @@ Height映射中用作位移Height *中点*的灰度值。
 
 细分是基于上下文的：优化方式使它仅具有&#x200B;*非均匀Height值*或
 将细分*非平坦Height映射*，而不考虑参数值。
+
+>[!TIP]
+>
+>该曲面细分技术涉及准备步骤，该准备步骤运行而不考虑实际发生的任何曲面细分。 （即`Tessellation factor = 1`）
+>对于高多边形网格，此步骤可能很耗时，并且会在使用位移时显着影响性能。
+>
+>如果无需曲面细分，则可以通过在[场景浏览器](../scene-browser/scene-browser.md#scene-tree)中列出的`Mesh`对象的属性中将&#x200B;**细化级别**&#x200B;参数设置为`0`来完全禁用该技术。
 
 ### 每种材质
 
@@ -91,7 +96,7 @@ Height值或纹理。
 ### 光栅器/GPU 路径追踪
 
 使用 <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **渲染器设置**
- 按钮，然后在“Properties”（属性）停靠区中，转到&#x200B;**“Render settings”（渲染设置）>“Diagnostic mode”（诊断模式）**，然后选择&#x200B;**线框
+ 按钮，然后在“Properties”（属性）停靠区中，转到**“Render settings”（渲染设置）>“Diagnostic mode”（诊断模式）**，然后选择&#x200B;**线框
  （世界空间）**&#x200B;选项。
 
 ### OpenGL

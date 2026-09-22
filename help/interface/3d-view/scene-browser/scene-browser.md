@@ -1,54 +1,32 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
-description: 使用场景浏览器导航和管理视区中的3D场景元素、素材和对象。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
+description: 使用场景浏览器导航和管理视口中的3D 场景元素、材料和对象。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 场景浏览器
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # 场景浏览器
 
-3D视图的场景浏览器会列出场景中的所有元素及其层次结构。
+3D视图的场景浏览器列出了场景中的所有元素及其层次结构。
 
-它提供了用于选择对象、切换对象的可见性以及选择哪些素材应[覆盖场景素材](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的控件。
+它提供了用于选择对象、切换对象的可见性以及选择哪个材料应[覆盖场景材料](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的控件。
 
-由于Designer使用[USD](https://openusd.org/release/index.html)来描述和管理其场景，因此可以在场景树中找到它的术语和概念。
+由于Designer使用[USD](https://openusd.org/release/index.html)来描述和管理其场景，因此可以在该场景树中找到其术语和概念。
 
-通过单击[3D视图场景工具栏](../../../interface/3d-view/3d-view.md)中的专用切换按钮![](scene-browser.resources/sceneBrowser-toggleButton.png)，可显示它。
+通过单击[3D视图场景工具栏](../../../interface/3d-view/3d-view.md)中的专用切换按钮![](scene-browser.resources/sceneBrowser-toggleButton.png)可显示该视图。
 
-![场景浏览器 — 加载的3D场景](scene-browser.resources/loaded3DScene.png "场景浏览器 — 加载的3D场景"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 场景树
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 切换场景中的对象
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 连接的材质
-
-</td>
-</tr>
-</table>
+![场景浏览器 — 已加载3D 场景](scene-browser.resources/loaded3DScene.png "场景浏览器 — 已加载3D 场景"){zoomable="yes"}
 
 ## 场景树
 
@@ -56,9 +34,11 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-场景浏览器显示以分层树排列的对象列表。
+场景浏览器显示以分层树状结构排列的对象列表。
 
-对象被置于其他对象的父子关系中，直至场景的根。 父对象有一个箭头按钮，用于展开或折叠其子对象的列表。
+对象与其他对象有父子关系，最高为场景的根。 父对象有一个箭头按钮，用于展开或折叠其子对象的列表。
+
+某些对象具有一些属性，选中时可在[属性](../../../interface/properties/properties.md)停靠区中显示和编辑：环境、相机、光照、`Mesh`对象和材料[覆盖](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -73,9 +53,9 @@ ht-degree: 1%
 
 * <b>路径：</b>场景中对象的完整路径。
 * <b>类型名称：</b>对象的USD类型。
-* <b>文档：</b>有关作为USD场景元素的对象的详细信息。
+* <b>文档：</b>有关对象作为场景元素的详细信息。
 
-网格具有附加信息：顶点计数、面部计数和UV计数。
+网格包含其他信息：顶点计数、脸部计数和UV计数。
 
 ### 由Designer添加的对象
 
@@ -83,9 +63,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Designer可将一些对象添加到任何加载的场景。 由Designer添加的对象以<b>粗体</b>标记。
+Designer会将一些对象添加到任何加载的场景中。 由Designer添加的对象以<b>粗体</b>标记。
 
-在光线、相机和环境菜单中使用“编辑……”操作时，无论场景中是否存在其他光线、相机或环境，这些对象都是正在编辑的对象。
+使用“光照”、“环境”和“相机”菜单中的“编辑……”操作时，无论场景中是否存在其他光照、相机或环境，这些对象都是正在编辑的对象。
 
 [导出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)时，场景中包含这些对象。
 
@@ -98,7 +78,7 @@ Designer可将一些对象添加到任何加载的场景。 由Designer添加的
 </tr>
 </table>
 
-* <b>摄像机：</b>场景的默认摄像机。 这是您唯一可以在Designer中与之交互的相机。 加载的场景中包含的所有摄像机都会添加为默认摄像机的预设。
+* <b>相机：</b>场景的默认相机。 这是您唯一可以在Designer中与之交互的相机。 加载的场景中包含的所有摄像机都会添加为默认摄像机的预设。
 * <b>环境：</b>场景的默认环境。 应用于场景环境的任何纹理将仅应用于该环境。 同样，环境旋转也只会影响该环境。\
   当加载的场景包含一个或多个环境光时([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html)（美元）)，将自动禁用默认环境以不干扰场景的环境光照。
 * <b>点光#：</b>如果在“光源”>“编辑属性”中启用了任何Designer点光，则每个点光都会添加到场景中。
@@ -132,7 +112,7 @@ Designer可将一些对象添加到任何加载的场景。 由Designer添加的
 
 ### 环境
 
-任何环境光(DomeLight)的可见性可以用与其他对象相同的方式启用和禁用。
+任何环境光(DomeLight)的可见性都可以像其他对象一样被启用和禁用。
 
 禁用环境光后，其对场景的光照作用也将被禁用。
 

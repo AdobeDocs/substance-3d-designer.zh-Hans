@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+breadcrumb-title: ""
 description: 将后期处理效果应用于3D视图相机，以增强素材预览和可视化。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 后期效果
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # 后期效果
 
@@ -27,31 +25,6 @@ ht-degree: 4%
 这些效果在内部开发，仅适用于光栅化器和GPU 路径追踪[渲染器](../../../../interface/3d-view/3d-renderers/3d-renderers.md)。
 
 在保存[3D场景资源](../../../../resources/3d-scene-resource/3d-scene-resource.md)或[场景状态文件](../../../../working-with-3d-scenes/working-with-3d-scenes.md)时启用的任何后期效果都将作为场景状态的一部分保存。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 色调映射
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 光华
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 景深
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## 色调映射
 
