@@ -89,12 +89,12 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 子类别名称来自节点本身；不要发明它们。
 * 对于具有多个版本（例如，颜色/灰度/值或编号的变体）的节点
 像细胞1/细胞2)一样，追加引用其他内容的最终描述段落
-包含相对链接的版本，用单个换行符分隔。 示例： `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`。
+包含相对链接的版本，用单个换行符分隔。 示例： &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;。
 
 ### &#x200B;3. 可选标注
 
-`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`等。在&#x200B;**之后**转到图标/说明表(不是
+`>[!INFO]`、`>[!TIP]`、`>[!NOTE]`等。在&#x200B;**之后**&#x200B;转到图标/说明表(不是
 （在单元格内）。 根据`write-experience-league-markdown`技能的语法。
 
 ### &#x200B;4. 输入
@@ -198,7 +198,7 @@ node记录不同的输出（许多节点具有单个隐式输出并忽略此输�
 
 ## 规则/不该做的事
 
-* **不要伪造**节点没有的输入、输出或参数；省略
+* **不要伪造**&#x200B;节点没有的输入、输出或参数；省略
 部分。 请勿改写、总结或去除现有的技术内容 — 仅限
 重新设置格式。
 * **保持链接相对**&#x200B;于其他`.md`页面；外部链接绝对。
