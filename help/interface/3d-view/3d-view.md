@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Substance 3D Designer中的3D视图预览3D对象上的材质并测试光照条件。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 视图
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 1%
-
 ---
-
 
 # 3D 视图
 
@@ -169,20 +167,21 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 请记住，在Designer的[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)中，着色器是不同的，当切换渲染器时，只有标有“通用”标签的设置才会延续下去。
 
-若要更改当前着色器，请转到<b> “</b>材质”菜单，然后打开要编辑的材质的子菜单。
+要更改当前着色器，请转到&#x200B;**材料**&#x200B;菜单，然后打开要编辑的材料的子菜单。
 
-例如，要调整“平面（高分辨率）”场景中“默认”素材的“Height缩放”属性，请转到“素材”>“默认”>“编辑属性”。 然后在“Properties”（属性）停放中找到“Height比例”属性
+例如，要在“平面（高分辨率）”场景中调整“`Default`”材料的a材料属性，请转到&#x200B;**材料>默认>编辑属性**。 然后在“Properties”（属性）停放中找到“材料”属性
 
 您可以使用子菜单中的“重置材质”或“重置为场景状态”操作重置着色器。 如果要在3D视图中查看Substance图形输出，则需要重新应用它们。
 
 >[!NOTE]
 >
-> 关于镶嵌
+> **关于曲面细分**
 > 
-> “镶嵌因子”属性因选定的3D渲染器而异：
+> 可以使用[网格弹出窗口](displacement/displacement.md#tessellation)中的&#x200B;**曲面细分因子**&#x200B;参数调整位移的曲面细分。
+> 由该参数控制的特定属性随当前3D渲染器而变化：
 > 
-> * <b>光栅器/GPU 路径追踪：</b>位于渲染器设置（“渲染器”>“编辑设置”）中，会影响&#x200B;*整个场景*。
-> * <b>OpenGL：</b>位于素材属性中，影响素材。
+> * **光栅器/GPU 路径追踪：**&#x200B;名为&#x200B;**细化级别**&#x200B;的每个对象属性。 在[场景浏览器](scene-browser/scene-browser.md)中选择`Mesh`对象以显示其属性并直接编辑。
+> * **OpenGL：**&#x200B;每个材料的属性名为&#x200B;**曲面细分因子**。 转到[材料属性](#change-shader-properties)以直接对其进行编辑。
 
 ![导出场景](3d-view.resources/3d-view-export-scene.gif "导出场景")
 
@@ -371,7 +370,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 +++
 
 +++显示
-使用显示菜单，您可以切换所渲染场景的视图模式、帮助程序和信息：
+使用显示菜单，您可以切换所渲染场景的视图模式、助手和信息：
 
 <b>轴：</b>切换视口中3D轴的显示。
 
@@ -379,23 +378,23 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 <b>分辨率：</b>切换小分辨率计数器的显示。
 
-<b>场景统计：</b>切换场景统计信息的显示，如多边形计数、素材计数、静态网格计数等。
+<b>场景统计信息：</b>切换场景统计信息的显示，例如多面计数、材料计数、静态网格计数等。
 
 <b>渲染时间：</b>为完整图像计算一个示例的时间。
 
-<b>样本：</b>为累积消除锯齿（光栅器）或路径跟踪（GPU路径跟踪器）计算的像素样本量。
+<b>样本：</b>为累积消除锯齿（栅格化器）或路径跟踪（GPU路径跟踪器）计算的像素样本量。
 
-<b>背面剔除：</b>禁用此选项后，您可以从&#x200B;*两侧*&#x200B;看到网格表面。 该选项可与线框结合使用
+<b>背面消隐：</b>禁用此选项后，您可以从&#x200B;*两侧*&#x200B;看到网格脸部。 该选项可与线框结合使用
 
-<b>定界框：</b>切换网格定界框的显示。
+<b>定界框：</b>可切换网格定界框的显示。
 
 <b>线框：</b>切换网格线框的显示。
 
-<b>光源：</b>切换点光源的帮助线显示。
+<b>光源：</b>切换点光源的助手线显示。
 
-<b>顶点切空间：</b>将所有顶点的切向量、双正规向量和法向量显示为彩色小工具
+<b>正切空间：</b>将所有顶点的正切、次法线和法线矢量显示为彩色小工具
 
-其中有些选项在“场景”工具栏中的按钮切换中可用。
+其中一些选项在场景工具栏中的按钮切换中可用。
 
 +++
 
@@ -408,13 +407,13 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 ## 场景工具栏
 
-默认情况下，**场景**&#x200B;工具栏位于3D视图的左边框，提供查看场景以及与场景交互的控件。
+默认情况下，**场景**&#x200B;工具栏位于3D 视图的左边框，提供用于查看文档以及与场景交互的控件。
 
 还允许您访问[位移弹出窗口](displacement/displacement.md)和[场景浏览器](scene-browser/scene-browser.md)程序坞。
 
 >[!NOTE]
 >
-> 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**3D视图**&#x200B;停放区&#x200B;*重新定位工具栏*。
+> 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**3D 视图**&#x200B;停放区&#x200B;*重新定位*。
 
 
 
@@ -427,46 +426,46 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 <img src="3d-view.resources/3d-view-scene-toolbar-scene-browser.png" width="24" /> <b>场景浏览器</b>
 
-显示3D场景中所有元素的层次结构。
+显示3D 场景中所有元素的层次结构。
 
 >[!INFO]
 >
->[专用页面](../../interface/3d-view/scene-browser/scene-browser.md)中广泛涵盖了场景浏览器及其功能。
+>[专用页面](../../interface/3d-view/scene-browser/scene-browser.md)广泛介绍了场景浏览器及其功能。
 
 
 <img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>选择</b>
 
-允许在场景中直接选择网格。
+允许直接选择场景中的网格。
 
-<code>LMB</code> 选择场景中的网格。
+<code>LMB</code> 在场景中选择一个网格。
 
-选择场景中的各个网格。 所选网格在视区中具有蓝色轮廓，并在[场景浏览器](../../interface/3d-view/scene-browser/scene-browser.md)中突出显示。
+选择场景中的各个网格。 所选网格在视口中有蓝色轮廓，并在[场景浏览器](../../interface/3d-view/scene-browser/scene-browser.md)中突出显示。
 
 上下文菜单可用于选定的网格，可通过单击<code>人民币来显示</code>.
 
-也可以在“相机”或“亮度”模式下通过按<code>Shift+LMB来选择网格</code>.
+也可以通过按<code>Shift+LMB在“相机”或“浅色”模式中选择网格</code>.
 
 <br>
 
 <img src="3d-view.resources/3d-view-scene-toolbar-camera.png" width="22" /> <b>相机</b>
 
-启用对场景中摄像机的直接控制。
+允许直接控制场景中的相机。
 
-<code>LMB</code> 围绕相机目标运行相机。<br><code>RMB</code> 将相机移近或远离其目标。
+<code>LMB</code> 绕着相机运行目标。<br><code>人民币</code> 将相机移近或移远目标。
 
 <br>
 
 <img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width="24" /> <b>显示环境</b>
 
-此按钮可切换场景环境的显示。 转到3D视图菜单栏中的<b>环境>编辑</b>后，可在“属性”停放中找到相同的设置。
+此按钮可切换场景环境的显示。 在转到3D 视图菜单栏中的<b>“环境”>“编辑”</b>后，可在“属性”停靠区中找到相同的设置。
 
 <br>
 
 <img src="3d-view.resources/3d-view-scene-toolbar-light.png" width="24" /> <b>亮度</b>
 
-启用对场景中的点光1的直接控制。
+允许直接控制场景中的点光1。
 
-<code>LMB</code> 围绕场景的原点围绕相机运行。<br><code>人民币</code> 将光源移近或远离场景的原点。
+<code>LMB</code> 围绕场景的原点运行相机。<br><code>RMB</code> 将光源移近或移远场景的原点。
 
 <br>
 
@@ -554,7 +553,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 >[!NOTE]
 >
-> 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**3D 视图**&#x200B;停放区&#x200B;*重新定位*。
+> 可以使用以三条平行线表示的最左侧&#x200B;*手柄*，围绕&#x200B;**3D视图**&#x200B;停放区&#x200B;*重新定位工具栏*。
 
 ### 3D 渲染 AOV
 
@@ -562,8 +561,8 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
     <tr style="border: 0; vertical-align: top">
         <td style="border: 0">
             <p>您可以使用<img src="./3d-view.resources/aov/aov-icon.png" alt="3D渲染AOVs图标" style="padding-left: 5px; padding-right: 5px" /> <b>3D渲染AOV</b>按钮显示不同的<a href="../../glossary/glossary.md#aov">AOV</a>。</p>
-            <p>使用AOV，可以单独检查网格和材料信息，以便进行重点工作和调试。</p>
-            <p>某些AOV包括在视口中固定为1（纯白）或0（纯黑）的<i>HDR 值</i>。<br>要检查整个范围的值，可以将AOV的3D渲染导出为支持HDR 值的图像文件格式，如<code>.exr</code>。<br>使用“<code>Camera > Save render...</code>”菜单选项导出当前AOV。</p>
+            <p>使用AOV，可以单独检查网格和材质信息，以便进行重点工作和调试。</p>
+            <p>某些AOV包括视区中固定为1（纯白）或0（纯黑）的<i>HDR值</i>。<br>要检查整个范围的值，可以将AOV的3D渲染导出为支持HDR值的图像文件格式，如<code>.exr</code>。<br>使用“<code>Camera > Save render...</code>”菜单选项导出当前AOV。</p>
             <p><i>注意：</i>只有在使用栅格化器和GPU 路径追踪<a href="./3d-renderers/3d-renderers.md">3D渲染器</a>时，AOV才可用。</p>
         </td>
         <td style="width: 33%; border: 0">
@@ -574,7 +573,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 ### 颜色通道
 
-您可以使用![](3d-view.resources/2d-view-icon-channels.png) <b>单通道通道</b>按钮显示图像的颜色。 这将打开一个组合框，允许您选择应显示<b>红色</b>、<b>绿色</b>和<b>蓝色</b>通道中的哪一个。 通过选择<b>RGB</b>选项，可以恢复包含所有通道的图像的正常外观。
+可以使用![](3d-view.resources/2d-view-icon-channels.png) <b>颜色通道</b>按钮显示图像的单个通道。 这将打开一个组合框，允许您选择应显示<b>红色</b>、<b>绿色</b>和<b>蓝色</b>通道中的哪一个。 通过选择<b>RGB</b>选项，可以恢复包含所有通道的图像的正常外观。
 
 <b>颜色通道</b>按钮&#x200B;*的*&#x200B;图标&#x200B;*会根据当前显示通道而更改*。
 

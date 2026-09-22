@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  如何创作Substance 3D Designer节点引用页面，使其匹配在help/compositing-nodes/nodes-reference-for-com/node-library/中使用的标准布局。 每当创建或编辑该节点库树或等效函数节点/原子节点引用页下的节点页（节点的说明、输入、输出、参数或示例）时，请使用此技能。 包括文件夹/目录约定、最小前件、图标/说明表、定位输入/输出/参数表以及示例库。 对于一般的Adobe Experience League标记规则（标注、链接、UICONTROL/DNL、图像），请使用write-experience-league-markdown技能；该技能仅覆盖节点页面结构。 典型示例： help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # 正在生成节点文档
 
@@ -32,13 +31,13 @@ lint gotchas)遵循`write-experience-league-markdown`技能。
   共享`help/assets/`文件夹 — 这是正在逐步淘汰的旧模式；新的和
   已编辑的页面使用自己的`.resources`文件夹。
 * 每个页面在`help/guide/TOC.md`中都有一个对应的条目。 添加或移动
-页面，同时更新`TOC.md`和文件夹布局（请参阅CLAUDE.md的文件夹/目录）
+页面，同时更新`TOC.md`和文件夹布局（请参阅AGENTS.md的文件夹/目录）
 公约)。
 
 ## 前页
 
 节点页使用&#x200B;**最小**&#x200B;块 — 只有`title`和痕迹样式
-`description`. (这与的11字段旧版块CLAUDE.md文档不同，
+`description`. (这与的11字段旧版block AGENTS.md文档不同，
 常规内容页面。)
 
 ```yaml
@@ -88,6 +87,10 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 * 导入辅助元素在句首使用`<i>Note:</i>` / `<i>Tip:</i>`。
 * 将`&gt;`用于`In:`行中的`>`（它在HTML内）。 选择类别/
 子类别名称来自节点本身；不要发明它们。
+* 对于具有多个版本（例如，颜色/灰度/值或编号的变体）的节点
+像细胞1/细胞2)一样，追加引用其他内容的最终描述段落
+包含相对链接的版本，用单个换行符分隔。 示例： &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;。
 
 ### &#x200B;3. 可选标注
 
@@ -149,27 +152,35 @@ node记录不同的输出（许多节点具有单个隐式输出并忽略此输�
 
 ### &#x200B;7. 示例
 
-仅在有示例图像/GIF时才包含。 使用HTML库表格；一个 `<td>`
-包含可选字幕的每张图像；在3张图像后绕排到新的`<tr>`。 媒体路径
-指向页面的`.resources`文件夹。
+仅在有示例图像/GIF时才包含。 使用无边距、固定版面HTML
+库表；每张图像一个`<td>`；在3张图像后绕排到新`<tr>`。 媒体路径
+指向页面的`.resources`文件夹。 使用HTML`<img>`元素的时间间隔
+例如，使用`class="modal-image"`，这样发布的图像将在标准中打开
+图像查看器。 提供用于标识节点和示例的有意义的`alt`文本
+编号。 请勿在此库中使用Markdown图像语法。
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-将部分填充的最后一行中的尾随单元格留空(`<td …></td>`)，而不是
-重排。 如果源中没有，请省略字幕。
+保留表的`style="table-layout:fixed"`和 `style="border: 0;"`
+完全符合所示的属性；请勿添加边框、边距或背景样式。
+将部分填充的最后一行中的尾随单元格留空
+(`<td style="border: 0;"></td>`)，而不是重排。 使用现有图像
+顺序和文件名。 如果页面包含字幕，请将其保留为`alt`文本，而不是
+而不是添加可见字幕标记。 当页面没有内容时省略整个部分
+示例媒体。
 
 ## 规范类型值
 
