@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
+source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 11%
 ---
 # 待办事项
@@ -18,10 +18,10 @@ ht-degree: 11%
 * “文档弹出”页面中的示例
 * 术语表：
   * HDR
-  * 金属度/金属质感
+  * 金属度/金属
   * HDR
   * 镜面
-  * Height图
+  * 高度图
   * 不透明度
   * Frustum
   * 切线空间
@@ -35,6 +35,7 @@ ht-degree: 11%
 
 ## 修复
 
+* 修复`BnW spots 2`页中的损坏图像
 * 修复节点页中第一个示例图像的链接(例如， 新噪声)
 
 ## 调查
