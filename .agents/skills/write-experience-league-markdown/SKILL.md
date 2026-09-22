@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  用于编写在Adobe Experience League上发布的Markdown内容的语法规则、自定义扩展和gotchas。 每当创建或编辑此存储库（或任何其他Experience League内容存储库）中的帮助/下的任何页面（标题、链接、图像、表格、注释/警告块、UICONTROL/DNL标签、视频嵌入、锚点和已知渲染缺陷）时，请使用此技能。 来源： https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  用于编写在Adobe Experience League上发布的Markdown内容的语法规则、自定义扩展和gotchas。 每当创建或编辑此存储库（或任何其他Experience League内容存储库）中的帮助/下的任何页面（标题、链接、图像、表格、注释/警告块、UICONTROL/DNL标签、视频嵌入、锚点和已知渲染缺陷）时，请使用此技能。 来源： https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
