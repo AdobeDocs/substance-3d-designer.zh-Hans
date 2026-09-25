@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/activation-and-licenses.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+breadcrumb-title: ""
 description: 了解如何激活Substance 3D Designer并管理用于访问所有特性和功能的许可证。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Activation and licenses
@@ -8,29 +8,29 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 激活和许可证
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 
 # 每个应用程序类型的激活流程
 
 激活过程取决于您购买或有权访问Designer的位置：
 
 | 版本 | 激活过程 |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud桌面(CCD) | 从CCD应用程序安装该产品，然后启动它。 如果您遇到许可证问题，请转到以下页面：[应用程序由于订阅错误无法启动](https://helpx.adobe.com/cn/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html)/[帐户、计划和计费帮助](https://helpx.adobe.com/cn/account/individual.html) |
+|:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creative Cloud桌面(CCD) | 从CCD应用程序安装该产品，然后启动它。 如果您遇到许可证问题，请转到以下页面：[应用程序由于订阅错误无法启动](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html)/[帐户、计划和计费帮助](https://helpx.adobe.com/account/individual.html) |
 | 蒸汽 | 直接从Steam库中启动产品。 |
 | Substance（独立） | 请参阅下述激活流程。 |
 
 ## 激活步骤（Substance版本）
 
 ### 使用激活向导
+
+当您首次启动Designer时，该激活向导将打开并指导您完成激活过程。
 
 有三种选择可用：
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 要向激活向导安装许可证文件，请确保以管理员身份运行Designer并暂时禁用防病毒软件。
+> 要使用“激活向导”安装许可证文件，请确保以管理员身份运行Designer并暂时禁用防病毒软件。
 
 ![激活向导](activation-and-licenses.resources/activation-wizard.png "激活向导")
 
@@ -49,34 +49,51 @@ ht-degree: 0%
 您可以通过将license.key文件放入以下文件夹来手动激活Designer：
 
 <table data-preserve-html="true">
-<colgroup> <col/> <col/> <col/> <col/> </colgroup><tbody><tr><th style="text-align: left;">Platform</th>
-<th style="text-align: left;">版本</th>
-<th colspan="2" style="text-align: left;">路径</th>
-</tr><tr><td rowspan="4" style="text-align: left;"><b>Windows</b></td>
-<td rowspan="2" style="text-align: left;"><b>11.2</b>或更高版本</td>
-<td style="text-align: left;">AppData &gt;本地</td>
-<td style="text-align: left;">C:\Users\用户\[用户名]\AppData\Local\Adobe\Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;">AppData &gt;漫游</td>
-<td style="text-align: left;">C:\Users\用户\[用户名]\AppData\Roaming\Adobe\Adobe Substance 3D Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>11.1</b>或更低</td>
-<td style="text-align: left;">AppData &gt;本地</td>
-<td style="text-align: left;">C:\Users\用户\[用户名]\AppData\Local\Allegorithmic\Substance Designer</td>
-</tr><tr><td style="text-align: left;">AppData &gt;漫游</td>
-<td style="text-align: left;">C:\Users\用户\[用户名]\AppData\Roaming\Allegorithmic\Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Mac</b></td>
-<td style="text-align: left;"><b>11.2</b>或更高版本<br/>
-</td>
-<td colspan="2" style="text-align: left;">/用户/[用户名]/资源库/Application Support/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b>或更低<br/>
-</td>
-<td colspan="2" style="text-align: left;">/用户/[用户名]/资源库/Application Support/Allegorithmic/Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Linux</b></td>
-<td style="text-align: left;"><b>11.2</b>或更高版本</td>
-<td colspan="2" style="text-align: left;">/home/[用户名]/.local/share/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b>或更低<br/>
-</td>
-<td colspan="2" style="text-align: left;">/home/[用户名]/.local/share/Allegorithmic/Substance Designer</td>
-</tr></tbody></table>
+    <tbody>
+        <tr>
+            <th style="text-align: left;">Platform</th>
+            <th style="text-align: left;">版本</th>
+            <th colspan="2" style="text-align: left;">路径</th>
+        </tr>
+        <tr>
+            <td rowspan="4" style="text-align: left;"><b>Windows</b></td>
+            <td rowspan="2" style="text-align: left;"><b>11.2</b>或更高版本</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>11.1</b>或更低</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>macOS</b></td>
+            <td style="text-align: left;"><b>11.2</b>或更高版本<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b>或更低<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Allegorithmic/Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>Linux</b></td>
+            <td style="text-align: left;"><b>11.2</b>或更高版本</td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b>或更低<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Allegorithmic/Substance Designer</code></td>
+        </tr>
+    </tbody>
+</table>
 
 >[!NOTE]
 >
@@ -84,8 +101,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 确保该文件名为&#x200B;**license.key**，否则应用程序将无法找到它。
+> 确保该文件名为`license.key`，否则应用程序将无法找到它。
 
 ### 环境变量
 
-您可以使用[环境变量](../../pipeline-and-project-con/environment-variables/environment-variables.md)覆盖Designer为<b>license.key</b>文件检查的位置。
+您可以使用[环境变量](../../pipeline-and-project-con/environment-variables/environment-variables.md)覆盖Designer为`license.key`文件检查的位置。

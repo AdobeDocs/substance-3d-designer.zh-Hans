@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 5%
 ---
 # 待办事项
 
@@ -17,10 +17,10 @@ ht-degree: 6%
 * “文档弹出”页面中的示例
 * 术语表：
   * HDR
-  * 金属度/金属
+  * 金属度/金属质感
   * HDR
   * 镜面
-  * 高度图
+  * Height图
   * 不透明度
   * Frustum
   * 切线空间
@@ -31,6 +31,11 @@ ht-degree: 6%
 * 更新AGENTS.md和技能以管理：
   * 图像：居中，缩放
   * 表格：自动/固定版面，文本对齐方式
+* Designer-12465： `Refine level`参数在高度图不存在或平坦时无效
+* Designer-12652：将用户指向OpenGL渲染器的性能故障排除指南
+* Designer-11866： Tonemapping函数
+* Designer-10655：为像素处理器和FX-Maps添加示例+对示例项目的引用
+
 
 ## 修复
 
@@ -41,11 +46,11 @@ ht-degree: 6%
 
 * 组件之前/之后
 
-## 学习中心
+## 学习中心（`learning`分支）
 
 - 了解下载SBS文件时会遇到哪些障碍（在[此处](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)询问）
 - 了解如何在不面向公众或不包含在ToC中的情况下实时测试页面
-- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/zh-hans/tools/campaign-error-codes)）
+- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自动生成示例项目
   - 从文件收录元数据(JSON、YAML、...)
   - 内嵌缩览图（单击以放大）
