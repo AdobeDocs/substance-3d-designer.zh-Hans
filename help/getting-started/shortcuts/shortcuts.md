@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 快捷键
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 17%
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 17%
 ### 全球
 
 | 操作 | Windows | macOS |
-| --- | --- | --- |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
 | [新建Substance图形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | 加载包 | Ctrl + O | ⌘ + O |
 | 关闭所选包 | Ctrl + F4 | ⌘ + W |
@@ -43,15 +43,17 @@ ht-degree: 17%
 | 还原 | Ctrl + Z | ⌘ + Z |
 | 重做 | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### 图形视图
 
-<b>视区</b>
+**视口**
 
 | 操作 | Windows | macOS |
-| --- | --- | --- |
-| 缩放 | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
-| 快速缩放 | ⇧ + MouseWheel ⇧ + Alt + RMB +拖动 | ⇧ + MouseWheel ⇧ + ⌥ + RMB +拖动 |
-| 平移 | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| 缩放 | MouseWheel<br>Alt + RMB +拖动 | MouseWheel<br>⌥ + RMB +拖动 |
+| 快速缩放 | ⇧ + MouseWheel<br>⇧ + Alt + RMB +拖动 | ⇧ + MouseWheel<br>⇧ + ⌥ + RMB +拖动 |
+| 平移 | MMB +拖动<br>Ctrl + RMB +拖动 | MMB +拖动<br>⌘ + RMB +拖动 |
 | 重置缩放 | Z | Z |
 | 适合视图 | F | F |
 | 复制 | Ctrl + C | ⌘ + C |
@@ -60,22 +62,26 @@ ht-degree: 17%
 | 节点菜单 | 空格键 | 空格键 |
 | 循环[导航大头针](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
-<b>链接创建模式</b>
+{style="table-layout:fixed"}
+
+**链接创建模式**
 
 >[!NOTE]
 >
 > 了解本文档的[此页面](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)中的链接创建模式。
 
 | 模式 | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | 标准 | 1 | 1 |
 | 材质 | 2 | 2 |
 | 紧凑材质 | 3 | 3 |
 
-<b>在图形中选择对象时</b>
+{style="table-layout:fixed"}
+
+**在图形中选择对象时**
 
 | 操作 | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | 复制所选项 | Ctrl + C | ⌘ + C |
 | 复制所选项 | Ctrl + D | ⌘ + D |
 | 无链接复制 | Ctrl + ⇧ + D | ⌘ + ⇧ + D |
@@ -84,25 +90,31 @@ ht-degree: 17%
 | 停靠/取消停靠节点 | D | D |
 | 禁用节点 | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### 2D 视图
 
 | 操作 | Windows | macOS |
-| --- | --- | --- |
-| 缩放 | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
-| 快速缩放 | ⇧ + MouseWheel ⇧ + Alt + RMB +拖动 | ⇧ + MouseWheel ⇧ + ⌥ + RMB +拖动 |
-| 平移 | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| 缩放 | MouseWheel<br>Alt + RMB +拖动 | MouseWheel<br>⌥ + RMB +拖动 |
+| 快速缩放 | ⇧ + MouseWheel<br>⇧ + Alt + RMB +拖动 | ⇧ + MouseWheel<br>⇧ + ⌥ + RMB +拖动 |
+| 平移 | MMB +拖动<br>Ctrl + RMB +拖动 | MMB +拖动<br>⌘ + RMB +拖动 |
 | 重置为100%比例 | Z | Z |
 | 适合视图 | F | F |
 | 切换拼贴显示 | 空格键 | 空格键 |
 
+{style="table-layout:fixed"}
+
 ### 3D 视图
 
 | 操作 | Windows | macOS |
-| --- | --- | --- |
-| 移动摄像头（前/后平移） | 鼠标滚轮Alt + RMB +拖动 | 鼠标滚轮⌥ + RMB +拖动 |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| 移动摄像头（前/后平移） | MouseWheel<br>Alt + RMB +拖动 | MouseWheel<br>⌥ + RMB +拖动 |
 | 轨道相机 | 按住LMB并拖动 | 按住LMB并拖动 |
-| 卡车和基座摄像头（横向和垂直平移） | MMB +拖动Ctrl + RMB +拖动 | MMB +拖动⌘ + RMB +拖动 |
+| 卡车和基座摄像头（横向和垂直平移） | MMB +拖动<br>Ctrl + RMB +拖动 | MMB +拖动<br>⌘ + RMB +拖动 |
 | 旋转环境 | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | 临时切换到“点光1”控件 | ⇧（定格） | ⇧（定格） |
 | 轨道点光1 | 按住LMB并拖动 | 按住LMB并拖动 |
 | 推拉点光1 | RMB +拖动 | RMB +拖动 |
+
+{style="table-layout:fixed"}
