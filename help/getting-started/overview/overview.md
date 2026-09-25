@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: 概要了解Substance 3D Designer并了解其用于创建程序化材料和纹理的功能。
 helpx_creative_field: ""
@@ -75,7 +75,7 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 
 *(\*.SBSAR)*
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍可调整参数，但编辑图形时已<b>锁定</b>。 Substance存档可用于所有Substance 3D应用程序和任何具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的应用程序，如Autodesk 3DS Max &amp; Maya、虚构引擎或Unity引擎。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍可调整参数，但编辑图形时已<b>锁定</b>。 Substance存档可用于所有Substance 3D应用程序和任何具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的应用程序，如Autodesk 3DS Max &amp; Maya、虚构引擎或Unity引擎。
 
 </td>
 <td style="border: 0;">
