@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: 了解在Substance 3D Designer中创建程序性素材的基本工作流程（从头到尾）。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -54,24 +54,24 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance 图形
+
+</td>
+</tr>
+</table>
 
 [图形](https://substance3d.adobe.com/)是在Substance 3D Designer中创建的主要图形类型。 其目的是<b>生成和处理不受设置分辨率、颜色或形状限制的2D图像数据</b>。 这些模板是用途极为广泛的图像处理和生成工具，而不仅仅是静态的预设置结果。
 
 结果可以表现为简单的黑白图案、只在其他图像上运行并且不单独生成内容的滤镜，或者甚至是具有多个通道的完整材料。
 
 图形是[最广泛支持的图形类型](../../getting-started/overview/overview.md)，可以导出并在大量不同的工作流程中使用。
-
-</td>
-</tr>
-</table>
 
 #### 示例
 
@@ -109,14 +109,18 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
-### Substance函数图形
+### Substance函数图表
+
+</td>
+</tr>
+</table>
 
 函数处理&#x200B;**单值**（整数、浮动、矢量）而不是像素集（图像）。 函数也是节点图形，但涉及的[节点](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)及其接口与Substance图形不同。
 
@@ -127,13 +131,9 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 * 创作[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行为
 * 出于特定目的，使用[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)而不是图形中的图像
 
-</td>
-</tr>
-</table>
-
 #### 示例
 
-以下是Substance函数图形的常见用例的一些示例。
+以下是Substance函数图的常见用例的一些示例。
 
 +++ Simple函数
 
@@ -149,7 +149,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 ![高级函数](workflow-overview.resources/pixel-function.png "高级函数"){width="512px" zoomable="yes"}
 
-此高级函数显示[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的内部工作，该颜色用于根据第二灰度蒙版输入的强度调整色图输入的色相。
+此高级函数显示[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的内部工作，该处理器用于根据第二灰度蒙版输入的强度调整色图输入的色相。
 
 它使用“$pos”Alpha对两个输入进行采样，然后去除颜色，将颜色值转换为HSL，并通过将色相分量与采样的灰度值相乘来修改色相分量。 之后，它重新组合矢量，将HSL转换回RGB，并重新添加Alpha以用于最终输出。
 

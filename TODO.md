@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 5%
 ---
 # 待办事项
@@ -39,6 +39,7 @@ ht-degree: 5%
 
 ## 修复
 
+* 修复[overview.md](help/getting-started/overview/overview.md)中图标的大小
 * 修复`BnW spots 2`页中的损坏图像
 * 修复节点页中第一个示例图像的链接(例如， 新噪声)
 
@@ -50,7 +51,7 @@ ht-degree: 5%
 
 - 了解下载SBS文件时会遇到哪些障碍（在[此处](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)询问）
 - 了解如何在不面向公众或不包含在ToC中的情况下实时测试页面
-- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/zh-hans/tools/campaign-error-codes)）
+- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自动生成示例项目
   - 从文件收录元数据(JSON、YAML、...)
   - 内嵌缩览图（单击以放大）
