@@ -3,7 +3,9 @@ cloud: Experience Cloud
 solution: Substance 3D Designer, Substance 3D
 product_v2:
   - id: ecbd8bf1-b852-466c-8a9d-e329dd1cfa83
+    internal-label: "Substance 3D Designer"
   - id: b5c1b9d0-8765-43f4-b8ea-1aa286ab7892
+    internal-label: "Substance 3D"
 usetq: true
 landing-page-name: substance-3d
 landing-page-breadcrumb-title: Substance 3D
@@ -14,11 +16,9 @@ index: true
 temp-push: yes
 source-git-commit: b1f1427d7e0f08b685d8c72c35fc6d3a4c520b7c
 workflow-type: tm+mt
-source-wordcount: 70
+source-wordcount: '64'
 ht-degree: 0%
-
 ---
-
 
 # 供内部使用的元数据
 

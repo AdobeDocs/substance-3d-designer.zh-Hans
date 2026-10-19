@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 系统要求
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 0250b1ff7cba48ff8d2909e01ccc4618aa4708a3
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '873'
 ht-degree: 0%
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ### Windows
 
-|             | 最小 | 推荐 | 最佳 |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  | 最小 | 推荐 | 最佳 |
+| --- | --- | --- | --- |
 | **操作系统** | Windows 11（64位）23H2版 | Windows 11（64位）24H1版 | Windows 11（64位）24H2版 |
 | **CPU** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
 | **GPU** | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Ada代<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
@@ -35,19 +35,23 @@ ht-degree: 0%
 
 ### macOS
 
-|             | 最小 | 推荐 | 最佳 |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **操作系统** | macOS14 Sonoma | macOS26 Tahoe | macOS26 Tahoe |
+|  | 最小 | 推荐 | 最佳 |
+| --- | --- | --- | --- |
+| **操作系统** | macOS红杉15号 | macOS金门27 | macOS金门27 |
 | **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 16 GB | 32 GB | 64 GB |
 | **存储空间** | 具有30 GB可用空间的固态硬盘 | 具有50 GB可用空间的固态硬盘 | 具有70 GB可用空间的固态硬盘 |
 
+>[!WARNING]
+>
+> 对于使用[VFX参考平台](https://vfxplatform.com/)构建的管道，Substance 3D Designer仍然可以安装在macOS 14 Sonoma上。 但是，不再测试Designer低于最低系统要求的操作系统版本，因此不保证稳定性。 建议更新到较新的操作系统版本。
+
 ### Linux
 
 | 企业 | 蒸汽 |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## 一般建议
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 >[!TIP]
 >
 > **TDR（仅限Windows）**
-> 
+>
 > 在GPU上执行繁重的计算时（例如，渲染复杂图形、3D视图渲染、从3D视图中导出场景等），为获得最佳整体稳定性，强烈建议确保&#x200B;**超时检测和恢复(TDR)**&#x200B;值与我们文档的[本页](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议相匹配。
 
 ## 不支持的配置
@@ -103,7 +107,7 @@ ht-degree: 0%
 要下载新驱动程序，请参阅： [GPU具有过时的驱动程序](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)。
 
 | 操作系统 | NVIDIA | AMD | Intel |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
+| --- | --- | --- | --- |
 | **Windows** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
 | **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | 不支持 |
 
@@ -111,9 +115,9 @@ ht-degree: 0%
 >
 > 在&#x200B;**macOS**&#x200B;上，GPU驱动程序由操作系统本身提供。 更新到最新版本的操作系统以访问最新驱动程序。
 
-## 烘焙GPU 射线追踪
+## GPU 射线追踪
 
-要通过Optix或DXR启用GPU 射线追踪，必须安装上面建议的驱动程序。
+要通过Optix或DXR启用GPU 射线追踪，必须安装上面推荐的驱动程序。
 
 **DXR**&#x200B;需要以下最低配置：
 
@@ -122,7 +126,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> GPU 射线追踪可在专用的光线追踪硬件（例如NVIDIA GeForce RTX或NVIDIA Quadro RTX GPU）上以最佳方式运行。
+> GPU 射线追踪可在专用射线追踪硬件（例如NVIDIA GeForce RTX或NVIDIA Quadro RTX GPU）上以最佳方式运行。
 
 ## 使用平板电脑
 
