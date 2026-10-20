@@ -171,4 +171,4 @@ ht-degree: 2%
 
 <b>关于Substance 3D Designer...：</b>显示有关应用程序及其组件的信息，例如版本号。
 
-\*：这些选项仅在通过[Adobe Creative Cloud桌面版](https://creativecloud.adobe.com/en/apps/download/creative-cloud)安装的Designer版本中可用，该版本需要[Substance 3D订阅](https://www.adobe.com/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar)。
+\*：这些选项仅在通过[Adobe Creative Cloud桌面版](https://creativecloud.adobe.com/en/apps/download/creative-cloud)安装的Designer版本中可用，该版本需要[Substance 3D订阅](https://www.adobe.com/cn/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar)。
