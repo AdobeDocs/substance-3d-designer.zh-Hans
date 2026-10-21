@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 教程
 
-我们的[Tutorials](https://www.adobe.com/learn/substance-3d)网站提供以下与MDL图表相关的内容。
+我们的[Tutorials](https://www.adobe.com/cn/learn/substance-3d)网站提供以下与MDL图表相关的内容。
 
 <table>
 <tr style="border: 0;">
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 在Substance 3D Designer中创建MDL
 
-[此系列](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer)是在Designer中发现MDL图表和使用MDL材质的&#x200B;*绝佳起点*。
+[此系列](https://www.adobe.com/cn/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer)是在Designer中发现MDL图表和使用MDL材质的&#x200B;*绝佳起点*。
 
 本教程涵盖的金属透明涂层材料仅通过纹理无法定义：它具有&#x200B;*两个单独的Specular高光*，它们具有不同的行为：一个带有斑点的较粗糙的金属涂层和一个非常平滑的透明顶层。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### MDL孔雀石材料细分
 
-[本文](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)将带您逐步了解&#x200B;*更复杂的*&#x200B;材料的制作，这些模板也不能仅通过纹理完成。 在此，MDL 图与[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)之间的协同作用可以非常高效地实现优异的结果。
+[本文](https://www.adobe.com/cn/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)将带您逐步了解&#x200B;*更复杂的*&#x200B;材料的制作，这些模板也不能仅通过纹理完成。 在此，MDL 图与[Substance图形](../../compositing-graphs/substance-compositing-graphs.md)之间的协同作用可以非常高效地实现优异的结果。
 
 “在本史诗般的教程中，[CD PROJEKT RED的高级环境艺术家Mark Foreman](https://www.artstation.com/oggyart)打破了他在‘物质化’竞赛中的优胜MDL 材质！ 您可以在[Substance share](https://share-legacy.substance3d.com/libraries/4043)上下载Mark的材料。
 
