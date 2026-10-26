@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # 待办事项
 
@@ -13,14 +13,15 @@ ht-degree: 5%
 
 ## 附加项
 
+* 快捷键：为macOS添加触摸板快捷键
 * AdobeDocs上的Python API文档的入口点
 * “文档弹出”页面中的示例
 * 术语表：
   * HDR
-  * 金属度/金属质感
+  * 金属度/金属
   * HDR
   * 镜面
-  * Height图
+  * 高度图
   * 不透明度
   * Frustum
   * 切线空间
@@ -36,6 +37,9 @@ ht-degree: 5%
 * Designer-11866： Tonemapping函数
 * Designer-10655：为像素处理器和FX-Maps添加示例+对示例项目的引用
 
+## 更改
+
+* [WIP]更新并完成“键盘快捷键”页面
 
 ## 修复
 
@@ -51,7 +55,7 @@ ht-degree: 5%
 
 - 了解下载SBS文件时会遇到哪些障碍（在[此处](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)询问）
 - 了解如何在不面向公众或不包含在ToC中的情况下实时测试页面
-- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/zh-hans/tools/campaign-error-codes)）
+- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自动生成示例项目
   - 从文件收录元数据(JSON、YAML、...)
   - 内嵌缩览图（单击以放大）
