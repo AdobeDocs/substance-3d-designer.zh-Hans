@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/bitmap-resource.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Designer中导入、创建和使用位图资源以创建基于纹理的材料。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 位图资源
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
-
 ---
-
 
 # 位图资源
 

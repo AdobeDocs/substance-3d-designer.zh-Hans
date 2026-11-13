@@ -1,13 +1,11 @@
 ---
 title: 设置金属度
 description: 设置SDF材料的金属程度。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 2%
-
 ---
-
 
 # 设置金属度
 
@@ -40,8 +38,8 @@ ht-degree: 2%
 
 |                          |                             |
 |--------------------------|-----------------------------|
-| <b>SDF场景</b> *浮动* | 输入SDF场景。 |
-| <b>金属性</b> *浮动* | 要设置的金属值。 |
+| <b>SDF场景</b> *Float* | 输入SDF场景。 |
+| <b>金属性</b> *Float* | 要设置的金属值。 |
 
 
 

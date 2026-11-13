@@ -1,13 +1,11 @@
 ---
 title: 舍入
 description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>运算符>舍入
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 2%
-
 ---
-
 
 # 舍入
 
@@ -40,5 +38,5 @@ ht-degree: 2%
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *浮动* | 输入SDF形状。 |
-| <b>半径</b> *浮动* | 应用于形状边缘的圆角弧的半径。<br><br><i>注意：</i>硬边缘可能出现在圆角半径相交的地方。<br><br><i>默认值： 0.05</i> |
+| <b>SDF</b> *Float* | 输入SDF形状。 |
+| <b>半径</b> *Float* | 应用于形状边缘的圆角弧的半径。<br><br><i>注意：</i>硬边缘可能出现在圆角半径相交的地方。<br><br><i>默认值： 0.05</i> |

@@ -1,13 +1,11 @@
 ---
 title: 相交曲面
 description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符>交叉曲面
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
-
 ---
-
 
 # 相交曲面
 
@@ -40,6 +38,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>基本SDF</b> *浮动* | 生成的曲面所基于的SDF形状。 |
-| <b>交叉SDF</b> *浮动* | 与基本SDF形状相交的SDF形状。 |
-| <b>Thickness</b> *浮动* | 生成的表面的Thickness。<br><br><i>默认值： 0.02</i> |
+| <b>基本SDF</b> *Float* | 生成的曲面所基于的SDF形状。 |
+| <b>交叉SDF</b> *Float* | 与基本SDF形状相交的SDF形状。 |
+| <b>Thickness</b> *Float* | 生成的表面的Thickness。<br><br><i>默认值： 0.02</i> |

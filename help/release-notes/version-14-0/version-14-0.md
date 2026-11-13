@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-14-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Designer版本14.0的发行说明，以了解新节点、图形导航和性能改进。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 14.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 版本 14.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
-
 ---
-
 
 # 版本 14.0
 
@@ -204,15 +202,15 @@ ht-degree: 0%
 * [参数]为所有输入参数类型添加新的“函数”构件
 * [属性]改进继承参数的显示
 * [UX]改进对触控板的支持（仅限Mac）
-* [UX]选择时达到图形边框时实现平移现代化
+* [UX]选择“ ”时到达图形边界时实现平移现代化
 * [UX]删除“禁用高DPI”功能
 * [品牌推广]“启动画面”和“关于”窗口的全新品牌推广
-* [渐变映射]添加移动所有键和循环的方法
+* [渐变图]添加移动所有按键和循环的方法
 * [Library]将所有默认筛选器切换到句子大小写
-* [API]添加在“图形视图”视窗中框住特定节点的方法
-* [API]添加用于在其编辑器中打开包资源的方法（例如，“图表视图”中的Substance图表）
-* [API]添加在浏览器中选择包资源的方法（例如，Substance图）
-* [API]添加用于获取和设置Substance合成图表的图表类型的方法
+* [API]添加方法以图形视图视口中的特定节点
+* [API]添加用于在其编辑器（例如，图形视图中的Substance图形）中打开包资源的方法
+* [API]添加方法以选择资源管理器中的包资源（例如，Substance图形）
+* [API]添加用于获取和设置Substance合成图形的图形类型的方法
 * [第三方]遵循2023 VFX平台建议
 * [第三方]遵循2024 VFX平台建议
 * [第三方]更新升级到1.82.0 + USD到23.08
@@ -229,34 +227,34 @@ ht-degree: 0%
 
 ### 修复
 
-* [Bakers]在重新生成文件名已更改的场景时崩溃
-* [Bakers]将Bakers预设存储到JSON文件时崩溃
+* [Baker]重新生成文件名已更改的场景时崩溃
+* [Baker]将Baker预设存储到JSON 文件时崩溃
 * [内容]“样条上的散点”：公开输入图像Alpha参数
 * [Content] &#39;Tile Sampler Color&#39;：缺少visibleif表达式
-* [内容]各向异性杂色：X/Y量的负值生成错误结果
-* [Content]各向异性噪声：使用奇值作为X量且没有Smoothness时会出现拼贴问题
+* [内容]各向异性噪声：X/Y数量的负值生成错误结果
+* [Content]各向异性噪声：使用奇值作为X量且无Smoothness时拼贴问题
 * [Content] Normal Distrib函数：错误放置的max()可能会导致NaN
 * [内容] RTAO、Bent Normal和RT Shadow在某些平台上无法正常工作
-* [内容]形状飞溅混合颜色：OpenGL正常映射未正确混合
+* [Content]形状飞溅混合颜色：OpenGL法线图未正确混合
 * [Content]节点标签中“Multi”前缀后的空间不适当
-* [依赖项]在包内或包间移动图表时崩溃
+* [依赖项]在包内或包间移动图形时崩溃
 * [引擎]影响斜率模糊节点的变形节点出现精度错误
-* [引擎] SD中的SBSAR层无法读取内容大于2GB的SBSASM
-* [函数图表] 0^n的结果不正确
+* [引擎] SD中的SBSAR图层无法读取内容大于2GB的SBSASM
+* [函数图形] 0^n的结果不正确
 * [图形] “显示节点大小”选项标记错误
-* [Graph]将父注释复制到另一个图表时崩溃
+* [图形]将父注释复制到其他图形时崩溃
 * [图形]按住Alt键并拖动点节点时冻结
-* [Graph]节点搜索在某些情况下可能会丢失明显的匹配项
-* [Graph]编辑在打开supergraph的情况下实例化了多次的函数图表时出现性能问题
-* [图表]创建输出时无效项过多
+* [图形]在某些情况下，节点搜索可能会丢失明显的匹配项
+* [图形]编辑在打开supergraph的情况下多次实例化的函数图形时出现性能问题
+* [图形]创建输出时无效项过多
 * [安全性] ICO解析越界写入漏洞
 * [安全性]弃用某些未使用的图像格式
 * [参数]位图PKG资源路径不可编辑
 * [参数]修复与公开/批量公开值处理器参数相关的问题
-* [参数]批量公开时忽略字符串参数
-* [属性]编辑打开属性后实例化多次的函数图表时出现性能问题
+* [Parameters]批量公开时会忽略字符串参数
+* [Properties]编辑打开属性后实例化多次的函数图形时出现性能问题
 * [SVG]对形状的编辑未应用于栅格化图像
 * [UI]修复可滚动构件的一些错误/不一致问题（仅限Windows）
-* [UI]导入/导出列表中3D场景文件格式的顺序不一致
+* [UI]导入/导出列表中3D 场景文件格式的顺序不一致
 * [UI]窗口操作在UI中重复
-* [版本控制] “perforce.py”脚本在Python 3上不起作用
+* [版本控制]“perforce.py”脚本在Python 3上不起作用

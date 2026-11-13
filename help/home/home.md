@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/home.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Designer通过基于节点的工作流程创建程序化的材料、纹理和3D资源。
 helpx_creative_field: ""
 helpx_description: Designer > User guide
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 3D Designer用户指南
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
-
 ---
-
 
 # Substance 3D Designer用户指南
 

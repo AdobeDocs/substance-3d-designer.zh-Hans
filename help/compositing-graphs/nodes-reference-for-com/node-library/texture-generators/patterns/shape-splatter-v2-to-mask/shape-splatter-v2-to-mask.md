@@ -1,13 +1,11 @@
 ---
 title: 要遮盖的形状飞溅v2
 description: Designer >Substance合成图形>Substance合成节点的图形参考>节点库>生成器>图案>形状飞溅v2至蒙版
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
-
 ---
-
 
 # 要遮盖的形状飞溅v2
 
@@ -40,7 +38,7 @@ ht-degree: 0%
 
 >[!TIP]
 > 
-> [**“生锈螺栓”**&#x200B;材质样本](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)可用于开始使用“形状飞溅”v2节点。
+> [**“Rusty bolts”**&#x200B;材料示例](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)可用于开始使用Shape Splatter v2节点。
 > 
 > 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
 
@@ -50,7 +48,7 @@ ht-degree: 0%
 
 |                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:----------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Splatter UVW</b> *颜色* | <b>R</b> — 形状的UV的U分量。<br><b>G</b> — 形状的UV的V分量。<br><b>B</b> — 形状的Height。 (W)<br><b>A</b> — 打包的数据：<br> - <i>整数部分：</i>形状的唯一标识符。 (ID)<br> - <i>分数部分：</i>取决于<b>形状类型</b>：如果是SDF/基元，则为素材ID；如果是pattern input/atlas，则为图案ID*。<br><br><b>*：</b>图案ID是列表/地图集中形状的索引。 |
+| <b>Splatter UVW</b> *颜色* | <b>R</b> — 形状的UV的U分量。<br><b>G</b> — 形状的UV的V分量。<br><b>B</b> — 形状的Height。 (W)<br><b>A</b> — 打包的数据：<br> - <i>整数部分：</i>形状的唯一标识符。 (ID)<br> - <i>小数部分：</i>取决于<b>形状类型</b>：如果SDF/基元，则为材料ID；如果模式输入/网格图集，则为模式ID*。<br><br><b>*：</b>模式ID是列表/贴图集中形状的索引。 |
 
 <a name="outputs"></a>
 

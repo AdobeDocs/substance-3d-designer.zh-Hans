@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-13-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Designer版本13.0的发行说明，以了解新节点、Substance 引擎9.0和门户节点。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.0
@@ -8,25 +8,23 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 版本 13.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
-
 ---
-
 
 # 版本 13.0
 
-Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱，具有大量新节点，Substance 引擎9.0首次引入循环，并添加了图表的强大功能：门户节点。 为了取悦更多用户，我们引入了全新的主屏幕并提供更多语言。
+Substance 3D Designer的13.0.0版本为材料艺术家带来了很多爱，Substance 引擎9.0首次引入了循环，并为图形添加了极大的附加功能：门户节点。 为了取悦更多用户，我们引入了全新的主屏幕并提供更多语言。
 
-如前一版本中所述，此版本不再支持Substance模型图表：这意味着您无法再在Designer中打开、编辑或导出此类图表。 您可以在我们的社区论坛上的此[帖子](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)中找到我们做出此决定的所有原因。
+如前一版本中所述，此版本不再支持Substance模型图表：这意味着您无法再在Designer中打开、编辑或导出此类图形。 您可以在我们的社区论坛上的此[帖子](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)中找到我们做出此决定的所有原因。
 
 *发行日期：2023年6月6日*
 
-![使用路径的材质](version-13-0.resources/Paths2.png "使用路径的材质")
+![使用路径材料](version-13-0.resources/Paths2.png "使用路径材料")
 
 *[Celine Dameron](https://www.artstation.com/cline)*&#x200B;的作品
 
@@ -39,7 +37,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 所有这些节点都将提供许多可能性，而且肯定会有许多创意应用程序。 查看有关[使用路径和样条曲线工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)的部分，了解要了解的重要概念，以便熟悉此工具集。
 
-![使用样条的材质](version-13-0.resources/Splines.png "使用样条的材质")
+![使用样条材料](version-13-0.resources/Splines.png "使用样条材料")
 
 *[Louise Melin](https://www.artstation.com/troglodette)*&#x200B;的作品
 
@@ -51,7 +49,7 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 当然，第一类是生成样条的种类：
 
-* [样条三次](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)：从两点和两个切线；
+* [样条三次](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)：从两点和两个正切；
 * [样条多边形二次](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)：从一组点开始；
 * [样条圆](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-circle/spline-circle.md)：跟随一个圆形。
 
@@ -186,22 +184,22 @@ Substance 3D Designer的这个13.0.0版本为素材艺术家带来了很多爱�
 
 上面列出的所有新节点均基于新Substance 引擎版本，并且它们充分利用了其主要的新功能： <b>循环</b>。
 
-循环只能在[Substance函数图形](../../function-graphs/function-graphs.md)中使用，并且您最有可能在[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)或[值处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)中实现它们。 当然，循环允许您轻松多次重复某个功能，直到满足某一条件为止。 这有助于大幅调亮您的图表，并提高准确性。
+循环只能在[Substance函数图形](../../function-graphs/function-graphs.md)中使用，并且您最有可能在[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)或[值处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)中实现它们。 当然，循环允许您轻松多次重复某个功能，直到满足某一条件为止。 这样有助于大幅调亮图形，并提高准确性。
 
 此专用的[教程](https://www.youtube.com/watch?v=Ggoy8G90oDI)将帮助您开始使用循环。
 
 Substance 引擎v9还可带来以下改进：
 
 * [渐变图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点的渐变编辑器中的新纯色模式（即完全无插值）
-* Substance函数图中的Atomic pow()节点
+* Substance函数图形中的Atomic pow()节点
 * 在Sampler节点中添加边框环绕选项（固定到边缘，重复）
-* [变形](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)和[方向变形](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)节点中的最近采样
+* [变形](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)和[定向翘曲](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)节点中的最近采样
 
 ## 门户节点
 
-[门户](../../interface/the-graph-view/graph-items/graph-items.md)节点是[点](../../interface/the-graph-view/graph-items/graph-items.md)节点的新扩展，可以隐藏图中的连接。
+[Portal](../../interface/the-graph-view/graph-items/graph-items.md)节点是[点](../../interface/the-graph-view/graph-items/graph-items.md)节点的新扩展，可以隐藏图形中的连接。
 
-得益于此功能，您可以通过隐藏超长连接来提高图表的可读性，还可以从图表中的任何位置快速访问关键节点。
+借助此功能，您可以隐藏超长连接以提高图形可读性，还可以从图形中的任意位置快速访问关键节点。
 
 此专用[教程](https://www.adobe.com/go/designer-tutorial-portals)中完整地说明了此新功能。
 
@@ -211,7 +209,7 @@ Substance 引擎v9还可带来以下改进：
 
 当您启动Designer时，您知道可以像访问其他Adobe产品一样访问全新的[主屏幕](../../interface/home-screen/home-screen.md)。 在此屏幕中，您可以：
 
-* 快速创建新图表；
+* 快速创建新图形；
 * 查看最近在Designer中打开的所有文件的列表，其中有一些详细信息，例如大小、上次修改它的日期或完整的文件路径；
 * 学习页面，您可以在其中找到学习资源的链接，例如向您介绍新功能或发现快速提示的教程；
 * 指向新增功能屏幕、关于屏幕、Substance 3D网站、支持社区论坛等的直接链接。
@@ -238,7 +236,7 @@ Substance 引擎v9还可带来以下改进：
 
 ### 已添加
 
-* [Graph]门户节点
+* [图形]门户节点
 * [用户引导]全新“主页”屏幕
 * [内容]样条（三次）节点
 * [内容]样条（多边形二次）节点
@@ -261,54 +259,54 @@ Substance 引擎v9还可带来以下改进：
 * [内容]样条桥映射器颜色节点
 * [内容]样条桥映射器灰度节点
 * [内容]样条流映射器节点
-* [内容] UV映射器颜色节点
-* [内容] UV映射器灰度节点
+* [Content]UV映射器颜色节点
+* [Content]UV映射器灰度节点
 * [内容]指向Splines节点的路径
 * [内容]将蒙版粘贴到路径节点
-* [内容]路径2D变换nodenode
+* [Content] Paths 2D变换节点
 * [内容]路径多边形节点
 * [内容] “预览路径”节点
 * [内容]路径变形节点
 * [内容]路径选择节点
-* [内容]路径顶点处理器节点
-* [内容]路径顶点处理器简单节点
-* [Content] Quad Transform on Path节点
-* [内容]光线跟踪环境遮蔽v2
+* [Content] Paths顶点处理器节点
+* [Content] Paths顶点处理器简单节点
+* [Content] Quad 变换 on Path节点
+* [内容]光线追踪Ambient occlusionv2
 * [内容]光线跟踪弯曲法线v2
 * [内容]光线追踪阴影v2
-* [引擎]更新到版本9
-* [Engine]函数图中的循环节点
+* [引擎]更新至版本9
+* [引擎]函数图形中的循环节点
 * [引擎]向渐变添加纯色模式
-* [Engine]函数图中的Atomic pow()节点
+* [引擎]函数图形中的Atomic pow()节点
 * [引擎]在Sampler节点中添加边框环绕选项（固定到边缘/重复）
-* [引擎]变形和方向变形节点中的最近采样
-* [引擎]向锐化滤镜中添加“穿透Alpha”模式以用于颜色输入
+* [引擎]变形和定向翘曲节点中的最近取样
+* [引擎]将“穿透Alpha”模式添加到锐化滤镜以进行颜色输入
 * [引擎] FxMap：半球形态图
-* [Engine]函数图表中的原子Get/Set操作
-* [Engine]功能：使用log/log2/exp的精确功能，2pow — 统一炊具和引擎之间的功能
-* [引擎]向方向变形滤镜添加“强度偏移”参数
-* [API]支持预设管理以合成图表
+* [引擎]函数图形中的原子Get/Set操作
+* [引擎]功能：使用log/log2/exp的精确功能，2pow — 统一炊具和引擎之间的功能
+* [引擎]向定向翘曲滤镜添加“强度偏移”参数
+* [API]支持对合成图形进行预设管理
 * [函数]更改函数原子节点的输入名称
 * [本地化]添加葡萄牙语（巴西）、意大利语（意大利）和西班牙语（西班牙）语言
 * [本地化]遵循语言列表中的规则“语言（国家/地区）”
-* [预设]使用上下文编辑时，禁用图形属性中的“预览”和“预设”面板
-* [Substance模型图]停止支持Substance模型图
+* [预设]使用上下文编辑时，在图形属性中禁用“预览”和“预设”面板
+* [Substance模型图形]停止支持Substance模型图形
 
 ### 修复
 
-* [3D视图]场景统计信息中长字符串的显示被截断（仅限macOS）
+* [3D 视图]场景统计信息中长字符串的显示被截断（仅限macOS）
 * [API] “structure：：Structure”模块仍包含在API参考中
-* [API] MDL图表中的点节点既没有定义，也没有属性
+* [API]MDL 图中的点节点既没有定义，也没有属性
 * [API]设置函数节点的参数时行为不正确
 * [内容] 3D Voronoi和3D Voronoi Fractal节点生成烹饪警告
 * [引擎] “强度映射偏移”参数对SSE2引擎中的灰度数据没有影响
-* [Explorer]可以删除图形i/o
-* [Graph]在实例中使用时忽略位图
-* [Graph]从节点创建节点时，点节点位置不正确
-* [图表]使用“Enter”键时，“Expose参数”对话框中的焦点不正确
-* [Graph]在上下文编辑中用位图扫描直方图时出现错误结果
+* [资源管理器]可以删除图形i/o
+* [图形]在实例中使用时忽略位图
+* [图形]从节点创建节点时，点节点位置不正确
+* [图形]使用“Enter”键时，“公开参数”对话框中的焦点不正确
+* [图形]在上下文编辑中用位图扫描直方图时出现错误结果
 * [本地化]修复各种剪切问题
 * [参数]删除输入参数时崩溃
-* [Publish]文件夹中的图表被移至已发布包中的根目录
-* [资源]更新磁盘上加载的资源时崩溃
+* [Publish]文件夹中的图形将移至已发布包中的根目录
+* [资源]更新磁盘上已加载的资源时崩溃
 * [VisibleIf]修复条件可见性评估中的回归问题

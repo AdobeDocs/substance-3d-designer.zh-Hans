@@ -1,28 +1,26 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
-breadcrumb-title: ''
-description: 了解减小Substance图形文件大小以优化性能和存储要求的准则。
+breadcrumb-title: ""
+description: 了解减小图形文件大小以优化性能和存储要求的准则。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Filesize Reduction Guidelines
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 文件大小减少准则
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 1%
-
 ---
-
 
 # 概述
 
 在某些情况下，[Substance 3D资源(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的总文件大小可能是一个重要因素。 此页面介绍了在尝试减小文件大小时要牢记的一些关键区域和设置。
 
-文件大小主要由[嵌入的位图](../../resources/bitmap-resource/bitmap-resource.md)决定。 它们是链接、嵌入或烘焙的文件，并作为资源添加到[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)文件(SBS)中。 只有图形中使用的位图（即直接或通过节点链连接到输出）才会发布在Substance 3D资源中。 在Substance 3D文件中，位图对文件大小没有影响，因为所有位图资源仍存储在文件之外。
+文件大小主要由[嵌入的位图](../../resources/bitmap-resource/bitmap-resource.md)决定。 它们是链接、嵌入或烘焙的文件，并作为资源添加到[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)文件(SBS)中。 Substance 3D资源中仅发布在图形中使用的位图（即直接或通过节点链连接到输出的位图）。 在Substance 3D文件中，位图对文件大小没有影响，因为所有位图资源仍存储在文件之外。
 
 >[!IMPORTANT]
 >
@@ -53,7 +51,7 @@ ht-degree: 1%
 
 +++
 
-+++图形中的使用情况
++++图形使用情况
 将“位图”节点设置为哪种模式也会影响Designer压缩文件的方式，因为在图形中使用灰度模式文件作为彩色位图会产生更大的文件。 确保正确设置这些项！
 
 *在以下位置找到：[位图节点属性。](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)*

@@ -1,13 +1,11 @@
 ---
 title: 壳
 description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>运算符> Shell
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
-
 ---
-
 
 # 壳
 
@@ -41,4 +39,4 @@ ht-degree: 4%
 |  |  |
 | :--- | :--- |
 | <b>SDF</b> *Float* | 输入SDF形状。 |
-| <b>Thickness</b> *浮动* | 壳的Thickness向内和向外应用。<br>壳在Thickness增加时是圆角的。<br><br><i>默认值： 0.02</i> |
+| <b>Thickness</b> *Float* | 壳的Thickness向内和向外应用。<br>壳在Thickness增加时是圆角的。<br><br><i>默认值： 0.02</i> |

@@ -1,13 +1,11 @@
 ---
 title: 平滑合并
 description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符>联合平滑
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 1%
-
 ---
-
 
 # 平滑合并
 
@@ -40,6 +38,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *浮动* | 第一个SDF形状。 |
-| <b>SDF 2</b> *浮动* | 第二个SDF形状。 |
-| <b>Smoothness</b> *浮动* | 平滑半径，从交叉点的边缘开始。<br><br><i>默认值： 0</i><br><br><i>注意：</i>硬边缘可能出现在平滑半径相交的地方。 |
+| <b>SDF 1</b> *Float* | 第一个SDF形状。 |
+| <b>SDF 2</b> *Float* | 第二个SDF形状。 |
+| <b>Smoothness</b> *Float* | 平滑半径，从交叉点的边缘开始。<br><br><i>默认值： 0</i><br><br><i>注意：</i>硬边缘可能出现在平滑半径相交的地方。 |

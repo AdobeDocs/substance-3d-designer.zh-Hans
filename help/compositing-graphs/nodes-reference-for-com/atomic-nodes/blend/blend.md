@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
-description: 使用“混合”节点，使用各种混合模式将两个纹理混合在一起，以创建复合效果。
+description: 使用“混合”节点可以使用各种混合模式将两个纹理混合在一起，以创建复合效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -24,14 +24,14 @@ ht-degree: 8%
 
 ![原子节点：混合](blend.resources/comp_blend_1.png "原子节点：混合"){width="100%"}
 
-<b>在：</b>个原子节点中
+<b>进入：</b>个原子节点
 
 </td>
 <td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 使用指定的混合模式和可选蒙版组合两张图像。
 
-它是所有原子节点中最有用的节点，几乎您在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中构建的任何图表都将使用此节点。
+它是所有原子节点中最有用的图形，几乎您在[Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html)中构建的任何节点都将使用此节点。
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 8%
 
 >[!TIP]
 >
-> 了解[此专用页面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)的“混合”节点中可用的混合模式。
+> 了解[此专用页](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)的混合节点中可用的混合模式。
 
 
 
@@ -57,10 +57,10 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>不透明度</b> *浮动* | 前景图层的不透明度正在混合到背景中。 它独立于不透明度输入工作，并充当其附加乘数。 |
+| <b>不透明度</b> *Float* | 前景图层的不透明度正在混合到背景中。 它独立于不透明度输入工作，并充当其附加乘数。 |
 | <b>混合模式</b> *整数* [静态](../../../../glossary/glossary.md) | 设置要使用的混合操作。   请参阅有关混合模式的[专用页面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)。 |
-| <b>Alpha混合</b> *整数* [静态](../../../../glossary/glossary.md) | 确定颜色输入具有Alpha通道时的混合行为：<ul data-preserve-html="true"> <li data-preserve-html="true">使用源 Alpha</li> <li data-preserve-html="true">忽略 Alpha</li> <li data-preserve-html="true">直接 Alpha 混合</li> <li data-preserve-html="true">预乘Alpha混合</li> </ul> |
-| <b>裁切区域</b> *浮点4* [静态](../../../../glossary/glossary.md) | 允许设置自定义裁剪区域，其行为类似于其他不透明度蒙版。 任何裁剪区域只显示背景。 |
+| <b>Alpha 值混合处理</b> *整数* [静态](../../../../glossary/glossary.md) | 确定颜色输入具有Alpha 通道时的混合行为：<ul data-preserve-html="true"> <li data-preserve-html="true">使用源 Alpha</li> <li data-preserve-html="true">忽略 Alpha</li> <li data-preserve-html="true">直接 Alpha 混合</li> <li data-preserve-html="true">预乘Alpha 值混合处理</li> </ul> |
+| <b>裁剪区域</b> *Float4* [静态](../../../../glossary/glossary.md) | 允许设置自定义裁剪区域，其行为类似于其他不透明度蒙版。 任何裁剪区域只显示背景。 |
 
 ## 输入连接器
 

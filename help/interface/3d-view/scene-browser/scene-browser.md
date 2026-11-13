@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 场景浏览器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -78,16 +78,16 @@ Designer会将一些对象添加到任何加载的场景中。 由Designer添加
 </tr>
 </table>
 
-* <b>相机：</b>场景的默认相机。 这是您唯一可以在Designer中与之交互的相机。 加载的场景中包含的所有摄像机都会添加为默认摄像机的预设。
-* <b>环境：</b>场景的默认环境。 应用于场景环境的任何纹理将仅应用于该环境。 同样，环境旋转也只会影响该环境。\
-  当加载的场景包含一个或多个环境光时([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html)（美元）)，将自动禁用默认环境以不干扰场景的环境光照。
+* <b>相机：</b>场景的默认相机。 这是唯一可在Designer中与之交互的相机。 已加载场景中包含的任何相机都会添加为默认相机的预设。
+* <b>环境：</b>场景的默认环境。 任何应用于场景环境的纹理都将仅应用于该环境。 同样，环境旋转也只会影响该环境。\
+  当加载的场景包含一个或多个环境光（在USD中[DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html)）时，将自动禁用默认环境以不干扰场景的环境光照。
 * <b>点光#：</b>如果在“光源”>“编辑属性”中启用了任何Designer点光，则每个点光都会添加到场景中。
 
-## 切换场景中的对象
+## 在场景中切换对象
 
 ### 所有类型
 
-可以在场景中启用和禁用任何对象。 禁用后，对象将对场景不再起作用：它不再投影、发光或反射光线。
+可以在场景中启用和禁用任何对象。 禁用后，对象不再对场景起作用：它不强制转换阴影、发光或反射光线。
 
 父对象的状态会传递到其子对象，因此禁用父对象也会禁用其子对象。
 
@@ -96,10 +96,10 @@ Designer会将一些对象添加到任何加载的场景中。 由Designer添加
 * <b>隐藏：</b>禁用所选对象。
 * <b>显示：</b>启用所选对象。
 
-某些操作会特别影响网格的可见性：
+某些操作会具体影响网格的可见性：
 
-* <b>仅显示：</b>禁用除选定网格及其子网格之外的所有网格。
-* <b>显示全部：</b>启用所有网格。
+* <b>仅显示：</b>禁用除选定设备及其子设备之外的所有网格。
+* <b>全部显示：</b>启用所有网格。
 
 父对象具有以下附加操作：
 
@@ -108,11 +108,11 @@ Designer会将一些对象添加到任何加载的场景中。 由Designer添加
 * <b>展开所有子项：</b>递归展开所选对象下的所有子项列表。
 * <b>折叠所有子项：</b>递归折叠所选对象下的所有子项列表。
 
-![场景浏览器 — 切换对象可见性](scene-browser.resources/sceneBrowser-toggleVisibility.gif "场景浏览器 — 切换对象可见性"){zoomable="yes"}
+![场景浏览器 — 正在切换对象可见性](scene-browser.resources/sceneBrowser-toggleVisibility.gif "场景浏览器 — 正在切换对象可见性"){zoomable="yes"}
 
 ### 环境
 
-任何环境光(DomeLight)的可见性都可以像其他对象一样被启用和禁用。
+任何环境光(DomeLight)的可见性可以用与其他对象相同的方式启用和禁用。
 
 禁用环境光后，其对场景的光照作用也将被禁用。
 

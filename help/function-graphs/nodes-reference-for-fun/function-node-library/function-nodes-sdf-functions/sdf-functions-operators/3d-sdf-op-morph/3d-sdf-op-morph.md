@@ -1,13 +1,11 @@
 ---
 title: Morph
 description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符> Morph
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
-
 ---
-
 
 # Morph
 
@@ -40,6 +38,6 @@ ht-degree: 1%
 
 |  |  |
 | :--- | :--- |
-| <b>基本SDF</b> *浮动* | 基本SDF形状。 |
-| <b>目标SDF</b> *浮动* | 目标SDF形状。 |
-| <b>混合因子</b> *浮动* | 用于变形输入形状的混合因子，其中0是基本形状，1是目标形状。 |
+| <b>基本SDF</b> *Float* | 基本SDF形状。 |
+| <b>目标SDF</b> *Float* | 目标SDF形状。 |
+| <b>混合因子</b> *Float* | 用于变形输入形状的混合因子，其中0是基本形状，1是目标形状。 |

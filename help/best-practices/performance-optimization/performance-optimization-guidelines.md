@@ -1,47 +1,45 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
-breadcrumb-title: ''
-description: 了解Substance 3D Designer的性能优化准则，以提高图形性能并减少处理时间。
+breadcrumb-title: ""
+description: 了解Substance 3D Designer的性能优化准则，以改进图形性能并减少处理时间。
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 性能优化准则
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 
 # 性能优化准则
 
 ## Substance 图形
 
-[Substance图表](../../compositing-graphs/substance-compositing-graphs.md)越复杂，渲染它们所需的处理能力就越强。 您应尝试<b>在复杂性和渲染速度之间找到平衡</b>。\
+[图形](../../compositing-graphs/substance-compositing-graphs.md)越复杂，渲染它们所需的处理能力就越强。 您应尝试<b>在复杂性和渲染速度之间找到平衡</b>。\
 如果您将在实时图形应用程序（如游戏）中使用它们，则这是&#x200B;*尤其是*&#x200B;重要信息。
 
-一般来说，公开自定义参数（可在运行时修改）的节点<b>应尽可能靠近图表的末尾</b>。
+一般来说，公开自定义参数（可在运行时修改）的节点<b>应尽可能靠近图形的末尾</b>。
 
-这是因为每个节点的输出会尽可能进行缓存。 因此，可补间节点在图形上的位置越靠上，只要修改这些公开参数中的一个，就需要处理更多的输出。 如果公开节点靠近图形的末尾，则只需重新计算它与输出节点之间的少数节点。
+这是因为每个节点的输出会尽可能进行缓存。 因此，可调整公开参数的图形越靠上，每当修改其中的一个节点时，需要处理的输出就越多。 如果公开的图形靠近结尾，则只需重新计算该节点与输出节点之间的少数节点。
 
-例如，如果在图形的开头微调统一颜色，则将重新计算以下所有节点。 如果微调输出前放置的HSL节点，则只有此节点会被重新计算，从而大大提高图形的性能。
+例如，如果在图形的开头微调统一颜色，则将重新计算以下所有节点。 如果调整位于输出前的HSL节点，则仅重新计算该节点，这极大地改进了图形的性能。
 
 请注意以下准则：
 
 ### 常规性能相关设置
 
 +++GPU引擎比CPU引擎快得多
-除非您拥有不受支持的（集成）图形卡，否则请使用GPU Substance引擎（通过热键F9更改）。
+除非您拥有不受支持的（集成）图形卡，否则请使用GPU Substance引擎（使用热键F9更改）。
 
 +++
 
-+++切换图表的父分辨率时速度缓慢
-它重新计算图形、缓存和所有缩略图。 最好使用[导出对话框的<b>“批处理”</b>](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)选项卡，因为它可避免大量不必要的重新计算（例如，导出为8192分辨率时）。
++++切换图形的父分辨率时速度缓慢
+它会重新计算图形、缓存和所有缩略图。 最好使用[导出对话框的<b>“批处理”</b>](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)选项卡，因为它可避免大量不必要的重新计算（例如，导出为8192分辨率时）。
 
 +++
 
@@ -50,12 +48,12 @@ ht-degree: 0%
 
 +++
 
-### 图优化
+### 图形优化
 
-+++请注意节点解析度和一般继承！
-较高的值将严重影响性能，因此请考虑可能如何使用素材以及是否可以减小涉及的数据大小。
++++请注意节点分辨率和总体继承！
+较高的值将严重影响性能，因此请考虑可能如何使用材料以及是否可以减小所涉及的数据大小。
 
-我们建议您进一步了解[节点分辨率（输出大小）](../../compositing-graphs/output-size/output-size.md)和[Substance图表的继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
+我们建议您了解有关[节点分辨率（输出大小）](../../compositing-graphs/output-size/output-size.md)和[图形中的继承](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的更多信息。
 
 +++
 

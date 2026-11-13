@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: 了解在Substance 3D Designer中创建程序性素材的基本工作流程（从头到尾）。
+description: 了解在Substance 3D Designer中从头到尾创建程序化材料的基本工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 在[此处](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)了解自定义参数的一般概念，或在深度和[开始公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中了解更多信息。
 
-## 图表类型
+## 图形类型
 
 您可以在下面找到可以在Substance 3D Designer中编辑的三种类型的图形的摘要，以及指向文档相关部分的链接。
 
@@ -89,19 +89,19 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 +++ 调整滤镜
 
-![Substance图中的调整滤镜](workflow-overview.resources/simplefilter.png "Substance图中的调整滤镜"){width="512px" zoomable="yes"}
+![图形中的调整滤镜](workflow-overview.resources/simplefilter.png "Substance图形中的调整滤镜"){width="512px" zoomable="yes"}
 
 滤镜图形将法线图作为[输入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)（使用自定义预览），[将其转换为弯曲](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)，然后[调整对比度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)以创建凸边蒙版作为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
-可以公开在直方图中设置的对比度值，使其与动态输入槽相结合，成为简单但有用的滤镜。
+可以公开“直方图”中设置的对比度值，使其与动态输入槽相结合，成为简单但有用的滤镜。
 
 +++
 
-+++ 全材质
++++ 完整材料
 
-![Substance图中的完整素材](workflow-overview.resources/simplematerial.png "Substance图中的完整素材"){width="512px" zoomable="yes"}
+![图形中的完整材料](workflow-overview.resources/simplematerial.png "Substance图形中的完整材料"){width="512px" zoomable="yes"}
 
-更复杂的图形[混合两个基础材质](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)。 一个[基础材质](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)保持简单，另一个使用一些自定义输入来添加兴趣。 蒙版用于确定在将设置为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)之前，两种素材中的哪些素材出现在哪里。
+更复杂的图形[混合两个基础材质](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)。 一个[基础材质](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)保持简单，另一个使用一些自定义输入来添加兴趣。 蒙版用于确定两个材料中的哪一个在设置为最终[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)之前出现在哪里。
 
 此示例使用[链接创建模式](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)来简化使用多个链接的过程。
 
@@ -116,7 +116,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 </td>
 <td style="border: 0;">
 
-### Substance函数图表
+### Substance函数图形
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 #### 示例
 
-以下是Substance函数图的常见用例的一些示例。
+以下是Substance函数图形的常见用例的一些示例。
 
 +++ Simple函数
 
@@ -149,7 +149,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 
 ![高级函数](workflow-overview.resources/pixel-function.png "高级函数"){width="512px" zoomable="yes"}
 
-此高级函数显示[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的内部工作，该处理器用于根据第二灰度蒙版输入的强度调整色图输入的色相。
+此高级函数显示[像素处理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的内部工作，该颜色用于根据第二灰度蒙版输入的强度调整色图输入的色相。
 
 它使用“$pos”Alpha对两个输入进行采样，然后去除颜色，将颜色值转换为HSL，并通过将色相分量与采样的灰度值相乘来修改色相分量。 之后，它重新组合矢量，将HSL转换回RGB，并重新添加Alpha以用于最终输出。
 

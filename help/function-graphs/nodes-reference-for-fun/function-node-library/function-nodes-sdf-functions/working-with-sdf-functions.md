@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Designer中可用的SDF 函数节点，通过这些节点，您可以创作在“形状飞溅v2”和“3D查看器”节点中生成3D形状的SDF 函数。
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,21 +8,19 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 使用SDF 函数
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
-
 ---
-
 
 # 使用SDF 函数
 
-在16.0.0版中，Substance 3D Designer向创作SDF 函数引入了一组强大的节点，可用于创建和处理程序化3D形状。
+在16.0.0版中，Substance 3D Designer向创作SDF 函数引入了一组强大的节点，可用于创建和操作程序化的3D形状。
 
-SDF 函数是Substance函数图表，它们组合了工具集中提供的SDF节点，并应用于支持SDF 函数的节点中的专用参数。
+SDF 函数是Substance功能图形，它组合了工具集中提供的SDF节点，并应用于支持SDF 函数的节点中的专用参数。
 
 首先，请记住，基本工作流程如下所示：
 
@@ -44,7 +42,7 @@ SDF 函数是Substance函数图表，它们组合了工具集中提供的SDF节�
     </tr>
 </table>
 
-这些功能在计算机图形学中有着广泛的应用，如绘制表面、阴影投影、轮廓遮蔽、碰撞检测等。
+这些功能在计算机图形学中有着广泛的应用，如绘制曲面、阴影强制转换、轮廓遮蔽、碰撞检测等。
 
 在Substance 3D Designer中，SDF 函数用于以程序化的方式创建和操作3D形状。
 
@@ -58,7 +56,7 @@ SDF 函数节点输出单个浮点值：到最近曲面的带符号距离。
 
 节点包括[形状飞溅v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)和[3D查看器](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)。
 
-### Substance函数图
+### Substance功能图形
 
 SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形类型中可用。
 应作为函数表示的节点参数使用“编辑函数”按钮。
@@ -66,13 +64,13 @@ SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形�
 关于Substance函数图形您需要了解的内容：
 * 与图形类似，节点连接器是&#x200B;*专用的*，这意味着它们只能连接到&#x200B;*匹配颜色* [表示其类型](../../function-nodes-overview/function-nodes-overview.md#color-coding)的其他连接器。
 * 节点没有参数，只能有输入。 （但有一些特定的例外情况）
-* 该图形具有一个输出节点。 右键单击某个节点，然后选择`Set as output`以将其指定为输出节点。
-* 同样，与Substance图类似，有&#x200B;*原子*&#x200B;节点（基本构造块）和&#x200B;*实例*&#x200B;节点表示其他Substance函数图。
-* 您可以对图形中的值执行单独的运算符（代数、逻辑和比较），但是SDF节点具有[自己的运算符](#operators)
+* 该图形只有一个输出节点。 右键单击某个节点，然后选择`Set as output`以将其指定为输出节点。
+* 同样，与图形类似，有&#x200B;*原子*&#x200B;节点（基本构造块）和&#x200B;*实例*&#x200B;节点（表示其他Substance函数图形）。
+* 可以使用单独的运算符（代数、逻辑和比较）对图形中的值执行操作，但SDF节点具有[自己的运算符](#operators)
 
-+++ 定义SDF 函数的函数图示例
++++ 定义SDF 函数的函数图形示例
 
-![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
+![使用 — sdf-function-图形.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
 
 +++
 
@@ -80,7 +78,7 @@ SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形�
 
 对于编写的SDF 函数，首先需要将其可视化，以便了解所调整节点和参数的影响。
 
-[3D查看器](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)节点具有用于可视化使用SDF 函数创作的形状的专用模式：将节点的<b>场景类型</b>参数设置为`SDF function`，然后单击&#x200B;**编辑函数**&#x200B;按钮以打开将托管SDF 函数本身的函数图表。
+[3D查看器](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)节点具有用于可视化使用SDF 函数创作的形状的专用模式：将节点的<b>场景类型</b>参数设置为`SDF function`，然后单击&#x200B;**编辑函数**&#x200B;按钮以打开将托管SDF 函数本身的函数图形。
 
 该节点提供了用于可视化SDF 函数各方面的专用功能，这些功能将让我们更直观、更高效地构建节点，例如边界帧和等值线。
 
@@ -90,7 +88,7 @@ SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形�
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>所有SDF 函数节点及其输入连接器都有工具提示，可让您详细了解其用途和使用方法。</p><p>一定要检查他们！</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 函数节点上输入连接器的工具提示。" /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>所有SDF 函数节点及其输入连接器都有工具提示，可帮助您进一步了解其用途和使用方法。</p><p>一定要检查他们！</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 函数节点上输入连接器的工具提示。" /></td></tr></table>
 
 ### 设置节点值
 
@@ -99,7 +97,7 @@ SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形�
 若要设置这些输入的值，您可以使用[常量Float](../../atomic-function-nodes/constant-nodes/constant-nodes.md)，例如&#x200B;**节点**、**Float3**&#x200B;和&#x200B;**整数3**。\
 您可以按照常规方式通过node菜单创建这些节点，或者从连接器中拖动新连接以从匹配类型节点的过滤列表中受益。
 
-大多数SDF 函数节点的输入连接器都有一个默认值，此默认值在其工具提示中公开。
+大多数连接器的输入节点都有一个默认值，该默认值在其工具提示中公开。
 
 <img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="用于编辑SDF基元的常量节点。" />
 
@@ -116,7 +114,7 @@ SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形�
             <p>边界帧是3D空间中的一个框，它定义了<i>边界</i>，在<a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">形状飞溅v2</a>SDF 函数中计算和绘制该节点。</p><p>如果边界帧太小，可能会裁切部分形状。 如果它过大，则可能会导致不必要的计算和较长的处理时间。</p><p>使用<b>边界帧</b>参数可以启用边界帧的可视化。 然后，您可以通过更改<b>定界帧大小</b>参数的值来调整定界帧的大小。</p><p>使用<b>帧外着色</b>参数可以将定界帧之外的区域显示为亮红色，以便您可以相应地调整帧。</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="适用于SDF 函数的3D查看器节点的边界帧功能。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="适用于SDF 函数的3D查看器帧的边界节点功能。" />
         </td>
     </tr>
 </table>
@@ -129,7 +127,7 @@ SDF 函数节点旨在用于专用Substance功能图形，因此仅在该图形�
             <p>由于变换形状涉及实际*变换绘制形状时的空间*，因此某些变换后使用的节点结果可能会令人吃惊。<br>在这种情况下，将空间本身可视化会很有帮助，可以通过<i>将形状的距离场</i>可视化来实现。</p><p>为此，3D查看器节点使用<i>等高线</i>，这些等高线是表示与形状表面相距给定距离的重复轮廓线。 <b>SDF等值线</b>参数启用该可视化。<br>等高线绘制在位于<b>SDF等高线位置</b>参数所指定Height的水平平面上。</p><p>观察等值线是如何通过应用于形状的变换而变形的，有助于了解形状本身是如何变换的，并相应地调整节点的参数。</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="适用于SDF 函数的3D查看器节点的边界帧功能。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="适用于SDF 函数的3D查看器帧的边界节点功能。" />
         </td>
     </tr>
 </table>
@@ -180,7 +178,7 @@ SDF 函数的基本构成要素，您可以通过这些要素创建球体、箱�
 通过这些节点，可以合并和修改使用图元创建的形状。 其中包括：
 * **直布尔型**&#x200B;运算符，如[联合](sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md)、[交集](sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md)和[减法](sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md)，允许您以各种方式组合形状。
 * **变形布尔型**&#x200B;运算符，例如[舍入](sdf-functions-operators/3d-sdf-op-rounding/3d-sdf-op-rounding.md)和[Morph](sdf-functions-operators/3d-sdf-op-morph/3d-sdf-op-morph.md)，它们允许您使用混合效果组合形状。
-* 允许您修改和/或复制形状的&#x200B;**其他专门化**&#x200B;运算符，例如[Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md)和[Symmetry](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)。
+* 允许您修改和/或复制形状的&#x200B;**其他专门化**&#x200B;运算符，例如[Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md)和[对称](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)。
 
 +++ 节点
 
@@ -202,7 +200,7 @@ SDF 函数的基本构成要素，您可以通过这些要素创建球体、箱�
 
 ### 变换
 
-形状可以多种方式进行变换，例如[平移](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md)、[旋转](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md)、[缩放](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md)、[扭曲](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md)等等。
+形状可以用多种方式变换，例如[平移](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md)、[旋转](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md)、[缩放](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md)、[扭曲](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md)等等。
 通过这些节点，您可以通过*变换定义曲面的空间本身*&#x200B;来执行这些变换。
 
 该空间称为`P`，请转到下一部分，以了解更多有关这意味着什么以及空间转换的工作方式的信息。

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/sample-function-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 探索Substance 3D Designer中的示例函数图形，以了解高级技术和最佳实践。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Sample function graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 示例函数图形
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
-
 ---
-
 
 # 示例函数图形
 
