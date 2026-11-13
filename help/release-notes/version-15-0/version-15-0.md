@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ""
 description: 查看Substance 3D Designer版本15.0的发行说明，了解新的3D渲染器和本机USD支持。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本15.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -53,16 +53,16 @@ ht-degree: 0%
 
 ## 上下文中的资源版本
 
-处理材料时，您可能希望在特定3D 场景的上下文中[预览文档](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)。 因此，我们增加了导入和渲染完整场景及其所有纹理、相机和光照的可能性。 最重要的是，如果此场景引用MaterialX着色器，则这些着色器将使用栅格化器进行正确渲染！
+处理材料时，您可能希望在特定3D 场景的上下文中[预览文档](../../working-with-3d-scenes/working-with-3d-scenes.md)。 因此，我们增加了导入和渲染完整场景及其所有纹理、相机和光照的可能性。 最重要的是，如果此场景引用MaterialX着色器，则这些着色器将使用栅格化器进行正确渲染！
 
 ![在Designer中加载和渲染USD场景](version-15-0.resources/feature_2.png)
 
-导入后，您可以通过选择网格（按住SHIFT键并单击或使用“场景”浏览器）并[覆盖其任何材料](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)来处理场景。 然后，您可以：
+导入后，您可以通过选择网格（按住SHIFT键并单击或使用“场景”浏览器）并[覆盖其任何材料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)来处理场景。 然后，您可以：
 
 * 创建或载入图形并将其应用于场景材料。
-* 通过[将现有材料的纹理](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)提取到新图形中，对现有进行调整。
+* 通过[将现有材料的纹理](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)提取到新图形中，对现有进行调整。
 
-最后，编辑3D场景后，您可以[将其导出](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)为新文件，或导出为原始文件的新图层，以防止丢失任何数据（仅适用于USD格式）。
+最后，编辑3D场景后，您可以[将其导出](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)为新文件，或导出为原始文件的新图层，以防止丢失任何数据（仅适用于USD格式）。
 
 最后但同样重要的是，现在支持导入和导出更多3D格式：USD(+ usda、usdc、usdz)、STL、PLY和GLTF，以及已可用的格式FBX和OBJ。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: 使用“混合”节点可以使用各种混合模式将两个纹理混合在一起，以创建复合效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -45,7 +45,7 @@ ht-degree: 8%
 </tr>
 </table>
 
-它的功能类似于在[Substance 3D Painter](https://www.adobe.com/cn/products/substance3d-painter.html)或[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)中使两个图层相互叠加，并通过在顶部图层上设置的混合模式混合在一起。
+它的功能类似于在[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)或[Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)中使两个图层相互叠加，并通过在顶部图层上设置的混合模式混合在一起。
 
 >[!TIP]
 >
@@ -58,9 +58,9 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>不透明度</b> *Float* | 前景图层的不透明度正在混合到背景中。 它独立于不透明度输入工作，并充当其附加乘数。 |
-| <b>混合模式</b> *整数* [静态](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 设置要使用的混合操作。   请参阅有关混合模式的[专用页面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)。 |
-| <b>Alpha 值混合处理</b> *整数* [静态](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 确定颜色输入具有Alpha 通道时的混合行为：<ul data-preserve-html="true"> <li data-preserve-html="true">使用源 Alpha</li> <li data-preserve-html="true">忽略 Alpha</li> <li data-preserve-html="true">直接 Alpha 混合</li> <li data-preserve-html="true">预乘Alpha 值混合处理</li> </ul> |
-| <b>裁剪区域</b> *Float4* [静态](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 允许设置自定义裁剪区域，其行为类似于其他不透明度蒙版。 任何裁剪区域只显示背景。 |
+| <b>混合模式</b> *整数* [静态](../../../../glossary/glossary.md) | 设置要使用的混合操作。   请参阅有关混合模式的[专用页面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)。 |
+| <b>Alpha 值混合处理</b> *整数* [静态](../../../../glossary/glossary.md) | 确定颜色输入具有Alpha 通道时的混合行为：<ul data-preserve-html="true"> <li data-preserve-html="true">使用源 Alpha</li> <li data-preserve-html="true">忽略 Alpha</li> <li data-preserve-html="true">直接 Alpha 混合</li> <li data-preserve-html="true">预乘Alpha 值混合处理</li> </ul> |
+| <b>裁剪区域</b> *Float4* [静态](../../../../glossary/glossary.md) | 允许设置自定义裁剪区域，其行为类似于其他不透明度蒙版。 任何裁剪区域只显示背景。 |
 
 ## 输入连接器
 

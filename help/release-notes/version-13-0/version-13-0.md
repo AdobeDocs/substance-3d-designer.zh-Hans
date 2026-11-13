@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ""
 description: 查看Substance 3D Designer版本13.0的发行说明，以了解新节点、Substance 引擎9.0和门户节点。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Substance 3D Designer的13.0.0版本为材料艺术家带来了很多爱，Subst
 * [样条曲线工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)是一个节点集合，用于生成和调整样条，以及使用这些节点进行映射、散布或变形图像。
 * [路径工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)是另一组节点，它们以线段列表的形式从蒙版中提取轮廓，然后对其进行编辑和改进。
 
-所有这些节点都将提供许多可能性，而且肯定会有许多创意应用程序。 查看有关[使用路径和样条曲线工具](../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)的部分，了解要了解的重要概念，以便熟悉此工具集。
+所有这些节点都将提供许多可能性，而且肯定会有许多创意应用程序。 查看有关[使用路径和样条曲线工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)的部分，了解要了解的重要概念，以便熟悉此工具集。
 
 ![使用样条材料](version-13-0.resources/Splines.png "使用样条材料")
 

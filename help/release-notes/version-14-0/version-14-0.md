@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ""
 description: 查看Substance 3D Designer版本14.0的发行说明，以了解新节点、图形导航和性能改进。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 14.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * <b>Kuwahara滤镜</b>：如果您想进一步进行风格化处理，可以使用[各向异性Kuwahara颜色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰度](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)滤镜生成一些绘画效果。 在细节上，应用与图像细节相符的各向异性方向模糊。 结果是一个看起来像顺着形状内部方向流动的图像。
 
-这些节点（“量化颜色”和“各向异性”Kuwahara）将在[本教程](https://www.adobe.com/go/designer-tutorial-quantize_cn)中介绍。 它展示了如何使用它们来设置材料风格，以及更有效、更直观地处理颜色！
+这些节点（“量化颜色”和“各向异性”Kuwahara）将在[本教程](https://www.adobe.com/go/designer-tutorial-quantize)中介绍。 它展示了如何使用它们来设置材料风格，以及更有效、更直观地处理颜色！
 
 其他强大的节点也加入进来：
 
@@ -129,11 +129,11 @@ ht-degree: 0%
 
 ## 生活质量改善
 
-* 在处理大型项目时，<b>性能</b>和<b>响应性</b>得到了改进。 例如，删除节点的速度最多可提高75倍。 对于引用了多次相同位图的图形，[烹饪](../../learning-tutorials/essentials/glossary/glossary.md#cooking)的时间也减少了。
-* <b>继承的参数</b>：当参数为[继承](../../learning-tutorials/essentials/glossary/glossary.md#inheritance)时，我们不再显示默认值，而是显示继承的值，以便您了解当前使用的值。 在[此文档专用页面](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中了解有关继承的更多信息。
+* 在处理大型项目时，<b>性能</b>和<b>响应性</b>得到了改进。 例如，删除节点的速度最多可提高75倍。 对于引用了多次相同位图的图形，[烹饪](../../glossary/glossary.md)的时间也减少了。
+* <b>继承的参数</b>：当参数为[继承](../../glossary/glossary.md)时，我们不再显示默认值，而是显示继承的值，以便您了解当前使用的值。 在[此文档专用页面](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中了解有关继承的更多信息。
 * macOS上的<b>触控板支持</b>已彻底改良，更加自然，并与其他软件保持一致。 为了在所有操作系统间实现更流畅、更一致的移动图形视图到超出[节点](../../interface/the-graph-view/the-graph-view.md)的边界，也进行了重新思考。
 
-* <b>2D 视图： </b>在[2D 视图](../../interface/2d-view/2d-view.md)中启用拼贴显示时，现在即使不是原始拼贴上的像素，也可以获取值：这有助于更好地检查[取样](../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling)以及拼贴之间的值过渡。
+* <b>2D 视图： </b>在[2D 视图](../../interface/2d-view/2d-view.md)中启用拼贴显示时，现在即使不是原始拼贴上的像素，也可以获取值：这有助于更好地检查[取样](../../glossary/glossary.md)以及拼贴之间的值过渡。
 
 ![2d视图](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 * [Content]已弃用Substance函数图形中的“否定Float1”节点
 * [内容]将“Quantize Color”重命名为“Quantize Color (Simple)”
 * [2D 视图]在“信息”面板中显示超出0-1范围的像素的值
-* [引擎]&#x200B;[文本]某些字体的新字距调整
+* [引擎][文本]某些字体的新字距调整
 * [图形]在使用in-context edition时缩短编辑深度子图时的失效时间
 * [链接器]在SBSASM中不要复制位图
 * [参数]为所有输入参数类型添加新的“函数”构件

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '243'
 ht-degree: 4%
 ---
 # 待办事项
@@ -41,10 +41,6 @@ ht-degree: 4%
 
 * [WIP]更新并完成“键盘快捷键”页面
 
-## 更改
-
-* 重新构建[使用样条](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)以优先使用样条
-
 ## 修复
 
 * 修复[overview.md](help/getting-started/overview/overview.md)中图标的大小
@@ -59,18 +55,12 @@ ht-degree: 4%
 
 - 了解下载SBS文件时会遇到哪些障碍（在[此处](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)询问）
 - 了解如何在不面向公众或不包含在ToC中的情况下实时测试页面
-- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/zh-hans/tools/campaign-error-codes)）
+- 样本列表的筛选选项：微型网站？ （[示例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自动生成示例项目
   - 从文件收录元数据(JSON、YAML、...)
   - 内嵌缩览图（单击以放大）
   - 样本项中的复杂性标记
 - 为示例作者提供SBS验证工具
 - 提及可从3D资源（含有效订阅）中下载的SBS文件
-
-### 附加项
-
-* 登陆页面
-* “新增功能”部分
-* “函数”节(？)
 
 词汇表的微网站？

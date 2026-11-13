@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: 了解继承如何在Substance合成图形中工作以创建可重复使用的图形层次结构和变化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 图形中的继承
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -128,7 +128,7 @@ ht-degree: 0%
 >[!WARNING]
 >
 > 在将包发布到Substance 3D资源文件(SBSAR)时，父子关系是&#x200B;*按原样应用*。 这意味着将任何参数设置为&#x200B;*Absolute*&#x200B;继承方法将&#x200B;*将该参数锁定*，使其在发布资源中保持当前值。\
-> 尽管这对于[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点或[优化目的](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)是必需的，例如，我们&#x200B;*强烈*&#x200B;建议在图形中工作时，使用&#x200B;*“相对于……”*&#x200B;继承方法，除非这样做有&#x200B;*清晰、深思熟虑的目的*。
+> 尽管这对于[位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点或[优化目的](../../best-practices/performance-optimization/performance-optimization-guidelines.md)是必需的，例如，我们&#x200B;*强烈*&#x200B;建议在图形中工作时，使用&#x200B;*“相对于……”*&#x200B;继承方法，除非这样做有&#x200B;*清晰、深思熟虑的目的*。
 
 ### IN-CONTEXT EDIT
 

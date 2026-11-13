@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本16.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -115,7 +115,7 @@ ht-degree: 0%
             <p><b>生锈螺栓</b><a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材料示例</a>可用于跳转形状飞溅v2系列节点及其功能。</p><p>图形的组织和注释可指导您了解其结构、节点设置和技术。</p><p>它也是<i>完全可编辑</i>，因此可用作沙盒，以更深入地了解“形状飞溅”v2工具集。 您可以创建任意数量的示例图形，因此请尽情使用吧！</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="适用于SDF 函数的3D查看器帧的边界节点功能。" />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="适用于SDF 函数的3D查看器帧的边界节点功能。" />
         </td>
     </tr>
 </table>
@@ -144,9 +144,9 @@ SDF 函数涉及[新的节点系列](../../function-graphs/nodes-reference-for-f
 
 >[!INFO]
 > 
-> 转至[使用SDF 函数](../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)页，开始使用这些节点。
+> 转至[使用SDF 函数](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)页，开始使用这些节点。
 
-<img style="display: block; margin: auto" src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 函数节点" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 函数节点" />
 
 轻量级节点具有清晰易读的图标，这使得构建3DSDF 函数比您想象的更容易，尤其是在将这个工具集添加到工具集后……
 

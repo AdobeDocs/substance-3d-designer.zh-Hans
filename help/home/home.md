@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ""
 description: 了解如何使用Substance 3D Designer通过基于节点的工作流程创建程序化的材料、纹理和3D资源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer用户指南
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 [Substance 3D Designer](https://www.adobe.com/cn/products/substance3d-designer.html) 是一款材质创作软件。 这样，您就可以使用节点图形从程序化的图案和噪声生成纹理，以及处理位图。
 
-如果您在 Designer 中遇到了不熟悉的词汇或概念， 请转到我们的[词汇表](../learning-tutorials/essentials/glossary/glossary.md)以了解相关信息。
+如果您在 Designer 中遇到了不熟悉的词汇或概念， 请转到我们的[词汇表](../glossary/glossary.md)以了解相关信息。
 
 如果您在本手册中遇到任何没有回答的问题，请随时在我们的[社区支持论坛](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer)中提问。 如果您想了解有关 PBR 的更多信息，您还可以下载我们的[基于物理的渲染指南](https://substance3d.adobe.com/cn/tutorials/courses/the-pbr-guide-part-1)。
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
 ## Substance 图形
 
-* [Substance 图形关键概念](../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
+* [Substance 图形关键概念](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
 * [创建 Substance 图形](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 * [公开参数](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * [图形参数](../compositing-graphs/graph-parameters/graph-parameters.md)

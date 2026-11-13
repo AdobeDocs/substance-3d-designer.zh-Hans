@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ""
 description: 配置Substance合成图形的输出大小设置以控制纹理分辨率和质量。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 输出大小
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -62,7 +62,7 @@ Output size参数确定图形或纹理对&#x200B;*节点*&#x200B;输出的分辨
 >[!IMPORTANT]
 >
 > X和Y的分辨率增大或减小会将像素计数乘以或除以&#x200B;*4*，这会对图形的&#x200B;*性能*&#x200B;和&#x200B;*内存空间*&#x200B;产生重大影响。\
-> 因此，我们强烈建议使用实际需要的&#x200B;*最低分辨率*&#x200B;来获得所需的结果。 将分辨率置于控制之下是我们的[性能优化准则](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)之一。
+> 因此，我们强烈建议使用实际需要的&#x200B;*最低分辨率*&#x200B;来获得所需的结果。 将分辨率置于控制之下是我们的[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)之一。
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Output size参数确定图形或纹理对&#x200B;*节点*&#x200B;输出的分辨
 
 * 图形： *相对于父代*
 * 节点： *相对于输入* — 在此情况下使用由节点的[主输入](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)继承的值
-* [位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点： *绝对* — 请参阅[位图资源](../../resources/bitmap-resource/bitmap-resource.md)页面和[性能优化准则](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)以了解原因
+* [位图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)节点： *绝对* — 请参阅[位图资源](../../resources/bitmap-resource/bitmap-resource.md)页面和[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)以了解原因
 
 通过单击某个项显示该图形或节点的属性，然后在[属性](../../interface/properties/properties.md)面板中的<b>基本参数</b>部分中找到<b>输出大小</b>属性。 单击继承方法下拉菜单，选择所需的继承方法。
 

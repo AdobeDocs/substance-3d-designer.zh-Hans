@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: 概要了解Substance 3D Designer并了解其用于创建程序化材料和纹理的功能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概述
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Substance 3D Designer是基于节点的编辑器，可让您以多种不同的�
 
 **[非线性](../../compositing-graphs/substance-compositing-graphs.md)：**&#x200B;您可以一次创作多个纹理输出。 编辑一个蒙版或滑块，将自动重新计算任何已连接的输出。 不再需要单独创作地图，如base color、粗糙度、法线等。
 
-**[非破坏性](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)：**&#x200B;您可以撤消任何操作&#x200B;*，而不*&#x200B;丢失任何作品。 迭代和试验速度更快，找到更高效的工作流程。
+**[非破坏性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)：**&#x200B;您可以撤消任何操作&#x200B;*，而不*&#x200B;丢失任何作品。 迭代和试验速度更快，找到更高效的工作流程。
 
 **[集成烘焙](../../bakers/bakers.md)：**&#x200B;可在软件中访问高级、超快的网格烘焙工具。 您不必再在单独的软件中执行烘焙并执行漫长的导入和导出过程。
 
@@ -76,7 +76,7 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 
 `\*.sbsar`
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍可调整参数，但编辑图形时已<b>锁定</b>。 Substance存档可用于所有Substance 3D应用程序和任何具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的应用程序，如Autodesk 3DS Max &amp; Maya、虚构引擎或Unity引擎。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍可调整参数，但编辑图形时已<b>锁定</b>。 Substance存档可用于所有Substance 3D应用程序和任何具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的应用程序，如Autodesk 3DS Max &amp; Maya、虚构引擎或Unity引擎。
 
 </td>
 <td style="border: 0;">

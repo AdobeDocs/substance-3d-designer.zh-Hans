@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: 使用“位图”节点可以导入位图图像，并将其用作Substance合成图形中的纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 位图
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 将[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)加载到图形中。
 
-此节点用于将[位图](../../../../learning-tutorials/essentials/glossary/glossary.md#bitmap)导入您的图形中，或用于创建一个新的位图以用于[位图绘画工具](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)。
+此节点用于将[位图](../../../../glossary/glossary.md)导入您的图形中，或用于创建一个新的位图以用于[位图绘画工具](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)。
 
 创建此节点有几种方法，所有这些方法都需要您了解[链接和导入资源之间的区别。](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-您可以从头开始创建节点，也可以将受支持图形视图的[位图](../../../../learning-tutorials/essentials/glossary/glossary.md#bitmap)拖放到节点中。
+您可以从头开始创建节点，也可以将受支持图形视图的[位图](../../../../glossary/glossary.md)拖放到节点中。
 
 
 >[!TIP]
@@ -59,9 +59,9 @@ ht-degree: 0%
 > 此节点依赖于外部资源，因此在使用它们时需要注意以下几点：
 > 
 > * 位图节点可以返回彩色或灰度，但即使资源是灰度位图，也默认为彩色。 这可能会影响图形性能和复杂性，因此请始终确保根据需要切换到“灰度”[颜色模式](#parameters)。
-> * 删除位图节点不会删除[包](../../../../learning-tutorials/essentials/glossary/glossary.md#package)中的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)，您必须在[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)中手动执行此操作。
-> * 另一方面，删除资源管理器中的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)时要小心：由于它保留在缓存中，因此它仍然可以在该会话的图形中使用，但下次加载[包](../../../../learning-tutorials/essentials/glossary/glossary.md#package)时，该资源将被标记为缺失。
-> * 当图形[已准备就绪](../../../../learning-tutorials/essentials/glossary/glossary.md#cooking)时，位图分辨率将在图形内固定为它的分辨率，而不是基于它的原始大小。 建议确保Bitmap节点的“Output size”[基参数](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter)使用“Absolute”[继承方法](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance)，并且在该节点后跟一个设置为“相对于父代”的[变换2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点（即宿主图形的分辨率）。
+> * 删除位图节点不会删除[包](../../../../glossary/glossary.md)中的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)，您必须在[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)中手动执行此操作。
+> * 另一方面，删除资源管理器中的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)时要小心：由于它保留在缓存中，因此它仍然可以在该会话的图形中使用，但下次加载[包](../../../../glossary/glossary.md)时，该资源将被标记为缺失。
+> * 当图形[已准备就绪](../../../../glossary/glossary.md)时，位图分辨率将在图形内固定为它的分辨率，而不是基于它的原始大小。 建议确保Bitmap节点的“Output size”[基参数](../../../../glossary/glossary.md)使用“Absolute”[继承方法](../../../../glossary/glossary.md)，并且在该节点后跟一个设置为“相对于父代”的[变换2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)节点（即宿主图形的分辨率）。
 
 
 ## 参数
@@ -70,7 +70,7 @@ ht-degree: 0%
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 确定节点的输出类型，以返回彩色或灰度。 |
 | <b>PKG资源路径</b> *字符串* | 节点引用的[位图资源](../../../../resources/bitmap-resource/bitmap-resource.md)的路径。   建议不要手动键入，而是从资源管理器复制资源并将其粘贴到参数文本字段中，或者将位图资源直接从[节点](../../../../interface/the-explorer-window/the-explorer-window.md)拖放到图形中的Bitmap资源管理器上。 |
-| <b>调整方法大小</b> *整数* | 在放大或缩小位图时要使用的重新采样方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>平滑拉伸：</i>应用[双线性筛选](../../../../learning-tutorials/essentials/glossary/glossary.md#bilinear-filtering)以插值于拉伸图像的源像素。</li> <li data-preserve-html="true"><i>最接近拉伸：</i>拉伸图像并使用最接近的源像素的颜色。</li> </ul> |
+| <b>调整方法大小</b> *整数* | 在放大或缩小位图时要使用的重新采样方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>平滑拉伸：</i>应用[双线性筛选](../../../../glossary/glossary.md)以插值于拉伸图像的源像素。</li> <li data-preserve-html="true"><i>最接近拉伸：</i>拉伸图像并使用最接近的源像素的颜色。</li> </ul> |
 
 ## 位图绘画工具
 

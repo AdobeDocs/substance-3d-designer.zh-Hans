@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: 使用FX-Map节点将函数图形应用于用于创建程序化图案和效果的纹理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -57,7 +57,7 @@ FX-Map可以反复复制和细分输入的图像或图案，并借助参数和�
 > 建议在尝试使用FX-Map节点之前，熟悉软件的各个方面，并且不必为参数创建[数学函数](../../../../function-graphs/function-graphs.md)。
 
 
-请记住，与其他节点不同，FX-Map的大多数行为并非由参数决定，而是通过编辑其内部的FX-Map函数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)来。
+请记住，与其他节点不同，FX-Map的大多数行为并非由参数决定，而是通过编辑其内部的FX-Map函数](../../../../function-graphs/fxmaps/fxmaps.md)来[。
 
 |  |  |
 | --- | --- |
@@ -65,7 +65,7 @@ FX-Map可以反复复制和细分输入的图像或图案，并借助参数和�
 | <b>背景</b> *Float/Float4* | 设置要合成结果的背景起始颜色。 |
 | <b>渲染区域</b> *Float4* | 用于设置FX-Map每侧的起始像素范围，从而产生拉伸效果。 |
 | <b>拼贴区域</b> *Float4* | 可让您偏移FX-Map的拼贴距离。 |
-| <b>在外部剔除</b> *布尔值* | 通过[剔除](../../../../learning-tutorials/essentials/glossary/glossary.md#culling)超出正常范围的图案来执行优化。 |
+| <b>在外部剔除</b> *布尔值* | 通过[剔除](../../../../glossary/glossary.md)超出正常范围的图案来执行优化。 |
 | <b>粗糙度</b> *Float* | 用作深度和不透明度乘数。 它对FX-map混合过程应用偏置。 |
 | <b>全局不透明度</b> *Float* | 设置FX映射输出的全局不透明度。 |
 

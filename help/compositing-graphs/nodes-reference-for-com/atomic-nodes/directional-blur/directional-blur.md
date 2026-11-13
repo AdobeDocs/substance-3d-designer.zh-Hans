@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: 使用定向模糊节点按特定方向应用模糊效果，以创建运动模糊和条纹效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定向模糊
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -83,7 +83,7 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>输入</b> *灰度/颜色* [主要](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | 要处理的图像。 |
+| <b>输入</b> *灰度/颜色* [主要](../../../../glossary/glossary.md) | 要处理的图像。 |
 
 
 ## 示例

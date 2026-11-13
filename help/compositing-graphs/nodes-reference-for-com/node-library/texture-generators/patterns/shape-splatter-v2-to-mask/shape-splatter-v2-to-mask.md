@@ -1,7 +1,7 @@
 ---
 title: 要遮盖的形状飞溅v2
 description: Designer >Substance合成图形>Substance合成节点的图形参考>节点库>生成器>图案>形状飞溅v2至蒙版
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 >[!TIP]
 > 
-> [**“Rusty bolts”**&#x200B;材料示例](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample)可用于开始使用Shape Splatter v2节点。
+> [**“Rusty bolts”**&#x200B;材料示例](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)可用于开始使用Shape Splatter v2节点。
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 

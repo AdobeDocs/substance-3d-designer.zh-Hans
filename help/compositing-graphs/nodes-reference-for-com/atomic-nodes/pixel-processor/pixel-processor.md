@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: 使用自定义像素处理器来处理高级纹理操作，可以使用“表达式”节点处理各个像素。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 像素处理器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 该像素处理器类似于[值处理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)，它仅运行于单值，与像素处理器相比可提供很好的优化。
 
-对于习惯于在基于节点的编辑器中创建[着色器](../../../../learning-tutorials/essentials/glossary/glossary.md#shader)函数的任何人，该像素处理器应提供熟悉的环境。
+对于习惯于在基于节点的编辑器中创建[着色器](../../../../glossary/glossary.md)函数的任何人，该像素处理器应提供熟悉的环境。
 
 
 >[!TIP]
@@ -62,7 +62,7 @@ ht-degree: 1%
 > 
 > 此外，还要考虑到使用这种图形并执行数学运算对于从这个节点中取出任何东西都是必需的。
 > 
-> 我们还建议熟悉[UV](../../../../learning-tutorials/essentials/glossary/glossary.md#uv)、[纹理采样](../../../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling)和矢量的概念。
+> 我们还建议熟悉[UV](../../../../glossary/glossary.md)、[纹理采样](../../../../glossary/glossary.md)和矢量的概念。
 
 
 ## 参数
@@ -70,7 +70,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 在灰度图像和彩色输出图像之间切换。 |
-| <b>每像素函数</b> *Float/Float4* | 输出图像中每个像素计算的[函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)Substance。   使用设置为<b>$pos</b>Float的[Get节点2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)可访问当前像素的[规范化](../../../../learning-tutorials/essentials/glossary/glossary.md#normalization)位置。 |
+| <b>每像素函数</b> *Float/Float4* | 输出图像中每个像素计算的[函数图形](../../../../function-graphs/the-function-graph/the-function-graph.md)Substance。   使用设置为<b>$pos</b>Float的[Get节点2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)可访问当前像素的[规范化](../../../../glossary/glossary.md)位置。 |
 
 ## 输入连接器
 

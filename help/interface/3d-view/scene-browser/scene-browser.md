@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ""
 description: 使用场景浏览器导航和管理视口中的3D 场景元素、材料和对象。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 场景浏览器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 3D视图的场景浏览器列出了场景中的所有元素及其层次结构。
 
-它提供了用于选择对象、切换对象的可见性以及选择哪个材料应[覆盖场景材料](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)的控件。
+它提供了用于选择对象、切换对象的可见性以及选择哪个材料应[覆盖场景材料](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的控件。
 
 由于Designer使用[USD](https://openusd.org/release/index.html)来描述和管理其场景，因此可以在该场景树中找到其术语和概念。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 对象与其他对象有父子关系，最高为场景的根。 父对象有一个箭头按钮，用于展开或折叠其子对象的列表。
 
-某些对象具有一些属性，选中时可在[属性](../../../interface/properties/properties.md)停靠区中显示和编辑：环境、相机、光照、`Mesh`对象和材料[覆盖](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)。
+某些对象具有一些属性，选中时可在[属性](../../../interface/properties/properties.md)停靠区中显示和编辑：环境、相机、光照、`Mesh`对象和材料[覆盖](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Designer会将一些对象添加到任何加载的场景中。 由Designer添加
 
 使用“光照”、“环境”和“相机”菜单中的“编辑……”操作时，无论场景中是否存在其他光照、相机或环境，这些对象都是正在编辑的对象。
 
-[导出](../../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)时，场景中包含这些对象。
+[导出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)时，场景中包含这些对象。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -136,9 +136,9 @@ Designer会将一些对象添加到任何加载的场景中。 由Designer添加
 
 Designer列出的材料是至少在一个网格上使用的场景树中的材料对象。
 
-当[覆盖](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)这些材料中的任意一个时，将由Designer创建一个带有数字后缀的副本。
+当[覆盖](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)这些材料中的任意一个时，将由Designer创建一个带有数字后缀的副本。
 
-被覆盖的材料在其上下文菜单中提供了一个附加项：“[已连接材料](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)”子菜单列出可用于覆盖此材料的所有其他可用材料。
+被覆盖的材料在其上下文菜单中提供了一个附加项：“[已连接材料](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)”子菜单列出可用于覆盖此材料的所有其他可用材料。
 
 </td>
 <td style="border: 0;" valign="top">

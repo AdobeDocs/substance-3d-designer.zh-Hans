@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ""
 description: 访问Substance 3D Designer中的“首选项”窗口，自定义应用程序设置和行为。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 首选项
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 | <b>内存预算</b>  *默认：自动* | 此分配会自动计算到总系统内存池的大约75%。 若要手动设置此值，请选择“*自定义*”选项，然后在相邻的输入字段中设置一个值。 |
 
 请注意，写入磁盘比写入系统内存慢&#x200B;*个数量级*。 因此，由于溢出数据需要写入临时文件夹，图形渲染时间将&#x200B;*指数增长*。\
-为防止发生这种情况，我们建议在文档的[性能优化准则](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)部分中查看关于减少图形内存占用量的建议。
+为防止发生这种情况，我们建议在文档的[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)部分中查看关于减少图形内存占用量的建议。
 
 #### 作业调度程序
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 我们建议在文档的[性能优化准则](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)部分中查看关于减少图形内存占用量的建议。
+> 我们建议在文档的[性能优化准则](../../best-practices/performance-optimization/performance-optimization-guidelines.md)部分中查看关于减少图形内存占用量的建议。
 
 ## 项目
 
@@ -149,7 +149,7 @@ ht-degree: 1%
 | <b>打开图形时在2D 视图中查看输出</b>  *默认值：已选中* | 如果选中此选项，则在打开第一个图形输出时，该图形会自动显示在[2D 视图](../../interface/2d-view/2d-view.md)中。 这还具有渲染所有节点的效果，这些节点是通向该[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点的流的一部分。 |
 | <b>自动显示新创建的合成节点</b>  *默认值：已选中* | 如果选中，[2D 视图](../../interface/2d-view/2d-view.md)将自动更新以显示新创建的节点的输出。 |
 | <b>自动插入彩色/灰度转换节点</b>  *默认：未选中* | 如果选中此选项，则通过&#x200B;*放置特定节点*&#x200B;执行相应的转换来自动解决彩色/灰度连接类型不匹配问题。   将&#x200B;*灰度*&#x200B;输出（灰度连接器）连接到&#x200B;*彩色*&#x200B;输入（黄色连接器）时，将在两个连接器之间自动放置[渐变图](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)节点。   将&#x200B;*彩色*&#x200B;输出（黄色连接器）连接到&#x200B;*灰度*&#x200B;输入（灰度连接器）时，将在两个连接器之间自动放置[灰度转换](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)节点。 |
-| <b>在上下文中启用图形编辑</b>  *默认：未选中* | 默认情况下，在打开[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的图形时，右键单击该节点并选择<b>打开引用</b>，将单独加载和编辑该图形&#x200B;**。   如果选中此选项，则可以使用当前图形在实例&#x200B;*中传递的信息来编辑实例*&#x200B;引用的图形。 为此，请右键单击实例化并选择<b>在上下文中打开引用</b>，或使用Ctrl+E击键。   这意味着实例化图形可以在实例化图形的上下文中编辑。 这对于查看您正在使用的图形上的编辑效果非常有用。 请参阅以下示例。  &#x200B;** 注意：**&#x200B;使用上下文编辑时，[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中的<b>预览</b>和<b>预设</b>选项卡处于&#x200B;*禁用*&#x200B;状态。 |
+| <b>在上下文中启用图形编辑</b>  *默认：未选中* | 默认情况下，在打开[实例化](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)引用的图形时，右键单击该节点并选择<b>打开引用</b>，将单独加载和编辑该图形&#x200B;**。   如果选中此选项，则可以使用当前图形在实例&#x200B;*中传递的信息来编辑实例*&#x200B;引用的图形。 为此，请右键单击实例化并选择<b>在上下文中打开引用</b>，或使用Ctrl+E击键。   这意味着实例化图形可以在实例化图形的上下文中编辑。 这对于查看您正在使用的图形上的编辑效果非常有用。 请参阅以下示例。  **注意：**&#x200B;使用上下文编辑时，[图形属性](../../compositing-graphs/graph-parameters/graph-parameters.md)中的<b>预览</b>和<b>预设</b>选项卡处于&#x200B;*禁用*&#x200B;状态。 |
 
 <table>
 <tr style="border: 0;">
@@ -189,7 +189,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>GPU 射线追踪</b>  *默认值：已选中* | 如果选中，将在GPU上对[兼容Baker](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)执行射线追踪。   根据NVIDIA GPU体系结构，以下GPU 射线追踪后端将是默认的：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：图灵及更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal和Maxwell</li> </ul>  **注意：**&#x200B;有关GPU支持的Baker的更多信息，请参阅[Substance Bakers](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)文档的[GPU 射线追踪](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)部分。  **提示：**&#x200B;启动应用程序时，可以使用以下&#x200B;*命令行参数*&#x200B;以&#x200B;*强制*&#x200B;使用其他GPU 射线追踪后端： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> ：在Nvidia Turing或更新的GPU上强制使用Optix</li> <li data-preserve-html="true"><code>—force-dxr</code> ：强制在Nvidia Pascal GPU上使用DXR</li> </ul> |
+| <b>GPU 射线追踪</b>  *默认值：已选中* | 如果选中，将在GPU上对[兼容Baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)执行射线追踪。   根据NVIDIA GPU体系结构，以下GPU 射线追踪后端将是默认的：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：图灵及更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal和Maxwell</li> </ul>  **注意：**&#x200B;有关GPU支持的Baker的更多信息，请参阅[Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)文档的[GPU 射线追踪](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)部分。  **提示：**&#x200B;启动应用程序时，可以使用以下&#x200B;*命令行参数*&#x200B;以&#x200B;*强制*&#x200B;使用其他GPU 射线追踪后端： <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> ：在Nvidia Turing或更新的GPU上强制使用Optix</li> <li data-preserve-html="true"><code>—force-dxr</code> ：强制在Nvidia Pascal GPU上使用DXR</li> </ul> |
 
 ## 库
 

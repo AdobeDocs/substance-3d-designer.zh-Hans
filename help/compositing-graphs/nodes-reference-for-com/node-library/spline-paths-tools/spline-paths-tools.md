@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ""
 description: 访问样条和路径工具节点，以在图形中创建程序化的图案、曲线和有机形状。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 样条路径工具
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 我们建议了解[使用路径和样条曲线工具](../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)以充分利用工具集。
+> 我们建议了解[使用路径和样条曲线工具](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)以充分利用工具集。

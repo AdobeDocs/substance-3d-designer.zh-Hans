@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: 了解在Substance 3D Designer中从头到尾创建程序化材料的基本工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Substance 3D Designer是一个基于节点的编辑器。 这意味着几乎所�
 操作链中的任何节点都有某种形式的控件：按钮、滑块、调整设置，这些控件会影响最终结果。\
 如果您创建子图或要将Substance文件导出到其他应用程序，您可以为应用程序构建您自己的“控制面板”，以允许其他图形使用完全唯一的控制面板调整和修改它们。
 
-在[此处](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)了解自定义参数的一般概念，或在深度和[开始公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中了解更多信息。
+在[此处](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)了解自定义参数的一般概念，或在深度和[开始公开参数](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)中了解更多信息。
 
 ## 图形类型
 

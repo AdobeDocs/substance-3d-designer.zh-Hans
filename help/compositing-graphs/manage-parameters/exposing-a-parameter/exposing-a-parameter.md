@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ""
 description: 了解如何Substance 3D Designer合成图形中的参数，以使材料可自定义并可重复使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 公开参数
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
@@ -102,7 +102,7 @@ ht-degree: 4%
 | --- | --- |
 | [渐变曲线](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)，[曲线编辑器](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)，[字体](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)，[色阶直方图](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 需要小部件，这些小部件不可用于用户创建的参数。 |
 
-另一个重要限制与[静态参数](../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter)有关。 这些无法在[发布的Substance 3D资源(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中更改。
+另一个重要限制与[静态参数](../../../glossary/glossary.md)有关。 这些无法在[发布的Substance 3D资源(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中更改。
 
 静态参数（相对于动态参数）在图形&#x200B;*完成*&#x200B;后&#x200B;*无法进行动态编辑*，即经过处理以便快速高效地运行其算法。 每次&#x200B;*编辑*&#x200B;或&#x200B;*发布*&#x200B;图形时，都会在Designer中执行烹饪操作。
 

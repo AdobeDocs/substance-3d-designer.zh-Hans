@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ""
 description: 使用Substance 3D Designer中的3D视图预览3D对象上的材料并测试光照条件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 视图
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '3549'
 ht-degree: 1%
@@ -157,13 +157,13 @@ ht-degree: 1%
 Designer提供十几种预设网格。 这些网格具有统一、可用的UV坐标，并为拼贴纹理提供大多数方案。 也可以导入和查看自己的3D网格。\
 通过顶部栏中的<b>网格</b>下拉菜单选取任何默认场景。
 
-对于自定义3D场景，请转至[使用3D场景](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)部分。
+对于自定义3D场景，请转至[使用3D场景](../../working-with-3d-scenes/working-with-3d-scenes.md)部分。
 
 ![更改材料属性](3d-view.resources/3d-materials.gif "更改材料属性")
 
 ## 更改着色器属性
 
-Designer中默认提供了几种不同的[着色器](../../learning-tutorials/essentials/glossary/glossary.md#shader)，并且每个着色器的选项不仅仅是纹理通道。 可以单独配置它们。
+Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)，并且每个着色器的选项不仅仅是纹理通道。 可以单独配置它们。
 
 请记住，在Designer的[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)中，着色器是不同的，当切换渲染器时，只有标有“通用”标签的设置才会延续下去。
 
@@ -177,7 +177,7 @@ Designer中默认提供了几种不同的[着色器](../../learning-tutorials/es
 >
 > **关于曲面细分**
 > 
-> 可以使用[网格弹出窗口](displacement/displacement.md#tessellation)中的&#x200B;**曲面细分因子**&#x200B;参数调整位移的曲面细分。
+> 可以使用[网格弹出窗口](displacement/displacement.md#tessellation)中的&#x200B;**曲面细分因子**参数调整位移的曲面细分。
 > 由该参数控制的特定属性随当前3D渲染器而变化：
 > 
 > * **光栅器/GPU 路径追踪：**&#x200B;名为&#x200B;**细化级别**&#x200B;的每个对象属性。 在[场景浏览器](scene-browser/scene-browser.md)中选择`Mesh`对象以显示其属性并直接编辑。
@@ -187,7 +187,7 @@ Designer中默认提供了几种不同的[着色器](../../learning-tutorials/es
 
 ## 导出场景
 
-了解如何在[此页面](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)中导出3D场景。
+了解如何在[此页面](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)中导出3D场景。
 
 ### 导出镶嵌网格（仅限OpenGL渲染器）
 
@@ -220,7 +220,7 @@ Designer中默认提供了几种不同的[着色器](../../learning-tutorials/es
 >
 > **TDR（仅限Windows）**
 > 
-> 此功能要求<b>超时检测和恢复(TDR)</b>与我们的文档的[本页](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议值匹配，如Designer的[技术要求](../../getting-started/system-requirements/system-requirements.md)中所述。
+> 此功能要求<b>超时检测和恢复(TDR)</b>与我们的文档的[本页](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)中的建议值匹配，如Designer的[技术要求](../../getting-started/system-requirements/system-requirements.md)中所述。
 
 ## 菜单栏
 
@@ -269,18 +269,18 @@ Designer中默认提供了几种不同的[着色器](../../learning-tutorials/es
 
 <b>从当前场景创建3D资源……：</b>在当前场景之外的包中创建新的[3D 场景资源](../../resources/3d-scene-resource/3d-scene-resource.md)。
 
-<b>加载状态文件……： </b>加载外部保存的[场景状态文件](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。 不替换3D 网格，仅加载3D渲染器、相机和光源的设置。
+<b>加载状态文件……： </b>加载外部保存的[场景状态文件](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。 不替换3D 网格，仅加载3D渲染器、相机和光源的设置。
 
-<b>加载带有网格的状态文件……：</b>加载外部保存的[场景状态文件](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。 载入3D渲染器、相机、光源的设置及其参照3D 场景。 .
+<b>加载带有网格的状态文件……：</b>加载外部保存的[场景状态文件](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。 载入3D渲染器、相机、光源的设置及其参照3D 场景。 .
 
-<b>保存状态文件……： </b>将3D视图的当前状态保存到[场景状态文件](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。
+<b>保存状态文件……： </b>将3D视图的当前状态保存到[场景状态文件](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn)。
 
-<b>将当前状态保存为默认值： </b>将3D视图的当前状态设置为[场景状态文件](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)，以便在创建新的3D视图时默认使用。 每次重置或初始化3D视图时都会加载此文件，并且可以在[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中进行设置。
+<b>将当前状态保存为默认值： </b>将3D视图的当前状态设置为[场景状态文件](../../working-with-3d-scenes/working-with-3d-scenes.md)，以便在创建新的3D视图时默认使用。 每次重置或初始化3D视图时都会加载此文件，并且可以在[项目设置](../../interface/preferences-window/project-settings/project-settings.md)中进行设置。
 
-<b>导出场景：</b> *（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将当前场景导出为[拼合场景](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)，只写入结果场景，并且丢失对原始场景的任何引用。 导出格式的内容取决于所选导出场景支持的功能。\
+<b>导出场景：</b> *（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将当前场景导出为[拼合场景](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)，只写入结果场景，并且丢失对原始场景的任何引用。 导出格式的内容取决于所选导出场景支持的功能。\
 可用格式：STL、FBX、GLB、GLTF、PLY、USDC、USD、USDA、USDZ、OBJ。
 
-<b>导出带图层的场景：</b> *（仅栅格化程序/GPU 路径追踪渲染器）*将当前场景导出为[分层场景](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)，其中对原始场景的所有编辑将以非破坏性的工作流程存储到单独的文件中。 这仅适用于USD文件格式。\
+<b>导出带图层的场景：</b> *（仅栅格化程序/GPU 路径追踪渲染器）*将当前场景导出为[分层场景](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)，其中对原始场景的所有编辑将以非破坏性的工作流程存储到单独的文件中。 这仅适用于USD文件格式。\
 可用格式包括：USDC、USD、USDA。
 
 <b>导出镶嵌几何：</b> *（仅限OpenGL渲染器）*&#x200B;将带有曲面细分的当前场景导出为原始几何形状，请参阅导出场景部分。
@@ -300,19 +300,19 @@ Designer中默认提供了几种不同的[着色器](../../learning-tutorials/es
 
 <b>编辑</b> — 在“材料”窗口中编辑当前属性的设置。
 
-<b>着色器列表</b> — 当前[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)可用的所有[着色器](../../learning-tutorials/essentials/glossary/glossary.md#shader)。
+<b>着色器列表</b> — 当前[3D渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)可用的所有[着色器](../../glossary/glossary.md)。
 
 <b>加载定义……： </b>（仅限OpenGL渲染器）允许您加载自己的自定义[着色器。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 该着色器即被添加到上述列表中。
 
-<b>重置公共参数：</b>重置所有着色器上公共的参数。 例如，在栅格化器/GPU 路径追踪和OpenGL渲染器之间切换时，[Adobe Standard Material](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的几个参数值将传递过去。
+<b>重置公共参数：</b>重置所有着色器上公共的参数。 例如，在栅格化器/GPU 路径追踪和OpenGL渲染器之间切换时，[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的几个参数值将传递过去。
 
 <b>重命名：</b>更改此材料的标签。
 
 <b>重置材料：</b>将所有着色器参数重置为默认值。 如果纹理已连接到着色器的任意一个取样器，则这些取样器会断开连接。
 
-<b>将材料重置为场景状态： </b>*（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将[已覆盖材料](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)的所有属性重置为场景中的原始值，包括原始纹理（如果有）。
+<b>将材料重置为场景状态： </b>*（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将[已覆盖材料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的所有属性重置为场景中的原始值，包括原始纹理（如果有）。
 
-<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[&#128279;](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器。
+<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
 
 +++
 
