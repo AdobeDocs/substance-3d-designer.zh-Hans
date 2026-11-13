@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
-description: 概要了解Substance 3D Designer，并了解其用于创建过程性材质和纹理的功能。
+description: 概要了解Substance 3D Designer并了解其用于创建程序化材料和纹理的功能。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概述
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -25,18 +25,18 @@ ht-degree: 2%
 |                                          | <div><img alt="Substance 3D Sampler图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Sampler图标" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer图标" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer图标" width="64px"/></div>  Substance 3D Designer |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **学习曲线** | 低 | 中 | 高 |
-| **作者素材** | 是 | 是 | 是 |
+| **作者材料** | 是 | 是 | 是 |
 | **创作3D模型** | 否 | 有限\* | 有限\* |
 | **作者滤镜、图案和效果** | 否 | Limited | 是 |
 | **导出参数内容** | 否 | 否 | 是 |
 
-\*：仅限位移，请参阅[3D视图](../../interface/3d-view/3d-view.md)部分中的<b>场景导出</b>功能。
+\*：仅限位移，请参阅[场景](../../interface/3d-view/3d-view.md)部分中的<b>3D 视图导出</b>功能。
 
 简言之，Substance 3D Designer应被视为可用的最具技术性、最先进的纹理应用程序。
 
-它允许您为几乎任何用例或情景创作内容。 这意味着您不仅限于单一类型的输出（如UV映射网格的独特素材/纹理集），还可以为更广泛的用途集创建内容。
+它允许您为几乎任何用例或情景创作内容。 这意味着，您不仅限于一种类型的输出（如用于UV映射网格的唯一材料/纹理集），还可以创建内容以用于更广泛的用途集。
 
-例如，Painter和Sampler中的大多数程序化智能内容都是从Designer创作和导出的。 画笔Alpha、生成器、滤镜和基础材质等内容都可以在Designer中创作。
+例如，Painter和Sampler中的大多数程序化、智能内容都是从Designer创作和导出的。 画笔Alpha、生成器、滤镜和基础材质等内容都可以在Designer中创作。
 
 ## 工作流
 
@@ -44,7 +44,7 @@ Substance 3D Designer是基于节点的编辑器，可让您以多种不同的�
 
 **[非线性](../../compositing-graphs/substance-compositing-graphs.md)：**&#x200B;您可以一次创作多个纹理输出。 编辑一个蒙版或滑块，将自动重新计算任何已连接的输出。 不再需要单独创作地图，如base color、粗糙度、法线等。
 
-**[非破坏性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)：**&#x200B;您可以撤消任何操作&#x200B;*，而不*&#x200B;丢失任何作品。 迭代和试验速度更快，找到更高效的工作流程。
+**[非破坏性](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)：**&#x200B;您可以撤消任何操作&#x200B;*，而不*&#x200B;丢失任何作品。 迭代和试验速度更快，找到更高效的工作流程。
 
 **[集成烘焙](../../bakers/bakers.md)：**&#x200B;可在软件中访问高级、超快的网格烘焙工具。 您不必再在单独的软件中执行烘焙并执行漫长的导入和导出过程。
 
@@ -76,7 +76,7 @@ Substance文件是Designer的&#x200B;**主源文件**。 打开Substance文件�
 
 `\*.sbsar`
 
-Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍然可以调整参数，但编辑图表时<b>被锁定</b>。 Substance存档可用于所有Substance 3D应用程序和具有[Substance 3D集成](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的任何应用程序，例如Autodesk 3DS Max &amp; Maya、Unreal Engine或Unity Engine。
+Substance存档是<b>个已编译、已优化的</b>个Substance文件。 它们计算速度快得多，可以轻松共享，无参考问题。 仍可调整参数，但编辑图形时已<b>锁定</b>。 Substance存档可用于所有Substance 3D应用程序和任何具有[Substance 3D集成](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)（某些带有外部增效工具）的应用程序，如Autodesk 3DS Max &amp; Maya、虚构引擎或Unity引擎。
 
 </td>
 <td style="border: 0;">
@@ -93,7 +93,7 @@ Substance 3D Designer始终支持导出为静态文件类型。 2D图像可以�
 </tr>
 </table>
 
-这通常意味着您在使用Designer时将以SBS格式保留您的工作，在目标支持SBSAR时（例如，Painter），您将导出为SBSAR，或者如果您不需要或不支持SBSAR，则您将使用静态位图文件。
+这通常意味着在Designer中工作时，您将以SBS格式保留您的工作，在目标支持SBSAR时（例如，Painter），您将导出为SBSAR，或者如果您不需要或不支持SBSAR，您将使用静态位图文件。
 
 ## 资源类型
 
@@ -110,9 +110,9 @@ Substance 3D文件可能包含多种用于不同用途的资源。 某些资源�
 
 ### Substance 图形
 
-Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其输出到一个或多个纹理输出。 在许多用例中，项目将围绕一个或多个Substance图形旋转。
+图形允许您生成和处理&#x200B;*2D图像数据*，然后将其输出到一个或多个纹理输出。 在许多用例中，项目将围绕一个或多个图形旋转。
 
-[转至专门Substance图表部分。](../../compositing-graphs/substance-compositing-graphs.md)
+[转到专门图形部分。](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 </tr>
@@ -127,11 +127,11 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 </td>
 <td width="100.00%" style="border: 0;">
 
-### Substance函数图表
+### Substance函数图形
 
-<b>函数</b>的抽象和复杂性级别更高：您需要&#x200B;*处理单个值*（整数、浮点、矢量），而不是处理图像数据（像素值集）。 当您要执行更复杂的操作或要微调特定行为时，可使用函数。 函数通常不能独立工作，并且不能在Substance图形上下文之外使用。
+<b>函数</b>的抽象和复杂性级别更高：您需要&#x200B;*处理单个值*（整数、浮动、矢量），而不是处理图像数据（像素值集）。 当您要执行更复杂的操作或要微调特定行为时，可使用函数。 函数通常不能独立工作，并且不能在图形上下文之外使用。
 
-[转至专门Substance函数图一节。](../../function-graphs/function-graphs.md)
+[转至专门Substance功能图形部分。](../../function-graphs/function-graphs.md)
 
 </td>
 </tr>
@@ -148,15 +148,15 @@ Substance图形允许您生成和处理&#x200B;*2D图像数据*，然后将其�
 
 ### 非图形资源
 
-非图形资源可以来自外部应用程序（例如Photoshop或Autodesk Maya），而一些也可以&#x200B;*在Designer中创建*。 主要区别在于它们不是基于节点的图表；它们大多数是在前面提到的图表类型内部或旁边使用的元素。
+非图形资源可以来自外部应用程序（如Photoshop或Autodesk Maya），而某些资源也可以&#x200B;*在Designer中创建*。 主要区别在于它们不是基于节点的图形；其中大多数是在前面提到的图形类型内部或旁边使用的元素。
 
 存在以下资源类型：
 
 * [位图](../../resources/bitmap-resource/bitmap-resource.md)
 * [矢量图形(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [3D场景](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [字体](../../resources/font-resource/font-resource.md)
-* [AxF文件](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxF 文件](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

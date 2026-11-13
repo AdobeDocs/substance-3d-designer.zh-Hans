@@ -1,13 +1,11 @@
 ---
 title: 扭转（不精确）
 description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>变换>扭转（不精确）
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 1%
-
 ---
-
 
 # 扭转（不精确）
 
@@ -34,7 +32,7 @@ ht-degree: 1%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 

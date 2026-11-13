@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
-description: 使用SVG节点可将SVG矢量图形作为纹理导入和渲染，以创建可缩放图形元素。
+description: 使用SVG节点将SVG矢量图形作为创建可缩放图形元素的纹理导入和渲染。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![原子节点：SVG](svg.resources/comp_svg_1.png "原子节点：SVG"){width="100%"}
 
-<b>在：</b>个原子节点中
+<b>进入：</b>个原子节点
 
 </td>
 <td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
@@ -57,12 +57,12 @@ ht-degree: 0%
 > 此节点依赖于外部资源，因此在使用它们时需要注意以下几点：
 > 
 > * SVG节点可以返回彩色或灰度，但即使资源是灰度矢量，颜色节点也默认为彩色。 这可能会影响图形性能和复杂性，因此请始终确保根据需要切换到“灰度”[颜色模式](#parameters)。
-> * 删除SVG节点不会删除[包](../../../../glossary/glossary.md)中的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)，您必须在[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)中手动执行此操作。
-> * SVG形状[网格化](../../../../glossary/glossary.md)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图形中用作位图。 用于这些操作的技术不支持多个矢量属性，如轮廓。 在[此处](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)了解有关这些限制的更多信息。
+> * 删除SVG节点不会删除[包](../../../../learning-tutorials/essentials/glossary/glossary.md#package)中的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)，您必须在[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)中手动执行此操作。
+> * SVG形状[网格化](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图形中用作位图。 用于这些操作的技术不支持多个矢量属性，如轮廓。 在[此处](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)了解有关这些限制的更多信息。
 
 >[!WARNING]
 >
-> SVG形状[网格化](../../../../glossary/glossary.md)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图形中用作位图。
+> SVG形状[网格化](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation)为几何/多边形，然后&#x200B;*栅格化*，以便在Substance图形中用作位图。
 > 
 > 用于这些操作的技术不支持多个矢量属性，如轮廓。
 > 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | --- | --- |
 | <b>颜色模式</b> *布尔值* | 确定节点的输出类型，以返回彩色或灰度。 |
 | <b>背景颜色</b> *彩色/灰度* | 设置要在矢量形状未覆盖的区域中使用的输出图像的背景色。   *在连接该输入时被“[Background](#inputs)”输入覆盖。* |
-| <b>PKG资源路径</b> *字符串* | 指向节点正在引用的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)的路径。   建议不要手动键入，而是从资源管理器中复制资源并将其粘贴到参数文本字段中，或者将位图资源直接从[资源管理器](../../../../interface/the-explorer-window/the-explorer-window.md)拖放到图形中的SVG节点上。 |
+| <b>PKG资源路径</b> *字符串* | 指向节点正在引用的[SVG资源](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)的路径。   建议不要手动键入资源，而是从资源管理器复制资源并将其粘贴到参数文本字段中，或者将位图资源直接从[节点](../../../../interface/the-explorer-window/the-explorer-window.md)拖放到资源管理器中的SVG图形上。 |
 
 ## 矢量编辑工具
 

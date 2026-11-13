@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: 使用方向模糊节点沿特定方向应用模糊效果，以创建运动模糊和条纹效果。
+description: 使用定向模糊节点按特定方向应用模糊效果，以创建运动模糊和条纹效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 定向模糊
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -24,14 +24,14 @@ ht-degree: 8%
 
 ![原子节点：方向模糊](directional-blur.resources/comp_dirmotionblur_1.png "原子节点：方向模糊"){width="100%"}
 
-<b>在：</b>个原子节点中
+<b>进入：</b>个原子节点
 
 </td>
 <td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 根据强度图在指定方向上应用模糊。
 
-此节点执行的操作类似于在输入上执行运动模糊。 与常规“[模糊](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)”节点（在所有方向上均等模糊）不同，“方向模糊”沿用户定义的角度工作。
+此节点执行的操作类似于对输入的运动模糊。 与常规“[模糊](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)”节点（在所有方向上均等模糊）不同，“方向模糊”沿用户定义的角度工作。
 
 </td>
 </tr>
@@ -76,14 +76,14 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>强度</b> *浮动* | 设置模糊半径（以像素为单位）。 |
-| <b>角度</b> *浮动* | 模糊效果的方向（顺时针旋转次数），从水平方向开始 — 即方向矢量(1， 0)。 |
+| <b>强度</b> *Float* | 设置模糊半径（以像素为单位）。 |
+| <b>角度</b> *Float* | 模糊效果的方向（顺时针旋转次数），从水平方向开始 — 即方向矢量(1， 0)。 |
 
 ## 输入连接器
 
 |  |  |
 | --- | --- |
-| <b>输入</b> *灰度/颜色* [主要](../../../../glossary/glossary.md) | 要处理的图像。 |
+| <b>输入</b> *灰度/颜色* [主要](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | 要处理的图像。 |
 
 
 ## 示例

@@ -1,13 +1,11 @@
 ---
 title: 平滑合并
 description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符>联合平滑
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 1%
-
 ---
-
 
 # 平滑合并
 
@@ -34,12 +32,12 @@ ht-degree: 1%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *浮动* | 第一个SDF形状。 |
-| <b>SDF 2</b> *浮动* | 第二个SDF形状。 |
-| <b>Smoothness</b> *浮动* | 平滑半径，从交叉点的边缘开始。<br><br><i>默认值： 0</i><br><br><i>注意：</i>硬边缘可能出现在平滑半径相交的地方。 |
+| <b>SDF 1</b> *Float* | 第一个SDF形状。 |
+| <b>SDF 2</b> *Float* | 第二个SDF形状。 |
+| <b>Smoothness</b> *Float* | 平滑半径，从交叉点的边缘开始。<br><br><i>默认值： 0</i><br><br><i>注意：</i>硬边缘可能出现在平滑半径相交的地方。 |

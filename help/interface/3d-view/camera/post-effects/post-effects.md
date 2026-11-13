@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ""
-description: 将后期处理效果应用于3D视图相机，以增强素材预览和可视化。
+description: 将后期处理效果应用于3D视图相机，以增强材料预览和可视化。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 后期效果
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 4%
@@ -20,11 +20,11 @@ ht-degree: 4%
 
 ![后期效果](post-effects.resources/postEffects.png "后期效果"){zoomable="yes"}
 
-在摄像机属性中，您可以启用后期效果以增强渲染或检查特定的素材属性。
+在相机属性中，您可以启用后期效果来增强渲染效果或检查特定材料属性。
 
 这些效果在内部开发，仅适用于光栅化器和GPU 路径追踪[渲染器](../../../../interface/3d-view/3d-renderers/3d-renderers.md)。
 
-在保存[3D场景资源](../../../../resources/3d-scene-resource/3d-scene-resource.md)或[场景状态文件](../../../../working-with-3d-scenes/working-with-3d-scenes.md)时启用的任何后期效果都将作为场景状态的一部分保存。
+保存[3D 场景资源](../../../../resources/3d-scene-resource/3d-scene-resource.md)或[场景状态文件](../../../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)时启用的任何帖子效果都将作为场景状态的一部分保存。
 
 ## 色调映射
 
@@ -368,13 +368,13 @@ ht-degree: 4%
 
 ## 景深
 
-模拟距离焦距100m和100m的物体被模糊时由相机镜头引起的光学现象。
+模拟了离焦距100mA较近和较远的相机透镜产生的光学现象。
 
-效果同时受到摄像机的“光圈大小”和“焦距”参数的影响。
+相机的“光圈大小”和“焦距”参数均会影响此效果。
 
 >[!TIP]
 >
-> 要快速调整相机的焦距，请将光标置于要聚焦的场景位置，然后按Ctrl+LMB (Windows)或Cmd+LMB (macOS)以自动设置到该位置的焦距。
+> 要快速调整相机焦点，请将光标置于要聚焦的场景的位置，然后按Ctrl+LMB (Windows)或Cmd+LMB (macOS)以自动设置与该位置的焦距。
 
 +++最大半径
 模糊效果的最大半径。

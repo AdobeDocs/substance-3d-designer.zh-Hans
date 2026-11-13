@@ -1,13 +1,11 @@
 ---
 title: 折弯（不精确）
 description: Designer >Substance合成图形>Substance合成图形的节点引用>节点库>SDF 函数>变换>折弯（不精确）
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%
-
 ---
-
 
 # 折弯（不精确）
 
@@ -34,14 +32,14 @@ ht-degree: 1%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *浮动* | 输入SDF形状。 |
-| <b>角度</b> *浮动* | 应用于折弯末端的旋转的角度。 |
-| <b>开始</b> *浮动* | 弯曲开始处的Z轴上的世界位置。 下面的所有体积块都没有弯曲。 |
-| <b>结束</b> *浮动* | Z轴上折弯结束处的世界位置。 以上所有体积均以指定角度均匀旋转。 |
-| <b>P</b> *浮点3* | 改变的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |
+| <b>SDF</b> *Float* | 输入SDF形状。 |
+| <b>角度</b> *Float* | 应用于折弯末端的旋转的角度。 |
+| <b>开始</b> *Float* | 弯曲开始处的Z轴上的世界位置。 下面的所有体积块都没有弯曲。 |
+| <b>结束</b> *Float* | Z轴上折弯结束处的世界位置。 以上所有体积均以指定角度均匀旋转。 |
+| <b>P</b> *Float3* | 变换的世界空间位置。 使用此输入可使用<b>偏移P</b>和<b>旋转P</b>节点来应用其他变换。<br><br><i>默认：未变换的世界空间位置。</i> |

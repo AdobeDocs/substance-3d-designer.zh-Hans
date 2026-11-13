@@ -1,13 +1,11 @@
 ---
 title: 对称
 description: Designer >Substance合成图形>Substance合成图形的节点参考>节点库>SDF 函数>运算符>对称
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
-
 ---
-
 
 # 对称
 
@@ -34,14 +32,14 @@ ht-degree: 2%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *浮动* | 输入SDF形状。 |
-| <b>镜像平面位置</b> *浮点3* | 镜像平面中心的世界空间位置。<br>如果对称应用于多个轴，则所有镜像平面都将共享此位置。<br><br><i>默认值： (0， 0， 0)</i> |
+| <b>SDF</b> *Float* | 输入SDF形状。 |
+| <b>镜像平面位置</b> *Float3* | 镜像平面中心的世界空间位置。<br>如果对称应用于多个轴，则所有镜像平面都将共享此位置。<br><br><i>默认值： (0， 0， 0)</i> |
 | <b>镜像轴</b> *整数3* | 设置所需的镜像轴。<br><br>例如，(1， 0， 0)将在X轴上应用对称。<br><br><i>默认值： (1， 0， 0)</i> |
 | <b>翻转轴</b> *整数3* | 设置应翻转的轴。<br><br>例如，(1， 0， 0)将翻转X轴上的对称方向。<br><br><i>默认值： (0， 0， 0)</i> |
-| <b>预偏移</b> *浮点3* | 应用对称运算符之前，应用于形状的X、Y、Z轴上的偏移。 |
+| <b>预偏移</b> *Float3* | 应用对称运算符之前，应用于形状的X、Y、Z轴上的偏移。 |

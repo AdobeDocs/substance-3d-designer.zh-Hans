@@ -1,13 +1,11 @@
 ---
 title: 设置材质
 description: 设置SDF材料的base color、粗糙度和金属量。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
-
 ---
-
 
 # 设置材质
 
@@ -17,7 +15,7 @@ ht-degree: 5%
 
 ![设置材料图标](set-material.png "设置材料")
 
-<b>In：</b> 3D Function > Material
+<b>In：</b> 3D函数>材料
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -34,13 +32,13 @@ ht-degree: 5%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 
 |                            |                                  |
 |----------------------------|----------------------------------|
-| <b>SDF场景</b> *浮动* | 输入SDF场景。 |
-| <b>基色</b> *浮点3* | 要设置的RGB基色值。 |
-| <b>金属性</b> *浮动* | 要设置的金属值。 |
-| <b>粗糙度</b> *浮动* | 要设置的粗糙度值。 |
+| <b>SDF场景</b> *Float* | 输入SDF场景。 |
+| <b>Base color</b> *Float3* | 要设置的base color值。 |
+| <b>金属性</b> *Float* | 要设置的金属值。 |
+| <b>粗糙度</b> *Float* | 要设置的粗糙度值。 |

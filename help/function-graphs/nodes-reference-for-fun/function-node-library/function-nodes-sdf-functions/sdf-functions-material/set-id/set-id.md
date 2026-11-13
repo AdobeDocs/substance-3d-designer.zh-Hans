@@ -1,13 +1,11 @@
 ---
 title: 设置材料ID
-description: 设置SDF场景的材质ID。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+description: 设置SDF场景的材料ID。
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 2%
-
 ---
-
 
 # 设置材料ID
 
@@ -15,16 +13,16 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![设置材质ID图标](set-id.png "设置材质ID")
+![设置材料ID图标](set-id.png "设置材料ID")
 
-<b>In：</b> 3D Function > Material
+<b>In：</b> 3D函数>材料
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 描述
 
-设置SDF场景的材质ID。
+设置SDF场景的材料ID。
 
 然后，可以在[形状飞溅v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)的&#x200B;*Splatter UVW*&#x200B;输出中检索所有飞溅的SDF形状的此值。
 
@@ -34,13 +32,13 @@ ht-degree: 2%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 
 |                          |                        |
 |--------------------------|------------------------|
-| <b>SDF场景</b> *浮动* | 输入SDF场景。 |
+| <b>SDF场景</b> *Float* | 输入SDF场景。 |
 | <b>ID</b> *整数* | 要设置的整数ID。 |
 
 

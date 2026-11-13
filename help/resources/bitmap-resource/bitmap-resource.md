@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/resources/bitmap-resource.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Designer中导入、创建和使用位图资源以创建基于纹理的材料。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 位图资源
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
-
 ---
-
 
 # 位图资源
 
@@ -59,16 +57,16 @@ Substance 3D Designer可以轻松编辑和重新排列位图中的数据，但�
 | 标识符 | 用于引用包中的位图资源，必须是唯一的。 |
 | 文件路径 | 资源引用的位图的磁盘路径。 |
 | 描述 | 此资源的[资源管理器](../../interface/the-explorer-window/the-explorer-window.md)和[库](../../interface/the-library/the-library.md)工具提示中显示的说明。 |
-| 类别 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 标签 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 作者 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 作者 URL | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
-| 标记 | 用于[&#128279;](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)排序和整理[库](../../interface/the-library/the-library.md)中的资源。 |
+| 类别 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 标签 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 作者 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 作者 URL | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
+| 标记 | 用于[排序和整理[库](../../interface/the-library/the-library.md)中的资源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 |
 | 用户数据 | 可选的额外数据，不用于位图。 |
 | 在图库中显示 | 确定是否应在[库视图](../../interface/the-library/the-library.md)中隐藏位图。 |
-| 位图格式 | 无论是Raw还是Jpeg，都对SBSAR文件的大小有着非常大的影响。 请参阅我们的[文件大小缩减准则](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)以了解详情。 |
+| 位图格式 | 无论是Raw还是Jpeg，都对SBSAR文件的大小有着非常大的影响。 请参阅我们的[文件大小缩减准则](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)以了解详情。 |
 | 位图压缩品质 | 仅对Jpeg压缩产生影响，决定品质/文件大小平衡。 |
 
 ## 减小文件大小
 
-有关最小化嵌入到[已发布的Substance 3D资源(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中的位图的文件大小的建议，请参阅[最佳实践](../../best-practices/best-practices.md)部分中的[文件大小缩减准则](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)页。
+有关最小化嵌入到[已发布的Substance 3D资源(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中的位图的文件大小的建议，请参阅[最佳实践](../../learning-tutorials/essentials/best-practices/best-practices.md)部分中的[文件大小缩减准则](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)页。

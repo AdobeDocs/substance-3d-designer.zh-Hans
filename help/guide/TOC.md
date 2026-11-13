@@ -3,16 +3,36 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1915'
 ht-degree: 22%
 ---
 
 # Substance 3D Designer {#using}
 
 + [用户指南](/help/home/home.md)
-+ [术语表](/help/glossary/glossary.md)
++ 学习和教程{#learning-tutorials}
+  + 基本{#essentials}
+    + 最佳实践{#best-practices}
+      + [最佳实践](/help/learning-tutorials/essentials/best-practices/best-practices.md)
+      + [文件大小减少准则](/help/learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
+      + [图形创建礼仪](/help/learning-tutorials/essentials/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+      + [性能优化准则](/help/learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
+    + 关键概念{#key-concepts}
+      + [Substance 图形关键概念](/help/learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
+    + [术语表](/help/learning-tutorials/essentials/glossary/glossary.md)
+  + [快速入门](../learning-tutorials/getting-started/getting-started.md)
+  + 节点{#nodes}
+    + [使用样条](/help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)
+    + [使用SDF 函数](/help/learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+  + 3D 视图{#3d-view}
+    + 使用3D场景{#working-with-3d-scenes}
+      + [使用3D场景](/help/learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)
+      + [覆盖材料](/help/learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)
+      + [提取材料的值和纹理](/help/learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)
+      + [导出场景](/help/learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
+  + [所有样本](../learning-tutorials/all-samples/all-samples.md)
 + 快速入门{#getting-started}
   + [快速入门](/help/getting-started/getting-started.md)
   + [激活和许可证](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
@@ -80,7 +100,6 @@ ht-degree: 22%
   + [依赖项中的警告](/help/resources/warnings-from-dep/warnings-from-dependencies.md)
 + Substance 图形{#substance-graphs}
   + [Substance 图形](/help/compositing-graphs/substance-compositing-graphs.md)
-  + [Substance 图形关键概念](/help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
   + 创建 Substance 图形{#creating-a-substance-graph}
     + [创建 Substance 图形](/help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
     + [素材示例](/help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
@@ -219,8 +238,8 @@ ht-degree: 22%
           + [杂乱纤维2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
           + [杂乱纤维3](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
           + [显微镜视图](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/microscope-view/microscope-view.md)
-          + [水汽杂色1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-          + [水汽杂色2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+          + [水分噪声1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+          + [水分噪声2](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
           + [Perlin噪声](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md)
           + [等离子体](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/plasma/plasma.md)
           + [焦散](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/caustics/caustics.md)
@@ -228,7 +247,7 @@ ht-degree: 22%
           + [Voronoi分形](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/voronoi-fractal/voronoi-fractal.md)
           + [波形1](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/waveform-1/waveform-1.md)
           + [白杂色](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)
-          + [快速白噪声](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)
+          + [快速噪声](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)
         + 图案{#patterns}
           + [图案](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)
           + [3D Linear gradient](/help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-linear-gradient/3d-linear-gradient.md)
@@ -366,18 +385,18 @@ ht-degree: 22%
           + [3D纹理体积渲染](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-volume-render/3d-texture-volume-render.md)
           + [3D查看器](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)
           + [ambient occlusion- HBAO](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
-          + [氛围遮蔽- RTAO](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+          + [ambient occlusion- RTAO](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
           + [各向异性科威特颜色](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)
           + [各向异性科威特灰度](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)
           + [斜面](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-filter-node/bevel-filter-node.md)
           + [斜面平滑](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)
           + [横截面](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [曲率](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
-          + [曲率平滑](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [弯曲Sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [弯曲平滑](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
+          + [Sobel弯曲](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [漫射颜色](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [漫射灰度](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
-          + [扩散UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
+          + [UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
           + [方向距离](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)
           + [边缘检测](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)
           + [光泽的浮雕](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)
@@ -396,7 +415,7 @@ ht-degree: 22%
           + [马赛克](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/mosaic/mosaic.md)
           + [多方向变形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
           + [非均匀方向变形](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)
-          + [反应扩散快](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
+          + [快速反应漫射](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
           + [RT辐射](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-irradiance/rt-irradiance.md)
           + [RT阴影](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-shadow/rt-shadow.md)
           + [阴影](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md)
@@ -526,7 +545,7 @@ ht-degree: 22%
         + 风化{#weathering}
           + [风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)
           + [风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/cracks-weathering/cracks-weathering.md)
-          + [织物风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)
+          + [结构风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)
           + [皮革风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/leather-weathering/leather-weathering.md)
           + [金属风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/metal-weathering/metal-weathering.md)
           + [苔藓风化](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/moss-weathering/moss-weathering.md)
@@ -541,7 +560,6 @@ ht-degree: 22%
           + [三平面](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
       + 样条路径工具{#spline-path-tools}
         + [样条路径工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
-        + [使用路径样条曲线工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)
         + [样条路径](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
         + 路径工具{#path-tools}
           + [路径工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
@@ -606,11 +624,11 @@ ht-degree: 22%
           + [拉直水平线](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
       + 值{#values}
         + [常数](/help/compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)
-+ Substance函数图表{#substance-function-graphs}
-  + [Substance函数图表](/help/function-graphs/function-graphs.md)
++ Substance函数图形{#substance-function-graphs}
+  + [Substance函数图形](/help/function-graphs/function-graphs.md)
   + [什么是Substance函数图形？](/help/function-graphs/what-is-a-function/what-is-a-function.md)
   + [创建和编辑函数](/help/function-graphs/create-and-edit-function/create-and-edit-a-function.md)
-  + [Substance函数图](/help/function-graphs/the-function-graph/the-function-graph.md)
+  + [Substance功能图形](/help/function-graphs/the-function-graph/the-function-graph.md)
   + 变量{#variables}
     + [变量](/help/function-graphs/variables/variables.md)
     + [内置变量](/help/function-graphs/variables/system-variables/system-variables.md)
@@ -646,7 +664,6 @@ ht-degree: 22%
     + 函数节点库{#function-node-library}
       + [函数节点库](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + SDF 函数{#sdf-functions}
-        + [使用SDF 函数](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + 基元{#sdf-functions-primitives}
           + [封闭圆锥面](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [封闭圆锥（2点）](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
@@ -702,19 +719,9 @@ ht-degree: 22%
       + 随机{#random}
         + [随机](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [Hash函数](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
-+ 使用3D场景{#working-with-3d-scenes}
-  + [使用3D场景](/help/working-with-3d-scenes/working-with-3d-scenes.md)
-  + [覆盖场景材质](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
-  + [提取材料的值和纹理](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
-  + [导出场景](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + 烘焙{#bakers}
   + [烘焙](/help/bakers/bakers.md)
   + [Baker旧版界面](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
-+ 最佳实践{#best-practices}
-  + [最佳实践](/help/best-practices/best-practices.md)
-  + [文件大小减少准则](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-  + [图形创建礼仪](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
-  + [性能优化准则](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + 管道和项目配置{#pipeline-and-project-configuration}
   + [管道和项目配置](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [项目配置文件 - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
@@ -733,12 +740,12 @@ ht-degree: 22%
   + [增效工具包](/help/scripting/plugins-packages/plugins-packages.md)
   + [插件管理器](/help/scripting/plugin-manager/plugin-manager.md)
   + [Python 编辑器](/help/scripting/python-editor/python-editor.md)
-  + [访问图表和选区](/help/scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
+  + [访问图形和选择](/help/scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
   + [节点和属性](/help/scripting/nodes-and-properties/nodes-and-properties.md)
   + [还原和重做](/help/scripting/undo-and-redo/undo-and-redo.md)
   + [应用程序回调](/help/scripting/application-callbacks/application-callbacks.md)
   + [创建用户界面元素](/help/scripting/creating-user-interface/creating-user-interface-elements.md)
-  + [将操作添加到浏览器工具栏](/help/scripting/adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
+  + [向资源管理器工具栏添加动作](/help/scripting/adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
   + [使用色彩管理](/help/scripting/using-color-management/using-color-management.md)
   + [使用专色](/help/scripting/using-spot-colors/using-spot-colors.md)
   + [记录](/help/scripting/logging/logging.md)
@@ -755,12 +762,12 @@ ht-degree: 22%
   + [渲染图形时崩溃](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [参数未按预期方式工作](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [图像输出不正确](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [3D查看问题](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [3D 视图问题](/help/technical-issues/3d-view-issues/3d-view-issues.md)
   + [烘焙问题](/help/technical-issues/baking-issues/baking-issues.md)
   + [用户界面问题](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Python问题](/help/technical-issues/python-issues/python-issues.md)
   + [缺少MDL 图和Iray渲染器功能](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
-  + [缺少Substance模型图特征](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
+  + [缺少Substance模型图形功能](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
 + 发行说明{#release-notes}
   + [发行说明](/help/release-notes/release-notes.md)
   + [所有更改](/help/release-notes/all-changes/all-changes.md)
@@ -786,14 +793,14 @@ ht-degree: 22%
     + [版本2019.2 - 9.2](/help/release-notes/old-versions/version-2019-2-9-2/version-2019-2-9-2.md)
     + [版本2019.1 - 9.1](/help/release-notes/old-versions/version-2019-1-9-1/version-2019-1-9-1.md)
 + 弃用的功能{#retired-features}
-  + MDL图表{#mdl-graphs}
-    + [MDL图表](/help/mdl-graphs/mdl-graphs.md)
-    + [主要MDL图形概念](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
-    + [创建MDL图形](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
+  + MDL 图{#mdl-graphs}
+    + [MDL 图](/help/mdl-graphs/mdl-graphs.md)
+    + [主要MDL 图概念](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
+    + [创建MDL 图](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
     + [MDL库](/help/mdl-graphs/mdl-library/mdl-library.md)
-    + [在MDL图表中公开参数](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
-    + [Substance图形和MDL材料](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
+    + [在MDL 图中公开参数](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
+    + [图形和MDL 材质](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
     + [导出MDL内容](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
-    + [MDL图表中的警告](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
+    + [MDL 图中的警告](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
     + [MDL学习资源](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
   + [Iray](/help/interface/3d-view/iray/iray.md)

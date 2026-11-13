@@ -1,13 +1,11 @@
 ---
 title: 设置颜色
 description: 设置SDF材料的base color。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
-
 ---
-
 
 # 设置颜色
 
@@ -34,14 +32,14 @@ ht-degree: 2%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 输入
 
 |                            |                                  |
 |----------------------------|----------------------------------|
-| <b>SDF场景</b> *浮动* | 输入SDF场景。 |
-| <b>基色</b> *浮点3* | 要设置的RGB基色值。 |
+| <b>SDF场景</b> *Float* | 输入SDF场景。 |
+| <b>Base color</b> *Float3* | 要设置的base color值。 |
 
 
 

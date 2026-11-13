@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+breadcrumb-title: ""
 description: 使用预制Substance功能图形作为实例化，以加快工作流程并增强功能。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 函数节点库
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
-
 ---
-
 
 # 函数节点库
 
@@ -32,7 +30,7 @@ ht-degree: 6%
 
 >[!INFO]
 > 
-> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](function-nodes-sdf-functions/working-with-sdf-functions.md)
+> 要了解有关涉及SDF 函数的概念和工作流的更多信息，请转到专用页面： [使用SDF 函数](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">
@@ -465,15 +463,15 @@ Hejl tonemapper
 
 正态分布
 
-随机一致&lbrack;-1， 1&lbrack;
+随机一致[-1， 1[
 
-随机一致&lbrack;a， b&lbrack;
+随机一致[a， b[
 
-随机一致浮点2 &lbrack;a， b&lbrack;
+随机一致浮点2 [a， b[
 
-随机一致浮点3 &lbrack;a， b&lbrack;
+随机一致浮点3 [a， b[
 
-随机一致浮点4 &lbrack;a， b&lbrack;
+随机一致浮点4 [a， b[
 
 </td>
 </tr>
