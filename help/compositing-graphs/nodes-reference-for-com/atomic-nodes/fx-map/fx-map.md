@@ -57,7 +57,7 @@ FX-Map可以反复复制和细分输入的图像或图案，并借助参数和�
 > 建议在尝试使用FX-Map节点之前，熟悉软件的各个方面，并且不必为参数创建[数学函数](../../../../function-graphs/function-graphs.md)。
 
 
-请记住，与其他节点不同，FX-Map的大多数行为并非由参数决定，而是通过编辑其内部的FX-Map函数](../../../../function-graphs/fxmaps/fxmaps.md)来[。
+请记住，与其他节点不同，FX-Map的大多数行为并非由参数决定，而是通过编辑其内部的FX-Map函数[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)来。
 
 |  |  |
 | --- | --- |

@@ -177,7 +177,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 >
 > **关于曲面细分**
 > 
-> 可以使用[网格弹出窗口](displacement/displacement.md#tessellation)中的&#x200B;**曲面细分因子**参数调整位移的曲面细分。
+> 可以使用[网格弹出窗口](displacement/displacement.md#tessellation)中的&#x200B;**曲面细分因子**&#x200B;参数调整位移的曲面细分。
 > 由该参数控制的特定属性随当前3D渲染器而变化：
 > 
 > * **光栅器/GPU 路径追踪：**&#x200B;名为&#x200B;**细化级别**&#x200B;的每个对象属性。 在[场景浏览器](scene-browser/scene-browser.md)中选择`Mesh`对象以显示其属性并直接编辑。
@@ -312,7 +312,7 @@ Designer中默认提供了几种不同的[着色器](../../glossary/glossary.md)
 
 <b>将材料重置为场景状态： </b>*（仅限栅格化程序/GPU 路径追踪渲染器）*&#x200B;将[已覆盖材料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的所有属性重置为场景中的原始值，包括原始纹理（如果有）。
 
-<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
+<b>添加： </b>将新材料添加到列表。 默认情况下，未使用它，并且可能已[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)使用[材料](../../interface/3d-view/scene-browser/scene-browser.md)连接到一个场景浏览器。
 
 +++
 
