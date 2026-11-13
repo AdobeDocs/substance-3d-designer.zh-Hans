@@ -52,7 +52,7 @@ Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而�
 ![（刻度）](3d-view-issues.resources/check.svg) **建议的步骤**
 
 3D视图中提供的曲面细分技术对网格进行了细分，以便在使用位移时提供更多细节，该技术涉及准备步骤，无论实际应用的任何曲面细分如何，该步骤都会运行。
-此部分](../../interface/3d-view/displacement/displacement.md#per-mesh)中的[提示通过禁用场景中每个`Mesh`对象的曲面细分进程来解决性能问题。
+此部分[&#128279;](../../interface/3d-view/displacement/displacement.md#per-mesh)中的提示通过禁用场景中每个`Mesh`对象的曲面细分进程来解决性能问题。
 
 ## 3D对象是扁平的
 
@@ -76,7 +76,7 @@ Substance 3D Designer不使用系统的&#x200B;*独立* GPU (<b>dGPU</b>)，而�
 
 | 在3D视图中 | 在图形视图中 |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 使用左侧工具栏中的&#x200B;**位移弹出窗口**。<br>在[专用页面](../../interface/3d-view/displacement/displacement.md)中了解更多信息。 | 创建[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点并在其属性中设置`heightScale`用法。<br>使用常量Float节点](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats)为此输出提供一个值，例如，*在3D 视图中重新应用图形*。[ |
+| 使用左侧工具栏中的&#x200B;**位移弹出窗口**。<br>在[专用页面](../../interface/3d-view/displacement/displacement.md)中了解更多信息。 | 创建[输出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)节点并在其属性中设置`heightScale`用法。<br>使用常量Float节点[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats)为此输出提供一个值，例如，*在3D 视图中重新应用图形*。 |
 
 {style="table-layout:fixed"}
 
@@ -104,7 +104,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)引入了我�
 
 根据Designer的[系统要求](../../getting-started/system-requirements/system-requirements.md)，支持的GPU包括NVIDIA RTX 20系列（图例）或更高版本。
 
-通过使用“项目设置”](../../interface/preferences-window/project-settings/project-settings.md)中的[new选项，您可以继续默认使用OpenGL渲染器：
+通过使用“项目设置”[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的new选项，您可以继续默认使用OpenGL渲染器：
 
 1. 转到编辑>首选项>项目
 2. 选择列表中的最后一个项目文件
